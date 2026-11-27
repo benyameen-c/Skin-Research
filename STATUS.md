@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, session 2 (laosakul2017 verified: FAIL).
+Last updated: 2026-11-27, session 2 (laosakul2017 corrected after first FAIL).
 
 ## Open module
 
@@ -17,7 +17,7 @@ Last updated: 2026-11-27, session 2 (laosakul2017 verified: FAIL).
 ## To close Module 1
 
 - [ ] Re-extract the 9 extracted studies as staging records with verbatim quotes (`tools/ledger.py check` lists them).
-- [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Staging record `data/staging/laosakul2017.json` written from the abstract (ABSTRACT_ONLY, 3 rows, validator ok, verifier FAIL on first check 2026-11-27: 5 cells, see the record's verifier notes; one more failure means BLOCKED). Full text still needs a PDF from Ben.
+- [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Staging record `data/staging/laosakul2017.json` written from the abstract (ABSTRACT_ONLY, 3 rows, validator ok, first verifier FAIL 2026-11-27 on 5 cells (follow-up timing assumed, luminosity direction unbracketed); corrected and back to verifier PENDING; one more failure means BLOCKED). Months after final treatment is now NOT_DERIVABLE, so this study no longer supplies the 4-month IGH figure. Full text still needs a PDF from Ben.
 - [ ] Extract the registry-posted results of NCT01956435.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
