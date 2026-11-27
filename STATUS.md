@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, batch 2 collection and merge (built on the batch 1 branch).
+Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 
 ## Open module
 
@@ -12,8 +12,8 @@ Last updated: 2026-11-27, batch 2 collection and merge (built on the batch 1 bra
 - Update search: three dated PubMed queries, one ClinicalTrials.gov query (see `data/search_log.csv`).
 - Dataset audit and three-path comparison (`data/datasets.csv`, `data/paths.csv`).
 - Experiments: alignment simulation with pixel-model check; clustering sensitivity; denominator audit.
-- Static site builds from `content/` and `data/`. Not rebuilt after batch 1. `content/home.md` still states the four-month gap, which the ledger no longer supports; it needs rewording before any rebuild (Gate B).
-- Batch 2 (2026-11-27): six records merged with `tools/ledger.py merge`, each replacing the study's old rows whole: rerknimitr2013 2 -> 2 rows, deoson2025 2 -> 2, deepadarshan2023 2 -> 4, elhoshy2025 2 -> 10, suvanprakorn1985 1 -> 1, gordon2017 1 -> 1. Ledger 21 -> 31 rows. arbache2023 and rerknimitr2015 BLOCKED, not merged (see Blocked). Note: the merged rows' `verification_status` cells read `PENDING` or `PENDING (abstract only)` although each record's verifier status is PASS; merged unedited.
+- Static site builds from `content/` and `data/`. Not rebuilt since session 1. `content/home.md` durability line corrected 2026-11-27 to the ledger check (1 month, deepadarshan2023, quoted); `dist/` still shows the old four-month line until a rebuild (Gate B). The home page lede still says colour returns "within four months"; that sentence has no ledger quote and needs Ben's review.
+- Batch 2 (2026-11-27): six records merged with `tools/ledger.py merge`, each replacing the study's old rows whole: rerknimitr2013 2 -> 2 rows, deoson2025 2 -> 2, deepadarshan2023 2 -> 4, elhoshy2025 2 -> 10, suvanprakorn1985 1 -> 1, gordon2017 1 -> 1. Ledger 21 -> 31 rows. arbache2023 and rerknimitr2015 BLOCKED, not merged (see Blocked). `verification_status` fixed 2026-11-27: `tools/ledger.py merge` now writes `PASS (verifier <date>; <access>)` from the record's verifier block (tests in `tests/test_ledger.py`). The 7 PASS records were re-merged; only that column changed. deoson2025 and deepadarshan2023 read "date not recorded" because their verifier notes carry no date.
 - Data-repository search (2026-11-27): GEO, BioImage Archive, Zenodo, Figshare, eight logged query lines. No public raw IGH tissue, omics or image dataset found.
 - Batch 1 (2026-11-27): laosakul2017 merged (verifier PASS on second check; 2 old abstract rows replaced by 3 quoted rows). nct01956435 not merged, BLOCKED (see Blocked).
 

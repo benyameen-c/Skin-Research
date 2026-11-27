@@ -10,7 +10,11 @@ A staging record is one JSON file per study:
    "excerpt_file": "papers/excerpts/<study_id>.txt",
    "rows":   [ {<every column of data/evidence.csv>} , ... ],
    "quotes": [ {"row": 0, "field": "arm_result", "quote": "<verbatim>", "location": "Table 1"} ],
-   "verifier": {"status": "PENDING|PASS|FAIL", "notes": ""}}
+   "verifier": {"status": "PENDING|PASS|FAIL", "notes": "", "date": "YYYY-MM-DD (optional)"}}
+
+On merge, each row's verification_status is set from the verifier block:
+"PASS (verifier <date>; <access>)". The date is verifier.date, else the first
+YYYY-MM-DD in verifier.notes, else "date not recorded".
 
 Numbers the extractor inferred (not printed in the source) go in [square brackets]
 inside the cell and are exempt from the quote check.
@@ -28,6 +32,13 @@ UNIT_WORDS = ("lesion", "patient", "limb", "side", "not")
 QUOTED_FIELDS = ("arm_result", "patients_enrolled", "lesions_enrolled", "dark_overshoot", "texture_or_scar",
                  "time_from_last_treatment")
 NUM = re.compile(r"\d+(?:\.\d+)?")
+DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def verification_label(rec):
+    v = rec["verifier"]
+    date = v.get("date") or next(iter(DATE.findall(v.get("notes", ""))), "date not recorded")
+    return f"{v['status']} (verifier {date}; {rec['access']})"
 
 
 def header():
@@ -135,7 +146,9 @@ def cmd_merge(paths):
             print(f"skip  {p} (fails validation or verifier status is {rec.get('verifier', {}).get('status')})")
             continue
         sid = rec["study_id"]
-        ledger = [r for r in ledger if r["study_id"] != sid] + rec["rows"]   # a study is replaced whole
+        label = verification_label(rec)
+        rows = [dict(r, verification_status=label) for r in rec["rows"]]
+        ledger = [r for r in ledger if r["study_id"] != sid] + rows   # a study is replaced whole
         quotes = [q for q in quotes if q["study_id"] != sid] + [dict(q, study_id=sid) for q in rec["quotes"]]
         merged += 1
         print(f"merge {p} ({len(rec['rows'])} rows, {len(rec['quotes'])} quotes)")
