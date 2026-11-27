@@ -1,0 +1,72 @@
+{
+  "study_id": "suvanprakorn1985",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/suvanprakorn1985.txt",
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "suvanprakorn1985",
+      "doi_or_pmid": "PMID 3908515; doi:10.1016/s0190-9622(85)70247-2",
+      "source_location": "PubMed abstract",
+      "access_level": "abstract only (full text needed)",
+      "diagnosis": "mixed: vitiligo, idiopathic guttate hypomelanosis, postinflammatory leukoderma",
+      "design": "not in abstract [case series; no comparator described]",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "not in abstract",
+      "intervention": "autologous melanocyte grafting: roof of a suction or liquid-nitrogen blister from normal donor skin grafted to the raw surface of a blistered depigmented recipient site",
+      "comparator": "not in abstract [none described]",
+      "endpoint_definition": "successful repigmentation (not defined in abstract)",
+      "assessment_method": "clinical observation [inferred]; dopa histochemistry before grafting and of successful grafts; direct immunofluorescence with bullous pemphigoid antibodies",
+      "time_from_start": "repigmentation visible within 7 to 14 days [of grafting]",
+      "time_from_last_treatment": "not in abstract",
+      "arm_result": "successful repigmentation reported for all three leukoderma types; no counts, proportions or IGH-specific result in abstract",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (donor and recipient site outcomes not stated)",
+      "attrition": "not in abstract",
+      "uncertainty": "Abstract gives no patient, lesion or graft counts and does not separate IGH results from vitiligo and postinflammatory leukoderma. Follow-up length and timing after the graft are not stated, so months after final treatment cannot be set. 'Successful' is not defined. Full text is subscription only (Europe PMC: not in PMC, Subscription required).",
+      "verification_status": "PENDING",
+      "outcome_tier": "unquantified",
+      "citation": "Suvanprakorn P, Dee-Ananlap S, Pongsomboon C, Klaus SN. J Am Acad Dermatol 1985;13(6):968-974",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/3908515/",
+      "treatment_class": "grafting",
+      "months_after_final_tx": "NOT_REPORTED"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "Patients with three types of leukoderma--vitiligo, idiopathic guttate hypomelanosis, and postinflammatory leukoderma--had successful repigmentation after transplantation of autologous melanocytes.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "Blisters were produced by suction or by freezing with liquid nitrogen. The roof of the blister from donor skin was grafted to the raw surface of the recipient site.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "time_from_start",
+      "quote": "Repigmentation was visible within 7 to 14 days.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "assessment_method",
+      "quote": "Histochemical studies confirmed the absence of dopa-positive cells in the areas of leukoderma prior to grafting. Melanocytes were present in the successful grafts.",
+      "location": "Abstract"
+    }
+  ],
+  "verifier": {
+    "status": "PENDING",
+    "notes": ""
+  }
+}

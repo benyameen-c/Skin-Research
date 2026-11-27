@@ -34,7 +34,12 @@ Last updated: 2026-11-27, end of session 1.
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x | the 11% denominator |
 | gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract |
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
+| suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
+
+## Batch 2 staging
+
+- suvanprakorn1985 (2026-11-27): staged `data/staging/suvanprakorn1985.json`, ABSTRACT_ONLY, 1 row (unquantified, months NOT_REPORTED), validator ok, verifier PENDING. Source text: PubMed abstract, also at `/mnt/project-files/papers/excerpts/suvanprakorn1985.txt`.
 
 ## Human gates
 
