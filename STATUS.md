@@ -41,6 +41,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
+| shin2013 | J Eur Acad Dermatol Venereol 2013;27(2):e243-6, doi:10.1111/j.1468-3083.2012.04597.x (Europe PMC 2026-11-27: subscription required, not in PMC; https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-3083.2012.04597.x and /doi/pdf/ HTTP 403) | grading scale, lesion counts, laser settings, sites, any visit later than 2 months |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
 ## Human gates
@@ -74,6 +75,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - gordon2017: verifier 1 FAIL (1 cell), corrected, verifier 2 PASS. Merged. Same cohort as NCT01956435 (BLOCKED); reconcile before any merge of that record.
 - arbache2023: FAIL twice. BLOCKED.
 - rerknimitr2015: FAIL twice. BLOCKED.
+
+## Batch 3 extraction log
+
+- 2026-11-27, shin2013 (PMID 22646755, fractional CO2 laser, single session): extractor wrote `data/staging/shin2013.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier PENDING. Full text on the paywall list.
 
 ## Next session
 

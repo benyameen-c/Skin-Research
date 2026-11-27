@@ -1,0 +1,132 @@
+{
+ "study_id": "shin2013",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/shin2013.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "shin2013",
+   "doi_or_pmid": "PMID 22646755; doi:10.1111/j.1468-3083.2012.04597.x",
+   "source_location": "PubMed abstract (Patients and methods, Results, Conclusion)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-27: not open access, not in PMC, full text 'Subscription required'; Wiley /doi/full/ and /doi/pdf/ returned HTTP 403)",
+   "diagnosis": "IGH",
+   "design": "single-arm pilot study ('preliminary study', 'pilot study'); [uncontrolled before-after comparison with baseline: the abstract describes no control arm or randomisation]",
+   "body_site": "mixed sites; 'The face was the most commonly treated area'; other sites and their counts not in abstract",
+   "skin_tone": "not in abstract [authors' affiliation is Yonsei University, Seoul, Korea; study site and Fitzpatrick types not stated]",
+   "patients_enrolled": "40",
+   "patients_evaluable": "not in abstract [36 patients reported as 90%, which fits a denominator of 40, so all enrolled patients may have been assessed]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "patient (improvement counted as number of patients; how lesions within a patient were combined is not in abstract)",
+   "intervention": "10,600-nm carbon dioxide fractional laser (CO2 FL), a single treatment session; laser settings not in abstract",
+   "comparator": "none (comparison with baseline only)",
+   "endpoint_definition": "more than 50% improvement compared with baseline [read as improvement of the hypopigmented lesions; grading scale and what counted as improvement not in abstract]",
+   "assessment_method": "physicians' clinical assessment by two independent dermatologists (blinding and how the two ratings were combined not in abstract); patients' overall satisfaction",
+   "time_from_start": "Two months after a single treatment [start and final treatment are the same single session]",
+   "time_from_last_treatment": "Two months after the single (final) treatment [2 months]",
+   "arm_result": "more than 50% improvement compared with baseline in 36 patients (90%) at two months after the single treatment",
+   "patient_noticeability": "not in abstract (spot noticeability not reported); overall satisfaction: 33 patients (82.5%) very satisfied or satisfied with one session [denominator 40 inferred from 33/40 = 82.5%]",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "postinflammatory hyperpigmentation in 'a few patients' (number not in abstract); resolved spontaneously within 2 months after the assessments",
+   "texture_or_scar": "not in abstract for scarring or texture; long-standing erythema in 'a few patients' (number not in abstract), resolved spontaneously within 2 months after the assessments; 'No other noticeable side effects were observed'",
+   "attrition": "not in abstract",
+   "uncertainty": "Abstract only. 'More than 50% improvement' is partial repigmentation, not complete coverage or colour match; the grading scale is not given. Only one efficacy time point, 2 months after the single treatment, far short of six months; no later efficacy visit is reported, although side effects were followed for up to 2 months after the assessments [about 4 months after treatment]. No control arm, so spontaneous change cannot be excluded. Mostly facial lesions, while the authors note the extremities are the most frequently affected areas in IGH, so the sample may not represent typical IGH. Gender ratio printed as '7 : 33' without saying which sex is which. Mean age 57.5 ± 10.9 years. Lesion counts, lesion size, laser settings and Fitzpatrick types not in abstract. Patient-level result; how per-lesion outcomes were combined into a patient score is not stated. Denominators for 90% and 82.5% are not printed [both fit 40].",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Shin J, Kim M, Park SH, Oh SH. The effect of fractional carbon dioxide lasers on idiopathic guttate hypomelanosis: a preliminary study. J Eur Acad Dermatol Venereol 2013;27(2):e243-e246 (Epub 2012 May 31)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/22646755/",
+   "treatment_class": "laser",
+   "months_after_final_tx": "2"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A total of 40 patients with IGH were enrolled.",
+   "location": "Abstract, Patients and methods"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "The hypopigmented lesions were treated using a 10 600-nm carbon dioxide fractional laser (CO(2) FL).",
+   "location": "Abstract, Patients and methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Two months after a single treatment, physicians' clinical assessments were performed and the patients' overall satisfaction was evaluated.",
+   "location": "Abstract, Patients and methods"
+  },
+  {
+   "row": 0,
+   "field": "months_after_final_tx",
+   "quote": "Two months after a single treatment, physicians' clinical assessments were performed",
+   "location": "Abstract, Patients and methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Two months after treatment, objective assessments performed by two independent dermatologists indicated more than 50% improvement in 36 patients (90%), compared with baseline.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "more than 50% improvement in 36 patients (90%)",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "patient_noticeability",
+   "quote": "33 patients (82.5%) were very satisfied or satisfied with just one session of CO(2) FL treatment.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "Although a few patients complained of long-standing erythema and postinflammatory hyperpigmentation, these problems spontaneously resolved within 2 months after the assessments.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Although a few patients complained of long-standing erythema and postinflammatory hyperpigmentation, these problems spontaneously resolved within 2 months after the assessments.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "No other noticeable side effects were observed.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "body_site",
+   "quote": "The face was the most commonly treated area, although the extremities are epidemiologically the most frequently affected areas.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The mean age of enrolled patients was 57.5 ± 10.9 years and the gender ratio was 7 : 33.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "investigated in this pilot study",
+   "location": "Abstract, Objectives"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "Yonsei University College of Medicine, Seoul, Korea",
+   "location": "Author information"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
