@@ -79,6 +79,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 ## Batch 3 extraction log
 
 - 2026-11-27, goldust2013 (PMID 23656568, fractional CO2 laser, single session): staged ABSTRACT_ONLY, 1 row, validator ok, verifier PENDING. `data/staging/goldust2013.json`; excerpt copied to `/mnt/project-files/papers/excerpts/goldust2013.txt`. Not merged.
+- 2026-11-27, goldust2013: verifier **PASS**, 0 failed cells (abstract only). Ready for merge by the batch 3 collector.
 
 ## Next session
 

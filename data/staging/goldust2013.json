@@ -156,7 +156,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "Verifier 2026-11-27, source papers/excerpts/goldust2013.txt (abstract plus metadata). 0 failed cells. All 19 quotes found verbatim. Counts and percentages checked against 240: 115 (47.9%), 95 (39.6%), 102 (42.5%), 43 (17.9%) fit; 100 (41.6%) and 25 (10.3%) do not, as the uncertainty cell says. Single session, so 2 months is from the final treatment. Unit patient matches the counts. Tier partial_repigmentation is the weakest reading of '>75% clinical improvement'. Observation, not a failed cell: the three satisfaction grades also sum to 240 with no dissatisfied grade printed."
  }
 }
