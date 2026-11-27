@@ -61,6 +61,24 @@ One registry trial is close to Ben's question in design, though not in condition
 
 ### Direction 4: cell transplantation
 
+**This is the one direction with long follow-up and a colour-match endpoint, and the one with a direct IGH precedent.** The cells are taken from the patient's own normal skin, separated into a suspension, and put onto the prepared white area. Most of the literature is vitiligo.
+
+IGH precedent, both old and both already in the project's records:
+
+- Blister-roof grafting in IGH: "Repigmentation was visible within 7 to 14 days" (PMID 3908515, ledger id suvanprakorn1985). Nothing later in the abstract.
+- The nude-mouse graft study above (PMID 2508572) shows IGH skin repigmenting once grafted, which is the biological argument for trying it.
+
+Durability in vitiligo and other leukodermas (none of these is IGH):
+
+- 23 patients, 24 lesions, Thailand: at 12 months "an 80.8% ± 19.3% VASI improvement, which was sustained over 84 months with an 80%-90% VASI improvement" (PMID 39507768).
+- 2,283 patients, follow-up "12-108months": "Excellent repigmentation was achieved in 400/606 (66%)" for segmental vitiligo (PMID 33582653).
+- 602 patients followed to six years, where relapse was defined as "re-appearance of more than 10% depigmentation in a previously treated and repigmented site"; non-segmental vitiligo raised relapse risk ("adjusted HR = 2.11; P = 0.03") (PMID 30793805).
+- 142 patients to six years: "Eighty (56%) patients showed excellent" repigmentation, "which was retained till the end of the respective follow-up period" (PMID 16207186).
+
+A registered trial uses almost exactly the project's endpoint, in non-vitiligo leukoderma: NCT07662915, 22 patients estimated, cell suspension versus the Jodhpur technique plus excimer laser, primary outcome "Mean Percentage Repigmentation of Target Lesions" at "6 months" and a secondary outcome "Color Match Assessment" at "6 months". Status "NOT_YET_RECRUITING", and its eligibility does not name IGH (it requires "Clinically diagnosed stable non-vitiligo leukoderma" and excludes vitiligo).
+
+[Inference: this is the most promising direction on the evidence, but it is a surgical procedure, and the question for IGH is proportionality: a 2 to 5 mm spot on a forearm against a donor site, dermabrasion and cost. The older alternative, grafting one spot at a time, is in the ledger and only ever reported short follow-up. Nobody appears to have tested a cell suspension on IGH spots with a six-month colour-match readout. That is a gap, not a conclusion.]
+
 ### Direction 5: Wnt and melanocyte stem cells
 
 ### Direction 6: senolytics and senescence
