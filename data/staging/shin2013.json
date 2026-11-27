@@ -126,7 +126,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Verifier 1, 2026-11-27, source papers/excerpts/shin2013.txt (PubMed abstract). 2 failed cells. (1) row 1 (index 0), patient_noticeability: record is ABSTRACT_ONLY, so the parenthetical '(spot noticeability not reported)' uses the full-text term; source is the abstract only, so it should read 'not in abstract' throughout. (2) row 1 (index 0), uncertainty: source says 'a few patients complained of long-standing erythema and postinflammatory hyperpigmentation, these problems spontaneously resolved within 2 months after the assessments', i.e. erythema and hyperpigmentation were still present at the 2-month efficacy assessment and may have affected the improvement grading; uncertainty does not record this. All other cells, quotes, analysis_unit (patients), time_from_last_treatment (2 months after the single treatment) and outcome_tier (partial_repigmentation) match the source."
  }
 }

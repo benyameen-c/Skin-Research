@@ -79,6 +79,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 ## Batch 3 extraction log
 
 - 2026-11-27, shin2013 (PMID 22646755, fractional CO2 laser, single session): extractor wrote `data/staging/shin2013.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier PENDING. Full text on the paywall list.
+- 2026-11-27, shin2013: verifier **FAIL, attempt 1 of 2**, 2 cells (row 1 patient_noticeability uses "not reported" in an abstract-only record; row 1 uncertainty omits that erythema and hyperpigmentation were still present at the 2-month assessment). Details in the record's `verifier.notes`. Needs a correction pass, then a fresh verifier. Not merged.
 
 ## Next session
 
