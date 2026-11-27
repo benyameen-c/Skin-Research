@@ -78,7 +78,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 
 ## Batch 3 staging (2026-11-27)
 
-- ploysangam1990 (PMID 2229495, liquid nitrogen cryotherapy): staged ABSTRACT_ONLY, 2 rows (clinical repigmentation; dopa-positive melanocyte histology), both `unquantified`, months NOT_DERIVABLE. Validator ok, verifier PENDING. Excerpt at `/mnt/project-files/papers/excerpts/ploysangam1990.txt`. Full text on paywall list.
+- ploysangam1990 (PMID 2229495, liquid nitrogen cryotherapy): staged ABSTRACT_ONLY, 2 rows (clinical repigmentation; dopa-positive melanocyte histology), both `unquantified`, months NOT_DERIVABLE. Validator ok. Verifier 1 (2026-11-27, branch claude/project-thread-jyqadi): FAIL, 3 cells (row 1 assessment_method unbracketed "biopsy"; rows 0 and 1 uncertainty "no follow-up" should be "not in abstract"). Needs extractor fix, then a second verifier. Excerpt at `/mnt/project-files/papers/excerpts/ploysangam1990.txt`. Full text on paywall list.
 
 ## Next session
 

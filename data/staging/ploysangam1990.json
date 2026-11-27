@@ -131,7 +131,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "row 1, assessment_method: the abstract never says 'biopsy'; it reports dopa-positive melanocyte counts and light and electron microscopy only. Sampling method is an unbracketed inference (bracket it or write 'not in abstract'). row 0, uncertainty: 'no follow-up beyond the repigmentation time' states as fact something the abstract is silent on; the abstract gives no follow-up after repigmentation, so it should read 'follow-up after repigmentation not in abstract'. row 1, uncertainty: same 'no follow-up beyond the repigmentation time' wording; should be 'not in abstract'. All quotes match the source verbatim and support their cells; months NOT_DERIVABLE, analysis_unit, outcome_tier 'unquantified', and 'not in abstract' for overshoot, scar and attrition are correct."
  }
 }
