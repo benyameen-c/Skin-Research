@@ -38,6 +38,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | rerknimitr2015 | J Eur Acad Dermatol Venereol 2015, doi:10.1111/jdv.12763 (Wiley /doi/full and /doi/pdf HTTP 403; Europe PMC: subscription required, 2026-11-27) | counts behind 83.34% and 18.34% |
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x (Europe PMC: subscription required; Wiley /doi/full and /doi/pdf HTTP 403, 2026-11-27) | the 11% denominator |
 | gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract; 2026-11-27 Europe PMC 'Subscription required', https://doi.org/10.1097/DSS.0000000000000996 -> journals.lww.com HTTP 403 |
+| asawanonda2010 | J Drugs Dermatol 2010;9(3):238-9, PMID 20232585 (case report, 1% pimecrolimus). Tried 2026-11-27: Europe PMC REST (not in PMC, not open access, no DOI); NCBI elink (only a subscription link); https://jddonline.com/articles/pimecrolimus-for-idiopathic-guttate-hypomelanosis-S1545961610P0238X/ shows abstract only, article sold via /cart/?add=S1545961610P0238X | patient and lesion counts, regimen, degree of repigmentation, follow-up after the last application |
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
@@ -58,6 +59,8 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | rerknimitr2015 record | BLOCKED: verifier FAIL twice (2026-11-27) | First check 7 cells; second check 1 cell: row 1 `uncertainty` omits the '120 lesions ... were treated' denominator conflict. Not merged; the old unquoted abstract rows stay in the ledger. Needs full text (paywall list) or Ben's decision. Record `data/staging/rerknimitr2015.json` carries the second FAIL (from the second verifier's saved record; its commit could not be pushed). |
 
 ## Verification log
+
+- 2026-11-27, asawanonda2010 (PMID 20232585): extracted ABSTRACT_ONLY, 1 row (unquantified, months NOT_DERIVABLE), `data/staging/asawanonda2010.json`, validator ok, verifier PENDING. Full text on paywall list.
 
 - 2026-11-27, nct01956435 (staging record from claude/project-thread-1wkpky): verifier **FAIL, attempt 1 of 2**, 4 cells (row 2 control arm: treatment_class, time_from_last_treatment, months_after_final_tx; row 3: comparator). Details in the record's `verifier.notes`. Needs a re-extraction pass, then a fresh verifier. Not merged.
 - 2026-11-27, nct01956435: re-extracted after FAIL 1. Control row now treatment_class `control`, time from last treatment `not applicable`, months `NOT_APPLICABLE`; self-report row comparator `none`. Also added quotes for evaluable and attrition counts, Fitzpatrick limitation in skin_tone. Validator ok, verifier PENDING. A second FAIL makes it BLOCKED.

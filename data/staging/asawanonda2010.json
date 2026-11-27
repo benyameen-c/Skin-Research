@@ -1,0 +1,84 @@
+{
+  "study_id": "asawanonda2010",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/asawanonda2010.txt",
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "asawanonda2010",
+      "doi_or_pmid": "PMID 20232585",
+      "source_location": "PubMed abstract; publisher article page header (section label)",
+      "access_level": "abstract only (full text needed)",
+      "diagnosis": "IGH",
+      "design": "not in abstract [publisher page files it under 'Case Reports'; no comparator described]",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract [authors based in Bangkok, Thailand]",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "not in abstract",
+      "intervention": "1% pimecrolimus cream; dose, frequency and duration not in abstract",
+      "comparator": "not in abstract [none described]",
+      "endpoint_definition": "repigmentation (not defined in abstract)",
+      "assessment_method": "not in abstract",
+      "time_from_start": "not in abstract",
+      "time_from_last_treatment": "not in abstract",
+      "arm_result": "authors report 'success' of 1% pimecrolimus cream in inducing repigmentation; number or share of patients or lesions that repigmented, and degree of repigmentation, not in abstract",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract",
+      "attrition": "not in abstract",
+      "uncertainty": "Abstract only, three sentences, no numbers apart from the 1% strength. It gives no patient or lesion count, no regimen, no assessment method, no degree of repigmentation and no follow-up, so 'success' cannot be graded as partial repigmentation, complete coverage or lasting match; months after final treatment is NOT_DERIVABLE (full text needed). Design is [a case report] only by the publisher's section label, two journal pages (238-9). The abstract states there are no universally safe and efficacious treatments for IGH; it does not say how 'success' was judged or whether any treated spot failed to respond. The quoted result sentence contains a typo in the source ('is this' for 'in this'). Full text is sold through the publisher (jddonline.com cart link); not in PMC or Europe PMC.",
+      "verification_status": "PENDING",
+      "outcome_tier": "unquantified",
+      "citation": "Asawanonda P, Sutthipong T, Prejawai N. J Drugs Dermatol 2010 Mar;9(3):238-9",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20232585/",
+      "treatment_class": "topical",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "The authors report the success of 1% pimecrolimus cream in inducing repigmentation is this hypomelanotic disorder.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "1% pimecrolimus cream",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "design",
+      "quote": "March 2010 | Volume 9 | Issue 3 | Case Reports | 238",
+      "location": "Publisher article page header"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "There are no universally safe and efficacious treatments for this condition.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "citation",
+      "quote": "J Drugs Dermatol. 2010 Mar;9(3):238-9.",
+      "location": "PubMed citation line"
+    },
+    {
+      "row": 0,
+      "field": "skin_tone",
+      "quote": "Bangkok,Thailand",
+      "location": "Author information"
+    }
+  ],
+  "verifier": {
+    "status": "PENDING",
+    "notes": ""
+  }
+}
