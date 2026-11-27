@@ -39,7 +39,7 @@ Last updated: 2026-11-27, end of session 1.
 
 ## Staging (awaiting verifier)
 
-- elhoshy2025: `data/staging/elhoshy2025.json`, ABSTRACT_ONLY (PubMed abstract + ClinicalTrials.gov NCT04419350, no results posted), 10 rows (5 endpoints x 2 arms), validator ok 2026-11-27. Verifier 1 (2026-11-27): FAIL, 16 cells (analysis_unit rows 2-5, 8, 9 inferred but unbracketed; uncertainty in all 10 rows misses mixed scarred/normal-texture skin, rows 2-3 also miss the unblinded GAI assessor). Back to extractor once. Source text at `papers/excerpts/elhoshy2025.txt` and `/mnt/project-files/papers/excerpts/elhoshy2025.txt`. Not merged.
+- elhoshy2025: `data/staging/elhoshy2025.json`, ABSTRACT_ONLY (PubMed abstract + ClinicalTrials.gov NCT04419350, no results posted), 10 rows (5 endpoints x 2 arms), validator ok 2026-11-27. Verifier 1 (2026-11-27): FAIL, 16 cells (analysis_unit rows 2-5, 8, 9 inferred but unbracketed; uncertainty in all 10 rows misses mixed scarred/normal-texture skin, rows 2-3 also miss the unblinded GAI assessor). Extractor re-extraction 2026-11-27: analysis_unit bracketed as inferred (rows 2-9), scarred/normal-texture mix added to all rows, unblinded GAI assessor added to rows 2-3, other inferences bracketed; verifier.status PENDING, validator ok. Awaiting verifier 2 (a second FAIL makes it BLOCKED). Source text at `papers/excerpts/elhoshy2025.txt` and `/mnt/project-files/papers/excerpts/elhoshy2025.txt`. Not merged.
 
 ## Human gates
 
