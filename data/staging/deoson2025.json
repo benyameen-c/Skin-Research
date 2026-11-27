@@ -1,0 +1,602 @@
+{
+  "study_id": "deoson2025",
+  "access": "FULL_TEXT",
+  "excerpt_file": "papers/excerpts/deoson2025.txt",
+  "sources_tried": [
+    "https://www.academicmed.org/Uploads/Volume7Issue6/140.%206335.%20JAMP_Sudha%20R%20Gopinath_765-769.pdf (HTTP 200, application/pdf, 5 pages; saved text in papers/excerpts/deoson2025.txt)"
+  ],
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "deoson2025",
+      "doi_or_pmid": "doi:10.47009/jamp.2025.7.6.140 (not indexed in PubMed)",
+      "source_location": "Abstract; Materials and Methods; Results; Table 1 (grading), Table 2 (side effects), Table 3 (satisfaction); pp. 765-769",
+      "access_level": "FULL_TEXT (open PDF on publisher site, fetched 2026-11-27)",
+      "diagnosis": "IGH",
+      "design": "prospective comparative, two parallel groups; allocation by alternate patients (described by authors as randomized, but alternate allocation is not randomization); assessor blinding not reported",
+      "body_site": "pre-tibial region (shins)",
+      "skin_tone": "not reported (study site Government Rajaji Hospital, Madurai, India)",
+      "patients_enrolled": "15 per group (30 in study, aged 60 to 76)",
+      "patients_evaluable": "15 (Table 3 total for this group)",
+      "lesions_enrolled": "75 (5 macules per patient)",
+      "lesions_evaluable": "75 (Table 1 total for this group)",
+      "analysis_unit": "lesion (macule); 5 macules per patient, analysed as independent",
+      "endpoint_definition": "grade G4, greater than 75% improvement in pigmentation, on a five-grade subjective clinical improvement score (G0 none, G1 up to 25%, G2 25-50%, G3 51-75%, G4 greater than 75%)",
+      "assessment_method": "clinical assessment of each treated macule with serial photographs, graded once every 4 weeks; grader identity and blinding not reported",
+      "time_from_start": "4 months (16 weeks)",
+      "time_from_last_treatment": "not reported: up to 3 monthly sittings 'till complete repigmentation', number of sittings per lesion not given, grading at 4 months from start [about 2 to 4 months if sittings fell at months 0 to 2]",
+      "complete_match": "not measured (top grade is greater than 75% improvement)",
+      "attrition": "not reported [Table 1 and Table 3 totals equal enrolment, which suggests none]",
+      "verification_status": "PENDING",
+      "outcome_tier": "partial_repigmentation",
+      "citation": "Deoson L, Sudha R, Vijaya Anand M. Int J Acad Med Pharm 2025;7(6):765-769",
+      "source_url": "https://www.academicmed.org/Uploads/Volume7Issue6/140.%206335.%20JAMP_Sudha%20R%20Gopinath_765-769.pdf",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "intervention": "liquid nitrogen by cotton-tipped applicator (dip-stick), single freeze-thaw cycle of 5 s per Methods (3-5 s in Abstract), monthly, up to 3 sittings",
+      "comparator": "50% trichloroacetic acid group (different patients)",
+      "arm_result": "G4 (>75%) 29/75 macules (38.7%); G3 18/75 (24%); G2 9/75 (12%); G1 13/75 (17.3%); G0 6/75 (8%); p = 0.008 between groups (chi-square, macule level)",
+      "patient_noticeability": "patient satisfaction at end of month 4, 4-point scale, counted in patients: score 4 in 10 of 15 (66.7%), 3 in 3 (20%), 2 in 1 (6.7%), 1 in 1 (6.7%); p = 0.035 between groups",
+      "dark_overshoot": "post-inflammatory hyperpigmentation 3/75 macules (4.0%)",
+      "texture_or_scar": "scarring 0/75; persistent scabbing 4/75 macules (5.3%); no side effects 68/75 (90.7%)",
+      "uncertainty": "Follow-up counted from start only; final-sitting date per lesion not reported, so months after final treatment cannot be derived. Lesions clustered within patients (5 per patient, 15 patients per arm) but the chi-square p = 0.008 treats 75 macules per arm as independent. Methods say 'allocating them in a randomized manner by selecting alternate patients', which is alternate allocation. Grade bands overlap at 25% (G1 'up to 25%', G2 '25-50%'). Methods say patients reaching complete repigmentation in all macules before 4 months 'would be released from study'; how many, and how they were graded, is not reported. Patient satisfaction (patient_noticeability) counts patients, not macules. Freeze time is 5 s in Methods but 3-5 s in Abstract and Discussion. Results text says 'Among the 15 participants treated with cryotherapy, 5.3% (n = 4)', but 4/75 = 5.3%, so side-effect counts are macules, not participants (Table 2 is headed 'no. of macules'). Discussion says '38.7% had 75% repigmentation' where Results say >75%.",
+      "treatment_class": "cryotherapy"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "deoson2025",
+      "doi_or_pmid": "doi:10.47009/jamp.2025.7.6.140 (not indexed in PubMed)",
+      "source_location": "Abstract; Materials and Methods; Results; Table 1 (grading), Table 2 (side effects), Table 3 (satisfaction); pp. 765-769",
+      "access_level": "FULL_TEXT (open PDF on publisher site, fetched 2026-11-27)",
+      "diagnosis": "IGH",
+      "design": "prospective comparative, two parallel groups; allocation by alternate patients (described by authors as randomized, but alternate allocation is not randomization); assessor blinding not reported",
+      "body_site": "pre-tibial region (shins)",
+      "skin_tone": "not reported (study site Government Rajaji Hospital, Madurai, India)",
+      "patients_enrolled": "15 per group (30 in study, aged 60 to 76)",
+      "patients_evaluable": "15 (Table 3 total for this group)",
+      "lesions_enrolled": "75 (5 macules per patient)",
+      "lesions_evaluable": "75 (Table 1 total for this group)",
+      "analysis_unit": "lesion (macule); 5 macules per patient, analysed as independent",
+      "endpoint_definition": "grade G4, greater than 75% improvement in pigmentation, on a five-grade subjective clinical improvement score (G0 none, G1 up to 25%, G2 25-50%, G3 51-75%, G4 greater than 75%)",
+      "assessment_method": "clinical assessment of each treated macule with serial photographs, graded once every 4 weeks; grader identity and blinding not reported",
+      "time_from_start": "4 months (16 weeks)",
+      "time_from_last_treatment": "not reported: up to 3 monthly sittings 'till complete repigmentation', number of sittings per lesion not given, grading at 4 months from start [about 2 to 4 months if sittings fell at months 0 to 2]",
+      "complete_match": "not measured (top grade is greater than 75% improvement)",
+      "attrition": "not reported [Table 1 and Table 3 totals equal enrolment, which suggests none]",
+      "verification_status": "PENDING",
+      "outcome_tier": "partial_repigmentation",
+      "citation": "Deoson L, Sudha R, Vijaya Anand M. Int J Acad Med Pharm 2025;7(6):765-769",
+      "source_url": "https://www.academicmed.org/Uploads/Volume7Issue6/140.%206335.%20JAMP_Sudha%20R%20Gopinath_765-769.pdf",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "intervention": "50% trichloroacetic acid applied with cotton bud, feathered up to 1 mm into normal skin, washed off after 30 minutes, monthly, up to 3 sittings",
+      "comparator": "cryotherapy group (different patients)",
+      "arm_result": "G4 (>75%) 15/75 macules (20%); G3 19/75 (25.3%); G2 18/75 (24%); G1 7/75 (9.3%); G0 16/75 (21.3%); p = 0.008 between groups (chi-square, macule level)",
+      "patient_noticeability": "patient satisfaction at end of month 4, 4-point scale, counted in patients: score 4 in 3 of 15 (20%), 3 in 3 (20%), 2 in 7 (46.7%), 1 in 2 (13.3%); p = 0.035 between groups",
+      "dark_overshoot": "post-inflammatory hyperpigmentation [4/75 macules, 5.3%] (2 PIH alone, 2 with persistent scabbing)",
+      "texture_or_scar": "scarring [3/75 macules, 4.0%] (1 alone, 2 with persistent scabbing); persistent scabbing alone 10/75 (13.3%); no side effects 58/75 (77.3%)",
+      "uncertainty": "Follow-up counted from start only; final-sitting date per lesion not reported, so months after final treatment cannot be derived. Lesions clustered within patients (5 per patient, 15 patients per arm) but the chi-square p = 0.008 treats 75 macules per arm as independent. Methods say 'allocating them in a randomized manner by selecting alternate patients', which is alternate allocation. Grade bands overlap at 25% (G1 'up to 25%', G2 '25-50%'). Methods say patients reaching complete repigmentation in all macules before 4 months 'would be released from study'; how many, and how they were graded, is not reported. Patient satisfaction (patient_noticeability) counts patients, not macules. Results text says 'Among patients treated with 50% TCA, 13.3% (n = 10)', but 10/75 = 13.3%, so side-effect counts are macules (Table 2). Time to good response is '10 to 12 weeks' in Results but '8 to 10 weeks' in Discussion.",
+      "treatment_class": "chemical_peel"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "patients_enrolled",
+      "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "patients_enrolled",
+      "quote": "The age of the participants was ranging from 60 to 76 years of age in our study.",
+      "location": "Results"
+    },
+    {
+      "row": 0,
+      "field": "patients_evaluable",
+      "quote": "Total 15 (100) 15 (100) 30 (100)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "lesions_enrolled",
+      "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "lesions_enrolled",
+      "quote": "Total(no. of macules) 75 75 150",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "lesions_evaluable",
+      "quote": "Total(no. of macules) 75 75 150",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "analysis_unit",
+      "quote": "The assessment was done for all treated macules separately and noted.",
+      "location": "Materials and Methods, Clinical assessment score"
+    },
+    {
+      "row": 0,
+      "field": "endpoint_definition",
+      "quote": "G0 = no improvement, G1 = up to 25% improvement, G2 = 25–50% of improvement, G3 = 51–75% of improvement and G4 = greater than 75% improvement.",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "assessment_method",
+      "quote": "grading was done once every 4 weeks till 4 months.",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "time_from_start",
+      "quote": "At the end of 4 months, out of 75 macules treated with cryotherapy,",
+      "location": "Abstract, Result"
+    },
+    {
+      "row": 0,
+      "field": "time_from_start",
+      "quote": "Figure 1: Distribution of therapeutic response at 16 weeks",
+      "location": "Figure 1 caption"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.",
+      "location": "Materials and Methods, Group A and Group B"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "grading was done once every 4 weeks till 4 months.",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "design",
+      "quote": "allocating them in a randomized manner by selecting alternate patients.",
+      "location": "Materials and Methods, Study Procedure"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "Those who achieve complete repigmentation in all macules before 4 months would be released from study.",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "(p value of 0.008)",
+      "location": "Abstract, Result"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "(p value of 0.008)",
+      "location": "Abstract, Result"
+    },
+    {
+      "row": 1,
+      "field": "patients_enrolled",
+      "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "patients_enrolled",
+      "quote": "The age of the participants was ranging from 60 to 76 years of age in our study.",
+      "location": "Results"
+    },
+    {
+      "row": 1,
+      "field": "patients_evaluable",
+      "quote": "Total 15 (100) 15 (100) 30 (100)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "lesions_enrolled",
+      "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "lesions_enrolled",
+      "quote": "Total(no. of macules) 75 75 150",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "lesions_evaluable",
+      "quote": "Total(no. of macules) 75 75 150",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "analysis_unit",
+      "quote": "The assessment was done for all treated macules separately and noted.",
+      "location": "Materials and Methods, Clinical assessment score"
+    },
+    {
+      "row": 1,
+      "field": "endpoint_definition",
+      "quote": "G0 = no improvement, G1 = up to 25% improvement, G2 = 25–50% of improvement, G3 = 51–75% of improvement and G4 = greater than 75% improvement.",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "assessment_method",
+      "quote": "grading was done once every 4 weeks till 4 months.",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "time_from_start",
+      "quote": "At the end of 4 months, out of 75 macules treated with cryotherapy,",
+      "location": "Abstract, Result"
+    },
+    {
+      "row": 1,
+      "field": "time_from_start",
+      "quote": "Figure 1: Distribution of therapeutic response at 16 weeks",
+      "location": "Figure 1 caption"
+    },
+    {
+      "row": 1,
+      "field": "time_from_last_treatment",
+      "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.",
+      "location": "Materials and Methods, Group A and Group B"
+    },
+    {
+      "row": 1,
+      "field": "time_from_last_treatment",
+      "quote": "grading was done once every 4 weeks till 4 months.",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "design",
+      "quote": "allocating them in a randomized manner by selecting alternate patients.",
+      "location": "Materials and Methods, Study Procedure"
+    },
+    {
+      "row": 1,
+      "field": "uncertainty",
+      "quote": "Those who achieve complete repigmentation in all macules before 4 months would be released from study.",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "uncertainty",
+      "quote": "(p value of 0.008)",
+      "location": "Abstract, Result"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "(p value of 0.008)",
+      "location": "Abstract, Result"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "using cotton tipped applicators for 5 seconds in a single freeze – thaw cycle to 5 selected macules in the pre – tibial region.",
+      "location": "Materials and Methods, Group A"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "Short contact cryotherapy for 3-5 seconds",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.",
+      "location": "Materials and Methods, Group A"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "G4 29(38.7%) 15(20%) 44",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "G3 18(24%) 19(25.3%) 37",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "G2 9(12%) 18(24%) 27",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "G1 13(17.3%) 7(9.3%) 20",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "G0 6(8%) 16(21.3%) 22",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "Total(no. of macules) 75 75 150",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "4 10 (66.7) 3 (20) 13 (43.3)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "3 3 (20) 3 (20) 6 (20)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "2 1 (6.7) 7 (46.7) 8 (26.7)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "1 1 (6.7) 2 (13.3) 3 (10)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "Total 15 (100) 15 (100) 30 (100)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "There was a significant P value of 0.035 and chi square value is 8.603",
+      "location": "Results"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "The patient satisfaction score was recorded at the end of 4th month on a four- point scale",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "dark_overshoot",
+      "quote": "PIH 3(4.0%) 2(2.7%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "dark_overshoot",
+      "quote": "Total(no. of macules) 75 75",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "Scarring 0 1(1.3%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "Persistent scabbing 4(5.3%) 10(13.3%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "No side effects 68(90.7%) 58(77.3%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "Total(no. of macules) 75 75",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "Among the 15 participants treated with cryotherapy, 5.3% (n = 4) had persistent scabbing,",
+      "location": "Results"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "Among the 75 treated macules, a majority of 38.7% had 75% repigmentation",
+      "location": "Discussion"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "short contact cryotherapy using the cotton dip-stick method for 3 to 5 seconds,",
+      "location": "Discussion"
+    },
+    {
+      "row": 1,
+      "field": "intervention",
+      "quote": "50% TCA was applied over the macule and feathering of up to 1 mm of normal skin will be done at the periphery of the lesion",
+      "location": "Materials and Methods, Group B"
+    },
+    {
+      "row": 1,
+      "field": "intervention",
+      "quote": "The patients were asked to wash after 30 minutes.",
+      "location": "Materials and Methods, Group B"
+    },
+    {
+      "row": 1,
+      "field": "intervention",
+      "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.",
+      "location": "Materials and Methods, Group B"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "G4 29(38.7%) 15(20%) 44",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "G3 18(24%) 19(25.3%) 37",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "G2 9(12%) 18(24%) 27",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "G1 13(17.3%) 7(9.3%) 20",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "G0 6(8%) 16(21.3%) 22",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "Total(no. of macules) 75 75 150",
+      "location": "Table 1 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "4 10 (66.7) 3 (20) 13 (43.3)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "3 3 (20) 3 (20) 6 (20)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "2 1 (6.7) 7 (46.7) 8 (26.7)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "1 1 (6.7) 2 (13.3) 3 (10)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "Total 15 (100) 15 (100) 30 (100)",
+      "location": "Table 3 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "There was a significant P value of 0.035 and chi square value is 8.603",
+      "location": "Results"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "The patient satisfaction score was recorded at the end of 4th month on a four- point scale",
+      "location": "Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "dark_overshoot",
+      "quote": "PIH 3(4.0%) 2(2.7%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "dark_overshoot",
+      "quote": "Persistent scabbing, PIH 0 2(2.7%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "dark_overshoot",
+      "quote": "Total(no. of macules) 75 75",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "Scarring 0 1(1.3%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "Persistent scabbing, scarring 0 2(2.7%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "Persistent scabbing 4(5.3%) 10(13.3%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "No side effects 68(90.7%) 58(77.3%)",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "Total(no. of macules) 75 75",
+      "location": "Table 2 (-layout text)"
+    },
+    {
+      "row": 1,
+      "field": "uncertainty",
+      "quote": "Among patients treated with 50% TCA, 13.3% (n = 10) had persistent scabbing,",
+      "location": "Results"
+    },
+    {
+      "row": 1,
+      "field": "uncertainty",
+      "quote": "had good clinical response after 2nd sitting at 10 to 12 weeks",
+      "location": "Results"
+    },
+    {
+      "row": 1,
+      "field": "uncertainty",
+      "quote": "with visible improvements within 8 to 10 weeks.",
+      "location": "Discussion"
+    }
+  ],
+  "verifier": {
+    "status": "PASS",
+    "notes": "No failed cells. Checked both rows against papers/excerpts/deoson2025.txt (reading-order text and Table 1-3): every quote found; arm counts, Table 2 side-effect sums (75 per arm) and bracketed TCA totals (PIH 4/75, scarring 3/75) reproduce; follow-up counted from start only, so NOT_DERIVABLE is correct; analysis_unit (macule) and outcome_tier (partial_repigmentation) match. Non-failing observation: Abstract says 'assessed every 2 weeks for 4 months for side effects and improvement in pigmentation' while Methods say grading 'once every 4 weeks'; assessment_method follows Methods, and uncertainty does not mention the Abstract wording."
+  }
+}

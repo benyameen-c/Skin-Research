@@ -1,0 +1,78 @@
+{
+  "study_id": "suvanprakorn1985",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/suvanprakorn1985.txt",
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "suvanprakorn1985",
+      "doi_or_pmid": "PMID 3908515; doi:10.1016/s0190-9622(85)70247-2",
+      "source_location": "PubMed abstract",
+      "access_level": "abstract only (full text needed)",
+      "diagnosis": "mixed: vitiligo, idiopathic guttate hypomelanosis, postinflammatory leukoderma",
+      "design": "not in abstract [case series; no comparator described]",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "not in abstract",
+      "intervention": "autologous melanocyte grafting: roof of a suction or liquid-nitrogen blister from normal donor skin grafted to the raw surface of a blistered depigmented recipient site",
+      "comparator": "not in abstract [none described]",
+      "endpoint_definition": "successful repigmentation (not defined in abstract)",
+      "assessment_method": "[clinical observation; method not in abstract]; dopa histochemistry of leukoderma areas before grafting; presence of melanocytes in successful grafts [method not in abstract]",
+      "time_from_start": "repigmentation visible within 7 to 14 days [of grafting]",
+      "time_from_last_treatment": "not in abstract",
+      "arm_result": "successful repigmentation reported in patients with each of the three leukoderma types; number or share of patients, lesions or grafts that repigmented not in abstract; IGH results not separated",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (donor and recipient site outcomes not stated)",
+      "attrition": "not in abstract",
+      "uncertainty": "Abstract only. It gives no patient, lesion or graft counts and does not separate IGH results from vitiligo and postinflammatory leukoderma. 'Melanocytes were present in the successful grafts' implies some grafts were not successful; the number or share of failed grafts is not in abstract. 'Successful' repigmentation is not defined. The only timing given is repigmentation visible within 7 to 14 days; follow-up length after grafting is not in abstract, so months after final treatment is NOT_DERIVABLE from this source (full text needed). Full text is subscription only (Europe PMC: not in PMC, Subscription required).",
+      "verification_status": "PENDING",
+      "outcome_tier": "unquantified",
+      "citation": "Suvanprakorn P, Dee-Ananlap S, Pongsomboon C, Klaus SN. J Am Acad Dermatol 1985;13(6):968-974",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/3908515/",
+      "treatment_class": "grafting",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "Patients with three types of leukoderma--vitiligo, idiopathic guttate hypomelanosis, and postinflammatory leukoderma--had successful repigmentation after transplantation of autologous melanocytes.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "Blisters were produced by suction or by freezing with liquid nitrogen. The roof of the blister from donor skin was grafted to the raw surface of the recipient site.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "time_from_start",
+      "quote": "Repigmentation was visible within 7 to 14 days.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "assessment_method",
+      "quote": "Histochemical studies confirmed the absence of dopa-positive cells in the areas of leukoderma prior to grafting. Melanocytes were present in the successful grafts.",
+      "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "Melanocytes were present in the successful grafts.",
+      "location": "Abstract"
+    }
+  ],
+  "verifier": {
+    "status": "PASS",
+    "notes": "Verifier #2 (2026-11-27), fresh check against papers/excerpts/suvanprakorn1985.txt (PubMed abstract) alone. 0 failed cells. All five quotes appear verbatim and support their cells. time_from_last_treatment 'not in abstract' and months_after_final_tx NOT_DERIVABLE are correct: the only timing (7 to 14 days) is not a follow-up after the final treatment. analysis_unit, counts, dark_overshoot, texture_or_scar and attrition are correctly marked missing. outcome_tier 'unquantified' is the weakest reading. uncertainty covers mixed diagnoses, IGH not separated, undefined success, implied failed grafts and missing follow-up."
+  }
+}
