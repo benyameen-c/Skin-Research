@@ -1,0 +1,138 @@
+{
+ "study_id": "arbache2021",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/arbache2021.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "arbache2021",
+   "doi_or_pmid": "PMID 34409366; PMCID PMC8362163; doi:10.1016/j.jdin.2021.01.005",
+   "source_location": "full text, letter to the editor (body text, Fig 1 legend, Conflicts of interest, Footnotes)",
+   "access_level": "FULL_TEXT (open access via Europe PMC/PMC)",
+   "diagnosis": "EXCLUDED: no IGH patients treated or assessed in this letter; [out of Module 1 scope, which covers human clinical studies]. The only experiment is black-ink tattooing of an ex vivo human skin fragment from abdominoplasty",
+   "design": "letter to the editor (comment on a case report) with an ex vivo histology demonstration; [not a clinical study; no randomization, control group or outcome assessment of patients described]",
+   "body_site": "not applicable: [ex vivo abdominal skin] ('human skin fragment from abdominoplasty'); no patient body site reported",
+   "skin_tone": "not reported",
+   "patients_enrolled": "not reported [no patient treatment study is described]",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported [no IGH lesions treated in this letter]",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: [no clinical analysis unit]; ex vivo skin fragment, number of fragments or sections not reported",
+   "intervention": "black ink delivered with a tattoo machine into an ex vivo skin fragment [no 5-fluorouracil, no patients]; the authors also recommend, without reporting results, a 5-fluorouracil tattoo-machine microneedling protocol of 60-120 Hz, 570 perforations/cm2, needle depth 300 microns",
+   "comparator": "black ink delivered with a handheld hollow needle into [the same] ex vivo skin model",
+   "endpoint_definition": "pattern of ink diffusion in the dermis on histology (descriptive only)",
+   "assessment_method": "hematoxylin and eosin histology of biopsies taken immediately after the procedures (longitudinal and transverse sections, Fig 1)",
+   "time_from_start": "not applicable: biopsies 'taken immediately after dermopigmentation procedures' (ex vivo)",
+   "time_from_last_treatment": "not applicable: [no patients treated]; ex vivo biopsies taken immediately after the procedure",
+   "arm_result": "no clinical result reported; descriptive histology only: the text says tattoo-device needles create 'turbulent whirling of the drug that increases its dermal diffusion', while the figure legend says 'the extensive pigment diffusion are larger with the handheld needle' [direction of the difference unclear]",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported",
+   "attrition": "not applicable [no patients]",
+   "uncertainty": "Excluded from Module 1 analysis: letter with no IGH patients and no clinical outcome; the ex vivo model used black ink, not 5-fluorouracil, on non-IGH abdominoplasty skin. Internal conflict: the body text argues the tattoo machine increases dermal diffusion, but the Fig 1 legend states the 'extensive pigment diffusion are larger with the handheld needle'; images not reviewed (figure not in saved text). Number of skin fragments, sections or repeats not reported; no quantification. Safety statements ('likely safe', 'may also minimize the adverse effects') are opinion without data. Conflict of interest: first author owns Traderm, which sells tattoo machines and cartridges; a co-author is his daughter; funding footnote names Traderm. An IRB approval number is given although no patient study is described. Claims about speed, anesthesia and reproducibility are the authors' views, not measured. Leads: ref 2 (arbache2018) and ref 4 (Int J Dermatol 2019 drug-delivery study) are the primary sources for the protocol.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "not_extracted",
+   "citation": "Arbache S, de Mendonça MT, Arbache ST, Hirata SH. Treatment of idiopathic guttate hypomelanosis with a tattoo device versus a handheld needle. JAAD Int 2021;3:14-16",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/34409366/",
+   "treatment_class": "needling_drug_delivery",
+   "months_after_final_tx": "NOT_APPLICABLE"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "diagnosis",
+   "quote": "Procedure was done on a human skin fragment from abdominoplasty.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "body_site",
+   "quote": "Procedure was done on a human skin fragment from abdominoplasty.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "To the Editor: We were pleased to read the case report by Rambhia and Rambhia",
+   "location": "Body text, paragraph 1"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "We recommend a microneedling protocol using a speed of 60-120 Hz, 570 perforations/cm2, and a needle depth of 300 microns.",
+   "location": "Body text, paragraph 3"
+  },
+  {
+   "row": 0,
+   "field": "comparator",
+   "quote": "A and B represent longitudinal and transverse sections, respectively, of skin tattooed using a handheld hollow needle dipped in black ink.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "assessment_method",
+   "quote": "Biopsies were taken immediately after dermopigmentation procedures.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "Biopsies were taken immediately after dermopigmentation procedures.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Biopsies were taken immediately after dermopigmentation procedures.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "creates shear stress and a turbulent whirling of the drug that increases its dermal diffusion.",
+   "location": "Body text, paragraph 3"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "In the transverse section (D), notice that the extensive pigment diffusion are larger with the handheld needle.",
+   "location": "Fig 1 legend"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "is the owner of Traderm, a company that commercializes medical and tattoo supplies for dermatologists",
+   "location": "Conflicts of interest"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Dr. Samia Trigo Arbache, a dermatologist certified by the Brazilian Society of Dermatology, is the daughter of Dr. Samir Arbache.",
+   "location": "Conflicts of interest"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Traderm is a company that commercializes tattoo supplies.",
+   "location": "Footnotes, Funding sources"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "drug delivery with tattoo machines is likely safe, probably due to the injection of 5-fluorouracil at very low densities",
+   "location": "Body text, paragraph 3"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "approval # CAAE 70246117.1.0000.5505",
+   "location": "Footnotes, IRB approval status"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}

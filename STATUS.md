@@ -64,6 +64,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - 2026-11-27, nct01956435: verifier **FAIL, attempt 2 of 2**, 3 cells. BLOCKED, not merged.
 - 2026-11-27, laosakul2017: verifier FAIL (5 cells), corrected, verifier PASS on second check. Merged with `tools/ledger.py merge`: the 2 abstract rows were replaced whole by the record's 3 rows and 9 quotes.
 
+## Batch 3 staging (2026-11-27)
+
+- arbache2021 (PMID 34409366, Gate A list): staged FULL_TEXT (open access, Europe PMC PMC8362163), 1 row, outcome_tier `not_extracted`, diagnosis marked EXCLUDED: a letter to the editor with no IGH patients; its only data are ex vivo black-ink histology on abdominoplasty skin. Validator ok, verifier PENDING. Excerpt at `papers/excerpts/arbache2021.txt` (copied to the project files folder). The format in `tools/ledger.py` documents no excluded-study layout, so exclusion is recorded in the diagnosis, design and uncertainty cells.
+
 ## Verification log (batch 2, 2026-11-27)
 
 - rerknimitr2013: verifier PASS. Merged.
