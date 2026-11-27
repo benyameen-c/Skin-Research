@@ -1,5 +1,12 @@
 ## Progress Log
 
+### 27 November 2026 · Correction
+
+Contributors: Ben (review), Claude (checks).
+
+- Corrected the home page. It said the longest gap between a final treatment and an assessment was four months, after a single freeze. After re-extraction with verbatim quotes, that trial's abstract counts time from the start of treatment, so its gap is not derivable. The ledger check now reports 1 month (deepadarshan2023) as the longest quoted gap on an IGH row, and 0 rows that measure a lasting colour match.
+- Merged evidence rows now show the verifier's result and date instead of "PENDING".
+
 ### 27 November 2026 · Session 1
 
 Contributors: Ben (brief, question, review), Claude (checks, extraction, code, site).

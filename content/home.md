@@ -8,7 +8,7 @@
 
 ## What the first session found
 
-- **Durability is unmeasured.** The longest gap between the last treatment and an assessment was four months, after a single freeze. The top grade in that trial was "more than 75% improved", which is not a colour match.
+- **Durability is unmeasured.** In the evidence ledger, the longest quoted gap between the last treatment and an assessment on an IGH row is 1 month, from deepadarshan2023: "Patients were further followed up for a duration of 1 month to look for any recurrence." No ledger row measures a lasting colour match.
 - **Too much pigment is a real outcome.** One excimer series left 18 of 200 spots darker than their surroundings. A peel arm produced scars in 3 of 75 spots.
 - **Untreated and sham-treated spots also change.** Saline needling cut the median count of white spots from 31 to 21. Graders called 18% of untreated spots improved in a laser trial.
 - **Nothing new in PubMed.** A dated PubMed search returned 20 records since the 2025 review's cutoff and none is a new IGH treatment trial. One comparison study outside PubMed was found.
