@@ -9,13 +9,13 @@
    "doi_or_pmid": "doi:10.4103/2229-5178.126021; PMID 24616848; PMCID PMC3937479",
    "access_level": "FULL_TEXT",
    "diagnosis": "IGH",
-   "design": "open prospective study, single arm, uncontrolled ([no control group]; authors: 'Comparison with control and further follow up may add more information')",
+   "design": "open prospective study ([single arm, uncontrolled]; authors: 'Comparison with control and further follow up may add more information')",
    "body_site": "shins 20%, forearms 14%, other sites in Table 2 (image, not in saved text); 'Most of the individuals had more than two sites of involvement'",
    "skin_tone": "Fitzpatrick type IV 7 patients, type V 13 patients (Bangalore, India)",
    "patients_enrolled": "20",
-   "patients_evaluable": "not reported directly; [20], since all 139 macules were graded at 3 months (89 repigmented + 50 no response)",
+   "patients_evaluable": "20 ('All the patients were reassessed at the end of 3 months')",
    "lesions_enrolled": "139",
-   "lesions_evaluable": "[139] (89 repigmented + 50 no response at 3 months)",
+   "lesions_evaluable": "139 (89 repigmented + 50 no response at 3 months)",
    "intervention": "spot peel with 88% phenol, 0.5 ml applied with a cotton-tipped applicator over the whole macule plus 1 mm of normal skin, once a month for two sittings; topical 2% mupirocin twice daily for 7 to 10 days; daily sunlight exposure of 5 min after healing",
    "comparator": "none (no control macules, no untreated arm)",
    "assessment_method": "investigator five-point grading G0 to G4 (G0 no pigmentation, G1 up to 25%, G2 25-50%, G3 50-75%, G4 75% or more), with pretreatment photographs; patients' subjective response also recorded; blinding and number of assessors not reported",
@@ -26,7 +26,7 @@
    "complete_match": "not reported (G4 is '75% or more pigmentation', not complete; Figure 1 shows one macule with 'Complete pigmentation' but no count is given)",
    "dark_overshoot": "post-inflammatory hyperpigmentation in 11.5% of pigmented lesions ([11.5% fits 16 of 139 treated macules, not any whole number of the 89 pigmented ones]); count only in Table 6 (image, not in saved text)",
    "texture_or_scar": "persistent scabbing for more than 15 days in 17.2% of macules (abstract: 17.26%); ulceration, secondary infection and scarring also reported, counts only in Table 6 (image, not in saved text); 'common in elderly patients'",
-   "attrition": "not reported (no losses mentioned)",
+   "attrition": "none: 'All the patients were reassessed at the end of 3 months' (0 of 20 patients lost)",
    "verification_status": "PENDING",
    "citation": "Ravikiran SP, Sacchidanand S, Leelavathy B. Therapeutic wounding - 88% phenol in idiopathic guttate hypomelanosis. Indian Dermatol Online J 2014;5(1):14-8",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3937479/",
@@ -36,7 +36,7 @@
    "endpoint_definition": "share of treated macules with any repigmentation at 3 months from initiation; partial repigmentation, not complete coverage",
    "arm_result": "89/139 (64%) macules repigmented; 50/139 (35.9%) no response",
    "outcome_tier": "partial_repigmentation",
-   "uncertainty": "Uncontrolled single-arm study; [about 7 macules per patient, 139/20,] analysed as independent. Single assessment timed 3 months from initiation; no later follow-up (authors: 'further follow up may add more information'), so nothing on durability. Methods give age 20-85 years, Results give range 23-82 years. Co-interventions: daily 5-min sunlight after healing and topical mupirocin. Tables 1-6 are images and were not read; only numbers printed in the text are recorded. Blinding and number of assessors not reported. Scabbing is 17.26% in the Abstract vs 17.2% in Results. Post-inflammatory hyperpigmentation 11.5% is said to be of 'pigmented lesions' but [fits 16/139, not n=89]. Methods list an unpaired t-test, Results use a paired t test for Table 3. How IGH was diagnosed (clinical, dermoscopy or biopsy) is not reported. Methods take 0.5 ml of phenol, Discussion says up to '1/2-1 ml in one session'. 'Repigmentation was noted in all the patients between 4 and 6 weeks', yet 50 macules had no response at 3 months (patient level vs macule level)."
+   "uncertainty": "[Uncontrolled single-arm study]; [about 7 macules per patient, 139/20,] analysed as independent. Patients were assessed after every session and finally at 3 months from initiation; no later follow-up (authors: 'further follow up may add more information'), so nothing on durability. Methods give age 20-85 years, Results give range 23-82 years. Co-interventions: daily 5-min sunlight after healing and topical mupirocin. Tables 1-6 are images and were not read; only numbers printed in the text are recorded. Blinding and number of assessors not reported. Scabbing is 17.26% in the Abstract vs 17.2% in Results. Post-inflammatory hyperpigmentation 11.5% is said to be of 'pigmented lesions' but [fits 16/139, not n=89]. Methods list an unpaired t-test, Results use a paired t test for Table 3. How IGH was diagnosed (clinical, dermoscopy or biopsy) is not reported. Methods take 0.5 ml of phenol, Discussion says up to '1/2-1 ml in one session'. 'Repigmentation was noted in all the patients between 4 and 6 weeks', yet 50 macules had no response at 3 months (patient level vs macule level). The Introduction says the method 'is based on post inflammatory hyperpigmentation induced by chemical wounding', so the pigment seen at 3 months may be inflammatory pigment rather than a lasting colour match; with no later visit, durability is unknown. Figure 3 shows 'Perilesional spread of pigmentation', i.e. pigment beyond the macule edge (feathering covered 1 mm of normal skin), not a frequency. The Discussion asserts 'spontaneous repigmentation does not occur in any IGH lesions', but the study has no untreated control macules to show this."
   },
   {
    "module": "1-hypopigmentation",
@@ -44,13 +44,13 @@
    "doi_or_pmid": "doi:10.4103/2229-5178.126021; PMID 24616848; PMCID PMC3937479",
    "access_level": "FULL_TEXT",
    "diagnosis": "IGH",
-   "design": "open prospective study, single arm, uncontrolled ([no control group]; authors: 'Comparison with control and further follow up may add more information')",
+   "design": "open prospective study ([single arm, uncontrolled]; authors: 'Comparison with control and further follow up may add more information')",
    "body_site": "shins 20%, forearms 14%, other sites in Table 2 (image, not in saved text); 'Most of the individuals had more than two sites of involvement'",
    "skin_tone": "Fitzpatrick type IV 7 patients, type V 13 patients (Bangalore, India)",
    "patients_enrolled": "20",
-   "patients_evaluable": "not reported directly; [20], since all 139 macules were graded at 3 months (89 repigmented + 50 no response)",
+   "patients_evaluable": "20 ('All the patients were reassessed at the end of 3 months')",
    "lesions_enrolled": "139",
-   "lesions_evaluable": "[139] (89 repigmented + 50 no response at 3 months)",
+   "lesions_evaluable": "139 (89 repigmented + 50 no response at 3 months)",
    "intervention": "spot peel with 88% phenol, 0.5 ml applied with a cotton-tipped applicator over the whole macule plus 1 mm of normal skin, once a month for two sittings; topical 2% mupirocin twice daily for 7 to 10 days; daily sunlight exposure of 5 min after healing",
    "comparator": "none (no control macules, no untreated arm)",
    "assessment_method": "investigator five-point grading G0 to G4 (G0 no pigmentation, G1 up to 25%, G2 25-50%, G3 50-75%, G4 75% or more), with pretreatment photographs; patients' subjective response also recorded; blinding and number of assessors not reported",
@@ -61,7 +61,7 @@
    "complete_match": "not reported (G4 is '75% or more pigmentation', not complete; Figure 1 shows one macule with 'Complete pigmentation' but no count is given)",
    "dark_overshoot": "post-inflammatory hyperpigmentation in 11.5% of pigmented lesions ([11.5% fits 16 of 139 treated macules, not any whole number of the 89 pigmented ones]); count only in Table 6 (image, not in saved text)",
    "texture_or_scar": "persistent scabbing for more than 15 days in 17.2% of macules (abstract: 17.26%); ulceration, secondary infection and scarring also reported, counts only in Table 6 (image, not in saved text); 'common in elderly patients'",
-   "attrition": "not reported (no losses mentioned)",
+   "attrition": "none: 'All the patients were reassessed at the end of 3 months' (0 of 20 patients lost)",
    "verification_status": "PENDING",
    "citation": "Ravikiran SP, Sacchidanand S, Leelavathy B. Therapeutic wounding - 88% phenol in idiopathic guttate hypomelanosis. Indian Dermatol Online J 2014;5(1):14-8",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3937479/",
@@ -71,7 +71,7 @@
    "endpoint_definition": "grade of repigmentation among repigmented macules at 3 months from initiation; 'more than 75%' is partial repigmentation, not complete coverage",
    "arm_result": "of 89 repigmented macules: 45% more than 75% improvement, 41.5% 50-75%, 13.4% 25-50% ([about 40, 37 and 12 of 89]; counts not in saved text)",
    "outcome_tier": "partial_repigmentation",
-   "uncertainty": "Uncontrolled single-arm study; [about 7 macules per patient, 139/20,] analysed as independent. Single assessment timed 3 months from initiation; no later follow-up (authors: 'further follow up may add more information'), so nothing on durability. Methods give age 20-85 years, Results give range 23-82 years. Co-interventions: daily 5-min sunlight after healing and topical mupirocin. Tables 1-6 are images and were not read; only numbers printed in the text are recorded. Blinding and number of assessors not reported. Scabbing is 17.26% in the Abstract vs 17.2% in Results. Post-inflammatory hyperpigmentation 11.5% is said to be of 'pigmented lesions' but [fits 16/139, not n=89]. Methods list an unpaired t-test, Results use a paired t test for Table 3. How IGH was diagnosed (clinical, dermoscopy or biopsy) is not reported. Methods take 0.5 ml of phenol, Discussion says up to '1/2-1 ml in one session'. Denominator conflict: the Abstract says 'More than 75% improvement was seen in 45% of the total IGH macules' (n=139), Results say 45% 'of the repigmented lesion (n = 89)'. [45%, 41.5% and 13.4% of 89 are not whole numbers; 40, 37 and 12 of 89 give 44.9%, 41.6% and 13.5%.] No G1 (up to 25%) band is reported among the 89 although the grading has one. G4 is defined as '75% or more' while Results say 'more than 75%'."
+   "uncertainty": "[Uncontrolled single-arm study]; [about 7 macules per patient, 139/20,] analysed as independent. Patients were assessed after every session and finally at 3 months from initiation; no later follow-up (authors: 'further follow up may add more information'), so nothing on durability. Methods give age 20-85 years, Results give range 23-82 years. Co-interventions: daily 5-min sunlight after healing and topical mupirocin. Tables 1-6 are images and were not read; only numbers printed in the text are recorded. Blinding and number of assessors not reported. Scabbing is 17.26% in the Abstract vs 17.2% in Results. Post-inflammatory hyperpigmentation 11.5% is said to be of 'pigmented lesions' but [fits 16/139, not n=89]. Methods list an unpaired t-test, Results use a paired t test for Table 3. How IGH was diagnosed (clinical, dermoscopy or biopsy) is not reported. Methods take 0.5 ml of phenol, Discussion says up to '1/2-1 ml in one session'. Denominator conflict: the Abstract says 'More than 75% improvement was seen in 45% of the total IGH macules' (n=139), Results say 45% 'of the repigmented lesion (n = 89)'. [45%, 41.5% and 13.4% of 89 are not whole numbers; 40, 37 and 12 of 89 give 44.9%, 41.6% and 13.5%.] No G1 (up to 25%) band is reported among the 89 although the grading has one. G4 is defined as '75% or more' while Results say 'more than 75%'. The Introduction says the method 'is based on post inflammatory hyperpigmentation induced by chemical wounding', so the pigment seen at 3 months may be inflammatory pigment rather than a lasting colour match; with no later visit, durability is unknown. Figure 3 shows 'Perilesional spread of pigmentation', i.e. pigment beyond the macule edge (feathering covered 1 mm of normal skin), not a frequency. The Discussion asserts 'spontaneous repigmentation does not occur in any IGH lesions', but the study has no untreated control macules to show this."
   }
  ],
  "quotes": [
@@ -380,11 +380,70 @@
    "field": "uncertainty",
    "quote": "More than 75% improvement was seen in 45% of the total IGH macules, while 41.5% showed 50-75% improvement at the end of three months.",
    "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "All the patients were reassessed at the end of 3 months, both subjectively and objectively.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "All the patients were reassessed at the end of 3 months, both subjectively and objectively.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "This is another novel treatment method for IGH that is based on post inflammatory hyperpigmentation induced by chemical wounding with 88% phenol.",
+   "location": "Introduction"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Perilesional spread of pigmentation",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Unlike in vitiligo, spontaneous repigmentation does not occur in any IGH lesions.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "patients_evaluable",
+   "quote": "All the patients were reassessed at the end of 3 months, both subjectively and objectively.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "attrition",
+   "quote": "All the patients were reassessed at the end of 3 months, both subjectively and objectively.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "This is another novel treatment method for IGH that is based on post inflammatory hyperpigmentation induced by chemical wounding with 88% phenol.",
+   "location": "Introduction"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Perilesional spread of pigmentation",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Unlike in vitiligo, spontaneous repigmentation does not occur in any IGH lesions.",
+   "location": "Discussion"
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "Checked 2026-11-27 against papers/excerpts/ravikiran2014.txt (Europe PMC full text, tables are images) alone. Rows numbered from 0 as in the quotes list. All quotes occur verbatim and support their cells; both arm_result rows, analysis_unit, outcome_tier partial_repigmentation, NOT_DERIVABLE timing, dark_overshoot and texture_or_scar check out. 6 failed cells (3 per row): row 0, attrition: says 'not reported (no losses mentioned)', but Methods state 'All the patients were reassessed at the end of 3 months, both subjectively and objectively', i.e. no patient lost; the paper is not silent. row 0, patients_evaluable: says 'not reported directly; [20]' as an inference from macule counts, but the same sentence ('All the patients were reassessed at the end of 3 months') states it directly. row 0, uncertainty: omits that the Introduction says the method 'is based on post inflammatory hyperpigmentation induced by chemical wounding', so the 3-month 'repigmentation' may be inflammatory pigment rather than a lasting colour match. row 1, attrition: same as row 0. row 1, patients_evaluable: same as row 0. row 1, uncertainty: same omission as row 0.",
-  "date": "2026-11-27"
+  "status": "PENDING",
+  "notes": "Corrected after verifier FAIL attempt 1 (2026-11-27): patients_evaluable, attrition, lesions_evaluable and uncertainty on both rows. Previous FAIL notes: Checked 2026-11-27 against papers/excerpts/ravikiran2014.txt (Europe PMC full text, tables are images) alone. Rows numbered from 0 as in the quotes list. All quotes occur verbatim and support their cells; both arm_result rows, analysis_unit, outcome_tier partial_repigmentation, NOT_DERIVABLE timing, dark_overshoot and texture_or_scar check out. 6 failed cells (3 per row): row 0, attrition: says 'not reported (no losses mentioned)', but Methods state 'All the patients were reassessed at the end of 3 months, both subjectively and objectively', i.e. no patient lost; the paper is not silent. row 0, patients_evaluable: says 'not reported directly; [20]' as an inference from macule counts, but the same sentence ('All the patients were reassessed at the end of 3 months') states it directly. row 0, uncertainty: omits that the Introduction says the method 'is based on post inflammatory hyperpigmentation induced by chemical wounding', so the 3-month 'repigmentation' may be inflammatory pigment rather than a lasting colour match. row 1, attrition: same as row 0. row 1, patients_evaluable: same as row 0. row 1, uncertainty: same omission as row 0."
  }
 }
