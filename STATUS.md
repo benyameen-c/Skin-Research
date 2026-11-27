@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, end of session 1.
+Last updated: 2026-11-27, session 2 (laosakul2017 rerun).
 
 ## Open module
 
@@ -17,7 +17,7 @@ Last updated: 2026-11-27, end of session 1.
 ## To close Module 1
 
 - [ ] Re-extract the 9 extracted studies as staging records with verbatim quotes (`tools/ledger.py check` lists them).
-- [ ] Read the free full text of laosakul2017 and resolve the 82.3% denominator and the patient count.
+- [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Staging record `data/staging/laosakul2017.json` written from the abstract (ABSTRACT_ONLY, 3 rows, validator ok, verifier PENDING). Full text still needs a PDF from Ben.
 - [ ] Extract the registry-posted results of NCT01956435.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
@@ -28,7 +28,7 @@ Last updated: 2026-11-27, end of session 1.
 | study_id | Reference | Why it matters |
 |---|---|---|
 | review2025 | Aravindakshan et al., Clin Exp Dermatol 2025, doi:10.1093/ced/llaf134 | list of the 20 included studies, for citation tracking |
-| laosakul2017 | J Dermatolog Treat 2017, doi:10.1080/09546634.2016.1221498 (PubMed says free) | denominators; longest follow-up found |
+| laosakul2017 | J Dermatolog Treat 2017, doi:10.1080/09546634.2016.1221498 (PubMed links a free icon, but Europe PMC says subscription required; not in PMC; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/ on 2026-11-27) | denominators; patient count; longest follow-up found |
 | arbache2023 | Dermatol Surg 2023, doi:10.1097/DSS.0000000000003793 | sessions, assessor, any later visit |
 | rerknimitr2015 | J Eur Acad Dermatol Venereol 2015, doi:10.1111/jdv.12763 | counts behind 83.34% and 18.34% |
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x | the 11% denominator |
@@ -43,7 +43,9 @@ Last updated: 2026-11-27, end of session 1.
 
 ## Blocked
 
-Nothing yet.
+| unit | status | tried |
+|---|---|---|
+| laosakul2017 full text | BLOCKED (abstract extracted instead) | https://www.tandfonline.com/doi/full/10.1080/09546634.2016.1221498 and /doi/pdf/ (HTTP 403, 2026-11-27); Europe PMC: subscription required |
 
 ## Next session
 
