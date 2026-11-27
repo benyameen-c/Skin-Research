@@ -41,6 +41,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
+| ploysangam1990 | J Am Acad Dermatol 1990;23(4 Pt 1):681-4, PMID 2229495, doi:10.1016/0190-9622(90)70273-k (Europe PMC: subscription required, not in PMC; https://www.jaad.org/article/0190-9622(90)70273-K/fulltext and /pdf HTTP 403, 2026-11-27) | lesion and biopsy counts, number of freezing sessions, follow-up after the final freeze, completeness of repigmentation |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
 ## Human gates
@@ -74,6 +75,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - gordon2017: verifier 1 FAIL (1 cell), corrected, verifier 2 PASS. Merged. Same cohort as NCT01956435 (BLOCKED); reconcile before any merge of that record.
 - arbache2023: FAIL twice. BLOCKED.
 - rerknimitr2015: FAIL twice. BLOCKED.
+
+## Batch 3 staging (2026-11-27)
+
+- ploysangam1990 (PMID 2229495, liquid nitrogen cryotherapy): staged ABSTRACT_ONLY, 2 rows (clinical repigmentation; dopa-positive melanocyte histology), both `unquantified`, months NOT_DERIVABLE. Validator ok, verifier PENDING. Excerpt at `/mnt/project-files/papers/excerpts/ploysangam1990.txt`. Full text on paywall list.
 
 ## Next session
 
