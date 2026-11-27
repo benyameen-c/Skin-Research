@@ -132,7 +132,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Checked both rows against papers/excerpts/rerknimitr2013.txt (PubMed abstract). All 8 quotes are verbatim and support their cells for the right arm and the 6-month visit. time_from_last_treatment NOT_DERIVABLE is correct (visits counted 'of treatment', no post-treatment visit). analysis_unit side (row 0, split-body colorimeter comparison) and patient (row 1, '11% of the patients') match the text. outcome_tiers are the weakest supported (instrument_color; partial_repigmentation for undefined 'improvement'). Missing cells correctly marked 'not in abstract'. Uncertainty covers the clinical non-significance, missing effect size, undefined unit and the 11%-of-26 denominator mismatch. Observation, not a failed cell: the endpoint_definition gloss 'lower value = darker skin' is not stated in the abstract; it is consistent with the title ('promotes repigmentation') and is flagged in row 0 uncertainty. Verified 2026-11-27 from abstract only."
   }
 }
