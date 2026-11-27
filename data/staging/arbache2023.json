@@ -1,0 +1,257 @@
+{
+ "study_id": "arbache2023",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/arbache2023.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "arbache2023",
+   "doi_or_pmid": "PMID 37011024; doi:10.1097/DSS.0000000000003793; NCT02904564",
+   "source_location": "PubMed abstract (Methods, Results); ClinicalTrials.gov NCT02904564 protocol record, no posted results",
+   "access_level": "ABSTRACT_ONLY (abstract plus registry protocol; full text needed, subscription only)",
+   "diagnosis": "IGH",
+   "design": "split-body randomized single-blinded trial (abstract); registry lists allocation RANDOMIZED, intervention model PARALLEL, masking DOUBLE (participant, outcomes assessor)",
+   "body_site": "limbs (abstract); upper limbs (registry protocol)",
+   "skin_tone": "not in abstract (registry inclusion criteria: Fitzpatrick skin types III - V; distribution of enrolled patients not in abstract)",
+   "patients_enrolled": "twenty-nine [29] included (28 women)",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "limb (median number of achromic lesions per limb)",
+   "endpoint_definition": "number of achromic lesions 30 days after treatment compared with baseline",
+   "assessment_method": "lesion count (assessor not in abstract; registry protocol: two assessors count independently)",
+   "time_from_start": "not in abstract",
+   "time_from_last_treatment": "30 days after treatment (number of sessions not in abstract)",
+   "complete_match": "not in abstract (endpoint is a lesion count; registry lists no colour-match outcome)",
+   "dark_overshoot": "not in abstract (abstract states no adverse events; hyperpigmentation not named as an outcome)",
+   "texture_or_scar": "no adverse events reported in abstract (registry lists scars among local adverse events)",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING",
+   "outcome_tier": "lesion_count",
+   "citation": "Arbache S, Hirata SH. Dermatol Surg 2023;49(6):603-608",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/37011024/",
+   "months_after_final_tx": "1",
+   "intervention": "5-fluorouracil delivered with a tattoo machine (dose and number of sessions not in abstract)",
+   "comparator": "saline delivered with a tattoo machine, contralateral limb",
+   "arm_result": "median achromic lesions 32 (IQR 23-37) at baseline to 12 (IQR 6-18) post-treatment, p = .000003; reduction more pronounced than saline limbs, p = .00003",
+   "patient_noticeability": "all participants satisfied or very satisfied with 5FU-treated limbs (Likert scale per registry; no numbers given)",
+   "uncertainty": "Months value [1] is 30 days converted, and assumes 'after treatment' means after the final session; the number of sessions is not in abstract. Design conflict: abstract says split-body and single-blinded; registry says intervention model PARALLEL and masking DOUBLE (participant, outcomes assessor), while its description says split body. Who was blinded is not in abstract. Enrolment: registry estimated 30; abstract reports twenty-nine [29] included; withdrawals and number analysed not in abstract. Sponsor and authorship: registry lead sponsor is 'Clinica Dermatologica Arbache ltda', which shares the first author's surname [inferred link; funding and conflict statements not in abstract]. Registry: status UNKNOWN (last known RECRUITING), last update 2019, no posted results, IPD sharing NO; registry titles call the procedure microneedling, abstract calls it tattoo-machine delivery. A fall in the achromic count does not show that spots match surrounding skin; partial and complete repigmentation are not separated. Medians are of per-limb lesion counts; total lesions and lesions per patient not in abstract. Registry inclusion ages 30 to 70; abstract says only adults; skin tone of enrolled patients not in abstract. Between-arm comparison given only as a p value; no effect size or confidence interval in abstract. The saline limbs also improved (see saline row) [so part of this change may not be due to 5FU].",
+   "treatment_class": "needling_drug_delivery"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "arbache2023",
+   "doi_or_pmid": "PMID 37011024; doi:10.1097/DSS.0000000000003793; NCT02904564",
+   "source_location": "PubMed abstract (Methods, Results); ClinicalTrials.gov NCT02904564 protocol record, no posted results",
+   "access_level": "ABSTRACT_ONLY (abstract plus registry protocol; full text needed, subscription only)",
+   "diagnosis": "IGH",
+   "design": "split-body randomized single-blinded trial (abstract); registry lists allocation RANDOMIZED, intervention model PARALLEL, masking DOUBLE (participant, outcomes assessor)",
+   "body_site": "limbs (abstract); upper limbs (registry protocol)",
+   "skin_tone": "not in abstract (registry inclusion criteria: Fitzpatrick skin types III - V; distribution of enrolled patients not in abstract)",
+   "patients_enrolled": "twenty-nine [29] included (28 women)",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "limb (median number of achromic lesions per limb)",
+   "endpoint_definition": "number of achromic lesions 30 days after treatment compared with baseline",
+   "assessment_method": "lesion count (assessor not in abstract; registry protocol: two assessors count independently)",
+   "time_from_start": "not in abstract",
+   "time_from_last_treatment": "30 days after treatment (number of sessions not in abstract)",
+   "complete_match": "not in abstract (endpoint is a lesion count; registry lists no colour-match outcome)",
+   "dark_overshoot": "not in abstract (abstract states no adverse events; hyperpigmentation not named as an outcome)",
+   "texture_or_scar": "no adverse events reported in abstract (registry lists scars among local adverse events)",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING",
+   "outcome_tier": "lesion_count",
+   "citation": "Arbache S, Hirata SH. Dermatol Surg 2023;49(6):603-608",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/37011024/",
+   "months_after_final_tx": "1",
+   "intervention": "saline delivered with a tattoo machine (number of sessions not in abstract)",
+   "comparator": "5-fluorouracil delivered with a tattoo machine, contralateral limb",
+   "arm_result": "median achromic lesions 31 (IQR 24-43) at baseline to 21 (IQR 16-31) post-treatment, p = .000006",
+   "patient_noticeability": "not in abstract for saline-treated limbs",
+   "uncertainty": "Months value [1] is 30 days converted, and assumes 'after treatment' means after the final session; the number of sessions is not in abstract. Design conflict: abstract says split-body and single-blinded; registry says intervention model PARALLEL and masking DOUBLE (participant, outcomes assessor), while its description says split body. Who was blinded is not in abstract. Enrolment: registry estimated 30; abstract reports twenty-nine [29] included; withdrawals and number analysed not in abstract. Sponsor and authorship: registry lead sponsor is 'Clinica Dermatologica Arbache ltda', which shares the first author's surname [inferred link; funding and conflict statements not in abstract]. Registry: status UNKNOWN (last known RECRUITING), last update 2019, no posted results, IPD sharing NO; registry titles call the procedure microneedling, abstract calls it tattoo-machine delivery. A fall in the achromic count does not show that spots match surrounding skin; partial and complete repigmentation are not separated. Medians are of per-limb lesion counts; total lesions and lesions per patient not in abstract. Registry inclusion ages 30 to 70; abstract says only adults; skin tone of enrolled patients not in abstract. Control arm improved: the needled saline limb is labelled PLACEBO_COMPARATOR in the registry but is itself a needling procedure [so needling itself or regression to the mean may explain part of the change in both arms].",
+   "treatment_class": "needling_sham"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "Twenty-nine patients (28 women) were included.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Outcomes were the number of achromic lesions 30 days after treatment compared with baseline",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "This split-body randomized single-blinded trial recruited adults with symmetrical IGH lesions.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "Intervention model: PARALLEL",
+   "location": "ClinicalTrials.gov record, design"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "Masking: DOUBLE (PARTICIPANT, OUTCOMES_ASSESSOR)",
+   "location": "ClinicalTrials.gov record, design"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Enrollment: 30 (ESTIMATED)",
+   "location": "ClinicalTrials.gov record, design"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Lead sponsor: Clinica Dermatologica Arbache ltda",
+   "location": "ClinicalTrials.gov record, sponsor"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Detailed description: Split body design. Each upper limb will receive a different intervention (experimental or placebo)",
+   "location": "ClinicalTrials.gov record, description"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "Fitzpatrick skin types III - V",
+   "location": "ClinicalTrials.gov record, inclusion criteria"
+  },
+  {
+   "row": 0,
+   "field": "assessment_method",
+   "quote": "Two assessors will independently count the number of lesions in the treated skin area. Time frame: 30 days",
+   "location": "ClinicalTrials.gov record, primary outcome"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "There were no adverse events.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Frequency of patients presenting at least one local adverse event (ex:intense pain, scars, infection).",
+   "location": "ClinicalTrials.gov record, secondary outcome"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "Twenty-nine patients (28 women) were included.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "Outcomes were the number of achromic lesions 30 days after treatment compared with baseline",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "This split-body randomized single-blinded trial recruited adults with symmetrical IGH lesions.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "Intervention model: PARALLEL",
+   "location": "ClinicalTrials.gov record, design"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "Masking: DOUBLE (PARTICIPANT, OUTCOMES_ASSESSOR)",
+   "location": "ClinicalTrials.gov record, design"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Enrollment: 30 (ESTIMATED)",
+   "location": "ClinicalTrials.gov record, design"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Lead sponsor: Clinica Dermatologica Arbache ltda",
+   "location": "ClinicalTrials.gov record, sponsor"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Detailed description: Split body design. Each upper limb will receive a different intervention (experimental or placebo)",
+   "location": "ClinicalTrials.gov record, description"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "Fitzpatrick skin types III - V",
+   "location": "ClinicalTrials.gov record, inclusion criteria"
+  },
+  {
+   "row": 1,
+   "field": "assessment_method",
+   "quote": "Two assessors will independently count the number of lesions in the treated skin area. Time frame: 30 days",
+   "location": "ClinicalTrials.gov record, primary outcome"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "There were no adverse events.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Frequency of patients presenting at least one local adverse event (ex:intense pain, scars, infection).",
+   "location": "ClinicalTrials.gov record, secondary outcome"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "The median number of achromic lesions decreased significantly in 5FU-treated limbs (baseline: 32, interquartile range (IQR) 23-37 × post-treatment: 12, IQR 6-18, p = .000003)",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "but reduction was significantly more pronounced in 5FU-treated limbs ( p = .00003)",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "patient_noticeability",
+   "quote": "All participants were satisfied or very satisfied with results on 5FU-treated limbs.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "saline-treated limbs (baseline: 31, IQR 24-43 × post-treatment: 21, IQR 16-31, p = .000006)",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Arm: MMP with saline infusion [PLACEBO_COMPARATOR]: MMP with saline infusion using tattoo device",
+   "location": "ClinicalTrials.gov record, arms"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
