@@ -41,6 +41,10 @@ Last updated: 2026-11-27, end of session 1.
 - **Gate A (after any search):** Ben reviews the screening list and supplies PDFs before extraction starts.
 - **Gate B (before anything is public):** Ben reviews the ledger diff, sets the contact route in `site.json`, approves launch and any email.
 
+## In progress
+
+- rerknimitr2015 (2026-11-27): fresh extraction from the saved PubMed abstract, written from scratch after the earlier record was BLOCKED on batch-2 branches (Ben approved a fresh attempt). `data/staging/rerknimitr2015.json`, ABSTRACT_ONLY, 5 rows (physician grading treated and control; colourimetry weeks 8, [12], 16), validator ok, verifier PENDING. All rows `NOT_DERIVABLE`/`NOT_APPLICABLE` for months after final treatment: the abstract never states the week of the final session. Full text still on the paywall list.
+
 ## Blocked
 
 Nothing yet.
