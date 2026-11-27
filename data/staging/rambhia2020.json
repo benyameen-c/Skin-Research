@@ -126,7 +126,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Verifier 2026-11-27, attempt 1, source papers/excerpts/rambhia2020.txt (FULL_TEXT). 0 failed cells. All 14 quotes found in the source (5 after whitespace normalisation: the source uses non-breaking spaces). Checked: time_from_last_treatment 'not reported' and months_after_final_tx NOT_DERIVABLE are correct (no follow-up interval stated anywhere); outcome_tier 'unquantified' is the weakest reading (qualitative 'complete uniform repigmentation', no count, scale or time after final treatment); analysis_unit, patient and lesion counts, body_site and skin_tone correctly 'not reported' (the extremities and darker-skin sentences in 'Therapeutic challenge' describe the condition generally, not the treated patient); dark_overshoot and texture_or_scar correctly 'not reported' with the general no-adverse-effects statement bracketed; uncertainty records the 2 sittings vs 'single needling sitting' caption conflict, the unsupported 'long-lasting' claim, the off-label and unknown safety statement and IRB 'Not applicable'."
   }
 }
