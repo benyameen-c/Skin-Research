@@ -35,7 +35,7 @@
    "comparator": "saline delivered with a tattoo machine, contralateral limb",
    "arm_result": "median achromic lesions 32 (IQR 23-37) at baseline to 12 (IQR 6-18) after treatment; p = .000003",
    "patient_noticeability": "All participants were satisfied or very satisfied with results on 5FU-treated limbs (scale not in abstract; registry plans a Likert scale)",
-   "uncertainty": "Between-arm reduction p = .00003 (abstract). months_after_final_tx 1 is [30 days] converted to months; the abstract says '30 days after treatment' but does not give the number of sessions, so the full text is needed to confirm the count is from the final session. Registry enrollment is 30 (ESTIMATED) against 29 included. Abstract says single-blinded; registry says double masking. Registry calls the comparator conventional microneedling; arms are 5FU vs saline delivered with a tattoo machine. Lesion totals across patients, per-lesion size and lesions per limb beyond the median are not in abstract. Same registered trial as arbache2018 (preliminary report); count the cohort once.",
+   "uncertainty": "Between-arm reduction p = .00003 (abstract). months_after_final_tx 1 is [30 days] converted to months; the abstract says '30 days after treatment' but does not give the number of sessions, so the full text is needed to confirm the count is from the final session. Registry enrollment is 30 (ESTIMATED) against 29 included. Abstract says single-blinded; registry says double masking. Registry calls the comparator conventional microneedling; arms are 5FU vs saline delivered with a tattoo machine. Lesion totals across patients, per-lesion size and lesions per limb beyond the median are not in abstract. The saline-treated limbs also improved significantly (baseline 31, IQR 24-43 to post-treatment 21, IQR 16-31, p = .000006), [inference: part of the 5FU limb change may not be due to 5FU; the between-arm p = .00003 is the 5FU vs saline comparison].",
    "treatment_class": "needling_drug_delivery"
   },
   {
@@ -70,7 +70,7 @@
    "comparator": "5-fluorouracil delivered with a tattoo machine, contralateral limb",
    "arm_result": "median achromic lesions 31 (IQR 24-43) at baseline to 21 (IQR 16-31) after treatment; p = .000006",
    "patient_noticeability": "not in abstract for saline-treated limbs",
-   "uncertainty": "Between-arm reduction p = .00003 (abstract). months_after_final_tx 1 is [30 days] converted to months; the abstract says '30 days after treatment' but does not give the number of sessions, so the full text is needed to confirm the count is from the final session. Registry enrollment is 30 (ESTIMATED) against 29 included. Abstract says single-blinded; registry says double masking. Registry calls the comparator conventional microneedling; arms are 5FU vs saline delivered with a tattoo machine. Lesion totals across patients, per-lesion size and lesions per limb beyond the median are not in abstract. Same registered trial as arbache2018 (preliminary report); count the cohort once. The saline (sham) limb also improved significantly, so needling itself, season or regression to the mean may explain part of the change on both sides.",
+   "uncertainty": "Between-arm reduction p = .00003 (abstract). months_after_final_tx 1 is [30 days] converted to months; the abstract says '30 days after treatment' but does not give the number of sessions, so the full text is needed to confirm the count is from the final session. Registry enrollment is 30 (ESTIMATED) against 29 included. Abstract says single-blinded; registry says double masking. Registry calls the comparator conventional microneedling; arms are 5FU vs saline delivered with a tattoo machine. Lesion totals across patients, per-lesion size and lesions per limb beyond the median are not in abstract. The saline limb (placebo comparator in the registry) also improved significantly [inference, not stated in the source: needling itself, season or regression to the mean may explain part of the change on both sides].",
    "treatment_class": "needling_sham"
   }
  ],
@@ -268,6 +268,18 @@
    "location": "Registry, secondary outcome"
   },
   {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "saline-treated limbs (baseline: 31, IQR 24-43 × post-treatment: 21, IQR 16-31, p = .000006)",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "saline-treated limbs (baseline: 31, IQR 24-43 × post-treatment: 21, IQR 16-31, p = .000006)",
+   "location": "PubMed abstract, Results"
+  },
+  {
    "row": 1,
    "field": "arm_result",
    "quote": "saline-treated limbs (baseline: 31, IQR 24-43 × post-treatment: 21, IQR 16-31, p = .000006)",
@@ -281,7 +293,7 @@
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "row 0, uncertainty: the source says saline-treated limbs also improved significantly (baseline 31, IQR 24-43 to post-treatment 21, IQR 16-31, p = .000006); this weakens the 5FU arm result and is missing from row 0's uncertainty (it appears only in row 1). Also 'Same registered trial as arbache2018 (preliminary report)': the saved source text never mentions arbache2018 or a preliminary report; no quote supports it. | row 1, uncertainty: 'Same registered trial as arbache2018 (preliminary report)': the saved source text never mentions arbache2018 or a preliminary report; no quote supports it. | Checked and consistent with source: all 36 quotes, arm results, p values, 29 patients (28 women), 30-day timing marked unconfirmed as from final session, analysis_unit limb, outcome_tier lesion_count, adverse events marked not in abstract, registry masking/enrollment discrepancies. Verified 2026-11-27 from papers/excerpts/arbache2023.txt alone."
+  "status": "PENDING",
+  "notes": ""
  }
 }
