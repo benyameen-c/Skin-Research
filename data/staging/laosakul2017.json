@@ -173,7 +173,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Second check 2026-11-27, from papers/excerpts/laosakul2017.txt (PubMed abstract) alone. All 3 rows: quotes match arm and time point; time_from_last_treatment and months_after_final_tx correctly NOT_DERIVABLE (abstract counts from baseline only); analysis_unit lesion matches; outcome_tier is the weakest reading (more than 75% improvement = partial; luminosity = instrument_color); overshoot, scar and attrition marked not in abstract; luminosity direction bracketed. No failed cells."
   }
 }
