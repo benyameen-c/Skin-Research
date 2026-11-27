@@ -597,7 +597,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Rows are numbered from 0, as in the quotes list. row 2, analysis_unit: abstract gives no unit for the physician GAI median and the record itself says 'unit of the median not stated'; 'lesion' is an inferred value and needs [square brackets]; registry says each area was 'split into two halves then randomized', so the arm unit may be a half-area. row 3, analysis_unit: same as row 2. row 4, analysis_unit: same as row 2 (VESTA median, unit not stated). row 5, analysis_unit: same as row 4. row 8, analysis_unit: same as row 2 (surface tanning median, unit not stated). row 9, analysis_unit: same as row 8. row 2, uncertainty: registry says 'One unblinded and 2 blinded investigators assessed the global improvement', which conflicts with 'Masking: DOUBLE (INVESTIGATOR, OUTCOMES_ASSESSOR)'; an unblinded assessor in the physician GAI is not recorded as a weakness. row 3, uncertainty: same as row 2. rows 0 to 9, uncertainty: abstract conclusion says 'localized acquired hypomelanosis in normal-texture and scarred skin', so the sample mixed scarred and normal-texture skin at baseline; this heterogeneity is absent from uncertainty in every row (10 cells). Checked and supported: every quote is in the source; arm_result values match the right arm in all 10 rows; time_from_last_treatment 3 months is supported by 'a single session ... Three months later' and '3 months post treatment'; patients_enrolled 20; outcome_tier partial_repigmentation is the weakest reading; missing-data wording is correct."
  }
 }
