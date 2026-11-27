@@ -209,7 +209,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Checked 2026-11-27 against papers/excerpts/chitvanich2016.txt (PubMed abstract) alone. All 15 quotes occur verbatim in the source and support their cells for the stated row. Row 0: week 12 reading is 'after three sessions' of four, so time_from_last_treatment NOT_DERIVABLE is correct; outcome_tier instrument_color is the weakest reading of 'normalized' with no values. Row 1: 'showed an improvement' correctly tiered partial_repigmentation; assessment timing correctly NOT_DERIVABLE. Row 2: control result correctly 'not in abstract'. analysis_unit lesion matches all counts. Excess pigment, attrition and scarring absent from text and marked 'not in abstract'; swelling and redness recorded. Uncertainty covers the 120-lesion ambiguity, missing patient count, combination-only design, untreated/vehicle control unknown, possible rerknimitr2015 cohort overlap, mid-course timing. 0 failed cells. Minor, not a failure: row 0 time_from_start 'week 12' has no quote filed under that field, but the number appears in the row 0 time_from_last_treatment and arm_result quotes."
   }
 }

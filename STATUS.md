@@ -21,7 +21,7 @@ Last updated: 2026-11-27, session 2 (batch 1 merge); chitvanich2016 staged (batc
 - [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Abstract-based record merged 2026-11-27 (ABSTRACT_ONLY). Full text still needs a PDF from Ben (paywall list). Note: the merged rows' `verification_status` cell still reads `PENDING (abstract only)` although the record's verifier status is PASS; the record was merged unedited.
 - [ ] Extract the registry-posted results of NCT01956435. BLOCKED 2026-11-27 after two verifier FAILs; not merged. Record `data/staging/nct01956435.json` carries the second FAIL and its notes. Ben decides whether a third extraction is allowed. Same cohort as gordon2017: reconcile before any future merge.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
-  - chitvanich2016: staged 2026-11-27 as `data/staging/chitvanich2016.json` (ABSTRACT_ONLY, 3 rows, validator ok, verifier PENDING). Possible shared cohort with rerknimitr2015 (same authors, laser, schedule, lesion layout); abstract's 120-lesion count is ambiguous.
+  - chitvanich2016: staged 2026-11-27 as `data/staging/chitvanich2016.json` (ABSTRACT_ONLY, 3 rows, validator ok, verifier PASS 2026-11-27, not yet merged). Possible shared cohort with rerknimitr2015 (same authors, laser, schedule, lesion layout); abstract's 120-lesion count is ambiguous.
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
 - [ ] First real run of `tools/pubmed.py` (never executed).
 
@@ -57,6 +57,8 @@ Last updated: 2026-11-27, session 2 (batch 1 merge); chitvanich2016 staged (batc
 - 2026-11-27, nct01956435: re-extracted after FAIL 1. Control row now treatment_class `control`, time from last treatment `not applicable`, months `NOT_APPLICABLE`; self-report row comparator `none`. Also added quotes for evaluable and attrition counts, Fitzpatrick limitation in skin_tone. Validator ok, verifier PENDING. A second FAIL makes it BLOCKED.
 - 2026-11-27, nct01956435: verifier **FAIL, attempt 2 of 2**, 3 cells. BLOCKED, not merged.
 - 2026-11-27, laosakul2017: verifier FAIL (5 cells), corrected, verifier PASS on second check. Merged with `tools/ledger.py merge`: the 2 abstract rows were replaced whole by the record's 3 rows and 9 quotes.
+
+- 2026-11-27, chitvanich2016 (staging record from claude/project-thread-m788xq): verifier **PASS** on first check, 0 failed cells. Ready for `tools/ledger.py merge` by the collector. Cohort overlap with rerknimitr2015 still to reconcile.
 
 ## Next session
 
