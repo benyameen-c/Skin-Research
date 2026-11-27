@@ -1,0 +1,214 @@
+{
+ "study_id": "kreeshan2021",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/kreeshan2021.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "kreeshan2021",
+   "doi_or_pmid": "doi:10.4103/JCAS.JCAS_112_20; PMID 34084020; PMCID PMC8149992",
+   "access_level": "FULL_TEXT (open access via Europe PMC fullTextXML for PMC8149992, fetched 2026-11-27; figures not saved)",
+   "diagnosis": "IGH (clinical diagnosis; no biopsy or dermoscopy reported)",
+   "design": "single case report; [within-patient, non-randomized, unblinded comparison of one small bimatoprost-treated patch with excimer-only macules]",
+   "body_site": "legs (both legs)",
+   "skin_tone": "Fitzpatrick skin phototype 4",
+   "patients_enrolled": "[1] (single case report)",
+   "patients_evaluable": "[1] (single case report)",
+   "lesions_enrolled": "not reported (multiple macules on both legs; number not given)",
+   "lesions_evaluable": "not reported",
+   "comparator": "excimer plus topical bimatoprost on a small patch of the same patient",
+   "assessment_method": "not reported (authors' clinical impression with before and after photographs; no scale, no blinded assessor, no instrument)",
+   "patient_noticeability": "not measured",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported (no adverse effects described)",
+   "attrition": "not reported ([single patient; no loss described])",
+   "verification_status": "PENDING",
+   "citation": "Kreeshan FC, Madan V. Idiopathic Guttate Hypomelanosis Treated with 308-nm Excimer Light and Topical Bimatoprost. J Cutan Aesthet Surg 2021;14(1):115-117",
+   "source_url": "https://europepmc.org/article/PMC/PMC8149992",
+   "analysis_unit": "patient (single case); excimer-only macules assessed together [not counted]",
+   "intervention": "308 nm excimer lamp, 250-480 mJ, targeted phototherapy alone (macules outside the bimatoprost patch); session frequency not reported",
+   "endpoint_definition": "authors' qualitative comparison of improvement between the combination patch and excimer-only skin after five sessions",
+   "time_from_start": "after five sessions (calendar time not reported)",
+   "time_from_last_treatment": "NOT_APPLICABLE: still on treatment",
+   "months_after_final_tx": "NOT_APPLICABLE",
+   "arm_result": "[less improvement than the combination patch] (inferred from the comparison; relative statement only; no grade or percentage)",
+   "outcome_tier": "unquantified",
+   "treatment_class": "energy_device",
+   "source_location": "Case report",
+   "uncertainty": "Single case report (n of one), no control lesion left untreated, no blinding, no scale or measurement; result is the authors' qualitative impression. Session frequency, total number of excimer sessions on excimer-only macules, bimatoprost duration and the dose unit (written '250–480 mJ' with no area) are not reported. Abstract and case text call the macules 'hypopigmented' and 'depigmented' interchangeably. Prior topical pimecrolimus failed; positive family history of IGH. Discussion says 'successfully treated', which is stronger than the case text ('Good repigmentation' on small macules only, larger macules still improving). Only before and after figures are offered as evidence; no follow-up after the final treatment is reported. This row's result exists only as the comparison 'better improvement was noted on the combination treatment patch'; the excimer-only result is not described on its own. [Whether excimer-only macules kept receiving excimer alone after session five is not stated.]"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "kreeshan2021",
+   "doi_or_pmid": "doi:10.4103/JCAS.JCAS_112_20; PMID 34084020; PMCID PMC8149992",
+   "access_level": "FULL_TEXT (open access via Europe PMC fullTextXML for PMC8149992, fetched 2026-11-27; figures not saved)",
+   "diagnosis": "IGH (clinical diagnosis; no biopsy or dermoscopy reported)",
+   "design": "single case report; [within-patient, non-randomized, unblinded comparison of one small bimatoprost-treated patch with excimer-only macules]",
+   "body_site": "legs (both legs)",
+   "skin_tone": "Fitzpatrick skin phototype 4",
+   "patients_enrolled": "[1] (single case report)",
+   "patients_evaluable": "[1] (single case report)",
+   "lesions_enrolled": "not reported (multiple macules on both legs; number not given)",
+   "lesions_evaluable": "not reported",
+   "comparator": "excimer alone on the other macules of the same patient",
+   "assessment_method": "not reported (authors' clinical impression with before and after photographs; no scale, no blinded assessor, no instrument)",
+   "patient_noticeability": "not measured",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported (no adverse effects described)",
+   "attrition": "not reported ([single patient; no loss described])",
+   "verification_status": "PENDING",
+   "citation": "Kreeshan FC, Madan V. Idiopathic Guttate Hypomelanosis Treated with 308-nm Excimer Light and Topical Bimatoprost. J Cutan Aesthet Surg 2021;14(1):115-117",
+   "source_url": "https://europepmc.org/article/PMC/PMC8149992",
+   "analysis_unit": "patient (single case); one small treated patch [not counted in lesions]",
+   "intervention": "308 nm excimer lamp, 250-480 mJ, plus once-daily topical bimatoprost (Lumigan 0.1 mg/mL) on a small patch",
+   "endpoint_definition": "authors' qualitative comparison of improvement between the combination patch and excimer-only skin after five sessions",
+   "time_from_start": "after five sessions (calendar time not reported)",
+   "time_from_last_treatment": "NOT_APPLICABLE: still on treatment",
+   "months_after_final_tx": "NOT_APPLICABLE",
+   "arm_result": "better improvement than excimer-only skin (relative statement only; no grade or percentage)",
+   "outcome_tier": "unquantified",
+   "treatment_class": "energy_device_plus_topical",
+   "source_location": "Case report; Abstract",
+   "uncertainty": "Single case report (n of one), no control lesion left untreated, no blinding, no scale or measurement; result is the authors' qualitative impression. Session frequency, total number of excimer sessions on excimer-only macules, bimatoprost duration and the dose unit (written '250–480 mJ' with no area) are not reported. Abstract and case text call the macules 'hypopigmented' and 'depigmented' interchangeably. Prior topical pimecrolimus failed; positive family history of IGH. Discussion says 'successfully treated', which is stronger than the case text ('Good repigmentation' on small macules only, larger macules still improving). Only before and after figures are offered as evidence; no follow-up after the final treatment is reported. One small patch only, chosen non-randomly; size and number of macules in the patch not reported."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "kreeshan2021",
+   "doi_or_pmid": "doi:10.4103/JCAS.JCAS_112_20; PMID 34084020; PMCID PMC8149992",
+   "access_level": "FULL_TEXT (open access via Europe PMC fullTextXML for PMC8149992, fetched 2026-11-27; figures not saved)",
+   "diagnosis": "IGH (clinical diagnosis; no biopsy or dermoscopy reported)",
+   "design": "single case report; [within-patient, non-randomized, unblinded comparison of one small bimatoprost-treated patch with excimer-only macules]",
+   "body_site": "legs (both legs)",
+   "skin_tone": "Fitzpatrick skin phototype 4",
+   "patients_enrolled": "[1] (single case report)",
+   "patients_evaluable": "[1] (single case report)",
+   "lesions_enrolled": "not reported (multiple macules on both legs; number not given)",
+   "lesions_evaluable": "not reported",
+   "comparator": "none at this time point (no excimer-only result reported)",
+   "assessment_method": "not reported (authors' clinical impression with before and after photographs; no scale, no blinded assessor, no instrument)",
+   "patient_noticeability": "not measured",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported (no adverse effects described)",
+   "attrition": "not reported ([single patient; no loss described])",
+   "verification_status": "PENDING",
+   "citation": "Kreeshan FC, Madan V. Idiopathic Guttate Hypomelanosis Treated with 308-nm Excimer Light and Topical Bimatoprost. J Cutan Aesthet Surg 2021;14(1):115-117",
+   "source_url": "https://europepmc.org/article/PMC/PMC8149992",
+   "analysis_unit": "patient (single case); smaller versus larger macules described [not counted]",
+   "intervention": "308 nm excimer lamp, 250-480 mJ, plus once-daily topical bimatoprost (Lumigan 0.1 mg/mL); 'combination treatments for further six sessions' after the first five",
+   "endpoint_definition": "authors' qualitative description of repigmentation ('good repigmentation') at the last reported assessment",
+   "time_from_start": "after [eleven] sessions in total ([five] plus a further six; calendar time not reported)",
+   "time_from_last_treatment": "not reported: time between the final session and the assessment is not stated, and treatment of larger macules was continuing",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "arm_result": "good repigmentation on smaller macules; larger macules continued to improve (no grade, percentage or count)",
+   "outcome_tier": "unquantified",
+   "treatment_class": "energy_device_plus_topical",
+   "source_location": "Case report; Abstract",
+   "uncertainty": "Single case report (n of one), no control lesion left untreated, no blinding, no scale or measurement; result is the authors' qualitative impression. Session frequency, total number of excimer sessions on excimer-only macules, bimatoprost duration and the dose unit (written '250–480 mJ' with no area) are not reported. Abstract and case text call the macules 'hypopigmented' and 'depigmented' interchangeably. Prior topical pimecrolimus failed; positive family history of IGH. Discussion says 'successfully treated', which is stronger than the case text ('Good repigmentation' on small macules only, larger macules still improving). Only before and after figures are offered as evidence; no follow-up after the final treatment is reported. Not stated whether the further six combination sessions covered all macules or only the bimatoprost patch, so this result may describe a mix of excimer-only and combination skin. [Total session count of eleven is inferred from 'five' plus 'further six'.] Treatment was ongoing at the last report ('continue to improve with further treatments'), so durability cannot be judged. 'Good repigmentation' is undefined and is not complete coverage or colour match."
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "She received targeted phototherapy with an excimer lamp (308 nm, 250–480 mJ)",
+   "location": "Case report"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "She had Fitzpatrick skin phototype 4 and a positive family history of IGH.",
+   "location": "Case report"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A 48-year-old female presented with an 8-year history of multiple depigmented macules on her legs, and this was diagnosed as IGH.",
+   "location": "Case report"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "After five sessions, better improvement was noted on the combination treatment patch; she received combination treatments for further six sessions.",
+   "location": "Case report"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "She received targeted phototherapy with an excimer lamp (308 nm, 250–480 mJ)",
+   "location": "Case report"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "She had Fitzpatrick skin phototype 4 and a positive family history of IGH.",
+   "location": "Case report"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "A 48-year-old female presented with an 8-year history of multiple depigmented macules on her legs, and this was diagnosed as IGH.",
+   "location": "Case report"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "After five sessions, better improvement was noted on the combination treatment patch; she received combination treatments for further six sessions.",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "She received targeted phototherapy with an excimer lamp (308 nm, 250–480 mJ)",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "skin_tone",
+   "quote": "She had Fitzpatrick skin phototype 4 and a positive family history of IGH.",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "A 48-year-old female presented with an 8-year history of multiple depigmented macules on her legs, and this was diagnosed as IGH.",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "After five sessions, better improvement was noted on the combination treatment patch; she received combination treatments for further six sessions.",
+   "location": "Case report"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "a small patch was treated with once-daily topical bimatoprost (Lumigan 0.1 mg/mL)",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "a small patch was treated with once-daily topical bimatoprost (Lumigan 0.1 mg/mL)",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Good repigmentation was achieved on small macules, and larger macules continued to improve [Figures 1 and 2].",
+   "location": "Case report"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "The larger depigmented macules continue to improve with further treatments.",
+   "location": "Abstract"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}

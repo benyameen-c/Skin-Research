@@ -64,6 +64,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - 2026-11-27, nct01956435: verifier **FAIL, attempt 2 of 2**, 3 cells. BLOCKED, not merged.
 - 2026-11-27, laosakul2017: verifier FAIL (5 cells), corrected, verifier PASS on second check. Merged with `tools/ledger.py merge`: the 2 abstract rows were replaced whole by the record's 3 rows and 9 quotes.
 
+## Extraction log (batch 3, 2026-11-27)
+
+- kreeshan2021 (PMID 34084020, single case report, excimer light plus topical bimatoprost): FULL_TEXT via Europe PMC open access (PMC8149992). Staging record `data/staging/kreeshan2021.json`, 3 rows, all `unquantified`, months after final treatment NOT_APPLICABLE or NOT_DERIVABLE. Validator ok, verifier PENDING. Excerpt at `/mnt/project-files/papers/excerpts/kreeshan2021.txt` (text only; figures not saved).
+
 ## Verification log (batch 2, 2026-11-27)
 
 - rerknimitr2013: verifier PASS. Merged.
