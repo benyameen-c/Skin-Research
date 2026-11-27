@@ -7,3 +7,210 @@
 {"row": 2, "field": "arm_result", "quote": "the score of the treated lesions has been significantly lower than that of the control lesions since week 8 (p = .005).", "location": "Abstract, Results", "study_id": "laosakul2017"}
 {"row": 2, "field": "time_from_last_treatment", "quote": "Colorimeter was used to measure lesional luminosity at baseline and then monthly until 4 months.", "location": "Abstract, Material and methods", "study_id": "laosakul2017"}
 {"row": 0, "field": "texture_or_scar", "quote": "Burning sensation was the most common side effect.", "location": "Abstract, Results", "study_id": "laosakul2017"}
+{"row": 0, "field": "patients_enrolled", "quote": "Twenty-six patients were included in the study.", "location": "Abstract, Materials and methods", "study_id": "rerknimitr2013"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "Colorimeter was used to assess skin colour at baseline and at 1, 2, 3, 4 and 6 months of treatment.", "location": "Abstract, Materials and methods", "study_id": "rerknimitr2013"}
+{"row": 1, "field": "patients_enrolled", "quote": "Twenty-six patients were included in the study.", "location": "Abstract, Materials and methods", "study_id": "rerknimitr2013"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "Colorimeter was used to assess skin colour at baseline and at 1, 2, 3, 4 and 6 months of treatment.", "location": "Abstract, Materials and methods", "study_id": "rerknimitr2013"}
+{"row": 0, "field": "arm_result", "quote": "Mean luminosity scale after adjusted for baseline from the treated side gradually decreased and reached statistical significance compared with the control group after 6 months of treatment (P = 0.019).", "location": "Abstract, Results", "study_id": "rerknimitr2013"}
+{"row": 1, "field": "arm_result", "quote": "Physicians' improvement grading score showed that 11% of the patients demonstrated improvement of their skin lesions on the treated side after 6 months' treatment.", "location": "Abstract, Results", "study_id": "rerknimitr2013"}
+{"row": 1, "field": "arm_result", "quote": "The improvements were best observed by colorimetry, yet, they were not statistically significant upon clinical assessments.", "location": "Abstract, Conclusion", "study_id": "rerknimitr2013"}
+{"row": 0, "field": "intervention", "quote": "Lesions on one side of the body were selected to have a treatment with 0.1% tacrolimus ointment, whereas those on the other side served as a control with placebo ointment that had the same physical appearance.", "location": "Abstract, Materials and methods", "study_id": "rerknimitr2013"}
+{"row": 0, "field": "patients_enrolled", "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "patients_enrolled", "quote": "The age of the participants was ranging from 60 to 76 years of age in our study.", "location": "Results", "study_id": "deoson2025"}
+{"row": 0, "field": "patients_evaluable", "quote": "Total 15 (100) 15 (100) 30 (100)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "lesions_enrolled", "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "lesions_enrolled", "quote": "Total(no. of macules) 75 75 150", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "lesions_evaluable", "quote": "Total(no. of macules) 75 75 150", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "analysis_unit", "quote": "The assessment was done for all treated macules separately and noted.", "location": "Materials and Methods, Clinical assessment score", "study_id": "deoson2025"}
+{"row": 0, "field": "endpoint_definition", "quote": "G0 = no improvement, G1 = up to 25% improvement, G2 = 25–50% of improvement, G3 = 51–75% of improvement and G4 = greater than 75% improvement.", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "assessment_method", "quote": "grading was done once every 4 weeks till 4 months.", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "time_from_start", "quote": "At the end of 4 months, out of 75 macules treated with cryotherapy,", "location": "Abstract, Result", "study_id": "deoson2025"}
+{"row": 0, "field": "time_from_start", "quote": "Figure 1: Distribution of therapeutic response at 16 weeks", "location": "Figure 1 caption", "study_id": "deoson2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.", "location": "Materials and Methods, Group A and Group B", "study_id": "deoson2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "grading was done once every 4 weeks till 4 months.", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "design", "quote": "allocating them in a randomized manner by selecting alternate patients.", "location": "Materials and Methods, Study Procedure", "study_id": "deoson2025"}
+{"row": 0, "field": "uncertainty", "quote": "Those who achieve complete repigmentation in all macules before 4 months would be released from study.", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "uncertainty", "quote": "(p value of 0.008)", "location": "Abstract, Result", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "(p value of 0.008)", "location": "Abstract, Result", "study_id": "deoson2025"}
+{"row": 1, "field": "patients_enrolled", "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "patients_enrolled", "quote": "The age of the participants was ranging from 60 to 76 years of age in our study.", "location": "Results", "study_id": "deoson2025"}
+{"row": 1, "field": "patients_evaluable", "quote": "Total 15 (100) 15 (100) 30 (100)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "lesions_enrolled", "quote": "30 patients with each group containing 15 patients and 5 macules in the pre – tibial region of each patient were selected.", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "lesions_enrolled", "quote": "Total(no. of macules) 75 75 150", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "lesions_evaluable", "quote": "Total(no. of macules) 75 75 150", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "analysis_unit", "quote": "The assessment was done for all treated macules separately and noted.", "location": "Materials and Methods, Clinical assessment score", "study_id": "deoson2025"}
+{"row": 1, "field": "endpoint_definition", "quote": "G0 = no improvement, G1 = up to 25% improvement, G2 = 25–50% of improvement, G3 = 51–75% of improvement and G4 = greater than 75% improvement.", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "assessment_method", "quote": "grading was done once every 4 weeks till 4 months.", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "time_from_start", "quote": "At the end of 4 months, out of 75 macules treated with cryotherapy,", "location": "Abstract, Result", "study_id": "deoson2025"}
+{"row": 1, "field": "time_from_start", "quote": "Figure 1: Distribution of therapeutic response at 16 weeks", "location": "Figure 1 caption", "study_id": "deoson2025"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.", "location": "Materials and Methods, Group A and Group B", "study_id": "deoson2025"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "grading was done once every 4 weeks till 4 months.", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "design", "quote": "allocating them in a randomized manner by selecting alternate patients.", "location": "Materials and Methods, Study Procedure", "study_id": "deoson2025"}
+{"row": 1, "field": "uncertainty", "quote": "Those who achieve complete repigmentation in all macules before 4 months would be released from study.", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "uncertainty", "quote": "(p value of 0.008)", "location": "Abstract, Result", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "(p value of 0.008)", "location": "Abstract, Result", "study_id": "deoson2025"}
+{"row": 0, "field": "intervention", "quote": "using cotton tipped applicators for 5 seconds in a single freeze – thaw cycle to 5 selected macules in the pre – tibial region.", "location": "Materials and Methods, Group A", "study_id": "deoson2025"}
+{"row": 0, "field": "intervention", "quote": "Short contact cryotherapy for 3-5 seconds", "location": "Abstract, Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "intervention", "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.", "location": "Materials and Methods, Group A", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "G4 29(38.7%) 15(20%) 44", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "G3 18(24%) 19(25.3%) 37", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "G2 9(12%) 18(24%) 27", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "G1 13(17.3%) 7(9.3%) 20", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "G0 6(8%) 16(21.3%) 22", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "Total(no. of macules) 75 75 150", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "4 10 (66.7) 3 (20) 13 (43.3)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "3 3 (20) 3 (20) 6 (20)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "2 1 (6.7) 7 (46.7) 8 (26.7)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "1 1 (6.7) 2 (13.3) 3 (10)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "Total 15 (100) 15 (100) 30 (100)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "There was a significant P value of 0.035 and chi square value is 8.603", "location": "Results", "study_id": "deoson2025"}
+{"row": 0, "field": "patient_noticeability", "quote": "The patient satisfaction score was recorded at the end of 4th month on a four- point scale", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 0, "field": "dark_overshoot", "quote": "PIH 3(4.0%) 2(2.7%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "dark_overshoot", "quote": "Total(no. of macules) 75 75", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "texture_or_scar", "quote": "Scarring 0 1(1.3%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "texture_or_scar", "quote": "Persistent scabbing 4(5.3%) 10(13.3%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "texture_or_scar", "quote": "No side effects 68(90.7%) 58(77.3%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "texture_or_scar", "quote": "Total(no. of macules) 75 75", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 0, "field": "uncertainty", "quote": "Among the 15 participants treated with cryotherapy, 5.3% (n = 4) had persistent scabbing,", "location": "Results", "study_id": "deoson2025"}
+{"row": 0, "field": "uncertainty", "quote": "Among the 75 treated macules, a majority of 38.7% had 75% repigmentation", "location": "Discussion", "study_id": "deoson2025"}
+{"row": 0, "field": "uncertainty", "quote": "short contact cryotherapy using the cotton dip-stick method for 3 to 5 seconds,", "location": "Discussion", "study_id": "deoson2025"}
+{"row": 1, "field": "intervention", "quote": "50% TCA was applied over the macule and feathering of up to 1 mm of normal skin will be done at the periphery of the lesion", "location": "Materials and Methods, Group B", "study_id": "deoson2025"}
+{"row": 1, "field": "intervention", "quote": "The patients were asked to wash after 30 minutes.", "location": "Materials and Methods, Group B", "study_id": "deoson2025"}
+{"row": 1, "field": "intervention", "quote": "The procedure was repeated at monthly interval up to 3 sittings till complete repigmentation was achieved.", "location": "Materials and Methods, Group B", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "G4 29(38.7%) 15(20%) 44", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "G3 18(24%) 19(25.3%) 37", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "G2 9(12%) 18(24%) 27", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "G1 13(17.3%) 7(9.3%) 20", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "G0 6(8%) 16(21.3%) 22", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "arm_result", "quote": "Total(no. of macules) 75 75 150", "location": "Table 1 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "4 10 (66.7) 3 (20) 13 (43.3)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "3 3 (20) 3 (20) 6 (20)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "2 1 (6.7) 7 (46.7) 8 (26.7)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "1 1 (6.7) 2 (13.3) 3 (10)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "Total 15 (100) 15 (100) 30 (100)", "location": "Table 3 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "There was a significant P value of 0.035 and chi square value is 8.603", "location": "Results", "study_id": "deoson2025"}
+{"row": 1, "field": "patient_noticeability", "quote": "The patient satisfaction score was recorded at the end of 4th month on a four- point scale", "location": "Materials and Methods", "study_id": "deoson2025"}
+{"row": 1, "field": "dark_overshoot", "quote": "PIH 3(4.0%) 2(2.7%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "dark_overshoot", "quote": "Persistent scabbing, PIH 0 2(2.7%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "dark_overshoot", "quote": "Total(no. of macules) 75 75", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "texture_or_scar", "quote": "Scarring 0 1(1.3%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "texture_or_scar", "quote": "Persistent scabbing, scarring 0 2(2.7%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "texture_or_scar", "quote": "Persistent scabbing 4(5.3%) 10(13.3%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "texture_or_scar", "quote": "No side effects 68(90.7%) 58(77.3%)", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "texture_or_scar", "quote": "Total(no. of macules) 75 75", "location": "Table 2 (-layout text)", "study_id": "deoson2025"}
+{"row": 1, "field": "uncertainty", "quote": "Among patients treated with 50% TCA, 13.3% (n = 10) had persistent scabbing,", "location": "Results", "study_id": "deoson2025"}
+{"row": 1, "field": "uncertainty", "quote": "had good clinical response after 2nd sitting at 10 to 12 weeks", "location": "Results", "study_id": "deoson2025"}
+{"row": 1, "field": "uncertainty", "quote": "with visible improvements within 8 to 10 weeks.", "location": "Discussion", "study_id": "deoson2025"}
+{"row": 0, "field": "arm_result", "quote": "First follow-up Excellent 0 (0%) visit (4 weeks) Good 18 (9%) Moderate 42 (21%) Minimal 140 (70%)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "lesions_evaluable", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "patients_enrolled", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "patients_evaluable", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "attrition", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "body_site", "quote": "most commonly distributed over lower limbs (72.7%), followed by the upper limbs (18.2%) and trunk (9.1%).", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "intervention", "quote": "treated with 308 nm Excimer laser (Excimal Elite) using the standard vitiligo protocol which comprised of twice weekly treatments for 12 weeks. Initially all patients were started at dose of 250 mJ/cm2 with increments of 50 mJ/ cm2 every week", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "intervention", "quote": "Treatment was continued till complete resolution of IGH macules or till maximum 24 sessions whichever occurred earlier.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "arm_result", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "arm_result", "quote": "The degree of pigmentation improvement was assessed as follows: ≤25% - minimal response, 26%–50% - moderate response, 51%–75% - good response, and >75% - excellent response.", "location": "Abstract", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "time_from_start", "quote": "First follow-up Excellent 0 (0%) visit (4 weeks) Good 18 (9%", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "twice weekly treatments for 12 weeks.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "arm_result", "quote": "Second follow- Excellent 24 (12%) up visit (8 Good 37 (18.5) weeks) Moderate 61 (30.5%) Minimal 78 (39%)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "lesions_evaluable", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "patients_enrolled", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "patients_evaluable", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "attrition", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "body_site", "quote": "most commonly distributed over lower limbs (72.7%), followed by the upper limbs (18.2%) and trunk (9.1%).", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "intervention", "quote": "treated with 308 nm Excimer laser (Excimal Elite) using the standard vitiligo protocol which comprised of twice weekly treatments for 12 weeks. Initially all patients were started at dose of 250 mJ/cm2 with increments of 50 mJ/ cm2 every week", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "intervention", "quote": "Treatment was continued till complete resolution of IGH macules or till maximum 24 sessions whichever occurred earlier.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "arm_result", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "arm_result", "quote": "The degree of pigmentation improvement was assessed as follows: ≤25% - minimal response, 26%–50% - moderate response, 51%–75% - good response, and >75% - excellent response.", "location": "Abstract", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "time_from_start", "quote": "Second follow- Excellent 24 (12%) up visit (8 Good 37 (18.5)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "twice weekly treatments for 12 weeks.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "arm_result", "quote": "Third followExcellent 63 (31.5%) up visit (12 Good 59 (29.5%) weeks) Moderate 39 (19.5%) Minimal 39 (19.5%)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "lesions_evaluable", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "patients_enrolled", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "patients_evaluable", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "attrition", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "body_site", "quote": "most commonly distributed over lower limbs (72.7%), followed by the upper limbs (18.2%) and trunk (9.1%).", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "intervention", "quote": "treated with 308 nm Excimer laser (Excimal Elite) using the standard vitiligo protocol which comprised of twice weekly treatments for 12 weeks. Initially all patients were started at dose of 250 mJ/cm2 with increments of 50 mJ/ cm2 every week", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "intervention", "quote": "Treatment was continued till complete resolution of IGH macules or till maximum 24 sessions whichever occurred earlier.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "arm_result", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "arm_result", "quote": "The degree of pigmentation improvement was assessed as follows: ≤25% - minimal response, 26%–50% - moderate response, 51%–75% - good response, and >75% - excellent response.", "location": "Abstract", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "time_from_start", "quote": "Third followExcellent 63 (31.5%) up visit (12 Good 59 (29.5%) weeks) Moderate 39 (19.5%) Minimal 39 (19.5%)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "twice weekly treatments for 12 weeks.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "arm_result", "quote": "Fourth followExcellent 83 (41.5%) up visit (16 Good 62 (31%) weeks) Moderate 42 (21%) Minimal 13 (6.5%)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "lesions_evaluable", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "patients_enrolled", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "patients_evaluable", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "attrition", "quote": "A total of 44 patients were recruited out of which 40 patients completed the treatment and 4 patients were lost to follow up.", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "body_site", "quote": "most commonly distributed over lower limbs (72.7%), followed by the upper limbs (18.2%) and trunk (9.1%).", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "intervention", "quote": "treated with 308 nm Excimer laser (Excimal Elite) using the standard vitiligo protocol which comprised of twice weekly treatments for 12 weeks. Initially all patients were started at dose of 250 mJ/cm2 with increments of 50 mJ/ cm2 every week", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "intervention", "quote": "Treatment was continued till complete resolution of IGH macules or till maximum 24 sessions whichever occurred earlier.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "arm_result", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "arm_result", "quote": "The degree of pigmentation improvement was assessed as follows: ≤25% - minimal response, 26%–50% - moderate response, 51%–75% - good response, and >75% - excellent response.", "location": "Abstract", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "time_from_start", "quote": "Fourth followExcellent 83 (41.5%) up visit (16 Good 62 (31%) weeks) Moderate 42 (21%) Minimal 13 (6.5%)", "location": "Table 1", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "twice weekly treatments for 12 weeks.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "Patients were further followed up for a duration of 1 month to look for any recurrence.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "months_after_final_tx", "quote": "Patients were further followed up for a duration of 1 month to look for any recurrence.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "uncertainty", "quote": "None of the repigmented macules showed reappearance of depigmentation at the end of the 4-month follow-up period.", "location": "Results, p. 1356", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "uncertainty", "quote": "hyperpigmentation was noted in 18 (9%) macules which persisted at 4th month of follow up.", "location": "Results, p. 1356", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "dark_overshoot", "quote": "Among the 200 macules that received 308 nm excimer laser treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "dark_overshoot", "quote": "hyperpigmentation was noted in 18 (9%) macules which persisted at 4th month of follow up.", "location": "Results, p. 1356", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "patient_noticeability", "quote": "Patient satisfaction was measured at the fourth follow up visit. 15 (37.5%) patients were satisfied and 25 (62.5%) patients were extremely satisfied with the improvement (Figure 4).", "location": "Results, p. 1356", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "patient_noticeability", "quote": "0 = Not satisfied; 1 = Satisfied; 2 = Extremely satisfied.", "location": "Methods, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "endpoint_definition", "quote": "Grade 4, >75% = Excellent improvement.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "endpoint_definition", "quote": "Grade 4, >75% = Excellent improvement.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "endpoint_definition", "quote": "Grade 4, >75% = Excellent improvement.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "endpoint_definition", "quote": "Grade 4, >75% = Excellent improvement.", "location": "Methods, p. 1354", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "uncertainty", "quote": "The limitations of this study were the limited sample size and short follow-up period", "location": "Discussion, p. 1357", "study_id": "deepadarshan2023"}
+{"row": 1, "field": "uncertainty", "quote": "The limitations of this study were the limited sample size and short follow-up period", "location": "Discussion, p. 1357", "study_id": "deepadarshan2023"}
+{"row": 2, "field": "uncertainty", "quote": "The limitations of this study were the limited sample size and short follow-up period", "location": "Discussion, p. 1357", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "uncertainty", "quote": "The limitations of this study were the limited sample size and short follow-up period", "location": "Discussion, p. 1357", "study_id": "deepadarshan2023"}
+{"row": 3, "field": "patient_noticeability", "quote": "40 patients completed the treatment", "location": "Results, p. 1355", "study_id": "deepadarshan2023"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "Time frame: 3 months post treatment", "location": "ClinicalTrials.gov NCT04419350, Registered outcomes", "study_id": "elhoshy2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "a single session of microneedling with 1.5-mm needles or no treatment. Three months later", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 0, "field": "arm_result", "quote": "Median peripheral tanning was observed in 80% of lesions in the microneedling arm versus 85% in the no-treatment arm.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 0, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 0, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 1, "field": "arm_result", "quote": "Median peripheral tanning was observed in 80% of lesions in the microneedling arm versus 85% in the no-treatment arm.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 1, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 1, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "Time frame: 3 months post treatment", "location": "ClinicalTrials.gov NCT04419350, Registered outcomes", "study_id": "elhoshy2025"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "a single session of microneedling with 1.5-mm needles or no treatment. Three months later", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 2, "field": "arm_result", "quote": "Median physician GAI was 37.5% versus 33.33%, respectively.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 2, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 2, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 3, "field": "arm_result", "quote": "Median physician GAI was 37.5% versus 33.33%, respectively.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 3, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 3, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "Time frame: 3 months post treatment", "location": "ClinicalTrials.gov NCT04419350, Registered outcomes", "study_id": "elhoshy2025"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "a single session of microneedling with 1.5-mm needles or no treatment. Three months later", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 4, "field": "arm_result", "quote": "Median VESTA was 37.5% versus 29%, respectively.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 4, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 4, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 5, "field": "arm_result", "quote": "Median VESTA was 37.5% versus 29%, respectively.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 5, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 5, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 6, "field": "time_from_last_treatment", "quote": "Time frame: 3 months post treatment", "location": "ClinicalTrials.gov NCT04419350, Registered outcomes", "study_id": "elhoshy2025"}
+{"row": 6, "field": "time_from_last_treatment", "quote": "a single session of microneedling with 1.5-mm needles or no treatment. Three months later", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 6, "field": "arm_result", "quote": "Median Patient GAI was 50% in both arms.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 6, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 6, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 7, "field": "arm_result", "quote": "Median Patient GAI was 50% in both arms.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 7, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 7, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 8, "field": "time_from_last_treatment", "quote": "Time frame: 3 months post treatment", "location": "ClinicalTrials.gov NCT04419350, Registered outcomes", "study_id": "elhoshy2025"}
+{"row": 8, "field": "time_from_last_treatment", "quote": "a single session of microneedling with 1.5-mm needles or no treatment. Three months later", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 8, "field": "arm_result", "quote": "Surface tanning showed a median increase of +3 grades in both arms.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 8, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 8, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 9, "field": "arm_result", "quote": "Surface tanning showed a median increase of +3 grades in both arms.", "location": "PubMed abstract, Results", "study_id": "elhoshy2025"}
+{"row": 9, "field": "patients_enrolled", "quote": "Twenty patients aged 18 years and older had their lesions randomized", "location": "PubMed abstract, Materials and methods", "study_id": "elhoshy2025"}
+{"row": 9, "field": "patients_enrolled", "quote": "Enrollment: 20 (ACTUAL)", "location": "ClinicalTrials.gov NCT04419350, Design", "study_id": "elhoshy2025"}
+{"row": 0, "field": "arm_result", "quote": "Patients with three types of leukoderma--vitiligo, idiopathic guttate hypomelanosis, and postinflammatory leukoderma--had successful repigmentation after transplantation of autologous melanocytes.", "location": "Abstract", "study_id": "suvanprakorn1985"}
+{"row": 0, "field": "intervention", "quote": "Blisters were produced by suction or by freezing with liquid nitrogen. The roof of the blister from donor skin was grafted to the raw surface of the recipient site.", "location": "Abstract", "study_id": "suvanprakorn1985"}
+{"row": 0, "field": "time_from_start", "quote": "Repigmentation was visible within 7 to 14 days.", "location": "Abstract", "study_id": "suvanprakorn1985"}
+{"row": 0, "field": "assessment_method", "quote": "Histochemical studies confirmed the absence of dopa-positive cells in the areas of leukoderma prior to grafting. Melanocytes were present in the successful grafts.", "location": "Abstract", "study_id": "suvanprakorn1985"}
+{"row": 0, "field": "uncertainty", "quote": "Melanocytes were present in the successful grafts.", "location": "Abstract", "study_id": "suvanprakorn1985"}
+{"row": 0, "field": "patients_enrolled", "quote": "6 patients were treated with excimer laser for 12 weeks using the vitiligo protocol", "location": "Abstract, Methods and Materials", "study_id": "gordon2017"}
+{"row": 0, "field": "arm_result", "quote": "Lesions that received the excimer treatment had significantly higher repigmentation by the end of the study compared with baseline and untreated lesions.", "location": "Abstract, Results", "study_id": "gordon2017"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "Effectiveness was graded by the blinded observer scale through photographic comparisons at the end of the study.", "location": "Abstract, Methods and Materials", "study_id": "gordon2017"}
