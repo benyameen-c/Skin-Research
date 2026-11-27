@@ -78,6 +78,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 ## Batch 3 staging (2026-11-27)
 
 - ravikiran2014 (PMID 24616848, Gate A item): staged FULL_TEXT from Europe PMC open-access XML (PMC3937479), 2 rows (any repigmentation 89/139 macules; grade split among the 89), validator ok, verifier PENDING. months_after_final_tx NOT_DERIVABLE (assessment timed 3 months from initiation; two monthly sittings). Tables 1-6 are images and were not read. Excerpt at /mnt/project-files/papers/excerpts/ravikiran2014.txt.
+- ravikiran2014: verifier **FAIL, attempt 1 of 2** (2026-11-27), 6 cells (3 per row): attrition and patients_evaluable should use 'All the patients were reassessed at the end of 3 months' instead of 'not reported'/inferred; uncertainty omits that the method 'is based on post inflammatory hyperpigmentation'. Needs a correction pass, then a fresh verifier. Not merged.
 
 ## Next session
 

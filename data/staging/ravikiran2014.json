@@ -383,7 +383,8 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Checked 2026-11-27 against papers/excerpts/ravikiran2014.txt (Europe PMC full text, tables are images) alone. Rows numbered from 0 as in the quotes list. All quotes occur verbatim and support their cells; both arm_result rows, analysis_unit, outcome_tier partial_repigmentation, NOT_DERIVABLE timing, dark_overshoot and texture_or_scar check out. 6 failed cells (3 per row): row 0, attrition: says 'not reported (no losses mentioned)', but Methods state 'All the patients were reassessed at the end of 3 months, both subjectively and objectively', i.e. no patient lost; the paper is not silent. row 0, patients_evaluable: says 'not reported directly; [20]' as an inference from macule counts, but the same sentence ('All the patients were reassessed at the end of 3 months') states it directly. row 0, uncertainty: omits that the Introduction says the method 'is based on post inflammatory hyperpigmentation induced by chemical wounding', so the 3-month 'repigmentation' may be inflammatory pigment rather than a lasting colour match. row 1, attrition: same as row 0. row 1, patients_evaluable: same as row 0. row 1, uncertainty: same omission as row 0.",
+  "date": "2026-11-27"
  }
 }
