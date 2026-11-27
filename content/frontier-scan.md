@@ -81,7 +81,29 @@ A registered trial uses almost exactly the project's endpoint, in non-vitiligo l
 
 ### Direction 5: Wnt and melanocyte stem cells
 
+The idea is to call up the pigment stem cells that sit in nearby hair follicles instead of transplanting cells. **Status: laboratory only. "0 Wnt agonist trials" in the registry (search log), and no IGH study.**
+
+- Wnt3a and Wnt10b "induce hair follicle regeneration and McSC activation" in cells and mice (PMID 27138625).
+- A controlled micro-injury device in model mice "induces the hair follicle melanocyte stem cells to migrate upwards to the interfollicular epidermis", with the authors attributing it to "the canonical Wnt/β-catenin pathway" (PMID 35044224). [Inference: this is the mechanism usually offered for why microneedling and laser work at all, which makes Direction 7 the cheap end of this same idea.]
+- Fluoxetine activated the same stem cells in mice and zebrafish through a serotonin receptor and Wnt (PMID 42716209). Animals only.
+- In vitiligo patients, a GEO dataset backs the pathway: GSE65127, "Targeting the WNT pathway for repigmenting vitiligo", 40 samples.
+
+[Inference: relevant to IGH in principle, because IGH spots sit on hairy sun-exposed forearms and shins where follicles are present, and because the problem may be melanocytes that stopped working rather than an immune attack. But there is no drug to try, so for Ben this is a reading direction, not a testable one.]
+
 ### Direction 6: senolytics and senescence
+
+**This direction matches what the IGH mechanism papers actually report, and it is the least developed.** The registry search found "no registered senolytic trial in vitiligo" (search log), and none in IGH.
+
+The chain of reasoning in the sources:
+
+1. IGH lesional skin shows raised senescence markers p16, p21 and hp1 (PMID 29516488), a letter says IGH melanocytes "disappear and are senescent" (PMID 36394380, title only) and another implicates senescent fibroblasts (PMID 31823346, title only).
+2. Senescent melanocytes are not passive: clearing them with a senolytic "suppressed" their damaging effect on neighbouring keratinocytes in a skin model (PMID 31633821).
+3. Senolytics can kill senescent melanocytes in a dish: "only ABT-737 and ABT-263 showed a significant reduction in the number of SA-β-Gal-positive senescent melanocytes" (PMID 39846383). A separate letter proposes ABT263 as a "potential skin-lightening candidate" for photoageing pigmentation (PMID 34773647, title only).
+4. In humans, senolytics have been given only for other diseases, for example an open-label pilot in idiopathic pulmonary fibrosis (PMID 30616998).
+
+[Inference: there is a direction-of-effect problem that the sources make visible. These drugs are being discussed as skin *lightening* agents (PMID 34773647), because killing a senescent melanocyte removes it. In IGH the melanocytes are already fewer. Clearing senescent cells from the spot would only help if something then repopulates it, which no source here tests. The metformin paper (PMID 41453137) takes the opposite tack, preserving melanocytes rather than clearing them, and Ben has already ruled prevention out of scope.]
+
+[Inference: the open question worth writing down is whether a senescent IGH spot can be repopulated at all once cleared, and that is a laboratory question, not something an engineer can test.]
 
 ### Direction 7: microneedling and PRP
 
