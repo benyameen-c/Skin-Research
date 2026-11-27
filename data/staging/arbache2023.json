@@ -251,7 +251,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "First check of the fresh record, from papers/excerpts/arbache2023.txt alone. Failed cells: none. All 29 quotes found verbatim and match their cells, arms and time point. time_from_last_treatment: source says '30 days after treatment'; the assumption that this means after the final session is stated in uncertainty. analysis_unit limb matches 'median number of achromic lesions ... in 5FU-treated limbs'. outcome_tier lesion_count is the weakest reading. Overshoot, scarring, attrition marked missing or as reported. Advisory only (not a failed cell): the registry sets the local adverse event time frame at 30 days, so 'no adverse events' covers 30 days at most."
  }
 }

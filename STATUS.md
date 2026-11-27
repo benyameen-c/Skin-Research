@@ -47,7 +47,7 @@ Nothing yet on this branch.
 
 ## Staging (awaiting verifier)
 
-- arbache2023: fresh extraction 2026-11-27 (approved by Ben after the earlier BLOCKED record), `data/staging/arbache2023.json`, ABSTRACT_ONLY (PubMed abstract + NCT02904564 protocol), 2 rows, validator ok, verifier PENDING. Full text still on the paywall list.
+- arbache2023: fresh extraction 2026-11-27 (approved by Ben after the earlier BLOCKED record), `data/staging/arbache2023.json`, ABSTRACT_ONLY (PubMed abstract + NCT02904564 protocol), 2 rows, validator ok, verifier PASS (first check, 0 failed cells, 2026-11-27). Ready for merge by the collector. Full text still on the paywall list.
 
 ## Next session
 
