@@ -1,0 +1,184 @@
+{
+ "study_id": "rerknimitr2015",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/rerknimitr2015.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rerknimitr2015",
+   "doi_or_pmid": "PMID 25303024; doi:10.1111/jdv.12763",
+   "source_location": "PubMed abstract (Materials and methods; Results)",
+   "access_level": "abstract only (Wiley full text HTTP 403; Europe PMC: subscription required)",
+   "diagnosis": "IGH",
+   "design": "randomized controlled, within-patient (two lesions on the extremities treated, lesions from the other side as control)",
+   "body_site": "extremities",
+   "skin_tone": "not in abstract",
+   "patients_enrolled": "30",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "120 in total [60 treated, 60 control, inferred from two treated lesions per patient]",
+   "lesions_evaluable": "not in abstract",
+   "assessment_method": "three experienced dermatologists grading clinical photographs on a quartile scale",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Rerknimitr P, Chitvanich S, Pongprutthipan M, Panchaprateep R, Asawanonda P. Non-ablative fractional photothermolysis in treatment of idiopathic guttate hypomelanosis. J Eur Acad Dermatol Venereol 2015;29(11):2238-42",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/25303024/",
+   "patient_noticeability": "patient satisfaction score recorded; result not in abstract",
+   "complete_match": "not in abstract",
+   "time_from_start": "not in abstract (visit of the grading not stated; photographs taken at weeks 0 to 16)",
+   "analysis_unit": "lesion",
+   "intervention": "fractional 1550-nm ytterbium/erbium fibre laser, four times at 4-week intervals",
+   "comparator": "untreated lesions on the other side (same patients)",
+   "endpoint_definition": "some improvement on physicians' quartile grading scale (any improvement; not >75%, not complete)",
+   "time_from_last_treatment": "not in abstract (visit of the grading not stated)",
+   "arm_result": "83.34% of treated lesions showed some improvement (P < 0.05 vs control) [about 50/60 if 60 treated lesions]",
+   "dark_overshoot": "none observed (no post-inflammatory hyperpigmentation)",
+   "texture_or_scar": "erythema and oedema, mild and transient; no scar reported in abstract",
+   "uncertainty": "Abstract does not say at which visit the grading was made, so months after final treatment is NOT_DERIVABLE. 83.34% does not round correctly from 50/60 (83.33%); denominator not stated. Any improvement is a lower bar than >75%. Full text needed.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "energy_device",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rerknimitr2015",
+   "doi_or_pmid": "PMID 25303024; doi:10.1111/jdv.12763",
+   "source_location": "PubMed abstract (Materials and methods; Results)",
+   "access_level": "abstract only (Wiley full text HTTP 403; Europe PMC: subscription required)",
+   "diagnosis": "IGH",
+   "design": "randomized controlled, within-patient (two lesions on the extremities treated, lesions from the other side as control)",
+   "body_site": "extremities",
+   "skin_tone": "not in abstract",
+   "patients_enrolled": "30",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "120 in total [60 treated, 60 control, inferred from two treated lesions per patient]",
+   "lesions_evaluable": "not in abstract",
+   "assessment_method": "three experienced dermatologists grading clinical photographs on a quartile scale",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Rerknimitr P, Chitvanich S, Pongprutthipan M, Panchaprateep R, Asawanonda P. Non-ablative fractional photothermolysis in treatment of idiopathic guttate hypomelanosis. J Eur Acad Dermatol Venereol 2015;29(11):2238-42",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/25303024/",
+   "patient_noticeability": "patient satisfaction score recorded; result not in abstract",
+   "complete_match": "not in abstract",
+   "time_from_start": "not in abstract (visit of the grading not stated)",
+   "analysis_unit": "lesion",
+   "intervention": "no treatment (control lesions)",
+   "comparator": "laser-treated lesions on the other side",
+   "endpoint_definition": "some improvement on physicians' quartile grading scale (any improvement; not >75%, not complete)",
+   "time_from_last_treatment": "not applicable (untreated)",
+   "arm_result": "18.34% of control lesions showed some improvement [about 11/60 if 60 control lesions]",
+   "dark_overshoot": "not applicable",
+   "texture_or_scar": "not applicable",
+   "uncertainty": "Untreated lesions improved in nearly one in five, which sizes grading noise or natural change. 18.34% does not round correctly from 11/60 (18.33%); denominator not stated.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "control",
+   "months_after_final_tx": "NOT_APPLICABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rerknimitr2015",
+   "doi_or_pmid": "PMID 25303024; doi:10.1111/jdv.12763",
+   "source_location": "PubMed abstract (Materials and methods; Results)",
+   "access_level": "abstract only (Wiley full text HTTP 403; Europe PMC: subscription required)",
+   "diagnosis": "IGH",
+   "design": "randomized controlled, within-patient (two lesions on the extremities treated, lesions from the other side as control)",
+   "body_site": "extremities",
+   "skin_tone": "not in abstract",
+   "patients_enrolled": "30",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "120 in total [60 treated, 60 control, inferred from two treated lesions per patient]",
+   "lesions_evaluable": "not in abstract",
+   "assessment_method": "colourimetry",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Rerknimitr P, Chitvanich S, Pongprutthipan M, Panchaprateep R, Asawanonda P. Non-ablative fractional photothermolysis in treatment of idiopathic guttate hypomelanosis. J Eur Acad Dermatol Venereol 2015;29(11):2238-42",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/25303024/",
+   "patient_noticeability": "patient satisfaction score recorded; result not in abstract",
+   "complete_match": "not in abstract",
+   "time_from_start": "16 weeks (week 16)",
+   "analysis_unit": "lesion",
+   "intervention": "fractional 1550-nm ytterbium/erbium fibre laser, four times at 4-week intervals",
+   "comparator": "untreated lesions on the other side (same patients)",
+   "endpoint_definition": "lesional skin colour by colourimetry, treated vs control",
+   "time_from_last_treatment": "4 weeks (\"4 weeks' follow-up (week 16)\") [final session inferred at week 12]",
+   "arm_result": "normalization of skin colour at each visit; significant vs control after two treatments (week 8) and continued to week 16 (P = 0.047, 0.016 and 0.06 respectively); colour values not in abstract",
+   "dark_overshoot": "none observed (no post-inflammatory hyperpigmentation)",
+   "texture_or_scar": "erythema and oedema, mild and transient",
+   "uncertainty": "Three P values are given for a sentence naming two time points; which visit each belongs to is unclear, and P = 0.06 is not below 0.05 although the text calls the result significant. No colour values or units in abstract. Final session at week 12 is inferred from four sessions at 4-week intervals with photographs at weeks 0, 4, 8, 12, 16.",
+   "outcome_tier": "instrument_color",
+   "treatment_class": "energy_device",
+   "months_after_final_tx": "0.9"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A total of 120 lesions from 30 patients with IGH were treated.",
+   "location": "Abstract, Materials and methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "A total of 120 lesions from 30 patients with IGH were treated.",
+   "location": "Abstract, Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "A total of 120 lesions from 30 patients with IGH were treated.",
+   "location": "Abstract, Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "A total of 120 lesions from 30 patients with IGH were treated.",
+   "location": "Abstract, Materials and methods"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "A total of 120 lesions from 30 patients with IGH were treated.",
+   "location": "Abstract, Materials and methods"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "A total of 120 lesions from 30 patients with IGH were treated.",
+   "location": "Abstract, Materials and methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Physicians' improvement grading score showed that 83.34% of the lesions in treatment group vs. 18.34% in the control group showed some improvement. The difference was statistically significant (P < 0.05).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Physicians' improvement grading score showed that 83.34% of the lesions in treatment group vs. 18.34% in the control group showed some improvement.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Colourimetry of the treatment side showed normalization of skin colour at each visit and was statistically significant when compared with control after two treatments (week 8) and continued to decrease until 4 weeks' follow-up (week 16) (P = 0.047, 0.016 and 0.06 respectively).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "continued to decrease until 4 weeks' follow-up (week 16)",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "The treatment was delivered by fractional 1550-nm ytterbium/erbium fibre laser for four times at 4-week intervals.",
+   "location": "Abstract, Materials and methods"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}

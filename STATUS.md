@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, end of session 1.
+Last updated: 2026-11-27, end of session 1; batch 2 extraction of rerknimitr2015 added 22:58 UTC.
 
 ## Open module
 
@@ -35,6 +35,10 @@ Last updated: 2026-11-27, end of session 1.
 | gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract |
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
+
+## Batch 2 staging (awaiting verifier)
+
+- rerknimitr2015: `data/staging/rerknimitr2015.json`, ABSTRACT_ONLY, 3 rows, validator ok, verifier PENDING. Full text tried twice: https://onlinelibrary.wiley.com/doi/full/10.1111/jdv.12763 and /doi/pdf/ (HTTP 403); Europe PMC lists it "Subscription required". Stays on the paywall list. Source text: PubMed abstract (`papers/excerpts/rerknimitr2015.txt`, copy in `/mnt/project-files/papers/excerpts/`).
 
 ## Human gates
 
