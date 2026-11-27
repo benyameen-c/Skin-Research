@@ -596,7 +596,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "No failed cells. Checked both rows against papers/excerpts/deoson2025.txt (reading-order text and Table 1-3): every quote found; arm counts, Table 2 side-effect sums (75 per arm) and bracketed TCA totals (PIH 4/75, scarring 3/75) reproduce; follow-up counted from start only, so NOT_DERIVABLE is correct; analysis_unit (macule) and outcome_tier (partial_repigmentation) match. Non-failing observation: Abstract says 'assessed every 2 weeks for 4 months for side effects and improvement in pigmentation' while Methods say grading 'once every 4 weeks'; assessment_method follows Methods, and uncertainty does not mention the Abstract wording."
   }
 }

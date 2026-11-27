@@ -45,6 +45,10 @@ Last updated: 2026-11-27, end of session 1.
 
 - **deoson2025** (2026-11-27, extractor): `data/staging/deoson2025.json`, FULL_TEXT from the open publisher PDF, 2 rows (cryotherapy and 50% TCA, G4 >75% at 4 months from start, macule unit), validator ok, verifier PENDING. Source text: `papers/excerpts/deoson2025.txt` (also at `/mnt/project-files/papers/excerpts/deoson2025.txt`). Months after final treatment NOT_DERIVABLE. Not merged.
 
+## Verifier results (batch 2)
+
+- deoson2025: verifier PASS, 0 failed cells (2026-11-27). Awaiting merge by the collector.
+
 ## Blocked
 
 Nothing yet.
