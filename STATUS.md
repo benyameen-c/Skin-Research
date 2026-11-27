@@ -32,7 +32,7 @@ Last updated: 2026-11-27, end of session 1.
 | arbache2023 | Dermatol Surg 2023, doi:10.1097/DSS.0000000000003793 | sessions, assessor, any later visit |
 | rerknimitr2015 | J Eur Acad Dermatol Venereol 2015, doi:10.1111/jdv.12763 | counts behind 83.34% and 18.34% |
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x | the 11% denominator |
-| gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract |
+| gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract; 2026-11-27 Europe PMC 'Subscription required', https://doi.org/10.1097/DSS.0000000000000996 -> journals.lww.com HTTP 403 |
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
@@ -40,6 +40,10 @@ Last updated: 2026-11-27, end of session 1.
 
 - **Gate A (after any search):** Ben reviews the screening list and supplies PDFs before extraction starts.
 - **Gate B (before anything is public):** Ben reviews the ledger diff, sets the contact route in `site.json`, approves launch and any email.
+
+## Staged (batch 2)
+
+- gordon2017: `data/staging/gordon2017.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier PENDING. Source text `papers/excerpts/gordon2017.txt` (copy at /mnt/project-files/papers/excerpts/gordon2017.txt). Months after final treatment NOT_DERIVABLE from abstract.
 
 ## Blocked
 

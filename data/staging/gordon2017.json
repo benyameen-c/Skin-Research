@@ -1,0 +1,66 @@
+{
+  "study_id": "gordon2017",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/gordon2017.txt",
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "gordon2017",
+      "doi_or_pmid": "PMID 27930376; doi:10.1097/DSS.0000000000000996",
+      "source_location": "PubMed abstract",
+      "access_level": "ABSTRACT_ONLY (full text needed)",
+      "diagnosis": "IGH",
+      "design": "longitudinal, split-body controlled, single-blinded pilot",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract",
+      "patients_enrolled": "6 (treated with excimer laser)",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion (abstract reports lesions treated vs baseline and untreated lesions; lesion counts not in abstract)",
+      "intervention": "excimer laser for 12 weeks using the vitiligo protocol",
+      "comparator": "baseline and untreated lesions (split-body)",
+      "endpoint_definition": "repigmentation graded by blinded observer scale through photographic comparisons",
+      "assessment_method": "blinded observer scale from photographs at end of study; participant self-grading at intervals; descriptive trend analysis and ANOVA",
+      "time_from_start": "end of study (treatment lasted 12 weeks; study length not in abstract)",
+      "time_from_last_treatment": "not in abstract (graded 'at the end of the study'; interval after final treatment not stated)",
+      "arm_result": "treated lesions had significantly higher repigmentation by the end of the study than baseline and untreated lesions; no numbers in abstract",
+      "patient_noticeability": "participants graded progress at intervals; results not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract",
+      "attrition": "not in abstract",
+      "uncertainty": "Abstract only; full text paywalled (Europe PMC: subscription required; LWW 403). No effect size, lesion count or follow-up after final treatment in abstract. Abstract does not say whether 'end of the study' is the final treatment visit or later, so months after final treatment is NOT_DERIVABLE. Abstract does not name a trial registration; registry record NCT01956435 is a separate unit and was not used.",
+      "verification_status": "PENDING",
+      "outcome_tier": "partial_repigmentation",
+      "citation": "Gordon JR, Reed KE, Sebastian KR, Ahmed AM. Dermatol Surg 2017;43(4):553-557",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27930376/",
+      "treatment_class": "energy_device",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "patients_enrolled",
+      "quote": "6 patients were treated with excimer laser for 12 weeks using the vitiligo protocol",
+      "location": "Abstract, Methods and Materials"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "Lesions that received the excimer treatment had significantly higher repigmentation by the end of the study compared with baseline and untreated lesions.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "Effectiveness was graded by the blinded observer scale through photographic comparisons at the end of the study.",
+      "location": "Abstract, Methods and Materials"
+    }
+  ],
+  "verifier": {
+    "status": "PENDING",
+    "notes": ""
+  }
+}
