@@ -1,0 +1,179 @@
+{
+  "study_id": "laosakul2017",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/laosakul2017.txt",
+  "sources_tried": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27494272&resultType=core (abstract; isOpenAccess N, inPMC N, 'Subscription required')",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=27494272&db=pmc (no PMC copy)",
+    "https://www.tandfonline.com/doi/full/10.1080/09546634.2016.1221498 (HTTP 403)",
+    "https://www.tandfonline.com/doi/pdf/10.1080/09546634.2016.1221498 (HTTP 403)",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=27494272&rettype=abstract&retmode=text (abstract saved)"
+  ],
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "laosakul2017",
+      "doi_or_pmid": "PMID 27494272; doi:10.1080/09546634.2016.1221498",
+      "source_location": "PubMed abstract (Material and methods, Results)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; publisher site refused automated access twice)",
+      "diagnosis": "IGH",
+      "design": "randomized, controlled, evaluator-blinded; lesions allocated",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliation is in Thailand; study site not stated)",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion",
+      "time_from_start": "4 months",
+      "patient_noticeability": "patients' assessments collected; result not in abstract",
+      "complete_match": "not in abstract (top reported category is more than 75% improvement)",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (burning sensation was the most common side effect)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Laosakul K, Juntongjin P. J Dermatolog Treat 2017;28(3):271-275",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27494272/",
+      "lesions_enrolled": "[43] (printed as 'Forty-three') of 101 total",
+      "intervention": "tip cryotherapy, single session held 5 s",
+      "comparator": "untreated control lesions",
+      "endpoint_definition": "more than 75% improvement, dermatologists' assessment",
+      "assessment_method": "digital photographs graded by two blinded dermatologists",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract counts time from baseline only (colorimeter 'at baseline and then monthly', results 'At the fourth month') and does not say when the single session was given",
+      "arm_result": "82.3% of treated lesions showed more than 75% improvement at the fourth month (p < .001 vs control)",
+      "uncertainty": "82.3% is not a whole-number share of the 43 treated lesions (35/43 = [81.4%], 36/43 = [83.7%]), so the evaluable denominator or rating unit is unknown. Number of patients not given, so clustering of lesions within patients cannot be assessed. Time from the final treatment cannot be derived because the abstract does not state when the single session was given.",
+      "outcome_tier": "partial_repigmentation",
+      "treatment_class": "cryotherapy",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "laosakul2017",
+      "doi_or_pmid": "PMID 27494272; doi:10.1080/09546634.2016.1221498",
+      "source_location": "PubMed abstract (Material and methods, Results)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; publisher site refused automated access twice)",
+      "diagnosis": "IGH",
+      "design": "randomized, controlled, evaluator-blinded; lesions allocated",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliation is in Thailand; study site not stated)",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion",
+      "time_from_start": "4 months",
+      "patient_noticeability": "patients' assessments collected; result not in abstract",
+      "complete_match": "not in abstract (top reported category is more than 75% improvement)",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (burning sensation was the most common side effect)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Laosakul K, Juntongjin P. J Dermatolog Treat 2017;28(3):271-275",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27494272/",
+      "lesions_enrolled": "58 of 101 total",
+      "intervention": "no treatment (control lesions)",
+      "comparator": "tip cryotherapy lesions",
+      "endpoint_definition": "more than 75% improvement, dermatologists' assessment",
+      "assessment_method": "digital photographs graded by two blinded dermatologists",
+      "time_from_last_treatment": "not applicable (untreated)",
+      "arm_result": "2% of control lesions showed more than 75% improvement at the fourth month",
+      "uncertainty": "2% fits 1 of 58 lesions ([1.7%]) after rounding. Untreated lesions improving at all is worth checking in full text. Patient count not given.",
+      "outcome_tier": "partial_repigmentation",
+      "treatment_class": "control",
+      "months_after_final_tx": "NOT_APPLICABLE"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "laosakul2017",
+      "doi_or_pmid": "PMID 27494272; doi:10.1080/09546634.2016.1221498",
+      "source_location": "PubMed abstract (Material and methods, Results)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; publisher site refused automated access twice)",
+      "diagnosis": "IGH",
+      "design": "randomized, controlled, evaluator-blinded; lesions allocated",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliation is in Thailand; study site not stated)",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion",
+      "time_from_start": "4 months",
+      "patient_noticeability": "patients' assessments collected; result not in abstract",
+      "complete_match": "not in abstract (top reported category is more than 75% improvement)",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (burning sensation was the most common side effect)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Laosakul K, Juntongjin P. J Dermatolog Treat 2017;28(3):271-275",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27494272/",
+      "lesions_enrolled": "[43] treated (printed as 'Forty-three') and 58 control, of 101 total",
+      "intervention": "tip cryotherapy, single session held 5 s",
+      "comparator": "untreated control lesions",
+      "endpoint_definition": "lesional luminosity score by colorimeter [lower score read as less white; direction not stated in abstract]",
+      "assessment_method": "colorimeter at baseline and monthly until month 4",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract counts time from baseline only (colorimeter 'at baseline and then monthly', results 'At the fourth month') and does not say when the single session was given",
+      "arm_result": "treated luminosity significantly lower than control since week 8 (p = .005); mean values not in abstract",
+      "uncertainty": "The abstract reports that mean luminosity 'gradually decreased' and treated scores were 'significantly lower', but does not say which direction is improvement. No luminosity values or comparison to surrounding skin, so colour match cannot be judged. Number of patients not given. Time from the final treatment cannot be derived because the timing of the single session is not stated.",
+      "outcome_tier": "instrument_color",
+      "treatment_class": "cryotherapy",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "lesions_enrolled",
+      "quote": "Total 101 lesions were included. Forty-three lesions were treated with cryotherapy and 58 lesions were assigned as control.",
+      "location": "Abstract, Material and methods"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "At the fourth month, dermatologists' assessment revealed that 82.3% of the treated lesions comparing to only 2% of the control showed more than 75% improvement (p < .001).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "A single session of tip cryotherapy was delivered and remained for 5 s.",
+      "location": "Abstract, Material and methods"
+    },
+    {
+      "row": 1,
+      "field": "lesions_enrolled",
+      "quote": "Total 101 lesions were included. Forty-three lesions were treated with cryotherapy and 58 lesions were assigned as control.",
+      "location": "Abstract, Material and methods"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "At the fourth month, dermatologists' assessment revealed that 82.3% of the treated lesions comparing to only 2% of the control showed more than 75% improvement (p < .001).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "lesions_enrolled",
+      "quote": "Total 101 lesions were included. Forty-three lesions were treated with cryotherapy and 58 lesions were assigned as control.",
+      "location": "Abstract, Material and methods"
+    },
+    {
+      "row": 2,
+      "field": "arm_result",
+      "quote": "the score of the treated lesions has been significantly lower than that of the control lesions since week 8 (p = .005).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "time_from_last_treatment",
+      "quote": "Colorimeter was used to measure lesional luminosity at baseline and then monthly until 4 months.",
+      "location": "Abstract, Material and methods"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "Burning sensation was the most common side effect.",
+      "location": "Abstract, Results"
+    }
+  ],
+  "verifier": {
+    "status": "PASS",
+    "notes": "Second check 2026-11-27, from papers/excerpts/laosakul2017.txt (PubMed abstract) alone. All 3 rows: quotes match arm and time point; time_from_last_treatment and months_after_final_tx correctly NOT_DERIVABLE (abstract counts from baseline only); analysis_unit lesion matches; outcome_tier is the weakest reading (more than 75% improvement = partial; luminosity = instrument_color); overshoot, scar and attrition marked not in abstract; luminosity direction bracketed. No failed cells."
+  }
+}
