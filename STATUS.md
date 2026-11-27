@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, end of session 1.
+Last updated: 2026-11-27, batch 2 extractor thread (deepadarshan2023).
 
 ## Open module
 
@@ -22,6 +22,10 @@ Last updated: 2026-11-27, end of session 1.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
 - [ ] First real run of `tools/pubmed.py` (never executed).
+
+## Batch 2 staging (2026-11-27)
+
+- deepadarshan2023: staging record `data/staging/deepadarshan2023.json`, FULL_TEXT (open PDF at jpad.com.pk, saved as `papers/excerpts/deepadarshan2023.txt`, plain `pdftotext` reading order; copy at `/mnt/project-files/papers/excerpts/`). 4 rows (weeks 4, 8, 12, 16), 60 quotes, validator ok, verifier PENDING. Not merged. Open issue: paper's follow-up length conflicts (Methods 1 month after treatment vs Results "4-month follow-up", likely counted from baseline); week 16 recorded as 0.9 months after the scheduled end of treatment.
 
 ## Paywall list (Ben: drop PDFs into `papers/pdfs/`, named `<study_id>.pdf`)
 
