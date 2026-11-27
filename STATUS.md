@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27; batch 2 rerknimitr2015 extracted 22:58 UTC, first verifier FAIL 23:05 UTC.
+Last updated: 2026-11-27; batch 2 rerknimitr2015 extracted 22:58 UTC, first verifier FAIL 23:05 UTC, extractor correction 23:10 UTC.
 
 ## Open module
 
@@ -38,7 +38,7 @@ Last updated: 2026-11-27; batch 2 rerknimitr2015 extracted 22:58 UTC, first veri
 
 ## Batch 2 staging (awaiting verifier)
 
-- rerknimitr2015: `data/staging/rerknimitr2015.json`, ABSTRACT_ONLY, 3 rows, validator ok, verifier FAIL (first verifier, 7 cells: design says randomized, "untreated" control not bracketed, 120-treated denominator conflict missing from uncertainty). Back to extractor once. Full text tried twice: https://onlinelibrary.wiley.com/doi/full/10.1111/jdv.12763 and /doi/pdf/ (HTTP 403); Europe PMC lists it "Subscription required". Stays on the paywall list. Source text: PubMed abstract (`papers/excerpts/rerknimitr2015.txt`, copy in `/mnt/project-files/papers/excerpts/`).
+- rerknimitr2015: `data/staging/rerknimitr2015.json`, ABSTRACT_ONLY, 3 rows, validator ok, verifier FAIL (first verifier, 7 cells: design says randomized, "untreated" control not bracketed, 120-treated denominator conflict missing from uncertainty). Corrected once by extractor: all 7 cells fixed, plus every other cell rechecked (control-row dark overshoot and scar now 'not in abstract'; months after final treatment NOT_DERIVABLE on all 3 rows). Verifier PENDING again; a second FAIL makes this record BLOCKED. Full text tried twice: https://onlinelibrary.wiley.com/doi/full/10.1111/jdv.12763 and /doi/pdf/ (HTTP 403); Europe PMC lists it "Subscription required". Stays on the paywall list. Source text: PubMed abstract (`papers/excerpts/rerknimitr2015.txt`, copy in `/mnt/project-files/papers/excerpts/`).
 
 ## Human gates
 
