@@ -1,0 +1,12 @@
+{
+  "study_id": "vedamurthy2022",
+  "pmid": "32360719",
+  "doi": "10.1016/j.jaad.2020.04.110",
+  "citation": "Vedamurthy M, Vanasekar P, Raghupathy S. Use of 50% trichloroacetic acid in the treatment of idiopathic guttate hypomelanosis. J Am Acad Dermatol. 2022 Jan;86(1):e11-e12. Epub 2020 Apr 29.",
+  "access": "BLOCKED",
+  "excerpt_file": "papers/excerpts/vedamurthy2022.txt",
+  "access_notes": "Letter with no abstract: the saved PubMed record (papers/excerpts/vedamurthy2022.txt, copied from pmid_32360719.txt) holds only the title and bibliographic data, so no result can be quoted. Attempt 1 (2026-11-27): Europe PMC REST core record for EXT_ID:32360719 says isOpenAccess N, inPMC N, full text 'Subscription required' via https://doi.org/10.1016/j.jaad.2020.04.110. Attempt 2 (2026-11-27): https://doi.org/10.1016/j.jaad.2020.04.110 resolves to https://linkinghub.elsevier.com/retrieve/pii/S019096222030726X (redirect shell to jaad.org, no text); https://www.jaad.org/article/S0190-9622(20)30726-X/fulltext returned HTTP 403. No open full text found. Study id uses the issue year 2022 (Europe PMC pubYear 2022; first published online 2020-04-29). Scope: title names IGH, so Module 1; design, counts and follow-up are full text needed.",
+  "rows": [],
+  "quotes": [],
+  "verifier": {"status": "PENDING", "notes": ""}
+}

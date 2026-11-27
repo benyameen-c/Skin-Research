@@ -1,0 +1,215 @@
+{
+  "study_id": "chitvanich2016",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/chitvanich2016.txt",
+  "sources_tried": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26864301%20AND%20SRC:MED&resultType=core (abstract; isOpenAccess N, inPMC N, 'Subscription required')",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=26864301&db=pmc (no PMC copy)",
+    "https://www.tandfonline.com/doi/full/10.3109/09546634.2015.1133883 (HTTP 403)",
+    "https://www.tandfonline.com/doi/pdf/10.3109/09546634.2015.1133883 (HTTP 403)",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=26864301&rettype=abstract&retmode=text (abstract saved)"
+  ],
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "chitvanich2016",
+      "doi_or_pmid": "PMID 26864301; doi:10.3109/09546634.2015.1133883",
+      "source_location": "PubMed abstract (Methods, Results)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC: not open access, not in PMC, 'Subscription required'; no PMC link from PubMed; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/; full text needed)",
+      "diagnosis": "IGH",
+      "design": "controlled, within-patient: two lesions treated, two lesions on another side as control; randomization and blinding not in abstract; no laser-only or tacrolimus-only arm",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliations are in Bangkok, Thailand; study site not stated)",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "120 lesions 'treated' (abstract wording); whether this count includes the control lesions is not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Chitvanich S, Rerknimitr P, Panchaprateep R, Pongprutthipan M, Asawanonda P. J Dermatolog Treat 2016 Oct;27(5):456-60",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26864301/",
+      "intervention": "fractional 1550-nm ytterbium/erbium fiber laser, four sessions every four weeks, plus 0.1% tacrolimus ointment twice daily",
+      "comparator": "control lesions on another side (treatment of control lesions not in abstract)",
+      "endpoint_definition": "relative lightness index (reference skin for the index not in abstract), treated vs control",
+      "assessment_method": "colorimeter",
+      "time_from_start": "week 12",
+      "time_from_last_treatment": "NOT_DERIVABLE: assessed at week 12 'after three sessions of laser treatment', [i.e. mid-course: before the fourth of four laser sessions, with twice-daily tacrolimus presumably still in use]; the abstract does not state the week of each session or when the final assessment was made",
+      "arm_result": "relative lightness index normalized; difference vs control statistically significant at week 12 (p = 0.026); arm values not in abstract",
+      "texture_or_scar": "not in abstract for this time point (swelling and redness were the most common side effects and resolved spontaneously)",
+      "uncertainty": "'A total of 120 lesions were treated' conflicts with the design of two treated plus two control lesions per patient: either 120 treated lesions ([60] patients, [240] lesions in all) or 120 lesions in all with [60] treated ([30] patients); the abstract does not say which, and gives no patient count, so clustering of lesions within patients cannot be assessed. Combination only: with no laser-only or tacrolimus-only arm, the abstract cannot separate the effect of the laser from that of tacrolimus. Whether control lesions received tacrolimus or any vehicle is not in abstract. [From the ledger's rerknimitr2015 record, not from this source:] same five authors, same 1550-nm ytterbium/erbium fiber laser, same four-sessions-every-four-weeks schedule and same two-treated, two-control lesion layout as rerknimitr2015 (PMID 25303024); the abstract does not say whether patients overlap, so a shared cohort cannot be ruled out. This is a mid-treatment reading, not a result after the final treatment. The abstract says 'statistical significant compared with the control' but gives no lightness values for either arm and does not say whether significance held at later visits. Instrument lightness does not establish a colour match a person would see.",
+      "outcome_tier": "instrument_color",
+      "treatment_class": "energy_device_plus_topical",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "chitvanich2016",
+      "doi_or_pmid": "PMID 26864301; doi:10.3109/09546634.2015.1133883",
+      "source_location": "PubMed abstract (Methods, Results)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC: not open access, not in PMC, 'Subscription required'; no PMC link from PubMed; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/; full text needed)",
+      "diagnosis": "IGH",
+      "design": "controlled, within-patient: two lesions treated, two lesions on another side as control; randomization and blinding not in abstract; no laser-only or tacrolimus-only arm",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliations are in Bangkok, Thailand; study site not stated)",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "120 lesions 'treated' (abstract wording); whether this count includes the control lesions is not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Chitvanich S, Rerknimitr P, Panchaprateep R, Pongprutthipan M, Asawanonda P. J Dermatolog Treat 2016 Oct;27(5):456-60",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26864301/",
+      "intervention": "fractional 1550-nm ytterbium/erbium fiber laser, four sessions every four weeks, plus 0.1% tacrolimus ointment twice daily",
+      "comparator": "control lesions on another side (treatment of control lesions not in abstract)",
+      "endpoint_definition": "any improvement on the physicians' assessment score (grading scale and thresholds not in abstract)",
+      "assessment_method": "digital and dermoscopic digital photographs evaluated by three dermatologists",
+      "time_from_start": "not in abstract",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract does not state when the physicians' assessment was made",
+      "arm_result": "91.67% of lesions on the treatment side showed an improvement (physicians' assessment score); control-side result and comparison not in abstract",
+      "texture_or_scar": "swelling and redness were the most common side effects and resolved spontaneously; frequencies not in abstract",
+      "uncertainty": "'A total of 120 lesions were treated' conflicts with the design of two treated plus two control lesions per patient: either 120 treated lesions ([60] patients, [240] lesions in all) or 120 lesions in all with [60] treated ([30] patients); the abstract does not say which, and gives no patient count, so clustering of lesions within patients cannot be assessed. Combination only: with no laser-only or tacrolimus-only arm, the abstract cannot separate the effect of the laser from that of tacrolimus. Whether control lesions received tacrolimus or any vehicle is not in abstract. [From the ledger's rerknimitr2015 record, not from this source:] same five authors, same 1550-nm ytterbium/erbium fiber laser, same four-sessions-every-four-weeks schedule and same two-treated, two-control lesion layout as rerknimitr2015 (PMID 25303024); the abstract does not say whether patients overlap, so a shared cohort cannot be ruled out. 'Showed an improvement' is any improvement, a lower bar than >75% improvement, so this is partial repigmentation at most and says nothing about complete coverage or a lasting match. 91.67% fits [55/60] or [110/120] treated lesions, but the denominator is not in abstract. Time point of the assessment is not stated.",
+      "outcome_tier": "partial_repigmentation",
+      "treatment_class": "energy_device_plus_topical",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "chitvanich2016",
+      "doi_or_pmid": "PMID 26864301; doi:10.3109/09546634.2015.1133883",
+      "source_location": "PubMed abstract (Methods, Results)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC: not open access, not in PMC, 'Subscription required'; no PMC link from PubMed; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/; full text needed)",
+      "diagnosis": "IGH",
+      "design": "controlled, within-patient: two lesions treated, two lesions on another side as control; randomization and blinding not in abstract; no laser-only or tacrolimus-only arm",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliations are in Bangkok, Thailand; study site not stated)",
+      "patients_enrolled": "not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "120 lesions 'treated' (abstract wording); whether this count includes the control lesions is not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "analysis_unit": "lesion",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Chitvanich S, Rerknimitr P, Panchaprateep R, Pongprutthipan M, Asawanonda P. J Dermatolog Treat 2016 Oct;27(5):456-60",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26864301/",
+      "intervention": "control lesions (treatment, vehicle or no treatment not in abstract)",
+      "comparator": "combination-treated lesions on the other side",
+      "endpoint_definition": "any improvement on the physicians' assessment score (grading scale and thresholds not in abstract)",
+      "assessment_method": "digital and dermoscopic digital photographs evaluated by three dermatologists",
+      "time_from_start": "not in abstract",
+      "time_from_last_treatment": "not applicable (control lesions; whether they received any treatment is not in abstract)",
+      "arm_result": "not in abstract",
+      "texture_or_scar": "not in abstract",
+      "uncertainty": "'A total of 120 lesions were treated' conflicts with the design of two treated plus two control lesions per patient: either 120 treated lesions ([60] patients, [240] lesions in all) or 120 lesions in all with [60] treated ([30] patients); the abstract does not say which, and gives no patient count, so clustering of lesions within patients cannot be assessed. Combination only: with no laser-only or tacrolimus-only arm, the abstract cannot separate the effect of the laser from that of tacrolimus. Whether control lesions received tacrolimus or any vehicle is not in abstract. [From the ledger's rerknimitr2015 record, not from this source:] same five authors, same 1550-nm ytterbium/erbium fiber laser, same four-sessions-every-four-weeks schedule and same two-treated, two-control lesion layout as rerknimitr2015 (PMID 25303024); the abstract does not say whether patients overlap, so a shared cohort cannot be ruled out. The abstract reports no result for control lesions on the physicians' score, so the improvement rate on the treatment side cannot be compared with the control side from this source.",
+      "outcome_tier": "partial_repigmentation",
+      "treatment_class": "control",
+      "months_after_final_tx": "NOT_APPLICABLE"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "lesions_enrolled",
+      "quote": "A total of 120 lesions were treated.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "lesions_enrolled",
+      "quote": "A total of 120 lesions were treated.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "lesions_enrolled",
+      "quote": "A total of 120 lesions were treated.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "statistical significant compared with the control at week 12, after three sessions of laser treatment (p = 0.026)",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "Combination treatment normalized the relative lightness index of IGH which reached statistical significant compared with the control at week 12, after three sessions of laser treatment (p = 0.026)",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "Physicians' assessment score revealed that 91.67% of the lesions on treatment side showed an improvement.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "Four treatments by fractional 1550-nm ytterbium/erbium fiber laser were delivered every four weeks combined with a twice daily topical application of 0.1% tacrolimus ointment.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 1,
+      "field": "intervention",
+      "quote": "Four treatments by fractional 1550-nm ytterbium/erbium fiber laser were delivered every four weeks combined with a twice daily topical application of 0.1% tacrolimus ointment.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 0,
+      "field": "design",
+      "quote": "two lesions were assigned as a treatment group, whilst two lesions on another side were chosen as control.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 1,
+      "field": "design",
+      "quote": "two lesions were assigned as a treatment group, whilst two lesions on another side were chosen as control.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 2,
+      "field": "design",
+      "quote": "two lesions were assigned as a treatment group, whilst two lesions on another side were chosen as control.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "Swelling and redness were the most common side effects which spontaneously resolved.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "assessment_method",
+      "quote": "Lesional skin color was measured by colorimeter.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 1,
+      "field": "assessment_method",
+      "quote": "Digital and dermoscopic digital photographs were taken and evaluated by three dermatologists.",
+      "location": "Abstract, Methods"
+    },
+    {
+      "row": 2,
+      "field": "assessment_method",
+      "quote": "Digital and dermoscopic digital photographs were taken and evaluated by three dermatologists.",
+      "location": "Abstract, Methods"
+    }
+  ],
+  "verifier": {
+    "status": "PASS",
+    "notes": "Checked 2026-11-27 against papers/excerpts/chitvanich2016.txt (PubMed abstract) alone. All 15 quotes occur verbatim in the source and support their cells for the stated row. Row 0: week 12 reading is 'after three sessions' of four, so time_from_last_treatment NOT_DERIVABLE is correct; outcome_tier instrument_color is the weakest reading of 'normalized' with no values. Row 1: 'showed an improvement' correctly tiered partial_repigmentation; assessment timing correctly NOT_DERIVABLE. Row 2: control result correctly 'not in abstract'. analysis_unit lesion matches all counts. Excess pigment, attrition and scarring absent from text and marked 'not in abstract'; swelling and redness recorded. Uncertainty covers the 120-lesion ambiguity, missing patient count, combination-only design, untreated/vehicle control unknown, possible rerknimitr2015 cohort overlap, mid-course timing. 0 failed cells. Minor, not a failure: row 0 time_from_start 'week 12' has no quote filed under that field, but the number appears in the row 0 time_from_last_treatment and arm_result quotes."
+  }
+}

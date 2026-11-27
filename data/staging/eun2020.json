@@ -1,0 +1,9 @@
+{
+ "study_id": "eun2020",
+ "access": "BLOCKED",
+ "excerpt_file": "papers/excerpts/eun2020.txt",
+ "rows": [],
+ "quotes": [],
+ "notes": "PMID 31396960; doi:10.1111/bjd.18427. Eun SH et al., Low-fluence fractional CO2 laser in the treatment of idiopathic guttate hypomelanosis: a pilot study. Br J Dermatol 2020;182(2):485-486. Research letter; PubMed record has no abstract (saved text is title, authors and citation only, so no numbers can be quoted). Attempt 1, 2026-11-27: Europe PMC REST (EXT_ID:31396960) reports isOpenAccess N, inPMC N, full text 'Subscription required' at https://doi.org/10.1111/bjd.18427. Attempt 2, 2026-11-27: https://doi.org/10.1111/bjd.18427 redirects to https://academic.oup.com/bjd/article/182/2/485/6753177, HTTP 403 (Cloudflare challenge); https://academic.oup.com/bjd/article/182/2/485/6602578 also HTTP 403. Needs Ben's PDF at papers/pdfs/eun2020.pdf. Do not merge this 0-row record.",
+ "verifier": {"status": "PENDING", "notes": ""}
+}

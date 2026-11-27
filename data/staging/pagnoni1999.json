@@ -1,0 +1,766 @@
+{
+ "study_id": "pagnoni1999",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/pagnoni1999.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "pagnoni1999",
+   "doi_or_pmid": "PMID 10429990; doi:10.1080/000155599750010724",
+   "access_level": "FULL_TEXT (open-access PDF, CC BY-NC 4.0, medicaljournalssweden.se, fetched 2026-11-27)",
+   "citation": "Pagnoni A, Kligman AM, Sadiq I, Stoudemayer T. Hypopigmented macules of photodamaged skin and their treatment with topical tretinoin. Acta Derm Venereol 1999;79(4):305-310",
+   "source_url": "https://medicaljournalssweden.se/actadv/article/view/14214",
+   "design": "[within-subject split-forearm comparison: tretinoin on one dorsal forearm, Nivea cream on both; no other control]; randomisation of side, blinding and assessor not reported",
+   "skin_tone": "not reported for the four treated women [the separate 40-woman epidemiology sample was 'Caucasian women (phototypes 2 and 3)'; whether the treated women came from it is not stated]",
+   "patients_enrolled": "not reported (the paper states only how many completed)",
+   "attrition": "not reported (the paper states that 4 women 'completed'; the number who started is not reported)",
+   "patient_noticeability": "not reported",
+   "verification_status": "PENDING",
+   "source_location": "Methods (Tretinoin treatment); Results (Treatment); Abstract; Fig. 2",
+   "diagnosis": "mixed: IGH and macular hypomelanosis (MH) of photodamaged skin, results pooled; 1 of four treated women had IGH, three had MH",
+   "body_site": "dorsal forearm",
+   "patients_evaluable": "4 completed (three MH, 1 IGH)",
+   "lesions_enrolled": "not reported ('selected macules'; count not stated)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "lesion [results are described for 'tretinoin-treated macules' without counts; statistical unit not reported]",
+   "intervention": "topical tretinoin cream (Retin-A) once nightly on one dorsal forearm: 0.025% for 1 week, 0.05% the second week, then 0.1% to the end of a 4-month course; Nivea cream each morning on both forearms; no sunscreen (fall and winter, long sleeves)",
+   "comparator": "contralateral dorsal forearm, Nivea cream only (see the Nivea row)",
+   "endpoint_definition": "not reported as a defined scale: clinical appearance of the macules and repigmentation on UVA and epiluminescence photographs, described qualitatively",
+   "assessment_method": "clinical photographs, UVA photography, parallel-polarized photography and epiluminescence photography before and after treatment; assessor and grading not reported",
+   "time_from_start": "after 4 months of nightly treatment; 'great improvement' already evident after 2 months",
+   "time_from_last_treatment": "NOT_DERIVABLE: assessed 'after treatment' / 'after 4 months'; the interval between the last application and the assessment is not reported [presumably at the end of treatment]",
+   "arm_result": "tretinoin-treated macules 'clinically disappeared after 4 months' with 'partial repigmentation' on UVA and epiluminescence photos, in both IGH and MH (pooled; no proportion or lesion count reported)",
+   "complete_match": "not reported [the macules are said to have 'clinically disappeared', but pigmentation is described as only partial; no colour match to surrounding skin is stated]",
+   "dark_overshoot": "not reported [no darkening beyond the surrounding skin described]; the surrounding skin showed a decrease in pigmentation",
+   "texture_or_scar": "almost complete recovery of glyphics; in the elasticity subset (3 subjects, IGH and MH pooled) distensibility R0 rose 77% and gross elasticity R2 34% versus pretreatment (p<0.005); R0 and R2 higher than on Nivea-treated macules (p<0.05); acanthosis with correction of atypia on histology",
+   "uncertainty": "Very small study: four treated women, of whom only 1 had IGH (3 had macular hypomelanosis, MH). Clinical, photographic and elasticity results are reported pooled for IGH and MH, never per lesion type or per lesion, and with no lesion counts, no repigmentation scale, no grading criteria and no named or blinded assessor. The Results say the treated macules 'clinically disappeared' yet also report only 'partial repigmentation' (abstract: 'a partial restoration of pigmentation'); the Fig. 2 caption (IGH) says 'recovery of pigmentation'. Read here as partial repigmentation, not complete coverage or colour match. The surrounding skin 'showed a decrease in pigmentation' after tretinoin, so part of the reduced contrast may come from the surrounding skin lightening, not the macule darkening [inference]; the study ran in fall and winter without sunscreen, which may also lower surrounding pigment [inference]. Allocation of the tretinoin side is not described. The authors themselves write that 'maintenance therapy may be required for durable effects'. Elasticity was measured in only 3 subjects; which lesion types they had is not stated.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "topical",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "pagnoni1999",
+   "doi_or_pmid": "PMID 10429990; doi:10.1080/000155599750010724",
+   "access_level": "FULL_TEXT (open-access PDF, CC BY-NC 4.0, medicaljournalssweden.se, fetched 2026-11-27)",
+   "citation": "Pagnoni A, Kligman AM, Sadiq I, Stoudemayer T. Hypopigmented macules of photodamaged skin and their treatment with topical tretinoin. Acta Derm Venereol 1999;79(4):305-310",
+   "source_url": "https://medicaljournalssweden.se/actadv/article/view/14214",
+   "design": "[within-subject split-forearm comparison: tretinoin on one dorsal forearm, Nivea cream on both; no other control]; randomisation of side, blinding and assessor not reported",
+   "skin_tone": "not reported for the four treated women [the separate 40-woman epidemiology sample was 'Caucasian women (phototypes 2 and 3)'; whether the treated women came from it is not stated]",
+   "patients_enrolled": "not reported (the paper states only how many completed)",
+   "attrition": "not reported (the paper states that 4 women 'completed'; the number who started is not reported)",
+   "patient_noticeability": "not reported",
+   "verification_status": "PENDING",
+   "source_location": "Methods (Tretinoin treatment); Results (Treatment)",
+   "diagnosis": "mixed: IGH and macular hypomelanosis (MH) of photodamaged skin, results pooled; 1 of four women had IGH, three had MH",
+   "body_site": "dorsal forearm",
+   "patients_evaluable": "4 completed (three MH, 1 IGH) [same women as the tretinoin row; within-subject control]",
+   "lesions_enrolled": "not reported ('selected macules'; count not stated)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "lesion [results are described for macules on the Nivea-treated forearms without counts]",
+   "intervention": "Nivea cream each morning only (the forearm that did not receive tretinoin) [moisturiser control]",
+   "comparator": "contralateral dorsal forearm, tretinoin (see the tretinoin row)",
+   "endpoint_definition": "not reported as a defined scale: changes in pigmentation, glyphic pattern, elastic values and histology, described qualitatively",
+   "assessment_method": "clinical photographs, UVA photography, parallel-polarized photography and epiluminescence photography before and after treatment; assessor and grading not reported",
+   "time_from_start": "[after the 4-month study period]",
+   "time_from_last_treatment": "NOT_DERIVABLE: assessed 'after treatment'; the interval between the last Nivea application and the assessment is not reported",
+   "arm_result": "no changes in pigmentation, glyphic pattern, elastic values or histology, in either IGH or MH",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "no change in glyphic pattern or elastic values",
+   "uncertainty": "Very small study: four treated women, of whom only 1 had IGH (3 had macular hypomelanosis, MH). Clinical, photographic and elasticity results are reported pooled for IGH and MH, never per lesion type or per lesion, and with no lesion counts, no repigmentation scale, no grading criteria and no named or blinded assessor. The Results say the treated macules 'clinically disappeared' yet also report only 'partial repigmentation' (abstract: 'a partial restoration of pigmentation'); the Fig. 2 caption (IGH) says 'recovery of pigmentation'. Read here as partial repigmentation, not complete coverage or colour match. The surrounding skin 'showed a decrease in pigmentation' after tretinoin, so part of the reduced contrast may come from the surrounding skin lightening, not the macule darkening [inference]; the study ran in fall and winter without sunscreen, which may also lower surrounding pigment [inference]. Allocation of the tretinoin side is not described. The authors themselves write that 'maintenance therapy may be required for durable effects'. Nivea was applied to both forearms, so this is a moisturiser-only side, not an untreated control; the Nivea side was within the same women, so the comparison is within-subject.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "control",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "pagnoni1999",
+   "doi_or_pmid": "PMID 10429990; doi:10.1080/000155599750010724",
+   "access_level": "FULL_TEXT (open-access PDF, CC BY-NC 4.0, medicaljournalssweden.se, fetched 2026-11-27)",
+   "citation": "Pagnoni A, Kligman AM, Sadiq I, Stoudemayer T. Hypopigmented macules of photodamaged skin and their treatment with topical tretinoin. Acta Derm Venereol 1999;79(4):305-310",
+   "source_url": "https://medicaljournalssweden.se/actadv/article/view/14214",
+   "design": "[within-subject split-forearm comparison: tretinoin on one dorsal forearm, Nivea cream on both; no other control]; randomisation of side, blinding and assessor not reported",
+   "skin_tone": "not reported for the four treated women [the separate 40-woman epidemiology sample was 'Caucasian women (phototypes 2 and 3)'; whether the treated women came from it is not stated]",
+   "patients_enrolled": "not reported (the paper states only how many completed)",
+   "attrition": "not reported (the paper states that 4 women 'completed'; the number who started is not reported)",
+   "patient_noticeability": "not reported",
+   "verification_status": "PENDING",
+   "source_location": "Fig. 2 and Fig. 3 captions; Methods (Tretinoin treatment); Results (Treatment)",
+   "diagnosis": "IGH",
+   "body_site": "dorsal forearm [the treated area; site of the illustrated IGH macule not stated separately]",
+   "patients_evaluable": "[1] (the source says 1 of the four treated women had IGH)",
+   "lesions_enrolled": "not reported (number of IGH macules treated not stated; 1 IGH macule biopsied before and after treatment)",
+   "lesions_evaluable": "not reported [at least 1 IGH macule illustrated in Figs. 2 and 3]",
+   "analysis_unit": "lesion [a single illustrated IGH macule; case-level description]",
+   "intervention": "topical tretinoin cream (Retin-A) once nightly on one dorsal forearm: 0.025% for 1 week, 0.05% the second week, then 0.1% to the end of a 4-month course; Nivea cream each morning on both forearms; no sunscreen (fall and winter, long sleeves)",
+   "comparator": "not reported separately for IGH [contralateral forearm, Nivea cream only]",
+   "endpoint_definition": "not reported as a defined scale: recovery of pigmentation on flash, UVA and epiluminescence photographs (Fig. 2) and melanin density on Fontana stain",
+   "assessment_method": "flash, UVA and epiluminescence photography (Fig. 2); Silflo replica and H&E histology (Fig. 3); 3-mm punch biopsy of an IGH macule before and after treatment in 1 subject; Fontana stain",
+   "time_from_start": "after 4 months of tretinoin applications",
+   "time_from_last_treatment": "NOT_DERIVABLE: photographs and biopsy taken 'after 4 months' / 'after treatment'; the interval after the last application is not reported",
+   "arm_result": "Fig. 2 (IGH) caption reports 'recovery of pigmentation' after 4 months; Results report 'partial repigmentation in both IGH and MH'; Fontana stain after treatment showed an increased density of melanin throughout the epidermis [the only biopsy pair was from an IGH macule]; no measurement or grade reported",
+   "complete_match": "not reported [the figure caption says 'recovery of pigmentation'; the text calls the repigmentation partial]",
+   "dark_overshoot": "not reported; the epiluminescence photos showed a decrease in the hyperpigmentation surrounding the macule",
+   "texture_or_scar": "marked rebuilding of glyphics (figure captions); epidermal acanthosis with correction of atypia; modest redevelopment of rete pegs",
+   "uncertainty": "Very small study: four treated women, of whom only 1 had IGH (3 had macular hypomelanosis, MH). Clinical, photographic and elasticity results are reported pooled for IGH and MH, never per lesion type or per lesion, and with no lesion counts, no repigmentation scale, no grading criteria and no named or blinded assessor. The Results say the treated macules 'clinically disappeared' yet also report only 'partial repigmentation' (abstract: 'a partial restoration of pigmentation'); the Fig. 2 caption (IGH) says 'recovery of pigmentation'. Read here as partial repigmentation, not complete coverage or colour match. The surrounding skin 'showed a decrease in pigmentation' after tretinoin, so part of the reduced contrast may come from the surrounding skin lightening, not the macule darkening [inference]; the study ran in fall and winter without sunscreen, which may also lower surrounding pigment [inference]. Allocation of the tretinoin side is not described. The authors themselves write that 'maintenance therapy may be required for durable effects'. This row rests on one IGH patient and the macule(s) shown in the figures; selection of the illustrated macule is not described. It is not stated in so many words that the Fontana result comes from the IGH biopsy, but the Methods describe only one biopsy pair, from an IGH macule [inference]. The caption's 'recovery of pigmentation' conflicts with the text's 'partial repigmentation'.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "topical",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "pagnoni1999",
+   "doi_or_pmid": "PMID 10429990; doi:10.1080/000155599750010724",
+   "access_level": "FULL_TEXT (open-access PDF, CC BY-NC 4.0, medicaljournalssweden.se, fetched 2026-11-27)",
+   "citation": "Pagnoni A, Kligman AM, Sadiq I, Stoudemayer T. Hypopigmented macules of photodamaged skin and their treatment with topical tretinoin. Acta Derm Venereol 1999;79(4):305-310",
+   "source_url": "https://medicaljournalssweden.se/actadv/article/view/14214",
+   "design": "[within-subject split-forearm comparison: tretinoin on one dorsal forearm, Nivea cream on both; no other control]; randomisation of side, blinding and assessor not reported",
+   "skin_tone": "not reported for the four treated women [the separate 40-woman epidemiology sample was 'Caucasian women (phototypes 2 and 3)'; whether the treated women came from it is not stated]",
+   "patients_enrolled": "not reported (the paper states only how many completed)",
+   "attrition": "not reported (the paper states that 4 women 'completed'; the number who started is not reported)",
+   "patient_noticeability": "not reported",
+   "verification_status": "PENDING",
+   "source_location": "Discussion",
+   "diagnosis": "ADJACENT: macular hypomelanosis (MH) of photodamaged skin, not IGH (the authors consider the two 'probably related disorders along a spectrum of depigmentation')",
+   "body_site": "[dorsal forearm, the treated site; not stated for the follow-up]",
+   "patients_evaluable": "2 patients with MH followed up [presumably 2 of the 3 treated MH women; not stated]",
+   "lesions_enrolled": "not reported",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient [the source counts patients followed up]",
+   "intervention": "topical tretinoin cream (Retin-A) once nightly on one dorsal forearm: 0.025% for 1 week, 0.05% the second week, then 0.1% to the end of a 4-month course; Nivea cream each morning on both forearms; no sunscreen (fall and winter, long sleeves)",
+   "comparator": "not reported [no comparison group described for the follow-up]",
+   "endpoint_definition": "not reported as a defined scale: clinical state of the macules compared with the original state",
+   "assessment_method": "not reported [clinical observation]",
+   "time_from_start": "not reported [4-month course plus a year]",
+   "time_from_last_treatment": "a year after stopping tretinoin [12 months]",
+   "arm_result": "clinical regression of the macules to the original state in the 2 MH patients followed up",
+   "complete_match": "not reported [whatever improvement there was did not last: macules returned to the original state]",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported",
+   "uncertainty": "Very small study: four treated women, of whom only 1 had IGH (3 had macular hypomelanosis, MH). Clinical, photographic and elasticity results are reported pooled for IGH and MH, never per lesion type or per lesion, and with no lesion counts, no repigmentation scale, no grading criteria and no named or blinded assessor. The Results say the treated macules 'clinically disappeared' yet also report only 'partial repigmentation' (abstract: 'a partial restoration of pigmentation'); the Fig. 2 caption (IGH) says 'recovery of pigmentation'. Read here as partial repigmentation, not complete coverage or colour match. The surrounding skin 'showed a decrease in pigmentation' after tretinoin, so part of the reduced contrast may come from the surrounding skin lightening, not the macule darkening [inference]; the study ran in fall and winter without sunscreen, which may also lower surrounding pigment [inference]. Allocation of the tretinoin side is not described. The authors themselves write that 'maintenance therapy may be required for durable effects'. This durability finding is one sentence in the Discussion, for 2 MH patients only; no IGH patient was followed after stopping. Method, assessor and whether glyphics and elasticity also regressed are not reported. months_after_final_tx [12] is 'a year' converted to months [inference]. Recorded as unquantified rather than lasting_color_match because the result is a loss of effect, not a lasting match.",
+   "outcome_tier": "unquantified",
+   "treatment_class": "topical",
+   "months_after_final_tx": "12"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "A total of 40 Caucasian women (phototypes 2 and 3), living in the Philadelphia suburban area (40³ latitude) were examined.",
+   "location": "Methods, Epidemiology"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Interestingly, the surrounding skin showed a decrease in pigmentation.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The study was conducted during fall and winter,",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "In addition, maintenance therapy may be required for durable effects.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "the tretinoin-treated macules clinically disappeared after 4 months, with an almost complete recovery of glyphics and partial repigmentation",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 1,
+   "field": "patients_evaluable",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "attrition",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "A total of 40 Caucasian women (phototypes 2 and 3), living in the Philadelphia suburban area (40³ latitude) were examined.",
+   "location": "Methods, Epidemiology"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Interestingly, the surrounding skin showed a decrease in pigmentation.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The study was conducted during fall and winter,",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "In addition, maintenance therapy may be required for durable effects.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "the tretinoin-treated macules clinically disappeared after 4 months, with an almost complete recovery of glyphics and partial repigmentation",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 2,
+   "field": "patients_evaluable",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "attrition",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "skin_tone",
+   "quote": "A total of 40 Caucasian women (phototypes 2 and 3), living in the Philadelphia suburban area (40³ latitude) were examined.",
+   "location": "Methods, Epidemiology"
+  },
+  {
+   "row": 2,
+   "field": "design",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Interestingly, the surrounding skin showed a decrease in pigmentation.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The study was conducted during fall and winter,",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "In addition, maintenance therapy may be required for durable effects.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "the tretinoin-treated macules clinically disappeared after 4 months, with an almost complete recovery of glyphics and partial repigmentation",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "attrition",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "skin_tone",
+   "quote": "A total of 40 Caucasian women (phototypes 2 and 3), living in the Philadelphia suburban area (40³ latitude) were examined.",
+   "location": "Methods, Epidemiology"
+  },
+  {
+   "row": 3,
+   "field": "design",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Interestingly, the surrounding skin showed a decrease in pigmentation.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The study was conducted during fall and winter,",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "In addition, maintenance therapy may be required for durable effects.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "the tretinoin-treated macules clinically disappeared after 4 months, with an almost complete recovery of glyphics and partial repigmentation",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly. We started with 0.025% for 1 week, increased to 0.05% the second week and, ®nally, to 0.1% until the end of the study.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "Nivea cream1 (Beiersdorf Inc., Norwalk, CT, USA) was applied to both sides each morning to moderate dryness.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "when the subjects were wearing long-sleeve clothes. A sunscreen was therefore not applied.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly. We started with 0.025% for 1 week, increased to 0.05% the second week and, ®nally, to 0.1% until the end of the study.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "Nivea cream1 (Beiersdorf Inc., Norwalk, CT, USA) was applied to both sides each morning to moderate dryness.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "when the subjects were wearing long-sleeve clothes. A sunscreen was therefore not applied.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "One forearm received tretinoin (Retin-A1 cream, Ortho Pharmaceutical Corp., Raritan, NJ, USA) once nightly. We started with 0.025% for 1 week, increased to 0.05% the second week and, ®nally, to 0.1% until the end of the study.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "Nivea cream1 (Beiersdorf Inc., Norwalk, CT, USA) was applied to both sides each morning to moderate dryness.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "when the subjects were wearing long-sleeve clothes. A sunscreen was therefore not applied.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "The following tests were performed, before and after treatment, on selected macules of both dorsal forearms: ultraviolet-A photography; parallel-polarized photography; and epiluminescence photography as described above.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "By contrast, the tretinoin-treated macules clinically disappeared after 4 months, with an almost complete recovery of glyphics and partial repigmentation",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "UVA and epiluminescence photos showed a partial repigmentation in both IGH and MH",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "A great improvement was already evident after 2 months of therapy.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "the tretinoin-treated macules clinically disappeared after 4 months",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "In 3 subjects, Sil¯o replicas were obtained and elasticity was determined by suction.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "After tretinoin treatment both IGH and MH showed a statistically signi®cant increase (pv0.005) in distensibility-R0 (77%) and gross elasticity-R2 (34%) compared with the pretreatment values.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Also, the values of R0 and R2 for the tretinoin-treated macules were statistically signi®cantly higher (pv0.05) compared with Nivea-treated ones.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Tretinoin induced epidermal acanthosis along with correction of atypia.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "In 3 subjects, Sil¯o replicas were obtained and elasticity was determined by suction.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "Interestingly, the surrounding skin showed a decrease in pigmentation.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 0,
+   "field": "complete_match",
+   "quote": "Treatment with tretinoin for 4 months restored the elasticity, the glyphic markings, with a partial restoration of pigmentation.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "In Nivea-treated forearms, no changes in pigmentation, glyphic pattern, elastic values and histology were observed either in IGH or MH.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "In Nivea-treated forearms, no changes in pigmentation, glyphic pattern, elastic values and histology were observed either in IGH or MH.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "Nivea cream1 (Beiersdorf Inc., Norwalk, CT, USA) was applied to both sides each morning to moderate dryness.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "The following tests were performed, before and after treatment, on selected macules of both dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "After 4 months there was (B, D) a marked rebuilt of glyphics and (B, D, F) recovery of pigmentation.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "UVA and epiluminescence photos showed a partial repigmentation in both IGH and MH",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Fontana stain showed an increased density of melanin, not only in the basal layer, but throughout the entire epidermis including the stratum corneum.",
+   "location": "Results, Treatment"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "In 1 subject a 3-mm punch biopsy was taken from an IGH macule before and after treatment.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "assessment_method",
+   "quote": "In 1 subject a 3-mm punch biopsy was taken from an IGH macule before and after treatment.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "time_from_start",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "After 4 months there was (B, D) a marked rebuilt of glyphics and (B, D, F) recovery of pigmentation.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "dark_overshoot",
+   "quote": "Also, the epiluminescence photos showed a striking decrease in the hyperpigmentation surrounding the macule after treatment.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "After 4 months there was a marked rebuilt of glyphics, as shown in (B). Tretinoin induced epidermal acanthosis along with correction of atypia (D). A modest redevelopment of rete pegs was observed.",
+   "location": "Fig. 3 caption"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin showed clinical regression of the macules to the original state.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "patients_evaluable",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "diagnosis",
+   "quote": "Macular hypomelanosis and idiopathic guttate hypomelanosis are probably related disorders along a spectrum of depigmentation.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "diagnosis",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "In 3 subjects, Sil¯o replicas were obtained and elasticity was determined by suction.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin showed clinical regression of the macules to the original state.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "In 1 subject a 3-mm punch biopsy was taken from an IGH macule before and after treatment.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "diagnosis",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "time_from_start",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "In 3 subjects, Sil¯o replicas were obtained and elasticity was determined by suction.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin showed clinical regression of the macules to the original state.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "In 1 subject a 3-mm punch biopsy was taken from an IGH macule before and after treatment.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "diagnosis",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "time_from_start",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "In 3 subjects, Sil¯o replicas were obtained and elasticity was determined by suction.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin showed clinical regression of the macules to the original state.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "In 1 subject a 3-mm punch biopsy was taken from an IGH macule before and after treatment.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "diagnosis",
+   "quote": "Four photodamaged women between 61 and 74 years old completed a 4-month treatment on the dorsal forearms. Three had MH and 1 had IGH.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "time_from_start",
+   "quote": "completed a 4-month treatment on the dorsal forearms",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "In 3 subjects, Sil¯o replicas were obtained and elasticity was determined by suction.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Follow-up of 2 patients with MH a year after stopping tretinoin showed clinical regression of the macules to the original state.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "In 1 subject a 3-mm punch biopsy was taken from an IGH macule before and after treatment.",
+   "location": "Methods, Tretinoin treatment"
+  },
+  {
+   "row": 2,
+   "field": "endpoint_definition",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "assessment_method",
+   "quote": "Fig. 2. Idiopathic guttate hypomelanosis (A) (A, C, E) before and (B, D, F) after 4 months of tretinoin applications.",
+   "location": "Fig. 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "assessment_method",
+   "quote": "Fig. 3. Idiopathic guttate hypomelanosis (A) (A, C) before and (B, D) after 4 months of tretinoin application.",
+   "location": "Fig. 3 caption"
+  }
+ ],
+ "verifier": {
+  "status": "PASS",
+  "date": "2026-11-27",
+  "notes": "2026-11-27 verifier 1: PASS, 0 failed cells. Checked all 4 rows and every quote against papers/excerpts/pagnoni1999.txt (full text). Observations, not failures: row 3 patients_evaluable '[1]' is bracketed although the source states '1 had IGH'; row 4 months_after_final_tx 12 is 'a year' converted (the field cannot hold brackets; the conversion is flagged in uncertainty); row 2 outcome_tier partial_repigmentation names the endpoint measured, as for other control rows, while the Nivea side showed no change; funding is not stated in the paper and the authors' affiliation is S.K.I.N. Incorporated. Row 4 diagnosis is ADJACENT (macular hypomelanosis), so it does not count as an IGH durability row."
+ }
+}
