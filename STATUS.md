@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, end of session 1.
+Last updated: 2026-11-27, end of session 1; laosakul2017 extraction thread (BLOCKED) appended.
 
 ## Open module
 
@@ -43,7 +43,9 @@ Last updated: 2026-11-27, end of session 1.
 
 ## Blocked
 
-Nothing yet.
+| study_id | Date | What was tried | Result | Needs |
+|---|---|---|---|---|
+| laosakul2017 | 2026-11-27 | (1) curl via cloud proxy: eutils efetch `db=pubmed&id=27494272`, Europe PMC REST `EXT_ID:27494272 AND SRC:MED`, https://pubmed.ncbi.nlm.nih.gov/27494272/, https://doi.org/10.1080/09546634.2016.1221498, https://www.tandfonline.com/doi/full/10.1080/09546634.2016.1221498; (2) web fetch of the PubMed and Taylor & Francis URLs | (1) proxy refused all hosts; (2) PubMed stub page with no record, T&F client error | `papers/pdfs/laosakul2017.pdf` from Ben, or a thread on Ben's own computer. Staging record `data/staging/laosakul2017.json` written with 0 rows, access BLOCKED. |
 
 ## Next session
 

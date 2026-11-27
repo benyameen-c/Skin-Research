@@ -1,0 +1,22 @@
+{
+  "study_id": "laosakul2017",
+  "access": "BLOCKED",
+  "excerpt_file": "",
+  "rows": [],
+  "quotes": [],
+  "access_log": [
+    {"date": "2026-11-27", "attempt": 1, "method": "curl through cloud egress proxy",
+     "targets": ["https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=27494272&rettype=abstract&retmode=text",
+                 "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27494272%20AND%20SRC:MED&format=json&resultType=core",
+                 "https://pubmed.ncbi.nlm.nih.gov/27494272/",
+                 "https://doi.org/10.1080/09546634.2016.1221498",
+                 "https://www.tandfonline.com/doi/full/10.1080/09546634.2016.1221498"],
+     "result": "proxy refused every host (HTTP 403 connect_rejected or no connection)"},
+    {"date": "2026-11-27", "attempt": 2, "method": "web fetch tool",
+     "targets": ["https://pubmed.ncbi.nlm.nih.gov/27494272/",
+                 "https://www.tandfonline.com/doi/full/10.1080/09546634.2016.1221498"],
+     "result": "PubMed returned a 185-character stub with no record content; Taylor & Francis returned a client error"}
+  ],
+  "uncertainty": "No source text reached from the cloud thread, so no rows were written. papers/pdfs/laosakul2017.pdf is not present. Needs the PDF from Ben or a thread on his own computer. The existing two abstract-based ledger rows are unchanged.",
+  "verifier": {"status": "PENDING", "notes": ""}
+}
