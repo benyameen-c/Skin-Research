@@ -1,0 +1,221 @@
+{
+ "study_id": "rajegowda2021",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/rajegowda2021.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rajegowda2021",
+   "doi_or_pmid": "doi:10.4103/CDR.CDR_50_20 (no PMID found; DOI not in Europe PMC)",
+   "source_location": "Abstract (Materials and Methods, Results), DOAJ record; affiliation from the Ovid article page",
+   "access_level": "ABSTRACT_ONLY (open-access journal, but the full text was not served: Ovid PDF link returned the abstract page, journals.lww.com returned HTTP 403, 2026-11-27)",
+   "diagnosis": "IGH",
+   "design": "prospective comparative, within-patient: in each patient 5 macules received 88% phenol and 5 other macules received cryotherapy; how macules were allocated, randomisation and blinding not in abstract",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract (authors' department is in Mandya, Karnataka, India; study site not stated in the abstract)",
+   "patients_enrolled": "30 (patients with more than 10 IGH macules)",
+   "patients_evaluable": "25 completed the study",
+   "lesions_enrolled": "5 macules per arm per patient; [150] per arm if all 30 enrolled patients were treated (not reported directly)",
+   "lesions_evaluable": "125 per arm",
+   "analysis_unit": "lesion (macule); 5 macules per arm per patient, both arms in the same patients; adjustment for clustering within patients not in abstract",
+   "assessment_method": "grading of improvement in pigmentation, assessed monthly for 3 months: Grade 1 <25% no response, Grade 2 26-50% minimal, Grade 3 51-75% good, Grade 4 >75% excellent; assessor, blinding and whether clinical or photographic not in abstract",
+   "endpoint_definition": "share of treated macules with excellent (>75%) and with good (51-75%) improvement in pigmentation at the end of the treatment period (partial repigmentation; >75% is not complete coverage)",
+   "time_from_start": "end of the treatment period [up to 3 months: patients were assessed monthly for 3 months]",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract reports results 'At the end of the treatment period' and gives time only from the start (monthly assessments for 3 months); treatment was repeated monthly 'till the repigmentation for maximum of 3 applications', so the number of applications and the date of each macule's final application are not reported",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract (highest reported grade is >75% improvement, which is partial)",
+   "dark_overshoot": "not in abstract",
+   "attrition": "[5] of 30 enrolled patients did not complete (30 selected, 25 completed); reasons not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Rajegowda HM, Kalegowda D, Madegowda SB, Rangarajaiah AC. Efficacy and safety of 88% phenol application versus cryotherapy in repigmentation of idiopathic guttate hypomelanosis: a prospective study. Clin Dermatol Rev 2021;5(1):49-53",
+   "source_url": "https://doi.org/10.4103/CDR.CDR_50_20",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "intervention": "short contact cryotherapy, single freeze of 3-5 s per macule, once a month until repigmentation, maximum 3 applications",
+   "comparator": "88% phenol applied to 5 other IGH macules of the same patient",
+   "arm_result": "75/125 (60%) macules excellent (>75% improvement); 20/125 (16%) good (51-75%); [30/125 (24%)] minimal or no response combined (not reported separately); P < 0.05 vs phenol (comparison not specified)",
+   "texture_or_scar": "not in abstract as counts; abstract states persistent scabbing and ulceration were more common with 88% phenol than with cryotherapy",
+   "uncertainty": "Abstract only. No untreated control macules are reported, although every patient had more than 10 macules, so spontaneous change cannot be separated from treatment effect. Within-patient comparison: each patient contributes 5 macules to each arm, and the abstract does not say how macules were allocated, who graded them, whether grading was blinded, or whether the P < 0.05 test accounted for clustering within patients; the test's comparison (which grade or grades) is not stated. 125 = [25 completers x 5 macules], so results cover completers only; the [25] macules per arm from the [5] patients who dropped out are not analysed. The grading scale has gaps and overlaps in the abstract: Grade 1 is '<25%' and Grade 2 '26%-50%', so 25% falls in no grade, and there is no separate grade for no change. Minimal and no-response counts are not given separately. The schedule sentence is ambiguous: 'single cryotherapy for 3-5 s was applied for another 5 IGH macules once in a month till the repigmentation for maximum of 3 applications' can be read as applying the monthly, up-to-3 schedule to cryotherapy only or to both arms; the number of applications each macule received is not reported, so time from each macule's final treatment cannot be derived. Results are given only 'At the end of the treatment period', with no visit after treatment ended, so durability is not measured. The conclusion calls cryotherapy 'more efficacious and safe', but side effects are described only qualitatively (no counts). Duplicate-cohort check: the abstract gives no study site, recruitment dates or ethics approval, so overlap with other cohorts cannot be settled from this text. The authors' department (Mandya Institute of Medical Sciences) and three author names (Rajegowda, Kalegowda/Deepadarshan, Madegowda/Shashikumar) are shared with deepadarshan2023 in the ledger, whose own source (papers/excerpts/deepadarshan2023.txt, not this text) reports a different treatment (308 nm excimer laser) run from August 2022 to January 2023, after this article's 2021 publication [so the two are probably not the same cohort, although individual patients could recur; this abstract gives no dates or patient details to check]. The earlier lead note's 'near-identical title' article in J Pak Assoc Dermatol was not identified in this source text.",
+   "treatment_class": "cryotherapy"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rajegowda2021",
+   "doi_or_pmid": "doi:10.4103/CDR.CDR_50_20 (no PMID found; DOI not in Europe PMC)",
+   "source_location": "Abstract (Materials and Methods, Results), DOAJ record; affiliation from the Ovid article page",
+   "access_level": "ABSTRACT_ONLY (open-access journal, but the full text was not served: Ovid PDF link returned the abstract page, journals.lww.com returned HTTP 403, 2026-11-27)",
+   "diagnosis": "IGH",
+   "design": "prospective comparative, within-patient: in each patient 5 macules received 88% phenol and 5 other macules received cryotherapy; how macules were allocated, randomisation and blinding not in abstract",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract (authors' department is in Mandya, Karnataka, India; study site not stated in the abstract)",
+   "patients_enrolled": "30 (patients with more than 10 IGH macules)",
+   "patients_evaluable": "25 completed the study",
+   "lesions_enrolled": "5 macules per arm per patient; [150] per arm if all 30 enrolled patients were treated (not reported directly)",
+   "lesions_evaluable": "125 per arm",
+   "analysis_unit": "lesion (macule); 5 macules per arm per patient, both arms in the same patients; adjustment for clustering within patients not in abstract",
+   "assessment_method": "grading of improvement in pigmentation, assessed monthly for 3 months: Grade 1 <25% no response, Grade 2 26-50% minimal, Grade 3 51-75% good, Grade 4 >75% excellent; assessor, blinding and whether clinical or photographic not in abstract",
+   "endpoint_definition": "share of treated macules with excellent (>75%) and with good (51-75%) improvement in pigmentation at the end of the treatment period (partial repigmentation; >75% is not complete coverage)",
+   "time_from_start": "end of the treatment period [up to 3 months: patients were assessed monthly for 3 months]",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract reports results 'At the end of the treatment period' and gives time only from the start (monthly assessments for 3 months); treatment was repeated monthly 'till the repigmentation for maximum of 3 applications', so the number of applications and the date of each macule's final application are not reported",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract (highest reported grade is >75% improvement, which is partial)",
+   "dark_overshoot": "not in abstract",
+   "attrition": "[5] of 30 enrolled patients did not complete (30 selected, 25 completed); reasons not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Rajegowda HM, Kalegowda D, Madegowda SB, Rangarajaiah AC. Efficacy and safety of 88% phenol application versus cryotherapy in repigmentation of idiopathic guttate hypomelanosis: a prospective study. Clin Dermatol Rev 2021;5(1):49-53",
+   "source_url": "https://doi.org/10.4103/CDR.CDR_50_20",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "intervention": "88% phenol applied to 5 IGH macules (therapeutic wounding); number and timing of applications not stated separately from the cryotherapy schedule",
+   "comparator": "short contact cryotherapy (3-5 s) on 5 other IGH macules of the same patient",
+   "arm_result": "37/125 (29.6%) macules excellent (>75% improvement); 29/125 (23.2%) good (51-75%); [59/125 (47.2%)] minimal or no response combined (not reported separately); P < 0.05 vs cryotherapy (comparison not specified)",
+   "texture_or_scar": "not in abstract as counts; abstract states persistent scabbing and ulceration were more common with 88% phenol than with cryotherapy",
+   "uncertainty": "Abstract only. No untreated control macules are reported, although every patient had more than 10 macules, so spontaneous change cannot be separated from treatment effect. Within-patient comparison: each patient contributes 5 macules to each arm, and the abstract does not say how macules were allocated, who graded them, whether grading was blinded, or whether the P < 0.05 test accounted for clustering within patients; the test's comparison (which grade or grades) is not stated. 125 = [25 completers x 5 macules], so results cover completers only; the [25] macules per arm from the [5] patients who dropped out are not analysed. The grading scale has gaps and overlaps in the abstract: Grade 1 is '<25%' and Grade 2 '26%-50%', so 25% falls in no grade, and there is no separate grade for no change. Minimal and no-response counts are not given separately. The schedule sentence is ambiguous: 'single cryotherapy for 3-5 s was applied for another 5 IGH macules once in a month till the repigmentation for maximum of 3 applications' can be read as applying the monthly, up-to-3 schedule to cryotherapy only or to both arms; the number of applications each macule received is not reported, so time from each macule's final treatment cannot be derived. Results are given only 'At the end of the treatment period', with no visit after treatment ended, so durability is not measured. The conclusion calls cryotherapy 'more efficacious and safe', but side effects are described only qualitatively (no counts). Duplicate-cohort check: the abstract gives no study site, recruitment dates or ethics approval, so overlap with other cohorts cannot be settled from this text. The authors' department (Mandya Institute of Medical Sciences) and three author names (Rajegowda, Kalegowda/Deepadarshan, Madegowda/Shashikumar) are shared with deepadarshan2023 in the ledger, whose own source (papers/excerpts/deepadarshan2023.txt, not this text) reports a different treatment (308 nm excimer laser) run from August 2022 to January 2023, after this article's 2021 publication [so the two are probably not the same cohort, although individual patients could recur; this abstract gives no dates or patient details to check]. The earlier lead note's 'near-identical title' article in J Pak Assoc Dermatol was not identified in this source text.",
+   "treatment_class": "chemical_peel"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A total of 30 patients with more than 10 IGH macules were selected.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "A total of 25 patients completed the study.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "For each enrolled patient, 88% phenol was applied to 5 IGH macules and single cryotherapy for 3–5 s was applied for another 5 IGH macules",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "once in a month till the repigmentation for maximum of 3 applications. Patients were assessed monthly for 3 months for the side effects and improvement in pigmentation.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "assessment_method",
+   "quote": "The degree of improvement in pigmentation was assessed using a grading system, <25% - no response (Grade-1), 26%–50% - minimal (Grade-2), 51%–75% - good (Grade-3), and >75% - excellent response (Grade-4).",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Side effects such as persistent scabbing, ulceration were more common with 88% phenol application compared to cryotherapy.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "Department of Dermatology, Venereology and Leprosy, Mandya Institute of Medical Sciences, Mandya, Karnataka, India",
+   "location": "Ovid article page, affiliation"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "A total of 30 patients with more than 10 IGH macules were selected.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "patients_evaluable",
+   "quote": "A total of 25 patients completed the study.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "For each enrolled patient, 88% phenol was applied to 5 IGH macules and single cryotherapy for 3–5 s was applied for another 5 IGH macules",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "once in a month till the repigmentation for maximum of 3 applications. Patients were assessed monthly for 3 months for the side effects and improvement in pigmentation.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "assessment_method",
+   "quote": "The degree of improvement in pigmentation was assessed using a grading system, <25% - no response (Grade-1), 26%–50% - minimal (Grade-2), 51%–75% - good (Grade-3), and >75% - excellent response (Grade-4).",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Side effects such as persistent scabbing, ulceration were more common with 88% phenol application compared to cryotherapy.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "Department of Dermatology, Venereology and Leprosy, Mandya Institute of Medical Sciences, Mandya, Karnataka, India",
+   "location": "Ovid article page, affiliation"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "At the end of the treatment period, out of 125 macules treated with short contact cryotherapy 75 (60%) macules showed excellent response and 20 (16%) macules showed good response.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "with P < 0.05",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "single cryotherapy for 3–5 s was applied for another 5 IGH macules once in a month till the repigmentation for maximum of 3 applications",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "In phenol group, out of 125 macules 37 (29.6%) and 29 (23.2%) macules showed excellent and good improvement in pigmentation respectively, with P < 0.05.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "Short contact cryotherapy of 3–5 s was found to be more efficacious and safe compared to therapeutic wounding with 88% phenol",
+   "location": "Abstract, Conclusion"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "The degree of improvement in pigmentation was assessed using a grading system, <25% - no response (Grade-1), 26%–50% - minimal (Grade-2), 51%–75% - good (Grade-3), and >75% - excellent response (Grade-4).",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "A total of 30 patients with more than 10 IGH macules were selected.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "The degree of improvement in pigmentation was assessed using a grading system, <25% - no response (Grade-1), 26%–50% - minimal (Grade-2), 51%–75% - good (Grade-3), and >75% - excellent response (Grade-4).",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "A total of 30 patients with more than 10 IGH macules were selected.",
+   "location": "Abstract, Materials and Methods"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
