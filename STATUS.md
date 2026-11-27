@@ -36,6 +36,13 @@ Last updated: 2026-11-27, end of session 1.
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
+## Simulation extension (tests written 2026-11-27, code not started)
+
+- `experiments/tests/test_drift_sim.py`: 35 tests for `experiments/drift_sim.py` (lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm). The contract is in the file's docstring. All 35 currently fail with `No module named 'drift_sim'`, as they should.
+- The builder may not edit the tests: `git diff --exit-code <tests commit> -- experiments/tests` must stay clean.
+- Run with `python3 -m pytest experiments/tests -q` (the command in CLAUDE.md covers `tests/` only).
+- Assumptions Ben may want to change: lighting drift is a uniform exposure gain only (no gradient across the field); the correction tested is ring-based per-channel normalisation; measurement is per-pixel CIELAB D65, then averaged; the experiment simulates an unchanged spot only, so every error is a false change; mottle is a multiplicative luminance texture (SD and correlation length set by the builder's defaults).
+
 ## Human gates
 
 - **Gate A (after any search):** Ben reviews the screening list and supplies PDFs before extraction starts.
@@ -47,4 +54,4 @@ Nothing yet.
 
 ## Next session
 
-Close Module 1 (list above). Then extend the simulation: lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm, tests written before the code.
+Close Module 1 (list above). Then build `experiments/drift_sim.py` to pass `experiments/tests/test_drift_sim.py` without editing the tests.
