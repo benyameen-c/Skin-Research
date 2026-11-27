@@ -22,7 +22,7 @@ Last updated: 2026-11-27, batch 2 collection and merge (built on the batch 1 bra
 - [ ] Re-extract the remaining extracted studies as staging records with verbatim quotes. After batch 2, `tools/ledger.py check` lists 2: arbache2023 and rerknimitr2015, both BLOCKED after two verifier FAILs (Ben decides on a further attempt or supplies PDFs).
 - [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Abstract-based record merged 2026-11-27 (ABSTRACT_ONLY). Full text still needs a PDF from Ben (paywall list). Note: the merged rows' `verification_status` cell still reads `PENDING (abstract only)` although the record's verifier status is PASS; the record was merged unedited.
 - [ ] Extract the registry-posted results of NCT01956435. BLOCKED 2026-11-27 after two verifier FAILs; not merged. Record `data/staging/nct01956435.json` carries the second FAIL and its notes. Ben decides whether a third extraction is allowed. Same cohort as gordon2017: reconcile before any future merge.
-- [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
+- [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort). arbache2018: BLOCKED 2026-11-27 (no abstract, full text unreachable; paywall list); lead row stays.
 - [ ] Search Web of Science and Scopus if access exists.
 - [x] Search GEO, BioImage Archive, Zenodo, Figshare (2026-11-27, two quoted queries each, APIs): 0 IGH datasets or image deposits. 4 repository hits plus 2 BioStudies literature records, all excluded. Awaiting Gate A review of `data/screening_log.csv`.
 - [ ] First real run of `tools/pubmed.py` (never executed).
@@ -40,6 +40,7 @@ Last updated: 2026-11-27, batch 2 collection and merge (built on the batch 1 bra
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
+| arbache2018 | J Am Acad Dermatol 2018;78(1):212-215, doi:10.1016/j.jaad.2017.08.019, PMID 29241792 (no abstract on PubMed; Europe PMC: subscription required, no PMC copy; Unpaywall's jaad.org PDF and fulltext URLs return HTTP 403 Cloudflare challenge, 2026-11-27) | preliminary split-body placebo-controlled trial of 5-FU tattoo-machine infusion; likely same trial as arbache2023 |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
 ## Human gates
@@ -55,6 +56,7 @@ Last updated: 2026-11-27, batch 2 collection and merge (built on the batch 1 bra
 | nct01956435 record | BLOCKED: verifier FAIL twice (2026-11-27) | Second check failed 3 cells: months_after_final_tx in rows 1 and 3 should be NOT_DERIVABLE (gap after the last treatment never stated); row 2 patient_noticeability should read `not reported`, not `not measured`. Full notes in the record's `verifier.notes`. |
 | arbache2023 record | BLOCKED: verifier FAIL twice (2026-11-27) | Second check failed 2 cells, both `uncertainty`: author-sponsor link ('Clinica Dermatologica Arbache ltda') and registry 'PARALLEL' vs abstract 'split-body' not recorded. Not merged; the old unquoted abstract rows stay in the ledger. Needs a fresh extraction or Ben's PDF. Record `data/staging/arbache2023.json` carries the second FAIL. |
 | rerknimitr2015 record | BLOCKED: verifier FAIL twice (2026-11-27) | First check 7 cells; second check 1 cell: row 1 `uncertainty` omits the '120 lesions ... were treated' denominator conflict. Not merged; the old unquoted abstract rows stay in the ledger. Needs full text (paywall list) or Ben's decision. Record `data/staging/rerknimitr2015.json` carries the second FAIL (from the second verifier's saved record; its commit could not be pushed). |
+| arbache2018 record | BLOCKED: source unreachable (2026-11-27) | https://www.jaad.org/article/S0190962217322089/pdf and https://www.jaad.org/article/S0190962217322089/fulltext (both HTTP 403, Cloudflare challenge); PubMed record has no abstract. Record `data/staging/arbache2018.json` has 0 rows, verifier PENDING. Do not merge it: a zero-row merge would delete the existing lead row. Needs Ben's PDF. |
 
 ## Verification log
 

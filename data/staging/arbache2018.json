@@ -1,0 +1,18 @@
+{
+  "study_id": "arbache2018",
+  "access": "BLOCKED",
+  "excerpt_file": "papers/excerpts/arbache2018.txt",
+  "sources_tried": [
+    "papers/pdfs/arbache2018.pdf (not present)",
+    "/mnt/project-files/papers/excerpts/pmid_29241792.txt (PubMed record: citation, title, authors, affiliations only; no abstract; saved as papers/excerpts/arbache2018.txt)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29241792%20AND%20SRC:MED&resultType=core&format=json (abstractText null; isOpenAccess N, inEPMC N, no PMC copy; DOI link 'Subscription required'; Unpaywall lists http://www.jaad.org/article/S0190962217322089/pdf)",
+    "https://www.jaad.org/article/S0190962217322089/pdf (attempt 1, 2026-11-27: HTTP 403, Cloudflare 'Just a moment...' challenge page)",
+    "https://www.jaad.org/article/S0190962217322089/fulltext (attempt 2, 2026-11-27: HTTP 403, Cloudflare challenge page)"
+  ],
+  "rows": [],
+  "quotes": [],
+  "verifier": {
+    "status": "PENDING",
+    "notes": "Extractor note: BLOCKED after two failed attempts to reach the text (CLAUDE.md rule 6). The saved PubMed record has no abstract and no numbers, so no rows were written. The title describes 'Preliminary analysis of a randomized, split-body, single blinded, placebo controlled clinical trial' of 5-fluorouracil infusion using a tattoo machine in IGH; the existing ledger row flags it as possibly the same trial as arbache2023 (not confirmable from the saved text). Do NOT run ledger.py merge on this record: merge replaces a study whole, so a record with zero rows would delete the existing 'lead only' row from data/evidence.csv. Two letters comment on it (J Am Acad Dermatol 2018;79(4):e79 and e81-e82)."
+  }
+}
