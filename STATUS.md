@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; batch 3 PR from claude/project-thread-1i49rl).
+Last updated: 2026-11-27 23:50 UTC, study proposal draft (branch claude/project-thread-1pluoc, PR open, not merged). Previous: 23:30 UTC batch 3 merge.
 
 ## Open module
 
@@ -8,6 +8,7 @@ Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; 
 
 ## Done
 
+- Study proposal draft (2026-11-27): `content/study-proposal.md`, a design sketch for a within-person controlled study with a computed spot-to-ring CIEDE2000 colour-difference endpoint at 6 months after the final treatment. Not ledger data; quotes checked against `data/evidence_quotes.jsonl`. Not in `site.json`, so not built into the site. **Ben reviews and merges the PR himself**; the open questions are in section 9 of the file. Drift simulation (`experiments/drift_sim.py`) was not on main when it was written and is cited as in progress.
 - Evidence ledger (after batch 3): 54 rows, 21 studies (19 extracted, 2 leads: arbache2018, wambier2018); 574 quote lines in `data/evidence_quotes.jsonl`. `tools/ledger.py check` prints: `rows 54 | studies 21 | blank cells 0`, `longest months after final treatment, IGH rows: 2.0`, `lasting_color_match rows: 0`, `extracted studies still without verbatim quotes (0): none`. The IGH rows at 2.0 are shin2013 (quoted: "Two months after a single treatment, physicians' clinical assessments were performed") and goldust2013 (quoted: "Two months after a single treatment session, 115 patients (47.9%) exhibited more than 75% clinical improvement."), both a single fractional CO2 laser session, both partial repigmentation counted in patients. elhoshy2025 rows read 3.0 but are ADJACENT (not IGH), so check excludes them. pagnoni1999 has one row at 12 months, also ADJACENT (macular hypomelanosis, not IGH): the quoted regression "to the original state" a year after stopping tretinoin, recorded as `unquantified`.
 - Batch 3 (2026-11-27, Ben's go-ahead 23:04 UTC): twelve verifier-PASS records merged with `tools/ledger.py merge`, each replacing the study's rows whole. Rows before -> after: arbache2023 2 -> 2 (fresh record, now quoted), rerknimitr2015 2 -> 5 (fresh record, now quoted), chitvanich2016 1 -> 3 (lead row replaced), rajegowda2021 1 -> 2 (lead row replaced), rambhia2020 0 -> 1, kreeshan2021 0 -> 3, shin2013 0 -> 1, koh2018 0 -> 3, ravikiran2014 0 -> 2, goldust2013 0 -> 1, ploysangam1990 0 -> 2, pagnoni1999 0 -> 4. Ledger 31 -> 54 rows, 13 -> 21 studies. Validator ok on all 23 staging records; 6 tests pass.
 - Batch 3 held: nct01956435, **verified, held: same cohort as gordon2017, awaiting Ben's decision on how to reconcile.** Third extraction (Ben approved 2026-11-27 23:04 UTC), 3 rows, FULL_TEXT, verifier PASS 0 failed cells (claude/project-thread-82j76h 86c0768). Record committed in `data/staging/nct01956435.json`, not merged.
