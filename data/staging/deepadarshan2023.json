@@ -507,7 +507,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "row 1, dark_overshoot: 'see the final-visit row' is not one of the required missing-data phrases; the source gives PIH only as 18 (9%) macules 'which persisted at 4th month of follow up' and does not report PIH at the 4-week visit, so the cell should say not reported for this visit. row 2, dark_overshoot: same as row 1; PIH at the 8-week visit is not reported in the source. row 3, dark_overshoot: same as row 1; PIH at the 12-week visit is not reported in the source. row 4, months_after_final_tx: the only quote says 'Patients were further followed up for a duration of 1 month'; the value 0.9 appears in no quote and is a conversion of the inferred [4 weeks] (16 minus 12 weeks), so the cell does not match its quote. Not failed, for the record: the source's own limitation 'the limited sample size and short follow-up period' (Discussion, p. 1357) is not in uncertainty; all other cells, quotes, analysis_unit (macules), outcome_tier (partial_repigmentation) and the follow-up-from-final-treatment reading check out against the source."
  }
 }
