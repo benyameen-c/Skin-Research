@@ -308,7 +308,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "FAIL",
+    "notes": "Fresh first check, source papers/excerpts/rerknimitr2015.txt (PubMed abstract). 3 failed cells. row 3 (index 2), analysis_unit: the colourimetry sentence compares the 'treatment side' with control and the abstract never says whether colour was analysed per lesion, per side or per patient (only 'Lesional skin colour was measured by colourimetry'); the cell asserts lesion and its note 'percentages are of lesions' does not apply, since this row has only P values. Unit is not in abstract. | row 4 (index 3), analysis_unit: the colourimetry sentence compares the 'treatment side' with control and the abstract never says whether colour was analysed per lesion, per side or per patient (only 'Lesional skin colour was measured by colourimetry'); the cell asserts lesion and its note 'percentages are of lesions' does not apply, since this row has only P values. Unit is not in abstract. | row 5 (index 4), analysis_unit: the colourimetry sentence compares the 'treatment side' with control and the abstract never says whether colour was analysed per lesion, per side or per patient (only 'Lesional skin colour was measured by colourimetry'); the cell asserts lesion and its note 'percentages are of lesions' does not apply, since this row has only P values. Unit is not in abstract. | All quotes found verbatim; rows 1 and 2, outcome tiers, time_from_last_treatment and uncertainty fields checked with no other failure."
   }
 }

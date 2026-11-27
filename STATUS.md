@@ -44,6 +44,7 @@ Last updated: 2026-11-27, end of session 1.
 ## In progress
 
 - rerknimitr2015 (2026-11-27): fresh extraction from the saved PubMed abstract, written from scratch after the earlier record was BLOCKED on batch-2 branches (Ben approved a fresh attempt). `data/staging/rerknimitr2015.json`, ABSTRACT_ONLY, 5 rows (physician grading treated and control; colourimetry weeks 8, [12], 16), validator ok, verifier PENDING. All rows `NOT_DERIVABLE`/`NOT_APPLICABLE` for months after final treatment: the abstract never states the week of the final session. Full text still on the paywall list.
+  - Verifier #1 on the fresh record (2026-11-27): FAIL, 3 cells, all `analysis_unit` on the colourimetry rows (3 to 5): the abstract does not say whether colour was analysed per lesion, side or patient. Next: one extractor fix round, then a fresh verifier; a second FAIL means BLOCKED.
 
 ## Blocked
 
