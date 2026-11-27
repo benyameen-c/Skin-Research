@@ -78,7 +78,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 
 ## Batch 3 staging (2026-11-27)
 
-- ploysangam1990 (PMID 2229495, liquid nitrogen cryotherapy): staged ABSTRACT_ONLY, 2 rows (clinical repigmentation; dopa-positive melanocyte histology), both `unquantified`, months NOT_DERIVABLE. Validator ok. Verifier 1 (2026-11-27, branch claude/project-thread-jyqadi): FAIL, 3 cells (row 1 assessment_method unbracketed "biopsy"; rows 0 and 1 uncertainty "no follow-up" should be "not in abstract"). Corrected by extractor (same abstract; all rows rechecked, further unstated words such as "cryotherapy", "light microscopy" and "pre-treatment" bracketed; absences reworded as "not in abstract"). Verifier PENDING; a second FAIL makes it BLOCKED. Excerpt at `/mnt/project-files/papers/excerpts/ploysangam1990.txt`. Full text on paywall list.
+- ploysangam1990 (PMID 2229495, liquid nitrogen cryotherapy): staged ABSTRACT_ONLY, 2 rows (clinical repigmentation; dopa-positive melanocyte histology), both `unquantified`, months NOT_DERIVABLE. Validator ok. Verifier 1 (2026-11-27, branch claude/project-thread-jyqadi): FAIL, 3 cells (row 1 assessment_method unbracketed "biopsy"; rows 0 and 1 uncertainty "no follow-up" should be "not in abstract"). Corrected by extractor (same abstract; all rows rechecked, further unstated words such as "cryotherapy", "light microscopy" and "pre-treatment" bracketed; absences reworded as "not in abstract"). Verifier 2 (2026-11-27, branch claude/project-thread-uge79q): PASS, 0 failed cells. Ready for `tools/ledger.py merge` in the batch 3 PR (not merged here). Excerpt at `/mnt/project-files/papers/excerpts/ploysangam1990.txt`. Full text on paywall list.
 
 ## Next session
 
