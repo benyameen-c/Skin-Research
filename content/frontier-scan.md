@@ -51,6 +51,14 @@ Why it still matters here: this is the only white-spot condition where a drug ha
 
 ### Direction 3: melanocortin and prostaglandin drugs
 
+These push pigment production rather than fixing a cause, so they are candidates for a spot that still has some melanocytes.
+
+**Afamelanotide** (an alpha-MSH analogue implant). No IGH study found; 25 vitiligo records and 5 registry trials. In vitiligo with NB-UVB, repigmentation was "48.64% (95% CI, 39.49%-57.80%) at day 168" with the combination versus "33.26% (95% CI, 24.18%-42.33%)" with phototherapy alone (PMID 25230094, 28 versus 27 patients). It is a systemic implant for a cosmetic complaint of a few small spots. [Inference: the risk-benefit looks wrong for IGH, and nothing suggests the colour holds after the implants stop.]
+
+**Prostaglandin analogues** (latanoprost, bimatoprost), applied topically. No IGH trial found. The one IGH record in this query set, kreeshan2021 (PMID 34084020), is a single patient treated with excimer light plus topical bimatoprost and is already in the ledger. In vitiligo the results are mixed: a bimatoprost trial on non-facial vitiligo failed its own endpoint, "Because of a lack of response observed for the primary end point, a post hoc analysis with a less stringent definition of response (score of ≥4 [25%-50% improvement]) was conducted" (PMID 27272076, 11/10/11 patients). An eyelid trial reported the drug group "showed significant reduction in the symptoms of the disease" (PMID 31758835, 31 patients).
+
+One registry trial is close to Ben's question in design, though not in condition: NCT06122090, laser-assisted bimatoprost on hypopigmented scars, 25 patients estimated, randomised and triple-masked, primary outcome "area of pigmentation within control and treated scars" at "follow-up number 6, an average of 8 months". Status "UNKNOWN". [Inference: scars are not IGH, but a within-person control plus an 8-month endpoint is the shape a useful IGH trial would take.]
+
 ### Direction 4: cell transplantation
 
 ### Direction 5: Wnt and melanocyte stem cells
