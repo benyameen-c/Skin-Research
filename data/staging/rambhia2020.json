@@ -1,0 +1,132 @@
+{
+  "study_id": "rambhia2020",
+  "access": "FULL_TEXT",
+  "excerpt_file": "papers/excerpts/rambhia2020.txt",
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "rambhia2020",
+      "doi_or_pmid": "PMID 34409340; doi:10.1016/j.jdin.2020.09.002; PMCID PMC8361927",
+      "source_location": "Full text (JAAD Int 2020;1(2):200-201): Therapeutic challenge, Solution, Fig 1 caption, Footnotes",
+      "access_level": "FULL_TEXT (open access via Europe PMC full text XML, PMC8361927, fetched 2026-11-27)",
+      "diagnosis": "idiopathic guttate hypomelanosis",
+      "design": "[therapeutic report of the authors' technique ('Therapeutic challenge'/'Solution' format); number of patients not reported; no comparator; uncontrolled]",
+      "body_site": "not reported",
+      "skin_tone": "not reported",
+      "patients_enrolled": "not reported",
+      "patients_evaluable": "not reported",
+      "lesions_enrolled": "not reported",
+      "lesions_evaluable": "not reported",
+      "analysis_unit": "not reported [the outcome sentence describes the treated lesion or lesions shown in Fig 1; no count of patients or lesions given]",
+      "intervention": "5-fluorouracil tattooing with a handheld needle: topical anaesthesia (lignocaine 2.5% w/w and prilocaine 2.5% w/w cream) for 45 minutes, then a 24-gauge hypodermic needle dipped in 5-fluorouracil 50 mg/mL inserted into the lesion to create mild pinpoint bleeding; 2 sittings 1 month apart",
+      "comparator": "none",
+      "endpoint_definition": "repigmentation (described as 'complete uniform repigmentation'; no scale or definition reported)",
+      "assessment_method": "not reported [before and follow-up clinical photographs shown in Fig 1; no scale, instrument or assessor described]",
+      "time_from_start": "not reported (2 sittings 1 month apart; timing of the follow-up assessment not reported)",
+      "time_from_last_treatment": "not reported",
+      "arm_result": "authors report that 2 sittings 1 month apart 'yielded complete uniform repigmentation'; no count, percentage or denominator reported",
+      "patient_noticeability": "not reported",
+      "complete_match": "not reported as a measured outcome [authors' wording 'complete uniform repigmentation' is a qualitative claim with no time after final treatment]",
+      "dark_overshoot": "not reported [authors state 'No treatment-related adverse effects were observed'; hyperpigmentation not specifically mentioned]",
+      "texture_or_scar": "not reported [authors state 'No treatment-related adverse effects were observed'; scarring or texture not specifically mentioned]",
+      "attrition": "not reported",
+      "uncertainty": "Very short report (2 pages, 'Therapeutic challenge' format) with no patient or lesion count, no skin type, no body site, no assessment method and no follow-up interval. Internal conflict: the text says 2 sittings 1 month apart yielded complete uniform repigmentation (Fig 1, A and B), but the Fig 1 caption says the follow-up photo is 'after (B) a single needling sitting'; whether the result followed one or two sittings is unclear. Time from the final treatment to the follow-up photo is not reported, so months after final treatment is NOT_DERIVABLE; the claim that 5-FU 'makes a long-lasting favorable microenvironment' is not supported by any follow-up data in the report. Authors state 'This is an off-label use of 5-fluorouracil and the safety and efficacy remain unknown.' The outcome is a qualitative claim, not a measured endpoint, so the tier is unquantified. IRB approval 'Not applicable'.",
+      "verification_status": "PENDING",
+      "outcome_tier": "unquantified",
+      "citation": "Rambhia SH, Rambhia KD. Treatment of idiopathic guttate hypomelanosis with 5-fluorouracil tattooing using a handheld needle. JAAD Int 2020;1(2):200-201",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8361927/",
+      "treatment_class": "needling_drug_delivery",
+      "months_after_final_tx": "NOT_DERIVABLE"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "Topical anesthesia (eutectic mixture of lignocaine 2.5% weight by weight and prilocaine 2.5% weight by weight cream) was applied on lesions for 45 minutes.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "A simple 24-gauge hypodermic needle was dipped in a vial containing a solution of 5-fluorouracil at 50 mg/mL.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "the tip of the needle was later inserted in the lesion to create mild pinpoint bleeding under aseptic conditions.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "We conducted a total of 2 sittings 1 month apart",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "We conducted a total of 2 sittings 1 month apart, which yielded complete uniform repigmentation ( Fig 1 , A and B ).",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "time_from_start",
+      "quote": "We conducted a total of 2 sittings 1 month apart",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "endpoint_definition",
+      "quote": "which yielded complete uniform repigmentation",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "dark_overshoot",
+      "quote": "No treatment-related adverse effects were observed during or after the procedure.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "No treatment-related adverse effects were observed during or after the procedure.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "Idiopathic guttate hypomelanosis before ( A ) and follow-up after ( B ) a single needling sitting.",
+      "location": "Fig 1 caption"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "5-Fluorouracil makes a long-lasting favorable microenvironment for the melanocyte migration and subsequent pigment spread.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "This is an off-label use of 5-fluorouracil and the safety and efficacy remain unknown.",
+      "location": "Solution"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "IRB approval status: Not applicable.",
+      "location": "Footnotes"
+    },
+    {
+      "row": 0,
+      "field": "design",
+      "quote": "We sought to develop a simple office-based procedure to treat idiopathic guttate hypomelanosis",
+      "location": "Therapeutic challenge"
+    }
+  ],
+  "verifier": {
+    "status": "PENDING",
+    "notes": ""
+  }
+}

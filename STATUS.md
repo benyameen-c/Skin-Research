@@ -78,3 +78,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 ## Next session
 
 Close Module 1 (list above). Then extend the simulation: lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm, tests written before the code.
+
+## Batch 3 staging (2026-11-27)
+
+- rambhia2020 (PMID 34409340, Gate A go-ahead from Ben 2026-11-27): staged `data/staging/rambhia2020.json`, FULL_TEXT (open access, Europe PMC XML for PMC8361927), 1 row, outcome tier `unquantified`, months after final treatment NOT_DERIVABLE (no follow-up interval, no patient or lesion counts; text says 2 sittings, Fig 1 caption says a single sitting). Validator ok, verifier PENDING. Not merged. Source text at `/mnt/project-files/papers/excerpts/rambhia2020.txt`.
