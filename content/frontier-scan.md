@@ -107,7 +107,35 @@ The chain of reasoning in the sources:
 
 ### Direction 7: microneedling and PRP
 
+The cheap, already-available end of Direction 5. **The IGH query returned zero records:** `"guttate hypomelanosis" AND ("platelet-rich plasma" OR PRP OR microneedl* OR exosome* OR "extracellular vesicle*" OR "growth factor*")` gave 0 hits (search log).
+
+The nearest trial is in the adjacent diagnosis already in the ledger as elhoshy2025 (PMID 39584682, localised acquired hypomelanosis, 20 patients, lesions randomised to one microneedling session or no treatment). It is worth reading again in this context because its control arm did as well as its treated arm: "Median peripheral tanning was observed in 80% of lesions in the microneedling arm versus 85% in the no-treatment arm", and "Surface tanning showed a median increase of +3 grades in both arms". The authors still conclude microneedling "deserves a place in the armamentarium".
+
+[Inference: that result is a warning about this whole field rather than about microneedling alone. An untreated white spot on a sun-exposed limb can look better at follow-up, so any single-arm or uncontrolled IGH result is hard to trust. It supports the project's existing insistence on a within-person untreated control.]
+
+Vitiligo work in this direction is large but combination-heavy: PRP added to lasers or phototherapy (PMIDs 40386849, 38878236, 30510437), and microneedling added to tacrolimus or 5-FU (PMIDs 39992062, 36718813). The registry lists 5 vitiligo PRP trials "all status unknown" and 2 exosome trials, "both not yet recruiting" (search log). [Inference: combinations make it impossible to tell what did the work, and none of this is IGH.]
+
+One mechanistic thread connects to a treatment already in the ledger: 5-FU, used in the arbache tattoo-infusion studies, has a pro-pigment effect in mice through fibroblast signalling, "CXCL12 immunostaining was significantly increased in the dermal compartment of wounds treated with 5-FU (control vs. 5-FU, 22.47 ± 8.85 vs. 44.69 ± 5.97, P < 0.05)" (PMID 34507320). Mouse wounds, not IGH.
+
 ### Public datasets
+
+Three GEO queries ran (summaries saved as `papers/excerpts/geo_frontier_summaries.txt`). **No IGH dataset exists there**, which matches the earlier dataset audit recorded in `STATUS.md`. These were not audited by the `dataset-auditor` role, so they are leads, not vetted resources.
+
+The nearest adjacent sets:
+
+| Accession | Samples | What it is |
+|---|---|---|
+| GSE65127 | 40 | "Targeting the WNT pathway for repigmenting vitiligo" |
+| GSE203262 | 12 | single-cell RNA-seq, matched lesional and non-lesional vitiligo skin |
+| GSE150954 | 24 | melanocyte precursors in the hair follicle bulge of repigmented vitiligo skin |
+| GSE311770 | 105 | "Minimally invasive 1 mm skin biopsies capture regional transcriptomic heterogeneity in vitiligo" |
+| GSE228470 | 6 | 3 normal versus 3 UV-irradiated senescent melanocytes |
+| GSE83922 | 8 | young versus senescent melanocytes |
+| GSE288449 | 1 | "Metformin as an early intervention for melanocyte senescence" (the PMID 41453137 paper) |
+| GSE51954 | 78 | methylation with ageing and sun exposure, epidermis and dermis |
+| GSE200002 | 24 | fibroblast phenotype associated with photoageing and solar elastosis |
+
+[Inference: GSE228470 and GSE83922 are the closest to the IGH senescence story, but both are cultured melanocytes with three samples a side, so they can suggest a marker and cannot establish one. GSE51954 and GSE200002 belong to the later modules (2 and 3), not to Module 1.]
 
 ### Where an engineer without a clinic could contribute (inference)
 
