@@ -27,6 +27,16 @@ Any experimental treatment has to target a cause, so this comes first. All items
 
 ### Direction 1: gene and RNA medicines
 
+**Status: no human study in any white-spot condition found.** Three PubMed queries (IGH plus gene terms, vitiligo plus gene terms, topical nucleic acids in pigment cells) and two ClinicalTrials.gov queries. The registry search for gene therapy in hypopigmentation found "0 gene therapy trials for acquired hypopigmentation" (search log). The only IGH hits were the senescence papers above.
+
+What exists, all outside IGH:
+
+- **siRNA against immune signalling, in mice and skin explants (vitiligo model, not IGH).** A JAK1-selective siRNA: "A single injection into mouse skin enables five weeks of duration of effect" (PMID 37925520). A related siRNA against the interferon-gamma receptor reports "effective IFNGR1 protein reduction for at least 1 month in mice" (PMID 35477658). Both target immune signalling, which is a vitiligo mechanism, not a known IGH one.
+- **siRNA has been applied topically to human pigment problems, but to remove pigment, not add it.** In melasma, an MITF siRNA cream gave "a 90.4% lightening of the siRNA-treated lesions toward normal skin color" after 12 weeks (PMID 21119619). Spherical nucleic acids were used the same way, to lighten (PMID 33433203). [Inference: these show a topical nucleic acid can reach human pigment cells, which is the hard part; the direction of effect would have to be reversed.]
+- **Pushing pigment up by gene transfer exists only in cells.** A human tyrosinase plasmid in niosomes raised melanin production in mouse melanoma cells, "13.03-, 8.46-, 5.36-, and 6.58-folds of control" (PMID 22958397). A TYRP-1 siRNA study reports knockdown "(> 80%)" in cultured cells (PMID 29560584).
+- **Delivery vectors are being built for skin.** An AAV capsid review-style report: expression "peaked at 1 month and persisted for up to 2 years" in mice, with "preferential targeting of dermal fibroblasts and hair follicle bulge cells" (PMID 42070083). It names vitiligo as an application. No white-spot condition was treated.
+
+[Inference: for IGH this is a long way off. There is no target gene established in IGH beyond the ATG7 observation (PMID 41453137), and that paper's own framing is prevention.]
 ### Direction 2: JAK inhibitors
 
 ### Direction 3: melanocortin and prostaglandin drugs
