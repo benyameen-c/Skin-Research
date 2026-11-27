@@ -55,7 +55,7 @@ These push pigment production rather than fixing a cause, so they are candidates
 
 **Afamelanotide** (an alpha-MSH analogue implant). No IGH study found; 25 vitiligo records and 5 registry trials. In vitiligo with NB-UVB, repigmentation was "48.64% (95% CI, 39.49%-57.80%) at day 168" with the combination versus "33.26% (95% CI, 24.18%-42.33%)" with phototherapy alone (PMID 25230094, 28 versus 27 patients). It is a systemic implant for a cosmetic complaint of a few small spots. [Inference: the risk-benefit looks wrong for IGH, and nothing suggests the colour holds after the implants stop.]
 
-**Prostaglandin analogues** (latanoprost, bimatoprost), applied topically. No IGH trial found. The one IGH record in this query set, kreeshan2021 (PMID 34084020), is a single patient treated with excimer light plus topical bimatoprost and is already in the ledger. In vitiligo the results are mixed: a bimatoprost trial on non-facial vitiligo failed its own endpoint, "Because of a lack of response observed for the primary end point, a post hoc analysis with a less stringent definition of response (score of ≥4 [25%-50% improvement]) was conducted" (PMID 27272076, 11/10/11 patients). An eyelid trial reported the drug group "showed significant reduction in the symptoms of the disease" (PMID 31758835, 31 patients).
+**Prostaglandin analogues** (latanoprost, bimatoprost), applied topically. No IGH trial found. The one IGH record in this query set, kreeshan2021 (PMID 34084020), is a single patient treated with excimer light plus topical bimatoprost and is already in the ledger. In vitiligo the results are mixed: a bimatoprost trial on non-facial vitiligo failed its own endpoint, "Because of a lack of response observed for the primary end point, a post hoc analysis with a less stringent definition of response" (PMID 27272076, 11/10/11 patients). An eyelid trial reported the drug group "showed significant reduction in the symptoms of the disease" (PMID 31758835, 31 patients).
 
 One registry trial is close to Ben's question in design, though not in condition: NCT06122090, laser-assisted bimatoprost on hypopigmented scars, 25 patients estimated, randomised and triple-masked, primary outcome "area of pigmentation within control and treated scars" at "follow-up number 6, an average of 8 months". Status "UNKNOWN". [Inference: scars are not IGH, but a within-person control plus an 8-month endpoint is the shape a useful IGH trial would take.]
 
@@ -83,7 +83,7 @@ A registered trial uses almost exactly the project's endpoint, in non-vitiligo l
 
 The idea is to call up the pigment stem cells that sit in nearby hair follicles instead of transplanting cells. **Status: laboratory only. "0 Wnt agonist trials" in the registry (search log), and no IGH study.**
 
-- Wnt3a and Wnt10b "induce hair follicle regeneration and McSC activation" in cells and mice (PMID 27138625).
+- "Wnt3a induces hair follicle regeneration and McSC activation", and so does Wnt10b, in cells and mice (PMID 27138625).
 - A controlled micro-injury device in model mice "induces the hair follicle melanocyte stem cells to migrate upwards to the interfollicular epidermis", with the authors attributing it to "the canonical Wnt/β-catenin pathway" (PMID 35044224). [Inference: this is the mechanism usually offered for why microneedling and laser work at all, which makes Direction 7 the cheap end of this same idea.]
 - Fluoxetine activated the same stem cells in mice and zebrafish through a serotonin receptor and Wnt (PMID 42716209). Animals only.
 - In vitiligo patients, a GEO dataset backs the pathway: GSE65127, "Targeting the WNT pathway for repigmenting vitiligo", 40 samples.
@@ -139,6 +139,66 @@ The nearest adjacent sets:
 
 ### Where an engineer without a clinic could contribute (inference)
 
+<p><span class="tag sim">Inference</span> Everything in this section is my reasoning from the sources above, not a finding from any of them. Ben asked specifically what he could work on. He is a manufacturing engineer, with no clinic, no patients and no laboratory.</p>
+
+The honest summary of the directions above: the biology is not an engineering problem, and none of it can be moved from a workshop. What repeatedly *is* broken, in paper after paper, is the measurement.
+
+1. **Measurement is the bottleneck, and it is a measurement problem.** The project has already found that no IGH study reports a colour match holding six months after the final treatment, and that the longest interval anyone states is two months. The sources on this page show why the field cannot easily do better: outcomes are investigator grades and improvement percentages, and in the nearest controlled trial the untreated control arm scored as well as the treated arm (PMID 39584682). A spot that is measured by eye against a remembered baseline cannot support a six-month claim. Building a repeatable way to measure spot-versus-surrounding colour is work Ben can do alone, and it is already the subject of the project's measurement-tool plan.
+2. **Specifying the trial is also available work.** NCT06122090 and NCT07662915 show the design that answers the question: within-person control, a stated endpoint at six to eight months, a colour-match outcome. Neither is in IGH. Writing that protocol precisely for IGH, with the endpoint defined in measurable terms, is a document, not a clinic. The project's study proposal is this.
+3. **Re-analysis of what is already public is available work.** The GEO sets above are downloadable. [Inference, flagged as weak: with three samples a side, re-analysis would produce a hypothesis at best, and an engineer with no bioinformatics background would be spending a long time for a weak result. I would not start here.]
+4. **The durability question can be attacked without any new treatment.** Nothing on this page needs a new drug to establish how long an existing, already-used IGH treatment holds. A repeatable measurement plus a stated interval from the final session would be a contribution to the field on its own, and it is the gap the ledger has documented.
+
+What is not available to him, stated plainly so it is not re-opened later: anything involving senolytics, siRNA, AAV vectors, cell suspensions or drugs on skin. Those need a laboratory or a clinic and ethical approval, and self-experiment is not research.
+
+[Inference: if Ben wants the shortest path from here to something presentable in the field, it is the measurement tool plus the protocol, with this scan as the background section that says why the experimental directions were set aside.]
+
 ### Gaps and what was not run
 
+- **Two senolytic queries did not run.** `tools/pubmed.py` "stopped with HTTP 400 (efetch) after esearch, twice"; the lines are logged `NOT RUN` in `data/search_log.csv` and were replaced by two simpler queries (3 and 44 hits). The senolytic reading above rests on those replacements.
+- **One registry search was not screened past its first page.** `query.cond=leukoderma` returned 449 trials, "not screened beyond the first page" (search log). Any IGH-adjacent cell-transplant trial could be sitting in the remainder.
+- **Titles only for most records.** 383 records were saved; abstracts were read for about 40. The rest were screened on title. A relevant paper could have been passed over.
+- **Three IGH mechanism papers have no abstract on PubMed**: PMIDs 36394380, 31823346, and 34773647 for the senolytic claim. Those three claims rest on titles alone and are marked as such above. If Ben can supply the full texts, they are the most load-bearing missing sources on this page.
+- **No full text was read for this page at all**, and nothing here passed an extraction or verification gate.
+- **Web of Science, Scopus and Embase were not searched** (no access), so this is a PubMed-and-registry view.
+
 ### Sources
+
+Every source cited above, with what it was in and how strong the evidence is. *Title only* means PubMed has no abstract, so the claim rests on the title. All saved as `papers/excerpts/pmid_<id>.txt`, except the registry records, saved as `papers/excerpts/<nct>.api.json`.
+
+| ID | Condition | Evidence level |
+|---|---|---|
+| 29516488 | IGH | 6 patients, 6 controls, laboratory markers |
+| 36394380 | IGH | title only |
+| 31823346 | IGH | title only |
+| 41453137 | senescent melanocytes, IGH skin checked | cells and mice |
+| 2508572 | IGH and vitiligo | human skin grafted onto mice, 1989 |
+| 3908515 | IGH and other leukoderma | case series, 1985, in the ledger as suvanprakorn1985 |
+| 34084020 | IGH | one patient, in the ledger as kreeshan2021 |
+| 39584682 | localised acquired hypomelanosis (adjacent, not IGH) | randomised, 20 patients, in the ledger as elhoshy2025 |
+| 36260792 | vitiligo | two phase 3 trials, 674 patients |
+| NCT04530344 | vitiligo | phase 3 extension, registry-posted results |
+| 25230094 | vitiligo | randomised, 28 versus 27 |
+| 27272076 | vitiligo, non-facial | randomised, 32, failed primary endpoint |
+| 31758835 | vitiligo, eyelid | randomised, 31 |
+| NCT06122090 | hypopigmented scars | registered, status unknown, no results |
+| NCT07662915 | non-vitiligo leukoderma | registered, not yet recruiting |
+| 39507768 | vitiligo and leukodermas | 23 patients, to 84 months |
+| 33582653 | vitiligo | 2,283 patients, retrospective |
+| 30793805 | vitiligo | 602 patients, to 6 years |
+| 16207186 | vitiligo vulgaris | 142 patients, to 6 years |
+| 37925520 | vitiligo model | mice and human skin explant |
+| 35477658 | autoimmune skin disease | mice and explant |
+| 21119619 | melasma (pigment removal) | human, 12 weeks |
+| 33433203 | hyperpigmentation (pigment removal) | cells and mice |
+| 22958397 | vitiligo gene therapy proposal | cells |
+| 29560584 | vitiligo | cells |
+| 42070083 | names vitiligo as application | mice and human explant |
+| 27138625 | melanocyte stem cells | cells and mice |
+| 35044224 | vitiligo model | mice |
+| 42716209 | melanocyte stem cells | mice and zebrafish |
+| 31633821 | skin ageing | human cells and 3D model |
+| 39846383 | senescent melanocytes | cells |
+| 34773647 | photoageing pigmentation | title only |
+| 30616998 | idiopathic pulmonary fibrosis | open-label pilot; patient count not quoted above |
+| 34507320 | mouse wounds | mice and cells |
+| GEO accessions | see the dataset table | not audited |
