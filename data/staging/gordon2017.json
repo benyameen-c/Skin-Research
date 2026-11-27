@@ -60,7 +60,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "FAIL",
+    "notes": "row 0, uncertainty: the source states this is a 'pilot study' in which '6 patients were treated', and the significance claim is made for 'Lesions that received the excimer treatment' with 'an ANOVA model'; uncertainty does not record the very small sample (6 patients), nor that lesions were analysed while several lesions come from each of only 6 patients (clustering within patients not addressed in the text), nor that one comparison is against 'baseline' rather than only untreated lesions, nor that the Conclusion's 'acceptable cosmetic outcomes' is not backed by any reported result. All other cells match the source text; outcome_tier partial_repigmentation and months_after_final_tx NOT_DERIVABLE are supported."
   }
 }

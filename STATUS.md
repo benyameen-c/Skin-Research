@@ -43,7 +43,7 @@ Last updated: 2026-11-27, end of session 1.
 
 ## Staged (batch 2)
 
-- gordon2017: `data/staging/gordon2017.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier PENDING. Source text `papers/excerpts/gordon2017.txt` (copy at /mnt/project-files/papers/excerpts/gordon2017.txt). Months after final treatment NOT_DERIVABLE from abstract.
+- gordon2017: `data/staging/gordon2017.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier #1 FAIL (1 cell: row 0 uncertainty). Back to extractor once, then a fresh verifier. Source text `papers/excerpts/gordon2017.txt` (copy at /mnt/project-files/papers/excerpts/gordon2017.txt). Months after final treatment NOT_DERIVABLE from abstract.
 
 ## Blocked
 
