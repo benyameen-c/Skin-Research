@@ -34,7 +34,12 @@ Last updated: 2026-11-27, end of session 1.
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x | the 11% denominator |
 | gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract |
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
+| elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
+
+## Staging (awaiting verifier)
+
+- elhoshy2025: `data/staging/elhoshy2025.json`, ABSTRACT_ONLY (PubMed abstract + ClinicalTrials.gov NCT04419350, no results posted), 10 rows (5 endpoints x 2 arms), validator ok 2026-11-27. Source text at `papers/excerpts/elhoshy2025.txt` and `/mnt/project-files/papers/excerpts/elhoshy2025.txt`. Not merged.
 
 ## Human gates
 
