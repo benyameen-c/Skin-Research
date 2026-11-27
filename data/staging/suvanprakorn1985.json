@@ -66,7 +66,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "FAIL",
+    "notes": "row 0, uncertainty: the source says 'Melanocytes were present in the successful grafts', which implies some grafts were not successful; the count or share of failed grafts is not in abstract, and uncertainty does not mention this. Non-failing observation: months_after_final_tx uses the token NOT_REPORTED while access is ABSTRACT_ONLY; CLAUDE.md rule 5 reserves 'not reported' for a full-text read, and the text cell correctly says 'not in abstract'. All four quotes match the source verbatim and support their cells; outcome_tier 'unquantified' is the weakest reading; analysis_unit, dark_overshoot, texture_or_scar and attrition are correctly marked missing."
   }
 }
