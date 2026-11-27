@@ -178,7 +178,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "row 0, design: source says two lesions 'were assigned to treatment group' and never says randomized; row 1, design: same, randomization not stated in source; row 2, design: same, randomization not stated in source; row 0, comparator: source says only that lesions 'from the other side served as control'; 'untreated' is not stated and must be in [brackets]; row 1, intervention: 'no treatment' is not stated in source (only 'served as control'); inferred, needs [brackets]; row 2, comparator: same as row 0, 'untreated' not stated; row 0, uncertainty: source says 'A total of 120 lesions from 30 patients with IGH were treated', which conflicts with two treated lesions per patient (60 treated); this conflict in the denominator is not recorded"
  }
 }
