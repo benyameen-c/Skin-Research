@@ -10,7 +10,7 @@
    "access_level": "FULL_TEXT",
    "diagnosis": "IGH",
    "design": "descriptive longitudinal study, single arm, uncontrolled",
-   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (share of macules)",
+   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (denominator not reported; [the shares equal 32, 8 and 4 of 44 patients, not shares of the 200 macules])",
    "skin_tone": "not reported (study in Mandya, India; Fitzpatrick type not given)",
    "patients_enrolled": "44",
    "patients_evaluable": "40",
@@ -22,7 +22,7 @@
    "assessment_method": "physician quartile grading scale (Grade 0 none, 1-25% minimal, 26-50% moderate, 51-75% good, >75% excellent) using serial photographs and DermLite DL3N dermoscopy; blinding and number of assessors not reported",
    "patient_noticeability": "not measured at this visit",
    "complete_match": "not reported (treatment stopped at complete resolution, but the number of macules that reached it is not given)",
-   "dark_overshoot": "see the final-visit row of this record",
+   "dark_overshoot": "not reported at this visit",
    "texture_or_scar": "not reported (erythema and burning sensation were monitored; no counts given)",
    "attrition": "4 of 44 patients lost to follow-up",
    "verification_status": "PENDING",
@@ -36,7 +36,7 @@
    "arm_result": "0/200 (0%) excellent >75%; 18/200 (9%) good 51-75%; 42/200 (21%) moderate 26-50%; 140/200 (70%) minimal <=25%",
    "source_location": "Table 1 (p. 1356)",
    "endpoint_definition": "share of macules in each physician improvement grade; excellent = >75% improvement (partial repigmentation, not complete coverage)",
-   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit."
+   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit. Body-site percentages are said to describe macules, but their denominator is not reported and they match [32, 8 and 4 of 44 recruited patients]. The authors list 'the limited sample size and short follow-up period' as limitations."
   },
   {
    "module": "1-hypopigmentation",
@@ -45,7 +45,7 @@
    "access_level": "FULL_TEXT",
    "diagnosis": "IGH",
    "design": "descriptive longitudinal study, single arm, uncontrolled",
-   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (share of macules)",
+   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (denominator not reported; [the shares equal 32, 8 and 4 of 44 patients, not shares of the 200 macules])",
    "skin_tone": "not reported (study in Mandya, India; Fitzpatrick type not given)",
    "patients_enrolled": "44",
    "patients_evaluable": "40",
@@ -57,7 +57,7 @@
    "assessment_method": "physician quartile grading scale (Grade 0 none, 1-25% minimal, 26-50% moderate, 51-75% good, >75% excellent) using serial photographs and DermLite DL3N dermoscopy; blinding and number of assessors not reported",
    "patient_noticeability": "not measured at this visit",
    "complete_match": "not reported (treatment stopped at complete resolution, but the number of macules that reached it is not given)",
-   "dark_overshoot": "see the final-visit row of this record",
+   "dark_overshoot": "not reported at this visit",
    "texture_or_scar": "not reported (erythema and burning sensation were monitored; no counts given)",
    "attrition": "4 of 44 patients lost to follow-up",
    "verification_status": "PENDING",
@@ -71,7 +71,7 @@
    "arm_result": "24/200 (12%) excellent >75%; 37/200 (18.5%) good 51-75%; 61/200 (30.5%) moderate 26-50%; 78/200 (39%) minimal <=25%",
    "source_location": "Table 1 (p. 1356)",
    "endpoint_definition": "share of macules in each physician improvement grade; excellent = >75% improvement (partial repigmentation, not complete coverage)",
-   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit. Table 1 prints the good count at 8 weeks as '37 (18.5)' without a percent sign."
+   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit. Table 1 prints the good count at 8 weeks as '37 (18.5)' without a percent sign. Body-site percentages are said to describe macules, but their denominator is not reported and they match [32, 8 and 4 of 44 recruited patients]. The authors list 'the limited sample size and short follow-up period' as limitations."
   },
   {
    "module": "1-hypopigmentation",
@@ -80,7 +80,7 @@
    "access_level": "FULL_TEXT",
    "diagnosis": "IGH",
    "design": "descriptive longitudinal study, single arm, uncontrolled",
-   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (share of macules)",
+   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (denominator not reported; [the shares equal 32, 8 and 4 of 44 patients, not shares of the 200 macules])",
    "skin_tone": "not reported (study in Mandya, India; Fitzpatrick type not given)",
    "patients_enrolled": "44",
    "patients_evaluable": "40",
@@ -92,7 +92,7 @@
    "assessment_method": "physician quartile grading scale (Grade 0 none, 1-25% minimal, 26-50% moderate, 51-75% good, >75% excellent) using serial photographs and DermLite DL3N dermoscopy; blinding and number of assessors not reported",
    "patient_noticeability": "not measured at this visit",
    "complete_match": "not reported (treatment stopped at complete resolution, but the number of macules that reached it is not given)",
-   "dark_overshoot": "see the final-visit row of this record",
+   "dark_overshoot": "not reported at this visit",
    "texture_or_scar": "not reported (erythema and burning sensation were monitored; no counts given)",
    "attrition": "4 of 44 patients lost to follow-up",
    "verification_status": "PENDING",
@@ -101,12 +101,12 @@
    "source_url": "https://www.jpad.com.pk/index.php/jpad/article/download/2396/2103",
    "treatment_class": "energy_device",
    "time_from_start": "12 weeks",
-   "time_from_last_treatment": "[0] end of the 12-week course for macules treated the full course; macules that resolved earlier stopped sooner",
-   "months_after_final_tx": "0",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper does not say whether the week 12 visit was the last treatment day; [0] if the full 12-week course ran, and longer for macules stopped early at complete resolution (not reported)",
+   "months_after_final_tx": "NOT_DERIVABLE",
    "arm_result": "63/200 (31.5%) excellent >75%; 59/200 (29.5%) good 51-75%; 39/200 (19.5%) moderate 26-50%; 39/200 (19.5%) minimal <=25%",
    "source_location": "Table 1 (p. 1356)",
    "endpoint_definition": "share of macules in each physician improvement grade; excellent = >75% improvement (partial repigmentation, not complete coverage)",
-   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit."
+   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit. Body-site percentages are said to describe macules, but their denominator is not reported and they match [32, 8 and 4 of 44 recruited patients]. The authors list 'the limited sample size and short follow-up period' as limitations. months_after_final_tx is NOT_DERIVABLE because the paper gives week 12 only as time from start."
   },
   {
    "module": "1-hypopigmentation",
@@ -115,7 +115,7 @@
    "access_level": "FULL_TEXT",
    "diagnosis": "IGH",
    "design": "descriptive longitudinal study, single arm, uncontrolled",
-   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (share of macules)",
+   "body_site": "lower limbs 72.7%, upper limbs 18.2%, trunk 9.1% (denominator not reported; [the shares equal 32, 8 and 4 of 44 patients, not shares of the 200 macules])",
    "skin_tone": "not reported (study in Mandya, India; Fitzpatrick type not given)",
    "patients_enrolled": "44",
    "patients_evaluable": "40",
@@ -125,9 +125,9 @@
    "intervention": "308 nm excimer laser (Excimal Elite), twice weekly for 12 weeks, start 250 mJ/cm2, plus 50 mJ/cm2 every week until perifollicular or marginal pigmentation; stopped at complete resolution or after maximum 24 sessions",
    "comparator": "none (no control macules, no untreated arm)",
    "assessment_method": "physician quartile grading scale (Grade 0 none, 1-25% minimal, 26-50% moderate, 51-75% good, >75% excellent) using serial photographs and DermLite DL3N dermoscopy; blinding and number of assessors not reported",
-   "patient_noticeability": "patient satisfaction (patient unit, n=40): 15 (37.5%) satisfied, 25 (62.5%) extremely satisfied, none reported not satisfied; scale 0 not satisfied, 1 satisfied, 2 extremely satisfied",
+   "patient_noticeability": "patient satisfaction (patient unit, n=40): 15 (37.5%) satisfied, 25 (62.5%) extremely satisfied, [0] not satisfied (inferred: 15 + 25 = 40); scale 0 not satisfied, 1 satisfied, 2 extremely satisfied",
    "complete_match": "not reported (treatment stopped at complete resolution, but the number of macules that reached it is not given)",
-   "dark_overshoot": "post-inflammatory hyperpigmentation in 18/200 macules (9%), persisting at the last visit",
+   "dark_overshoot": "post-inflammatory hyperpigmentation in 18 of 200 macules (9%), which persisted at 4th month of follow up (wording of the paper; [the week 16 visit])",
    "texture_or_scar": "not reported (erythema and burning sensation were monitored; no counts given)",
    "attrition": "4 of 44 patients lost to follow-up",
    "verification_status": "PENDING",
@@ -136,12 +136,12 @@
    "source_url": "https://www.jpad.com.pk/index.php/jpad/article/download/2396/2103",
    "treatment_class": "energy_device",
    "time_from_start": "16 weeks",
-   "time_from_last_treatment": "1 month per Methods; [4 weeks] after the 12-week course, longer for macules that stopped early at complete resolution",
-   "months_after_final_tx": "0.9",
+   "time_from_last_treatment": "1 month per Methods; [4 weeks] after a full 12-week course, longer for macules stopped early at complete resolution (not reported)",
+   "months_after_final_tx": "1",
    "arm_result": "83/200 (41.5%) excellent >75%; 62/200 (31%) good 51-75%; 42/200 (21%) moderate 26-50%; 13/200 (6.5%) minimal <=25%",
    "source_location": "Table 1 (p. 1356); Results text p. 1355-1356; Methods p. 1354",
    "endpoint_definition": "share of macules in each physician improvement grade; excellent = >75% improvement (partial repigmentation, not complete coverage)",
-   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit. Follow-up length conflicts within the paper: Methods say patients were followed for 1 month after treatment, Results speak of 'the 4-month follow-up period' and PIH persisting 'at 4th month of follow up', which matches 16 weeks counted from baseline. months_after_final_tx 0.9 = [4 weeks] after the scheduled end of the 12-week course; for macules stopped early at complete resolution the interval is longer and not reported. Recurrence: 'None of the repigmented macules showed reappearance of depigmentation' at this visit (about one month after treatment). Abstract and Results give the week 16 distribution as the study result."
+   "uncertainty": "Uncontrolled; five macules per patient treated as independent. Table 1 'Minimal' appears to pool Grade 0 and Grade 1 (the Methods scale has both). Methods list photographs and dermoscopy only to week 12; Results add a week 16 dermoscopy visit. Follow-up length conflicts within the paper: Methods say patients were followed for 1 month after treatment, Results speak of 'the 4-month follow-up period' and PIH persisting 'at 4th month of follow up', which matches 16 weeks counted from baseline. months_after_final_tx 1 is the Methods statement; it equals [4 weeks] after a full 12-week course, and for macules stopped early at complete resolution the interval is longer and not reported. Recurrence: 'None of the repigmented macules showed reappearance of depigmentation' at this visit (about one month after treatment). Abstract and Results give the week 16 distribution as the study result. Body-site percentages are said to describe macules, but their denominator is not reported and they match [32, 8 and 4 of 44 recruited patients]. The authors list 'the limited sample size and short follow-up period' as limitations."
   }
  ],
  "quotes": [
@@ -504,10 +504,40 @@
    "field": "endpoint_definition",
    "quote": "Grade 4, >75% = Excellent improvement.",
    "location": "Methods, p. 1354"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The limitations of this study were the limited sample size and short follow-up period",
+   "location": "Discussion, p. 1357"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The limitations of this study were the limited sample size and short follow-up period",
+   "location": "Discussion, p. 1357"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The limitations of this study were the limited sample size and short follow-up period",
+   "location": "Discussion, p. 1357"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The limitations of this study were the limited sample size and short follow-up period",
+   "location": "Discussion, p. 1357"
+  },
+  {
+   "row": 3,
+   "field": "patient_noticeability",
+   "quote": "40 patients completed the treatment",
+   "location": "Results, p. 1355"
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "row 1, dark_overshoot: 'see the final-visit row' is not one of the required missing-data phrases; the source gives PIH only as 18 (9%) macules 'which persisted at 4th month of follow up' and does not report PIH at the 4-week visit, so the cell should say not reported for this visit. row 2, dark_overshoot: same as row 1; PIH at the 8-week visit is not reported in the source. row 3, dark_overshoot: same as row 1; PIH at the 12-week visit is not reported in the source. row 4, months_after_final_tx: the only quote says 'Patients were further followed up for a duration of 1 month'; the value 0.9 appears in no quote and is a conversion of the inferred [4 weeks] (16 minus 12 weeks), so the cell does not match its quote. Not failed, for the record: the source's own limitation 'the limited sample size and short follow-up period' (Discussion, p. 1357) is not in uncertainty; all other cells, quotes, analysis_unit (macules), outcome_tier (partial_repigmentation) and the follow-up-from-final-treatment reading check out against the source."
+  "status": "PENDING",
+  "notes": ""
  }
 }

@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, batch 2 verifier thread (deepadarshan2023).
+Last updated: 2026-11-27, batch 2 extractor correction (deepadarshan2023).
 
 ## Open module
 
@@ -25,7 +25,7 @@ Last updated: 2026-11-27, batch 2 verifier thread (deepadarshan2023).
 
 ## Batch 2 staging (2026-11-27)
 
-- deepadarshan2023: staging record `data/staging/deepadarshan2023.json`, FULL_TEXT (open PDF at jpad.com.pk, saved as `papers/excerpts/deepadarshan2023.txt`, plain `pdftotext` reading order; copy at `/mnt/project-files/papers/excerpts/`). 4 rows (weeks 4, 8, 12, 16), 60 quotes, validator ok. Verifier 1 (2026-11-27): FAIL, 4 cells (rows 1-3 dark_overshoot not stated as missing; row 4 months_after_final_tx 0.9 vs quoted '1 month'); see the record's verifier notes. Back to extractor once. Not merged. Open issue: paper's follow-up length conflicts (Methods 1 month after treatment vs Results "4-month follow-up", likely counted from baseline); week 16 recorded as 0.9 months after the scheduled end of treatment.
+- deepadarshan2023: staging record `data/staging/deepadarshan2023.json`, FULL_TEXT (open PDF at jpad.com.pk, saved as `papers/excerpts/deepadarshan2023.txt`, plain `pdftotext` reading order; copy at `/mnt/project-files/papers/excerpts/`). 4 rows (weeks 4, 8, 12, 16), 60 quotes, validator ok. Verifier 1 (2026-11-27): FAIL, 4 cells (rows 1-3 dark_overshoot not stated as missing; row 4 months_after_final_tx 0.9 vs quoted '1 month'); see the record's verifier notes. Extractor correction 1 (2026-11-27): rows 1-3 dark_overshoot now 'not reported at this visit'; week 16 months_after_final_tx 1 (Methods '1 month'); week 12 months_after_final_tx NOT_DERIVABLE (time from start only); body-site denominator flagged (percentages match patients, not macules); authors' short-follow-up limitation added; verifier back to PENDING. A second FAIL means BLOCKED. Not merged. Open issue: paper's follow-up length conflicts (Methods 1 month after treatment vs Results "4-month follow-up", likely counted from baseline); week 16 recorded as 1 month after final treatment per Methods.
 
 ## Paywall list (Ben: drop PDFs into `papers/pdfs/`, named `<study_id>.pdf`)
 
