@@ -1,0 +1,138 @@
+{
+  "study_id": "rerknimitr2013",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/rerknimitr2013.txt",
+  "sources_tried": [
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22324720&rettype=abstract&retmode=text (abstract saved)",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22324720%20AND%20SRC:MED&resultType=core (isOpenAccess N, inPMC N, 'Subscription required')",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=22324720&db=pmc (only citing articles, no PMC copy)",
+    "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-3083.2012.04462.x (HTTP 403)",
+    "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1468-3083.2012.04462.x (HTTP 403)"
+  ],
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "rerknimitr2013",
+      "doi_or_pmid": "PMID 22324720; doi:10.1111/j.1468-3083.2012.04462.x",
+      "source_location": "PubMed abstract (Materials and methods, Results, Conclusion)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; Wiley full and PDF pages returned HTTP 403)",
+      "diagnosis": "IGH",
+      "design": "double-blind, randomized, placebo-controlled; lesions on one side of the body treated, other side placebo (split-body)",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliation is in Thailand; study site not stated)",
+      "patients_enrolled": "[26] (printed as 'Twenty-six')",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "intervention": "0.1% tacrolimus ointment on lesions of one side of the body (frequency and total duration not in abstract)",
+      "comparator": "placebo ointment of the same physical appearance on lesions of the other side",
+      "time_from_start": "6 months of treatment",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract counts visits from the start of treatment ('at baseline and at 1, 2, 3, 4 and 6 months of treatment') and describes no visit after treatment ended",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (abstract calls the treatment 'safe' without listing adverse events)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Rerknimitr P, Disphanurat W, Achariyakul M. J Eur Acad Dermatol Venereol 2013;27(4):460-464",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22324720/",
+      "treatment_class": "topical",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "analysis_unit": "side (treated side vs placebo side, colorimeter reading)",
+      "endpoint_definition": "mean luminosity scale adjusted for baseline (lower value = darker skin)",
+      "assessment_method": "colorimeter",
+      "arm_result": "treated-side mean luminosity, adjusted for baseline, gradually decreased and was significantly different from the placebo side after 6 months of treatment (P = 0.019); size of the difference not in abstract",
+      "uncertainty": "No effect size, units or per-arm values in the abstract, only a P value. Unit of analysis (side, lesion or patient) not stated; the abstract says 'compared with the control group' although control is the other side of the same patients. Reading lower luminosity as darkening (repigmentation) is the standard colorimeter interpretation, not stated in the abstract. Treatment duration not stated, so whether the 6-month visit was the end of treatment is unknown.",
+      "outcome_tier": "instrument_color"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "rerknimitr2013",
+      "doi_or_pmid": "PMID 22324720; doi:10.1111/j.1468-3083.2012.04462.x",
+      "source_location": "PubMed abstract (Materials and methods, Results, Conclusion)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; Wiley full and PDF pages returned HTTP 403)",
+      "diagnosis": "IGH",
+      "design": "double-blind, randomized, placebo-controlled; lesions on one side of the body treated, other side placebo (split-body)",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract (authors' affiliation is in Thailand; study site not stated)",
+      "patients_enrolled": "[26] (printed as 'Twenty-six')",
+      "patients_evaluable": "not in abstract",
+      "lesions_enrolled": "not in abstract",
+      "lesions_evaluable": "not in abstract",
+      "intervention": "0.1% tacrolimus ointment on lesions of one side of the body (frequency and total duration not in abstract)",
+      "comparator": "placebo ointment of the same physical appearance on lesions of the other side",
+      "time_from_start": "6 months of treatment",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract counts visits from the start of treatment ('at baseline and at 1, 2, 3, 4 and 6 months of treatment') and describes no visit after treatment ended",
+      "patient_noticeability": "not in abstract",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (abstract calls the treatment 'safe' without listing adverse events)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Rerknimitr P, Disphanurat W, Achariyakul M. J Eur Acad Dermatol Venereol 2013;27(4):460-464",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22324720/",
+      "treatment_class": "topical",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "analysis_unit": "patient",
+      "endpoint_definition": "physicians' improvement grading score; improvement on the treated side (grading scale and threshold not in abstract)",
+      "assessment_method": "physician grading (number of graders and blinding of graders not in abstract)",
+      "arm_result": "11% of the patients demonstrated improvement of their skin lesions on the treated side after 6 months' treatment; authors state the improvements were not statistically significant upon clinical assessments",
+      "uncertainty": "11% is not a whole-number share of 26 patients (2/26 = [7.7%], 3/26 = [11.5%]); it fits 3/26 only if 11.5% was truncated, otherwise the evaluable denominator was smaller than 26 (e.g. 1/9 = [11.1%]). Placebo-side result not in abstract. 'Improvement' threshold not defined, so this is partial repigmentation, not complete coverage or colour match.",
+      "outcome_tier": "partial_repigmentation"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "patients_enrolled",
+      "quote": "Twenty-six patients were included in the study.",
+      "location": "Abstract, Materials and methods"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "Colorimeter was used to assess skin colour at baseline and at 1, 2, 3, 4 and 6 months of treatment.",
+      "location": "Abstract, Materials and methods"
+    },
+    {
+      "row": 1,
+      "field": "patients_enrolled",
+      "quote": "Twenty-six patients were included in the study.",
+      "location": "Abstract, Materials and methods"
+    },
+    {
+      "row": 1,
+      "field": "time_from_last_treatment",
+      "quote": "Colorimeter was used to assess skin colour at baseline and at 1, 2, 3, 4 and 6 months of treatment.",
+      "location": "Abstract, Materials and methods"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "Mean luminosity scale after adjusted for baseline from the treated side gradually decreased and reached statistical significance compared with the control group after 6 months of treatment (P = 0.019).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "Physicians' improvement grading score showed that 11% of the patients demonstrated improvement of their skin lesions on the treated side after 6 months' treatment.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "The improvements were best observed by colorimetry, yet, they were not statistically significant upon clinical assessments.",
+      "location": "Abstract, Conclusion"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "Lesions on one side of the body were selected to have a treatment with 0.1% tacrolimus ointment, whereas those on the other side served as a control with placebo ointment that had the same physical appearance.",
+      "location": "Abstract, Materials and methods"
+    }
+  ],
+  "verifier": {
+    "status": "PENDING",
+    "notes": ""
+  }
+}

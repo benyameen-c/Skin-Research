@@ -41,6 +41,10 @@ Last updated: 2026-11-27, end of session 1.
 - **Gate A (after any search):** Ben reviews the screening list and supplies PDFs before extraction starts.
 - **Gate B (before anything is public):** Ben reviews the ledger diff, sets the contact route in `site.json`, approves launch and any email.
 
+## Staging (awaiting verifier)
+
+- rerknimitr2013: `data/staging/rerknimitr2013.json`, ABSTRACT_ONLY, 2 rows, validator ok, verifier PENDING (2026-11-27, branch claude/project-thread-7fln14). Source text: PubMed abstract, also at /mnt/project-files/papers/excerpts/rerknimitr2013.txt. Months after final treatment NOT_DERIVABLE (visits counted from start). Full text: Europe PMC "Subscription required", Wiley /doi/full and /doi/pdf HTTP 403; stays on paywall list.
+
 ## Blocked
 
 Nothing yet.
