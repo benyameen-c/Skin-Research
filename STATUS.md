@@ -43,7 +43,7 @@ Last updated: 2026-11-27, end of session 1.
 
 ## Staged (batch 2)
 
-- gordon2017: `data/staging/gordon2017.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier #1 FAIL (1 cell: row 0 uncertainty). Extractor corrected uncertainty (and patients_enrolled wording) 2026-11-27, verifier reset to PENDING; next a fresh verifier. A second FAIL means BLOCKED. Source text `papers/excerpts/gordon2017.txt` (copy at /mnt/project-files/papers/excerpts/gordon2017.txt). Months after final treatment NOT_DERIVABLE from abstract.
+- gordon2017: `data/staging/gordon2017.json`, ABSTRACT_ONLY, 1 row, validator ok, verifier #1 FAIL (1 cell: row 0 uncertainty). Extractor corrected uncertainty (and patients_enrolled wording) 2026-11-27. Verifier #2 (fresh context) 2026-11-27: PASS, 0 failed cells; ready for `ledger.py merge` by the orchestrator. Source text `papers/excerpts/gordon2017.txt` (copy at /mnt/project-files/papers/excerpts/gordon2017.txt). Months after final treatment NOT_DERIVABLE from abstract.
 
 ## Blocked
 

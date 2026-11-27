@@ -60,7 +60,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Verifier #2, 2026-11-27, fresh context, judged from papers/excerpts/gordon2017.txt (PubMed abstract) alone. All 3 quotes found verbatim and support their cells (row 0 patients_enrolled, arm_result, time_from_last_treatment). time_from_last_treatment and months_after_final_tx correctly not derivable: grading is 'at the end of the study' with no interval after the final treatment. analysis_unit lesion matches the Results sentence. outcome_tier partial_repigmentation is the weakest reading of 'significantly higher repigmentation'. body_site correctly 'not in abstract' ('often on extremities' is background on IGH, not this sample). Overshoot, scar, attrition correctly marked not in abstract. Uncertainty covers pilot size, lesion clustering in 6 patients, before-after comparison, unnumbered significance, unsupported conclusion, affiliation. Minor, not failed: the Conclusion's 'safe modality' is a general statement with no adverse-event data in the abstract; the missing-cell wording already reflects this. Failed cells: 0."
   }
 }
