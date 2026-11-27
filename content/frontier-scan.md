@@ -39,6 +39,16 @@ What exists, all outside IGH:
 [Inference: for IGH this is a long way off. There is no target gene established in IGH beyond the ATG7 observation (PMID 41453137), and that paper's own framing is prevention.]
 ### Direction 2: JAK inhibitors
 
+**Status: approved in vitiligo, one IGH hit and it is not a JAK study.** The IGH-plus-JAK query returned a single record, PMID 34084020, which is the excimer light and bimatoprost case already in the ledger as kreeshan2021. No JAK trial in IGH was found in PubMed or the registry.
+
+Why it still matters here: this is the only white-spot condition where a drug has been taken through phase 3 with durability data, so it sets the bar for what a trial in IGH would have to show.
+
+- **Phase 3 in vitiligo.** Ruxolitinib cream 1.5% twice daily: at week 24 the share reaching a 75% improvement in facial score was "29.8% in the ruxolitinib-cream group and 7.4% in the vehicle group" in one trial and "30.9% and 11.4%, respectively" in the other (PMID 36260792). Face only, and these are improvement scores, not colour match.
+- **Durability, measured from withdrawal.** In the extension study NCT04530344, patients who had reached a 90% facial improvement were re-randomised to keep the cream or switch to vehicle. Time to loss of that 90% response had a median of "195.0" days (95% CI "113.0" to "372.0") on vehicle, and was not estimable on continued cream "because there were too few events" (registry results, 56 and 55 patients). Time to relapse below 75% was not estimable in either arm.
+- [Inference: this is the clearest durability dataset in any white-spot condition, and it says the effect is maintained by continuing the drug. A six-month match after a *final* treatment is a different question, and this trial does not answer it: the arm that stopped lost its response at a median of about 6.4 months.]
+
+[Inference: a JAK inhibitor is unlikely to suit IGH on mechanism. It calms an immune attack, and no immune attack has been established in IGH. The IGH senescence findings point elsewhere.]
+
 ### Direction 3: melanocortin and prostaglandin drugs
 
 ### Direction 4: cell transplantation
