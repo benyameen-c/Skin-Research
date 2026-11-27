@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, end of session 1.
+Last updated: 2026-11-27 (NCT01956435 registry extraction staged).
 
 ## Open module
 
@@ -18,7 +18,7 @@ Last updated: 2026-11-27, end of session 1.
 
 - [ ] Re-extract the 9 extracted studies as staging records with verbatim quotes (`tools/ledger.py check` lists them).
 - [ ] Read the free full text of laosakul2017 and resolve the 82.3% denominator and the patient count.
-- [ ] Extract the registry-posted results of NCT01956435.
+- [ ] Extract the registry-posted results of NCT01956435. Staged 2026-11-27: `data/staging/nct01956435.json`, 3 rows, access FULL_TEXT (registry API v2), validator ok, verifier PENDING. Source text: `papers/excerpts/nct01956435.txt` (copy and raw API JSON in the project's shared `papers/excerpts/`). Same cohort as gordon2017: reconcile before merge. Posted self-report mean 4.5 exceeds its stated 1 to 4 scale.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
 - [ ] First real run of `tools/pubmed.py` (never executed).
