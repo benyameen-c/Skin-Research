@@ -766,7 +766,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "0 failed cells. All 109 quotes found verbatim in papers/excerpts/nct01956435.txt and attached to the right row and field. Arm results (2.31 CI 2.08-2.54; 1.15 CI 0.92-1.39; 4.5 SD 0.223) match the right groups. time_from_last_treatment NOT_DERIVABLE is correct: only a 12-week time frame from start and an undated 25th untreated visit. outcome_tier partial_repigmentation is the weakest supported reading for all rows. Adverse events, attrition and missing lesion counts are recorded. Minor, not failed: uncertainty (b) says the scale 'changed after registration'; the -1..3 results scale is the planned 1..5 scale shifted by 2, so this may be relabelling rather than a new scale."
  }
 }
