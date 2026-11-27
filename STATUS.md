@@ -41,6 +41,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
 | elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
+| koh2018 | J Cosmet Laser Ther 2018;20(7-8):405-409, doi:10.1080/14764172.2018.1444771, PMID 29547020 (Europe PMC: subscription required, not in PMC; https://www.tandfonline.com/doi/full/10.1080/14764172.2018.1444771 and /doi/pdf/ HTTP 403, 2026-11-27) | VAS, IGA and PSS values per arm; sessions and interval; time from final treatment; per-patient allocation of the 122 lesions |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
 ## Human gates
@@ -63,6 +64,8 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - 2026-11-27, nct01956435: re-extracted after FAIL 1. Control row now treatment_class `control`, time from last treatment `not applicable`, months `NOT_APPLICABLE`; self-report row comparator `none`. Also added quotes for evaluable and attrition counts, Fitzpatrick limitation in skin_tone. Validator ok, verifier PENDING. A second FAIL makes it BLOCKED.
 - 2026-11-27, nct01956435: verifier **FAIL, attempt 2 of 2**, 3 cells. BLOCKED, not merged.
 - 2026-11-27, laosakul2017: verifier FAIL (5 cells), corrected, verifier PASS on second check. Merged with `tools/ledger.py merge`: the 2 abstract rows were replaced whole by the record's 3 rows and 9 quotes.
+
+- 2026-11-27, koh2018 (PMID 29547020, batch 3): staged ABSTRACT_ONLY, 3 rows (CO2 fractional laser, Er:YAG fractional laser, 0.025% tretinoin; outcome_tier unquantified, months_after_final_tx NOT_DERIVABLE). Validator ok, verifier PENDING. Full text on paywall list.
 
 ## Verification log (batch 2, 2026-11-27)
 

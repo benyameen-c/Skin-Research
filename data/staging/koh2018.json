@@ -1,0 +1,322 @@
+{
+  "study_id": "koh2018",
+  "access": "ABSTRACT_ONLY",
+  "excerpt_file": "papers/excerpts/koh2018.txt",
+  "sources_tried": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29547020%20AND%20SRC:MED&resultType=core (abstract; isOpenAccess N, inPMC N, 'Subscription required')",
+    "https://www.tandfonline.com/doi/full/10.1080/14764172.2018.1444771 (HTTP 403, 2026-11-27)",
+    "https://www.tandfonline.com/doi/pdf/10.1080/14764172.2018.1444771 (HTTP 403, 2026-11-27)",
+    "/mnt/project-files/papers/excerpts/pmid_29547020.txt (PubMed abstract saved by tools/pubmed.py; copied as papers/excerpts/koh2018.txt)"
+  ],
+  "rows": [
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "koh2018",
+      "doi_or_pmid": "PMID 29547020; doi:10.1080/14764172.2018.1444771",
+      "source_location": "PubMed abstract (Materials and Methods, Results, Conclusions)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/ on 2026-11-27; full text needed)",
+      "diagnosis": "IGH",
+      "design": "not in abstract [comparative study with three treatment groups; lesions assigned to groups; method of assignment, randomisation, blinding and whether the study was prospective are not stated]",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract [authors' affiliation is in Seoul, Korea; study site not stated]",
+      "patients_enrolled": "18 patients in total; number per group not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_evaluable": "not in abstract [122 lesions are described as analyzed; number enrolled before exclusions not stated]",
+      "analysis_unit": "lesion [inferred: lesions were assigned to groups; the abstract does not say whether VAS, IGA and PSS were analysed per lesion or per patient]",
+      "time_from_start": "not in abstract",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives no number of sessions, no treatment interval and no assessment date; it only says VAS improved 'after the second treatment'",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (abstract states only 'without serious adverse events'; scarring and texture not described)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Koh WS, Kim JE, Ro YS, Ko JY. J Cosmet Laser Ther 2018;20(7-8):405-409",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29547020/",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "outcome_tier": "unquantified",
+      "endpoint_definition": "lesion severity by visual analog scale (VAS), extent of improvement by investigator's global assessment (IGA), patient's satisfaction score (PSS); scales, anchors and time point not in abstract",
+      "assessment_method": "VAS, IGA and PSS [assessor of VAS not stated; blinding not in abstract]",
+      "lesions_enrolled": "42 of 122 lesions analyzed",
+      "intervention": "CO2 fractional laser (CO₂FL) (ablative fractional, per title and conclusions); settings and number of sessions not in abstract",
+      "comparator": "Er:YAG fractional laser group and 0.025% topical tretinoin group",
+      "arm_result": "superior to topical tretinoin on VAS, IGA and PSS (p < 0.01); no significant difference from Er:YAG fractional laser; values not in abstract",
+      "patient_noticeability": "patient satisfaction (PSS) collected, not noticeability of the spot; laser groups superior to tretinoin (p < 0.01), values not in abstract",
+      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it.",
+      "treatment_class": "energy_device"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "koh2018",
+      "doi_or_pmid": "PMID 29547020; doi:10.1080/14764172.2018.1444771",
+      "source_location": "PubMed abstract (Materials and Methods, Results, Conclusions)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/ on 2026-11-27; full text needed)",
+      "diagnosis": "IGH",
+      "design": "not in abstract [comparative study with three treatment groups; lesions assigned to groups; method of assignment, randomisation, blinding and whether the study was prospective are not stated]",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract [authors' affiliation is in Seoul, Korea; study site not stated]",
+      "patients_enrolled": "18 patients in total; number per group not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_evaluable": "not in abstract [122 lesions are described as analyzed; number enrolled before exclusions not stated]",
+      "analysis_unit": "lesion [inferred: lesions were assigned to groups; the abstract does not say whether VAS, IGA and PSS were analysed per lesion or per patient]",
+      "time_from_start": "not in abstract",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives no number of sessions, no treatment interval and no assessment date; it only says VAS improved 'after the second treatment'",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (abstract states only 'without serious adverse events'; scarring and texture not described)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Koh WS, Kim JE, Ro YS, Ko JY. J Cosmet Laser Ther 2018;20(7-8):405-409",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29547020/",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "outcome_tier": "unquantified",
+      "endpoint_definition": "lesion severity by visual analog scale (VAS), extent of improvement by investigator's global assessment (IGA), patient's satisfaction score (PSS); scales, anchors and time point not in abstract",
+      "assessment_method": "VAS, IGA and PSS [assessor of VAS not stated; blinding not in abstract]",
+      "lesions_enrolled": "40 of 122 lesions analyzed",
+      "intervention": "Er:YAG fractional laser (EYFL) (ablative fractional, per title and conclusions); settings and number of sessions not in abstract",
+      "comparator": "CO2 fractional laser group and 0.025% topical tretinoin group",
+      "arm_result": "superior to topical tretinoin on VAS, IGA and PSS (p < 0.01); no significant difference from the CO₂FL group; values not in abstract",
+      "patient_noticeability": "patient satisfaction (PSS) collected, not noticeability of the spot; laser groups superior to tretinoin (p < 0.01), values not in abstract",
+      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it.",
+      "treatment_class": "energy_device"
+    },
+    {
+      "module": "1-hypopigmentation",
+      "study_id": "koh2018",
+      "doi_or_pmid": "PMID 29547020; doi:10.1080/14764172.2018.1444771",
+      "source_location": "PubMed abstract (Materials and Methods, Results, Conclusions)",
+      "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; tandfonline.com returned HTTP 403 to /doi/full/ and /doi/pdf/ on 2026-11-27; full text needed)",
+      "diagnosis": "IGH",
+      "design": "not in abstract [comparative study with three treatment groups; lesions assigned to groups; method of assignment, randomisation, blinding and whether the study was prospective are not stated]",
+      "body_site": "not in abstract",
+      "skin_tone": "not in abstract [authors' affiliation is in Seoul, Korea; study site not stated]",
+      "patients_enrolled": "18 patients in total; number per group not in abstract",
+      "patients_evaluable": "not in abstract",
+      "lesions_evaluable": "not in abstract [122 lesions are described as analyzed; number enrolled before exclusions not stated]",
+      "analysis_unit": "lesion [inferred: lesions were assigned to groups; the abstract does not say whether VAS, IGA and PSS were analysed per lesion or per patient]",
+      "time_from_start": "not in abstract",
+      "time_from_last_treatment": "NOT_DERIVABLE: the abstract does not say how long tretinoin was applied, when it stopped or when lesions were assessed",
+      "complete_match": "not in abstract",
+      "dark_overshoot": "not in abstract",
+      "texture_or_scar": "not in abstract (abstract states only 'without serious adverse events'; scarring and texture not described)",
+      "attrition": "not in abstract",
+      "verification_status": "PENDING (abstract only)",
+      "citation": "Koh WS, Kim JE, Ro YS, Ko JY. J Cosmet Laser Ther 2018;20(7-8):405-409",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29547020/",
+      "months_after_final_tx": "NOT_DERIVABLE",
+      "outcome_tier": "unquantified",
+      "endpoint_definition": "lesion severity by visual analog scale (VAS), extent of improvement by investigator's global assessment (IGA), patient's satisfaction score (PSS); scales, anchors and time point not in abstract",
+      "assessment_method": "VAS, IGA and PSS [assessor of VAS not stated; blinding not in abstract]",
+      "lesions_enrolled": "40 of 122 lesions analyzed",
+      "intervention": "0.025% topical tretinoin cream; application schedule and duration not in abstract",
+      "comparator": "CO2 fractional laser and Er:YAG fractional laser groups",
+      "arm_result": "inferior to both fractional laser groups on VAS, IGA and PSS (p < 0.01); change from baseline in this group and values not in abstract",
+      "patient_noticeability": "patient satisfaction (PSS) collected, not noticeability of the spot; lower than laser groups (p < 0.01), values not in abstract",
+      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it. Whether tretinoin lesions improved at all from baseline is not stated; 'after the second treatment' is unclear for a cream.",
+      "treatment_class": "topical"
+    }
+  ],
+  "quotes": [
+    {
+      "row": 0,
+      "field": "lesions_enrolled",
+      "quote": "Among the 122 lesions, 42, 40, and 40 were assigned to the CO₂FL, EYFL, and topical tretinoin treatment groups, respectively.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "lesions_enrolled",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "patients_enrolled",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "lesions_evaluable",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "CO₂FL and EYFL therapy had superior treatment efficacy compared to topical tretinoin (p < 0.01 in VAS, IGA, and PSS).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "patient_noticeability",
+      "quote": "CO₂FL and EYFL therapy had superior treatment efficacy compared to topical tretinoin (p < 0.01 in VAS, IGA, and PSS).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 0,
+      "field": "time_from_last_treatment",
+      "quote": "The VAS score was significantly improved after the second treatment.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "texture_or_scar",
+      "quote": "Ablative fractional laser (AFL) was an effective treatment with a relatively short treatment time without serious adverse events.",
+      "location": "Abstract, Conclusions"
+    },
+    {
+      "row": 1,
+      "field": "lesions_enrolled",
+      "quote": "Among the 122 lesions, 42, 40, and 40 were assigned to the CO₂FL, EYFL, and topical tretinoin treatment groups, respectively.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "lesions_enrolled",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "patients_enrolled",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "lesions_evaluable",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "CO₂FL and EYFL therapy had superior treatment efficacy compared to topical tretinoin (p < 0.01 in VAS, IGA, and PSS).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "patient_noticeability",
+      "quote": "CO₂FL and EYFL therapy had superior treatment efficacy compared to topical tretinoin (p < 0.01 in VAS, IGA, and PSS).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "uncertainty",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 1,
+      "field": "time_from_last_treatment",
+      "quote": "The VAS score was significantly improved after the second treatment.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "texture_or_scar",
+      "quote": "Ablative fractional laser (AFL) was an effective treatment with a relatively short treatment time without serious adverse events.",
+      "location": "Abstract, Conclusions"
+    },
+    {
+      "row": 2,
+      "field": "lesions_enrolled",
+      "quote": "Among the 122 lesions, 42, 40, and 40 were assigned to the CO₂FL, EYFL, and topical tretinoin treatment groups, respectively.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "lesions_enrolled",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 2,
+      "field": "patients_enrolled",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 2,
+      "field": "lesions_evaluable",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 2,
+      "field": "arm_result",
+      "quote": "CO₂FL and EYFL therapy had superior treatment efficacy compared to topical tretinoin (p < 0.01 in VAS, IGA, and PSS).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "patient_noticeability",
+      "quote": "CO₂FL and EYFL therapy had superior treatment efficacy compared to topical tretinoin (p < 0.01 in VAS, IGA, and PSS).",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "uncertainty",
+      "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
+      "location": "Abstract, Materials and Methods"
+    },
+    {
+      "row": 2,
+      "field": "time_from_last_treatment",
+      "quote": "The VAS score was significantly improved after the second treatment.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 2,
+      "field": "texture_or_scar",
+      "quote": "Ablative fractional laser (AFL) was an effective treatment with a relatively short treatment time without serious adverse events.",
+      "location": "Abstract, Conclusions"
+    },
+    {
+      "row": 0,
+      "field": "arm_result",
+      "quote": "There was no significant difference between the two types of fractional lasers.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 1,
+      "field": "arm_result",
+      "quote": "There was no significant difference between the two types of fractional lasers.",
+      "location": "Abstract, Results"
+    },
+    {
+      "row": 0,
+      "field": "intervention",
+      "quote": "This study aimed to compare the efficacy of CO2 fractional laser (CO₂FL), Er:YAG fractional laser (EYFL), and 0.025% topical tretinoin for treating IGH.",
+      "location": "Abstract, Background"
+    },
+    {
+      "row": 1,
+      "field": "intervention",
+      "quote": "This study aimed to compare the efficacy of CO2 fractional laser (CO₂FL), Er:YAG fractional laser (EYFL), and 0.025% topical tretinoin for treating IGH.",
+      "location": "Abstract, Background"
+    },
+    {
+      "row": 2,
+      "field": "intervention",
+      "quote": "This study aimed to compare the efficacy of CO2 fractional laser (CO₂FL), Er:YAG fractional laser (EYFL), and 0.025% topical tretinoin for treating IGH.",
+      "location": "Abstract, Background"
+    },
+    {
+      "row": 0,
+      "field": "design",
+      "quote": "Despite various treatments attempts, no prospective studies have compared the different therapeutic modalities for treatment of idiopathic guttate hypomelanosis (IGH).",
+      "location": "Abstract, Background"
+    }
+  ],
+  "verifier": {
+    "status": "PENDING",
+    "notes": ""
+  }
+}
