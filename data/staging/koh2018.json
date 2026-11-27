@@ -316,7 +316,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "FAIL",
+    "notes": "row 0, patients_enrolled: cell gives '18 patients in total' as enrolled, but source says 'A total of 122 lesions were analyzed from 18 patients'; 18 is the analysed count and the number enrolled is not in abstract; row 0, patients_evaluable: cell says 'not in abstract', but source says 'A total of 122 lesions were analyzed from 18 patients', so 18 patients analysed is stated; row 1, patients_enrolled: cell gives '18 patients in total' as enrolled, but source says 'A total of 122 lesions were analyzed from 18 patients'; 18 is the analysed count and the number enrolled is not in abstract; row 1, patients_evaluable: cell says 'not in abstract', but source says 'A total of 122 lesions were analyzed from 18 patients', so 18 patients analysed is stated; row 2, patients_enrolled: cell gives '18 patients in total' as enrolled, but source says 'A total of 122 lesions were analyzed from 18 patients'; 18 is the analysed count and the number enrolled is not in abstract; row 2, patients_evaluable: cell says 'not in abstract', but source says 'A total of 122 lesions were analyzed from 18 patients', so 18 patients analysed is stated. All other cells match the source text: quotes are verbatim and attach to the right arm, time_from_last_treatment is NOT_DERIVABLE with reason, analysis_unit lesion fits '122 lesions were analyzed', outcome_tier unquantified is the weakest reading, overshoot/scar/attrition are marked missing."
   }
 }
