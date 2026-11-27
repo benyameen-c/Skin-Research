@@ -21,22 +21,22 @@
       "intervention": "autologous melanocyte grafting: roof of a suction or liquid-nitrogen blister from normal donor skin grafted to the raw surface of a blistered depigmented recipient site",
       "comparator": "not in abstract [none described]",
       "endpoint_definition": "successful repigmentation (not defined in abstract)",
-      "assessment_method": "clinical observation [inferred]; dopa histochemistry before grafting and of successful grafts; direct immunofluorescence with bullous pemphigoid antibodies",
+      "assessment_method": "[clinical observation; method not in abstract]; dopa histochemistry of leukoderma areas before grafting; presence of melanocytes in successful grafts [method not in abstract]",
       "time_from_start": "repigmentation visible within 7 to 14 days [of grafting]",
       "time_from_last_treatment": "not in abstract",
-      "arm_result": "successful repigmentation reported for all three leukoderma types; no counts, proportions or IGH-specific result in abstract",
+      "arm_result": "successful repigmentation reported in patients with each of the three leukoderma types; number or share of patients, lesions or grafts that repigmented not in abstract; IGH results not separated",
       "patient_noticeability": "not in abstract",
       "complete_match": "not in abstract",
       "dark_overshoot": "not in abstract",
       "texture_or_scar": "not in abstract (donor and recipient site outcomes not stated)",
       "attrition": "not in abstract",
-      "uncertainty": "Abstract gives no patient, lesion or graft counts and does not separate IGH results from vitiligo and postinflammatory leukoderma. Follow-up length and timing after the graft are not stated, so months after final treatment cannot be set. 'Successful' is not defined. Full text is subscription only (Europe PMC: not in PMC, Subscription required).",
+      "uncertainty": "Abstract only. It gives no patient, lesion or graft counts and does not separate IGH results from vitiligo and postinflammatory leukoderma. 'Melanocytes were present in the successful grafts' implies some grafts were not successful; the number or share of failed grafts is not in abstract. 'Successful' repigmentation is not defined. The only timing given is repigmentation visible within 7 to 14 days; follow-up length after grafting is not in abstract, so months after final treatment is NOT_DERIVABLE from this source (full text needed). Full text is subscription only (Europe PMC: not in PMC, Subscription required).",
       "verification_status": "PENDING",
       "outcome_tier": "unquantified",
       "citation": "Suvanprakorn P, Dee-Ananlap S, Pongsomboon C, Klaus SN. J Am Acad Dermatol 1985;13(6):968-974",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/3908515/",
       "treatment_class": "grafting",
-      "months_after_final_tx": "NOT_REPORTED"
+      "months_after_final_tx": "NOT_DERIVABLE"
     }
   ],
   "quotes": [
@@ -63,10 +63,16 @@
       "field": "assessment_method",
       "quote": "Histochemical studies confirmed the absence of dopa-positive cells in the areas of leukoderma prior to grafting. Melanocytes were present in the successful grafts.",
       "location": "Abstract"
+    },
+    {
+      "row": 0,
+      "field": "uncertainty",
+      "quote": "Melanocytes were present in the successful grafts.",
+      "location": "Abstract"
     }
   ],
   "verifier": {
-    "status": "FAIL",
-    "notes": "row 0, uncertainty: the source says 'Melanocytes were present in the successful grafts', which implies some grafts were not successful; the count or share of failed grafts is not in abstract, and uncertainty does not mention this. Non-failing observation: months_after_final_tx uses the token NOT_REPORTED while access is ABSTRACT_ONLY; CLAUDE.md rule 5 reserves 'not reported' for a full-text read, and the text cell correctly says 'not in abstract'. All four quotes match the source verbatim and support their cells; outcome_tier 'unquantified' is the weakest reading; analysis_unit, dark_overshoot, texture_or_scar and attrition are correctly marked missing."
+    "status": "PENDING",
+    "notes": "Extractor revision 1 after verifier FAIL #1 (row 0, uncertainty: the source says 'Melanocytes were present in the successful grafts', which implies some grafts were not successful; the count or share of failed grafts is not in abstract, and uncertainty does not mention this. Non-failing observation: months_after_final_tx uses the token NOT_REPORTED while access is ABSTRACT_ONLY; CLAUDE.md rule 5 reserves 'not reported' for a full-text read, and the text cell correctly says 'not in abstract'. All four quotes match the source verbatim and support their cells; outcome_tier 'unquantified' is the weakest reading; analysis_unit, dark_overshoot, texture_or_scar and attrition are correctly marked missing.)"
   }
 }

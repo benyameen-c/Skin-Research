@@ -41,6 +41,7 @@ Last updated: 2026-11-27, end of session 1.
 
 - suvanprakorn1985 (2026-11-27): staged `data/staging/suvanprakorn1985.json`, ABSTRACT_ONLY, 1 row (unquantified, months NOT_REPORTED), validator ok, verifier PENDING. Source text: PubMed abstract, also at `/mnt/project-files/papers/excerpts/suvanprakorn1985.txt`.
 - suvanprakorn1985 verifier #1 (2026-11-27): FAIL, 1 cell (row 0, `uncertainty`: abstract's "the successful grafts" implies some grafts failed, not noted). Next: extractor fixes once, then a fresh verifier.
+- suvanprakorn1985 extractor revision 1 (2026-11-27): uncertainty now notes implied failed grafts; months_after_final_tx changed to NOT_DERIVABLE; assessment_method and arm_result reworded to the abstract's wording. Validator ok, verifier PENDING (second verifier next; a second FAIL means BLOCKED).
 
 ## Human gates
 
