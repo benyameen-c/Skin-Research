@@ -10,6 +10,7 @@ Last updated: 2026-11-27, end of session 1.
 
 - Evidence ledger: 20 rows, 13 studies (9 extracted, 4 leads). No row measures a lasting colour match. Longest interval after a final treatment: 4 months.
 - Update search: three dated PubMed queries, one ClinicalTrials.gov query (see `data/search_log.csv`).
+- Data-repository search (2026-11-27): GEO, BioImage Archive, Zenodo, Figshare, eight logged query lines. No public raw IGH tissue, omics or image dataset found.
 - Dataset audit and three-path comparison (`data/datasets.csv`, `data/paths.csv`).
 - Experiments: alignment simulation with pixel-model check; clustering sensitivity; denominator audit.
 - Static site builds from `content/` and `data/`.
@@ -20,7 +21,8 @@ Last updated: 2026-11-27, end of session 1.
 - [ ] Read the free full text of laosakul2017 and resolve the 82.3% denominator and the patient count.
 - [ ] Extract the registry-posted results of NCT01956435.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
-- [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
+- [ ] Search Web of Science and Scopus if access exists.
+- [x] Search GEO, BioImage Archive, Zenodo, Figshare (2026-11-27, two quoted queries each, APIs): 0 IGH datasets or image deposits. 4 repository hits plus 2 BioStudies literature records, all excluded. Awaiting Gate A review of `data/screening_log.csv`.
 - [ ] First real run of `tools/pubmed.py` (never executed).
 
 ## Paywall list (Ben: drop PDFs into `papers/pdfs/`, named `<study_id>.pdf`)
