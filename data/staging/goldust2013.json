@@ -1,0 +1,162 @@
+{
+ "study_id": "goldust2013",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/goldust2013.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "goldust2013",
+   "doi_or_pmid": "PMID 23656568; doi:10.3109/14764172.2013.803369",
+   "source_location": "PubMed abstract (Objective, Methods, Results, Conclusion), plus PubMed, Crossref and Europe PMC metadata saved at the end of the excerpt",
+   "access_level": "ABSTRACT_ONLY (Europe PMC: not open access, not in PMC, 'Subscription required'; tandfonline /doi/full/ returned HTTP 403)",
+   "diagnosis": "IGH",
+   "design": "[single-arm case series, uncontrolled] (abstract describes one treated group and no comparator; design label, randomisation and blinding not in abstract)",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract",
+   "patients_enrolled": "240 (40 men, 200 women)",
+   "patients_evaluable": "240 ('240 patients ... were followed')",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "patient (results counted in patients; how one grade per patient was derived from several treated lesions not in abstract)",
+   "intervention": "single session of 10,600-nm fractional carbon dioxide laser (CO2FL) on the hypopigmented lesions; laser settings, passes and aftercare not in abstract",
+   "comparator": "none",
+   "endpoint_definition": "physicians' clinical assessment of improvement in grades (>75%, 51-75%, 25-50%); share of patients in each grade. >75% is partial repigmentation, not complete coverage. Grade below 25% not reported in abstract",
+   "assessment_method": "physicians' clinical assessment (number of physicians, blinding and use of photographs not in abstract); patients' overall satisfaction (scale not in abstract)",
+   "time_from_start": "[2 months] (printed 'Two months after a single treatment'; single session, so time from start equals time from the only treatment)",
+   "time_from_last_treatment": "[2 months] (printed 'Two months after a single treatment session')",
+   "arm_result": "115 of 240 patients (47.9%) more than 75% clinical improvement; 100 (41.6%) 51-75%; 25 (10.3%) 25-50%",
+   "patient_noticeability": "overall satisfaction (patients): 95 of 240 (39.6%) very satisfied, 102 (42.5%) satisfied, 43 (17.9%) slightly satisfied; whether patients judged how visible the spots were not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract (abstract says 'without any considerable side effects' but lists no adverse events or their rates)",
+   "attrition": "[0] (240 enrolled and 240 followed)",
+   "uncertainty": "Percentages do not all fit the 240 denominator: 100/240 is [41.7%] (printed 41.6%) and 25/240 is [10.4%] (printed 10.3%); printed percentages sum to [99.8%]. The three grade counts sum to [240], so the abstract implies no patient improved less than 25% or not at all; no grade below 25% is reported. Unit is the patient though lesions were treated; the number of lesions per patient and how a per-patient grade was formed are not in abstract. No control or untreated lesions, so improvement cannot be separated from natural change or seasonal tanning. Assessors, blinding and the scale are not in abstract. A single 2-month visit after one session; durability is not tested, far short of 6 months. Mean IGH duration '2.64 +/- 0.36 years' has [an unusually narrow spread for 240 patients]. Conclusion 'might be very effective without any considerable side effects' is not backed by an adverse-event count in the abstract. Publication metadata: PubMed status is still 'aheadofprint' with no pages, and Crossref lists no volume or issue, so [the article may never have appeared in a print issue]; no correction or retraction notice is linked in Crossref.",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Goldust M, Mohebbipour A, Mirmohammadi R. Treatment of idiopathic guttate hypomelanosis with fractional carbon dioxide lasers. J Cosmet Laser Ther 2013 May 8 (online ahead of print)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/23656568/",
+   "treatment_class": "energy_device",
+   "months_after_final_tx": "2"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A total of 240 patients with IGH were enrolled.",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "240 patients (40 men and 200 women) were followed.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "240 patients (40 men and 200 women) were followed.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "The hypopigmented lesions were treated using a 10 600-nm carbon dioxide fractional laser (CO2FL).",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "Two months after a single treatment, physicians' clinical assessments were performed and the patients' overall satisfaction was evaluated.",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Two months after a single treatment, physicians' clinical assessments were performed and the patients' overall satisfaction was evaluated.",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "months_after_final_tx",
+   "quote": "Two months after a single treatment session, 115 patients (47.9%) exhibited more than 75% clinical improvement.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Two months after a single treatment session, 115 patients (47.9%) exhibited more than 75% clinical improvement.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "100 patients (41.6%) achieved 51-75% clinical improvement, whereas 25 patients (10.3%) showed 25-50% clinical improvement.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "240 patients (40 men and 200 women) were followed.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "patient_noticeability",
+   "quote": "95 of the 240 patients (39.6%) were very satisfied with their clinical outcomes, 102 (42.5%) were satisfied and 43 patients (17.9%) were slightly satisfied.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "CO2FL might be very effective without any considerable side effects for the treatment of IGH.",
+   "location": "Abstract, Conclusion"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "A total of 240 patients with IGH were enrolled.",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "240 patients (40 men and 200 women) were followed.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "100 patients (41.6%) achieved 51-75% clinical improvement, whereas 25 patients (10.3%) showed 25-50% clinical improvement.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The mean duration of IGH was 2.64 ± 0.36 years.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "PublicationStatus: aheadofprint; MedlinePgn: (empty)",
+   "location": "PubMed E-utilities metadata (end of excerpt)"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "volume: none; issue: none; published-print: none; update-to / updated-by: none.",
+   "location": "Crossref metadata (end of excerpt)"
+  },
+  {
+   "row": 0,
+   "field": "access_level",
+   "quote": "isOpenAccess: N; inPMC: N; full text availability: Subscription required.",
+   "location": "Europe PMC metadata (end of excerpt)"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}

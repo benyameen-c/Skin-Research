@@ -42,6 +42,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | elhoshy2025 | Dermatol Surg 2025, doi:10.1097/DSS.0000000000004447 (Europe PMC: subscription required; journals.lww.com returned HTTP 403; not in PMC) | lesion counts, unit of the medians, between-arm statistics, adverse events |
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
+| goldust2013 | J Cosmet Laser Ther 2013 (ahead of print), PMID 23656568, doi:10.3109/14764172.2013.803369 (Europe PMC: subscription required, not in PMC; https://www.tandfonline.com/doi/full/10.3109/14764172.2013.803369 HTTP 403, 2026-11-27) | laser settings, lesion counts, assessors, the missing <25% grade, adverse events |
 
 ## Human gates
 
@@ -74,6 +75,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - gordon2017: verifier 1 FAIL (1 cell), corrected, verifier 2 PASS. Merged. Same cohort as NCT01956435 (BLOCKED); reconcile before any merge of that record.
 - arbache2023: FAIL twice. BLOCKED.
 - rerknimitr2015: FAIL twice. BLOCKED.
+
+## Batch 3 extraction log
+
+- 2026-11-27, goldust2013 (PMID 23656568, fractional CO2 laser, single session): staged ABSTRACT_ONLY, 1 row, validator ok, verifier PENDING. `data/staging/goldust2013.json`; excerpt copied to `/mnt/project-files/papers/excerpts/goldust2013.txt`. Not merged.
 
 ## Next session
 
