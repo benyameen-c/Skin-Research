@@ -364,7 +364,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Rows numbered from 1 (row 2 = quotes index 1, row 3 = quotes index 2). row 2, treatment_class: source says 'Group OG001: Control. Lesions not treated with excimer light'; this arm received no treatment, but the cell says energy_device. row 2, time_from_last_treatment: the control lesions were never treated ('Lesions not treated with excimer light'), so time from final treatment does not apply to this arm; the cell gives [about 0] from the treated leg's schedule. row 2, months_after_final_tx: same reason; the cell says 0 for an untreated arm. row 3, comparator: Outcome measure 2 has one group ('Group OG000: All Patients') and rates 'Re-pigmentation for Treated Lesions' 'by improvement from baseline'; no control-leg rating is posted, so this endpoint has no opposite-leg comparator. All 42 quotes were found verbatim and say what their cells claim; rows 1 and 3 otherwise check out."
  }
 }
