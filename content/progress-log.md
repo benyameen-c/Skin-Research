@@ -1,5 +1,13 @@
 ## Progress Log
 
+### 27 November 2026 · Batch 3
+
+Contributors: Ben (go-ahead), Claude (extraction, verification, checks).
+
+- Twelve more records passed independent verification and were merged. The ledger now holds 54 rows from 21 studies, and every extracted study carries verbatim quotes.
+- The longest quoted gap between a final treatment and an assessment on an IGH row is now 2 months (shin2013 and goldust2013, each a single fractional CO2 laser session). Still no row measures a lasting colour match.
+- One letter was excluded because it reports no IGH patients. Four sources are blocked behind paywalls and wait for PDFs.
+
 ### 27 November 2026 · Correction
 
 Contributors: Ben (review), Claude (checks).
