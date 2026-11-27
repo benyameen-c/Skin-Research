@@ -75,6 +75,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - arbache2023: FAIL twice. BLOCKED.
 - rerknimitr2015: FAIL twice. BLOCKED.
 
+## Batch 3 staging (2026-11-27)
+
+- ravikiran2014 (PMID 24616848, Gate A item): staged FULL_TEXT from Europe PMC open-access XML (PMC3937479), 2 rows (any repigmentation 89/139 macules; grade split among the 89), validator ok, verifier PENDING. months_after_final_tx NOT_DERIVABLE (assessment timed 3 months from initiation; two monthly sittings). Tables 1-6 are images and were not read. Excerpt at /mnt/project-files/papers/excerpts/ravikiran2014.txt.
+
 ## Next session
 
 Close Module 1 (list above). Then extend the simulation: lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm, tests written before the code.

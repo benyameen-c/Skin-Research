@@ -1,0 +1,389 @@
+{
+ "study_id": "ravikiran2014",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/ravikiran2014.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ravikiran2014",
+   "doi_or_pmid": "doi:10.4103/2229-5178.126021; PMID 24616848; PMCID PMC3937479",
+   "access_level": "FULL_TEXT",
+   "diagnosis": "IGH",
+   "design": "open prospective study, single arm, uncontrolled ([no control group]; authors: 'Comparison with control and further follow up may add more information')",
+   "body_site": "shins 20%, forearms 14%, other sites in Table 2 (image, not in saved text); 'Most of the individuals had more than two sites of involvement'",
+   "skin_tone": "Fitzpatrick type IV 7 patients, type V 13 patients (Bangalore, India)",
+   "patients_enrolled": "20",
+   "patients_evaluable": "not reported directly; [20], since all 139 macules were graded at 3 months (89 repigmented + 50 no response)",
+   "lesions_enrolled": "139",
+   "lesions_evaluable": "[139] (89 repigmented + 50 no response at 3 months)",
+   "intervention": "spot peel with 88% phenol, 0.5 ml applied with a cotton-tipped applicator over the whole macule plus 1 mm of normal skin, once a month for two sittings; topical 2% mupirocin twice daily for 7 to 10 days; daily sunlight exposure of 5 min after healing",
+   "comparator": "none (no control macules, no untreated arm)",
+   "assessment_method": "investigator five-point grading G0 to G4 (G0 no pigmentation, G1 up to 25%, G2 25-50%, G3 50-75%, G4 75% or more), with pretreatment photographs; patients' subjective response also recorded; blinding and number of assessors not reported",
+   "time_from_start": "3 months ('at the end of 3 months of initiation of therapy')",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper times the assessment from initiation only ('at the end of 3 months of initiation of therapy'); [about 2 months] if the second sitting was exactly 1 month after the first ('The procedure was repeated after 1 month'), but actual session dates are not reported",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "patient_noticeability": "not reported (only 'The patient's subjective response correlated well with the investigators response'; no data given)",
+   "complete_match": "not reported (G4 is '75% or more pigmentation', not complete; Figure 1 shows one macule with 'Complete pigmentation' but no count is given)",
+   "dark_overshoot": "post-inflammatory hyperpigmentation in 11.5% of pigmented lesions ([11.5% fits 16 of 139 treated macules, not any whole number of the 89 pigmented ones]); count only in Table 6 (image, not in saved text)",
+   "texture_or_scar": "persistent scabbing for more than 15 days in 17.2% of macules (abstract: 17.26%); ulceration, secondary infection and scarring also reported, counts only in Table 6 (image, not in saved text); 'common in elderly patients'",
+   "attrition": "not reported (no losses mentioned)",
+   "verification_status": "PENDING",
+   "citation": "Ravikiran SP, Sacchidanand S, Leelavathy B. Therapeutic wounding - 88% phenol in idiopathic guttate hypomelanosis. Indian Dermatol Online J 2014;5(1):14-8",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3937479/",
+   "treatment_class": "chemical_peel",
+   "source_location": "Results, paragraph after Table 2; Abstract Results",
+   "analysis_unit": "lesion (macule)",
+   "endpoint_definition": "share of treated macules with any repigmentation at 3 months from initiation; partial repigmentation, not complete coverage",
+   "arm_result": "89/139 (64%) macules repigmented; 50/139 (35.9%) no response",
+   "outcome_tier": "partial_repigmentation",
+   "uncertainty": "Uncontrolled single-arm study; [about 7 macules per patient, 139/20,] analysed as independent. Single assessment timed 3 months from initiation; no later follow-up (authors: 'further follow up may add more information'), so nothing on durability. Methods give age 20-85 years, Results give range 23-82 years. Co-interventions: daily 5-min sunlight after healing and topical mupirocin. Tables 1-6 are images and were not read; only numbers printed in the text are recorded. Blinding and number of assessors not reported. Scabbing is 17.26% in the Abstract vs 17.2% in Results. Post-inflammatory hyperpigmentation 11.5% is said to be of 'pigmented lesions' but [fits 16/139, not n=89]. Methods list an unpaired t-test, Results use a paired t test for Table 3. How IGH was diagnosed (clinical, dermoscopy or biopsy) is not reported. Methods take 0.5 ml of phenol, Discussion says up to '1/2-1 ml in one session'. 'Repigmentation was noted in all the patients between 4 and 6 weeks', yet 50 macules had no response at 3 months (patient level vs macule level)."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ravikiran2014",
+   "doi_or_pmid": "doi:10.4103/2229-5178.126021; PMID 24616848; PMCID PMC3937479",
+   "access_level": "FULL_TEXT",
+   "diagnosis": "IGH",
+   "design": "open prospective study, single arm, uncontrolled ([no control group]; authors: 'Comparison with control and further follow up may add more information')",
+   "body_site": "shins 20%, forearms 14%, other sites in Table 2 (image, not in saved text); 'Most of the individuals had more than two sites of involvement'",
+   "skin_tone": "Fitzpatrick type IV 7 patients, type V 13 patients (Bangalore, India)",
+   "patients_enrolled": "20",
+   "patients_evaluable": "not reported directly; [20], since all 139 macules were graded at 3 months (89 repigmented + 50 no response)",
+   "lesions_enrolled": "139",
+   "lesions_evaluable": "[139] (89 repigmented + 50 no response at 3 months)",
+   "intervention": "spot peel with 88% phenol, 0.5 ml applied with a cotton-tipped applicator over the whole macule plus 1 mm of normal skin, once a month for two sittings; topical 2% mupirocin twice daily for 7 to 10 days; daily sunlight exposure of 5 min after healing",
+   "comparator": "none (no control macules, no untreated arm)",
+   "assessment_method": "investigator five-point grading G0 to G4 (G0 no pigmentation, G1 up to 25%, G2 25-50%, G3 50-75%, G4 75% or more), with pretreatment photographs; patients' subjective response also recorded; blinding and number of assessors not reported",
+   "time_from_start": "3 months ('at the end of 3 months of initiation of therapy')",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper times the assessment from initiation only ('at the end of 3 months of initiation of therapy'); [about 2 months] if the second sitting was exactly 1 month after the first ('The procedure was repeated after 1 month'), but actual session dates are not reported",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "patient_noticeability": "not reported (only 'The patient's subjective response correlated well with the investigators response'; no data given)",
+   "complete_match": "not reported (G4 is '75% or more pigmentation', not complete; Figure 1 shows one macule with 'Complete pigmentation' but no count is given)",
+   "dark_overshoot": "post-inflammatory hyperpigmentation in 11.5% of pigmented lesions ([11.5% fits 16 of 139 treated macules, not any whole number of the 89 pigmented ones]); count only in Table 6 (image, not in saved text)",
+   "texture_or_scar": "persistent scabbing for more than 15 days in 17.2% of macules (abstract: 17.26%); ulceration, secondary infection and scarring also reported, counts only in Table 6 (image, not in saved text); 'common in elderly patients'",
+   "attrition": "not reported (no losses mentioned)",
+   "verification_status": "PENDING",
+   "citation": "Ravikiran SP, Sacchidanand S, Leelavathy B. Therapeutic wounding - 88% phenol in idiopathic guttate hypomelanosis. Indian Dermatol Online J 2014;5(1):14-8",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3937479/",
+   "treatment_class": "chemical_peel",
+   "source_location": "Results, paragraph after Table 2 (Table 4 is an image); Abstract Results",
+   "analysis_unit": "lesion (macule); denominator is the 89 repigmented macules, not all 139",
+   "endpoint_definition": "grade of repigmentation among repigmented macules at 3 months from initiation; 'more than 75%' is partial repigmentation, not complete coverage",
+   "arm_result": "of 89 repigmented macules: 45% more than 75% improvement, 41.5% 50-75%, 13.4% 25-50% ([about 40, 37 and 12 of 89]; counts not in saved text)",
+   "outcome_tier": "partial_repigmentation",
+   "uncertainty": "Uncontrolled single-arm study; [about 7 macules per patient, 139/20,] analysed as independent. Single assessment timed 3 months from initiation; no later follow-up (authors: 'further follow up may add more information'), so nothing on durability. Methods give age 20-85 years, Results give range 23-82 years. Co-interventions: daily 5-min sunlight after healing and topical mupirocin. Tables 1-6 are images and were not read; only numbers printed in the text are recorded. Blinding and number of assessors not reported. Scabbing is 17.26% in the Abstract vs 17.2% in Results. Post-inflammatory hyperpigmentation 11.5% is said to be of 'pigmented lesions' but [fits 16/139, not n=89]. Methods list an unpaired t-test, Results use a paired t test for Table 3. How IGH was diagnosed (clinical, dermoscopy or biopsy) is not reported. Methods take 0.5 ml of phenol, Discussion says up to '1/2-1 ml in one session'. Denominator conflict: the Abstract says 'More than 75% improvement was seen in 45% of the total IGH macules' (n=139), Results say 45% 'of the repigmented lesion (n = 89)'. [45%, 41.5% and 13.4% of 89 are not whole numbers; 40, 37 and 12 of 89 give 44.9%, 41.6% and 13.5%.] No G1 (up to 25%) band is reported among the 89 although the grading has one. G4 is defined as '75% or more' while Results say 'more than 75%'."
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A total of 20 patients (12 females, 8 males; age group: 20-85 years) with 139 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "A total of 20 patients (12 females, 8 males; age group: 20-85 years) with 139 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Patients were assessed both subjectively and objectively after every session and at the end of 3 months of initiation of therapy.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "The procedure was repeated after 1 month.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "Post inflammatory hyperpigmentation was seen in 11.5% of pigmented lesions.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "Table 6 Side effects: n=139 (No. of lesions treated)",
+   "location": "Table 6 caption"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Other side effects were ulceration, secondary infection and scarring [Table 6].",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Side effects noted were persistent scabbing for more than 15 days in 17.2% of IGH macules.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Persistent scabbing was the common adverse effect noted in 17.26% of lesions.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "Seven patients were of Fitzpatrick type IV and remaining 13 was of Fitzpatrick type V.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "body_site",
+   "quote": "IGH macules were found to have some preferential location on shins (20%) followed by forearms (14%) compared to other sites as depicted in Table 2 (P < 0.05).",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "Eighty-eight percent phenol was applied with an ear bud once a month for two sittings.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "In a glass container, 0.5 ml of phenol was taken and applied with a cotton tipped applicator so as to cover the entire lesion. Feathering of the border was done to cover 1 mm of peripheral normal skin.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "All the patients were advised to apply topical 2% mupirocin cream, twice daily for 7 to 10 days. Patients were asked to expose daily to sunlight (for 5 min) after the lesions healed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "assessment_method",
+   "quote": "G0-No pigmentation, G1-Up to 25% pigmentation, G2-25-50% pigmentation, G3-50-75% pigmentation, and G4-75% or more pigmentation.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "Open prospective study.",
+   "location": "Abstract, Settings and Design"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "Comparison with control and further follow up may add more information about its use.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "lesions_evaluable",
+   "quote": "Of the 139 IGH macules, 89 (64%) showed repigmentation at the end of 3 months and 50 (35.9%) had no response.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "complete_match",
+   "quote": "Complete pigmentation of the IGH macule at the end of three months",
+   "location": "Figure 1 caption"
+  },
+  {
+   "row": 0,
+   "field": "patient_noticeability",
+   "quote": "The patient's subjective response correlated well with the investigators response.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "A total of 20 patients with mean age of 46.7 ± 14.14 years (range: 23-82 years) were included in this prospective study.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "precautions were taken not to exceed 1/2-1 ml in one session",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "the numeric data (continuous variables) were analyzed by using unpaired t-test",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "A total of 20 patients (12 females, 8 males; age group: 20-85 years) with 139 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "A total of 20 patients (12 females, 8 males; age group: 20-85 years) with 139 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "Patients were assessed both subjectively and objectively after every session and at the end of 3 months of initiation of therapy.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "The procedure was repeated after 1 month.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "Post inflammatory hyperpigmentation was seen in 11.5% of pigmented lesions.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "Table 6 Side effects: n=139 (No. of lesions treated)",
+   "location": "Table 6 caption"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Other side effects were ulceration, secondary infection and scarring [Table 6].",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Side effects noted were persistent scabbing for more than 15 days in 17.2% of IGH macules.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Persistent scabbing was the common adverse effect noted in 17.26% of lesions.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "Seven patients were of Fitzpatrick type IV and remaining 13 was of Fitzpatrick type V.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "body_site",
+   "quote": "IGH macules were found to have some preferential location on shins (20%) followed by forearms (14%) compared to other sites as depicted in Table 2 (P < 0.05).",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "Eighty-eight percent phenol was applied with an ear bud once a month for two sittings.",
+   "location": "Abstract, Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "In a glass container, 0.5 ml of phenol was taken and applied with a cotton tipped applicator so as to cover the entire lesion. Feathering of the border was done to cover 1 mm of peripheral normal skin.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "All the patients were advised to apply topical 2% mupirocin cream, twice daily for 7 to 10 days. Patients were asked to expose daily to sunlight (for 5 min) after the lesions healed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "assessment_method",
+   "quote": "G0-No pigmentation, G1-Up to 25% pigmentation, G2-25-50% pigmentation, G3-50-75% pigmentation, and G4-75% or more pigmentation.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "Open prospective study.",
+   "location": "Abstract, Settings and Design"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "Comparison with control and further follow up may add more information about its use.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "lesions_evaluable",
+   "quote": "Of the 139 IGH macules, 89 (64%) showed repigmentation at the end of 3 months and 50 (35.9%) had no response.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "complete_match",
+   "quote": "Complete pigmentation of the IGH macule at the end of three months",
+   "location": "Figure 1 caption"
+  },
+  {
+   "row": 1,
+   "field": "patient_noticeability",
+   "quote": "The patient's subjective response correlated well with the investigators response.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "A total of 20 patients with mean age of 46.7 ± 14.14 years (range: 23-82 years) were included in this prospective study.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "precautions were taken not to exceed 1/2-1 ml in one session",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "the numeric data (continuous variables) were analyzed by using unpaired t-test",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Of the 139 IGH macules, 89 (64%) showed repigmentation at the end of 3 months and 50 (35.9%) had no response.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Repigmentation was noted in all the patients between 4 and 6 weeks.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Forty-five percent of the repigmented lesion (n = 89) showed more than 75% improvement, 41.5% showed 50-75% improvement, and 13.4% of lesions showed 25-50% response [Table 4].",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "More than 75% improvement was seen in 45% of the total IGH macules, while 41.5% showed 50-75% improvement at the end of three months.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "More than 75% improvement was seen in 45% of the total IGH macules, while 41.5% showed 50-75% improvement at the end of three months.",
+   "location": "Abstract, Results"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
