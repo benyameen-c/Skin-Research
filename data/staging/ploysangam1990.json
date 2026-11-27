@@ -1,0 +1,144 @@
+{
+ "study_id": "ploysangam1990",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/ploysangam1990.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ploysangam1990",
+   "doi_or_pmid": "PMID 2229495; doi:10.1016/0190-9622(90)70273-k",
+   "source_location": "PubMed abstract",
+   "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; jaad.org fulltext and PDF pages returned HTTP 403, 2026-11-27)",
+   "diagnosis": "IGH (idiopathic guttate hypomelanosis)",
+   "design": "not in abstract [uncontrolled treatment series with light and electron microscopy; untreated lesions and normal skin used only as histological comparison]",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [study from a Bangkok, Thailand clinic; skin type not stated]",
+   "patients_enrolled": "not in abstract",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "liquid nitrogen [cryotherapy]: lesions 'gently frozen'; freezing time, method and number of sessions not in abstract",
+   "time_from_last_treatment": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING",
+   "citation": "Ploysangam T, Dee-Ananlap S, Suvanprakorn P. Treatment of idiopathic guttate hypomelanosis with liquid nitrogen: light and electron microscopic studies. J Am Acad Dermatol 1990;23(4 Pt 1):681-684",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/2229495/",
+   "treatment_class": "cryotherapy",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "analysis_unit": "lesion [the abstract's statement is about lesions; no count given]",
+   "comparator": "not in abstract [no clinical control arm described]",
+   "endpoint_definition": "repigmentation of frozen lesions (degree and criteria not in abstract)",
+   "assessment_method": "not in abstract [clinical observation implied]",
+   "time_from_start": "repigmented in 6 to 8 weeks [counted from freezing; whether from the first or only session not in abstract]",
+   "arm_result": "frozen lesions repigmented in 6 to 8 weeks; proportion of lesions that repigmented, degree of repigmentation and colour match with surrounding skin not in abstract",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Abstract only; full text subscription only (paywall list). Patient, lesion and sample counts not in abstract; statistical test and p-values not in abstract; follow-up after repigmentation not in abstract. Number of freezing sessions not in abstract, so the 6 to 8 weeks cannot be placed relative to the final treatment and months after final treatment is NOT_DERIVABLE. [Two authors (Dee-Ananlap S, Suvanprakorn P) also wrote suvanprakorn1985, a different intervention (grafting); any shared cohort not in abstract.] 'Lesions gently frozen with liquid nitrogen repigmented' does not say whether all or some lesions repigmented, nor whether repigmentation was partial or complete; [so it is recorded as unquantified, not as complete area coverage or colour match]. Repigmented areas held fewer dopa-positive melanocytes than normal skin (histology row), which [may bear on colour match and durability] but the abstract does not say so. Adverse effects not in abstract."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ploysangam1990",
+   "doi_or_pmid": "PMID 2229495; doi:10.1016/0190-9622(90)70273-k",
+   "source_location": "PubMed abstract",
+   "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; jaad.org fulltext and PDF pages returned HTTP 403, 2026-11-27)",
+   "diagnosis": "IGH (idiopathic guttate hypomelanosis)",
+   "design": "not in abstract [uncontrolled treatment series with light and electron microscopy; untreated lesions and normal skin used only as histological comparison]",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [study from a Bangkok, Thailand clinic; skin type not stated]",
+   "patients_enrolled": "not in abstract",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "liquid nitrogen [cryotherapy]: lesions 'gently frozen'; freezing time, method and number of sessions not in abstract",
+   "time_from_last_treatment": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING",
+   "citation": "Ploysangam T, Dee-Ananlap S, Suvanprakorn P. Treatment of idiopathic guttate hypomelanosis with liquid nitrogen: light and electron microscopic studies. J Am Acad Dermatol 1990;23(4 Pt 1):681-684",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/2229495/",
+   "treatment_class": "cryotherapy",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "analysis_unit": "lesion [counts compare repigmented areas, untreated lesions and normal skin; sample and patient counts not in abstract]",
+   "comparator": "untreated lesions and normal skin [histological comparison]",
+   "endpoint_definition": "number of dopa-positive melanocytes in repigmented areas [by light microscopy, per the title]",
+   "assessment_method": "dopa-positive melanocyte counts [light microscopy, per the title]; electron microscopy of lesional melanocytes; [tissue sampling method, e.g. biopsy,] not in abstract",
+   "time_from_start": "not in abstract [timing of the melanocyte counts after freezing]",
+   "arm_result": "dopa-positive melanocytes significantly greater in repigmented areas than in untreated lesions but less than in normal skin; counts, test and p-value not in abstract",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Abstract only; full text subscription only (paywall list). Patient, lesion and sample counts not in abstract; statistical test and p-values not in abstract; follow-up after repigmentation not in abstract. Number of freezing sessions not in abstract, so the 6 to 8 weeks cannot be placed relative to the final treatment and months after final treatment is NOT_DERIVABLE. [Two authors (Dee-Ananlap S, Suvanprakorn P) also wrote suvanprakorn1985, a different intervention (grafting); any shared cohort not in abstract.] 'Significantly' is stated without counts, test or p-value. Whether untreated lesions came from the same patients is not in abstract. The finding (fewer dopa-positive melanocytes in IGH macules than normal skin; round, less dendritic melanocytes with fewer melanosomes on electron microscopy) [describes untreated lesional skin, not a treatment outcome]. Repigmented areas remained below normal skin melanocyte numbers."
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Lesions gently frozen with liquid nitrogen repigmented in 6 to 8 weeks.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "Lesions gently frozen with liquid nitrogen repigmented in 6 to 8 weeks.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "Lesions gently frozen with liquid nitrogen repigmented in 6 to 8 weeks.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "Lions Suphannahong Dermatology Clinic, Chulalongkorn Hospital, Bangkok, Thailand.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "The number of dopa-positive melanocytes was significantly greater in the repigmented areas than in untreated lesions but less than in normal skin.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "comparator",
+   "quote": "The number of dopa-positive melanocytes was significantly greater in the repigmented areas than in untreated lesions but less than in normal skin.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "assessment_method",
+   "quote": "By electron microscopy we observed that the melanocytes in the lesional skin were round and less dendritic with fewer melanosomes than in normal pigment cells.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Our studies have shown that significantly fewer dopa-positive melanocytes are in the white macules of idiopathic guttate hypomelanosis than in normal skin.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "diagnosis",
+   "quote": "Treatment of idiopathic guttate hypomelanosis with liquid nitrogen: light and electron microscopic studies.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "endpoint_definition",
+   "quote": "Treatment of idiopathic guttate hypomelanosis with liquid nitrogen: light and electron microscopic studies.",
+   "location": "Title"
+  }
+ ],
+ "verifier": {
+  "status": "PASS",
+  "date": "2026-11-27",
+  "notes": "Second verifier (2026-11-27) PASS, attempt 2 of 2, 0 failed cells. All 10 quotes appear verbatim in the saved abstract and support their cells for the right row. The three cells failed on attempt 1 are fixed: row 1 assessment_method brackets the sampling method and says it is not in abstract; rows 0 and 1 uncertainty now read 'follow-up after repigmentation not in abstract'. months_after_final_tx NOT_DERIVABLE with the reason given (number of freezing sessions not in abstract); time_from_last_treatment 'not in abstract'; analysis_unit lesion with no count; outcome_tier 'unquantified' is the weakest reading for both rows; overshoot, scar, attrition and adverse effects marked 'not in abstract'; inferences are bracketed. Non-failing remark: the quotes for row 0 diagnosis (title) and row 0 skin_tone (author affiliation) are labelled location 'Abstract'; the text is verbatim. Previous verifier note: Previous verifier (2026-11-27) FAIL, attempt 1 of 2, 3 cells: row 1, assessment_method: the abstract never says 'biopsy'; it reports dopa-positive melanocyte counts and light and electron microscopy only. Sampling method is an unbracketed inference (bracket it or write 'not in abstract'). row 0, uncertainty: 'no follow-up beyond the repigmentation time' states as fact something the abstract is silent on; the abstract gives no follow-up after repigmentation, so it should read 'follow-up after repigmentation not in abstract'. row 1, uncertainty: same 'no follow-up beyond the repigmentation time' wording; should be 'not in abstract'. All quotes match the source verbatim and support their cells; months NOT_DERIVABLE, analysis_unit, outcome_tier 'unquantified', and 'not in abstract' for overshoot, scar and attrition are correct. Corrected 2026-11-27 by extractor; all rows rechecked."
+ }
+}

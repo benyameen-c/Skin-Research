@@ -90,7 +90,7 @@ PMID 34084020,Idiopathic Guttate Hypomelanosis Treated with 308-nm Excimer Light
 PMID 34235719,Dermoscopy of acquired pigmentary disorders: a comprehensive review,Int J Dermatol 2022,pubmed_tool_q4,excluded,dermoscopy review
 PMID 34304679,Idiopathic guttate hypomelanosis: Presentation and Management,J Cosmet Laser Ther 2021,pubmed_tool_q4,excluded,narrative review
 PMID 34409340,Treatment of idiopathic guttate hypomelanosis with 5-fluorouracil tattooing using a handheld needle,JAAD Int 2020,pubmed_tool_q4,included,IGH treatment report (5-FU tattooing with handheld needle); no abstract; full text needed
-PMID 34409366,Treatment of idiopathic guttate hypomelanosis with a tattoo device versus a handheld needle,JAAD Int 2021,pubmed_tool_q4,included,IGH treatment comparison (tattoo device vs handheld needle); no abstract; full text needed
+PMID 34409366,Treatment of idiopathic guttate hypomelanosis with a tattoo device versus a handheld needle,JAAD Int 2021,pubmed_tool_q4,excluded,letter with no IGH patients and no clinical outcome (full text read 2026-11-27; ex vivo black-ink histology only)
 PMID 35114009,"Unveiling idiopathic guttate hypomelanosis: pathology, immunohistochemistry, and ultrastructural study",Int J Dermatol 2022,pubmed_tool_q4,lead: mechanism,paired lesional and normal biopsies; already in datasets.csv; no intervention
 PMID 3612507,Idiopathic guttate hypomelanosis,J Am Podiatr Med Assoc 1987,pubmed_tool_q4,excluded,case report; no abstract
 PMID 36394380,Melanocytes in idiopathic guttate hypomelanosis disappear and are senescent,J Eur Acad Dermatol Venereol 2023,pubmed_tool_q4,lead: mechanism,melanocyte loss and senescence; letter with no abstract; already cited on site
