@@ -173,7 +173,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "FAIL",
+    "notes": "row 0, time_from_last_treatment: source gives time from baseline only ('at baseline and then monthly until 4 months'; 'At the fourth month') and never says when the single session was given, so CLAUDE.md rule 2 requires NOT_DERIVABLE, not an assumed [4 months]; row 0, months_after_final_tx: '4' is unbracketed and not derivable from the source for the same reason; should be NOT_DERIVABLE; row 2, time_from_last_treatment: same as row 0; source counts from baseline only; row 2, months_after_final_tx: same as row 0; '4' not derivable; row 2, endpoint_definition: source does not state that lower luminosity means less white; it says only 'Mean luminosity scale gradually decreased from baseline' and treated scores were 'significantly lower'. The direction is an inference and must be in [square brackets] (rule 9)"
   }
 }
