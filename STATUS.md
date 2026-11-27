@@ -77,6 +77,10 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - arbache2023: FAIL twice. BLOCKED.
 - rerknimitr2015: FAIL twice. BLOCKED.
 
+## Verification log (batch 3, 2026-11-27)
+
+- 2026-11-27, rajegowda2021 (ABSTRACT_ONLY, staging record from claude/project-thread-eal8ua a5c17a6): verifier **FAIL, attempt 1 of 2**, 2 cells (rows 0 and 1 `uncertainty` say the grading scale overlaps; the source scale has gaps but no overlap). All numbers and quotes check out. Needs a correction pass, then a fresh verifier. Not merged.
+
 ## Next session
 
 Close Module 1 (list above). Then extend the simulation: lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm, tests written before the code.

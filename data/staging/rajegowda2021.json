@@ -215,7 +215,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Verifier 1, 2026-11-27, source papers/excerpts/rajegowda2021.txt (ABSTRACT_ONLY). 2 failed cells (rows counted from 0, as in quotes). row 0, uncertainty: says the grading scale 'has gaps and overlaps'; the source scale is '<25% - no response (Grade-1), 26%–50% - minimal (Grade-2), 51%–75% - good (Grade-3), and >75% - excellent response (Grade-4)', which leaves gaps (25%, and between 50% and 51%) but no overlap. row 1, uncertainty: same 'gaps and overlaps' claim; the source scale has no overlapping grades. All other cells checked and supported: counts 30/25/125, 75 (60%), 20 (16%), 37 (29.6%), 29 (23.2%), bracketed remainders [30/125 (24%)] and [59/125 (47.2%)] are correct arithmetic; time_from_last_treatment and months_after_final_tx NOT_DERIVABLE is right (results only 'At the end of the treatment period'); analysis_unit lesion; outcome_tier partial_repigmentation; side effects recorded qualitatively; missing items marked 'not in abstract'."
  }
 }
