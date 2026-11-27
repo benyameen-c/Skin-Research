@@ -281,7 +281,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "row 0, uncertainty: the source says saline-treated limbs also improved significantly (baseline 31, IQR 24-43 to post-treatment 21, IQR 16-31, p = .000006); this weakens the 5FU arm result and is missing from row 0's uncertainty (it appears only in row 1). Also 'Same registered trial as arbache2018 (preliminary report)': the saved source text never mentions arbache2018 or a preliminary report; no quote supports it. | row 1, uncertainty: 'Same registered trial as arbache2018 (preliminary report)': the saved source text never mentions arbache2018 or a preliminary report; no quote supports it. | Checked and consistent with source: all 36 quotes, arm results, p values, 29 patients (28 women), 30-day timing marked unconfirmed as from final session, analysis_unit limb, outcome_tier lesion_count, adverse events marked not in abstract, registry masking/enrollment discrepancies. Verified 2026-11-27 from papers/excerpts/arbache2023.txt alone."
  }
 }

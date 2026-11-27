@@ -43,7 +43,7 @@ Last updated: 2026-11-27, end of session 1.
 
 ## Staging (batch 2)
 
-- arbache2023: `data/staging/arbache2023.json`, ABSTRACT_ONLY (PubMed abstract + NCT02904564 protocol record, no posted results), 2 rows, validator ok, verifier PENDING. Source text at `papers/excerpts/arbache2023.txt` and `/mnt/project-files/papers/excerpts/arbache2023.txt`.
+- arbache2023: `data/staging/arbache2023.json`, ABSTRACT_ONLY (PubMed abstract + NCT02904564 protocol record, no posted results), 2 rows, validator ok, verifier FAIL (1st, 2026-11-27): 2 cells, both `uncertainty`; see the record's verifier notes. Back to extractor once. Source text at `papers/excerpts/arbache2023.txt` and `/mnt/project-files/papers/excerpts/arbache2023.txt`.
 
 ## Blocked
 
