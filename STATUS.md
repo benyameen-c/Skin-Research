@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
+Last updated: 2026-11-27, drift simulation implemented (after post-batch corrections; PRs 1 and 2 merged into main).
 
 ## Open module
 
@@ -43,9 +43,11 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 | suvanprakorn1985 | J Am Acad Dermatol 1985, doi:10.1016/s0190-9622(85)70247-2 (Europe PMC: subscription required, not in PMC) | patient and lesion counts, IGH-specific result, follow-up after grafting |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
-## Simulation extension (tests written 2026-11-27, code not started)
+## Simulation extension (tests 2026-11-27; code 2026-11-27, PR open, not merged)
 
-- `experiments/tests/test_drift_sim.py`: 35 tests for `experiments/drift_sim.py` (lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm). The contract is in the file's docstring. All 35 currently fail with `No module named 'drift_sim'`, as they should.
+- `experiments/tests/test_drift_sim.py`: 35 tests for `experiments/drift_sim.py` (lighting and white-balance drift, brown spot on mottled background, 2 to 8 mm). The contract is in the file's docstring. `experiments/drift_sim.py` written 2026-11-27: all 35 pass, tests unedited (`git diff --exit-code 42fc125 -- experiments/tests` clean). `tests/` still 6 passed.
+- Results: `data/drift_sim_results.csv` (720 rows, 100 trials each, seed 20261127, 20 px/mm, about 12 minutes). Section 4 added to `content/experiments.md` with line references into the CSV. Site not rebuilt (Gate B).
+- Builder's defaults: diameters 2, 3, 4, 5, 6, 8 mm; mottle SD 5 %, correlation length 1 mm (Gaussian-spectrum random Fourier texture, scaled to mean 1 and SD 5 % over the unshifted field); noise SD 0.01 linear RGB; blur 0.1 mm in `run()`; drifts: exposure x0.8, x1.25, white balance warmer (1.10, 1, 0.85) and cooler (0.90, 1, 1.15). CSV reports channel L only.
 - The builder may not edit the tests: `git diff --exit-code <tests commit> -- experiments/tests` must stay clean.
 - Run with `python3 -m pytest experiments/tests -q` (the command in CLAUDE.md covers `tests/` only).
 - Assumptions Ben may want to change: lighting drift is a uniform exposure gain only (no gradient across the field); the correction tested is ring-based per-channel normalisation; measurement is per-pixel CIELAB D65, then averaged; the experiment simulates an unchanged spot only, so every error is a false change; mottle is a multiplicative luminance texture (SD and correlation length set by the builder's defaults).
@@ -84,4 +86,4 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 
 ## Next session
 
-Close Module 1 (list above). Then build `experiments/drift_sim.py` to pass `experiments/tests/test_drift_sim.py` without editing the tests.
+Close Module 1 (list above). Drift simulation PR ("Drift simulation: tests and implementation") awaits Ben's review; possible follow-up: report the b* (yellowness) channel, where white-balance drift matters more.

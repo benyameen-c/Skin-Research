@@ -49,3 +49,26 @@ The advantage of cryotherapy over 50% TCA is clear only if spots within a person
 Two percentages do not correspond to a whole number of the stated lesions or patients. Either some were not evaluable or the unit rated was different. Both are questions for the full text.
 
 {{reproduce_calc}}
+
+### 4. Do lighting and white-balance changes fake a change in colour?
+
+<p><span class="tag sim">Simulation</span> Synthetic disks on synthetic skin texture. No patient images. This tests the measuring method only; it says nothing about any treatment.</p>
+
+The same spot is "photographed" twice. Between the two captures nothing about the spot changes, so the true change is 0% in every case and any change the method reports is false. The second capture can differ in four ways: the outline is misplaced (0, 0.25 or 0.5 mm), the exposure changes (20% darker or 25% brighter), the white balance changes (warmer or cooler), or both. Spots are 2, 3, 4, 5, 6 and 8 mm, either a white spot (like IGH) or a brown spot (like a sun spot), on even skin or on mottled skin (brightness varying by 5% in patches about 1 mm across). Each cell is 100 simulated pairs at 20 pixels per mm, with noise and a 0.1 mm blur. Colour is measured in CIELAB, pixel by pixel, as the spot's lightness minus the lightness of a ring of skin around it.
+
+Assumptions: lighting change is the same over the whole picture (no gradient, no shadow, no glare). The only correction tested divides each colour channel by its average in the ring around the spot. The spot never changes.
+
+What the simulation shows (row numbers are lines of `data/drift_sim_results.csv`):
+
+- **A 20% darker exposure, uncorrected, reads as about 7% fading** of a spot that did not change, at every size (2 mm white spot: line 4, −7.16%; 8 mm: line 154, −7.15%). A 25% brighter exposure reads as about 7.7% more contrast (line 6, +7.74%).
+- **The white-balance shifts tested move the lightness result by less than half a point** (lines 8, 370, 520: −0.23, +0.44, −0.40%). They matter more for the yellowness channel, which this table does not report.
+- **Dividing by the skin ring removes lighting and colour drift** to within the noise: the 2 mm white spot under a 20% darker exposure reads 0.16 points mean error with the correction (line 5), against 0.13 with no drift at all (line 2).
+- **The correction does nothing for a misplaced outline.** 0.25 mm on a 2 mm spot still reads about 10% fading with or without it (lines 12 and 13, −9.90%); on an 8 mm spot about 2.3% (line 162). When both happen, the errors add: −16.0% uncorrected and −9.5% corrected on a mottled 2 mm spot (lines 194 and 195).
+- **Mottled skin makes misplacement errors unpredictable.** At 0.5 mm on a 2 mm white spot, the average false fading is similar (26.0% even, 25.3% mottled), but the spread between captures rises from 0.2 to 4.4 points (lines 22 and 202).
+
+Limits: flat skin, one spot, uniform lighting, no hair, no curvature, a ring of clean skin around the spot. Real photographs will be worse.
+
+```
+python3 experiments/drift_sim.py --out data      # about 12 minutes
+python3 -m pytest experiments/tests -q           # 35 tests, written before the code
+```
