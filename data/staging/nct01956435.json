@@ -12,7 +12,7 @@
    "diagnosis": "IGH",
    "design": "randomized split-body (leg allocated), single-masked (outcomes assessor), pilot; untreated opposite leg as internal control",
    "body_site": "lower legs",
-   "skin_tone": "not reported (Fitzpatrick types not given; race 5 White, 1 Black or African American)",
+   "skin_tone": "not reported (Fitzpatrick types not given beyond 'minimal variation in Fitzpatrick skin type'; race 5 White, 1 Black or African American)",
    "patients_enrolled": "6",
    "patients_evaluable": "6 (all completed)",
    "lesions_enrolled": "5 marked per leg (protocol plan); total not reported",
@@ -47,7 +47,7 @@
    "diagnosis": "IGH",
    "design": "randomized split-body (leg allocated), single-masked (outcomes assessor), pilot; untreated opposite leg as internal control",
    "body_site": "lower legs",
-   "skin_tone": "not reported (Fitzpatrick types not given; race 5 White, 1 Black or African American)",
+   "skin_tone": "not reported (Fitzpatrick types not given beyond 'minimal variation in Fitzpatrick skin type'; race 5 White, 1 Black or African American)",
    "patients_enrolled": "6",
    "patients_evaluable": "6 (all completed)",
    "lesions_enrolled": "5 marked per leg (protocol plan); total not reported",
@@ -58,20 +58,20 @@
    "endpoint_definition": "blinded observer improvement from baseline on photographs, posted scale -1 worsening, 0 no improvement, 1 mild (<50%), 2 moderate, 3 full re-pigmentation on >75% IGH; mean per group",
    "assessment_method": "photographic comparison by blinded observer (protocol: two blinded dermatologists)",
    "time_from_start": "12 weeks",
-   "time_from_last_treatment": "[about 0: final photographs and surveys at the 25th visit, which had no treatment; interval after the last treatment not stated]",
+   "time_from_last_treatment": "not applicable (untreated control lesions; graded at the same end-of-study visit as the treated leg)",
    "arm_result": "mean 1.15 (95% CI 0.92 to 1.39) on the posted -1 to 3 scale, i.e. about mild improvement",
    "patient_noticeability": "not measured (no self-assessment posted for control lesions)",
    "complete_match": "not reported (mean scale score only)",
    "dark_overshoot": "not reported (scale has no darkening-beyond-surround category; no adverse events posted)",
    "texture_or_scar": "no adverse events posted (other adverse events 0 of 6 in each group)",
    "attrition": "none (6 started, 6 completed)",
-   "uncertainty": "Posted scale (-1 to 3) differs from the protocol scale (1 to 5, same five categories shifted by 2); values read on the posted scale. Groups are described as lesions but the denominator is 6 participants; non-integer means with narrow 95% CI suggest lesion-level averaging, so the true n and any clustering adjustment are unknown. Untreated control lesions improved (mean about mild improvement, CI excludes 0), unexpected for IGH; season, sun exposure or grading drift could explain it. Same cohort as gordon2017 (journal article, paywalled): reconcile before merge so the six patients are not counted twice. Only assessment is at the end of the 12-week course; registry lists 'lack of extended follow-up' as a limitation, so nothing here bears on a six-month match. Planned 10 subjects, 6 enrolled, all female. Protocol says grades every 4 weeks (weeks 4, 8, 12) but only one time point is posted. Gap between the last treatment and the final (25th, no-treatment) visit is not stated; months_after_final_tx 0 is inferred.",
+   "uncertainty": "Posted scale (-1 to 3) differs from the protocol scale (1 to 5, same five categories shifted by 2); values read on the posted scale. Groups are described as lesions but the denominator is 6 participants; non-integer means with narrow 95% CI suggest lesion-level averaging, so the true n and any clustering adjustment are unknown. Untreated control lesions improved (mean about mild improvement, CI excludes 0), unexpected for IGH; season, sun exposure or grading drift could explain it. Same cohort as gordon2017 (journal article, paywalled): reconcile before merge so the six patients are not counted twice. Only assessment is at the end of the 12-week course; registry lists 'lack of extended follow-up' as a limitation, so nothing here bears on a six-month match. Planned 10 subjects, 6 enrolled, all female. Protocol says grades every 4 weeks (weeks 4, 8, 12) but only one time point is posted. This arm was never treated, so time after final treatment does not apply; it was graded at the end-of-study visit, when the opposite leg's 12-week course ended.",
    "verification_status": "extracted from registry API v2 2026-11-27; verifier pending",
    "outcome_tier": "partial_repigmentation",
    "citation": "ClinicalTrials.gov NCT01956435. Excimer Light Treatment for Idiopathic Guttate Hypomelanosis: A Pilot Study. Seton Healthcare Family. Results first posted 2017-10-18",
    "source_url": "https://clinicaltrials.gov/study/NCT01956435",
-   "treatment_class": "energy_device",
-   "months_after_final_tx": "0"
+   "treatment_class": "control",
+   "months_after_final_tx": "NOT_APPLICABLE"
   },
   {
    "module": "1-hypopigmentation",
@@ -82,14 +82,14 @@
    "diagnosis": "IGH",
    "design": "randomized split-body (leg allocated), single-masked (outcomes assessor), pilot; untreated opposite leg as internal control",
    "body_site": "lower legs",
-   "skin_tone": "not reported (Fitzpatrick types not given; race 5 White, 1 Black or African American)",
+   "skin_tone": "not reported (Fitzpatrick types not given beyond 'minimal variation in Fitzpatrick skin type'; race 5 White, 1 Black or African American)",
    "patients_enrolled": "6",
    "patients_evaluable": "6 (all completed)",
    "lesions_enrolled": "5 marked per leg (protocol plan); total not reported",
    "lesions_evaluable": "not reported",
-   "analysis_unit": "patient as posted (denominator 6 participants per group); how the marked lesions were combined per patient is not reported",
+   "analysis_unit": "patient as posted (denominator 6 participants, one group); how each participant's treated lesions were combined into one rating is not reported",
    "intervention": "XTRAC excimer laser 308 nm, twice weekly for 12 weeks, standard vitiligo protocol",
-   "comparator": "untreated marked lesions on the opposite leg",
+   "comparator": "none (self-rating of treated lesions only; no rating of control lesions posted)",
    "endpoint_definition": "subject self-reported re-pigmentation of treated lesions vs baseline, scale described as 1 worsening, 2 no improvement, 3 mild, 4 moderate (more than half but not more than 75%)",
    "assessment_method": "participant self-assessment survey",
    "time_from_start": "12 weeks",
@@ -217,18 +217,6 @@
    "field": "time_from_start",
    "quote": "Time frame: 12 weeks",
    "location": "Results, Outcome measure 1"
-  },
-  {
-   "row": 1,
-   "field": "time_from_last_treatment",
-   "quote": "The 25th visit will consist of final photographs and surveys, and will not include treatment.",
-   "location": "Detailed description"
-  },
-  {
-   "row": 1,
-   "field": "intervention",
-   "quote": "Treatments with the Xtrac Excimer laser (wavelength of 308nm) will be performed twice weekly for 12 weeks using the typical vitiligo protocol",
-   "location": "Detailed description"
   },
   {
    "row": 2,
@@ -361,10 +349,64 @@
    "field": "analysis_unit",
    "quote": "Overall number analysed (Participants): All Patients 6",
    "location": "Results, Outcome measure 2"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "Limitations included a small sample size with minimal variation in Fitzpatrick skin type",
+   "location": "Results, Limitations and caveats"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "Limitations included a small sample size with minimal variation in Fitzpatrick skin type",
+   "location": "Results, Limitations and caveats"
+  },
+  {
+   "row": 2,
+   "field": "skin_tone",
+   "quote": "Limitations included a small sample size with minimal variation in Fitzpatrick skin type",
+   "location": "Results, Limitations and caveats"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "Overall Study, STARTED: FG000 3; FG001 3",
+   "location": "Results, Participant flow"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "Overall number analysed (Participants): Excimer Light Treatment 6; Control 6",
+   "location": "Results, Outcome measure 1"
+  },
+  {
+   "row": 1,
+   "field": "attrition",
+   "quote": "Overall Study, STARTED: FG000 3; FG001 3",
+   "location": "Results, Participant flow"
+  },
+  {
+   "row": 1,
+   "field": "patients_evaluable",
+   "quote": "Overall number analysed (Participants): Excimer Light Treatment 6; Control 6",
+   "location": "Results, Outcome measure 1"
+  },
+  {
+   "row": 2,
+   "field": "attrition",
+   "quote": "Overall Study, STARTED: FG000 3; FG001 3",
+   "location": "Results, Participant flow"
+  },
+  {
+   "row": 2,
+   "field": "patients_evaluable",
+   "quote": "Overall number analysed (Participants): All Patients 6",
+   "location": "Results, Outcome measure 2"
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "Rows numbered from 1 (row 2 = quotes index 1, row 3 = quotes index 2). row 2, treatment_class: source says 'Group OG001: Control. Lesions not treated with excimer light'; this arm received no treatment, but the cell says energy_device. row 2, time_from_last_treatment: the control lesions were never treated ('Lesions not treated with excimer light'), so time from final treatment does not apply to this arm; the cell gives [about 0] from the treated leg's schedule. row 2, months_after_final_tx: same reason; the cell says 0 for an untreated arm. row 3, comparator: Outcome measure 2 has one group ('Group OG000: All Patients') and rates 'Re-pigmentation for Treated Lesions' 'by improvement from baseline'; no control-leg rating is posted, so this endpoint has no opposite-leg comparator. All 42 quotes were found verbatim and say what their cells claim; rows 1 and 3 otherwise check out."
+  "status": "PENDING",
+  "notes": ""
  }
 }

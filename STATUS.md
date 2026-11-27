@@ -18,7 +18,7 @@ Last updated: 2026-11-27 (NCT01956435 registry extraction staged).
 
 - [ ] Re-extract the 9 extracted studies as staging records with verbatim quotes (`tools/ledger.py check` lists them).
 - [ ] Read the free full text of laosakul2017 and resolve the 82.3% denominator and the patient count.
-- [ ] Extract the registry-posted results of NCT01956435. Staged 2026-11-27: `data/staging/nct01956435.json`, 3 rows, access FULL_TEXT (registry API v2), validator ok, verifier PENDING. Source text: `papers/excerpts/nct01956435.txt` (copy and raw API JSON in the project's shared `papers/excerpts/`). Same cohort as gordon2017: reconcile before merge. Posted self-report mean 4.5 exceeds its stated 1 to 4 scale.
+- [ ] Extract the registry-posted results of NCT01956435. Staged 2026-11-27: `data/staging/nct01956435.json`, 3 rows, access FULL_TEXT (registry API v2), validator ok, verifier FAIL once then re-extracted, now PENDING. Source text: `papers/excerpts/nct01956435.txt` (copy and raw API JSON in the project's shared `papers/excerpts/`). Same cohort as gordon2017: reconcile before merge. Posted self-report mean 4.5 exceeds its stated 1 to 4 scale.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
 - [ ] First real run of `tools/pubmed.py` (never executed).
@@ -48,6 +48,7 @@ Nothing yet.
 ## Verification log
 
 - 2026-11-27, nct01956435 (staging record from claude/project-thread-1wkpky): verifier **FAIL, attempt 1 of 2**, 4 cells (row 2 control arm: treatment_class, time_from_last_treatment, months_after_final_tx; row 3: comparator). Details in the record's `verifier.notes`. Needs a re-extraction pass, then a fresh verifier. Not merged.
+- 2026-11-27, nct01956435: re-extracted after FAIL 1. Control row now treatment_class `control`, time from last treatment `not applicable`, months `NOT_APPLICABLE`; self-report row comparator `none`. Also added quotes for evaluable and attrition counts, Fitzpatrick limitation in skin_tone. Validator ok, verifier PENDING. A second FAIL makes it BLOCKED.
 
 ## Next session
 
