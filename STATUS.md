@@ -29,7 +29,7 @@ Last updated: 2026-11-27, end of session 1.
 |---|---|---|
 | review2025 | Aravindakshan et al., Clin Exp Dermatol 2025, doi:10.1093/ced/llaf134 | list of the 20 included studies, for citation tracking |
 | laosakul2017 | J Dermatolog Treat 2017, doi:10.1080/09546634.2016.1221498 (PubMed says free) | denominators; longest follow-up found |
-| arbache2023 | Dermatol Surg 2023, doi:10.1097/DSS.0000000000003793 | sessions, assessor, any later visit |
+| arbache2023 | Dermatol Surg 2023, doi:10.1097/DSS.0000000000003793 (Europe PMC: subscription required; journals.lww.com and doi.org HTTP 403, 2026-11-27) | sessions, assessor, any later visit; confirms whether 30 days is from the final session |
 | rerknimitr2015 | J Eur Acad Dermatol Venereol 2015, doi:10.1111/jdv.12763 | counts behind 83.34% and 18.34% |
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x | the 11% denominator |
 | gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract |
@@ -40,6 +40,10 @@ Last updated: 2026-11-27, end of session 1.
 
 - **Gate A (after any search):** Ben reviews the screening list and supplies PDFs before extraction starts.
 - **Gate B (before anything is public):** Ben reviews the ledger diff, sets the contact route in `site.json`, approves launch and any email.
+
+## Staging (batch 2)
+
+- arbache2023: `data/staging/arbache2023.json`, ABSTRACT_ONLY (PubMed abstract + NCT02904564 protocol record, no posted results), 2 rows, validator ok, verifier PENDING. Source text at `papers/excerpts/arbache2023.txt` and `/mnt/project-files/papers/excerpts/arbache2023.txt`.
 
 ## Blocked
 
