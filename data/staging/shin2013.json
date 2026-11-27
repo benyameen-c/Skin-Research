@@ -19,18 +19,18 @@
    "lesions_evaluable": "not in abstract",
    "analysis_unit": "patient (improvement counted as number of patients; how lesions within a patient were combined is not in abstract)",
    "intervention": "10,600-nm carbon dioxide fractional laser (CO2 FL), a single treatment session; laser settings not in abstract",
-   "comparator": "none (comparison with baseline only)",
+   "comparator": "none [comparison with baseline only; the abstract describes no control arm]",
    "endpoint_definition": "more than 50% improvement compared with baseline [read as improvement of the hypopigmented lesions; grading scale and what counted as improvement not in abstract]",
    "assessment_method": "physicians' clinical assessment by two independent dermatologists (blinding and how the two ratings were combined not in abstract); patients' overall satisfaction",
    "time_from_start": "Two months after a single treatment [start and final treatment are the same single session]",
    "time_from_last_treatment": "Two months after the single (final) treatment [2 months]",
    "arm_result": "more than 50% improvement compared with baseline in 36 patients (90%) at two months after the single treatment",
-   "patient_noticeability": "not in abstract (spot noticeability not reported); overall satisfaction: 33 patients (82.5%) very satisfied or satisfied with one session [denominator 40 inferred from 33/40 = 82.5%]",
+   "patient_noticeability": "not in abstract (spot noticeability not in abstract); overall satisfaction: 33 patients (82.5%) very satisfied or satisfied with one session [denominator 40 inferred from 33/40 = 82.5%]",
    "complete_match": "not in abstract",
    "dark_overshoot": "postinflammatory hyperpigmentation in 'a few patients' (number not in abstract); resolved spontaneously within 2 months after the assessments",
    "texture_or_scar": "not in abstract for scarring or texture; long-standing erythema in 'a few patients' (number not in abstract), resolved spontaneously within 2 months after the assessments; 'No other noticeable side effects were observed'",
    "attrition": "not in abstract",
-   "uncertainty": "Abstract only. 'More than 50% improvement' is partial repigmentation, not complete coverage or colour match; the grading scale is not given. Only one efficacy time point, 2 months after the single treatment, far short of six months; no later efficacy visit is reported, although side effects were followed for up to 2 months after the assessments [about 4 months after treatment]. No control arm, so spontaneous change cannot be excluded. Mostly facial lesions, while the authors note the extremities are the most frequently affected areas in IGH, so the sample may not represent typical IGH. Gender ratio printed as '7 : 33' without saying which sex is which. Mean age 57.5 ± 10.9 years. Lesion counts, lesion size, laser settings and Fitzpatrick types not in abstract. Patient-level result; how per-lesion outcomes were combined into a patient score is not stated. Denominators for 90% and 82.5% are not printed [both fit 40].",
+   "uncertainty": "Abstract only. 'More than 50% improvement' is partial repigmentation, not complete coverage or colour match; the grading scale is not given. Only one efficacy time point, 2 months after the single treatment, far short of six months; no later efficacy visit appears in the abstract, although side effects were followed for up to 2 months after the assessments [about 4 months after treatment]. No control arm, so spontaneous change cannot be excluded. Erythema and postinflammatory hyperpigmentation in 'a few patients' resolved 'within 2 months after the assessments', so they were still present at the 2-month efficacy assessment and may have affected the improvement grading and satisfaction ratings [inferred from the timing]. Mostly facial lesions, while the authors note the extremities are the most frequently affected areas in IGH, so the sample may not represent typical IGH. Gender ratio printed as '7 : 33' without saying which sex is which. Mean age 57.5 ± 10.9 years. Lesion counts, lesion size, laser settings and Fitzpatrick types not in abstract. Patient-level result; how per-lesion outcomes were combined into a patient score is not stated. Denominators for 90% and 82.5% are not printed [both fit 40].",
    "verification_status": "PENDING (abstract only)",
    "outcome_tier": "partial_repigmentation",
    "citation": "Shin J, Kim M, Park SH, Oh SH. The effect of fractional carbon dioxide lasers on idiopathic guttate hypomelanosis: a preliminary study. J Eur Acad Dermatol Venereol 2013;27(2):e243-e246 (Epub 2012 May 31)",
@@ -123,10 +123,16 @@
    "field": "skin_tone",
    "quote": "Yonsei University College of Medicine, Seoul, Korea",
    "location": "Author information"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "these problems spontaneously resolved within 2 months after the assessments",
+   "location": "Abstract, Results"
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "Verifier 1, 2026-11-27, source papers/excerpts/shin2013.txt (PubMed abstract). 2 failed cells. (1) row 1 (index 0), patient_noticeability: record is ABSTRACT_ONLY, so the parenthetical '(spot noticeability not reported)' uses the full-text term; source is the abstract only, so it should read 'not in abstract' throughout. (2) row 1 (index 0), uncertainty: source says 'a few patients complained of long-standing erythema and postinflammatory hyperpigmentation, these problems spontaneously resolved within 2 months after the assessments', i.e. erythema and hyperpigmentation were still present at the 2-month efficacy assessment and may have affected the improvement grading; uncertainty does not record this. All other cells, quotes, analysis_unit (patients), time_from_last_treatment (2 months after the single treatment) and outcome_tier (partial_repigmentation) match the source."
+  "status": "PENDING",
+  "notes": "Re-extracted after verifier FAIL 1 (2026-11-27): patient_noticeability now uses 'not in abstract' only; uncertainty records erythema/PIH present at the 2-month assessment. Previous FAIL notes: Verifier 1, 2026-11-27, source papers/excerpts/shin2013.txt (PubMed abstract). 2 failed cells. (1) row 1 (index 0), patient_noticeability: record is ABSTRACT_ONLY, so the parenthetical '(spot noticeability not reported)' uses the full-text term; source is the abstract only, so it should read 'not in abstract' throughout. (2) row 1 (index 0), uncertainty: source says 'a few patients complained of long-standing erythema and postinflammatory hyperpigmentation, these problems spontaneously resolved within 2 months after the assessments', i.e. erythema and hyperpigmentation were still present at the 2-month efficacy assessment and may have affected the improvement grading; uncertainty does not record this. All other cells, quotes, analysis_unit (patients), time_from_last_treatment (2 months after the single treatment) and outcome_tier (partial_repigmentation) match the source."
  }
 }
