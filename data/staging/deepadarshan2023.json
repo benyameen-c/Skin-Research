@@ -537,7 +537,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "Verifier 2 (fresh check against papers/excerpts/deepadarshan2023.txt): no failed cells. Checked: every Table 1 count and percent for weeks 4, 8, 12 and 16 matches the source and each visit sums to 200 macules; 44 recruited, 40 completed, 4 lost; 200 macules; analysis_unit is macules (Table 1 counts macules), satisfaction counted in patients and labelled so; outcome_tier partial_repigmentation is the weakest reading (top grade is >75% improvement, no complete-coverage count); week 4 and 8 rows are on treatment; week 12 NOT_DERIVABLE is justified; week 16 months_after_final_tx 1 matches Methods 'further followed up for a duration of 1 month', and the Results '4-month follow-up' conflict is stated in uncertainty; PIH 18 (9%) recorded at week 16 and 'not reported at this visit' elsewhere; no scarring reported; recurrence statement, Grade 0/1 pooling, week 16 dermoscopy visit and authors' short-follow-up limitation are in uncertainty. Bracketed inferences (220 macules, 32/8/4 of 44, [0] not satisfied, [4 weeks]) are arithmetically correct and marked as inferred. Validator ok."
  }
 }
