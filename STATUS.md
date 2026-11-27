@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; batch 3 PR from claude/project-thread-1i49rl).
+Last updated: 2026-11-27 23:45 UTC, asawanonda2010 merged and denominator audit refreshed (PRs 1 to 4 merged into main; this PR from claude/project-thread-uq4lk9).
 
 ## Open module
 
@@ -8,6 +8,8 @@ Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; 
 
 ## Done
 
+- asawanonda2010 (PMID 20232585, ABSTRACT_ONLY, late batch 3 record): verifier PASS, 0 failed cells (verifier commit 35f1700 could not be pushed; record taken from the saved verifier file, body identical to extractor commit 20e95cb on claude/project-thread-7r9s3x). Validator ok; merged 0 -> 1 row (unquantified, months NOT_DERIVABLE). Ledger 54 -> 55 rows, 21 -> 22 studies. `tools/ledger.py check` prints: `rows 55 | studies 22 | blank cells 0`, `longest months after final treatment, IGH rows: 2.0`, `lasting_color_match rows: 0`, `extracted studies still without verbatim quotes (0): none`. 6 tests pass.
+- Denominator audit refreshed 2026-11-27 on the 55-row ledger: `experiments/denominator_audit.py` now checks every claim fragment against `data/evidence_quotes.jsonl` before writing. 68 percentage and denominator pairs from 10 studies audited (`data/denominator_audit.csv`); 7 fit no whole count of the stated number, in 4 studies: laosakul2017 (82.3% of 43), rerknimitr2013 (11% of 26), goldust2013 (41.6% and 10.3% of 240; printed counts 100 and 25 give 41.67% and 10.42%), ravikiran2014 (35.9% of 139, printed count 50 gives 35.97%; 41.5% and 13.4% of 89). 5 of the 7 fit if the paper truncated instead of rounding. 11 entries not audited (no denominator, or only a bracketed inferred one) in `data/denominator_not_audited.csv`; rerknimitr2015 now audited against the stated 120 lesions (fits), not the inferred 60. `content/experiments.md` paragraph updated; site not rebuilt.
 - Evidence ledger (after batch 3): 54 rows, 21 studies (19 extracted, 2 leads: arbache2018, wambier2018); 574 quote lines in `data/evidence_quotes.jsonl`. `tools/ledger.py check` prints: `rows 54 | studies 21 | blank cells 0`, `longest months after final treatment, IGH rows: 2.0`, `lasting_color_match rows: 0`, `extracted studies still without verbatim quotes (0): none`. The IGH rows at 2.0 are shin2013 (quoted: "Two months after a single treatment, physicians' clinical assessments were performed") and goldust2013 (quoted: "Two months after a single treatment session, 115 patients (47.9%) exhibited more than 75% clinical improvement."), both a single fractional CO2 laser session, both partial repigmentation counted in patients. elhoshy2025 rows read 3.0 but are ADJACENT (not IGH), so check excludes them. pagnoni1999 has one row at 12 months, also ADJACENT (macular hypomelanosis, not IGH): the quoted regression "to the original state" a year after stopping tretinoin, recorded as `unquantified`.
 - Batch 3 (2026-11-27, Ben's go-ahead 23:04 UTC): twelve verifier-PASS records merged with `tools/ledger.py merge`, each replacing the study's rows whole. Rows before -> after: arbache2023 2 -> 2 (fresh record, now quoted), rerknimitr2015 2 -> 5 (fresh record, now quoted), chitvanich2016 1 -> 3 (lead row replaced), rajegowda2021 1 -> 2 (lead row replaced), rambhia2020 0 -> 1, kreeshan2021 0 -> 3, shin2013 0 -> 1, koh2018 0 -> 3, ravikiran2014 0 -> 2, goldust2013 0 -> 1, ploysangam1990 0 -> 2, pagnoni1999 0 -> 4. Ledger 31 -> 54 rows, 13 -> 21 studies. Validator ok on all 23 staging records; 6 tests pass.
 - Batch 3 held: nct01956435, **verified, held: same cohort as gordon2017, awaiting Ben's decision on how to reconcile.** Third extraction (Ben approved 2026-11-27 23:04 UTC), 3 rows, FULL_TEXT, verifier PASS 0 failed cells (claude/project-thread-82j76h 86c0768). Record committed in `data/staging/nct01956435.json`, not merged.
@@ -34,7 +36,8 @@ Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; 
   - extracted and merged: 10429990 (pagnoni1999; only 1 of 4 treated women had IGH, results pooled with macular hypomelanosis), 2229495 (ploysangam1990), 22646755 (shin2013), 23656568 (goldust2013), 24616848 (ravikiran2014), 29547020 (koh2018), 34084020 (kreeshan2021), 34409340 (rambhia2020)
   - blocked: 31396960 (eun2020), 32360719 (vedamurthy2022)
   - excluded: 34409366 (arbache2021, letter with no IGH patients)
-  - not started: 10594616, 15187317, 20232585
+  - extracted and merged (late): 20232585 (asawanonda2010, abstract only, 1 unquantified row)
+  - not started: 10594616, 15187317 (citation-only records with no abstract; paywall list unless an open copy exists)
   - 9 leads without a treatment arm, not to extract: PMIDs 2508572, 29516488, 29864462, 29864463, 31823346, 33894101, 35114009, 36394380, 9765023.
 - [ ] Possible text reuse: shin2013 and goldust2013 abstracts share the sentence "Two months after a single treatment, physicians' clinical assessments were performed and the patients' overall satisfaction was evaluated." Both are single-session fractional CO2 laser studies. Ben may want this checked before either is cited as independent.
 
@@ -112,6 +115,7 @@ Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; 
 - ploysangam1990 (PMID 2229495, ABSTRACT_ONLY): verifier 1 FAIL (3 cells), corrected, verifier 2 PASS (claude/project-thread-uge79q 1e072ef). Merged.
 - pagnoni1999 (PMID 10429990, FULL_TEXT open-access PDF): verifier PASS first check, 0 failed cells (claude/project-thread-s0m95g 9884523). Merged.
 - nct01956435 (third extraction, FULL_TEXT): verifier PASS (claude/project-thread-82j76h 86c0768). Held for Ben.
+- asawanonda2010 (PMID 20232585, ABSTRACT_ONLY): verifier PASS first check, 0 failed cells (extractor claude/project-thread-7r9s3x 20e95cb; verifier record from /mnt/project-files/batch-03/asawanonda2010.verifier1.json). Merged.
 - arbache2021 (PMID 34409366): excluded, not verified for the ledger.
 
 ## Next session
