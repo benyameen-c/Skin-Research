@@ -759,7 +759,8 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "date": "2026-11-27",
+  "notes": "2026-11-27 verifier 1: PASS, 0 failed cells. Checked all 4 rows and every quote against papers/excerpts/pagnoni1999.txt (full text). Observations, not failures: row 3 patients_evaluable '[1]' is bracketed although the source states '1 had IGH'; row 4 months_after_final_tx 12 is 'a year' converted (the field cannot hold brackets; the conversion is flagged in uncertainty); row 2 outcome_tier partial_repigmentation names the endpoint measured, as for other control rows, while the Nivea side showed no change; funding is not stated in the paper and the authors' affiliation is S.K.I.N. Incorporated. Row 4 diagnosis is ADJACENT (macular hypomelanosis), so it does not count as an IGH durability row."
  }
 }
