@@ -81,6 +81,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 
 - 2026-11-27, rajegowda2021 (ABSTRACT_ONLY, staging record from claude/project-thread-eal8ua a5c17a6): verifier **FAIL, attempt 1 of 2**, 2 cells (rows 0 and 1 `uncertainty` say the grading scale overlaps; the source scale has gaps but no overlap). All numbers and quotes check out. Needs a correction pass, then a fresh verifier. Not merged.
 - 2026-11-27, rajegowda2021: corrected after FAIL 1 (both rows' `uncertainty` now say the grading scale has gaps but no overlap; other inferences bracketed; cryotherapy intervention wording matches the abstract). Validator ok, verifier PENDING. A second FAIL makes it BLOCKED.
+- 2026-11-27, rajegowda2021 (staging record from claude/project-thread-eal8ua 9fbbe54): verifier **PASS on second check**, 0 failed cells. Ready to merge; not merged. Observation for the cohort check: deepadarshan2023's reference 15 is an earlier paper by the same group, CO2 laser versus 88% phenol in IGH (J Dermatol Dermatol Surg 2022;26(1):1), which may share phenol-arm patients with this study.
 
 ## Next session
 
