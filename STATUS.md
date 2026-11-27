@@ -125,4 +125,6 @@ Last updated: 2026-11-27 23:30 UTC, batch 3 merge (PRs 1 to 3 merged into main; 
 
 ## Next session
 
+- Measurement tool plan (2026-11-27, PR "Plan: spot colour-match measurement tool", branch claude/project-thread-fm8afm, based on PR #5's branch): `content/measurement-tool-plan.md`, planning only, not in `site.json`, not built. Proposes signed ΔL* of a fixed inner disc minus a reference ring as the measurand, with Δb*, ΔE, area and absolute ring colour beside it. First tasks T1 (test-author: drift-sim v2 tests), T2 (test-author: placement-sim tests), T3 (searcher: prior-art query set) can start without Ben. Awaiting Ben's answers to the plan's open questions (section 8). Not merged.
+
 Close Module 1 (list above). Drift simulation PR ("Drift simulation: tests and implementation") awaits Ben's review; possible follow-up: report the b* (yellowness) channel, where white-balance drift matters more.
