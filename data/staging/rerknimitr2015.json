@@ -308,7 +308,7 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Fresh verifier #2 (2026-11-27), source papers/excerpts/rerknimitr2015.txt only. 0 failed cells across 5 rows. All quotes found verbatim and support their cells for the right arm and visit. months_after_final_tx NOT_DERIVABLE/NOT_APPLICABLE accepted: abstract calls week 16 '4 weeks' follow-up' but never states the final session week; the 0.9-month reading is bracketed. analysis_unit: lesion for grading rows (quote says 'of the lesions'), 'not in abstract' for colourimetry rows. outcome_tier is the weakest reading on every row. PIH absence, transient erythema/oedema, 120-lesion conflict, P = 0.06 at week 16, unstated allocation, blinding, denominators and clustering all recorded in uncertainty."
   }
 }
