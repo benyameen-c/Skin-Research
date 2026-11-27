@@ -68,6 +68,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 - 2026-11-27, koh2018 (PMID 29547020, batch 3): staged ABSTRACT_ONLY, 3 rows (CO2 fractional laser, Er:YAG fractional laser, 0.025% tretinoin; outcome_tier unquantified, months_after_final_tx NOT_DERIVABLE). Validator ok, verifier PENDING. Full text on paywall list.
 - 2026-11-27, koh2018: verifier **FAIL, attempt 1 of 2**, 6 cells (rows 0-2: patients_enrolled gives 18 as enrolled, but the abstract says 122 lesions were analyzed from 18 patients; patients_evaluable says not in abstract). Details in `verifier.notes`. Needs a correction pass, then a fresh verifier. Not merged.
 - 2026-11-27, koh2018: corrected after FAIL 1. 18 patients moved to patients_evaluable, patients_enrolled `not in abstract`; lesions_evaluable 122 analysed (unbracketed); lesions_enrolled worded as assigned per group; uncertainty notes only analysed counts are reported. Validator ok, verifier PENDING. A second FAIL makes it BLOCKED.
+- 2026-11-27, koh2018: verifier **PASS, attempt 2**, 0 failed cells (record from claude/project-thread-b0xxcv 329923e). Ready for `tools/ledger.py merge`; not merged.
 
 ## Verification log (batch 2, 2026-11-27)
 

@@ -316,8 +316,8 @@
     }
   ],
   "verifier": {
-    "status": "PENDING",
-    "notes": ""
+    "status": "PASS",
+    "notes": "Verifier attempt 2, 2026-11-27, checked against papers/excerpts/koh2018.txt (PubMed abstract) alone. 0 failed cells across rows 0-2. All quotes found verbatim in the source and support their cells for the right arm. time_from_last_treatment NOT_DERIVABLE with reason; analysis_unit lesion bracketed as inferred; outcome_tier unquantified is the weakest reading; patient and lesion counts given as analysed/assigned, enrolment marked not in abstract; adverse events, scar, overshoot and attrition marked missing. Observation, not a failed cell: row 2 texture_or_scar cites 'without serious adverse events', which the abstract says of ablative fractional laser, not tretinoin; the cell value 'not in abstract' is still correct."
   },
   "verifier_history": [
     {
