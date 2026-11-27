@@ -19,9 +19,9 @@
       "design": "not in abstract [comparative study with three treatment groups; lesions assigned to groups; method of assignment, randomisation, blinding and whether the study was prospective are not stated]",
       "body_site": "not in abstract",
       "skin_tone": "not in abstract [authors' affiliation is in Seoul, Korea; study site not stated]",
-      "patients_enrolled": "18 patients in total; number per group not in abstract",
-      "patients_evaluable": "not in abstract",
-      "lesions_evaluable": "not in abstract [122 lesions are described as analyzed; number enrolled before exclusions not stated]",
+      "patients_enrolled": "not in abstract (the abstract gives only the number analysed)",
+      "patients_evaluable": "18 patients analysed in total; number per group not in abstract",
+      "lesions_evaluable": "122 lesions analysed in total; number analysed in this group not in abstract",
       "analysis_unit": "lesion [inferred: lesions were assigned to groups; the abstract does not say whether VAS, IGA and PSS were analysed per lesion or per patient]",
       "time_from_start": "not in abstract",
       "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives no number of sessions, no treatment interval and no assessment date; it only says VAS improved 'after the second treatment'",
@@ -36,12 +36,12 @@
       "outcome_tier": "unquantified",
       "endpoint_definition": "lesion severity by visual analog scale (VAS), extent of improvement by investigator's global assessment (IGA), patient's satisfaction score (PSS); scales, anchors and time point not in abstract",
       "assessment_method": "VAS, IGA and PSS [assessor of VAS not stated; blinding not in abstract]",
-      "lesions_enrolled": "42 of 122 lesions analyzed",
+      "lesions_enrolled": "42 lesions assigned to this group (of 122 analysed in total); number enrolled before any exclusion not in abstract",
       "intervention": "CO2 fractional laser (CO₂FL) (ablative fractional, per title and conclusions); settings and number of sessions not in abstract",
       "comparator": "Er:YAG fractional laser group and 0.025% topical tretinoin group",
       "arm_result": "superior to topical tretinoin on VAS, IGA and PSS (p < 0.01); no significant difference from Er:YAG fractional laser; values not in abstract",
       "patient_noticeability": "patient satisfaction (PSS) collected, not noticeability of the spot; laser groups superior to tretinoin (p < 0.01), values not in abstract",
-      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it.",
+      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given, and the abstract reports only analysed counts (122 lesions, 18 patients), so enrolment and dropouts cannot be checked. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it.",
       "treatment_class": "energy_device"
     },
     {
@@ -54,9 +54,9 @@
       "design": "not in abstract [comparative study with three treatment groups; lesions assigned to groups; method of assignment, randomisation, blinding and whether the study was prospective are not stated]",
       "body_site": "not in abstract",
       "skin_tone": "not in abstract [authors' affiliation is in Seoul, Korea; study site not stated]",
-      "patients_enrolled": "18 patients in total; number per group not in abstract",
-      "patients_evaluable": "not in abstract",
-      "lesions_evaluable": "not in abstract [122 lesions are described as analyzed; number enrolled before exclusions not stated]",
+      "patients_enrolled": "not in abstract (the abstract gives only the number analysed)",
+      "patients_evaluable": "18 patients analysed in total; number per group not in abstract",
+      "lesions_evaluable": "122 lesions analysed in total; number analysed in this group not in abstract",
       "analysis_unit": "lesion [inferred: lesions were assigned to groups; the abstract does not say whether VAS, IGA and PSS were analysed per lesion or per patient]",
       "time_from_start": "not in abstract",
       "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives no number of sessions, no treatment interval and no assessment date; it only says VAS improved 'after the second treatment'",
@@ -71,12 +71,12 @@
       "outcome_tier": "unquantified",
       "endpoint_definition": "lesion severity by visual analog scale (VAS), extent of improvement by investigator's global assessment (IGA), patient's satisfaction score (PSS); scales, anchors and time point not in abstract",
       "assessment_method": "VAS, IGA and PSS [assessor of VAS not stated; blinding not in abstract]",
-      "lesions_enrolled": "40 of 122 lesions analyzed",
+      "lesions_enrolled": "40 lesions assigned to this group (of 122 analysed in total); number enrolled before any exclusion not in abstract",
       "intervention": "Er:YAG fractional laser (EYFL) (ablative fractional, per title and conclusions); settings and number of sessions not in abstract",
       "comparator": "CO2 fractional laser group and 0.025% topical tretinoin group",
       "arm_result": "superior to topical tretinoin on VAS, IGA and PSS (p < 0.01); no significant difference from the CO₂FL group; values not in abstract",
       "patient_noticeability": "patient satisfaction (PSS) collected, not noticeability of the spot; laser groups superior to tretinoin (p < 0.01), values not in abstract",
-      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it.",
+      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given, and the abstract reports only analysed counts (122 lesions, 18 patients), so enrolment and dropouts cannot be checked. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it.",
       "treatment_class": "energy_device"
     },
     {
@@ -89,9 +89,9 @@
       "design": "not in abstract [comparative study with three treatment groups; lesions assigned to groups; method of assignment, randomisation, blinding and whether the study was prospective are not stated]",
       "body_site": "not in abstract",
       "skin_tone": "not in abstract [authors' affiliation is in Seoul, Korea; study site not stated]",
-      "patients_enrolled": "18 patients in total; number per group not in abstract",
-      "patients_evaluable": "not in abstract",
-      "lesions_evaluable": "not in abstract [122 lesions are described as analyzed; number enrolled before exclusions not stated]",
+      "patients_enrolled": "not in abstract (the abstract gives only the number analysed)",
+      "patients_evaluable": "18 patients analysed in total; number per group not in abstract",
+      "lesions_evaluable": "122 lesions analysed in total; number analysed in this group not in abstract",
       "analysis_unit": "lesion [inferred: lesions were assigned to groups; the abstract does not say whether VAS, IGA and PSS were analysed per lesion or per patient]",
       "time_from_start": "not in abstract",
       "time_from_last_treatment": "NOT_DERIVABLE: the abstract does not say how long tretinoin was applied, when it stopped or when lesions were assessed",
@@ -106,12 +106,12 @@
       "outcome_tier": "unquantified",
       "endpoint_definition": "lesion severity by visual analog scale (VAS), extent of improvement by investigator's global assessment (IGA), patient's satisfaction score (PSS); scales, anchors and time point not in abstract",
       "assessment_method": "VAS, IGA and PSS [assessor of VAS not stated; blinding not in abstract]",
-      "lesions_enrolled": "40 of 122 lesions analyzed",
+      "lesions_enrolled": "40 lesions assigned to this group (of 122 analysed in total); number enrolled before any exclusion not in abstract",
       "intervention": "0.025% topical tretinoin cream; application schedule and duration not in abstract",
       "comparator": "CO2 fractional laser and Er:YAG fractional laser groups",
       "arm_result": "inferior to both fractional laser groups on VAS, IGA and PSS (p < 0.01); change from baseline in this group and values not in abstract",
       "patient_noticeability": "patient satisfaction (PSS) collected, not noticeability of the spot; lower than laser groups (p < 0.01), values not in abstract",
-      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it. Whether tretinoin lesions improved at all from baseline is not stated; 'after the second treatment' is unclear for a cream.",
+      "uncertainty": "Abstract only: no VAS, IGA or PSS values, no per-group effect sizes, no time point for the between-group comparison, and no number or spacing of sessions for any arm. 122 lesions from 18 patients means several lesions per patient [about 6.8 on average]; whether one patient contributed lesions to more than one group, and whether clustering was handled, is not stated, so the p values may treat correlated lesions as independent. Number of patients per group not given, and the abstract reports only analysed counts (122 lesions, 18 patients), so enrolment and dropouts cannot be checked. Mean age is printed as '70.00 ± 20.00 years', an unusually round and wide figure for 18 patients; check in full text. 'Significantly improved after the second treatment' does not say which group or groups, nor against what. None of the endpoints compares lesion colour with surrounding skin, so colour match cannot be judged. Design words (randomised, blinded, prospective) are not stated for this study; the background sentence says no prospective comparative studies existed before it. Whether tretinoin lesions improved at all from baseline is not stated; 'after the second treatment' is unclear for a cream.",
       "treatment_class": "topical"
     }
   ],
@@ -130,7 +130,7 @@
     },
     {
       "row": 0,
-      "field": "patients_enrolled",
+      "field": "patients_evaluable",
       "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
       "location": "Abstract, Materials and Methods"
     },
@@ -184,7 +184,7 @@
     },
     {
       "row": 1,
-      "field": "patients_enrolled",
+      "field": "patients_evaluable",
       "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
       "location": "Abstract, Materials and Methods"
     },
@@ -238,7 +238,7 @@
     },
     {
       "row": 2,
-      "field": "patients_enrolled",
+      "field": "patients_evaluable",
       "quote": "A total of 122 lesions were analyzed from 18 patients (mean age, 70.00 ± 20.00 years).",
       "location": "Abstract, Materials and Methods"
     },
@@ -316,7 +316,18 @@
     }
   ],
   "verifier": {
-    "status": "FAIL",
-    "notes": "row 0, patients_enrolled: cell gives '18 patients in total' as enrolled, but source says 'A total of 122 lesions were analyzed from 18 patients'; 18 is the analysed count and the number enrolled is not in abstract; row 0, patients_evaluable: cell says 'not in abstract', but source says 'A total of 122 lesions were analyzed from 18 patients', so 18 patients analysed is stated; row 1, patients_enrolled: cell gives '18 patients in total' as enrolled, but source says 'A total of 122 lesions were analyzed from 18 patients'; 18 is the analysed count and the number enrolled is not in abstract; row 1, patients_evaluable: cell says 'not in abstract', but source says 'A total of 122 lesions were analyzed from 18 patients', so 18 patients analysed is stated; row 2, patients_enrolled: cell gives '18 patients in total' as enrolled, but source says 'A total of 122 lesions were analyzed from 18 patients'; 18 is the analysed count and the number enrolled is not in abstract; row 2, patients_evaluable: cell says 'not in abstract', but source says 'A total of 122 lesions were analyzed from 18 patients', so 18 patients analysed is stated. All other cells match the source text: quotes are verbatim and attach to the right arm, time_from_last_treatment is NOT_DERIVABLE with reason, analysis_unit lesion fits '122 lesions were analyzed', outcome_tier unquantified is the weakest reading, overshoot/scar/attrition are marked missing."
-  }
+    "status": "PENDING",
+    "notes": ""
+  },
+  "verifier_history": [
+    {
+      "attempt": 1,
+      "status": "FAIL",
+      "date": "2026-11-27",
+      "branch": "claude/project-thread-pldyej",
+      "commit": "3580047",
+      "cells": "patients_enrolled and patients_evaluable on rows 0-2: 18 is the analysed patient count, enrolled not in abstract",
+      "fixed": "18 moved to patients_evaluable; patients_enrolled not in abstract; lesions_evaluable 122 unbracketed; lesions_enrolled worded as assigned"
+    }
+  ]
 }
