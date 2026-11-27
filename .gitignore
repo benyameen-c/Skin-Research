@@ -1,0 +1,5 @@
+papers/
+source/
+outreach/
+__pycache__/
+.pytest_cache/

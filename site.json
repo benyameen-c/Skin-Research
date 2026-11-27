@@ -1,0 +1,21 @@
+{
+  "title": "IGH Repair Notebook",
+  "question": "Which treatments help a small white spot match the surrounding skin, and does the match last?",
+  "updated": "27 November 2026",
+  "contact": {
+    "issues_url": "",
+    "email": ""
+  },
+  "repository_url": "",
+  "contributors": [
+    {"name": "Ben", "role": "Project lead. Framed the question, wrote the starting brief, reviews every change."},
+    {"name": "Claude (AI model, Anthropic)", "role": "Session of 27 November 2026: source checks, data extraction, simulation code and site build. Rows it extracted carry a verification status and need a human spot-check."}
+  ],
+  "sections": [
+    {"id": "overview", "nav": "Overview", "file": "home.md"},
+    {"id": "evidence", "nav": "Evidence", "file": "evidence.md"},
+    {"id": "experiments", "nav": "Experiments", "file": "experiments.md"},
+    {"id": "open-questions", "nav": "Open Questions", "file": "open-questions.md"},
+    {"id": "progress-log", "nav": "Progress Log", "file": "progress-log.md"}
+  ]
+}

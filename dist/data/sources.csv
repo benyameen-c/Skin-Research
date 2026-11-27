@@ -1,0 +1,25 @@
+url,what_it_is,how_it_was_checked,used_in,origin
+https://pubmed.ncbi.nlm.nih.gov/27494272/,Tip cryotherapy RCT (Laosakul 2017),abstract read via PubMed in a desktop browser,laosakul2017,seed brief
+https://www.academicmed.org/Uploads/Volume7Issue6/140.%206335.%20JAMP_Sudha%20R%20Gopinath_765-769.pdf,Cryotherapy vs 50% TCA (Deoson 2025),open PDF read by automated extractor,deoson2025,seed brief
+https://doi.org/10.1111/jdv.12763,Fractional laser RCT (Rerknimitr 2015),DOI page could not be opened; abstract read via PubMed,rerknimitr2015,seed brief
+https://doi.org/10.1111/j.1468-3083.2012.04462.x,Tacrolimus RCT (Rerknimitr 2013),DOI page could not be opened; abstract read via PubMed,rerknimitr2013,seed brief
+https://pubmed.ncbi.nlm.nih.gov/37011024/,5-FU tattooing split-body trial (Arbache 2023),abstract read via PubMed; registry read via API,arbache2023,seed brief
+https://www.jpad.com.pk/index.php/jpad/article/download/2396/2103,308-nm excimer series (Deepadarshan 2023),open PDF read by automated extractor,deepadarshan2023,seed brief
+https://pubmed.ncbi.nlm.nih.gov/27930376/,Excimer pilot (Gordon 2017),abstract read via PubMed,gordon2017,seed brief
+https://pubmed.ncbi.nlm.nih.gov/3908515/,Autologous grafting (Suvanprakorn 1985),abstract read via PubMed,suvanprakorn1985,seed brief
+https://pubmed.ncbi.nlm.nih.gov/9229096/,Cultured epithelium (Kumagai 1997),abstract read via PubMed; not IGH,screening_log.csv,seed brief
+https://doi.org/10.1111/ijd.13960,Melanocyte abnormalities (Rani 2018),DOI page not opened; abstract read via PubMed,hypotheses.csv,seed brief
+https://pubmed.ncbi.nlm.nih.gov/2229495/,Liquid nitrogen histology (Ploysangam 1990),abstract read via PubMed,hypotheses.csv,seed brief
+https://pubmed.ncbi.nlm.nih.gov/36394380/,Melanocytes disappear and are senescent (Kim TH 2023),PubMed record has no abstract; title only,hypotheses.csv,seed brief
+https://pubmed.ncbi.nlm.nih.gov/35114009/,Paired biopsies (Arbache 2022),abstract read via PubMed,hypotheses.csv; datasets.csv,seed brief
+https://2024sidannualmeeting.org/wp-content/uploads/2024/05/SID_2024_Abstracts-Book_r8.pdf,"SID 2024 abstract book, abstract 858",abstract located and read in the PDF,hypotheses.csv; datasets.csv,seed brief
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11604898/,Anhui hypopigmentation AI study,Table 1 and data availability read in PMC full text,datasets.csv,seed brief
+https://pubmed.ncbi.nlm.nih.gov/25303024/,"Fractional laser RCT (Rerknimitr 2015), PubMed",abstract read via PubMed,rerknimitr2015,seed brief
+https://clinicaltrials.gov/study/NCT01956435,Excimer pilot registry record,read via ClinicalTrials.gov API,gordon2017; datasets.csv,seed brief
+https://jamanetwork.com/journals/jamadermatology/article-abstract/2838595,Target vitiligo area scoring (Jabour 2025),abstract page read,datasets.csv,seed brief
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10247498/,Smartphone camera geometry (Cronin 2023),abstract read in PMC,datasets.csv,seed brief
+https://doi.org/10.1093/ced/llaf134,Anchor systematic review (Aravindakshan 2025). The seed brief named it without a link.,abstract read on the journal page and via PubMed,screening_log.csv; search_log.csv,added 2026-11-27
+https://pubmed.ncbi.nlm.nih.gov/41453137/,ATG7 and melanocyte senescence (Kim JC 2026). New in this update.,abstract read via PubMed,hypotheses.csv,added 2026-11-27
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11951020/,Photoacoustic pilot with 17 IGH lesions (Kim M 2025). New in this update.,abstract and data availability read,datasets.csv,added 2026-11-27
+https://pubmed.ncbi.nlm.nih.gov/39584682/,Microneedling RCT in localized acquired hypomelanosis (Elhoshy 2025). New in this update.,abstract read via PubMed,elhoshy2025,added 2026-11-27
+https://clinicaltrials.gov/study/NCT02904564,Registry record for the Arbache split-body trial,read via ClinicalTrials.gov API,arbache2023; datasets.csv,added 2026-11-27

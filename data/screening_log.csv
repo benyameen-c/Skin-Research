@@ -1,0 +1,26 @@
+record_id,title,citation,found_by,decision,reason
+PMID 29489254,Idiopathic Guttate Hypomelanosis,StatPearls 2025,pubmed_update,excluded,narrative reference chapter
+PMID 39304289,Biomedical applications of tyrosinases and tyrosinase inhibitors,Enzymes 2024,pubmed_update,excluded,review; IGH mentioned in passing
+PMID 38907543,Diffuse hyperpigmentation with guttate hypopigmentation: a new pigmentary disorder,Eur J Dermatol 2024,pubmed_update,excluded,different diagnosis
+PMID 41064308,Acquired Speckled Acrofacial Hypomelanosis: A Novel Case Report,Case Rep Dermatol 2025,pubmed_update_broad,excluded,different diagnosis; case report
+PMID 40161359,In vivo 3D photoacoustic and ultrasound analysis of hypopigmented skin lesions: A pilot study,Photoacoustics 2025,pubmed_update,lead: measurement,17 IGH lesions imaged; no treatment; data on request
+PMID 38288676,Diagnostic accuracy of ultraviolet-induced fluorescence dermoscopy in non-neoplastic dermatoses,J Eur Acad Dermatol Venereol 2025,pubmed_update_broad,excluded,diagnostic accuracy; no intervention
+PMID 41262273,"Clinical, Dermoscopic and Histopathological Study of Patchy Pigmentation of Lower Legs",Indian J Dermatol 2025,pubmed_update,excluded,diagnostic; 61 IGH cases; no intervention
+PMID 39177715,Evaluation of diagnostic accuracy of dermoscopy in some common hypopigmented skin diseases,Arch Dermatol Res 2024,pubmed_update,excluded,diagnostic; no intervention
+PMID 39674424,Deciphering the role of skin aging in pigmentary disorders,Free Radic Biol Med 2025,pubmed_update,lead: mechanism,review linking skin ageing to IGH; no new human data
+PMID 41018370,Steroid-Induced Hypopigmentation of the Dorsal Hand,Cureus 2025,pubmed_update,excluded,different diagnosis; notes Melan-A/SOX10 pattern shared with IGH
+PMID 40117638,Dermoscopy of Vitiligo and Other Hypopigmented Skin Lesions in Indian Patients,Dermatol Pract Concept 2025,pubmed_update,excluded,diagnostic; 14 IGH lesions; no intervention
+PMID 39324349,The correlation between dermoscopic patterns and histopathological features in idiopathic guttate hypomelanosis,Acta Dermatovenerol Alp Pannonica Adriat 2024,pubmed_update,excluded,diagnostic; 100 IGH patients with histology; no intervention
+PMID 40192523,A systematic review of interventions for idiopathic guttate hypomelanosis,Clin Exp Dermatol 2025;50(9):1741-1747,pubmed_update,anchor review,search to November 2023; 20 studies; states follow-up data on longevity are scarce
+PMID 40857991,Phenol in dermatology: updated evidence on efficacy and safety,An Bras Dermatol 2025,pubmed_update_broad,not screened in full,review; may summarise phenol for IGH; abstract not read
+PMID 41453137,Autophagy related 7 dysfunction in senescent melanocytes and hypopigmented skin: reversal by metformin,Br J Dermatol 2026;194(5):879-887,pubmed_update,lead: mechanism,ATG7 loss found in senescent melanocytes and IGH skin; metformin restored autophagy in cultured cells; no patients treated
+PMID 41609291,Metabolic approach to counteract skin ageing,Br J Dermatol 2026;194(5):832-833,pubmed_update,excluded,commentary on PMID 41453137
+PMID 40353094,A mimicker of a halo nevus: A melanocytic nevus superimposed on idiopathic guttate hypomelanosis,JAAD Case Rep 2025,pubmed_update,excluded,case report; no intervention
+PMID 42416933,Clinicoepidemiological and Dermoscopic Patterns of Hypopigmented Disorders,Cureus 2026,pubmed_update,excluded,diagnostic; no intervention
+PMID 42668557,Peripheral predominance of facial idiopathic guttate hypomelanosis in a retrospective observational study,JAAD Int 2026,pubmed_update,excluded,distribution study; no intervention
+PMID 42960034,Clinical and Dermoscopic Evaluation of Patients With Disorders of Hypopigmentation and Depigmentation,Cureus 2026,pubmed_update,excluded,diagnostic; no intervention
+PMID 42468070,"White Acanthotic Papules (WAP): an underrecognized entity that may correspond to the familial, non-photo-induced forms of IGH",Ann Dermatol Venereol 2026,pubmed_update,lead: diagnosis,proposes a look-alike entity; relevant to confirming IGH before measuring response
+doi:10.47009/jamp.2025.7.6.140,Therapeutic response to cryotherapy versus 50% trichloroacetic acid application in idiopathic guttate hypomelanosis,Int J Acad Med Pharm 2025;7(6):765-769,seed brief; web search,included,only new IGH intervention study found after the review cutoff; not PubMed-indexed
+PMID 39584682,Microneedling in Localized Acquired Hypomelanosis: A Randomized Controlled Trial,Dermatol Surg 2025;51(3):257-262,web search,included as adjacent,diagnosis is broader than IGH; kept because untreated lesions improved similarly
+PMID 9229096,Treatment of extensive hypomelanosis with autologous cultured epithelium,Ann Plast Surg 1997,seed brief,excluded,"six patients with vitiligo, piebaldism and albinism; no IGH (abstract checked)"
+PMC11604898,Intelligent Diagnosis of Hypopigmented Dermatoses and Intelligent Evaluation of Vitiligo Severity on the Basis of Deep Learning,Dermatol Ther (Heidelb) 2024,seed brief,not treatment evidence,Table 1: 13 before/after pairs are vitiligo; IGH images are classification-only

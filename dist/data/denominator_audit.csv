@@ -1,0 +1,9 @@
+study_id,quantity,published_pct,stated_n,unit,nearest_whole_counts,consistent_with_stated_n,source
+laosakul2017,">75% improved, treated",82.3,43,lesions,35/43 = 81.40%; 36/43 = 83.72%,NO,"PubMed abstract, PMID 27494272"
+laosakul2017,">75% improved, control",2.0,58,lesions,1/58 = 1.72%; 2/58 = 3.45%,yes,"PubMed abstract, PMID 27494272"
+rerknimitr2015,"some improvement, treated",83.34,60,lesions (inferred 2 per patient x 30),50/60 = 83.33%; 51/60 = 85.00%,yes,"PubMed abstract, PMID 25303024"
+rerknimitr2015,"some improvement, control",18.34,60,lesions (inferred),11/60 = 18.33%; 12/60 = 20.00%,yes,"PubMed abstract, PMID 25303024"
+rerknimitr2013,physician-graded improvement,11.0,26,patients,2/26 = 7.69%; 3/26 = 11.54%,NO,"PubMed abstract, PMID 22324720"
+deoson2025,">75% repigmentation, cryotherapy",38.7,75,lesions,29/75 = 38.67%; 30/75 = 40.00%,yes,Table 1
+deoson2025,">75% repigmentation, TCA",20.0,75,lesions,15/75 = 20.00%; 16/75 = 21.33%,yes,Table 1
+deepadarshan2023,">75% improvement, week 16",41.5,200,lesions,82/200 = 41.00%; 83/200 = 41.50%,yes,Table 1
