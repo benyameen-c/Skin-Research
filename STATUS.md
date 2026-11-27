@@ -67,6 +67,7 @@ Last updated: 2026-11-27, post-batch corrections (PRs 1 and 2 merged into main).
 ## Extraction log (batch 3, 2026-11-27)
 
 - kreeshan2021 (PMID 34084020, single case report, excimer light plus topical bimatoprost): FULL_TEXT via Europe PMC open access (PMC8149992). Staging record `data/staging/kreeshan2021.json`, 3 rows, all `unquantified`, months after final treatment NOT_APPLICABLE or NOT_DERIVABLE. Validator ok, verifier PENDING. Excerpt at `/mnt/project-files/papers/excerpts/kreeshan2021.txt` (text only; figures not saved).
+- kreeshan2021: verifier **FAIL, attempt 1 of 2**, 3 cells (rows 0-2 `patient_noticeability` read `not measured`; full text is silent, should be `not reported`). All quotes verbatim. Needs a fix pass, then a fresh verifier. Not merged.
 
 ## Verification log (batch 2, 2026-11-27)
 

@@ -208,7 +208,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Verifier 2026-11-27, attempt 1, from papers/excerpts/kreeshan2021.txt alone. 3 failed cells. Rows numbered from 0 as in quotes[].row. row 0 (excimer only), patient_noticeability: the full text is silent on any patient rating or patient view of the result; nothing says it was not measured, so per rule 5 the cell should read 'not reported', not 'not measured'. row 1 (combination patch, after five sessions), patient_noticeability: same; source silent, should read 'not reported'. row 2 (last report, after further six sessions), patient_noticeability: same; source silent, should read 'not reported'. All 16 quotes found verbatim in the source and support their cells for the stated arm and time point. Months after final treatment (NOT_APPLICABLE rows 0-1, NOT_DERIVABLE row 2), analysis_unit, outcome_tier 'unquantified', bracketed inferences and uncertainty text checked; no other cell fails."
  }
 }
