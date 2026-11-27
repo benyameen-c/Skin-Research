@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-27, session 2 (batch 1 merge).
+Last updated: 2026-11-27, session 2 (batch 1 merge); chitvanich2016 staged (batch 3).
 
 ## Open module
 
@@ -21,6 +21,7 @@ Last updated: 2026-11-27, session 2 (batch 1 merge).
 - [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Abstract-based record merged 2026-11-27 (ABSTRACT_ONLY). Full text still needs a PDF from Ben (paywall list). Note: the merged rows' `verification_status` cell still reads `PENDING (abstract only)` although the record's verifier status is PASS; the record was merged unedited.
 - [ ] Extract the registry-posted results of NCT01956435. BLOCKED 2026-11-27 after two verifier FAILs; not merged. Record `data/staging/nct01956435.json` carries the second FAIL and its notes. Ben decides whether a third extraction is allowed. Same cohort as gordon2017: reconcile before any future merge.
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
+  - chitvanich2016: staged 2026-11-27 as `data/staging/chitvanich2016.json` (ABSTRACT_ONLY, 3 rows, validator ok, verifier PENDING). Possible shared cohort with rerknimitr2015 (same authors, laser, schedule, lesion layout); abstract's 120-lesion count is ambiguous.
 - [ ] Search Web of Science and Scopus if access exists; search GEO, BioImage Archive, Zenodo, Figshare.
 - [ ] First real run of `tools/pubmed.py` (never executed).
 
@@ -35,6 +36,7 @@ Last updated: 2026-11-27, session 2 (batch 1 merge).
 | rerknimitr2013 | J Eur Acad Dermatol Venereol 2013, doi:10.1111/j.1468-3083.2012.04462.x | the 11% denominator |
 | gordon2017 | Dermatol Surg 2017, doi:10.1097/DSS.0000000000000996 | numbers absent from abstract |
 | wambier2018 | J Am Acad Dermatol 2018 Apr, 5-FU tattooing letter | no abstract |
+| chitvanich2016 | J Dermatolog Treat 2016;27(5):456-60, doi:10.3109/09546634.2015.1133883 (Europe PMC: subscription required, not in PMC; tandfonline.com /doi/full/ and /doi/pdf/ returned HTTP 403 on 2026-11-27) | patient count, whether 120 lesions includes controls, control-side result, final-visit timing, cohort overlap with rerknimitr2015 |
 | kim2023 | J Eur Acad Dermatol Venereol 2023, PMID 36394380 | no abstract; senescence claim rests on title |
 
 ## Human gates
