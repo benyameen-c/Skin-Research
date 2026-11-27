@@ -13,7 +13,7 @@
       "design": "longitudinal, split-body controlled, single-blinded pilot",
       "body_site": "not in abstract",
       "skin_tone": "not in abstract",
-      "patients_enrolled": "6 (treated with excimer laser)",
+      "patients_enrolled": "6 (patients treated; number enrolled not in abstract)",
       "patients_evaluable": "not in abstract",
       "lesions_enrolled": "not in abstract",
       "lesions_evaluable": "not in abstract",
@@ -30,7 +30,7 @@
       "dark_overshoot": "not in abstract",
       "texture_or_scar": "not in abstract",
       "attrition": "not in abstract",
-      "uncertainty": "Abstract only; full text paywalled (Europe PMC: subscription required; LWW 403). No effect size, lesion count or follow-up after final treatment in abstract. Abstract does not say whether 'end of the study' is the final treatment visit or later, so months after final treatment is NOT_DERIVABLE. Abstract does not name a trial registration; registry record NCT01956435 is a separate unit and was not used.",
+      "uncertainty": "Abstract only; full text paywalled (Europe PMC: subscription required; LWW HTTP 403). Very small sample: a 'pilot study' in which '6 patients were treated'. Significance is claimed for lesions ('an ANOVA model') while lesions come from only 6 patients; the abstract does not say how many lesions each patient contributed [several per patient, inferred from 6 patients and a lesion-level analysis] or whether the analysis accounted for clustering of lesions within patients. One comparison is against 'baseline' (before-after), not only against untreated lesions; the untreated-lesion comparison is the controlled one. No effect size, p-value, lesion count or repigmentation percentage reported in abstract; 'significantly higher' is stated without numbers. The Conclusion's 'acceptable cosmetic outcomes' and 'effective treatment option' are not backed by any result reported in the abstract; participant self-grades are mentioned but not reported. Abstract does not say whether 'end of the study' is the final treatment visit or later, so months after final treatment is NOT_DERIVABLE; no durability data. Funding and conflicts of interest: not in abstract (first author affiliated with a private practice, Westlake Dermatology). Abstract does not name a trial registration; registry record NCT01956435 is a separate unit and was not used.",
       "verification_status": "PENDING",
       "outcome_tier": "partial_repigmentation",
       "citation": "Gordon JR, Reed KE, Sebastian KR, Ahmed AM. Dermatol Surg 2017;43(4):553-557",
@@ -60,7 +60,7 @@
     }
   ],
   "verifier": {
-    "status": "FAIL",
-    "notes": "row 0, uncertainty: the source states this is a 'pilot study' in which '6 patients were treated', and the significance claim is made for 'Lesions that received the excimer treatment' with 'an ANOVA model'; uncertainty does not record the very small sample (6 patients), nor that lesions were analysed while several lesions come from each of only 6 patients (clustering within patients not addressed in the text), nor that one comparison is against 'baseline' rather than only untreated lesions, nor that the Conclusion's 'acceptable cosmetic outcomes' is not backed by any reported result. All other cells match the source text; outcome_tier partial_repigmentation and months_after_final_tx NOT_DERIVABLE are supported."
+    "status": "PENDING",
+    "notes": ""
   }
 }
