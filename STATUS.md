@@ -25,7 +25,8 @@ Last updated: 2026-11-27, batch 2 collection and merge (built on the batch 1 bra
 - [ ] Extract or exclude the 4 leads: chitvanich2016, arbache2018, wambier2018, rajegowda2021 (check for duplicate cohort).
 - [ ] Search Web of Science and Scopus if access exists.
 - [x] Search GEO, BioImage Archive, Zenodo, Figshare (2026-11-27, two quoted queries each, APIs): 0 IGH datasets or image deposits. 4 repository hits plus 2 BioStudies literature records, all excluded. Awaiting Gate A review of `data/screening_log.csv`.
-- [ ] First real run of `tools/pubmed.py` (never executed).
+- [x] First real run of `tools/pubmed.py` (2026-11-27, cloud thread): tool works unchanged. Four queries, 17/20/4/96 hits, 100 unique PMIDs, 80 newly screened (see `data/search_log.csv`, `data/screening_log.csv`). Abstracts in `papers/excerpts/pmid_*.txt` and copied to the project files folder.
+- [ ] **Gate A, waiting for Ben:** review 14 newly included IGH treatment records from the PubMed run (PMIDs 10429990, 10594616, 15187317, 20232585, 2229495, 22646755, 23656568, 24616848, 29547020, 31396960, 32360719, 34084020, 34409340, 34409366) and 9 leads before any extraction. Six of the 14 are letters or reports with no abstract (full text needed).
 
 ## Paywall list (Ben: drop PDFs into `papers/pdfs/`, named `<study_id>.pdf`)
 
