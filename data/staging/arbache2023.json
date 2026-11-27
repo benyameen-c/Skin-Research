@@ -293,7 +293,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Second check, 2026-11-27, from papers/excerpts/arbache2023.txt alone. 2 failed cells. row 0, uncertainty: the registry lists 'Lead sponsor: Clinica Dermatologica Arbache ltda' while the first author is 'Arbache S'; a possible author-sponsor link that weakens the result is not recorded. The registry also gives 'Intervention model: PARALLEL' against the abstract's 'split-body' design; this discrepancy is not recorded (the masking discrepancy is). row 1, uncertainty: same two omissions (sponsor 'Clinica Dermatologica Arbache ltda'; 'Intervention model: PARALLEL' vs 'split-body'). All other cells checked and supported: quotes match the source, arms and time point correct, analysis_unit limb matches the medians, outcome_tier lesion_count is the weakest reading, months_after_final_tx 1 rests on '30 days after treatment' with the final-session doubt recorded, missing items marked 'not in abstract'."
  }
 }
