@@ -1,0 +1,12 @@
+study_id,ledger_field,published_pct,reason,pct_quote_location
+rerknimitr2015,arm_result,83.34; 18.34,"denominator inferred, not audited: ledger's [60] treated lesions (2 per patient) is a bracketed inference; audited against the stated 120 instead","Abstract, Results"
+rajegowda2021,arm_result,[24]; [47.2],"percentage and count are bracketed inferences (minimal plus no response combined), not printed in the source","Abstract, Results"
+shin2013,patient_noticeability,82.5,"denominator inferred, not audited: ledger records '[denominator 40 inferred from 33/40 = 82.5%]'","Abstract, Results"
+ravikiran2014,dark_overshoot,11.5,denominator named in words only ('pigmented lesions'); ledger's note on 89 vs 139 is a bracketed inference,Results
+ravikiran2014,texture_or_scar,17.2; 17.26,"no number printed with the percentage ('of IGH macules', 'of lesions')",Results
+ravikiran2014,arm_result,45; 41.5 (abstract),abstract says 'of the total IGH macules' with no number; the Results version with n = 89 is audited,"Abstract, Results"
+ravikiran2014,body_site,20; 14,no denominator printed,Results
+deepadarshan2023,body_site,72.7; 18.2; 9.1,denominator not reported; ledger's patient-count fit is a bracketed inference,"Results, p. 1355"
+elhoshy2025,arm_result,80; 85,lesion count not in abstract,"PubMed abstract, Results"
+elhoshy2025,arm_result,37.5; 33.33; 29; 50,"medians of a percentage scale, not proportions of a count","PubMed abstract, Results"
+pagnoni1999,texture_or_scar,77; 34,"relative change in an instrument reading, not a proportion of a count","Results, Treatment"
