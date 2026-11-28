@@ -21,9 +21,9 @@
    "intervention": "suction blister epidermal grafting (SBEG), day care, local anaesthesia; patients 'not advised specifically to take phototherapy after the procedure'",
    "comparator": "none",
    "time_from_start": "2 to 62 months follow-up (mean 23.6, SD 17.79) [counted from the SBEG procedure; per-patient times not reported]",
-   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken)",
-   "complete_match": "not reported (no colour-match grade or count; the only colour statement is qualitative: 'The face and lips showed an excellent result, color match and persistent pigment retention')",
-   "dark_overshoot": "not reported for the recipient site (hyperpigmentation was reported only at the donor site, see texture_or_scar)",
+   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken, and Discussion says 'even without postgraft phototherapy', [suggesting some patients had it])",
+   "complete_match": "not reported (no colour-match grade, count or scale). The source's colour statements are all qualitative: Results, 'The face and lips showed an excellent result, color match and persistent pigment retention'; Figure 2 caption, lower-lip vitiligo 'fully repigmented and normalized after surgery'; Figure 3 caption, 'A near total re-pigmentation with excellent color match' (segmental vitiligo of the face); Discussion, 'Color and texture match with the surrounding skin is generally good' [a general statement citing reference 6, not a result of this study]",
+   "dark_overshoot": "not reported for the recipient site (the source reports postinflammatory hyperpigmentation for the donor site, see texture_or_scar; it does not describe recipient-site hyperpigmentation)",
    "texture_or_scar": "donor site: completely healed 16 of 30 patients (53.3%), mild postinflammatory hyperpigmentation 12 (40.0%), significant postinflammatory hyperpigmentation 2 (6.7%); 'no keloids or hypertrophic scars in any of the patients' [donor site; recipient-site texture not reported]",
    "attrition": "4 of 30 did not attend the December 2013 recall; their last recorded visit and photographs were used [so their follow-up time is shorter than the recall date implies]",
    "verification_status": "PENDING (full text)",
@@ -36,7 +36,7 @@
    "arm_result": "15 of 30 patients (50.0%) graded excellent, 95-100% repigmentation of the treated area",
    "patient_noticeability": "not reported per grade (patient satisfaction for all 30: very happy 16 (53.3%), happy 8 (26.7%), satisfactory 3 (10.0%), unhappy 3 (10.0%); correlation with doctor grade Spearman's rho 0.866)",
    "outcome_tier": "partial_repigmentation",
-   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; no blinding, no instrument, no stated photo-based method [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described only qualitatively for face and lips ('excellent result, color match and persistent pigment retention'), with no count, scale or time point. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; blinding and instrument not reported; photographs were taken at every visit but [whether grades were read from photographs is not reported]; [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described qualitatively, with no count, scale or time point, in the Results sentence on face and lips ('excellent result, color match and persistent pigment retention') and in the Figure 2 ('fully repigmented and normalized after surgery') and Figure 3 ('near total re-pigmentation with excellent color match') captions, each showing one face or lip case. Post-graft phototherapy: Methods say patients 'were not advised specifically to take phototherapy after the procedure', but Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy' [which suggests some patients may have had postgraft phototherapy; who and when are not reported]. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
   },
   {
    "module": "1-hypopigmentation",
@@ -56,9 +56,9 @@
    "intervention": "suction blister epidermal grafting (SBEG), day care, local anaesthesia; patients 'not advised specifically to take phototherapy after the procedure'",
    "comparator": "none",
    "time_from_start": "2 to 62 months follow-up (mean 23.6, SD 17.79) [counted from the SBEG procedure; per-patient times not reported]",
-   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken)",
-   "complete_match": "not reported (no colour-match grade or count; the only colour statement is qualitative: 'The face and lips showed an excellent result, color match and persistent pigment retention')",
-   "dark_overshoot": "not reported for the recipient site (hyperpigmentation was reported only at the donor site, see texture_or_scar)",
+   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken, and Discussion says 'even without postgraft phototherapy', [suggesting some patients had it])",
+   "complete_match": "not reported (no colour-match grade, count or scale). The source's colour statements are all qualitative: Results, 'The face and lips showed an excellent result, color match and persistent pigment retention'; Figure 2 caption, lower-lip vitiligo 'fully repigmented and normalized after surgery'; Figure 3 caption, 'A near total re-pigmentation with excellent color match' (segmental vitiligo of the face); Discussion, 'Color and texture match with the surrounding skin is generally good' [a general statement citing reference 6, not a result of this study]",
+   "dark_overshoot": "not reported for the recipient site (the source reports postinflammatory hyperpigmentation for the donor site, see texture_or_scar; it does not describe recipient-site hyperpigmentation)",
    "texture_or_scar": "donor site: completely healed 16 of 30 patients (53.3%), mild postinflammatory hyperpigmentation 12 (40.0%), significant postinflammatory hyperpigmentation 2 (6.7%); 'no keloids or hypertrophic scars in any of the patients' [donor site; recipient-site texture not reported]",
    "attrition": "4 of 30 did not attend the December 2013 recall; their last recorded visit and photographs were used [so their follow-up time is shorter than the recall date implies]",
    "verification_status": "PENDING (full text)",
@@ -71,7 +71,7 @@
    "arm_result": "9 of 30 patients (30.0%) graded good, 65-94% repigmentation of the treated area",
    "patient_noticeability": "not reported per grade (patient satisfaction for all 30: very happy 16 (53.3%), happy 8 (26.7%), satisfactory 3 (10.0%), unhappy 3 (10.0%); correlation with doctor grade Spearman's rho 0.866)",
    "outcome_tier": "partial_repigmentation",
-   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; no blinding, no instrument, no stated photo-based method [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described only qualitatively for face and lips ('excellent result, color match and persistent pigment retention'), with no count, scale or time point. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; blinding and instrument not reported; photographs were taken at every visit but [whether grades were read from photographs is not reported]; [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described qualitatively, with no count, scale or time point, in the Results sentence on face and lips ('excellent result, color match and persistent pigment retention') and in the Figure 2 ('fully repigmented and normalized after surgery') and Figure 3 ('near total re-pigmentation with excellent color match') captions, each showing one face or lip case. Post-graft phototherapy: Methods say patients 'were not advised specifically to take phototherapy after the procedure', but Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy' [which suggests some patients may have had postgraft phototherapy; who and when are not reported]. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
   },
   {
    "module": "1-hypopigmentation",
@@ -91,9 +91,9 @@
    "intervention": "suction blister epidermal grafting (SBEG), day care, local anaesthesia; patients 'not advised specifically to take phototherapy after the procedure'",
    "comparator": "none",
    "time_from_start": "2 to 62 months follow-up (mean 23.6, SD 17.79) [counted from the SBEG procedure; per-patient times not reported]",
-   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken)",
-   "complete_match": "not reported (no colour-match grade or count; the only colour statement is qualitative: 'The face and lips showed an excellent result, color match and persistent pigment retention')",
-   "dark_overshoot": "not reported for the recipient site (hyperpigmentation was reported only at the donor site, see texture_or_scar)",
+   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken, and Discussion says 'even without postgraft phototherapy', [suggesting some patients had it])",
+   "complete_match": "not reported (no colour-match grade, count or scale). The source's colour statements are all qualitative: Results, 'The face and lips showed an excellent result, color match and persistent pigment retention'; Figure 2 caption, lower-lip vitiligo 'fully repigmented and normalized after surgery'; Figure 3 caption, 'A near total re-pigmentation with excellent color match' (segmental vitiligo of the face); Discussion, 'Color and texture match with the surrounding skin is generally good' [a general statement citing reference 6, not a result of this study]",
+   "dark_overshoot": "not reported for the recipient site (the source reports postinflammatory hyperpigmentation for the donor site, see texture_or_scar; it does not describe recipient-site hyperpigmentation)",
    "texture_or_scar": "donor site: completely healed 16 of 30 patients (53.3%), mild postinflammatory hyperpigmentation 12 (40.0%), significant postinflammatory hyperpigmentation 2 (6.7%); 'no keloids or hypertrophic scars in any of the patients' [donor site; recipient-site texture not reported]",
    "attrition": "4 of 30 did not attend the December 2013 recall; their last recorded visit and photographs were used [so their follow-up time is shorter than the recall date implies]",
    "verification_status": "PENDING (full text)",
@@ -106,7 +106,7 @@
    "arm_result": "4 of 30 patients (13.3%) graded fair, 25-64% repigmentation of the treated area",
    "patient_noticeability": "not reported per grade (patient satisfaction for all 30: very happy 16 (53.3%), happy 8 (26.7%), satisfactory 3 (10.0%), unhappy 3 (10.0%); correlation with doctor grade Spearman's rho 0.866)",
    "outcome_tier": "partial_repigmentation",
-   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; no blinding, no instrument, no stated photo-based method [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described only qualitatively for face and lips ('excellent result, color match and persistent pigment retention'), with no count, scale or time point. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; blinding and instrument not reported; photographs were taken at every visit but [whether grades were read from photographs is not reported]; [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described qualitatively, with no count, scale or time point, in the Results sentence on face and lips ('excellent result, color match and persistent pigment retention') and in the Figure 2 ('fully repigmented and normalized after surgery') and Figure 3 ('near total re-pigmentation with excellent color match') captions, each showing one face or lip case. Post-graft phototherapy: Methods say patients 'were not advised specifically to take phototherapy after the procedure', but Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy' [which suggests some patients may have had postgraft phototherapy; who and when are not reported]. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
   },
   {
    "module": "1-hypopigmentation",
@@ -126,9 +126,9 @@
    "intervention": "suction blister epidermal grafting (SBEG), day care, local anaesthesia; patients 'not advised specifically to take phototherapy after the procedure'",
    "comparator": "none",
    "time_from_start": "2 to 62 months follow-up (mean 23.6, SD 17.79) [counted from the SBEG procedure; per-patient times not reported]",
-   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken)",
-   "complete_match": "not reported (no colour-match grade or count; the only colour statement is qualitative: 'The face and lips showed an excellent result, color match and persistent pigment retention')",
-   "dark_overshoot": "not reported for the recipient site (hyperpigmentation was reported only at the donor site, see texture_or_scar)",
+   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken, and Discussion says 'even without postgraft phototherapy', [suggesting some patients had it])",
+   "complete_match": "not reported (no colour-match grade, count or scale). The source's colour statements are all qualitative: Results, 'The face and lips showed an excellent result, color match and persistent pigment retention'; Figure 2 caption, lower-lip vitiligo 'fully repigmented and normalized after surgery'; Figure 3 caption, 'A near total re-pigmentation with excellent color match' (segmental vitiligo of the face); Discussion, 'Color and texture match with the surrounding skin is generally good' [a general statement citing reference 6, not a result of this study]",
+   "dark_overshoot": "not reported for the recipient site (the source reports postinflammatory hyperpigmentation for the donor site, see texture_or_scar; it does not describe recipient-site hyperpigmentation)",
    "texture_or_scar": "donor site: completely healed 16 of 30 patients (53.3%), mild postinflammatory hyperpigmentation 12 (40.0%), significant postinflammatory hyperpigmentation 2 (6.7%); 'no keloids or hypertrophic scars in any of the patients' [donor site; recipient-site texture not reported]",
    "attrition": "4 of 30 did not attend the December 2013 recall; their last recorded visit and photographs were used [so their follow-up time is shorter than the recall date implies]",
    "verification_status": "PENDING (full text)",
@@ -141,7 +141,7 @@
    "arm_result": "2 of 30 patients (6.7%) graded poor, 0-24% repigmentation of the treated area",
    "patient_noticeability": "not reported per grade (patient satisfaction for all 30: very happy 16 (53.3%), happy 8 (26.7%), satisfactory 3 (10.0%), unhappy 3 (10.0%); correlation with doctor grade Spearman's rho 0.866)",
    "outcome_tier": "partial_repigmentation",
-   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; no blinding, no instrument, no stated photo-based method [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described only qualitatively for face and lips ('excellent result, color match and persistent pigment retention'), with no count, scale or time point. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; blinding and instrument not reported; photographs were taken at every visit but [whether grades were read from photographs is not reported]; [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described qualitatively, with no count, scale or time point, in the Results sentence on face and lips ('excellent result, color match and persistent pigment retention') and in the Figure 2 ('fully repigmented and normalized after surgery') and Figure 3 ('near total re-pigmentation with excellent color match') captions, each showing one face or lip case. Post-graft phototherapy: Methods say patients 'were not advised specifically to take phototherapy after the procedure', but Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy' [which suggests some patients may have had postgraft phototherapy; who and when are not reported]. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images."
   },
   {
    "module": "1-hypopigmentation",
@@ -161,9 +161,9 @@
    "intervention": "suction blister epidermal grafting (SBEG), day care, local anaesthesia; patients 'not advised specifically to take phototherapy after the procedure'",
    "comparator": "none",
    "time_from_start": "2 to 62 months follow-up (mean 23.6, SD 17.79) [counted from the SBEG procedure; per-patient times not reported]",
-   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken)",
-   "complete_match": "not reported (no colour-match grade or count; the only colour statement is qualitative: 'The face and lips showed an excellent result, color match and persistent pigment retention')",
-   "dark_overshoot": "not reported for the recipient site (hyperpigmentation was reported only at the donor site, see texture_or_scar)",
+   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken, and Discussion says 'even without postgraft phototherapy', [suggesting some patients had it])",
+   "complete_match": "not reported (no colour-match grade, count or scale). The source's colour statements are all qualitative: Results, 'The face and lips showed an excellent result, color match and persistent pigment retention'; Figure 2 caption, lower-lip vitiligo 'fully repigmented and normalized after surgery'; Figure 3 caption, 'A near total re-pigmentation with excellent color match' (segmental vitiligo of the face); Discussion, 'Color and texture match with the surrounding skin is generally good' [a general statement citing reference 6, not a result of this study]",
+   "dark_overshoot": "not reported for the recipient site (the source reports postinflammatory hyperpigmentation for the donor site, see texture_or_scar; it does not describe recipient-site hyperpigmentation)",
    "texture_or_scar": "donor site: completely healed 16 of 30 patients (53.3%), mild postinflammatory hyperpigmentation 12 (40.0%), significant postinflammatory hyperpigmentation 2 (6.7%); 'no keloids or hypertrophic scars in any of the patients' [donor site; recipient-site texture not reported]",
    "attrition": "4 of 30 did not attend the December 2013 recall; their last recorded visit and photographs were used [so their follow-up time is shorter than the recall date implies]",
    "verification_status": "PENDING (full text)",
@@ -176,7 +176,7 @@
    "arm_result": "very happy 16 of 30 (53.3%), happy 8 (26.7%), satisfactory 3 (10.0%), unhappy 3 (10.0%); correlation with doctor grade Spearman's rho 0.866, P = 0.0001",
    "patient_noticeability": "very happy 16 of 30 (53.3%), happy 8 (26.7%), satisfactory 3 (10.0%), unhappy 3 (10.0%) [satisfaction, not a direct question about whether the spot is noticeable]",
    "outcome_tier": "unquantified",
-   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; no blinding, no instrument, no stated photo-based method [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described only qualitatively for face and lips ('excellent result, color match and persistent pigment retention'), with no count, scale or time point. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images. This row is patient satisfaction, not a repigmentation or colour measure; it does not say whether the spot is still noticeable."
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; blinding and instrument not reported; photographs were taken at every visit but [whether grades were read from photographs is not reported]; [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described qualitatively, with no count, scale or time point, in the Results sentence on face and lips ('excellent result, color match and persistent pigment retention') and in the Figure 2 ('fully repigmented and normalized after surgery') and Figure 3 ('near total re-pigmentation with excellent color match') captions, each showing one face or lip case. Post-graft phototherapy: Methods say patients 'were not advised specifically to take phototherapy after the procedure', but Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy' [which suggests some patients may have had postgraft phototherapy; who and when are not reported]. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images. This row is patient satisfaction, not a repigmentation or colour measure; it does not say whether the spot is still noticeable."
   },
   {
    "module": "1-hypopigmentation",
@@ -196,9 +196,9 @@
    "intervention": "suction blister epidermal grafting (SBEG), day care, local anaesthesia; patients 'not advised specifically to take phototherapy after the procedure'",
    "comparator": "none",
    "time_from_start": "2 to 62 months follow-up (mean 23.6, SD 17.79) [counted from the SBEG procedure; per-patient times not reported]",
-   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken)",
-   "complete_match": "not reported as a count or grade; authors describe 'color match' on face and lips qualitatively [Figure 3 caption: 'near total re-pigmentation with excellent color match' in one patient]",
-   "dark_overshoot": "not reported for the recipient site (hyperpigmentation was reported only at the donor site, see texture_or_scar)",
+   "time_from_last_treatment": "NOT_DERIVABLE: follow-up of 2 to 62 months (mean 23.6) is given as one range for the whole series, not per patient or per grade; the number of SBEG sessions per patient and any later treatment are not reported ('not advised specifically to take phototherapy' does not say none was taken, and Discussion says 'even without postgraft phototherapy', [suggesting some patients had it])",
+   "complete_match": "not reported (no colour-match grade, count or scale). The source's colour statements are all qualitative: Results, 'The face and lips showed an excellent result, color match and persistent pigment retention'; Figure 2 caption, lower-lip vitiligo 'fully repigmented and normalized after surgery'; Figure 3 caption, 'A near total re-pigmentation with excellent color match' (segmental vitiligo of the face); Discussion, 'Color and texture match with the surrounding skin is generally good' [a general statement citing reference 6, not a result of this study]",
+   "dark_overshoot": "not reported for the recipient site (the source reports postinflammatory hyperpigmentation for the donor site, see texture_or_scar; it does not describe recipient-site hyperpigmentation)",
    "texture_or_scar": "donor site: completely healed 16 of 30 patients (53.3%), mild postinflammatory hyperpigmentation 12 (40.0%), significant postinflammatory hyperpigmentation 2 (6.7%); 'no keloids or hypertrophic scars in any of the patients' [donor site; recipient-site texture not reported]",
    "attrition": "4 of 30 did not attend the December 2013 recall; their last recorded visit and photographs were used [so their follow-up time is shorter than the recall date implies]",
    "verification_status": "PENDING (full text)",
@@ -211,7 +211,7 @@
    "arm_result": "face and lips: 'excellent result, color match and persistent pigment retention' (qualitative; number of face or lip patients not reported); limbs 'comparatively less response'",
    "patient_noticeability": "not reported for this subgroup",
    "outcome_tier": "unquantified",
-   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; no blinding, no instrument, no stated photo-based method [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described only qualitatively for face and lips ('excellent result, color match and persistent pigment retention'), with no count, scale or time point. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images. This row has no number: the colour-match statement covers an unstated number of face and lip patients at unstated times, so it cannot be a lasting_color_match row."
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo, a Module 5-damage-repair lead (epidermal graft transplantation with long but variable follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Retrospective case series, no control arm, 30 patients, small sample and variable follow-up named by the authors as the main limitation. Follow-up 2 to 62 months is reported only for the whole series, never per grade or per patient, so no grade can be tied to a time point and months after final treatment is NOT_DERIVABLE; number of SBEG sessions per patient and any later treatment are not reported. Grade cut-offs differ between abstract ('fair (24-64%), good (64-94)') and Methods ('good with 65-94%, fair with 25-64%'); Table 1 uses 25-64% and 65-94%. Abstract says grades were assigned 'depending on the patient satisfaction', while Methods and Table 1 say doctor observation of the treated area; patient satisfaction is reported separately in Table 2. Grades are percentage repigmentation of the treated area estimated by doctor observation; blinding and instrument not reported; photographs were taken at every visit but [whether grades were read from photographs is not reported]; [assessor identity not reported]. An 'excellent' grade (95-100%) is partial repigmentation, not complete area coverage and not a colour match. Unit is the patient; number of grafted lesions per patient and how one grade was given to a patient with several lesions are not reported. Body sites per patient not reported; text says face and lips did best and limbs worse, with no counts. Colour match is described qualitatively, with no count, scale or time point, in the Results sentence on face and lips ('excellent result, color match and persistent pigment retention') and in the Figure 2 ('fully repigmented and normalized after surgery') and Figure 3 ('near total re-pigmentation with excellent color match') captions, each showing one face or lip case. Post-graft phototherapy: Methods say patients 'were not advised specifically to take phototherapy after the procedure', but Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy' [which suggests some patients may have had postgraft phototherapy; who and when are not reported]. 4 of 30 patients did not attend the December 2013 recall; their last recorded visit was used, so their follow-up is shorter than the series range implies [and their grades may be at an earlier time]. Diagnosis wording differs: Methods 'stable or segmental vitiligo', abstract 'stable vitiligo not responding to medical line of treatment'. Statistics contain an impossible value: 'Spearman's rho 0.482, P = -0.007' for site vs donor area changes. Tables 1-3 are published only as images; their cells were transcribed into the excerpt (image URLs in the excerpt) and should be checked against the images. This row has no number: the colour-match statements cover an unstated number of face and lip patients at unstated times, so it cannot be a lasting_color_match row."
   }
  ],
  "quotes": [
@@ -946,10 +946,191 @@
    "field": "complete_match",
    "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
    "location": "Figure 3 caption"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "complete_match",
+   "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery",
+   "location": "Figure 2 caption"
+  },
+  {
+   "row": 0,
+   "field": "complete_match",
+   "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 0,
+   "field": "complete_match",
+   "quote": "Color and texture match with the surrounding skin is generally good.[6]",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "complete_match",
+   "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery",
+   "location": "Figure 2 caption"
+  },
+  {
+   "row": 1,
+   "field": "complete_match",
+   "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 1,
+   "field": "complete_match",
+   "quote": "Color and texture match with the surrounding skin is generally good.[6]",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "complete_match",
+   "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery",
+   "location": "Figure 2 caption"
+  },
+  {
+   "row": 2,
+   "field": "complete_match",
+   "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 2,
+   "field": "complete_match",
+   "quote": "Color and texture match with the surrounding skin is generally good.[6]",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "complete_match",
+   "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery",
+   "location": "Figure 2 caption"
+  },
+  {
+   "row": 3,
+   "field": "complete_match",
+   "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 3,
+   "field": "complete_match",
+   "quote": "Color and texture match with the surrounding skin is generally good.[6]",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "complete_match",
+   "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery",
+   "location": "Figure 2 caption"
+  },
+  {
+   "row": 4,
+   "field": "complete_match",
+   "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 4,
+   "field": "complete_match",
+   "quote": "Color and texture match with the surrounding skin is generally good.[6]",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "complete_match",
+   "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery",
+   "location": "Figure 2 caption"
+  },
+  {
+   "row": 5,
+   "field": "complete_match",
+   "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match",
+   "location": "Figure 3 caption"
+  },
+  {
+   "row": 5,
+   "field": "complete_match",
+   "quote": "Color and texture match with the surrounding skin is generally good.[6]",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.",
+   "location": "Discussion"
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "FAIL, 5 failed cells (one issue). Checked all 6 rows and every quote against papers/excerpts/pmc_4533535.txt; Tables 1-3 checked against the three PMC table images (IJD-60-369-g004, g005, g007): every transcribed cell matches. Failed: row 0, complete_match; row 1, complete_match; row 2, complete_match; row 3, complete_match; row 4, complete_match: each says 'the only colour statement is qualitative: The face and lips showed an excellent result, color match and persistent pigment retention', but the source has a second colour statement, Figure 3 caption: 'Segmental vitiligo of the face. A near total re-pigmentation with excellent color match' (row 5 already cites it), and Figure 2 caption: 'fully repigmented and normalized after surgery'. 'not reported' itself is correct; the word 'only' is not. Everything else holds: counts 15/9/4/2 of 30, satisfaction 16/8/3/3, donor 16/12/2, rho 0.866 P = 0.0001; NOT_DERIVABLE time is correct (series range only, no per-patient times); unit is patient; outcome_tier partial_repigmentation for every grade including 95-100% and unquantified for rows 4-5 are the weakest readings; recipient-site excess pigment 'not reported' is correct (full text silent); attrition (4 of 30 used last visit) recorded. Non-blocking for the fix round: Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy', which implies some patients may have had postgraft phototherapy; uncertainty covers this only as 'any later treatment are not reported' and could quote it."
+  "status": "PENDING",
+  "notes": "",
+  "fix_round_1": "2026-11-28 extractor fix after verifier 1 FAIL: complete_match rows 0-5 now list every colour statement (Results face/lips sentence, Figure 2 and Figure 3 captions, Discussion general statement) instead of calling one 'the only' one; uncertainty rows 0-5 add the Figure captions and the Discussion 'even without postgraft phototherapy' line; time_from_last_treatment notes that line; other absolute wording softened: assessment 'no stated photo-based method' replaced (photographs were taken at every visit), dark_overshoot 'reported only at the donor site' reworded. Verifier 1 notes: FAIL, 5 failed cells (one issue). Checked all 6 rows and every quote against papers/excerpts/pmc_4533535.txt; Tables 1-3 checked against the three PMC table images (IJD-60-369-g004, g005, g007): every transcribed cell matches. Failed: row 0, complete_match; row 1, complete_match; row 2, complete_match; row 3, complete_match; row 4, complete_match: each says 'the only colour statement is qualitative: The face and lips showed an excellent result, color match and persistent pigment retention', but the source has a second colour statement, Figure 3 caption: 'Segmental vitiligo of the face. A near total re-pigmentation with excellent color match' (row 5 already cites it), and Figure 2 caption: 'fully repigmented and normalized after surgery'. 'not reported' itself is correct; the word 'only' is not. Everything else holds: counts 15/9/4/2 of 30, satisfaction 16/8/3/3, donor 16/12/2, rho 0.866 P = 0.0001; NOT_DERIVABLE time is correct (series range only, no per-patient times); unit is patient; outcome_tier partial_repigmentation for every grade including 95-100% and unquantified for rows 4-5 are the weakest readings; recipient-site excess pigment 'not reported' is correct (full text silent); attrition (4 of 30 used last visit) recorded. Non-blocking for the fix round: Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy', which implies some patients may have had postgraft phototherapy; uncertainty covers this only as 'any later treatment are not reported' and could quote it."
  }
 }
