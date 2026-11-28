@@ -1285,7 +1285,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "Verifier attempt 1 of 2 (2026-11-28, fresh context, source text papers/excerpts/hoangvan2025.txt = pmc_11845954.txt). 2 failed cells. row 10, outcome_tier: 'lasting_color_match' is not the weakest reading the text supports. The source gives only an undefined by-eye category ('Color match was also evaluated by comparing the color of grafted lesions with the surrounding normal skin in the clinical evaluations as good color match, hypopigmentation or hyperpigmentation'), reported once (Table 4, placed 'at 18 months' only by the Discussion), so nothing shows the match lasted across time points; the Discussion says the colour changed ('the color gradually normalized'). 'Good match' (23 of 30) describes the colour of the repigmented graft, not the whole lesion: only 10 of 30 reached 100% repigmentation (Table 2), as the row's own complete_match cell says. Use a weaker tier (precedent: hirobe2018 by-eye 'maintained' colour match is 'unquantified'). row 11, outcome_tier: same as row 10 for group 2 (good match 22 of 30, 100% repigmentation 2 of 30). Checked and correct: every Table 2, 3 and 4 count and p value per arm; patients as unit; no drop-out; recurrence counts; erythema group 1 only; no scarring; 15.9 months after final excimer derived and bracketed in time_from_last_treatment (1 week + day 2 + 8 weeks, about 65 days), 18 months for NCECS-only rows; onset rows NOT_APPLICABLE; Table 2 >=75% count/percent mismatch, 23.4% rounding, 80% vs 85% segmental and day-of-admission allocation vs 'randomly assigned' all in uncertainty. Advisory, not counted: intervention cells on group 1 rows write '308-nm' unbracketed; the source names only the device 'TheraBeam UV308', so bracket it as [308 nm]."
  }
 }
