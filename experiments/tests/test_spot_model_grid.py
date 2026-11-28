@@ -713,24 +713,46 @@ def state_map(snap):
 
 
 def test_one_step_per_day_and_two_stage_loss_on_every_site():
-    """R1, R2, V3 (PMID 7377803) per site: from one day to the next a site may
-    go active->hypoactive, hypoactive->senescent, hypoactive->empty,
-    senescent->empty, or empty->active (division or transplant). Nothing else:
-    no active->empty, no active->senescent, nothing backwards. Fast rates and
-    60 days keep 61 daily snapshots small while still giving every allowed
-    transition many times. Single occupancy (capacity 1) so a site's state is
-    one cell's state; the slot rules are the same for every slot."""
-    p = h2_strong(lambda_D=0.2, k_derm=0.05, k_sen=0.02, k_loss=0.05, k_div=0.05,
+    """R1, R2, V3 (PMID 7377803) per cell: from one day to the next a cell may
+    go active->hypoactive, hypoactive->senescent, hypoactive->gone or
+    senescent->gone. Nothing else: no active->gone, no active->senescent,
+    nothing backwards. Fast rates and 60 days keep 61 daily snapshots small
+    while still giving every allowed transition many times. Single occupancy
+    (capacity 1) so a site's state is one cell's state.
+
+    The contract fills slots AFTER that day's transitions, so on a transplant
+    day a hypoactive or senescent cell can be lost and its slot refilled the
+    same day: the SITE shows hypoactive/senescent -> active. That is a new cell,
+    not the old one recovering, so it is allowed only on the transplant day and
+    only where the site's cell newly carries the transplant label. Division is
+    off here (k_div 0) because a resident daughter cannot be told apart from
+    the old cell by label; division has its own test below, and the order of
+    division relative to the same day's losses is not pinned by any test.
+    (Corrected 2026-11-28: the first version forbade (2, 1) and (3, 1) on
+    every day, which contradicts the contract's own order on a transplant
+    day.)"""
+    p = h2_strong(lambda_D=0.2, k_derm=0.05, k_sen=0.02, k_loss=0.05, k_div=0.0,
                   d_spot=2.0, tx_site_capacity=1)
-    days = 60
-    r = gm.run(p, days=days, seed=4, transplant_days=(30,), snapshot_days=tuple(range(days + 1)))
-    allowed = {(1, 1), (2, 2), (3, 3), (0, 0), (1, 2), (2, 3), (2, 0), (3, 0), (0, 1)}
+    days, t_tx = 60, 30
+    r = gm.run(p, days=days, seed=4, transplant_days=(t_tx,), snapshot_days=tuple(range(days + 1)))
+    allowed = {(1, 1), (2, 2), (3, 3), (0, 0), (1, 2), (2, 3), (2, 0), (3, 0)}
+    refill = {(0, 1), (2, 1), (3, 1)}        # a NEW transplanted cell, day t_tx only
     prev = state_map(r["snapshots"][0])
+    prev_tx = np.asarray(r["snapshots"][0]["transplanted"]).astype(int)
+    n_refilled = 0
     for d in range(1, days + 1):
         cur = state_map(r["snapshots"][d])
-        pairs = set(zip(prev.ravel().tolist(), cur.ravel().tolist()))
-        assert pairs <= allowed, f"day {d}: forbidden transitions {pairs - allowed}"
-        prev = cur
+        cur_tx = np.asarray(r["snapshots"][d]["transplanted"]).astype(int)
+        new_tx = (cur_tx == 1) & (prev_tx == 0)
+        pair_map = list(zip(prev.ravel().tolist(), cur.ravel().tolist()))
+        for (a, b), is_new in zip(pair_map, new_tx.ravel().tolist()):
+            if (a, b) in allowed and not is_new:
+                continue
+            assert d == t_tx and is_new and (a, b) in refill, \
+                f"day {d}: forbidden transition {(a, b)} (new transplanted cell: {is_new})"
+            n_refilled += 1
+        prev, prev_tx = cur, cur_tx
+    assert n_refilled > 0          # the transplant actually placed cells
 
 
 def test_division_only_fills_an_empty_site_next_to_an_active_cell():
