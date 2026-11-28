@@ -4,7 +4,7 @@
 
 <p><span class="tag human">Published human finding</span> Every result below is a number recorded in <code>data/evidence.csv</code> with a verbatim quote in <code>data/evidence_quotes.jsonl</code>, and each one names its study. <span class="tag calc">Calculation on published counts</span> Counts of studies and rows come from the script <code>tools/evidence_summary.py</code>, whose output is pasted in the appendix. No result is pooled, averaged or added up across studies, because the studies count different things (patients, spots, limbs or body sides), stop at different outcome tiers and time their visits differently.</p>
 
-Ledger state for this page: `main` after falabella1987, mulekar2007 and lin2024 were merged, 105 rows from 26 studies (count, appendix).
+Ledger state for this page: `main` after lu2014 and wang2021 were merged, 114 rows from 28 studies (count, appendix).
 
 ### The question
 
@@ -105,6 +105,8 @@ These rows are in the ledger but are never counted as IGH evidence above.
 | suvanprakorn1985 | mixed: vitiligo, IGH and postinflammatory leukoderma, results not separated | abstract | melanocyte grafting; "successful repigmentation" with no counts |
 | mulekar2007 | adjacent diagnosis: vitiligo; Module 5 lead | abstract | pilot comparing a ReCell cell suspension with conventional melanocyte-keratinocyte transplantation on paired lesions; full repigmentation in two of five ReCell lesions versus three of five conventional lesions at 4 months after transplantation; method of assessment not in abstract |
 | lin2024 | adjacent diagnosis: vitiligo; Module 5 lead | full text | retrospective series of cultured pure melanocyte transplantation with no control arm; partial repigmentation by lesion type and stratum; the visit of each result is not timed from the final treatment |
+| lu2014 | adjacent diagnosis: vitiligo; Module 5 lead | abstract | follow-up of autologous epidermal sheet grafting with no control arm; partial repigmentation by sheet and by patient grade, and a "completely matching" share by body site whose definition is not in abstract; not timed from the final treatment |
+| wang2021 | adjacent diagnosis: stable head and neck vitiligo; Module 5 lead | abstract | pixel array epidermal grafting then phototherapy, single group; partial repigmentation and an instrument colour-matching index from the melanin index against adjacent skin; timed from grafting, not from the final phototherapy |
 
 ### What is missing
 
@@ -119,12 +121,12 @@ These rows are in the ledger but are never counted as IGH evidence above.
 
 Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 tools/evidence_summary.py --check content/evidence-summary.md`, which fails if a number above is not in a quote of the study named on its line, or, on a line marked "(count, appendix)", not in this output.
 
-    ledger rows: 105; studies: 26
+    ledger rows: 114; studies: 28
 
     A. Rows and studies by diagnosis group (a study can sit in more than one group)
       IGH       rows  53  studies 21: arbache2018, arbache2023, asawanonda2010, chitvanich2016, deepadarshan2023, deoson2025, falabella1987, goldust2013, gordon2017, hirobe2018, koh2018, kreeshan2021, laosakul2017, pagnoni1999, ploysangam1990, rajegowda2020, rambhia2020, ravikiran2014, rerknimitr2013, rerknimitr2015, shin2013
       mixed     rows   3  studies  2: pagnoni1999, suvanprakorn1985
-      adjacent  rows  48  studies  4: elhoshy2025, lin2024, mulekar2007, pagnoni1999
+      adjacent  rows  57  studies  6: elhoshy2025, lin2024, lu2014, mulekar2007, pagnoni1999, wang2021
       lead      rows   1  studies  1: wambier2018
 
     B. Access level of the 21 studies with IGH rows
@@ -164,6 +166,7 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       kreeshan2021 | IGH | FULL_TEXT | energy_device,energy_device_plus_topical | patient | unquantified | none
       laosakul2017 | IGH | ABSTRACT_ONLY | control,cryotherapy | lesion | instrument_color,partial_repigmentation | none
       lin2024 | adjacent | FULL_TEXT | grafting | not | partial_repigmentation | none
+      lu2014 | adjacent | ABSTRACT_ONLY | grafting | lesion,not,patient | partial_repigmentation,unquantified | none
       mulekar2007 | adjacent | ABSTRACT_ONLY | grafting | lesion | complete_area_coverage,partial_repigmentation | none
       pagnoni1999 | IGH+adjacent+mixed | FULL_TEXT | control,topical | lesion,patient | partial_repigmentation,unquantified | 12
       ploysangam1990 | IGH | ABSTRACT_ONLY | cryotherapy | lesion | unquantified | none
@@ -174,6 +177,7 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       rerknimitr2015 | IGH | ABSTRACT_ONLY | control,energy_device | lesion,not | instrument_color,partial_repigmentation | none
       shin2013 | IGH | ABSTRACT_ONLY | laser | patient | partial_repigmentation | 2
       suvanprakorn1985 | mixed | ABSTRACT_ONLY | grafting | not | unquantified | none
+      wang2021 | adjacent | ABSTRACT_ONLY | grafting | not | instrument_color,partial_repigmentation,unquantified | none
 
     F. Control and sham arms, all groups (arm_result as recorded)
       laosakul2017 [IGH] control: 2% of control lesions showed more than 75% improvement at the fourth month

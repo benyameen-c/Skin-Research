@@ -1,0 +1,604 @@
+{
+ "study_id": "wang2021",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/wang2021.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "wang2021",
+   "doi_or_pmid": "PMID 33326964; doi:10.1159/000511892",
+   "source_location": "PubMed abstract (Background, Objective, Methods, Results, Conclusion)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; doi.org -> karger.com HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: stable vitiligo of the head and neck ('head and neck vitiligo lesions stable for at least 6 months'); [not IGH]; Module 5-damage-repair lead (transplant colour-match search)",
+   "design": "prospective cohort study (title); [single treated group, uncontrolled] (no comparator in abstract); physicians' assessment blinded",
+   "body_site": "head and neck",
+   "skin_tone": "Asian (Fitzpatrick type not in abstract)",
+   "patients_enrolled": "[10] (abstract: 'Ten Asian patients')",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "not in abstract whether the means are per patient or per lesion ([10] patients enrolled; lesion count not in abstract)",
+   "intervention": "pixel array epidermal grafting with an automatic harvesting system (abstract reports a 'blister harvest time'; [suction method not in abstract]), then post-grafting phototherapy (type, dose and duration not in abstract); mean blister harvest time 46.3 ± 9.7 min",
+   "comparator": "none",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "ABSTRACT_ONLY: Europe PMC says full text 'Subscription required' (not in PMC) and doi.org -> karger.com returned HTTP 403 (2026-11-28); full text needed for every count below. Diagnosis: [not an IGH study]; stable vitiligo of the head and neck in Asian patients, so it bears on the transplantation direction (Module 5 lead) only, never as IGH evidence. Timing: every result is timed 'post grafting'; the abstract also says patients received 'post-grafting phototherapy', whose type, schedule and end date are not in abstract, so time from the final treatment is NOT_DERIVABLE and [the 6-month visit may fall during or shortly after phototherapy]. Unit: [10] patients are enrolled, but the abstract does not say how many lesions were grafted or whether the means and SDs are per patient or per lesion; evaluable counts and attrition are not in abstract. Design: single treated group, no untreated or comparator lesions in abstract, so repigmentation cannot be separated from phototherapy alone or natural change. Colour match: the 'color match of 83.1 ± 13.4%' is a ratio of melanin index in the grafted area to the juxta non-vitiliginous area (instrument not named in abstract); the mean is below a full match, and the share of grafted areas reaching a full match is not in abstract; it is measured once, at 6 months after grafting, so durability is not tested. Repigmentation percentages are area percentiles from image analysis software, with large SDs (26.8, 29.4, 25.9). The 6-month mean 76.5% is partial repigmentation, not complete area coverage. Physicians' assessments: 'no significant differences' from the software, and only the software detected the 3-to-6-month change; physician values themselves are not in abstract. Other: blister harvest time 46.3 ± 9.7 min; 'Three patients had repigmentation of leukotrichia' (denominator of patients with leukotrichia not in abstract). Adverse events, dark overshoot and texture not in abstract. The authors' conclusion 'very good extent of repigmentation and color match' is their judgement, not a threshold defined in the abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Wang YJ, Chang Liao NF, Chang CC, Lin ET, Chiang HM, Lin BS. Quantitative Outcome Assessment of Color Match and the Extent of Repigmentation after Pixel Array Epidermal Grafting for Head and Neck Stable Vitiligo: A Prospective Cohort Study. Dermatology 2021;237(5):835-842",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/33326964/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "endpoint_definition": "percentage of the lesion area repigmented ('area percentile of repigmentation'), mean ± SD; partial repigmentation, not complete coverage or colour match",
+   "assessment_method": "image analysis software on images (camera, lighting and calibration not in abstract)",
+   "time_from_start": "1 month post grafting",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives 1 month post grafting; post-grafting phototherapy was given and its schedule and end date are not in abstract",
+   "arm_result": "area percentile of repigmentation 32.3 ± 26.8 (mean ± SD)",
+   "complete_match": "not in abstract",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "wang2021",
+   "doi_or_pmid": "PMID 33326964; doi:10.1159/000511892",
+   "source_location": "PubMed abstract (Background, Objective, Methods, Results, Conclusion)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; doi.org -> karger.com HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: stable vitiligo of the head and neck ('head and neck vitiligo lesions stable for at least 6 months'); [not IGH]; Module 5-damage-repair lead (transplant colour-match search)",
+   "design": "prospective cohort study (title); [single treated group, uncontrolled] (no comparator in abstract); physicians' assessment blinded",
+   "body_site": "head and neck",
+   "skin_tone": "Asian (Fitzpatrick type not in abstract)",
+   "patients_enrolled": "[10] (abstract: 'Ten Asian patients')",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "not in abstract whether the means are per patient or per lesion ([10] patients enrolled; lesion count not in abstract)",
+   "intervention": "pixel array epidermal grafting with an automatic harvesting system (abstract reports a 'blister harvest time'; [suction method not in abstract]), then post-grafting phototherapy (type, dose and duration not in abstract); mean blister harvest time 46.3 ± 9.7 min",
+   "comparator": "none",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "ABSTRACT_ONLY: Europe PMC says full text 'Subscription required' (not in PMC) and doi.org -> karger.com returned HTTP 403 (2026-11-28); full text needed for every count below. Diagnosis: [not an IGH study]; stable vitiligo of the head and neck in Asian patients, so it bears on the transplantation direction (Module 5 lead) only, never as IGH evidence. Timing: every result is timed 'post grafting'; the abstract also says patients received 'post-grafting phototherapy', whose type, schedule and end date are not in abstract, so time from the final treatment is NOT_DERIVABLE and [the 6-month visit may fall during or shortly after phototherapy]. Unit: [10] patients are enrolled, but the abstract does not say how many lesions were grafted or whether the means and SDs are per patient or per lesion; evaluable counts and attrition are not in abstract. Design: single treated group, no untreated or comparator lesions in abstract, so repigmentation cannot be separated from phototherapy alone or natural change. Colour match: the 'color match of 83.1 ± 13.4%' is a ratio of melanin index in the grafted area to the juxta non-vitiliginous area (instrument not named in abstract); the mean is below a full match, and the share of grafted areas reaching a full match is not in abstract; it is measured once, at 6 months after grafting, so durability is not tested. Repigmentation percentages are area percentiles from image analysis software, with large SDs (26.8, 29.4, 25.9). The 6-month mean 76.5% is partial repigmentation, not complete area coverage. Physicians' assessments: 'no significant differences' from the software, and only the software detected the 3-to-6-month change; physician values themselves are not in abstract. Other: blister harvest time 46.3 ± 9.7 min; 'Three patients had repigmentation of leukotrichia' (denominator of patients with leukotrichia not in abstract). Adverse events, dark overshoot and texture not in abstract. The authors' conclusion 'very good extent of repigmentation and color match' is their judgement, not a threshold defined in the abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Wang YJ, Chang Liao NF, Chang CC, Lin ET, Chiang HM, Lin BS. Quantitative Outcome Assessment of Color Match and the Extent of Repigmentation after Pixel Array Epidermal Grafting for Head and Neck Stable Vitiligo: A Prospective Cohort Study. Dermatology 2021;237(5):835-842",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/33326964/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "endpoint_definition": "percentage of the lesion area repigmented ('area percentile of repigmentation'), mean ± SD; partial repigmentation, not complete coverage or colour match",
+   "assessment_method": "image analysis software on images (camera, lighting and calibration not in abstract)",
+   "time_from_start": "3 months post grafting",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives 3 months post grafting; post-grafting phototherapy was given and its schedule and end date are not in abstract",
+   "arm_result": "area percentile of repigmentation 64.6 ± 29.4 (mean ± SD)",
+   "complete_match": "not in abstract",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "wang2021",
+   "doi_or_pmid": "PMID 33326964; doi:10.1159/000511892",
+   "source_location": "PubMed abstract (Background, Objective, Methods, Results, Conclusion)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; doi.org -> karger.com HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: stable vitiligo of the head and neck ('head and neck vitiligo lesions stable for at least 6 months'); [not IGH]; Module 5-damage-repair lead (transplant colour-match search)",
+   "design": "prospective cohort study (title); [single treated group, uncontrolled] (no comparator in abstract); physicians' assessment blinded",
+   "body_site": "head and neck",
+   "skin_tone": "Asian (Fitzpatrick type not in abstract)",
+   "patients_enrolled": "[10] (abstract: 'Ten Asian patients')",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "not in abstract whether the means are per patient or per lesion ([10] patients enrolled; lesion count not in abstract)",
+   "intervention": "pixel array epidermal grafting with an automatic harvesting system (abstract reports a 'blister harvest time'; [suction method not in abstract]), then post-grafting phototherapy (type, dose and duration not in abstract); mean blister harvest time 46.3 ± 9.7 min",
+   "comparator": "none",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "ABSTRACT_ONLY: Europe PMC says full text 'Subscription required' (not in PMC) and doi.org -> karger.com returned HTTP 403 (2026-11-28); full text needed for every count below. Diagnosis: [not an IGH study]; stable vitiligo of the head and neck in Asian patients, so it bears on the transplantation direction (Module 5 lead) only, never as IGH evidence. Timing: every result is timed 'post grafting'; the abstract also says patients received 'post-grafting phototherapy', whose type, schedule and end date are not in abstract, so time from the final treatment is NOT_DERIVABLE and [the 6-month visit may fall during or shortly after phototherapy]. Unit: [10] patients are enrolled, but the abstract does not say how many lesions were grafted or whether the means and SDs are per patient or per lesion; evaluable counts and attrition are not in abstract. Design: single treated group, no untreated or comparator lesions in abstract, so repigmentation cannot be separated from phototherapy alone or natural change. Colour match: the 'color match of 83.1 ± 13.4%' is a ratio of melanin index in the grafted area to the juxta non-vitiliginous area (instrument not named in abstract); the mean is below a full match, and the share of grafted areas reaching a full match is not in abstract; it is measured once, at 6 months after grafting, so durability is not tested. Repigmentation percentages are area percentiles from image analysis software, with large SDs (26.8, 29.4, 25.9). The 6-month mean 76.5% is partial repigmentation, not complete area coverage. Physicians' assessments: 'no significant differences' from the software, and only the software detected the 3-to-6-month change; physician values themselves are not in abstract. Other: blister harvest time 46.3 ± 9.7 min; 'Three patients had repigmentation of leukotrichia' (denominator of patients with leukotrichia not in abstract). Adverse events, dark overshoot and texture not in abstract. The authors' conclusion 'very good extent of repigmentation and color match' is their judgement, not a threshold defined in the abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Wang YJ, Chang Liao NF, Chang CC, Lin ET, Chiang HM, Lin BS. Quantitative Outcome Assessment of Color Match and the Extent of Repigmentation after Pixel Array Epidermal Grafting for Head and Neck Stable Vitiligo: A Prospective Cohort Study. Dermatology 2021;237(5):835-842",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/33326964/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "endpoint_definition": "percentage of the lesion area repigmented ('area percentile of repigmentation'), mean ± SD; partial repigmentation, not complete coverage or colour match",
+   "assessment_method": "image analysis software on images (camera, lighting and calibration not in abstract)",
+   "time_from_start": "6 months post grafting",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives 6 months post grafting; post-grafting phototherapy was given and its schedule and end date are not in abstract",
+   "arm_result": "area percentile of repigmentation 76.5 ± 25.9 (mean ± SD)",
+   "complete_match": "not in abstract",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "wang2021",
+   "doi_or_pmid": "PMID 33326964; doi:10.1159/000511892",
+   "source_location": "PubMed abstract (Background, Objective, Methods, Results, Conclusion)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; doi.org -> karger.com HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: stable vitiligo of the head and neck ('head and neck vitiligo lesions stable for at least 6 months'); [not IGH]; Module 5-damage-repair lead (transplant colour-match search)",
+   "design": "prospective cohort study (title); [single treated group, uncontrolled] (no comparator in abstract); physicians' assessment blinded",
+   "body_site": "head and neck",
+   "skin_tone": "Asian (Fitzpatrick type not in abstract)",
+   "patients_enrolled": "[10] (abstract: 'Ten Asian patients')",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "not in abstract whether the means are per patient or per lesion ([10] patients enrolled; lesion count not in abstract)",
+   "intervention": "pixel array epidermal grafting with an automatic harvesting system (abstract reports a 'blister harvest time'; [suction method not in abstract]), then post-grafting phototherapy (type, dose and duration not in abstract); mean blister harvest time 46.3 ± 9.7 min",
+   "comparator": "none",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "ABSTRACT_ONLY: Europe PMC says full text 'Subscription required' (not in PMC) and doi.org -> karger.com returned HTTP 403 (2026-11-28); full text needed for every count below. Diagnosis: [not an IGH study]; stable vitiligo of the head and neck in Asian patients, so it bears on the transplantation direction (Module 5 lead) only, never as IGH evidence. Timing: every result is timed 'post grafting'; the abstract also says patients received 'post-grafting phototherapy', whose type, schedule and end date are not in abstract, so time from the final treatment is NOT_DERIVABLE and [the 6-month visit may fall during or shortly after phototherapy]. Unit: [10] patients are enrolled, but the abstract does not say how many lesions were grafted or whether the means and SDs are per patient or per lesion; evaluable counts and attrition are not in abstract. Design: single treated group, no untreated or comparator lesions in abstract, so repigmentation cannot be separated from phototherapy alone or natural change. Colour match: the 'color match of 83.1 ± 13.4%' is a ratio of melanin index in the grafted area to the juxta non-vitiliginous area (instrument not named in abstract); the mean is below a full match, and the share of grafted areas reaching a full match is not in abstract; it is measured once, at 6 months after grafting, so durability is not tested. Repigmentation percentages are area percentiles from image analysis software, with large SDs (26.8, 29.4, 25.9). The 6-month mean 76.5% is partial repigmentation, not complete area coverage. Physicians' assessments: 'no significant differences' from the software, and only the software detected the 3-to-6-month change; physician values themselves are not in abstract. Other: blister harvest time 46.3 ± 9.7 min; 'Three patients had repigmentation of leukotrichia' (denominator of patients with leukotrichia not in abstract). Adverse events, dark overshoot and texture not in abstract. The authors' conclusion 'very good extent of repigmentation and color match' is their judgement, not a threshold defined in the abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Wang YJ, Chang Liao NF, Chang CC, Lin ET, Chiang HM, Lin BS. Quantitative Outcome Assessment of Color Match and the Extent of Repigmentation after Pixel Array Epidermal Grafting for Head and Neck Stable Vitiligo: A Prospective Cohort Study. Dermatology 2021;237(5):835-842",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/33326964/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "endpoint_definition": "colour matching index from the melanin index in the grafted area and the juxta (adjacent) non-vitiliginous area, reported as a percentage 'that of the juxta non-vitiliginous area' [formula not in abstract; presumably grafted / adjacent x 100, so 100% would be a full match]",
+   "assessment_method": "melanin index measurement (instrument not in abstract)",
+   "time_from_start": "6 months after grafting",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives 6 months post grafting; post-grafting phototherapy was given and its schedule and end date are not in abstract",
+   "arm_result": "colour match 83.1 ± 13.4% of the juxta non-vitiliginous area (mean ± SD)",
+   "complete_match": "not in abstract (only the mean ratio is given; number of lesions or patients reaching a full match not in abstract)",
+   "outcome_tier": "instrument_color"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "wang2021",
+   "doi_or_pmid": "PMID 33326964; doi:10.1159/000511892",
+   "source_location": "PubMed abstract (Background, Objective, Methods, Results, Conclusion)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; doi.org -> karger.com HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: stable vitiligo of the head and neck ('head and neck vitiligo lesions stable for at least 6 months'); [not IGH]; Module 5-damage-repair lead (transplant colour-match search)",
+   "design": "prospective cohort study (title); [single treated group, uncontrolled] (no comparator in abstract); physicians' assessment blinded",
+   "body_site": "head and neck",
+   "skin_tone": "Asian (Fitzpatrick type not in abstract)",
+   "patients_enrolled": "[10] (abstract: 'Ten Asian patients')",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "not in abstract whether the means are per patient or per lesion ([10] patients enrolled; lesion count not in abstract)",
+   "intervention": "pixel array epidermal grafting with an automatic harvesting system (abstract reports a 'blister harvest time'; [suction method not in abstract]), then post-grafting phototherapy (type, dose and duration not in abstract); mean blister harvest time 46.3 ± 9.7 min",
+   "comparator": "none",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "ABSTRACT_ONLY: Europe PMC says full text 'Subscription required' (not in PMC) and doi.org -> karger.com returned HTTP 403 (2026-11-28); full text needed for every count below. Diagnosis: [not an IGH study]; stable vitiligo of the head and neck in Asian patients, so it bears on the transplantation direction (Module 5 lead) only, never as IGH evidence. Timing: every result is timed 'post grafting'; the abstract also says patients received 'post-grafting phototherapy', whose type, schedule and end date are not in abstract, so time from the final treatment is NOT_DERIVABLE and [the 6-month visit may fall during or shortly after phototherapy]. Unit: [10] patients are enrolled, but the abstract does not say how many lesions were grafted or whether the means and SDs are per patient or per lesion; evaluable counts and attrition are not in abstract. Design: single treated group, no untreated or comparator lesions in abstract, so repigmentation cannot be separated from phototherapy alone or natural change. Colour match: the 'color match of 83.1 ± 13.4%' is a ratio of melanin index in the grafted area to the juxta non-vitiliginous area (instrument not named in abstract); the mean is below a full match, and the share of grafted areas reaching a full match is not in abstract; it is measured once, at 6 months after grafting, so durability is not tested. Repigmentation percentages are area percentiles from image analysis software, with large SDs (26.8, 29.4, 25.9). The 6-month mean 76.5% is partial repigmentation, not complete area coverage. Physicians' assessments: 'no significant differences' from the software, and only the software detected the 3-to-6-month change; physician values themselves are not in abstract. Other: blister harvest time 46.3 ± 9.7 min; 'Three patients had repigmentation of leukotrichia' (denominator of patients with leukotrichia not in abstract). Adverse events, dark overshoot and texture not in abstract. The authors' conclusion 'very good extent of repigmentation and color match' is their judgement, not a threshold defined in the abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Wang YJ, Chang Liao NF, Chang CC, Lin ET, Chiang HM, Lin BS. Quantitative Outcome Assessment of Color Match and the Extent of Repigmentation after Pixel Array Epidermal Grafting for Head and Neck Stable Vitiligo: A Prospective Cohort Study. Dermatology 2021;237(5):835-842",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/33326964/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "endpoint_definition": "percentage of repigmentation by blinded physicians' assessment (scale not in abstract)",
+   "assessment_method": "blinded physicians' naked-eye assessment (number of physicians and use of photographs not in abstract)",
+   "time_from_start": "1, 3 and 6 months post grafting",
+   "time_from_last_treatment": "NOT_DERIVABLE: the abstract gives 1, 3 and 6 months post grafting; post-grafting phototherapy was given and its schedule and end date are not in abstract",
+   "arm_result": "physician values not in abstract; 'no significant differences' from image analysis software; the 3-to-6-month change was significant only by software",
+   "complete_match": "not in abstract",
+   "outcome_tier": "unquantified"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "Ten Asian patients with head and neck vitiligo lesions stable for at least 6 months were treated with pixel array epidermal grafting",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Three patients had repigmentation of leukotrichia.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "There were no significant differences between the physicians' assessments and the results from the image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The change in the area percentile of repigmentation between 3 and 6 months post grafting was only statistically significant using image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "Ten Asian patients with head and neck vitiligo lesions stable for at least 6 months were treated with pixel array epidermal grafting",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Three patients had repigmentation of leukotrichia.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "There were no significant differences between the physicians' assessments and the results from the image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The change in the area percentile of repigmentation between 3 and 6 months post grafting was only statistically significant using image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "time_from_start",
+   "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "Ten Asian patients with head and neck vitiligo lesions stable for at least 6 months were treated with pixel array epidermal grafting",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Three patients had repigmentation of leukotrichia.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "There were no significant differences between the physicians' assessments and the results from the image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The change in the area percentile of repigmentation between 3 and 6 months post grafting was only statistically significant using image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "time_from_start",
+   "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "Ten Asian patients with head and neck vitiligo lesions stable for at least 6 months were treated with pixel array epidermal grafting",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Three patients had repigmentation of leukotrichia.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "There were no significant differences between the physicians' assessments and the results from the image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The change in the area percentile of repigmentation between 3 and 6 months post grafting was only statistically significant using image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "endpoint_definition",
+   "quote": "The color matching index of repigmentation was evaluated by measuring the melanin index in the grafted area and the juxta non-vitiliginous area.",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "time_from_start",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "patients_enrolled",
+   "quote": "Ten Asian patients with head and neck vitiligo lesions stable for at least 6 months were treated with pixel array epidermal grafting",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "intervention",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "intervention",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "The average blister harvest time was 46.3 ± 9.7 min.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "Three patients had repigmentation of leukotrichia.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "There were no significant differences between the physicians' assessments and the results from the image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "The change in the area percentile of repigmentation between 3 and 6 months post grafting was only statistically significant using image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "The area percentile of repigmentation by the image analysis software were 32.3 ± 26.8, 64.6 ± 29.4, and 76.5 ± 25.9 at 1, 3, and 6 months post grafting, respectively.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "The grafted area achieved a color match of 83.1 ± 13.4% that of the juxta non-vitiliginous area 6 months after grafting.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "There were no significant differences between the physicians' assessments and the results from the image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "The change in the area percentile of repigmentation between 3 and 6 months post grafting was only statistically significant using image analysis software.",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "time_from_start",
+   "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software",
+   "location": "Abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy",
+   "location": "Abstract, Methods"
+  }
+ ],
+ "verifier": {
+  "status": "PASS",
+  "date": "2026-11-28",
+  "attempt": 2,
+  "notes": "Verifier 2 of 2 (2026-11-28, branch claude/project-thread-wc4y32, built on claude/project-thread-hxfscv c13120e), from papers/excerpts/wang2021.txt alone. Validator ok; all 67 quotes found word for word. PASS, 0 failed cells. Both attempt-1 failures fixed: rows 0-4 intervention say only 'an automatic harvesting system' and 'blister harvest time', with '[suction method not in abstract]' bracketed; rows 0-4 uncertainty no longer infer anything from the 83.1% mean beyond its being below a full match, and say the share of areas reaching a full match is not in abstract. Per row: row 0, 1, 2 area percentile 32.3 ± 26.8, 64.6 ± 29.4, 76.5 ± 25.9 match the abstract at 1, 3 and 6 months post grafting, image analysis software, partial_repigmentation is the weakest tier supported. Row 3 colour match 83.1 ± 13.4% of the juxta non-vitiliginous area at 6 months after grafting, melanin index, instrument_color correct (single time point, not a lasting match); formula now bracketed. Row 4 blinded physicians' assessment, no values in abstract, unquantified correct. Every row: months_after_final_tx NOT_DERIVABLE is right (results timed post grafting; post-grafting phototherapy schedule not in abstract); analysis_unit and lesion counts 'not in abstract' correct; patients_enrolled [10] from 'Ten Asian patients'; dark_overshoot, texture_or_scar, attrition, patient_noticeability 'not in abstract' correct (the abstract mentions none). Weakening points all in uncertainty: no comparator, large SDs, phototherapy confound, software-only 3-to-6-month change, physician values absent, leukotrichia denominator absent, authors' 'very good' is their judgement. Non-failing note: the excerpt is gitignored, so validate needs papers/excerpts/wang2021.txt copied from the project files folder.",
+  "previous_attempts": [
+   {
+    "status": "FAIL",
+    "date": "2026-11-28",
+    "notes": "Verifier 1 (2026-11-28, branch claude/project-thread-u74ax7, built on claude/project-thread-hxfscv d55c035), from papers/excerpts/wang2021.txt alone. Validator ok; all 67 quotes found word for word. FAIL, 10 failed cells, 2 issues. row 0, intervention: says '(suction blister)' harvesting; the abstract says only 'an automatic harvesting system' and 'blister harvest time'; 'suction' is not in the source and is not bracketed. row 1, intervention: same as row 0. row 2, intervention: same as row 0. row 3, intervention: same as row 0. row 4, intervention: same as row 0. row 0, uncertainty: '[a mean of 83.1% implies most grafted areas were still lighter than surrounding skin at 6 months]'; the abstract gives only a mean and SD ('83.1 ± 13.4%'), and a mean below 100% does not imply that most areas were below a full match (a few low values can pull the mean down); the inference is unsupported even in brackets. It should say only that the mean is below a full match and that the share of areas reaching a full match is not in abstract. row 1, uncertainty: same as row 0. row 2, uncertainty: same as row 0. row 3, uncertainty: same as row 0. row 4, uncertainty: same as row 0. Checked correct: per-row values and time points (32.3 ± 26.8, 64.6 ± 29.4, 76.5 ± 25.9 at 1, 3, 6 months post grafting; colour match 83.1 ± 13.4% at 6 months after grafting); months_after_final_tx NOT_DERIVABLE on every row (post-grafting phototherapy schedule not in abstract); analysis_unit and lesion counts correctly 'not in abstract'; outcome tiers (partial_repigmentation for area percentiles, instrument_color for the melanin index ratio, unquantified for the physicians' assessment) are the weakest readings supported; dark_overshoot, texture_or_scar, attrition and patient_noticeability correctly 'not in abstract'; blinding, naked-eye assessment, leukotrichia and the software-only 3-to-6-month change all recorded. Non-failing note: row 3 endpoint_definition states the index as the grafted melanin index 'as a percentage of' the adjacent area's; the abstract gives the result as '83.1 ± 13.4% that of the juxta non-vitiliginous area' but not the formula, so the extractor may wish to bracket the formula when fixing."
+   },
+   {
+    "status": "PENDING",
+    "date": "2026-11-28",
+    "notes": "Fix round 1 (2026-11-28, branch claude/project-thread-hxfscv, built on claude/project-thread-u74ax7 b51973b): rows 0-4 intervention no longer say 'suction' unbracketed; rows 0-4 uncertainty drop the unsupported inference from the mean colour match; row 3 endpoint_definition formula bracketed (verifier's non-failing note). Needs a fresh verifier, attempt 2 of 2."
+   }
+  ]
+ }
+}
