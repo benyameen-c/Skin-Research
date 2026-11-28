@@ -194,7 +194,7 @@ Same pattern as the drift simulation: a written contract, tests from the contrac
 | **M2** Register checker | test-author, then builder | M1 file format | `tests/test_spot_params.py`, `tools/spot_params_check.py` | a row marked `QUOTED` with a quote not in its source fails; a row with a blank status fails; the model refuses to load a parameter that is not in the register |
 | **M3** Model contract and tests, well-mixed version (no space): one spot as a set of counts over time | test-author | sections 2.2, 2.3, 4.1 | `experiments/tests/test_spot_model.py` | tests committed and failing (no code yet); each tolerance stated with its reason |
 | **M4** Build the well-mixed model | builder | M3 tests | `experiments/spot_model.py` | M3 tests pass unchanged |
-| **M5** Contract and tests, spatial version (grid, diffusion, edge, rendering, measurement) | test-author | sections 2, 4.3, 5.1 | `experiments/tests/test_spot_model_grid.py` | as M3 |
+| **M5** Contract and tests, spatial version (grid, diffusion, edge, rendering, measurement) | test-author | sections 2, 4.3, 5.1, 11 | `experiments/tests/test_spot_model_grid.py` | as M3 (written 2026-11-28; contract choices and predictions in section 11) |
 | **M6** Build the spatial model | builder | M5 tests | `experiments/spot_model_grid.py` | M5 tests pass unchanged |
 | **M7** Validation and sensitivity runs | builder | M4, M6, section 7 | `data/spot_model_validation.csv`, `data/spot_model_sweep.csv` | reproducible from the stated seed; run time stated |
 | **M8** Write-up | main session | M7 CSVs | `content/spot-model-results.md` | every number cited by CSV line; output framed as ranked hypotheses (section 8 wording rules) |
@@ -306,6 +306,57 @@ Every statement in `content/spot-model-results.md` (M8) carries one of these lab
 - **Level 3, checked on a treatment outcome:** survived or failed against a transplant study's six-month readout after the final session. This is the only level that speaks to the project's core question.
 
 Today everything in this plan is at level 0.
+
+## 11. Step M5: the grid contract, its statistics, and predictions written before any grid result
+
+Written 2026-11-28 by the test-author, before `experiments/spot_model_grid.py` exists and before anyone has seen a grid result. The full contract is the docstring of `experiments/tests/test_spot_model_grid.py`; this section records the choices in it that a reader should be able to argue with, and the predictions, so they count as a fair test. Everything here is level 0.
+
+### 11.1 What the grid adds, and what it keeps
+
+The grid model is the well-mixed model (M3, M4) with space added. With space switched off (no diffusion, no division) it must reproduce the well-mixed model's expected run exactly; a test enforces that, so the grid cannot quietly change the already-tested rules. It adds one input from the register, `lambda_D` (signal reach), and nothing else. R6 (`lambda_M`) and the R7 reservoir stay out; adding them needs new tests first.
+
+### 11.2 Structural assumptions (modelling choices, not numbers)
+
+Each is an `ASSUMPTION`. None has a register row, because none is a measurable rate, but each run lists them in its output.
+
+| Name | Choice | Why, and what it costs |
+|---|---|---|
+| `site_spacing_from_n_M_ring` | one lattice site per melanocyte niche, spacing set by the QUOTED surrounding density (220 per mm², PMID 2508572), about 0.067 mm | adds no new number; ties the lattice to a quoted value |
+| `one_melanocyte_per_site` | a site holds one melanocyte or is empty | the simplest spatial reading of "density"; it caps density at the surrounding value |
+| `one_fibroblast_per_site` | the dermis below uses the same lattice; under the spot each fibroblast is senescent with probability `f_sen` | no saved source gives fibroblast density; random placement is the neutral choice and gives clusters by chance |
+| `defect_patch_is_fixed_disc` | the defect (H1: the cells inside the disc; H2: the dermis under it) is a disc of diameter `d_spot` that never moves | the same patch for both explanations, so neither gets a head start. Cost: V5 (spots form at 2 to 5 mm without the size being imposed) cannot be tested, and P2 (growth) is out of scope |
+| `daughter_copies_parent_lineage_and_age` | a dividing cell's daughter inherits its parent's intrinsic rates, age clock and transplant label | under H1 the defect belongs to the cells ("age-related somatic mutation", PMID 6183861), so a healthy neighbour's daughter is healthy. Consequence: with division on, H1 spots can heal slowly from the rim (see G4) |
+| `transplant_fills_empty_sites_only` | transplanted survivors take empty sites inside the spot; the excess is reported as overflow, never placed | follows from one cell per site. **Differs from the well-mixed model**, which lets a transplant exceed normal density. The nude-mouse result ("388.75 +/- 213 mm2" after grafting, PMID 2508572) shows density above normal is possible, so this is a real choice for Ben or the coordinator to question |
+
+### 11.3 Statistics fixed now (from rendered images)
+
+All are computed from the rendered synthetic image in drift_sim's measuring field (20 px/mm, ring 1.0 mm gap, 1.5 mm wide), the same way a photograph would be.
+
+- **Lightness contrast** ΔL* = `drift_sim.measure_contrast(...)["L"]`, over the full spot outline (as the existing simulations do; the measurement plan's smaller disc `r_S = 0.6 r` is still untested and is not used here).
+- **Edge width** (P1, V4): the 10% to 90% distance of the radial L* profile, binned at 0.05 mm, normalised between the centre (r ≤ d/4) and the ring. Checked against the closed form for a blurred sharp disc (2 × 1.2816 × blur SD) within 0.05 mm.
+- **Skip score** (P3, V6): the share of the inner disc (r ≤ 0.6 × radius) darker than its own median by more than 1.0 L* (the project's 1.0 L* target, so a patch below what the tool aims to see is not counted).
+- **Rim-centre contrast** (P3): mean L* at r ≤ 0.3 × radius minus mean L* at 0.6 to 0.85 × radius. Positive means the centre is lighter than the rim.
+
+### 11.4 Pass rules set now for the grid validation (M7)
+
+These complete section 7.1's "to be fixed in the M5 contract" entries. They are ours (`ASSUMPTION`), set before any grid result, and will not be moved after one.
+
+- **V4** ("sharply demarcated", PMID 6183861): edge width at most 0.5 × spot radius at the default 0.1 mm blur. [0.5, not smaller, because the blur alone gives about 0.26 mm, which is already a quarter of a 2 mm spot's radius.]
+- **V6** ("skip areas" in almost 80% of biopsies, PMID 25484386): a biopsy fact, so it is scored on a cell-resolution render (blur 0): skip score at least 0.05 in at least half of a parameter set's stochastic seeds.
+- **P1 and P3 scoring** follow section 7.2 (robust, fragile, untestable). The threshold for "H1 and H2 differ" is the measurement tool's SDC once phantoms give one. Until then a provisional threshold is used, labelled provisional in every output: 0.1 mm for edge width (two profile bins), 1.0 L* for rim-centre contrast, 0.05 for skip score. When the SDC exists, the scoring is rerun with it; the threshold is never chosen after seeing grid output.
+- **P4** is read with `six_month_readout`, from the image, at 180 days after the final session, under both `tx_rates` settings, as in M4.
+
+### 11.5 Predictions, written before any grid result
+
+These are the test-author's expectations, with the reasoning, so that a result that contradicts them is reported rather than explained away. They are not tests (the tests deliberately do not fix outputs) and they are not in `data/spot_model_predictions.csv`, which holds predictions about real skin.
+
+| # | Expectation for the grid model | Reasoning | What would count against it |
+|---|---|---|---|
+| G1 | Under H1 the edge width sits near the blur floor, about 0.26 to 0.35 mm at 0.1 mm blur, for every spot size | the defect stops at the disc edge; only blur and the lattice widen it | H1 edge wider than 0.4 mm in accepted sets |
+| G2 | Under H2 the edge widens with `lambda_D`; V4 will reject most H2 sets with `lambda_D` above a few tenths of a mm on 2 mm spots, and at `lambda_D` near 0.1 mm H2's edge is within 0.1 mm of H1's | the signal's profile scales with `lambda_D`; V4's cap of 0.5 mm on a 2 mm spot leaves little room above the blur | accepted H2 sets with `lambda_D` above 0.5 mm, or a robust H2 minus H1 width gap above 0.1 mm. If the expectation holds, P1 is likely **untestable** with photographs, which is the falsifier note under P1 in 10.2 |
+| G3 | At 0.1 mm blur the photo skip score is low under both explanations; at blur 0 both can pass V6 | a single missing cell (0.067 mm) is smaller than the blur | a photo skip score that differs between H1 and H2 by more than 0.05 in most accepted sets |
+| G4 | Rim-darker-than-centre is not unique to H2: with division on, H1 spots also get a darker rim because healthy neighbours' daughters fill in from the edge | the lineage rule in 11.2 | H1 rim-centre contrast near zero (under 0.2 L*) across the `k_div` range while H2's is positive |
+| G5 | The grid reproduces the well-mixed P4 result: at six months after the final session H1 and H2 are not separable at 1.0 L* | if accepted sets meet V1 (about a quarter of normal density) mainly through lost cells, most spot sites are empty and the one-cell-per-site cap rarely binds. If they meet it with many hypoactive cells still sitting on their sites, the cap can bind and this expectation may fail, so overflow is reported for every run | overflow above 10% of survivors in accepted sets, or an H1 minus H2 difference at six months above 1.0 L* where M4 showed none |
 
 ## Sources used
 
