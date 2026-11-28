@@ -52,9 +52,37 @@ Senescent cells are cells that have permanently stopped dividing but stay in the
 
 ### Genes and heredity
 
+No gene has been shown to cause IGH. What exists is weak and indirect.
+
+- Families. Falabella 1987 (PMID 3805391): "A family aggregation survey disclosed a higher prevalence of idiopathic guttate hypomelanosis in the family of patients with idiopathic guttate hypomelanosis than in the control group." Shared families also share sun habits, so this does not separate genes from environment.
+- Immune-system gene type. Arrunategui 2002, 47 people, all renal transplant patients or controls (PMID 12452995): "The presence of HLA-DQ3 in patients with IGH suggests a genetic basis in a group of renal transplant subjects." The group is small and unusual: [transplant patients usually take immune-suppressing drugs; the abstract does not say].
+- One family sequenced. Wu 2018 (PMID 30030622) found a gene change behind a different disease in a family that also had IGH, and stated: "However, we found no relationship between this mutation and IGH."
+- Look-alike inherited white spots exist but are different diseases: guttate white spots in a genetic blistering disease with EXPH5 and ENPP1 variants (PMID 35960249, "a deleterious-predicted variant in ENPP1, a gene associated with disturbed transfer of melanosomes to keratinocytes"), and congenital spots in identical twins (PMID 16334615). Neither is IGH.
+- The "somatic mutation" idea. Wilson 1982 (PMID 6183861) wrote: "The evidence indicates an age-related somatic mutation of melanocytes." That paper measured cell numbers and activity, not DNA. It is a hypothesis from 1982; this scan found no study that sequenced melanocytes from an IGH spot to test it.
+- Gene activity. No study comparing gene expression (RNA) between an IGH spot and the same person's normal skin was found in PubMed, and earlier searches found no IGH dataset in GEO, BioImage Archive, Zenodo or Figshare (`data/search_log.csv`, 2026-11-27). The ATG7 finding above (PMID 41453137) is one gene checked in IGH skin after it was found in cultured cells.
+
 ### Somatic mutations in sun-exposed skin (not IGH-specific)
 
+"Somatic" mutations are DNA changes a cell picks up during life, mostly from UV here, as opposed to inherited ones. None of these studies looked at IGH spots. They describe the skin IGH grows in.
+
+- Every cell differs. Tang 2020, single melanocytes sequenced (PMID 33029006): "Every cell in the human body has a unique set of somatic mutations". Also: "melanocytes from healthy skin commonly contained pathogenic mutations, although these mutations tended to be weakly oncogenic".
+- The burden is high in normal-looking skin. Martincorena 2015, 234 eyelid biopsies from four people (PMID 25999502): "the burden of somatic mutations averaged two to six mutations per megabase per cell, similar to that seen in many cancers". And: "aged sun-exposed skin is a patchwork of thousands of evolving clones with over a quarter of cells carrying cancer-causing mutations while maintaining the physiological functions of epidermis."
+- It rises with age and sun. Hernando 2021, 123 donors (PMID 33307203): "Our results reveal an exponential accumulation of UV-related somatic mutations with age". Kim 2023, 39 people (PMID 36716918): "Exposed skin harbored a median of 530 mutations (10.4/mb, range = 51-2,947), whereas nonexposed skin majorly exhibited significantly fewer mutations (median = 13, 0.25/mb, range = 1-166)."
+- Limbs are included. Fowler 2021 (PMID 33087317): "The prevalence of NOTCH1 and FAT1 mutations in forearm, trunk, and leg skin was similar to that in keratinocyte cancers."
+- UV treatment adds mutations. Fowler 2025, skin biopsied before and after a narrowband UVB course in 16 psoriasis patients (PMID 40317189): "The NB-UVB treatment course increased the number of mutations in skin." **Inference:** this matters because UV light is also used to treat white spots.
+- Low-mutation melanocytes survive. Tandukar 2026, 297 melanocyte clones from 31 donors (PMID 42045571): "a population of melanocytes with low mutation burden persists in sun-exposed epidermis. These cells are smaller, less dendritic, and exhibit stem-like expression profiles". The authors propose, as a hypothesis, "that melanocytes in the hair follicle occupy a privileged niche, protected from ultraviolet radiation, but replenish the epidermis following photodamage."
+
 ### Stem cell reservoirs that could refill a spot
+
+Two kinds of evidence bear on whether a spot can be refilled: what IGH spots do when disturbed, and where spare pigment cells live.
+
+- IGH skin can repigment away from the body. Gilhar 1989 grafted IGH skin onto mice without an immune system (PMID 2508572): "Twenty days after skin transplantation, repigmentation of the area was observed. The number of melanocytes increased significantly (388.75 +/- 213 mm2)." The authors concluded "that systemic factors may play a role in the pathogenesis of vitiligo and acquired hypomelanosis guttata." Patient numbers are `not in abstract`.
+- Injury can bring cells back, partly. Ploysangam 1990 (PMID 2229495): "The number of dopa-positive melanocytes was significantly greater in the repigmented areas than in untreated lesions but less than in normal skin."
+- Moving normal skin in did not help. Falabella 1987 (PMID 3805391): "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects".
+- Hair follicles hold a reserve (mostly mouse and vitiligo work, not IGH). Chou 2013, mouse (PMID 23749232): "after wounding or ultraviolet type B irradiation, melanocyte stem cells (McSCs) in the hair follicle exit the stem cell niche before their initial cell division, potentially depleting the pool of these cells." In human vitiligo treated with narrowband UVB, Goldstein 2015 (PMID 25822579): "NBUVB was associated with a significant increase in the number of melanocytes in the infundibulum and with restoration of the normal melanocyte population in the epidermis".
+- The reserve wears out with age (hair, mouse). Nishimura 2005 (PMID 15618488): "hair graying is caused by defective self-maintenance of melanocyte stem cells." Sun 2023, mouse (PMID 37076619): "During ageing, there is accumulation of stranded McSCs that do not contribute to the regeneration of melanocyte progeny."
+- Melanocyte numbers in sun-exposed skin overall. Gilchrest 1979, paired biopsies from 8 donors (PMID 88488): "Density of dopa-positive melanocytes was roughly twofold higher in the exposed than in the nonexposed skin at all ages" and "Melanocyte density declined approximately 6 to 8% of the surviving population per decade in both sites."
+- New cells can be made from a person's own cells in the lab. Ohta 2011 (PMID 21249204): "Seven weeks after inducing differentiation, pigmented cells expressing melanocyte markers such as MITF, tyrosinase, SILV, and TYRP1, were detected." That was a lab method, not a treatment.
 
 ### What is not established
 
