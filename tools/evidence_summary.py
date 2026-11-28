@@ -159,9 +159,11 @@ def report(rows):
     p("")
     p("G. Keyword screens on IGH studies (pointers to rows, not findings)")
     ctl = re.compile(r"placebo|untreated|control", re.I)
+    negated = re.compile(r"\bno\s+(untreated|placebo|sham|control)\b[^;,.]*", re.I)  # "no untreated control"
     has_ctl = sorted({r["study_id"] for r in igh
                       if r["treatment_class"] in CONTROL_CLASSES
-                      or (ctl.search(r["comparator"]) and not re.match(r"\s*(none|not)", r["comparator"], re.I))})
+                      or (ctl.search(negated.sub("", r["comparator"]))
+                          and not re.match(r"\s*(none|not)", r["comparator"], re.I))})
     no_ctl = [s for s in igh_studies if s not in has_ctl]
     p(f"  untreated, placebo or sham comparison (control or sham row, or comparator names one): "
       f"{len(has_ctl)} of {len(igh_studies)}: {', '.join(has_ctl)}")
