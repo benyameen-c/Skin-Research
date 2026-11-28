@@ -399,7 +399,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "Verifier 2026-11-28, fresh context, source text only (papers/excerpts/lu2014.txt, byte-identical to pmid_22390674.txt; lu2014.txt was missing from the project files excerpts folder and was restored there from pmid_22390674.txt so the validator can find it). 0 failed cells. All 42 quotes are verbatim in the source. Row 1: 80.65% is a mean over 1938 sheets; analysis_unit lesion with the sheet caveat bracketed; tier partial_repigmentation is the weakest reading. Row 2: vitiligo vulgaris counts and percentages copied as printed; the 144-of-173 contradiction and recomputations (4/173 = 2.3%, 12/173 = 6.9%, 5.8% and 20.2% of 173 = about 10 and 35) check out and are bracketed. Row 3: segmental counts sum to 109 and fit 76/9/4/11%. Row 4: colour-match site contrast has no numbers, tier unquantified, unit not in abstract; correct. Every row: months_after_final_tx NOT_DERIVABLE is right because the source gives only 'up to 13 years after treatment (mean 1.87 years)'; dark_overshoot, texture_or_scar and attrition 'not in abstract' are right; Koebner at the donor site and new lesions in the 45 no-repigmentation patients are in uncertainty. Non-failing notes: (a) uncertainty on every row cites 'PR 41' and 'longest colour-match follow-up named in the transplant search', which are project context, not source text, and are unbracketed; (b) the '45 no repigmentation patients' could be the whole cohort's poor group rather than a separate count; the record already says the abstract does not settle this."
  }
 }
