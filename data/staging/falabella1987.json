@@ -210,7 +210,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "Verifier 2026-11-28, fresh context, source papers/excerpts/falabella1987.txt (PubMed abstract) only. 0 failed cells. Row 0 (minigrafts): all 22 quote strings found verbatim; arm_result 'did not modify the achromic defects' matches the abstract; analysis_unit lesion matches 'implanted in idiopathic guttate hypomelanosis lesions'; outcome_tier unquantified is the weakest reading (no proportion, degree or colour judgement in text); months_after_final_tx NOT_DERIVABLE and time cells 'not in abstract' correct (abstract gives no timing); dark_overshoot, texture_or_scar, attrition, counts correctly 'not in abstract'; inferred words (autologous, punch, uncontrolled, clinical observation implied) are bracketed. Row 1 (intralesional triamcinolone with or without grafts): arm_result 'improved the appearance of these lesions' matches; uncertainty records that the with/without-graft subgroups are not separated and that 'appearance' is not a colour-match judgement; tier unquantified correct; same missing-data cells correct. Non-failing notes: (a) design reads 'not in abstract' although the abstract does describe the 400-patient survey and the fifteen-patient case-control part; the bracket carries that content, so no cell is wrong. (b) Quotes attached to patients_enrolled and skin_tone contain 'fifteen' but those cells give no number, so they support context only. (c) The hirobe2018 18-month depigmentation lead is correctly marked as not from this source."
  }
 }
