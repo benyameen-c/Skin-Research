@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-28 00:35 UTC, Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
+Last updated: 2026-11-28 00:55 UTC, drift simulation v2 tests written (PR open, not merged; see that section). Before that, 00:35 UTC: Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
 
 ## Open module
 
@@ -130,6 +130,14 @@ Last updated: 2026-11-28 00:35 UTC, Module 5 (underlying damage and repair) open
 - nct01956435 (third extraction, FULL_TEXT): verifier PASS (claude/project-thread-82j76h 86c0768). Held for Ben.
 - asawanonda2010 (PMID 20232585, ABSTRACT_ONLY): verifier PASS first check, 0 failed cells (extractor claude/project-thread-7r9s3x 20e95cb; verifier record from /mnt/project-files/batch-03/asawanonda2010.verifier1.json). Merged.
 - arbache2021 (PMID 34409366): excluded, not verified for the ledger.
+
+## Drift simulation v2 (tests 2026-11-28, code not written)
+
+- `experiments/tests/test_drift_sim_v2.py` (plan task T1, test-author, branch claude/project-thread-k3zwx0, PR open, **not merged**): 94 tests for a future `experiments/drift_sim_v2.py`, contract in the file's docstring, taken from `content/measurement-tool-plan.md` section 5 rung 1 and task T1: lighting gradient (defined exactly as a linear ramp, 5 % and 20 % end to end) and vignetting; L*, a*, b* and CIEDE2000 ΔE channels (checked against 10 published Sharma 2005 pairs); changed spots (contrast x0.5, x0, x-1/3, diameter x0.7); gamma 2.2 and sRGB tone curves; glare patch in spot or ring with a glare mask; absolute units and SDC = 1.96 x SD of the change; one-factor-at-a-time run table. Fixed inner disc and ring-only registration are task T2, not here.
+- All 94 are **skipped** while `experiments/drift_sim_v2.py` does not exist; once it exists they run and must pass. Checked: with an empty module 86 fail, 7 error. `experiments/tests` 35 passed, 94 skipped; `tests` 10 passed.
+- The plan's pass criteria (gradient false change <= 1 %, glare recall >= 95 %, changed spot within 2 points) are reported results, not test asserts: the tests only check the numbers needed to judge them are produced.
+- Readings chosen where the plan was silent (Ben may change): lighting and glare are fixed in the image frame; drift gains act on the scene before the tone curve; the baseline visit is also tone-encoded; "true change" is the ideal instrument's reading; run() crosses every factor with every drift; a ring more than 20 % masked raises ValueError (plan C10).
+- Builder (T4) contract: `git diff --exit-code <tests commit> -- experiments/tests` must stay clean; `experiments/drift_sim.py` unchanged.
 
 ## Next session
 
