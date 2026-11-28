@@ -112,6 +112,41 @@ Status words: `QUOTED` (a saved source gives the number; quote and PMID in the t
 
 ## 4. The two competing explanations and the predictions that separate them
 
+### 4.1 The explanations
+
+**H1, "the pigment cells wear out on their own."** Melanocytes in the spot run down by their own clock: ageing, accumulated damage, pigment they cannot hand over. The dermis is a bystander. In the model: `k_derm = 0`, R1 to R3 do the work.
+Saved support: "The evidence indicates an age-related somatic mutation of melanocytes" (PMID 6183861); "The basic defect in IGH melanocytes may reflect the aging process" (PMID 7377803); "Accumulation of melanin can lead to the senescence in the melanocytes of IGH patients" (PMID 29516488); "ATG7 downregulation emerged as the earliest molecular alteration and was consistently found in senescent melanocytes and idiopathic guttate hypomelanosis skin" (PMID 41453137).
+
+**H2, "the deeper layer wears them out."** A patch of senescent or scarred dermis under the spot sends a signal that pushes the melanocytes above it into senescence and loss. In the model: `k_int` at its healthy-skin value, R4 and R5 do the work.
+Saved support: "Our results suggest an interaction between melanocytes and the subjacent dermis in IGH" (PMID 35114009), with "superficial dermal fibrosis in 90% (18/20)" in the same paper; the title of PMID 31823346 (no abstract saved); and, in vitiligo, "higher expression of DKK1 in the dermis induced senescence in melanocytes that may lead to hypopigmentation" (PMID 29442138).
+
+The model also runs **mixtures** (both couplings on), because nothing in the sources says the two are exclusive.
+
+[Note on a lead: the Gemini report saved on another branch (`content/external/gemini-repair-landscape-2026-11-27.md`, PR 17) quotes text it attributes to the full paper of PMID 31823346, including a sentence that medium from senescent fibroblasts caused melanocyte death and senescence (paraphrased here, not quoted, because it is not in a saved source). That would be the strongest single support for H2. The project has only the title saved, so under CLAUDE.md rule 9 those sentences are leads, and this plan does not use them. Getting that full text is open question 4.]
+
+### 4.2 What the facts already measured can and cannot tell apart
+
+[Inference: the two findings every IGH paper agrees on, fewer melanocytes in the spot (PMIDs 9765023, 2508572) and raised senescence markers in lesional skin (PMID 29516488), are predicted by **both** explanations. They cannot decide between them. The predictions below are the ones that differ.]
+
+### 4.3 Predictions that differ
+
+| # | What to look at | H1 (cells wear out alone) | H2 (dermis wears them out) | Already known? |
+|---|---|---|---|---|
+| P1 | **Edge sharpness**: how wide the band is over which pigment goes from spot to normal | about one to a few melanocyte spacings, the same for every spot | about the signal's reach `λ_D`; wider edges on larger dermal patches | Clinically "sharply demarcated" (PMID 6183861). Under H2 that forces `λ_D` to be short. Never measured as a width in any saved source |
+| P2 | **Growth of an untreated spot** over months | no spread from the edge; nearby skin turns white independently, in scattered points | the spot follows its dermal patch; spreads outward only if the patch spreads | No growth rate in any saved source |
+| P3 | **Pattern inside the spot** | random loss gives scattered surviving cells, consistent with "skip areas" | loss is strongest where the signal is strongest (spot centre, or over fibroblast clusters); surviving pigment sits at the rim or away from clusters | "skip areas" in almost 80% of biopsies (PMID 25484386); where in the spot they sit is not stated in the abstract |
+| P4 | **Transplant of healthy melanocytes, epidermal cells only** | cells persist; colour match holds well past six months, until the new cells' own clock runs (years) | cells meet the same dermal signal and fade; colour returns towards white on a time scale set by `k_derm` | Repigmentation "within 7 to 14 days" with no later follow-up (PMID 3908515) |
+| P5 | **Transplant that brings donor dermis with it** (a full-thickness minigraft) versus epidermal cells alone | both hold about equally | the graft with its own healthy dermis holds; epidermal cells alone fade | One saved result, hard to read: "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects" (PMID 3805391) |
+| P6 | **Tissue markers, spot versus surrounding skin** | p16 raised in melanocytes; dermal p16-positive cells about equal inside and outside; ATG7 low in melanocytes | dermal p16-positive cells clearly higher under the spot than outside; the dermal signal (DKK1 is the saved candidate) higher under the spot; melanocyte loss graded with distance from senescent fibroblasts | Raised p16 in "lesional skin" (PMID 29516488) does not say which cell type; the dermal comparison is in PMID 31823346 (title only saved) |
+
+[Inference: P4 is the prediction that matters most to the project's core question, because it is literally "does the colour match last six months after the final treatment" for the one treatment direction with long follow-up elsewhere. P1 and P2 matter most to Ben, because they can be read from photographs with the measurement tool, without a biopsy.]
+
+### 4.4 A result neither explanation handles: the mouse graft
+
+"Split-thickness skin grafts obtained from patients with vitiligo, acquired hypomelanosis guttata, and tyrosinase-negative albinism were grafted onto nude mice", and the IGH spot repigmented: "Twenty days after skin transplantation, repigmentation of the area was observed" (PMID 2508572). The authors conclude "systemic factors may play a role".
+
+[Inference: if a split-thickness graft carries the superficial dermis with it, as such grafts usually do, then moving the spot moved its dermis too, and it still recovered. That fits neither pure H1 (exhausted cells should not recover) nor pure local H2 (the bad dermis came along). It fits a third explanation, **H3: something from the person's body as a whole**, which this first model cannot represent. Two other readings exist: the graft may have carried little dermis, or the new melanocytes may have come from somewhere other than the spot. The abstract does not settle either.] The model's validation (section 7) treats this result as a target that any accepted parameter set must at least not contradict; open question 1 asks Ben whether H3 should be added.
+
 ## 5. How model output maps to things that can be measured
 
 ## 6. Build sequence, tests first
