@@ -1,0 +1,405 @@
+{
+ "study_id": "lu2014",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/lu2014.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "lu2014",
+   "doi_or_pmid": "PMID 22390674; doi:10.3109/09546634.2012.671912",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; tandfonline.com /doi/full/10.3109/09546634.2012.671912 returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (vitiligo vulgaris and segmental vitiligo); [not IGH]; Module 5-damage-repair lead; [stability of the treated lesions is not in abstract; 'stable vitiligo' appears only as general background]",
+   "design": "follow-up study of patients who underwent autologous epidermal grafting [uncontrolled case series; retrospective or prospective not in abstract]",
+   "skin_tone": "not in abstract [Hangzhou, China centre; skin type not stated]",
+   "intervention": "autologous epidermal grafting (autologous epidermal sheet transplants) [harvest method, recipient-site preparation and any adjunct phototherapy not in abstract]",
+   "assessment_method": "not in abstract (grades excellent, good, fair and poor and percentage repigmentation are reported; grade cut-offs, assessor, photographs, instrument and blinding not stated)",
+   "time_from_start": "not in abstract (follow-up is given only as time after treatment)",
+   "time_from_last_treatment": "up to 13 years after treatment (mean 1.87 years); [whether 'treatment' is the final treatment, and the time at which each patient was graded, are not in abstract]",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Lu N, Xu A, Wu X. Follow-up study of vitiligo patients treated with autologous epidermal sheet transplants. J Dermatolog Treat 2014;25(3):200-4 (Epub 2013 Feb 3)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/22390674/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "body_site": "not in abstract (all treated sites pooled)",
+   "patients_enrolled": "173 vitiligo vulgaris and 109 segmental vitiligo [282 in total]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract (1938 sheets grafted; [number of lesions not in abstract])",
+   "lesions_evaluable": "not in abstract ([1938 sheets have a pooled mean]; number of lesions not in abstract)",
+   "analysis_unit": "lesion [counted as epidermal graft sheets, 1938 in total; how sheets map to lesions and patients is not in abstract]",
+   "comparator": "none [no control arm in abstract]",
+   "endpoint_definition": "mean percentage of repigmentation across all graft sheets, both vitiligo types pooled, at long-term follow-up",
+   "arm_result": "mean percentage of repigmentation 80.65% in the total of 1938 sheets",
+   "complete_match": "not in abstract",
+   "uncertainty": "Unit: the 80.65% is a mean over 1938 graft sheets, not over patients or lesions; [sheets per lesion and per patient are not in abstract]. Whether the mean is over sheets or a mean of per-patient means is not in abstract. Percentage repigmentation is not colour match. Diagnosis: [not an IGH study]; vitiligo vulgaris and segmental vitiligo, a Module 5-damage-repair lead (cell transplantation with the longest colour-match follow-up named in the transplant search, PR 41) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007, lin2024 and elhoshy2025 are.] Abstract only. Design (retrospective or prospective, recall or examination), how and by whom repigmentation and colour match were graded, the cut-offs for excellent, good, fair and poor, and whether photographs or an instrument were used are all not in abstract. Follow-up 'up to 13 years after treatment (mean 1.87 years)' is per cohort; the time at which each patient was graded is not in abstract, and the abstract does not say whether 'treatment' means the final treatment or whether phototherapy or repeat grafting followed, so months after the final treatment are NOT_DERIVABLE. A mean of 1.87 years with a maximum of 13 means [many patients were graded well under 2 years after treatment]. Internal contradiction in the vitiligo vulgaris results: the counts 110, 18, 4 and 12 sum to [144], not 173, while the percentages 63.6, 10.4, 5.8 and 20.2 sum to [100.0]; 110 and 18 fit 173 ([63.6%] and [10.4%]), but 4 of 173 is [2.3%], not 5.8%, and 12 of 173 is [6.9%], not 20.2%. 5.8% and 20.2% of 173 would be about [10] and [35] patients, which would sum to [173]; [the fair and poor counts look copied from the segmental line]. Which numbers are right needs the full text. The segmental counts 83, 10, 4 and 12 sum to [109] and fit their percentages. The abstract mentions '45 no repigmentation patients', which matches neither the poor counts as printed ([12 + 12 = 24]) nor as implied by the percentages ([about 35 + 12 = 47]); whether 'no repigmentation' is the same as 'poor' is not in abstract. Koebner phenomenon at the donor site and new lesions elsewhere were more frequent in those 45 patients (no numbers in abstract); [donor-site depigmentation is a harm of the method, not a colour-match result]. The Background says the technique 'is available for the treatment of stable vitiligo' as general background; [whether all treated patients had stable disease, and for how long, is not in abstract], although the Conclusions name 'the stability time before transplantation' as a factor.",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "lu2014",
+   "doi_or_pmid": "PMID 22390674; doi:10.3109/09546634.2012.671912",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; tandfonline.com /doi/full/10.3109/09546634.2012.671912 returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (vitiligo vulgaris and segmental vitiligo); [not IGH]; Module 5-damage-repair lead; [stability of the treated lesions is not in abstract; 'stable vitiligo' appears only as general background]",
+   "design": "follow-up study of patients who underwent autologous epidermal grafting [uncontrolled case series; retrospective or prospective not in abstract]",
+   "skin_tone": "not in abstract [Hangzhou, China centre; skin type not stated]",
+   "intervention": "autologous epidermal grafting (autologous epidermal sheet transplants) [harvest method, recipient-site preparation and any adjunct phototherapy not in abstract]",
+   "assessment_method": "not in abstract (grades excellent, good, fair and poor and percentage repigmentation are reported; grade cut-offs, assessor, photographs, instrument and blinding not stated)",
+   "time_from_start": "not in abstract (follow-up is given only as time after treatment)",
+   "time_from_last_treatment": "up to 13 years after treatment (mean 1.87 years); [whether 'treatment' is the final treatment, and the time at which each patient was graded, are not in abstract]",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Lu N, Xu A, Wu X. Follow-up study of vitiligo patients treated with autologous epidermal sheet transplants. J Dermatolog Treat 2014;25(3):200-4 (Epub 2013 Feb 3)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/22390674/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "body_site": "not in abstract (all treated sites pooled; abstract adds that face and neck had lower repigmentation in vitiligo vulgaris, no numbers)",
+   "patients_enrolled": "173 with vitiligo vulgaris (95 male, 78 female)",
+   "patients_evaluable": "not in abstract [graded counts as printed sum to 144 of 173; percentages sum to 100]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "patient",
+   "comparator": "none [no control arm; segmental vitiligo patients, next row, are a subtype contrast, not a treatment comparator]",
+   "endpoint_definition": "grade of repigmentation per patient (excellent, good, fair, poor) at long-term follow-up, vitiligo vulgaris [grade cut-offs not in abstract]",
+   "arm_result": "vitiligo vulgaris: 110 (63.6%) excellent, 18 (10.4%) good, 4 (5.8%) fair, 12 (20.2%) poor repigmentation [counts sum to 144, not 173; see uncertainty]",
+   "complete_match": "not in abstract [the completely matching ratio is reported only by site, with no numbers; next rows]",
+   "uncertainty": "Vitiligo vulgaris row. 'Excellent' is not defined in the abstract and is recorded as partial repigmentation, not complete coverage or colour match. The abstract says segmental vitiligo repigmented significantly better than vitiligo vulgaris, and that female patients and patients under 20 did better than male patients and those over 20 (no numbers or test in abstract). Face and neck had lower repigmentation in vitiligo vulgaris (no numbers). Diagnosis: [not an IGH study]; vitiligo vulgaris and segmental vitiligo, a Module 5-damage-repair lead (cell transplantation with the longest colour-match follow-up named in the transplant search, PR 41) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007, lin2024 and elhoshy2025 are.] Abstract only. Design (retrospective or prospective, recall or examination), how and by whom repigmentation and colour match were graded, the cut-offs for excellent, good, fair and poor, and whether photographs or an instrument were used are all not in abstract. Follow-up 'up to 13 years after treatment (mean 1.87 years)' is per cohort; the time at which each patient was graded is not in abstract, and the abstract does not say whether 'treatment' means the final treatment or whether phototherapy or repeat grafting followed, so months after the final treatment are NOT_DERIVABLE. A mean of 1.87 years with a maximum of 13 means [many patients were graded well under 2 years after treatment]. Internal contradiction in the vitiligo vulgaris results: the counts 110, 18, 4 and 12 sum to [144], not 173, while the percentages 63.6, 10.4, 5.8 and 20.2 sum to [100.0]; 110 and 18 fit 173 ([63.6%] and [10.4%]), but 4 of 173 is [2.3%], not 5.8%, and 12 of 173 is [6.9%], not 20.2%. 5.8% and 20.2% of 173 would be about [10] and [35] patients, which would sum to [173]; [the fair and poor counts look copied from the segmental line]. Which numbers are right needs the full text. The segmental counts 83, 10, 4 and 12 sum to [109] and fit their percentages. The abstract mentions '45 no repigmentation patients', which matches neither the poor counts as printed ([12 + 12 = 24]) nor as implied by the percentages ([about 35 + 12 = 47]); whether 'no repigmentation' is the same as 'poor' is not in abstract. Koebner phenomenon at the donor site and new lesions elsewhere were more frequent in those 45 patients (no numbers in abstract); [donor-site depigmentation is a harm of the method, not a colour-match result]. The Background says the technique 'is available for the treatment of stable vitiligo' as general background; [whether all treated patients had stable disease, and for how long, is not in abstract], although the Conclusions name 'the stability time before transplantation' as a factor.",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "lu2014",
+   "doi_or_pmid": "PMID 22390674; doi:10.3109/09546634.2012.671912",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; tandfonline.com /doi/full/10.3109/09546634.2012.671912 returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (vitiligo vulgaris and segmental vitiligo); [not IGH]; Module 5-damage-repair lead; [stability of the treated lesions is not in abstract; 'stable vitiligo' appears only as general background]",
+   "design": "follow-up study of patients who underwent autologous epidermal grafting [uncontrolled case series; retrospective or prospective not in abstract]",
+   "skin_tone": "not in abstract [Hangzhou, China centre; skin type not stated]",
+   "intervention": "autologous epidermal grafting (autologous epidermal sheet transplants) [harvest method, recipient-site preparation and any adjunct phototherapy not in abstract]",
+   "assessment_method": "not in abstract (grades excellent, good, fair and poor and percentage repigmentation are reported; grade cut-offs, assessor, photographs, instrument and blinding not stated)",
+   "time_from_start": "not in abstract (follow-up is given only as time after treatment)",
+   "time_from_last_treatment": "up to 13 years after treatment (mean 1.87 years); [whether 'treatment' is the final treatment, and the time at which each patient was graded, are not in abstract]",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Lu N, Xu A, Wu X. Follow-up study of vitiligo patients treated with autologous epidermal sheet transplants. J Dermatolog Treat 2014;25(3):200-4 (Epub 2013 Feb 3)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/22390674/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "body_site": "not in abstract (all treated sites pooled)",
+   "patients_enrolled": "109 with segmental vitiligo (59 male, 50 female)",
+   "patients_evaluable": "not in abstract [graded counts sum to 109]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "patient",
+   "comparator": "none [no control arm; vitiligo vulgaris patients, previous row, are a subtype contrast, not a treatment comparator]",
+   "endpoint_definition": "grade of repigmentation per patient (excellent, good, fair, poor) at long-term follow-up, segmental vitiligo [grade cut-offs not in abstract]",
+   "arm_result": "segmental vitiligo: 83 (76%) excellent, 10 (9%) good, 4 (4%) fair, 12 (11%) poor repigmentation",
+   "complete_match": "not in abstract [the completely matching ratio is reported only by site, with no numbers; next row]",
+   "uncertainty": "Segmental vitiligo row. 'Excellent' is not defined in the abstract and is recorded as partial repigmentation, not complete coverage or colour match. The abstract says the degree of repigmentation was significantly higher in segmental vitiligo than in vitiligo vulgaris (no test or numbers in abstract), and that female patients and patients under 20 did better. Diagnosis: [not an IGH study]; vitiligo vulgaris and segmental vitiligo, a Module 5-damage-repair lead (cell transplantation with the longest colour-match follow-up named in the transplant search, PR 41) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007, lin2024 and elhoshy2025 are.] Abstract only. Design (retrospective or prospective, recall or examination), how and by whom repigmentation and colour match were graded, the cut-offs for excellent, good, fair and poor, and whether photographs or an instrument were used are all not in abstract. Follow-up 'up to 13 years after treatment (mean 1.87 years)' is per cohort; the time at which each patient was graded is not in abstract, and the abstract does not say whether 'treatment' means the final treatment or whether phototherapy or repeat grafting followed, so months after the final treatment are NOT_DERIVABLE. A mean of 1.87 years with a maximum of 13 means [many patients were graded well under 2 years after treatment]. Internal contradiction in the vitiligo vulgaris results: the counts 110, 18, 4 and 12 sum to [144], not 173, while the percentages 63.6, 10.4, 5.8 and 20.2 sum to [100.0]; 110 and 18 fit 173 ([63.6%] and [10.4%]), but 4 of 173 is [2.3%], not 5.8%, and 12 of 173 is [6.9%], not 20.2%. 5.8% and 20.2% of 173 would be about [10] and [35] patients, which would sum to [173]; [the fair and poor counts look copied from the segmental line]. Which numbers are right needs the full text. The segmental counts 83, 10, 4 and 12 sum to [109] and fit their percentages. The abstract mentions '45 no repigmentation patients', which matches neither the poor counts as printed ([12 + 12 = 24]) nor as implied by the percentages ([about 35 + 12 = 47]); whether 'no repigmentation' is the same as 'poor' is not in abstract. Koebner phenomenon at the donor site and new lesions elsewhere were more frequent in those 45 patients (no numbers in abstract); [donor-site depigmentation is a harm of the method, not a colour-match result]. The Background says the technique 'is available for the treatment of stable vitiligo' as general background; [whether all treated patients had stable disease, and for how long, is not in abstract], although the Conclusions name 'the stability time before transplantation' as a factor.",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "lu2014",
+   "doi_or_pmid": "PMID 22390674; doi:10.3109/09546634.2012.671912",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; tandfonline.com /doi/full/10.3109/09546634.2012.671912 returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (vitiligo vulgaris and segmental vitiligo); [not IGH]; Module 5-damage-repair lead; [stability of the treated lesions is not in abstract; 'stable vitiligo' appears only as general background]",
+   "design": "follow-up study of patients who underwent autologous epidermal grafting [uncontrolled case series; retrospective or prospective not in abstract]",
+   "skin_tone": "not in abstract [Hangzhou, China centre; skin type not stated]",
+   "intervention": "autologous epidermal grafting (autologous epidermal sheet transplants) [harvest method, recipient-site preparation and any adjunct phototherapy not in abstract]",
+   "assessment_method": "not in abstract (grades excellent, good, fair and poor and percentage repigmentation are reported; grade cut-offs, assessor, photographs, instrument and blinding not stated)",
+   "time_from_start": "not in abstract (follow-up is given only as time after treatment)",
+   "time_from_last_treatment": "up to 13 years after treatment (mean 1.87 years); [whether 'treatment' is the final treatment, and the time at which each patient was graded, are not in abstract]",
+   "patient_noticeability": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "Lu N, Xu A, Wu X. Follow-up study of vitiligo patients treated with autologous epidermal sheet transplants. J Dermatolog Treat 2014;25(3):200-4 (Epub 2013 Feb 3)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/22390674/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "source_location": "PubMed abstract (Results, Conclusions)",
+   "body_site": "face and neck [exposed sites] versus non-exposed sites",
+   "patients_enrolled": "173 vitiligo vulgaris and 109 segmental vitiligo [282 in total; how many had face or neck grafts is not in abstract]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "not in abstract (unit of the completely matching ratio, patient, lesion or sheet, is not stated)",
+   "comparator": "non-exposed sites [within-cohort site contrast, not a treatment comparator]",
+   "endpoint_definition": "completely matching ratio: treated area matching the surrounding skin, by body site, at long-term follow-up [definition and grading of 'completely matching' not in abstract]",
+   "arm_result": "face and neck had a higher completely matching ratio in the treated area with the surrounding skin than non-exposed sites; 'a more perfect colour matching was obtained in exposure sites' [ratios, counts and test not in abstract]",
+   "complete_match": "higher completely matching ratio on face and neck than non-exposed sites [no numbers in abstract]",
+   "uncertainty": "Colour-match row. This is the only colour-match result in the abstract and it has no numbers: the matching ratios, denominators, how a complete match was judged (eye, photograph or instrument) and the time after treatment at which it was judged are all not in abstract, so it cannot count as lasting colour match. Whether the site contrast is for vitiligo vulgaris, segmental vitiligo or both is not in abstract. Face and neck also had lower repigmentation in vitiligo vulgaris, so the better match there [may come from fewer, smaller or differently graded repigmented areas]; the abstract does not say. [Sun exposure of face and neck may tan the graft and surrounding skin together; this is a hypothesis, not in the abstract.] Diagnosis: [not an IGH study]; vitiligo vulgaris and segmental vitiligo, a Module 5-damage-repair lead (cell transplantation with the longest colour-match follow-up named in the transplant search, PR 41) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007, lin2024 and elhoshy2025 are.] Abstract only. Design (retrospective or prospective, recall or examination), how and by whom repigmentation and colour match were graded, the cut-offs for excellent, good, fair and poor, and whether photographs or an instrument were used are all not in abstract. Follow-up 'up to 13 years after treatment (mean 1.87 years)' is per cohort; the time at which each patient was graded is not in abstract, and the abstract does not say whether 'treatment' means the final treatment or whether phototherapy or repeat grafting followed, so months after the final treatment are NOT_DERIVABLE. A mean of 1.87 years with a maximum of 13 means [many patients were graded well under 2 years after treatment]. Internal contradiction in the vitiligo vulgaris results: the counts 110, 18, 4 and 12 sum to [144], not 173, while the percentages 63.6, 10.4, 5.8 and 20.2 sum to [100.0]; 110 and 18 fit 173 ([63.6%] and [10.4%]), but 4 of 173 is [2.3%], not 5.8%, and 12 of 173 is [6.9%], not 20.2%. 5.8% and 20.2% of 173 would be about [10] and [35] patients, which would sum to [173]; [the fair and poor counts look copied from the segmental line]. Which numbers are right needs the full text. The segmental counts 83, 10, 4 and 12 sum to [109] and fit their percentages. The abstract mentions '45 no repigmentation patients', which matches neither the poor counts as printed ([12 + 12 = 24]) nor as implied by the percentages ([about 35 + 12 = 47]); whether 'no repigmentation' is the same as 'poor' is not in abstract. Koebner phenomenon at the donor site and new lesions elsewhere were more frequent in those 45 patients (no numbers in abstract); [donor-site depigmentation is a harm of the method, not a colour-match result]. The Background says the technique 'is available for the treatment of stable vitiligo' as general background; [whether all treated patients had stable disease, and for how long, is not in abstract], although the Conclusions name 'the stability time before transplantation' as a factor.",
+   "outcome_tier": "unquantified"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "We performed a follow-up study involving 173 patients (95 male, 78 female) with vitiligo vulgaris and 109 patients (59 male, 50 female) with segmental vitiligo who underwent autologous epidermal grafting.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "In patients with vitiligo vulgaris, 110 (63.6%) showed excellent repigmentation, 18 (10.4%) showed good, 4 (5.8%) showed fair and 12 (20.2%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "In patients with segmental vitiligo, 83 (76%) showed excellent repigmentation, 10 (9%) showed good, 4 (4%) showed fair and 12 (11%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "There was a higher ratio of Koebner phenomenon on the donor site and new lesions on the other sites in 45 no repigmentation patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "diagnosis",
+   "quote": "Autologous epidermal transplantation is available for the treatment of stable vitiligo.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "We performed a follow-up study involving 173 patients (95 male, 78 female) with vitiligo vulgaris and 109 patients (59 male, 50 female) with segmental vitiligo who underwent autologous epidermal grafting.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "In patients with vitiligo vulgaris, 110 (63.6%) showed excellent repigmentation, 18 (10.4%) showed good, 4 (5.8%) showed fair and 12 (20.2%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "In patients with segmental vitiligo, 83 (76%) showed excellent repigmentation, 10 (9%) showed good, 4 (4%) showed fair and 12 (11%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "There was a higher ratio of Koebner phenomenon on the donor site and new lesions on the other sites in 45 no repigmentation patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "diagnosis",
+   "quote": "Autologous epidermal transplantation is available for the treatment of stable vitiligo.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "We performed a follow-up study involving 173 patients (95 male, 78 female) with vitiligo vulgaris and 109 patients (59 male, 50 female) with segmental vitiligo who underwent autologous epidermal grafting.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "In patients with vitiligo vulgaris, 110 (63.6%) showed excellent repigmentation, 18 (10.4%) showed good, 4 (5.8%) showed fair and 12 (20.2%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "In patients with segmental vitiligo, 83 (76%) showed excellent repigmentation, 10 (9%) showed good, 4 (4%) showed fair and 12 (11%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "There was a higher ratio of Koebner phenomenon on the donor site and new lesions on the other sites in 45 no repigmentation patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "diagnosis",
+   "quote": "Autologous epidermal transplantation is available for the treatment of stable vitiligo.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "We performed a follow-up study involving 173 patients (95 male, 78 female) with vitiligo vulgaris and 109 patients (59 male, 50 female) with segmental vitiligo who underwent autologous epidermal grafting.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "In patients with vitiligo vulgaris, 110 (63.6%) showed excellent repigmentation, 18 (10.4%) showed good, 4 (5.8%) showed fair and 12 (20.2%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "In patients with segmental vitiligo, 83 (76%) showed excellent repigmentation, 10 (9%) showed good, 4 (4%) showed fair and 12 (11%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "There was a higher ratio of Koebner phenomenon on the donor site and new lesions on the other sites in 45 no repigmentation patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "We investigated the long-term percentage of repigmentation and colour matching up to 13 years after treatment (mean 1.87 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "diagnosis",
+   "quote": "Autologous epidermal transplantation is available for the treatment of stable vitiligo.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "The mean percentage of repigmentation in the total of 1938 sheets was 80.65%.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "The mean percentage of repigmentation in the total of 1938 sheets was 80.65%.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "lesions_evaluable",
+   "quote": "The mean percentage of repigmentation in the total of 1938 sheets was 80.65%.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "In patients with vitiligo vulgaris, 110 (63.6%) showed excellent repigmentation, 18 (10.4%) showed good, 4 (5.8%) showed fair and 12 (20.2%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "In segmental vitiligo, the degree of repigmentation was significantly higher than that in vitiligo vulgaris lesions.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Better outcomes were obtained in female patients and less than 20 years old patients, whereas results in male patients and more than 20 years old were inferior in both vitiligo vulgaris and segmental vitiligo patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "body_site",
+   "quote": "However, the face and neck had a lower repigmentation in vitiligo vulgaris.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "In patients with segmental vitiligo, 83 (76%) showed excellent repigmentation, 10 (9%) showed good, 4 (4%) showed fair and 12 (11%) showed poor repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "In segmental vitiligo, the degree of repigmentation was significantly higher than that in vitiligo vulgaris lesions.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Better outcomes were obtained in female patients and less than 20 years old patients, whereas results in male patients and more than 20 years old were inferior in both vitiligo vulgaris and segmental vitiligo patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "The face and neck had a higher completely matching ratio in the treated area with the surrounding skin compared to the non-exposed sites.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "A more perfect colour matching was obtained in exposure sites.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 3,
+   "field": "complete_match",
+   "quote": "The face and neck had a higher completely matching ratio in the treated area with the surrounding skin compared to the non-exposed sites.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "However, the face and neck had a lower repigmentation in vitiligo vulgaris.",
+   "location": "PubMed abstract, Results"
+  }
+ ],
+ "verifier": {
+  "status": "PASS",
+  "notes": "Verifier 2026-11-28, fresh context, source text only (papers/excerpts/lu2014.txt, byte-identical to pmid_22390674.txt; lu2014.txt was missing from the project files excerpts folder and was restored there from pmid_22390674.txt so the validator can find it). 0 failed cells. All 42 quotes are verbatim in the source. Row 1: 80.65% is a mean over 1938 sheets; analysis_unit lesion with the sheet caveat bracketed; tier partial_repigmentation is the weakest reading. Row 2: vitiligo vulgaris counts and percentages copied as printed; the 144-of-173 contradiction and recomputations (4/173 = 2.3%, 12/173 = 6.9%, 5.8% and 20.2% of 173 = about 10 and 35) check out and are bracketed. Row 3: segmental counts sum to 109 and fit 76/9/4/11%. Row 4: colour-match site contrast has no numbers, tier unquantified, unit not in abstract; correct. Every row: months_after_final_tx NOT_DERIVABLE is right because the source gives only 'up to 13 years after treatment (mean 1.87 years)'; dark_overshoot, texture_or_scar and attrition 'not in abstract' are right; Koebner at the donor site and new lesions in the 45 no-repigmentation patients are in uncertainty. Non-failing notes: (a) uncertainty on every row cites 'PR 41' and 'longest colour-match follow-up named in the transplant search', which are project context, not source text, and are unbracketed; (b) the '45 no repigmentation patients' could be the whole cohort's poor group rather than a separate count; the record already says the abstract does not settle this."
+ }
+}
