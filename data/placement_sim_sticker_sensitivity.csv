@@ -1,0 +1,13 @@
+sticker_sd_mm,diameter_mm,shift_mm,background,region,unchanged_mean_change_pct,unchanged_sd_change_pct,fading_true_change_pct,fading_mean_change_pct,mean_centre_error_mm,false_change_ok,sd_ok,sensitivity_ok,within_noise_to_0_3mm,passes,trials,seed
+0.0,2.0,0.5,mottled,outline,-0.0190,0.1833,-46.7312,-46.5253,0.0000,True,True,True,,True,100,20261128
+0.0,2.0,0.5,mottled,inner_disc,-0.0598,0.2489,-46.5489,-46.4035,0.0000,True,True,True,True,True,100,20261128
+0.05,2.0,0.5,mottled,outline,-1.0446,1.2019,-46.7312,-47.1855,0.0603,True,False,True,,False,100,20261128
+0.05,2.0,0.5,mottled,inner_disc,-0.1306,0.8373,-46.5489,-46.4728,0.0603,True,True,True,True,True,100,20261128
+0.1,2.0,0.5,mottled,outline,-3.4572,3.3749,-46.7312,-48.6573,0.1205,False,False,True,,False,100,20261128
+0.1,2.0,0.5,mottled,inner_disc,-0.2198,1.6171,-46.5489,-46.5658,0.1205,True,False,True,True,False,100,20261128
+0.15,2.0,0.5,mottled,outline,-6.6109,5.8326,-46.7312,-50.5322,0.1808,False,False,False,,False,100,20261128
+0.15,2.0,0.5,mottled,inner_disc,-0.5163,2.4918,-46.5489,-46.8331,0.1808,True,False,True,True,False,100,20261128
+0.2,2.0,0.5,mottled,outline,-10.1183,8.2829,-46.7312,-52.5902,0.2410,False,False,False,,False,100,20261128
+0.2,2.0,0.5,mottled,inner_disc,-1.4298,4.0678,-46.5489,-47.5469,0.2410,True,False,True,True,False,100,20261128
+0.3,2.0,0.5,mottled,outline,-17.5718,12.9327,-46.7312,-56.8861,0.3615,False,False,False,,False,100,20261128
+0.3,2.0,0.5,mottled,inner_disc,-6.0014,10.5494,-46.5489,-50.6192,0.3615,False,False,False,True,False,100,20261128

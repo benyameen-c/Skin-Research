@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-11-28 00:35 UTC, Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
+Last updated: 2026-11-28 01:30 UTC, placement simulation built (plan task T5, branch claude/project-thread-dc9jtg, PR open, not merged). Before that: 2026-11-28 00:35 UTC, Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
 
 ## Open module
 
@@ -77,6 +77,17 @@ Last updated: 2026-11-28 00:35 UTC, Module 5 (underlying damage and repair) open
 - The builder may not edit the tests: `git diff --exit-code <tests commit> -- experiments/tests` must stay clean.
 - Run with `python3 -m pytest experiments/tests -q` (the command in CLAUDE.md covers `tests/` only).
 - Assumptions Ben may want to change: lighting drift is a uniform exposure gain only (no gradient across the field); the correction tested is ring-based per-channel normalisation; measurement is per-pixel CIELAB D65, then averaged; the experiment simulates an unchanged spot only, so every error is a false change; mottle is a multiplicative luminance texture (SD and correlation length set by the builder's defaults).
+
+## Placement simulation (plan task T5, 2026-11-28, branch claude/project-thread-dc9jtg, PR open, not merged; supersedes PR 14)
+
+- `experiments/placement_sim.py` built to the PR 14 tests (`experiments/tests/test_placement_sim.py`, unedited: `git diff --exit-code c7473d1 -- experiments/tests` clean). **48 of 55 pass. 7 fail in the test file itself:** the helper `_rows(**override)` is called with tuple keys, which Python refuses ("TypeError: keywords must be strings") before any of this module's code runs. Affected: the 4 `test_evaluate_target_each_criterion_can_fail` cases, `..._thresholds_are_inclusive`, `..._all_rejected_does_not_pass`, `..._area_criterion`. A copy of the helper taking a dict, with the same assertions, passes 9 of 9 against `evaluate_target`. Fixing the test file needs a test-author thread (or Ben); the builder may not edit it. `tests/` 10 passed; drift-sim tests 35 passed.
+- Builder's reading (contract requires invisible = -100 % for every region): `true_change_pct` is measured on uniform skin, so texture counts as measurement error, not truth.
+- Methods: registration = masked normalised cross-correlation of L* outside r + 1.0 mm, search +/-1.0 mm, refuses below a peak score of 0.3 (all 420 uniform-skin registration rows refused, 100/100 trials; 0 refusals on mottled). Segmentation = half-way threshold between ring mean and the 95th percentile inside the ring, connected region from the brightest pixel.
+- Results: `data/placement_sim_results.csv` (2520 rows, 100 trials, seed 20261128, 20 px/mm, noise 0.01, mottle 5 %, blur 0.1 mm, about 18 min on 4 cores). Target table: `data/placement_sim_target.csv` (`experiments/placement_sensitivity.py`).
+- Plan section 4 target at 2 mm, 0.5 mm shift, mottled skin (results CSV lines 290-295, 794-799): passes = ring registration with outline and with inner disc. Fails = no placement with either region; sticker (SD 0.1 mm) with outline; sticker with inner disc fails only on SD (1.78 points against <= 1). Area criterion passes (unchanged -0.18 %, shrinking +2.20 %).
+- Sensitivity, sticker SD (`data/placement_sim_sticker_sensitivity.csv`, 2 mm, same captures): inner disc passes at 0 and 0.05 mm, fails from 0.1 mm on (SD 1.62 at 0.1). Outline passes only at 0.
+- Sensitivity, noise-floor reading (`data/placement_sim_noise_floor_sensitivity.csv`): the inner disc is below the floor up to 0.3 mm for all three placements under the test author's reading, the SDC form and the 2 % limit; under a standard-error floor (SD / sqrt(100)) all three fail, ring registration by 0.0007 points.
+- Limits: the synthetic skin texture is unchanged between visits apart from noise, so registration is tested in its best case (no hair, tanning, stretch, rotation or lighting gradient). Not written up in `content/experiments.md` yet (task T6); site not rebuilt.
 
 ## Human gates
 
