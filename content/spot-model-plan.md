@@ -149,7 +149,68 @@ The model also runs **mixtures** (both couplings on), because nothing in the sou
 
 ## 5. How model output maps to things that can be measured
 
+The model keeps cells and melanin internally, but every output it reports is something a camera or a laboratory partner could actually measure. Nothing is reported only as an internal variable.
+
+### 5.1 Readouts from photographs (the measurement tool)
+
+The model renders its melanin map to a synthetic linear-RGB image with the same scene conventions as `experiments/drift_sim.py` (20 px/mm, blur 0.1 mm, ring gap 1.0 mm, ring width 1.5 mm) and then measures it with the quantities defined in `content/measurement-tool-plan.md` section 2.1. That way a model prediction and a real measurement are the same number computed the same way.
+
+| Model output | Measurement-plan quantity | Separates |
+|---|---|---|
+| Lightness contrast of the spot over time | ΔL* of the fixed inner disc minus the ring, and the residual contrast ratio ρ(t) (plan 2.1 items 5 and 7) | P4 (does a transplant's colour hold at six months after the final treatment) |
+| Spot area over time | A(t) by segmentation (plan 2.1 item 8) | P2 (growth of an untreated spot) |
+| Edge width | **new quantity**: the distance over which a radial ΔL* profile goes from 10% to 90% of the spot's contrast. Needs adding to the measurement plan, and needs a test of what the camera's blur does to it | P1 |
+| Pattern inside the spot | **new quantity**: the share of the inner disc that is darker than its own median by more than a threshold, as a crude "skip area" score | P3 |
+
+Whether a measured change is real is decided by the measurement plan's smallest detectable change (SDC, plan 2.2), not by the model. If a predicted difference between H1 and H2 is smaller than the SDC the tool reaches in phantoms, that prediction is reported as **not testable with this tool**, however clean it looks in the model.
+
+### 5.2 Readouts a laboratory partner could measure
+
+These need biopsies, so they belong to a professional study, not to Ben (CLAUDE.md, Module 5 framing: "a more full study can be performed by professionals"). They are listed so a proposal can name them.
+
+| Model output | Tissue measurement | Saved source showing it has been done in IGH |
+|---|---|---|
+| Melanocytes per mm², spot vs ring | melanocyte count by dopa staining or melanocyte markers | dopa counts (PMID 2508572); "MART-1" and "NKI/beteb" staining (PMID 20465639) |
+| Share of melanocytes senescent | p16, p21, hp1 | PMID 29516488 |
+| Senescent fibroblasts under spot vs outside | p16-positive cells in the superficial dermis, by position | title only (PMID 31823346) |
+| Dermal fibrosis | routine histology | PMID 35114009 |
+| Early autophagy loss | ATG7 | PMID 41453137 |
+| Candidate dermal signal | DKK1 in dermis | vitiligo only (PMID 29442138); no saved IGH measurement |
+| Melanin retained in melanocytes vs handed over | Fontana-Masson, electron microscopy | PMIDs 25088925, 29516488 |
+
+[Inference: the single most informative biopsy design for this model would sample the spot centre, the spot edge, and skin 2 mm outside it, in the same person, and stain for melanocytes and p16 in **both** layers. That gives P6 directly and the spatial gradient behind P1 and P3. This is a suggestion for a professional protocol, not something the project can do.]
+
+### 5.3 Link to the study proposal
+
+The study proposal (`content/study-proposal.md`, PR 6, open) already compares a treated spot with the same person's untreated spot, six months after the final session. [Inference: under this plan its untreated spot is also the measurement for P2, and its treated spot is P4 if the treatment is a cell transplant. Adding edge width (5.1) to its outcome list would cost nothing extra at capture.]
+
 ## 6. Build sequence, tests first
+
+Same pattern as the drift simulation: a written contract, tests from the contract by the `test-author` role before any code, then a builder who may not edit the tests (`git diff --exit-code <tests commit> -- experiments/tests` stays clean). One unit per thread. Nothing in this section starts until Ben has read the plan (open question 6).
+
+| Step | Role | Input | Output path | Done when |
+|---|---|---|---|---|
+| **M1** Parameter register | main session | sections 2 and 3 of this plan | `data/spot_model_params.csv`: one row per parameter with `name, value_or_range, unit, status (QUOTED / ASSUMPTION), pmid, quote, source_file` | every `QUOTED` row's quote is found word for word in its saved file by a checker (M2); every other row says `ASSUMPTION` and gives a range |
+| **M2** Register checker | test-author, then builder | M1 file format | `tests/test_spot_params.py`, `tools/spot_params_check.py` | a row marked `QUOTED` with a quote not in its source fails; a row with a blank status fails; the model refuses to load a parameter that is not in the register |
+| **M3** Model contract and tests, well-mixed version (no space): one spot as a set of counts over time | test-author | sections 2.2, 2.3, 4.1 | `experiments/tests/test_spot_model.py` | tests committed and failing (no code yet); each tolerance stated with its reason |
+| **M4** Build the well-mixed model | builder | M3 tests | `experiments/spot_model.py` | M3 tests pass unchanged |
+| **M5** Contract and tests, spatial version (grid, diffusion, edge, rendering, measurement) | test-author | sections 2, 4.3, 5.1 | `experiments/tests/test_spot_model_grid.py` | as M3 |
+| **M6** Build the spatial model | builder | M5 tests | `experiments/spot_model_grid.py` | M5 tests pass unchanged |
+| **M7** Validation and sensitivity runs | builder | M4, M6, section 7 | `data/spot_model_validation.csv`, `data/spot_model_sweep.csv` | reproducible from the stated seed; run time stated |
+| **M8** Write-up | main session | M7 CSVs | `content/spot-model-results.md` | every number cited by CSV line; output framed as ranked hypotheses (section 8 wording rules) |
+
+Tests the contract must include, at minimum (the test-author decides the rest and states tolerances):
+
+- With every loss rate set to zero, melanocyte counts never change.
+- With `k_derm = 0`, outputs do not depend on the fibroblast state at all (H1 is truly dermis-free); with `k_int` at baseline, an absent dermal patch gives no spot (H2 needs its patch).
+- Counts never go negative; no rule sets melanocytes to exactly zero (R10).
+- Same seed, same output, bit for bit.
+- A transplant into skin with no loss pressure keeps its cells indefinitely.
+- Edge width under H2 grows with `λ_D` and under H1 does not.
+- Rendering: a melanin map equal to the surrounding skin gives ΔL* within noise of zero, measured with the measurement plan's ring geometry.
+- A zero-contrast baseline is refused, not divided by (the drift simulation's rule).
+
+[Recommendation: build the well-mixed version first (M3, M4). It answers P4 and the marker predictions (P6) with a few hundred lines and very few parameters, and shows quickly whether the two hypotheses are distinguishable at all. The grid version is only worth building if they are, because P1 to P3 are spatial.]
 
 ## 7. Validation and sensitivity analysis
 
