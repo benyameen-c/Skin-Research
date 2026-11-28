@@ -129,6 +129,70 @@ CLAIMS += (
      "25 (62.5%) patients were extremely satisfied", "40 patients completed the treatment", ""),
 )
 
+# Added 2026-11-28 for the studies merged after the 2026-11-27 audit (rajegowda2020 Results and
+# Table 2, lin2024). The note gives the evidence.csv line (line 1 is the header) as of main da5d2c5.
+_R20N = "Cryotherapy n=125"
+_R20T2 = "Persistent scabbing Post inflammatory hyperpigmentation(PIH) Scarring Ulceration"
+CLAIMS += (
+    ("rajegowda2020", "arm_result", "signs of repigmentation, cryotherapy", "88", 110, 125, "macules",
+     "110(88%) macules showed signs of repigmentation", _R20N, "evidence.csv line 54; Results"),
+    ("rajegowda2020", "arm_result", "no repigmentation, cryotherapy (Results)", "12", 15, 125, "macules",
+     "15 (12%) macules showed no repigmentation", _R20N, "evidence.csv line 54; Results"),
+    ("rajegowda2020", "arm_result", "improvement in pigmentation, phenol", "76.8", 96, 125, "macules",
+     "96(76.8%) macules showed improvement", "Among the phenol applied 125 macules", "evidence.csv line 55; Results"),
+    ("rajegowda2020", "arm_result", "no response, phenol (Results)", "23.2", 29, 125, "macules",
+     "29(23.2%) macules had no response", "Among the phenol applied 125 macules", "evidence.csv line 55; Results"),
+    ("rajegowda2020", "texture_or_scar", "persistent scabbing, cryotherapy", "2.4", 3, 125, "macules",
+     "Cryotherapy group 3(2.4%)", _R20N, "evidence.csv line 54; Table 2 (" + _R20T2 + ")"),
+    ("rajegowda2020", "texture_or_scar", "persistent scabbing, phenol", "32.8", 41, 125, "macules",
+     "Phenol group 41(32.8%)", "Phenol n=125", "evidence.csv line 55; Table 2"),
+    ("rajegowda2020", "dark_overshoot", "PIH, cryotherapy", "4", 5, 125, "macules",
+     "41(32.8%) 5(4%)", _R20N, "evidence.csv line 54; Table 2"),
+    ("rajegowda2020", "dark_overshoot", "PIH, phenol", "14.4", 18, 125, "macules",
+     "5(4%) 18(14.4%)", "Phenol n=125", "evidence.csv line 55; Table 2"),
+    ("rajegowda2020", "texture_or_scar", "scarring, phenol", "12.8", 16, 125, "macules",
+     "16(12.8%)", "Phenol n=125", "evidence.csv line 55; Table 2"),
+)
+_LINN = "This analysis included 491 patients"
+_LIN3 = "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions"
+CLAIMS += (
+    ("lin2024", "arm_result", "excellent >90%, whole cohort", "59.7", 293, 491, "lesions (Results; 491 patients)",
+     _LIN3, _LINN, "evidence.csv line 74; unit not separable (lesions vs patients vs cases)"),
+    ("lin2024", "arm_result", "good 50-89%, whole cohort", "18.4", 90, 491, "lesions (Results; 491 patients)",
+     _LIN3, _LINN, "evidence.csv lines 74-75 quote; good grade is not a row of its own"),
+    ("lin2024", "arm_result", "fair 20-49%, whole cohort", "12.8", 63, 491, "lesions (Results; 491 patients)",
+     _LIN3, _LINN, "evidence.csv lines 74-75 quote"),
+    ("lin2024", "arm_result", "poor <20%, whole cohort", "9.2", 45, 491, "lesions (Results; 491 patients)",
+     _LIN3, _LINN, "evidence.csv lines 74-75 quote"),
+    ("lin2024", "arm_result", ">=50% (total effective rate), whole cohort", "78", None, 491, "lesions (Results; 491 patients)",
+     "with a total effective rate (the repigmentation ≥50%) of 78%", _LINN, "evidence.csv line 75; ledger's [293 + 90 = 383] gives 78.00%"),
+    ("lin2024", "uncertainty", "excellent, whole cohort (abstract)", "69.7", None, 491, "patients (abstract)",
+     "69.7% of patients achieved an excellent", _LINN, "evidence.csv lines 74-106 uncertainty; a whole count fits (342), but Results print 293 (59.7%)"),
+    ("lin2024", "uncertainty", "recurrence after 12 years", "5.4", 123, 491, "patients",
+     "123 (5.4%) patients experienced vitiligo recurrence", _LINN, "evidence.csv lines 74-106 uncertainty"),
+    ("lin2024", "patients_enrolled", "segmental involvement", "35.8", 176, 491, "patients",
+     "176 (35.8%) patients had segmental involvement", _LINN, "evidence.csv lines 77-79"),
+    ("lin2024", "patients_enrolled", "non-segmental", "64.2", 315, 491, "patients",
+     "315 (64.2%) had NSV", _LINN, "evidence.csv lines 80-82"),
+)
+# lin2024 Table 5: stratum, cases, excellent count (pct), >=50% count (pct), first evidence.csv line
+_LIN5 = (
+    ("Segmental", 176, 123, "69.9", 164, "93.2", 77), ("Nonsegmental", 315, 170, "54", 219, "69.5", 80),
+    ("<1", 201, 99, "49.2", 164, "81.5", 83), ("≥1", 290, 194, "66.9", 249, "85.8", 86),
+    ("≥2", 159, 116, "73", 142, "89.3", 89), ("Forehead", 14, 8, "57.1", 11, "78.6", 92),
+    ("Face and neck", 155, 99, "63.9", 136, "87.7", 95), ("Trunk", 126, 74, "58.7", 102, "81", 98),
+    ("Arms and legs", 39, 23, "59", 35, "89.8", 101), ("Hands and feet", 34, 15, "44.4", 25, "73.5", 104),
+)
+for _s, _n, _e, _ep, _g, _gp, _line in _LIN5:
+    _frag = f"{_s} {_n} {_e} ({_ep}) {_g} ({_gp})"
+    _label = _s.replace("<1", "stable <1 year").replace("≥1", "stable ≥1 year").replace("≥2", "stable ≥2 years")
+    CLAIMS += (
+        ("lin2024", "arm_result", f"excellent >90%, {_label}", _ep, _e, _n, "Table 5 cases", _frag, _frag,
+         f"evidence.csv line {_line}; Table 5"),
+        ("lin2024", "arm_result", f">=50%, {_label}", _gp, _g, _n, "Table 5 cases", _frag, _frag,
+         f"evidence.csv line {_line + 1}; Table 5 'Good' column is cumulative >=50%"),
+    )
+
 # Percentages in the ledger that are NOT audited, and why.
 # study_id, ledger field, published pct(s), reason, fragment quoting the pct
 NOT_AUDITED = (
@@ -147,6 +211,12 @@ NOT_AUDITED = (
      "lower limbs (72.7%)"),
     ("elhoshy2025", "arm_result", "80; 85", "lesion count not in abstract", "80% of lesions"),
     ("elhoshy2025", "arm_result", "37.5; 33.33; 29; 50", "medians of a percentage scale, not proportions of a count", "37.5"),
+    ("rajegowda2020", "body_site", "70; 46.6; 26.6", "no verbatim quote for these percentages in data/evidence_quotes.jsonl (they are in the source text); denominator not printed, ledger's 'fit patients of 30' is a bracketed inference",
+     "75(60%)"),
+    ("arbache2018", "arm_result", "75.3; 33.8", "mean repigmentation extent per arm, not a proportion of a count", "75.3% 5-FU repigmentation"),
+    ("mulekar2007", "arm_result", "100; 65; 40; 30", "repigmentation extent of single lesions, not a proportion of a count", "two lesions showed 100%, one 65%"),
+    ("lin2024", "arm_result", "75.3; 84.4; 70.1; 69.5; 79.3; 83.3; 67.2; 78.9; 74; 76.4; 65.5", "mean repigmentation extent, not a proportion of a count", "Segmental 176 123 (69.9) 164 (93.2) 84.4"),
+    ("hirobe2018", "uncertainty", "104.7; 28.9", "histochemistry averages (Table 1), not proportions of a count", "104.7 ± 9.7%"),
     ("pagnoni1999", "texture_or_scar", "77; 34", "relative change in an instrument reading, not a proportion of a count", "distensibility-R0 (77%)"),
 )
 
