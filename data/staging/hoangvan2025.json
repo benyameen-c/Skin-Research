@@ -1,0 +1,1291 @@
+{
+ "study_id": "hoangvan2025",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/hoangvan2025.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; then 308-nm excimer lamp (TheraBeam UV308) twice a week, starting 150 mJ/cm2, +50 mJ/cm2 per session to minimal erythema dose, for 8 weeks [started on day 2 after dressing removal, per Discussion]",
+   "comparator": "group 2: NCECS alone (same procedure, no excimer)",
+   "endpoint_definition": "≥ 50% repigmentation at 18 months, patients (Table 2); partial repigmentation",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; [the last excimer session was about 9 weeks after NCECS (1 week dressing, start on day 2 after dressing removal, 8 weeks of excimer), so about 15.9 months after the final treatment; derived from the stated schedule, not printed]",
+   "arm_result": "group 1 (G1 NCECS + excimer): 27 of 30 patients (90%) reached ≥ 50% repigmentation; 3 (10%) < 50%; p = 1.000 versus group 2",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 6 patients (20%) [of 30] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients; mild erythema in 7 patients (23.3%), resolved within a few days",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting_plus_phototherapy",
+   "months_after_final_tx": "15.9"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; no additional specific treatment",
+   "comparator": "group 1: NCECS plus 8 weeks of excimer lamp",
+   "endpoint_definition": "≥ 50% repigmentation at 18 months, patients (Table 2); partial repigmentation",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; NCECS was the only treatment in this group ('no additional specific treatment beyond regular follow-ups') [so the final treatment is the NCECS procedure; dressing removal at 1 week is not counted as a treatment]",
+   "arm_result": "group 2 (G2 NCECS alone): 27 of 30 patients (90%) reached ≥ 50% repigmentation; 3 (10%) < 50%; p = 1.000 versus group 1",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 7 patients (23.4%) [of 30; 7/30 is 23.3%] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "18"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; then 308-nm excimer lamp (TheraBeam UV308) twice a week, starting 150 mJ/cm2, +50 mJ/cm2 per session to minimal erythema dose, for 8 weeks [started on day 2 after dressing removal, per Discussion]",
+   "comparator": "group 2: NCECS alone (same procedure, no excimer)",
+   "endpoint_definition": "≥ 75% repigmentation at 18 months, patients (Table 2); partial repigmentation",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; [the last excimer session was about 9 weeks after NCECS (1 week dressing, start on day 2 after dressing removal, 8 weeks of excimer), so about 15.9 months after the final treatment; derived from the stated schedule, not printed]",
+   "arm_result": "group 1 (G1 NCECS + excimer): 23 (73.3%) of 30 patients reached ≥ 75% repigmentation (text: 73%); p = 1.000 versus group 2 [23/30 is 76.7%; count and percentage disagree]",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 6 patients (20%) [of 30] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients; mild erythema in 7 patients (23.3%), resolved within a few days",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting_plus_phototherapy",
+   "months_after_final_tx": "15.9"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; no additional specific treatment",
+   "comparator": "group 1: NCECS plus 8 weeks of excimer lamp",
+   "endpoint_definition": "≥ 75% repigmentation at 18 months, patients (Table 2); partial repigmentation",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; NCECS was the only treatment in this group ('no additional specific treatment beyond regular follow-ups') [so the final treatment is the NCECS procedure; dressing removal at 1 week is not counted as a treatment]",
+   "arm_result": "group 2 (G2 NCECS alone): 23 (70%) of 30 patients reached ≥ 75% repigmentation (text: 70%); p = 1.000 versus group 1 [23/30 is 76.7%, 70% is 21/30; count and percentage disagree]",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 7 patients (23.4%) [of 30; 7/30 is 23.3%] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "18"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; then 308-nm excimer lamp (TheraBeam UV308) twice a week, starting 150 mJ/cm2, +50 mJ/cm2 per session to minimal erythema dose, for 8 weeks [started on day 2 after dressing removal, per Discussion]",
+   "comparator": "group 2: NCECS alone (same procedure, no excimer)",
+   "endpoint_definition": "≥ 90% repigmentation at 18 months, patients (Table 2); partial repigmentation",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; [the last excimer session was about 9 weeks after NCECS (1 week dressing, start on day 2 after dressing removal, 8 weeks of excimer), so about 15.9 months after the final treatment; derived from the stated schedule, not printed]",
+   "arm_result": "group 1 (G1 NCECS + excimer): 19 of 30 patients (63.3%) reached ≥ 90% repigmentation; p = 0.435 versus group 2 (not significant)",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 6 patients (20%) [of 30] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients; mild erythema in 7 patients (23.3%), resolved within a few days",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting_plus_phototherapy",
+   "months_after_final_tx": "15.9"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; no additional specific treatment",
+   "comparator": "group 1: NCECS plus 8 weeks of excimer lamp",
+   "endpoint_definition": "≥ 90% repigmentation at 18 months, patients (Table 2); partial repigmentation",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; NCECS was the only treatment in this group ('no additional specific treatment beyond regular follow-ups') [so the final treatment is the NCECS procedure; dressing removal at 1 week is not counted as a treatment]",
+   "arm_result": "group 2 (G2 NCECS alone): 15 of 30 patients (50%) reached ≥ 90% repigmentation; p = 0.435 versus group 1 (not significant)",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 7 patients (23.4%) [of 30; 7/30 is 23.3%] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "18"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; then 308-nm excimer lamp (TheraBeam UV308) twice a week, starting 150 mJ/cm2, +50 mJ/cm2 per session to minimal erythema dose, for 8 weeks [started on day 2 after dressing removal, per Discussion]",
+   "comparator": "group 2: NCECS alone (same procedure, no excimer)",
+   "endpoint_definition": "100% repigmentation of the lesion area at 18 months, patients (Table 2); complete area coverage, not colour match",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; [the last excimer session was about 9 weeks after NCECS (1 week dressing, start on day 2 after dressing removal, 8 weeks of excimer), so about 15.9 months after the final treatment; derived from the stated schedule, not printed]",
+   "arm_result": "group 1 (G1 NCECS + excimer): 10 of 30 patients (33.3%) reached 100% repigmentation; p = 0.021 versus group 2",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 6 patients (20%) [of 30] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients; mild erythema in 7 patients (23.3%), resolved within a few days",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "complete_area_coverage",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting_plus_phototherapy",
+   "months_after_final_tx": "15.9"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 2 (Repigmentation at 18 months); Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; no additional specific treatment",
+   "comparator": "group 1: NCECS plus 8 weeks of excimer lamp",
+   "endpoint_definition": "100% repigmentation of the lesion area at 18 months, patients (Table 2); complete area coverage, not colour match",
+   "assessment_method": "lesion area before versus after treatment ('calculated by comparing the area of lesions before and after treatment'); area measurement method, assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; NCECS was the only treatment in this group ('no additional specific treatment beyond regular follow-ups') [so the final treatment is the NCECS procedure; dressing removal at 1 week is not counted as a treatment]",
+   "arm_result": "group 2 (G2 NCECS alone): 2 of 30 patients (6.7%) reached 100% repigmentation; p = 0.021 versus group 1",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 7 patients (23.4%) [of 30; 7/30 is 23.3%] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "complete_area_coverage",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "18"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 3 and Results; Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; then 308-nm excimer lamp (TheraBeam UV308) twice a week, starting 150 mJ/cm2, +50 mJ/cm2 per session to minimal erythema dose, for 8 weeks [started on day 2 after dressing removal, per Discussion]",
+   "comparator": "group 2: NCECS alone (same procedure, no excimer)",
+   "endpoint_definition": "time from NCECS to onset of repigmentation, weeks, mean ± SD and median (Table 3); onset only, not extent or colour",
+   "assessment_method": "not reported (how onset was judged and how often patients were seen in the first weeks not stated; scheduled visits every 4 weeks for 6 months)",
+   "time_from_start": "weeks after NCECS (onset)",
+   "time_from_last_treatment": "not applicable (onset is timed from the NCECS procedure, not after the final treatment)",
+   "arm_result": "group 1 (G1 NCECS + excimer): onset of repigmentation at 2.35 ± 0.575 weeks (median 2) after NCECS; 66.7% of patients repigmented within 2 weeks; p = 0.003 versus group 2",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 6 patients (20%) [of 30] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients; mild erythema in 7 patients (23.3%), resolved within a few days",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting_plus_phototherapy",
+   "months_after_final_tx": "NOT_APPLICABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 3 and Results; Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; no additional specific treatment",
+   "comparator": "group 1: NCECS plus 8 weeks of excimer lamp",
+   "endpoint_definition": "time from NCECS to onset of repigmentation, weeks, mean ± SD and median (Table 3); onset only, not extent or colour",
+   "assessment_method": "not reported (how onset was judged and how often patients were seen in the first weeks not stated; scheduled visits every 4 weeks for 6 months)",
+   "time_from_start": "weeks after NCECS (onset)",
+   "time_from_last_treatment": "not applicable (onset is timed from the NCECS procedure, not after the final treatment)",
+   "arm_result": "group 2 (G2 NCECS alone): onset of repigmentation at 2.72 ± 0.665 weeks (median 3) after NCECS; 36.7% of patients repigmented within 2 weeks; p = 0.003 versus group 1",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported for this endpoint (colour match is reported once, Table 4; see the colour-match row)",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 7 patients (23.4%) [of 30; 7/30 is 23.3%] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_APPLICABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 4 (Color match), Results and Discussion; Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; then 308-nm excimer lamp (TheraBeam UV308) twice a week, starting 150 mJ/cm2, +50 mJ/cm2 per session to minimal erythema dose, for 8 weeks [started on day 2 after dressing removal, per Discussion]",
+   "comparator": "group 2: NCECS alone (same procedure, no excimer)",
+   "endpoint_definition": "colour of grafted lesions compared with surrounding normal skin, by-eye clinical category (good colour match, hypopigmentation, hyperpigmentation), plus halo phenomenon, patients, at 18 months (Table 4; time point from Discussion)",
+   "assessment_method": "clinical (by-eye) evaluation comparing the colour of grafted lesions with the surrounding normal skin; categories not defined further; no instrument; assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; [the last excimer session was about 9 weeks after NCECS (1 week dressing, start on day 2 after dressing removal, 8 weeks of excimer), so about 15.9 months after the final treatment; derived from the stated schedule, not printed]",
+   "arm_result": "group 1 (G1 NCECS + excimer): good colour match 23 of 30 patients (76.7%), hypopigmentation 1 (3.3%), hyperpigmentation 6 (20%); halo phenomenon 6 (20%), p = 0.029 versus group 2; recurrence at graft sites in two patients at 18 months",
+   "patient_noticeability": "not reported",
+   "complete_match": "[not reported as an indistinguishable whole-lesion match]: 'good color match' by eye in [23 of 30] patients, undefined; only [10] of 30 had 100% repigmentation",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 6 patients (20%) [of 30] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients; mild erythema in 7 patients (23.3%), resolved within a few days",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "lasting_color_match",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting_plus_phototherapy",
+   "months_after_final_tx": "15.9"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hoangvan2025",
+   "doi_or_pmid": "PMID 39679850; doi:10.1111/jocd.16714; PMC11845954",
+   "source_location": "PMC11845954 full text: Table 4 (Color match), Results and Discussion; Methods; Table 1",
+   "access_level": "FULL_TEXT (open access PMC11845954, Europe PMC fullTextXML fetched 2026-11-28; figures not viewed, captions only)",
+   "diagnosis": "ADJACENT: vitiligo, stable for 1 year or more, segmental or non-segmental (Methods, Population); [not IGH]; Module 5-damage-repair lead (cell transplantation precedent, PR 41 transplant colour-match search)",
+   "design": "prospective controlled two-arm comparison; allocation by day of admission (even-numbered days to group 1, odd-numbered days to group 2) [quasi-random alternation, although the Abstract and Results say 'randomly assigned']; blinding not reported",
+   "body_site": "mostly face (group 1: face 28, other 2; group 2: face 29, other 1; patients, Table 1); acral and mucosal vitiligo excluded [mostly facial, not off-face]",
+   "skin_tone": "not reported [single-country study, Hanoi, Vietnam; Fitzpatrick type not stated]",
+   "patients_enrolled": "30 in this arm (sixty in the study)",
+   "patients_evaluable": "30 (no drop-out reported at 18 months)",
+   "lesions_enrolled": "not reported (lesions per patient not given; only total lesion area per patient is given)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "patient",
+   "intervention": "non-cultured epidermal cell suspension (NCECS): thin shave graft from upper lateral anterior thigh, donor-to-recipient ratio 1:5, trypsin-EDTA 60 min, suspension 0.1-0.5 mL injected/applied onto recipient site dermabraded by fractional CO2 laser (200 mJ, density 1 mm, 1 pass) extended 2 mm beyond the lesion margin; dressings removed after 1 week; no additional specific treatment",
+   "comparator": "group 1: NCECS plus 8 weeks of excimer lamp",
+   "endpoint_definition": "colour of grafted lesions compared with surrounding normal skin, by-eye clinical category (good colour match, hypopigmentation, hyperpigmentation), plus halo phenomenon, patients, at 18 months (Table 4; time point from Discussion)",
+   "assessment_method": "clinical (by-eye) evaluation comparing the colour of grafted lesions with the surrounding normal skin; categories not defined further; no instrument; assessor and blinding not reported",
+   "time_from_start": "18 months post-NCECS",
+   "time_from_last_treatment": "18 months post-NCECS; NCECS was the only treatment in this group ('no additional specific treatment beyond regular follow-ups') [so the final treatment is the NCECS procedure; dressing removal at 1 week is not counted as a treatment]",
+   "arm_result": "group 2 (G2 NCECS alone): good colour match 22 of 30 patients (73.3%), hypopigmentation 1 (3.3%), hyperpigmentation 7 (23.4%); halo phenomenon 15 (50%), p = 0.029 versus group 1; good match p = 1.000 versus group 1; recurrence at graft sites in one patient at 18 months",
+   "patient_noticeability": "not reported",
+   "complete_match": "[not reported as an indistinguishable whole-lesion match]: 'good color match' by eye in [22 of 30] patients, undefined; only [2] of 30 had 100% repigmentation",
+   "dark_overshoot": "hyperpigmentation versus normal skin in 7 patients (23.4%) [of 30; 7/30 is 23.3%] at 18 months",
+   "texture_or_scar": "no scarring or infection in any of the 60 patients",
+   "attrition": "none reported ('There was no case drop-out after 18 months follow-up')",
+   "uncertainty": "[Not an IGH study]: stable vitiligo, filed under module 1 as ADJACENT because tools/ledger.py accepts only modules 1 to 4; it says nothing directly about IGH spots. Allocation was by even or odd admission day, yet the Abstract and Results say 'randomly assigned' [internal contradiction; alternation is not true randomisation; allocation concealment and blinding not reported]. Unit is the patient (n = 30 per group); patients could have more than one lesion (total lesion area per patient, Table 1) and how a per-patient repigmentation percentage was formed across several lesions is not reported. Repigmentation was 'calculated by comparing the area of lesions before and after treatment'; how area was measured (tracing, photo planimetry) and who assessed it are not reported. Table 2 ≥ 75% row prints '23 (73.3%)' for group 1 and '23 (70%)' for group 2, and the text says 73% and 70% [23/30 is 76.7%; 73.3% is 22/30 and 70% is 21/30, so count and percentage disagree in both arms]. Table 4 group 2 hyperpigmentation '7 (23.4%)' [7/30 is 23.3%; rounding]. Discussion says '80% of the patients had segmental vitiligo' [Table 1 gives 24 + 27 = 51 of 60, 85%]. Colour match was a by-eye clinical category (good match, hypopigmentation, hyperpigmentation) against surrounding normal skin; 'good' is not defined, no instrument, assessor and blinding not reported; Table 4 carries no time label, the Discussion places it 'at 18 months'. [23 of 30 (group 1) and 22 of 30 (group 2) had good colour match while only 10 and 2 had 100% repigmentation, so 'good colour match' must describe the colour of the repigmented grafted area, not that the whole lesion became indistinguishable.] Halo phenomenon (white ring around the graft) is counted separately from the colour categories (6 of 30 vs 15 of 30). At 18 months recurrence at graft sites in two group 1 patients and one group 2 patient; how these were counted in Tables 2 and 4 is not reported. Group 1 time since final treatment is derived from the stated excimer schedule [about 15.9 months]; whether every patient started and finished excimer on schedule is not reported. Mostly facial segmental vitiligo (off-face limits of modules 2-4 do not apply to module 1). Single centre group, small sample; authors attribute the non-significant ≥ 90% difference to sample size.",
+   "verification_status": "PENDING (full text)",
+   "outcome_tier": "lasting_color_match",
+   "citation": "Hoang Van T, Parsad D, Van Thuong N, Thi Phuong H, Hong Son N, Do Thi TH, Manh Tan N, Thanh Hien L, Tran Thi TH, Huu Doanh L. The Efficacy of Non-Cultured Epidermal Cell Suspension and Excimer Lamps Combination Therapy in Vitiligo: Results of 18 Months Follow-Up. J Cosmet Dermatol 2025;24(2):e16714",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11845954/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "18"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "≥ 50% repigmentation | 27 (90%) | 27 (90%) | 1.000 a",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "< 50% repigmentation | 3 (10%) | 3 (10%) | 1.000 b",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "The phototherapy regimen lasted for 8 weeks.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "excimer light was used on day 2 after dressing removal",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "≥ 50% repigmentation | 27 (90%) | 27 (90%) | 1.000 a",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "< 50% repigmentation | 3 (10%) | 3 (10%) | 1.000 b",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "≥ 75% repigmentation | 23 (73.3%) | 23 (70%) | 1.000 a",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "the percentage of patients achieving ≥ 75% repigmentation in group 1 (73%) was comparable to group 2 (70%)",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "The phototherapy regimen lasted for 8 weeks.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "excimer light was used on day 2 after dressing removal",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 2,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "≥ 75% repigmentation | 23 (73.3%) | 23 (70%) | 1.000 a",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "the percentage of patients achieving ≥ 75% repigmentation in group 1 (73%) was comparable to group 2 (70%)",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 3,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 3,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "≥ 90% repigmentation | 19 (63.3%) | 15 (50%) | 0.435 a",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 4,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "The phototherapy regimen lasted for 8 weeks.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "excimer light was used on day 2 after dressing removal",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 4,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "≥ 90% repigmentation | 19 (63.3%) | 15 (50%) | 0.435 a",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 5,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 5,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 5,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 5,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "100% repigmentation | 10 (33.3%) | 2 (6.7%) | 0.021 b",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "Notably, 10 out of 30 patients in group 1 achieved 100% repigmentation",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 6,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "The phototherapy regimen lasted for 8 weeks.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "excimer light was used on day 2 after dressing removal",
+   "location": "Discussion"
+  },
+  {
+   "row": 6,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 6,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "arm_result",
+   "quote": "100% repigmentation | 10 (33.3%) | 2 (6.7%) | 0.021 b",
+   "location": "Table 2 (Repigmentation at 18 months)"
+  },
+  {
+   "row": 7,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 7,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 7,
+   "field": "time_from_last_treatment",
+   "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 7,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 7,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 7,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 7,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 7,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 8,
+   "field": "arm_result",
+   "quote": "Group 1 | 2.35 ± 0.575 | 2 | 0.003 a",
+   "location": "Table 3 and Results"
+  },
+  {
+   "row": 8,
+   "field": "arm_result",
+   "quote": "A total of 66.7% of patients in group 1 experienced repigmentation within 2 weeks, compared to only 36.7% in group 2.",
+   "location": "Table 3 and Results"
+  },
+  {
+   "row": 8,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 8,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 8,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 8,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 8,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 8,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 8,
+   "field": "texture_or_scar",
+   "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.",
+   "location": "Results"
+  },
+  {
+   "row": 9,
+   "field": "arm_result",
+   "quote": "Group 2 | 2.72 ± 0.665 | 3",
+   "location": "Table 3 and Results"
+  },
+  {
+   "row": 9,
+   "field": "arm_result",
+   "quote": "A total of 66.7% of patients in group 1 experienced repigmentation within 2 weeks, compared to only 36.7% in group 2.",
+   "location": "Table 3 and Results"
+  },
+  {
+   "row": 9,
+   "field": "arm_result",
+   "quote": "Group 1 | 2.35 ± 0.575 | 2 | 0.003 a",
+   "location": "Table 3 and Results"
+  },
+  {
+   "row": 9,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 9,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 9,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 9,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 9,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 9,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "Good match | 23 (76.7%) | 22 (73.3%) | 1.000 a",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "Hypopigmentation | 1 (3.3%) | 1 (3.3%) | 1.000 b",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "Halo phenomenon | 6 (20%) | 15 (50%) | 0.029 a",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "At 18 months, recurrence at the graft sites was observed in two patients in group 1",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 10,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 10,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 10,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 10,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 10,
+   "field": "time_from_last_treatment",
+   "quote": "The phototherapy regimen lasted for 8 weeks.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 10,
+   "field": "time_from_last_treatment",
+   "quote": "excimer light was used on day 2 after dressing removal",
+   "location": "Discussion"
+  },
+  {
+   "row": 10,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 10,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 10,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  },
+  {
+   "row": 10,
+   "field": "texture_or_scar",
+   "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.",
+   "location": "Results"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "Good match | 23 (76.7%) | 22 (73.3%) | 1.000 a",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "Hypopigmentation | 1 (3.3%) | 1 (3.3%) | 1.000 b",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "Halo phenomenon | 6 (20%) | 15 (50%) | 0.029 a",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "In group 2, one patient with segmental vitiligo experienced small lesion recurrence.",
+   "location": "Table 4 (Color match), Results and Discussion"
+  },
+  {
+   "row": 11,
+   "field": "patients_enrolled",
+   "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 11,
+   "field": "texture_or_scar",
+   "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.",
+   "location": "Results"
+  },
+  {
+   "row": 11,
+   "field": "time_from_last_treatment",
+   "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 11,
+   "field": "time_from_last_treatment",
+   "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.",
+   "location": "Methods, Study Procedure, Step 5"
+  },
+  {
+   "row": 11,
+   "field": "time_from_last_treatment",
+   "quote": "The dressings were removed from the donor and recipient sites after 1 week.",
+   "location": "Methods, Study Procedure, Step 4"
+  },
+  {
+   "row": 11,
+   "field": "dark_overshoot",
+   "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a",
+   "location": "Table 4"
+  },
+  {
+   "row": 11,
+   "field": "dark_overshoot",
+   "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively",
+   "location": "Discussion"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.",
+   "location": "Methods, Study Design"
+  },
+  {
+   "row": 11,
+   "field": "arm_result",
+   "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p",
+   "location": "Table 2 header"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
