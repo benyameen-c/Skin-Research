@@ -43,7 +43,8 @@ CONTRACT
 Module constants
   PARAMS         tuple of str == spot_model.PARAMS + GRID_PARAMS. Every one is
                  a `symbol` in data/spot_model_params.csv.
-  GRID_PARAMS    ("lambda_D",)   exactly; the register row dermal_signal_reach.
+  GRID_PARAMS    ("lambda_D", "tx_site_capacity")   exactly; register rows
+                 dermal_signal_reach and transplant_site_capacity.
   KINDS, INTERVENTIONS, STATES   equal to spot_model's.
   PX_PER_MM 20, BLUR_SD_MM 0.10, RING_GAP_MM 1.0, RING_WIDTH_MM 1.5: equal to
                  experiments/drift_sim.py (plan 5.1: same scene conventions).
@@ -51,15 +52,16 @@ Module constants
   STRUCTURAL_ASSUMPTIONS  tuple, exactly these names (each is an ASSUMPTION
                  with no register row because it is a modelling choice, not a
                  number; plan section 11 states each one):
-                   "site_spacing_from_n_M_ring", "one_melanocyte_per_site",
+                   "site_spacing_from_n_M_ring", "one_resident_slot_per_site",
                    "one_fibroblast_per_site", "defect_patch_is_fixed_disc",
                    "daughter_copies_parent_lineage_and_age",
-                   "transplant_fills_empty_sites_only"
+                   "transplant_fills_free_slots_up_to_capacity"
 
 default_params(kind) -> new dict, keys == set(PARAMS). For every key in
   spot_model.PARAMS the value equals spot_model.default_params(kind)[key] (the
   grid is the same model plus space). lambda_D is the same for every kind (it
-  is not a defect) and lies in the register range 0.05 to 2 mm. Unknown kind ->
+  is not a defect) and lies in the register range 0.05 to 2 mm.
+  tx_site_capacity == 2 for every kind (register: base runs). Unknown kind ->
   ValueError.
 
 geometry(params) -> dict
@@ -86,12 +88,18 @@ dermal_signal(source, h_mm, lambda_D, p_D, mu_D) -> float array, same shape
 
 run(params, *, days, seed=0, mode="stochastic" | "expected", transplant_days=(),
     snapshot_days=None, fibroblasts="random" | "uniform", fibroblast_seed=None)
-  -> dict. One square field (geometry(params)), one melanocyte site and one
-  dermal fibroblast site per lattice point, one step per day, days 0..days.
+  -> dict. One square field (geometry(params)), one step per day, days
+  0..days. Each lattice point has one dermal fibroblast and C =
+  tx_site_capacity melanocyte SLOTS: one resident slot, which every rule below
+  may fill, and C - 1 extra slots, which ONLY transplanted cells can take (so a
+  transplant can raise density above normal skin, up to C times, as the
+  nude-mouse graft's "388.75 +/- 213 mm2" against "220 +/- 28.28" suggests,
+  PMID 2508572; C = 1 is single occupancy). Each slot holds at most one cell.
   Refusals (ValueError): everything spot_model.run refuses (unknown or missing
   key, negative rates or counts, f_sen or s_tx outside [0, 1], d_spot <= 0,
   T_K <= 0, days < 1, unknown mode, bad transplant_days, tx_rates not 0 or 1);
-  lambda_D < 0; unknown `fibroblasts`; snapshot_days not strictly increasing
+  lambda_D < 0; tx_site_capacity not a whole number in 1..3; unknown
+  `fibroblasts`; snapshot_days not strictly increasing
   ints in [0, days]. Any other keyword (e.g. intervention=...) -> TypeError.
   snapshot_days None means (0, days).
 
@@ -115,24 +123,30 @@ run(params, *, days, seed=0, mode="stochastic" | "expected", transplant_days=(),
     dermal term k_derm * D_map[site] (age multiplies the intrinsic rate; one
     step at most along active -> hypoactive -> senescent -> gone, and
     hypoactive -> gone; never backwards; never active -> gone). A lost cell
-    leaves its site empty.
-  * Then division (R7): an empty site is filled with probability
-    1 - exp(-k_div * a / 4), a = number of its 4 neighbours (inside the field)
-    holding an active cell. The daughter is active and copies one active
-    neighbour chosen uniformly: its lineage (rates), its age clock and its
-    transplant label.
+    leaves its slot empty. A site is "empty" when it holds no live cell.
+  * Then division (R7, fills gaps only): an empty RESIDENT slot is filled with
+    probability 1 - exp(-k_div * a / 4), a = number of its 4 neighbours (inside
+    the field) holding at least one active cell (expected mode: the sum over
+    neighbours of min(1, expected active cells), a mean-field approximation).
+    The daughter is active and copies one active neighbouring cell chosen
+    uniformly: its lineage (rates), its age clock and its transplant label.
+    Division never fills an extra slot.
   * Then transplant (R9), on each listed day: round(N_tx * pi * d_spot**2 / 4)
     cells delivered (the same number as spot_model); Binomial(that, s_tx)
     (stochastic) or that * s_tx (expected) survive; survivors take empty sites
     inside the disc only, chosen uniformly at random, active, age 0,
-    transplanted label. Survivors beyond the number of empty disc sites are
-    not placed and are reported as overflow. Expected mode: with E the summed
-    empty probability inside the disc and S the survivors, each disc site's
-    empty probability moves a share min(1, S / E) into a new age-0 active
-    transplanted cohort; overflow max(0, S - E).
-  * Then melanin: each site's keratinocyte melanin follows spot_model's rule
-    for one cell (supply from an active cell at its lineage's k_tr; renewal
-    time T_K). Only active cells supply.
+    transplanted label. Survivors take FREE SLOTS (resident or extra) inside
+    the disc, each free slot equally likely, without replacement. Survivors
+    beyond the number of free disc slots are not placed and are reported as
+    overflow. Expected mode: with E the summed free-slot probability inside the
+    disc and S the survivors, every disc slot's free probability moves a share
+    min(1, S / E) into a new age-0 active transplanted cohort; overflow
+    max(0, S - E). With S <= E nothing overflows, so the grid places exactly
+    the cells the well-mixed model adds.
+  * Then melanin: each site's keratinocyte melanin follows spot_model's rule,
+    with supply summed over the site's active cells, each at its lineage's
+    k_tr; renewal time T_K. Only active cells supply. A site with two active
+    healthy cells settles at melanin 2 (darker than surrounding skin).
   * Then the day is recorded.
   "stochastic": integer states, reproducible bit for bit from seed and
   fibroblast_seed. "expected": per-site state probabilities (the mean-field
@@ -143,14 +157,16 @@ run(params, *, days, seed=0, mode="stochastic" | "expected", transplant_days=(),
     day               0..days
     spot, ring        dicts of daily arrays (length days + 1) summed over the
                       sites of spot_mask / ring_mask: active, hypoactive,
-                      senescent, empty, gone (cumulative losses),
+                      senescent (cell counts, all slots), empty (sites with
+                      no live cell), gone (cumulative losses),
                       transplanted_alive; and melanin = MEAN melanin per site.
     n_sites           {"spot": spot_mask.sum(), "ring": ring_mask.sum()}
     fibroblast_map    (n_side, n_side) senescent share per dermal site
     D_map             (n_side, n_side)
     snapshots         {day: {"active", "hypoactive", "senescent", "melanin",
                       "transplanted"}} maps (n_side, n_side) for each snapshot
-                      day; stochastic 0/1 per site, expected probabilities.
+                      day: cells per site summed over slots (stochastic
+                      integers 0..C, expected mode expected counts).
                       "transplanted" = live cells carrying the transplant label.
     transplant_overflow  list, one value per transplant session
     days_since_final_treatment  as spot_model (NaN before the final session;
@@ -236,9 +252,10 @@ COUNT_KEYS = ("active", "hypoactive", "senescent", "empty", "gone")
 REGION_KEYS = COUNT_KEYS + ("transplanted_alive", "melanin")
 MAP_KEYS = ("active", "hypoactive", "senescent", "melanin", "transplanted")
 STRUCTURAL = {
-    "site_spacing_from_n_M_ring", "one_melanocyte_per_site",
+    "site_spacing_from_n_M_ring", "one_resident_slot_per_site",
     "one_fibroblast_per_site", "defect_patch_is_fixed_disc",
-    "daughter_copies_parent_lineage_and_age", "transplant_fills_empty_sites_only",
+    "daughter_copies_parent_lineage_and_age",
+    "transplant_fills_free_slots_up_to_capacity",
 }
 
 TWO_YEARS = 730
@@ -313,9 +330,9 @@ def same_result(a, b, region_keys=REGION_KEYS):
 
 # ---------------------------------------------------------------- the register
 
-def test_params_are_the_well_mixed_params_plus_lambda_D_and_all_registered():
-    assert tuple(gm.GRID_PARAMS) == ("lambda_D",)
-    assert tuple(gm.PARAMS) == tuple(sm.PARAMS) + ("lambda_D",)
+def test_params_are_the_well_mixed_params_plus_grid_params_and_all_registered():
+    assert tuple(gm.GRID_PARAMS) == ("lambda_D", "tx_site_capacity")
+    assert tuple(gm.PARAMS) == tuple(sm.PARAMS) + tuple(gm.GRID_PARAMS)
     symbols = {r["symbol"] for r in register_rows()}
     missing = set(gm.PARAMS) - symbols
     assert not missing, f"parameters not in data/spot_model_params.csv: {missing}"
@@ -341,6 +358,7 @@ def test_defaults_are_the_well_mixed_defaults():
         assert {k: p[k] for k in sm.PARAMS} == w
         assert 0.05 <= p["lambda_D"] <= 2.0      # register range
         lams.add(p["lambda_D"])
+        assert p["tx_site_capacity"] == 2        # register: base runs
     assert len(lams) == 1                        # signal reach is not a defect
     with pytest.raises(ValueError):
         gm.default_params("H3")
@@ -362,6 +380,7 @@ def test_unknown_and_missing_parameters_are_refused():
 @pytest.mark.parametrize("key,value", [
     ("lambda_D", -0.1), ("k_int", -1e-4), ("k_div", -1e-4), ("f_sen", 1.5),
     ("s_tx", -0.1), ("d_spot", 0.0), ("T_K", 0.0), ("tx_rates", 0.5),
+    ("tx_site_capacity", 0), ("tx_site_capacity", 1.5), ("tx_site_capacity", 4),
 ])
 def test_out_of_range_values_are_refused(key, value):
     with pytest.raises(ValueError):
@@ -627,14 +646,19 @@ def test_zero_loss_rates_freeze_every_site(kind, mode):
 @pytest.mark.parametrize("kind", ["H1", "H2", "mixture"])
 def test_expected_mode_probabilities_are_a_distribution_per_site(kind):
     p = dict(gm.default_params(kind), k_derm=gm.default_params(kind)["k_derm"] * 5)
+    cap = p["tx_site_capacity"]
     r = gm.run(p, days=TWO_YEARS, mode="expected", transplant_days=(400,),
                snapshot_days=(0, 399, 400, TWO_YEARS))
     for snap in r["snapshots"].values():
         live = snap["active"] + snap["hypoactive"] + snap["senescent"]
         for k in ("active", "hypoactive", "senescent", "melanin", "transplanted"):
             assert np.all(snap[k] >= -1e-12)
-        assert np.all(live <= 1 + 1e-9)
+        assert np.all(live <= cap + 1e-9)
         assert np.all(snap["transplanted"] <= live + 1e-9)
+    # extra slots are for transplanted cells only: before the session no site
+    # holds more than one cell
+    pre = r["snapshots"][399]
+    assert np.all(pre["active"] + pre["hypoactive"] + pre["senescent"] <= 1 + 1e-9)
     for reg in ("spot", "ring"):
         tot = r[reg]["active"] + r[reg]["hypoactive"] + r[reg]["senescent"] + r[reg]["empty"]
         assert np.allclose(tot, r["n_sites"][reg], rtol=EXACT_REL, atol=0)
@@ -663,7 +687,8 @@ def test_without_division_or_transplant_every_empty_site_was_a_loss():
 
 
 def state_map(snap):
-    """0 empty, 1 active, 2 hypoactive, 3 senescent (stochastic snapshot)."""
+    """0 empty, 1 active, 2 hypoactive, 3 senescent (stochastic snapshot of a
+    single-occupancy run, tx_site_capacity 1)."""
     a, h, s = (np.asarray(snap[k]).astype(int) for k in ("active", "hypoactive", "senescent"))
     assert np.all(a + h + s <= 1)            # one melanocyte per site
     return a * 1 + h * 2 + s * 3
@@ -675,8 +700,10 @@ def test_one_step_per_day_and_two_stage_loss_on_every_site():
     senescent->empty, or empty->active (division or transplant). Nothing else:
     no active->empty, no active->senescent, nothing backwards. Fast rates and
     60 days keep 61 daily snapshots small while still giving every allowed
-    transition many times."""
-    p = h2_strong(lambda_D=0.2, k_derm=0.05, k_sen=0.02, k_loss=0.05, k_div=0.05, d_spot=2.0)
+    transition many times. Single occupancy (capacity 1) so a site's state is
+    one cell's state; the slot rules are the same for every slot."""
+    p = h2_strong(lambda_D=0.2, k_derm=0.05, k_sen=0.02, k_loss=0.05, k_div=0.05,
+                  d_spot=2.0, tx_site_capacity=1)
     days = 60
     r = gm.run(p, days=days, seed=4, transplant_days=(30,), snapshot_days=tuple(range(days + 1)))
     allowed = {(1, 1), (2, 2), (3, 3), (0, 0), (1, 2), (2, 3), (2, 0), (3, 0), (0, 1)}
@@ -797,8 +824,8 @@ def test_stochastic_mean_matches_expected_for_a_fixed_fibroblast_map():
 
 # ---------------------------------------------------------------- transplant
 
-def test_transplant_places_cells_only_on_empty_sites_inside_the_spot():
-    p = h1_strong(k_div=0.0, d_spot=2.0)
+def test_single_occupancy_transplant_places_cells_only_on_empty_sites_inside_the_spot():
+    p = h1_strong(k_div=0.0, d_spot=2.0, tx_site_capacity=1)
     t = 400
     r = gm.run(p, days=t + 5, seed=3, transplant_days=(t,), snapshot_days=(t - 1, t, t + 5))
     m = r["geometry"]["spot_mask"]
@@ -825,15 +852,24 @@ def test_transplant_survivors_are_placed_or_reported_as_overflow(mode):
     assert r["ring"]["transplanted_alive"][t] == 0
 
 
+@pytest.mark.parametrize("cap", [1, 2, 3])
 @pytest.mark.parametrize("mode", ["stochastic", "expected"])
-def test_a_large_transplant_fills_the_spot_and_never_exceeds_one_cell_per_site(mode):
-    p = dict(h1_strong(k_div=0.0, d_spot=2.0), N_tx=1e5, s_tx=1.0)
+def test_a_large_transplant_fills_every_slot_and_never_exceeds_capacity(mode, cap):
+    """Capacity 1: density stops at normal skin. Capacity 2 or 3: a large
+    transplant takes the spot above normal density (the mouse graft's
+    388.75 vs 220 per mm2, PMID 2508572), up to cap x sites and no further."""
+    p = dict(h1_strong(k_div=0.0, d_spot=2.0), N_tx=1e5, s_tx=1.0, tx_site_capacity=cap)
     t = 400
-    r = gm.run(p, days=t + 30, seed=3, mode=mode, transplant_days=(t,))
+    r = gm.run(p, days=t + 30, seed=3, mode=mode, transplant_days=(t,), snapshot_days=(t,))
+    ns = r["n_sites"]["spot"]
     assert r["spot"]["empty"][t] == pytest.approx(0, abs=1e-9)
     live = r["spot"]["active"] + r["spot"]["hypoactive"] + r["spot"]["senescent"]
-    assert np.all(live <= r["n_sites"]["spot"] * (1 + EXACT_REL))
+    assert live[t] == pytest.approx(cap * ns, rel=EXACT_REL)
+    assert np.all(live <= cap * ns * (1 + EXACT_REL))
+    snap = r["snapshots"][t]
+    assert np.all(snap["active"] + snap["hypoactive"] + snap["senescent"] <= cap + 1e-9)
     assert r["transplant_overflow"][0] > 0
+    assert r["ring"]["transplanted_alive"][t] == 0
 
 
 @pytest.mark.parametrize("mode", ["stochastic", "expected"])
@@ -848,6 +884,67 @@ def test_donors_without_loss_pressure_keep_their_cells(mode):
     assert np.all(alive[: sessions[0]] == 0)
     after = alive[sessions[-1]:]
     assert after[0] > 0 and np.allclose(after, after[0], rtol=EXACT_REL, atol=0)
+
+
+def no_loss_grid(params):
+    return dict(params, k_int=0.0, k_sen=0.0, k_loss=0.0, k_derm=0.0, k_div=0.0)
+
+
+def overflow_is_zero(res):
+    return all(abs(x) <= 1e-9 for x in res["transplant_overflow"])
+
+
+@pytest.mark.parametrize("cap", [2, 3])
+def test_above_normal_transplant_matches_the_well_mixed_model(cap):
+    """The reason for extra slots: with free capacity for every survivor, the
+    grid places exactly the cells the well-mixed model adds, including above
+    normal density, so the two models agree on how many donor cells there are.
+    No loss pressure and no division, expected mode, ten years: transplanted
+    cells equal, overflow 0, and melanin (supply summed over active cells) in
+    the spot settles darker than the ring at (sites + donors) / sites. 1e-6 on
+    melanin: after ten years the T_K = 28 day transient is gone (e^-130)."""
+    p = no_loss_grid(dict(gm.default_params("healthy"), N_tx=110.0, s_tx=0.5,
+                          tx_site_capacity=cap))
+    sessions = (30, 60)
+    g = gm.run(p, days=3650, mode="expected", transplant_days=sessions)
+    w = sm.run(wm_params(p), days=3650, mode="expected", transplant_days=sessions)
+    assert overflow_is_zero(g)
+    assert np.allclose(g["spot"]["transplanted_alive"], w["transplanted_alive"], rtol=EXACT_REL, atol=1e-9)
+    ns = g["n_sites"]["spot"]
+    donors = g["spot"]["transplanted_alive"][-1]
+    assert donors > 0
+    assert g["spot"]["melanin"][-1] == pytest.approx((ns + donors) / ns, rel=1e-6)
+    assert g["ring"]["melanin"][-1] == pytest.approx(1.0, rel=EXACT_REL)
+
+
+def test_single_occupancy_is_the_alternative_with_overflow():
+    """The alternative considered (capacity 1): into skin with no free site,
+    every survivor overflows and nothing is placed."""
+    p = no_loss_grid(dict(gm.default_params("healthy"), tx_site_capacity=1))
+    r = gm.run(p, days=100, mode="expected", transplant_days=(50,))
+    survivors = round(p["N_tx"] * math.pi * p["d_spot"] ** 2 / 4) * p["s_tx"]
+    assert np.all(r["spot"]["transplanted_alive"] == 0)
+    assert r["transplant_overflow"][0] == pytest.approx(survivors, rel=EXACT_REL)
+
+
+@pytest.mark.parametrize("mode", ["stochastic", "expected"])
+def test_extra_slots_are_never_used_without_a_transplant(mode):
+    """Division only fills gaps (R7): without a transplant no site ever holds
+    more than one cell, at any capacity."""
+    p = dict(h1_strong(k_div=0.05, d_spot=2.0), tx_site_capacity=3)
+    r = gm.run(p, days=400, seed=2, mode=mode, snapshot_days=(100, 400))
+    for snap in r["snapshots"].values():
+        assert np.all(snap["active"] + snap["hypoactive"] + snap["senescent"] <= 1 + 1e-9)
+    live = r["spot"]["active"] + r["spot"]["hypoactive"] + r["spot"]["senescent"]
+    assert np.all(live <= r["n_sites"]["spot"] * (1 + EXACT_REL))
+
+
+def test_capacity_does_nothing_without_a_transplant():
+    p = h2_strong(lambda_D=0.3)
+    kw = dict(days=400, seed=5, mode="stochastic")
+    a = gm.run(dict(p, tx_site_capacity=1), **kw)
+    b = gm.run(dict(p, tx_site_capacity=3), **kw)
+    assert same_result(a, b)
 
 
 def test_tx_rates_0_ignores_donor_rates():
