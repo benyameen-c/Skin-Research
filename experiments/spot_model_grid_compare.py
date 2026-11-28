@@ -69,11 +69,19 @@ provisional threshold; the six-month P4 result matches M4 (untestable at
 1.0 L*); overflow is 0 in every accepted set. A result that contradicts any
 of these is reported as such.
 
-Run:  python3 experiments/spot_model_grid_compare.py --out data [--workers 4]
+Checkpoints (added 2026-11-28 after the first full attempt was stopped by
+the 2-hour job limit before writing anything; engineering only, no setting
+changed): each set's results are cached as JSON in --cache, and a restart
+skips sets already done. Results depend only on the fixed seeds, so a resumed
+run gives the same numbers as an uninterrupted one.
+
+Run:  python3 experiments/spot_model_grid_compare.py --out data [--workers 4] [--cache DIR]
 Writes data/spot_model_m6_{sets,oat,summary}.csv.
 """
 import argparse
 import csv
+import json
+import os
 import math
 import time
 from multiprocessing import Pool
@@ -189,6 +197,35 @@ def evaluate(r):
     return out
 
 
+CACHE = None
+
+
+def _cached(tag, args, fn):
+    if CACHE is None:
+        return fn(args)
+    path = Path(CACHE) / f"{tag}_{args[0]}_{args[1]}.json"
+    if path.exists():
+        return json.loads(path.read_text())
+    res = fn(args)
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(res))
+    os.replace(tmp, path)
+    return res
+
+
+def one_set_cached(args):
+    return _cached("set", args, one_set)
+
+
+def v6_set_cached(args):
+    return _cached("v6", args, v6_set)
+
+
+def _init(cache):
+    global CACHE
+    CACHE = cache
+
+
 def one_set(args):
     draw_i, kind, wm_p, lam = args
     rows = []
@@ -198,7 +235,8 @@ def one_set(args):
                    snapshot_days=SNAPS, fibroblasts="random", fibroblast_seed=draw_i)
         row = {"draw": draw_i, "kind": kind, "tx_rates": tx}
         row.update({k: p[k] for k in gm.PARAMS})
-        row.update(evaluate(r))
+        row.update({k: (bool(v) if isinstance(v, (bool, np.bool_)) else float(v) if isinstance(v, (float, np.floating)) else v)
+                    for k, v in evaluate(r).items()})
         rows.append(row)
     return rows
 
@@ -211,7 +249,7 @@ def v6_set(args):
         r = gm.run(p, days=PRE, seed=s, mode="stochastic", snapshot_days=(PRE,),
                    fibroblasts="random", fibroblast_seed=draw_i)
         scores.append(gm.skip_score(gm.render(r, PRE, blur_sd_mm=0.0), p["d_spot"]))
-    return draw_i, kind, scores
+    return [draw_i, kind, scores]
 
 
 def oat_rows():
@@ -322,6 +360,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="data")
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--cache", default=None, help="checkpoint folder (resume)")
     ap.add_argument("--limit", type=int, default=None, help="first N sets only (smoke test; not for results)")
     args = ap.parse_args()
     out = Path(args.out)
@@ -335,12 +374,14 @@ def main():
         draw = {k: float(v[i]) for k, v in draws.items()}
         _, kinds = m4.build_sets(draw, 0.0)
         jobs.append((i, kind, kinds[kind], float(lam[i])))
-    with Pool(args.workers) as pool:
-        rows = [r for rs in pool.imap(one_set, jobs, chunksize=1) for r in rs]
+    if args.cache:
+        Path(args.cache).mkdir(parents=True, exist_ok=True)
+    with Pool(args.workers, initializer=_init, initargs=(args.cache,)) as pool:
+        rows = [r for rs in pool.imap(one_set_cached, jobs, chunksize=1) for r in rs]
         print(f"expected runs done: {len(rows)} rows, {time.time() - t0:.0f} s", flush=True)
         need = sorted({(r["draw"], r["kind"]) for r in rows if r["pass_without_V6"]})
         v6_jobs = [j for j in jobs if (j[0], j[1]) in need]
-        v6 = {(i, k): s for i, k, s in pool.imap(v6_set, v6_jobs, chunksize=1)}
+        v6 = {(i, k): s for i, k, s in pool.imap(v6_set_cached, v6_jobs, chunksize=1)}
     for r in rows:
         s = v6.get((r["draw"], r["kind"]))
         r["V6_seed_scores"] = ";".join(f"{x:.4g}" for x in s) if s else "not run"
