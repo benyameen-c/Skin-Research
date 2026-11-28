@@ -252,4 +252,37 @@ Formation time (how many years a spot takes to appear) has no quoted value, so i
 
 ## 9. Open questions for Ben
 
+Each has a recommended answer, so work can go ahead on that answer if Ben prefers not to decide yet.
+
+1. **Add a third explanation ("something from the whole body")?** The 1989 mouse graft result (4.4) fits neither modelled explanation. *Recommended:* not in the first build; keep it as a flagged misfit, and add it only if the first build shows H1 and H2 can be told apart.
+2. **Start with the simple version?** A well-mixed model (counts over time, no space) before the grid model. *Recommended:* yes (section 6, M3 and M4). It answers the transplant question and the marker question quickly; the grid is only worth building if the simple one separates the hypotheses.
+3. **Model only transplantation, or also a wounding stimulus?** Several ledger treatments (laser, phenol, 5-FU tattooing, cryotherapy) injure the skin, and one mouse paper shows injury calling up follicle pigment stem cells (PMID 35044224). Adding "wounding switches the reservoir on for a while" would let the model ask whether those treatments' colour should last six months under each explanation. *Recommended:* transplant only in the first build, wounding as the first extension, because it ties the model to the ledger's actual treatments.
+4. **Can you get the full text of PMID 31823346** (Br J Dermatol 2020;182(6):1481-1482, doi:10.1111/bjd.18801, senescent fibroblasts in IGH)? It is the most load-bearing missing source for H2. Also useful: PMID 36394380 (melanocytes "disappear and are senescent", J Eur Acad Dermatol Venereol 2023). Both are on the paywall-style path: library, author, or pay per article. *Recommended:* yes if it costs little; the model can be built without them, but H2 stays the weaker-sourced side until then.
+5. **Add edge width and a "skip area" score to the measurement tool plan** (section 5.1)? They are the two predictions Ben could check from photographs without a biopsy. *Recommended:* yes, as an addition to the placement simulation tests (measurement plan task T2), so blur and misplacement effects on edge width are known before anyone reads meaning into it.
+6. **Go ahead with M1 to M4** (parameter register, its checker, tests, simple model) after reading this? *Recommended:* yes. Each is one thread and one pull request for you to read, nothing public.
+
 ## Sources used
+
+All saved in the project files excerpts folder as `pmid_<id>.txt` (or `pmc_<id>.txt` where noted). No new search was run for this plan. *Title only* means the saved record has no abstract.
+
+| PMID | What it is | Condition | Used for |
+|---|---|---|---|
+| 2508572 | IGH and vitiligo skin grafted onto nude mice, 1989 | IGH | melanocyte densities; repigmentation timing; the misfit in 4.4 |
+| 3805391 | pathogenesis study, 15 patients and 15 controls | IGH | spot size; histology; minigraft result (P5) |
+| 3908515 | blister-roof melanocyte grafting, 1985 | IGH and other leukodermas | transplant timing; absence of dopa-positive cells |
+| 6183861 | clinical and microscopic study of 20 cases | IGH | sharp edge; never completely absent; somatic-mutation hypothesis |
+| 7377803 | ultrastructure, 3 patients | IGH | two-stage loss; ageing |
+| 9765023 | 9 lesions, KIT and differentiation markers | IGH | absolute decrease in melanocyte number |
+| 20465639 | 47 patients, histology | IGH | atrophy share; MART-1 staining |
+| 21699514 | 1,174 subjects examined | IGH | prevalence with age |
+| 25088925 | electron microscopy, 4 patients | IGH | transfer defect; normal fibroblasts |
+| 25484386 | 55 biopsies (full text also saved as `pmc_25484386.txt`) | IGH | skip areas; sparse inflammation |
+| 29516488 | 6 patients, 6 controls, senescence markers | IGH | p16, p21, hp1; melanin accumulation |
+| 31823346 | senescent fibroblasts | IGH | title only |
+| 35114009 | 20 patients, histology and electron microscopy | IGH | dermal fibrosis; melanocyte–dermis interaction |
+| 36394380 | melanocytes disappear and are senescent | IGH | title only (open question 4) |
+| 41453137 | ATG7 in UV-senescent melanocytes, checked in IGH skin | cells, mice, IGH skin | earliest marker |
+| 29442138 | DKK1 and melanocyte senescence | vitiligo, cells | candidate dermal signal |
+| 31633821 | senescent melanocytes in skin ageing | human skin, 3D model | paracrine rule R6 |
+| 37554281 | senescent melanocytes, transport defect (full text `pmc_37554281.txt`) | cells, aged skin | melanin accumulation rule R3 |
+| 35044224 | micro-injury and follicle stem cells | vitiligo model mice | reservoir rule |
