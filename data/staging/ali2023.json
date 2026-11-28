@@ -989,7 +989,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "notes": "Verifier 2026-11-28 (thread claude/project-thread-mkqdgn), source text alone (papers/excerpts/pmc_11042015.txt, Table I HTML; Fig. 4 pie chart image checked: 15% excellent, 60% good, 20% fair, 5% poor, matches rows 0-3). 0 failed cells. All 117 quotes found verbatim. Table I recomputed: grade members and follow-up ranges per row (excellent 9-10, good 6-12, fair 7-12, poor 8; 100% repigmentation only patient 19 at 10 months), skin types 12 III / 8 IV, sites 7/6/3/2/1/1, means and SDs (age 26.85±9.37, follow-up 8.5±1.73, repigmentation 78.15±13.6, area 22±9.87, blister time 91.75±10.29, grafts 4.8±2.02, duration 18.7±8.29) all match the text; the 5 GEQ 'No' answers are the 4 fair and 1 poor patients. Tiers: rows 0-4 partial_repigmentation is the weakest reading (graded percentage, 'excellent' spans 90-100%); row 5 complete_area_coverage rests on Table I 'Repig. (%)' = 100 for one patient, count bracketed as derived; rows 6-7 unquantified is correct (by-eye colour statement with no scale or time point is not lasting_color_match; satisfaction is none of the three outcomes). Time: single operation, captions say 'postoperative' months, follow-up counted from the operation with the inference bracketed; months_after_final_tx is the shortest follow-up in each row's patients. Missing-data words fit FULL_TEXT ('not reported'). Internal contradictions (age 15 vs 18, 6-month vs 10-36 month duration, 12 vs 13 limbs, one-year schedule vs 6-12 month follow-up, donor scarring, back vs lumbosacral) are all in uncertainty. Not IGH: ADJACENT post-burn leucoderma."
  }
 }
