@@ -1,0 +1,459 @@
+{
+ "study_id": "rajegowda2020",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/rajegowda2020.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rajegowda2020",
+   "doi_or_pmid": "doi:10.66344/jpad.v30i2.1405 (Crossref record found 2026-11-28); PMID not found in saved text",
+   "access_level": "FULL_TEXT",
+   "diagnosis": "IGH",
+   "design": "comparative within-patient study (each patient's macules split between two treatments, 5 per arm); how macules were allocated, randomisation and blinding not reported; no untreated control macules",
+   "body_site": "shin (70%), forearm (46.6%) and trunk (26.6%) as 'Common site of distribution of IGH macules' [percentages fit patients of 30, not macules]; 'Most of the individuals had more than 2 sites involvement'; sites of the treated macules per arm not reported",
+   "skin_tone": "Fitzpatrick type IV and V (Mandya, India); numbers per type not reported",
+   "patients_enrolled": "30",
+   "patients_evaluable": "25 ('25 patients completed the study'); the same 25 patients contribute to both arms",
+   "lesions_enrolled": "not reported for the 30 enrolled patients ([150 per arm if 5 per arm in each of 30 patients]); the paper gives 250 macules assessed, 125 in each group",
+   "analysis_unit": "lesion (macule); both arms within the same 25 patients, 5 macules per arm per patient",
+   "assessment_method": "grading of improvement in pigmentation in each macule on four grades by percentage (no response, minimal, good, excellent); who graded, number of assessors and blinding not reported; no instrument measure",
+   "time_from_start": "not reported exactly: 'Patients were assessed monthly and followed up for 3 months'; the paper does not say whether the 3 months run from the first application",
+   "time_from_last_treatment": "NOT_DERIVABLE: the text times follow-up only as 'followed up for 3 months'; applications were 'once in a month till the repigmentation for maximum 3', and some patients 'required 2nd application', so the final application date differs by macule and is not reported per macule",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "patient_noticeability": "not reported",
+   "attrition": "5 of 30 enrolled patients did not complete ('25 patients completed the study'); reasons, timing and arm of losses not reported; the 250 assessed macules are from completers [5 per arm x 25]",
+   "verification_status": "PENDING",
+   "citation": "Rajegowda HM, Kalegowda D, Madegowda SB, Rangarajaiah AC. Efficacy and safety of 88% phenol application versus cryotherapy in repigmentation of idiopathic guttate hypomelanosis: A comparative study. J Pak Assoc Dermatol 2020;30(2):261-266",
+   "source_url": "https://www.jpad.com.pk/index.php/jpad/article/download/1405/1389",
+   "source_location": "Table 1; Results; Abstract Results",
+   "intervention": "short contact cryotherapy with liquid nitrogen spray gun for 3-5 seconds on 5 macules per patient, once a month until repigmentation, maximum 3 applications",
+   "comparator": "88% phenol on 5 other macules in the same patients (row 1); no untreated control",
+   "lesions_evaluable": "125 (5 in each of 25 patients)",
+   "endpoint_definition": "grade of improvement in pigmentation per macule 'At the end of the treatment period': excellent >75%, good 51-75%, minimal 26-50%, no response <25%; excellent is partial repigmentation, not complete coverage",
+   "arm_result": "excellent (>75%) 75/125 (60%); good (51-75%) 20/125 (16%); minimal (26-50%) 15/125 (12%); no response (<25%) 15/125 (12%); signs of repigmentation 110/125 (88%); difference from phenol p<0.05 (test not named)",
+   "complete_match": "not reported (top grade is '>75%'; no count of macules fully matching surrounding skin)",
+   "dark_overshoot": "post-inflammatory hyperpigmentation 5/125 (4%) macules (Table 2)",
+   "texture_or_scar": "persistent scabbing (scab persisting more than 15 days) 3/125 (2.4%) macules; scarring 0; ulceration 0 (Table 2)",
+   "uncertainty": "Original publication; a near-identical Clin Dermatol Rev 2021 article (study_id rajegowda2021, already in the ledger) was retracted as a duplicate of it, so the two must not be counted as separate cohorts. Same department and authors as deepadarshan2023, whose ref 15 is a 2022 CO2 laser vs 88% phenol IGH paper by the group; possible shared phenol-arm patients (this study ran June 2017 to May 2018). Follow-up is 3 months with no statement of the interval after the final application; the authors write 'Further studies with longer duration of follow up required to confirm our results'. Nothing on six-month durability. Grading scale has gaps (<25%, 26-50%, 51-75%, >75%: exactly 25%, 50% and 75% fall in no grade); 'no response' is <25% improvement, not zero. Applications were 'once in a month till the repigmentation for maximum 3', but the Abstract calls cryotherapy 'single cryotherapy'; Results say '5 patients in phenol group and 8 patients in cryotherapy group required 2nd application' (counted in patients, although every patient had both arms); no third application is mentioned. Macules within one patient treated as independent; the p<0.05 comparison names no test and does not say whether pairing was accounted for. Abstract says ulceration was 'more common with 88% phenol', but Table 2 shows 0 ulceration in both groups. Table 2 cells were assigned to rows and columns from the PDF text layout [cryotherapy column 3, 5, 0, 0; phenol column 41, 18, 16, 0]; each percentage fits n=125. Mean age 56.5 years, range 30-70 in Results, while inclusion was 18-70. Site percentages 46.6% and 26.6% [fit 14/30 and 8/30 truncated]. Topical 2% mupirocin was advised to 'All the patients'; whether cryotherapy macules received it is not stated. Cryotherapy and phenol may both act partly through post-inflammatory hyperpigmentation (Discussion), so early pigment may not be a lasting colour match. How IGH was diagnosed (clinical, dermoscopy or biopsy) not reported.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "cryotherapy"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rajegowda2020",
+   "doi_or_pmid": "doi:10.66344/jpad.v30i2.1405 (Crossref record found 2026-11-28); PMID not found in saved text",
+   "access_level": "FULL_TEXT",
+   "diagnosis": "IGH",
+   "design": "comparative within-patient study (each patient's macules split between two treatments, 5 per arm); how macules were allocated, randomisation and blinding not reported; no untreated control macules",
+   "body_site": "shin (70%), forearm (46.6%) and trunk (26.6%) as 'Common site of distribution of IGH macules' [percentages fit patients of 30, not macules]; 'Most of the individuals had more than 2 sites involvement'; sites of the treated macules per arm not reported",
+   "skin_tone": "Fitzpatrick type IV and V (Mandya, India); numbers per type not reported",
+   "patients_enrolled": "30",
+   "patients_evaluable": "25 ('25 patients completed the study'); the same 25 patients contribute to both arms",
+   "lesions_enrolled": "not reported for the 30 enrolled patients ([150 per arm if 5 per arm in each of 30 patients]); the paper gives 250 macules assessed, 125 in each group",
+   "analysis_unit": "lesion (macule); both arms within the same 25 patients, 5 macules per arm per patient",
+   "assessment_method": "grading of improvement in pigmentation in each macule on four grades by percentage (no response, minimal, good, excellent); who graded, number of assessors and blinding not reported; no instrument measure",
+   "time_from_start": "not reported exactly: 'Patients were assessed monthly and followed up for 3 months'; the paper does not say whether the 3 months run from the first application",
+   "time_from_last_treatment": "NOT_DERIVABLE: the text times follow-up only as 'followed up for 3 months'; applications were 'once in a month till the repigmentation for maximum 3', and some patients 'required 2nd application', so the final application date differs by macule and is not reported per macule",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "patient_noticeability": "not reported",
+   "attrition": "5 of 30 enrolled patients did not complete ('25 patients completed the study'); reasons, timing and arm of losses not reported; the 250 assessed macules are from completers [5 per arm x 25]",
+   "verification_status": "PENDING",
+   "citation": "Rajegowda HM, Kalegowda D, Madegowda SB, Rangarajaiah AC. Efficacy and safety of 88% phenol application versus cryotherapy in repigmentation of idiopathic guttate hypomelanosis: A comparative study. J Pak Assoc Dermatol 2020;30(2):261-266",
+   "source_url": "https://www.jpad.com.pk/index.php/jpad/article/download/1405/1389",
+   "source_location": "Table 1; Results; Abstract Results",
+   "intervention": "88% phenol (<0.5 ml per sitting) applied with a cotton tip applicator over the whole macule with feathering onto 1 mm of surrounding normal skin, on 5 macules per patient, once a month until repigmentation, maximum 3 applications; topical 2% mupirocin twice daily for 1 week advised",
+   "comparator": "short contact cryotherapy on 5 other macules in the same patients (row 0); no untreated control",
+   "lesions_evaluable": "125 (5 in each of 25 patients)",
+   "endpoint_definition": "grade of improvement in pigmentation per macule 'At the end of the treatment period': excellent >75%, good 51-75%, minimal 26-50%, no response <25%; excellent is partial repigmentation, not complete coverage",
+   "arm_result": "excellent (>75%) 37/125 (29.6%); good (51-75%) 29/125 (23.2%); minimal (26-50%) 30/125 (24%); no response (<25%) 29/125 (23.2%); improvement in pigmentation 96/125 (76.8%); difference from cryotherapy p<0.05 (test not named)",
+   "complete_match": "not reported (top grade is '>75%'; no count of macules fully matching surrounding skin)",
+   "dark_overshoot": "post-inflammatory hyperpigmentation 18/125 (14.4%) macules (Table 2)",
+   "texture_or_scar": "persistent scabbing (scab persisting more than 15 days) 41/125 (32.8%) macules; scarring 16/125 (12.8%); ulceration 0 (Table 2)",
+   "uncertainty": "Original publication; a near-identical Clin Dermatol Rev 2021 article (study_id rajegowda2021, already in the ledger) was retracted as a duplicate of it, so the two must not be counted as separate cohorts. Same department and authors as deepadarshan2023, whose ref 15 is a 2022 CO2 laser vs 88% phenol IGH paper by the group; possible shared phenol-arm patients (this study ran June 2017 to May 2018). Follow-up is 3 months with no statement of the interval after the final application; the authors write 'Further studies with longer duration of follow up required to confirm our results'. Nothing on six-month durability. Grading scale has gaps (<25%, 26-50%, 51-75%, >75%: exactly 25%, 50% and 75% fall in no grade); 'no response' is <25% improvement, not zero. Applications were 'once in a month till the repigmentation for maximum 3', but the Abstract calls cryotherapy 'single cryotherapy'; Results say '5 patients in phenol group and 8 patients in cryotherapy group required 2nd application' (counted in patients, although every patient had both arms); no third application is mentioned. Macules within one patient treated as independent; the p<0.05 comparison names no test and does not say whether pairing was accounted for. Abstract says ulceration was 'more common with 88% phenol', but Table 2 shows 0 ulceration in both groups. Table 2 cells were assigned to rows and columns from the PDF text layout [cryotherapy column 3, 5, 0, 0; phenol column 41, 18, 16, 0]; each percentage fits n=125. Mean age 56.5 years, range 30-70 in Results, while inclusion was 18-70. Site percentages 46.6% and 26.6% [fit 14/30 and 8/30 truncated]. Topical 2% mupirocin was advised to 'All the patients'; whether cryotherapy macules received it is not stated. Cryotherapy and phenol may both act partly through post-inflammatory hyperpigmentation (Discussion), so early pigment may not be a lasting colour match. How IGH was diagnosed (clinical, dermoscopy or biopsy) not reported.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "chemical_peel"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rajegowda2020",
+   "doi_or_pmid": "doi:10.66344/jpad.v30i2.1405 (Crossref record found 2026-11-28); PMID not found in saved text",
+   "access_level": "FULL_TEXT",
+   "diagnosis": "IGH",
+   "design": "comparative within-patient study (each patient's macules split between two treatments, 5 per arm); how macules were allocated, randomisation and blinding not reported; no untreated control macules",
+   "body_site": "shin (70%), forearm (46.6%) and trunk (26.6%) as 'Common site of distribution of IGH macules' [percentages fit patients of 30, not macules]; 'Most of the individuals had more than 2 sites involvement'; sites of the treated macules per arm not reported",
+   "skin_tone": "Fitzpatrick type IV and V (Mandya, India); numbers per type not reported",
+   "patients_enrolled": "30",
+   "patients_evaluable": "25 ('25 patients completed the study'); the same 25 patients contribute to both arms",
+   "lesions_enrolled": "not reported for the 30 enrolled patients ([150 per arm if 5 per arm in each of 30 patients]); the paper gives 250 macules assessed, 125 in each group",
+   "analysis_unit": "lesion (macule); both arms within the same 25 patients, 5 macules per arm per patient",
+   "assessment_method": "grading of improvement in pigmentation in each macule on four grades by percentage (no response, minimal, good, excellent); who graded, number of assessors and blinding not reported; no instrument measure",
+   "time_from_start": "not reported exactly: 'Patients were assessed monthly and followed up for 3 months'; the paper does not say whether the 3 months run from the first application",
+   "time_from_last_treatment": "NOT_DERIVABLE: the text times follow-up only as 'followed up for 3 months'; applications were 'once in a month till the repigmentation for maximum 3', and some patients 'required 2nd application', so the final application date differs by macule and is not reported per macule",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "patient_noticeability": "not reported",
+   "attrition": "5 of 30 enrolled patients did not complete ('25 patients completed the study'); reasons, timing and arm of losses not reported; the 250 assessed macules are from completers [5 per arm x 25]",
+   "verification_status": "PENDING",
+   "citation": "Rajegowda HM, Kalegowda D, Madegowda SB, Rangarajaiah AC. Efficacy and safety of 88% phenol application versus cryotherapy in repigmentation of idiopathic guttate hypomelanosis: A comparative study. J Pak Assoc Dermatol 2020;30(2):261-266",
+   "source_url": "https://www.jpad.com.pk/index.php/jpad/article/download/1405/1389",
+   "source_location": "Results, paragraph after Table 2",
+   "intervention": "short contact cryotherapy with liquid nitrogen spray gun for 3-5 seconds on 5 macules per patient, once a month until repigmentation, maximum 3 applications",
+   "comparator": "88% phenol on other macules in the same patients (row 3); no untreated control",
+   "lesions_evaluable": "not reported for this endpoint ([at most 125, the macules in this arm]; whether only repigmented macules were counted is not stated)",
+   "endpoint_definition": "reappearance of depigmentation in treated macules at the end of the 3-month follow-up (loss of gained pigment); no grade or colour measure given",
+   "arm_result": "'None of the macules in both the groups showed reappearance in depigmentation at the end of 3months follow up' (no count or denominator per arm)",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported for this endpoint (see the grading row)",
+   "texture_or_scar": "not reported for this endpoint (see the grading row)",
+   "uncertainty": "This is a statement about the whole study, applied here to the cryotherapy arm; it covers only the 3-month follow-up, which is not timed from the final application, so it says nothing about six months after final treatment. Original publication; a near-identical Clin Dermatol Rev 2021 article (study_id rajegowda2021, already in the ledger) was retracted as a duplicate of it, so the two must not be counted as separate cohorts. Same department and authors as deepadarshan2023, whose ref 15 is a 2022 CO2 laser vs 88% phenol IGH paper by the group; possible shared phenol-arm patients (this study ran June 2017 to May 2018). Follow-up is 3 months with no statement of the interval after the final application; the authors write 'Further studies with longer duration of follow up required to confirm our results'. Nothing on six-month durability. Grading scale has gaps (<25%, 26-50%, 51-75%, >75%: exactly 25%, 50% and 75% fall in no grade); 'no response' is <25% improvement, not zero. Applications were 'once in a month till the repigmentation for maximum 3', but the Abstract calls cryotherapy 'single cryotherapy'; Results say '5 patients in phenol group and 8 patients in cryotherapy group required 2nd application' (counted in patients, although every patient had both arms); no third application is mentioned. Macules within one patient treated as independent; the p<0.05 comparison names no test and does not say whether pairing was accounted for. Abstract says ulceration was 'more common with 88% phenol', but Table 2 shows 0 ulceration in both groups. Table 2 cells were assigned to rows and columns from the PDF text layout [cryotherapy column 3, 5, 0, 0; phenol column 41, 18, 16, 0]; each percentage fits n=125. Mean age 56.5 years, range 30-70 in Results, while inclusion was 18-70. Site percentages 46.6% and 26.6% [fit 14/30 and 8/30 truncated]. Topical 2% mupirocin was advised to 'All the patients'; whether cryotherapy macules received it is not stated. Cryotherapy and phenol may both act partly through post-inflammatory hyperpigmentation (Discussion), so early pigment may not be a lasting colour match. How IGH was diagnosed (clinical, dermoscopy or biopsy) not reported.",
+   "outcome_tier": "unquantified",
+   "treatment_class": "cryotherapy"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "rajegowda2020",
+   "doi_or_pmid": "doi:10.66344/jpad.v30i2.1405 (Crossref record found 2026-11-28); PMID not found in saved text",
+   "access_level": "FULL_TEXT",
+   "diagnosis": "IGH",
+   "design": "comparative within-patient study (each patient's macules split between two treatments, 5 per arm); how macules were allocated, randomisation and blinding not reported; no untreated control macules",
+   "body_site": "shin (70%), forearm (46.6%) and trunk (26.6%) as 'Common site of distribution of IGH macules' [percentages fit patients of 30, not macules]; 'Most of the individuals had more than 2 sites involvement'; sites of the treated macules per arm not reported",
+   "skin_tone": "Fitzpatrick type IV and V (Mandya, India); numbers per type not reported",
+   "patients_enrolled": "30",
+   "patients_evaluable": "25 ('25 patients completed the study'); the same 25 patients contribute to both arms",
+   "lesions_enrolled": "not reported for the 30 enrolled patients ([150 per arm if 5 per arm in each of 30 patients]); the paper gives 250 macules assessed, 125 in each group",
+   "analysis_unit": "lesion (macule); both arms within the same 25 patients, 5 macules per arm per patient",
+   "assessment_method": "grading of improvement in pigmentation in each macule on four grades by percentage (no response, minimal, good, excellent); who graded, number of assessors and blinding not reported; no instrument measure",
+   "time_from_start": "not reported exactly: 'Patients were assessed monthly and followed up for 3 months'; the paper does not say whether the 3 months run from the first application",
+   "time_from_last_treatment": "NOT_DERIVABLE: the text times follow-up only as 'followed up for 3 months'; applications were 'once in a month till the repigmentation for maximum 3', and some patients 'required 2nd application', so the final application date differs by macule and is not reported per macule",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "patient_noticeability": "not reported",
+   "attrition": "5 of 30 enrolled patients did not complete ('25 patients completed the study'); reasons, timing and arm of losses not reported; the 250 assessed macules are from completers [5 per arm x 25]",
+   "verification_status": "PENDING",
+   "citation": "Rajegowda HM, Kalegowda D, Madegowda SB, Rangarajaiah AC. Efficacy and safety of 88% phenol application versus cryotherapy in repigmentation of idiopathic guttate hypomelanosis: A comparative study. J Pak Assoc Dermatol 2020;30(2):261-266",
+   "source_url": "https://www.jpad.com.pk/index.php/jpad/article/download/1405/1389",
+   "source_location": "Results, paragraph after Table 2",
+   "intervention": "88% phenol (<0.5 ml per sitting) applied with a cotton tip applicator over the whole macule with feathering onto 1 mm of surrounding normal skin, on 5 macules per patient, once a month until repigmentation, maximum 3 applications; topical 2% mupirocin twice daily for 1 week advised",
+   "comparator": "short contact cryotherapy on other macules in the same patients (row 2); no untreated control",
+   "lesions_evaluable": "not reported for this endpoint ([at most 125, the macules in this arm]; whether only repigmented macules were counted is not stated)",
+   "endpoint_definition": "reappearance of depigmentation in treated macules at the end of the 3-month follow-up (loss of gained pigment); no grade or colour measure given",
+   "arm_result": "'None of the macules in both the groups showed reappearance in depigmentation at the end of 3months follow up' (no count or denominator per arm)",
+   "complete_match": "not reported",
+   "dark_overshoot": "not reported for this endpoint (see the grading row)",
+   "texture_or_scar": "not reported for this endpoint (see the grading row)",
+   "uncertainty": "This is a statement about the whole study, applied here to the phenol arm; it covers only the 3-month follow-up, which is not timed from the final application, so it says nothing about six months after final treatment. Original publication; a near-identical Clin Dermatol Rev 2021 article (study_id rajegowda2021, already in the ledger) was retracted as a duplicate of it, so the two must not be counted as separate cohorts. Same department and authors as deepadarshan2023, whose ref 15 is a 2022 CO2 laser vs 88% phenol IGH paper by the group; possible shared phenol-arm patients (this study ran June 2017 to May 2018). Follow-up is 3 months with no statement of the interval after the final application; the authors write 'Further studies with longer duration of follow up required to confirm our results'. Nothing on six-month durability. Grading scale has gaps (<25%, 26-50%, 51-75%, >75%: exactly 25%, 50% and 75% fall in no grade); 'no response' is <25% improvement, not zero. Applications were 'once in a month till the repigmentation for maximum 3', but the Abstract calls cryotherapy 'single cryotherapy'; Results say '5 patients in phenol group and 8 patients in cryotherapy group required 2nd application' (counted in patients, although every patient had both arms); no third application is mentioned. Macules within one patient treated as independent; the p<0.05 comparison names no test and does not say whether pairing was accounted for. Abstract says ulceration was 'more common with 88% phenol', but Table 2 shows 0 ulceration in both groups. Table 2 cells were assigned to rows and columns from the PDF text layout [cryotherapy column 3, 5, 0, 0; phenol column 41, 18, 16, 0]; each percentage fits n=125. Mean age 56.5 years, range 30-70 in Results, while inclusion was 18-70. Site percentages 46.6% and 26.6% [fit 14/30 and 8/30 truncated]. Topical 2% mupirocin was advised to 'All the patients'; whether cryotherapy macules received it is not stated. Cryotherapy and phenol may both act partly through post-inflammatory hyperpigmentation (Discussion), so early pigment may not be a lasting colour match. How IGH was diagnosed (clinical, dermoscopy or biopsy) not reported.",
+   "outcome_tier": "unquantified",
+   "treatment_class": "chemical_peel"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Patients were assessed monthly and followed up for 3 months for the side effects and improvement in pigmentation.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "applied for another 5 IGH macules once in a month till the repigmentation for maximum 3",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "5 patients in phenol group and 8 patients in cryotherapy group required 2nd application.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "Patients were assessed monthly and followed up for 3 months for the side effects and improvement in pigmentation.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "applied for another 5 IGH macules once in a month till the repigmentation for maximum 3",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "5 patients in phenol group and 8 patients in cryotherapy group required 2nd application.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "Patients were assessed monthly and followed up for 3 months for the side effects and improvement in pigmentation.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "applied for another 5 IGH macules once in a month till the repigmentation for maximum 3",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "5 patients in phenol group and 8 patients in cryotherapy group required 2nd application.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 3,
+   "field": "lesions_enrolled",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 3,
+   "field": "lesions_enrolled",
+   "quote": "A total of 30 patients with Fitzpatrick skin type IV & V between the age group of 18-70 years, with more than 10 IGH macules were included in the study.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "Patients were assessed monthly and followed up for 3 months for the side effects and improvement in pigmentation.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "applied for another 5 IGH macules once in a month till the repigmentation for maximum 3",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "5 patients in phenol group and 8 patients in cryotherapy group required 2nd application.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Table 1 Grade of improvement No response Minimal Good Excellent Cryotherapy n=125 15(12%) 15(12%) 20(16%) 75(60%)",
+   "location": "Table 1"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "110(88%) macules showed signs of repigmentation, 15 (12%) macules showed no repigmentation.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "<25%- no response, 26-50%- minimal, 51-75%good & >75%- excellent response.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "p-value<0.05 which is statistically significant (Table 1 & Graph 1).",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "Table 2 Side effects Persistent scabbing Post inflammatory hyperpigmentation(PIH) Scarring Ulceration Cryotherapy group 3(2.4%) Phenol group 41(32.8%) 5(4%) 18(14.4%) 0 0 16(12.8%) 0",
+   "location": "Table 2"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Table 2 Side effects Persistent scabbing Post inflammatory hyperpigmentation(PIH) Scarring Ulceration Cryotherapy group 3(2.4%) Phenol group 41(32.8%) 5(4%) 18(14.4%) 0 0 16(12.8%) 0",
+   "location": "Table 2"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "persistent scabbing (scab which persisted for > 15days)",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Phenol n=125 29(23.2%) 30(24%) 29(23.2%) 37(29.6%)",
+   "location": "Table 1"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Among the phenol applied 125 macules, 96(76.8%) macules showed improvement in pigmentation, 29(23.2%) macules had no response.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "<25%- no response, 26-50%- minimal, 51-75%good & >75%- excellent response.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "p-value<0.05 which is statistically significant (Table 1 & Graph 1).",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "Table 2 Side effects Persistent scabbing Post inflammatory hyperpigmentation(PIH) Scarring Ulceration Cryotherapy group 3(2.4%) Phenol group 41(32.8%) 5(4%) 18(14.4%) 0 0 16(12.8%) 0",
+   "location": "Table 2"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Table 2 Side effects Persistent scabbing Post inflammatory hyperpigmentation(PIH) Scarring Ulceration Cryotherapy group 3(2.4%) Phenol group 41(32.8%) 5(4%) 18(14.4%) 0 0 16(12.8%) 0",
+   "location": "Table 2"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "persistent scabbing (scab which persisted for > 15days)",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "A total of 250 macules (125 in each group) were assessed.",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "At the end of the treatment period, out of 125 macules treated with short contact cryotherapy 75(60%) macules showed excellent response",
+   "location": "Abstract Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "<25%- no response (grade-1), 26-50% minimal (grade-2), 51-75% good (grade-3) and >75% excellent response (grade-4).",
+   "location": "Abstract Materials and Methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "88% phenol was applied with cotton tip applicator to 5 IGH macules once in a month till the repigmentation for maximum of 3 applications",
+   "location": "Materials and Methods"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "None of the macules in both the groups showed reappearance in depigmentation at the end of 3months follow up.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "None of the macules in both the groups showed reappearance in depigmentation at the end of 3months follow up.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "25 patients completed the study.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "patients_evaluable",
+   "quote": "25 patients completed the study.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "patients_evaluable",
+   "quote": "25 patients completed the study.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "patients_evaluable",
+   "quote": "25 patients completed the study.",
+   "location": "Results"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
