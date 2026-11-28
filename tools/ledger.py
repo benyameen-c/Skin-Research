@@ -16,6 +16,9 @@ On merge, each row's verification_status is set from the verifier block:
 "PASS (verifier <date>; <access>)". The date is verifier.date, else the first
 YYYY-MM-DD in verifier.notes, else "date not recorded".
 
+A record with a top-level "retracted" block (the source was retracted) is never
+merged, whatever its verifier status; its rows stay out of the ledger.
+
 Numbers the extractor inferred (not printed in the source) go in [square brackets]
 inside the cell and are exempt from the quote check.
 """
@@ -142,6 +145,9 @@ def cmd_merge(paths):
     merged = 0
     for p in paths:
         rec = json.loads(Path(p).read_text(encoding="utf-8"))
+        if rec.get("retracted"):
+            print(f"skip  {p} (source retracted: {rec['retracted'].get('notice', 'no notice recorded')})")
+            continue
         if validate_record(rec, cols) or rec["verifier"]["status"] != "PASS":
             print(f"skip  {p} (fails validation or verifier status is {rec.get('verifier', {}).get('status')})")
             continue
