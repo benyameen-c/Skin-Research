@@ -647,9 +647,11 @@ def test_run_rejects_unknown_scenario(sim):
 
 # ---- target evaluation (logic only, on hand-made rows) ---------------------
 
-def _rows(**override):
-    """Rows for one placement x region that meet every criterion; override a
-    cell with key (scenario, shift, field) -> value."""
+def _rows(override=None):
+    """Rows for every placement x region that meet every criterion; override
+    is a dict mapping (scenario, shift, placement, region, field) -> value.
+    (Passed as a dict, not **kwargs: Python only allows string keyword names.)"""
+    override = override or {}
     out = []
     for sc, true in (("unchanged", 0.0), ("genuine_fading", -50.0), ("shrinking", -51.0)):
         for s in (0.0, 0.25, 0.3, 0.5):
@@ -687,9 +689,9 @@ def test_evaluate_target_all_pass(sim):
     ({("unchanged", 0.3, "sticker", "inner_disc", "mean_change_pct"): 0.8}, "within_noise_to_0_3mm"),
 ])
 def test_evaluate_target_each_criterion_can_fail(sim, override, key):
-    e = sim.evaluate_target(_rows(**override))[("sticker", "inner_disc")]
+    e = sim.evaluate_target(_rows(override))[("sticker", "inner_disc")]
     assert e[key] is False and e["passes"] is False
-    assert sim.evaluate_target(_rows(**override))[("none", "inner_disc")]["passes"] is True
+    assert sim.evaluate_target(_rows(override))[("none", "inner_disc")]["passes"] is True
 
 
 def test_evaluate_target_thresholds_are_inclusive(sim):
@@ -697,21 +699,21 @@ def test_evaluate_target_thresholds_are_inclusive(sim):
     o = {("unchanged", 0.5, "none", "outline", "mean_change_pct"): 2.0,
          ("unchanged", 0.5, "none", "outline", "sd_change_pct"): 1.0,
          ("genuine_fading", 0.5, "none", "outline", "mean_change_pct"): -48.0}
-    assert sim.evaluate_target(_rows(**o))[("none", "outline")]["passes"] is True
+    assert sim.evaluate_target(_rows(o))[("none", "outline")]["passes"] is True
 
 
 def test_evaluate_target_all_rejected_does_not_pass(sim):
     o = {("unchanged", 0.5, "ring_registration", "inner_disc", "mean_change_pct"): None,
          ("unchanged", 0.5, "ring_registration", "inner_disc", "sd_change_pct"): None,
          ("unchanged", 0.5, "ring_registration", "inner_disc", "rejected"): 10}
-    assert sim.evaluate_target(_rows(**o))[("ring_registration", "inner_disc")]["passes"] is False
+    assert sim.evaluate_target(_rows(o))[("ring_registration", "inner_disc")]["passes"] is False
 
 
 def test_evaluate_target_area_criterion(sim):
     o = {("shrinking", 0.5, "none", "outline", "area_error_pct"): -10.5}
-    assert sim.evaluate_target(_rows(**o))["area_ok"] is False
+    assert sim.evaluate_target(_rows(o))["area_ok"] is False
     o = {("shrinking", 0.5, "none", "outline", "area_error_pct"): -10.0}
-    assert sim.evaluate_target(_rows(**o))["area_ok"] is True
+    assert sim.evaluate_target(_rows(o))["area_ok"] is True
 
 
 def test_evaluate_target_missing_row_is_an_error(sim):
