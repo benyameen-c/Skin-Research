@@ -1,0 +1,31 @@
+name,symbol,unit,value_or_range,status,pmid,source_file,quote,used_in,upgrade_by
+spot_diameter,d_spot,mm,2 to 5,QUOTED,3805391,pmid_3805391.txt,small 2- to 5-mm achromic or hypopigmented macules,"2.1, V5","photo series (Ben, own untreated spot, measurement tool)"
+melanocyte_density_spot,n_M_spot,cells per mm2,55.25 (SD 18.00),QUOTED,2508572,pmid_2508572.txt,55.25 +/- 18.00 mm2 vs 220 +/- 28.28 mm2,V1,biopsy markers (professional partner)
+melanocyte_density_surround,n_M_ring,cells per mm2,220 (SD 28.28),QUOTED,2508572,pmid_2508572.txt,55.25 +/- 18.00 mm2 vs 220 +/- 28.28 mm2,"V1, R9",biopsy markers (professional partner)
+melanocyte_density_after_mouse_graft,n_M_graft,cells per mm2,388.75 (SD 213),QUOTED,2508572,pmid_2508572.txt,The number of melanocytes increased significantly (388.75 +/- 213 mm2),V8 (misfit),biopsy markers (professional partner)
+repigmentation_time_mouse_graft,t_mouse,days,20,QUOTED,2508572,pmid_2508572.txt,"Twenty days after skin transplantation, repigmentation of the area was observed",V8 (misfit),none planned (animal host)
+repigmentation_time_blister_graft,t_tx_visible,days,7 to 14,QUOTED,3908515,pmid_3908515.txt,Repigmentation was visible within 7 to 14 days,"R9, V7","transplant study (professional, 6+ months after final session)"
+dermal_fibrosis_share,f_fib,share of patients,18 of 20,QUOTED,35114009,pmid_35114009.txt,We found superficial dermal fibrosis in 90% (18/20) of our IGH cases,R5,biopsy markers (professional partner)
+epidermal_atrophy_share,f_atr,share of patients,5 of 47,QUOTED,20465639,pmid_20465639.txt,epidermal atrophy was present in only five cases (10.6%),context only,biopsy markers (professional partner)
+skip_area_share,f_skip,share of biopsies,almost 80%,QUOTED,25484386,pmid_25484386.txt,small foci of retained melanin in the basal layer (skip areas) alternating with larger areas of melanin loss were present in almost 80% of cases,V6,"photo series (Ben, own untreated spot, measurement tool); biopsy markers (professional partner)"
+prevalence_age_40_plus,prev40,share of subjects,87%,QUOTED,21699514,pmid_21699514.txt,The prevalence of IGH in the group of patients aged ≥40 years was 87%,7.1 formation-time bound,none planned
+intrinsic_hypoactivation_rate,k_int,per day,[years-scale; range set in M3 contract],ASSUMPTION,,,,"R1, H1",biopsy markers (professional partner) (share of hypoactive melanocytes by age)
+intrinsic_rate_age_slope,a_int,dimensionless,[flat to steep],ASSUMPTION,,,,"R1, H1",biopsy markers (professional partner)
+senescence_rate,k_sen,per day,[months to years],ASSUMPTION,,,,R2,biopsy markers (professional partner)
+loss_rate,k_loss,per day,[months to years],ASSUMPTION,,,,R2,biopsy markers (professional partner)
+melanocyte_division_rate,k_div,per day,[near zero to modest],ASSUMPTION,,,,R7,logged literature search (value may exist; not searched)
+melanin_transfer_rate,k_tr,relative,[1 in healthy skin; 0.1 to 1 in spot],ASSUMPTION,,,,"R3, R8",biopsy markers (professional partner)
+keratinocyte_renewal_time,T_K,days,[weeks],ASSUMPTION,,,,R8,logged literature search (value may exist; not searched)
+keratinocytes_per_melanocyte,n_K,count,[fixed; rendering only],ASSUMPTION,,,,R8,logged literature search (value may exist; not searched)
+fibroblast_senescent_share,f_sen,share,[0 to high],ASSUMPTION,,,,"R5, H2","biopsy markers (professional partner) (p16 in dermis, spot vs surround); full text of PMID 31823346"
+dermal_signal_production,p_D,relative,[swept],ASSUMPTION,,,,"R5, H2",biopsy markers (professional partner) (DKK1 or other signal in dermis)
+dermal_signal_reach,lambda_D,mm,[0.05 to 2],ASSUMPTION,,,,"R5, P1, H2","photo series (Ben, own untreated spot, measurement tool) (edge width bounds it)"
+dermal_signal_decay,mu_D,per day,[swept],ASSUMPTION,,,,R5,biopsy markers (professional partner)
+dermal_coupling,k_derm,relative,[0 (H1) to dominant (H2)],ASSUMPTION,,,,"R4, H1 vs H2","biopsy markers (professional partner); transplant study (professional, 6+ months after final session)"
+melanocyte_paracrine_reach,lambda_M,mm,[off in base runs],ASSUMPTION,,,,R6,biopsy markers (professional partner)
+reservoir_density,rho_R,per mm2,"[off, or follicle spacing]",ASSUMPTION,,,,R7,logged literature search (value may exist; not searched)
+reservoir_output,k_R,cells per day,[off in base runs],ASSUMPTION,,,,R7,logged literature search (value may exist; not searched)
+transplant_cells_delivered,N_tx,cells per mm2,[up to 220],ASSUMPTION,,,,R9,"transplant study (professional, 6+ months after final session)"
+transplant_survival,s_tx,share,[0.1 to 0.9],ASSUMPTION,,,,R9,"transplant study (professional, 6+ months after final session)"
+melanin_to_lightness,map_L,mapping,"[monotone, saturating; spot about +12 L* above skin]",ASSUMPTION,,,,5.1 rendering,"photo series (Ben, own untreated spot, measurement tool)"
+donor_cell_rates,tx_rates,setting (0 or 1),"[0 = transplanted cells keep the spot's own intrinsic rates (k_int, a_int, k_tr) and differ only by starting at age 0; 1 = transplanted cells carry healthy-skin intrinsic rates (k_int 0, a_int 0, k_tr 1); dermal coupling k_derm * D applies to them in both settings]",ASSUMPTION,,,,"R9, P4","transplant study (professional, 6+ months after final session)"
