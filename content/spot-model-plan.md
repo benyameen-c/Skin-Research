@@ -186,7 +186,7 @@ The study proposal (`content/study-proposal.md`, PR 6, open) already compares a 
 
 ## 6. Build sequence, tests first
 
-Same pattern as the drift simulation: a written contract, tests from the contract by the `test-author` role before any code, then a builder who may not edit the tests (`git diff --exit-code <tests commit> -- experiments/tests` stays clean). One unit per thread. Nothing in this section starts until Ben has read the plan (open question 6).
+Same pattern as the drift simulation: a written contract, tests from the contract by the `test-author` role before any code, then a builder who may not edit the tests (`git diff --exit-code <tests commit> -- experiments/tests` stays clean). One unit per thread. Ben approved M1 to M4 on 2026-11-28 (open question 6). M1 is `data/spot_model_params.csv`, committed with this plan.
 
 | Step | Role | Input | Output path | Done when |
 |---|---|---|---|---|
@@ -252,6 +252,8 @@ Formation time (how many years a spot takes to appear) has no quoted value, so i
 
 ## 9. Open questions for Ben
 
+**Answered 2026-11-28 01:13 UTC:** Ben accepted every recommendation below ("i think the recommendation si fine"). So: no H3 in the first build; well-mixed version first; transplantation only, wounding as the first extension; edge width and patchiness go to the measurement plan as a proposed change; M1 to M4 go ahead, each a pull request for him to read, nothing public. He asked for a harder verification method, now section 10. Question 4 (full text of PMID 31823346) stays open.
+
 Each has a recommended answer, so work can go ahead on that answer if Ben prefers not to decide yet.
 
 1. **Add a third explanation ("something from the whole body")?** The 1989 mouse graft result (4.4) fits neither modelled explanation. *Recommended:* not in the first build; keep it as a flagged misfit, and add it only if the first build shows H1 and H2 can be told apart.
@@ -260,6 +262,50 @@ Each has a recommended answer, so work can go ahead on that answer if Ben prefer
 4. **Can you get the full text of PMID 31823346** (Br J Dermatol 2020;182(6):1481-1482, doi:10.1111/bjd.18801, senescent fibroblasts in IGH)? It is the most load-bearing missing source for H2. Also useful: PMID 36394380 (melanocytes "disappear and are senescent", J Eur Acad Dermatol Venereol 2023). Both are on the paywall-style path: library, author, or pay per article. *Recommended:* yes if it costs little; the model can be built without them, but H2 stays the weaker-sourced side until then.
 5. **Add edge width and a "skip area" score to the measurement tool plan** (section 5.1)? They are the two predictions Ben could check from photographs without a biopsy. *Recommended:* yes, as an addition to the placement simulation tests (measurement plan task T2), so blur and misplacement effects on edge width are known before anyone reads meaning into it.
 6. **Go ahead with M1 to M4** (parameter register, its checker, tests, simple model) after reading this? *Recommended:* yes. Each is one thread and one pull request for you to read, nothing public.
+
+## 10. Making the conclusions harder
+
+Ben, 28 November 2026: "i am not crazy about how soft the verification method seems to be. if its just for a foot in the door, initial known to be lesser good method, i think it makes sense." He is right, and nothing is hidden that makes it firmer. Validation by pattern (section 7.1) only shows that a parameter set is *not ruled out*. With about a dozen free rates, both explanations will probably pass. On its own the model cannot verify anything. What it can do is commit, in advance, to predictions that real measurements can break. This section sets that up so the model's claims get harder over time instead of staying soft.
+
+### 10.1 Predictions written down before any data is seen
+
+- **Now (this commit):** `data/spot_model_predictions.csv` records, for P1 to P6, what each explanation predicts, what observation would falsify each one, who would measure it, and how the decision threshold is to be set. It was written before any model run, any of Ben's skin photographs, or any biopsy data.
+- **Freeze rule:** rows are never edited once committed. A changed prediction is a new row, with the date and the reason, and the old row stays. `git log -- data/spot_model_predictions.csv` is the audit trail.
+- **Second freeze, after the model runs (M7):** the model's numerical predictions for the robust items (section 7.2) are added as new rows *before* Ben's photo series is analysed. Any prediction made after looking at the data is labelled post hoc and cannot count as a test.
+- **Thresholds come from the instrument, not from the result.** Every "beyond SDC" decision uses the smallest detectable change measured on phantoms (measurement plan rung 2) before skin photos are analysed.
+
+### 10.2 What would falsify each explanation
+
+| Explanation | Falsified if | Predictions involved |
+|---|---|---|
+| H1 (cells wear out alone) | an epidermal-cell transplant fades within six months while a graft that brings its own dermis holds; or dermal p16-positive cells are clearly higher under the spot and melanocyte loss is graded with distance from them; or edge width grows with spot size | P4, P5, P6, P1 |
+| H2 (dermis wears them out) | paired biopsies show dermal p16-positive cells about equal under the spot and outside; or an epidermal-cell transplant holds a match at six months after the final session; or edge width sits at the tool's resolution floor on every spot (then H2 needs a signal reach below one cell spacing and cannot be told apart from H1) | P6, P4, P1 |
+| Both (point to H3, the whole-body explanation) | neither pattern fits: for example, transplants fade *and* dermal markers are normal, or the repigmentation of IGH skin moved to another host (PMID 2508572) is repeated | 4.4 |
+| The model itself | no parameter set passes V1 to V7 at once (section 7.1). Then the rules are wrong, not just the rates | V1 to V7 |
+
+[Inference: the cheapest falsifier is P1 from Ben's own photographs, but it can only knock out H2 in its long-reach form. The decisive tests, P4 to P6, need a professional partner. That is why the model's output is framed as a protocol for "a more full study" rather than a conclusion.]
+
+### 10.3 How each assumption becomes a measured value
+
+Every `ASSUMPTION` row in `data/spot_model_params.csv` has an `upgrade_by` column naming the measurement that would replace it. Grouped by who could do it:
+
+| Measurement | Who | Parameters it would pin down | Predictions it tests |
+|---|---|---|---|
+| Phantom series, then a photo series of one untreated spot over 6 to 12 months (measurement plan rungs 2 and 3) | Ben | instrument SDC; edge width, which bounds `lambda_D`; growth rate; patchiness score; melanin-to-lightness mapping | P1, P2, P3 (crude) |
+| Paired biopsy: spot centre, spot edge, 2 mm outside, same person; melanocyte count, p16 in both layers, ATG7, a candidate dermal signal | professional partner, with consent and ethics approval | `k_int`, `k_sen`, `k_loss` (from state shares), `f_sen`, `p_D`, `k_derm`, `k_tr` | P3, P6 |
+| Transplant study with a six-month readout after the final session, epidermal cells compared with dermis-carrying grafts | professional partner | `N_tx`, `s_tx`, refading time, which sets `k_derm` | P4, P5 |
+| Logged literature search (not run for this plan) | searcher role | `k_div`, `T_K`, `n_K`, reservoir density | none directly; these shrink the sweep |
+
+### 10.4 Levels of certainty used in the write-up
+
+Every statement in `content/spot-model-results.md` (M8) carries one of these labels, so a reader can see how soft it is:
+
+- **Level 0, model only:** follows from the rules and assumed rates. A hypothesis.
+- **Level 1, pre-registered and checked on photographs:** a prediction from `data/spot_model_predictions.csv`, frozen before the data, that survived or failed against Ben's photo series.
+- **Level 2, checked on tissue:** survived or failed against a partner's biopsy markers.
+- **Level 3, checked on a treatment outcome:** survived or failed against a transplant study's six-month readout after the final session. This is the only level that speaks to the project's core question.
+
+Today everything in this plan is at level 0.
 
 ## Sources used
 
