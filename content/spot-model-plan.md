@@ -72,6 +72,44 @@ Each rule is applied every time step. "Sourced" means a saved sentence supports 
 
 ## 3. Parameters: what has a published value and what does not
 
+Status words: `QUOTED` (a saved source gives the number; quote and PMID in the table), `NOT IN SAVED SOURCES` (the quantity may well be measured somewhere, but no source saved in this project gives it; a logged search could look, and this plan did not run one), `NOT MEASURED IN IGH` (a saved source gives a value in another condition or species only). Every value that is not `QUOTED` enters the model as an `ASSUMPTION` with a range, and is swept in section 7.
+
+### 3.1 Values a saved source gives
+
+| Parameter | Value | Quote | PMID | Caveat |
+|---|---|---|---|---|
+| Spot diameter | 2 to 5 mm | "small 2- to 5-mm achromic or hypopigmented macules" | 3805391 | clinical description, not a measured distribution |
+| Melanocyte density, spot vs surrounding skin | 55.25 vs 220 per mm² | "reduction of the number of melanocytes in the depigmented macula as compared with the surrounding area (55.25 +/- 18.00 mm2 vs 220 +/- 28.28 mm2" | 2508572 | dopa staining, 1989; patient count not in abstract. [Inferred ratio: about 0.25] |
+| Melanocyte density after the spot was grafted onto a mouse | 388.75 per mm² | "The number of melanocytes increased significantly (388.75 +/- 213 mm2)" | 2508572 | grafted IGH skin on nude mice; timing of the count not stated in the abstract for IGH |
+| Time to repigmentation, IGH skin on mouse | 20 days | "Twenty days after skin transplantation, repigmentation of the area was observed" | 2508572 | mouse host |
+| Time to visible repigmentation after melanocyte grafting | 7 to 14 days | "Repigmentation was visible within 7 to 14 days" | 3908515 | mixed leukodermas including IGH; no later follow-up in the abstract |
+| Share of spots with superficial dermal fibrosis | 18 of 20 | "We found superficial dermal fibrosis in 90% (18/20) of our IGH cases" | 35114009 | counted per patient's biopsy |
+| Share with epidermal atrophy | 5 of 47 | "epidermal atrophy was present in only five cases (10.6%)" | 20465639 | |
+| Share with patchy retained pigment ("skip areas") | almost 80% | "small foci of retained melanin in the basal layer (skip areas) alternating with larger areas of melanin loss were present in almost 80% of cases" | 25484386 | 55 biopsies; a spatial pattern the model must be able to reproduce (section 7) |
+| Senescence markers, spot vs control | higher, no size given | "expression of p16, p21, and hp1 was significantly higher in lesional skin of IGH patient as compared to healthy controls" | 29516488 | six patients, six controls; direction only |
+
+### 3.2 Values the model needs that no saved source gives
+
+| Parameter | Symbol | Status | Starting range for the sweep (all `ASSUMPTION`) |
+|---|---|---|---|
+| Intrinsic rate at which an active melanocyte goes hypoactive | `k_int` | NOT IN SAVED SOURCES | chosen so that spot formation takes years, not weeks (to be set in the spec) |
+| How that rate rises with cell age | `a_int` | NOT IN SAVED SOURCES | flat to steep |
+| Hypoactive to senescent, and senescent to gone | `k_sen`, `k_loss` | NOT IN SAVED SOURCES | months to years |
+| Melanocyte division rate in adult skin | `k_div` | NOT IN SAVED SOURCES | near zero to modest |
+| Melanin transfer rate to keratinocytes | `k_tr` | NOT IN SAVED SOURCES | normalised to 1 in healthy skin |
+| Keratinocyte column renewal time | `T_K` | NOT IN SAVED SOURCES | weeks |
+| Keratinocytes supplied per melanocyte | `n_K` | NOT IN SAVED SOURCES (the term "epidermal melanin unit" appears in PMID 29516488 with no number) | fixed; only enters the rendering |
+| Share of dermal fibroblasts senescent under a spot vs outside | `f_sen` | NOT IN SAVED SOURCES (only title-level for IGH, PMID 31823346) | 0 to high |
+| Dermal signal production, diffusion length, decay | `p_D`, `λ_D`, `μ_D` | NOT MEASURED IN IGH (DKK1 effect on melanocytes reported in vitiligo, PMID 29442138, with no rate) | `λ_D` from 0.05 mm to 2 mm: this one decides how sharp the spot edge is (section 4) |
+| Coupling of dermal signal to melanocyte senescence | `k_derm` | NOT MEASURED IN IGH | 0 (H1) to dominant (H2) |
+| Paracrine reach of a senescent melanocyte | `λ_M` | NOT MEASURED IN IGH (direction only, PMID 31633821) | off in base runs |
+| Reservoir density and output | `ρ_R`, `k_R` | NOT MEASURED IN IGH (mouse, PMID 35044224) | off, or follicles at a set spacing |
+| Transplanted cells delivered per mm², and share surviving | `N_tx`, `s_tx` | NOT IN SAVED SOURCES | delivered: up to the surrounding density of 220 per mm²; survival 10% to 90% |
+| Rate at which spots grow in diameter | — | NOT IN SAVED SOURCES | none: this is a model *output*, and the plan treats its absence from the literature as a gap (section 5) |
+| Melanin-to-lightness mapping | — | NOT IN SAVED SOURCES | monotone, saturating; chosen so the spot reads about +12 L* above skin, the contrast the existing drift simulation uses (`content/measurement-tool-plan.md` 2.1 item 5) |
+
+[Inference: of roughly 20 inputs, about 9 facts have a quoted value and none of them is a *rate*. The model is therefore a tool for comparing shapes of behaviour, not for predicting dates. Section 8 returns to this.]
+
 ## 4. The two competing explanations and the predictions that separate them
 
 ## 5. How model output maps to things that can be measured
