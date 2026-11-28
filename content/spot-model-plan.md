@@ -214,7 +214,41 @@ Tests the contract must include, at minimum (the test-author decides the rest an
 
 ## 7. Validation and sensitivity analysis
 
+### 7.1 Validation targets
+
+There is no IGH dataset to fit (no public IGH dataset in GEO, BioImage Archive, Zenodo or Figshare, `STATUS.md`). So validation is by **pattern**: a parameter set is accepted only if the model reproduces, at the same time, every qualitative fact below that the saved sources state. A set that reproduces some and contradicts others is rejected.
+
+| Target | Quoted fact | PMID | Pass rule (to be fixed in the M3/M5 contract) |
+|---|---|---|---|
+| V1 | spot density about a quarter of surrounding: "55.25 +/- 18.00 mm2 vs 220 +/- 28.28 mm2" | 2508572 | steady-state spot/ring density ratio inside the quoted spread [roughly 0.15 to 0.4, inferred from the means and SDs] |
+| V2 | "In no case were melanocytes completely absent" | 6183861 | spot density stays above zero at all times in the base runs |
+| V3 | two-stage loss: "loss of melanogenic activity in certain malanocytes and elimination of inactive melanocytes" | 7377803 | hypoactive cells appear before cells are lost |
+| V4 | "sharply demarcated hypopigmented macules" | 6183861 | edge width (5.1) at most a stated fraction of the spot radius [the fraction is an assumption to be set in the contract] |
+| V5 | size: "2- to 5-mm" | 3805391 | spots form in that range without the size being imposed directly |
+| V6 | skip areas "in almost 80% of cases" | 25484386 | the grid model shows patchy retained pigment in most simulated spots |
+| V7 | short-term graft result: "Repigmentation was visible within 7 to 14 days" | 3908515 | a simulated transplant reaches visible contrast reduction within weeks |
+| V8 | mouse graft recovers (section 4.4) | 2508572 | flagged, not scored: no base model can represent a new host. Reported as a known misfit |
+
+Formation time (how many years a spot takes to appear) has no quoted value, so it is not a target. The age pattern ("The prevalence of IGH in the group of patients aged ≥40 years was 87%", PMID 21699514) says spots are common by middle age, which only rules out parameter sets that form spots in weeks.
+
+### 7.2 Sensitivity analysis
+
+1. **One at a time.** Each `ASSUMPTION` parameter moved across its range with the rest fixed; record which predictions (P1 to P6) change size or sign.
+2. **Global sweep.** A few thousand parameter sets drawn across all assumption ranges at once (Latin hypercube, fixed seed), for H1, H2 and mixtures. Keep only sets that pass V1 to V7.
+3. **For each prediction, report** the share of accepted sets in which H1 and H2 differ in the same direction by more than the measurement tool's SDC. A prediction is called **robust** if that share is at least 90%, **fragile** if it flips sign inside the accepted region, and **untestable** if the difference is below the SDC in most sets.
+4. **Rank the unmeasured inputs** by how much each one moves the robust predictions. The top of that list is the model's most useful output for a professional study: it names what should be measured first.
+5. **Identifiability check.** If H1 and H2 parameter sets pass V1 to V7 equally well and give the same P1 to P6, the result is "the current evidence cannot tell them apart, and neither can this model". That is a legitimate and likely outcome, and the write-up must say it plainly.
+
 ## 8. Risks of over-reading the output
+
+- **Assumptions dominate.** None of the quoted values is a rate (section 3). Any time in the output ("fades after N months") is a consequence of an assumed rate, and must be written as "under assumed rates in range X".
+- **A model can be tuned to anything.** With about a dozen free rates, both hypotheses will probably fit the eight validation targets. Fitting is not support. Only predictions that stay robust across the accepted region (7.2) are reported as findings of the model, and even those are hypotheses.
+- **Borrowed biology.** Several rules rest on vitiligo (PMID 29442138), mouse (PMID 35044224) or cultured-cell (PMIDs 37554281, 31633821) evidence. Vitiligo is an immune disease and IGH is not known to be. Each such rule is marked in the register, and the write-up lists which outputs depend on borrowed rules.
+- **Title-only and secondhand sources.** H2's IGH-specific support rests partly on a title (PMID 31823346) and on quotes in an external chatbot report that the project has not verified. Until the full text is saved, H2 is the weaker-sourced explanation, and the plan says so rather than letting the model's symmetry hide it.
+- **The third explanation.** The mouse graft result (4.4) may mean both modelled explanations are wrong. A clean H1-versus-H2 answer could be an answer to the wrong question.
+- **It is not a treatment simulator.** The transplant in the model is a number of cells appearing on a day. It has no donor site, no wound, no procedure, no safety. Output says nothing about whether anyone should have a transplant. Research, not medical advice.
+- **Wording rules for the write-up (M8).** Never "the model shows that X works" or "X lasts N months". Always "under H1 and the stated assumptions, the model predicts...; this would be tested by...". No model number goes into `data/evidence.csv`, the evidence summary, or the home page. Inferences in `[square brackets]` as elsewhere in the project.
+- **Presentability pressure.** A cell simulation with moving pictures looks more authoritative than a table of abstracts, and is less so. Anything public from this module waits for Gate B, and the results page should lead with the limits.
 
 ## 9. Open questions for Ben
 
