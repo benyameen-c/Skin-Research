@@ -14,7 +14,9 @@
   "sections": [
     {"id": "overview", "nav": "Overview", "file": "home.md"},
     {"id": "evidence", "nav": "Evidence", "file": "evidence.md"},
+    {"id": "summary", "nav": "Evidence Summary", "file": "evidence-summary.md"},
     {"id": "experiments", "nav": "Experiments", "file": "experiments.md"},
+    {"id": "frontier-scan", "nav": "Frontier Scan", "file": "frontier-scan.md"},
     {"id": "open-questions", "nav": "Open Questions", "file": "open-questions.md"},
     {"id": "progress-log", "nav": "Progress Log", "file": "progress-log.md"}
   ]

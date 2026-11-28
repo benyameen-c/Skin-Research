@@ -2,6 +2,8 @@
 
 <p><span class="tag human">Published human finding</span> Everything in this section comes from a paper, an abstract or a registry record. Each row links to its source and says how far it was checked.</p>
 
+For a written summary of what this ledger supports, study by study, see the [Evidence Summary](#summary).
+
 Three outcomes are kept apart because papers often blur them.
 
 - **Partial repigmentation**: some colour returned. Most studies stop here, usually as "more than 75% improved".
