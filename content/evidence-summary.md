@@ -4,7 +4,7 @@
 
 <p><span class="tag human">Published human finding</span> Every result below is a number recorded in <code>data/evidence.csv</code> with a verbatim quote in <code>data/evidence_quotes.jsonl</code>, and each one names its study. <span class="tag calc">Calculation on published counts</span> Counts of studies and rows come from the script <code>tools/evidence_summary.py</code>, whose output is pasted in the appendix. No result is pooled, averaged or added up across studies, because the studies count different things (patients, spots, limbs or body sides), stop at different outcome tiers and time their visits differently.</p>
 
-Ledger state for this page: `main` after lu2014 and wang2021 were merged, 114 rows from 28 studies (count, appendix).
+Ledger state for this page: `main` after ashique2015 and hoangvan2025 were merged, 132 rows from 30 studies (count, appendix).
 
 ### The question
 
@@ -57,7 +57,7 @@ The ledger files shin2013 under `laser` and goldust2013 under `energy_device` fo
 
 ### Durability: the direct answer to the six-month question
 
-- **No study in the ledger reports a lasting colour match.** There are no `lasting_color_match` rows, and the only `complete_area_coverage` rows are 2 vitiligo rows, not IGH (count, appendix).
+- **No study in the ledger reports a lasting colour match.** There are no `lasting_color_match` rows, and the only `complete_area_coverage` rows are 4 vitiligo rows, not IGH (count, appendix).
 - **Most results cannot be placed after the final treatment.** On IGH rows, 40 of 48 treated-arm rows are `NOT_DERIVABLE` (count, appendix). These papers time their visits from the start of treatment ("at the fourth month", "at the end of 3 months of initiation of therapy", "at the end of the treatment period"), and several let the number of sittings vary by spot. A result read at month 4 from the start could be months after the last treatment or only weeks after it, and the paper does not say which. That is why the ledger never converts time from the start into time from the final treatment.
 - **Where an interval is stated, it is short.**
     - 2 months after a single fractional CO2 session (shin2013, goldust2013).
@@ -66,7 +66,7 @@ The ledger files shin2013 under `laser` and goldust2013 under `energy_device` fo
 - **A follow-up with no stated starting point.** rajegowda2020 reports that no spot in either arm "showed reappearance in depigmentation at the end of 3months follow up", but applications were monthly for up to 3 and varied by spot, so the ledger records it as unquantified and `NOT_DERIVABLE`, not as an interval after the final treatment.
 - **A long follow-up timed from grafting, not from the final treatment.** In hirobe2018 the authors state that in "our two patients that were followed up to 8 (patient 1B) and 12 (patient 1C) months, the color-matched repigmentation was maintained". That is their own statement, judged by eye with no scale or instrument, and the months are counted from grafting. Every grafted patient then had NB-UVB "three times a week for 1e2 months" with no end date reported, so the ledger records these rows as unquantified and `NOT_DERIVABLE`, not as a lasting colour match or a result six months after the final treatment. The same paper cites earlier work in which "minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting" (hirobe2018).
 - **IGH rows at six months or more after the final treatment: 0** (count, appendix).
-- **The only long follow-up timed from a final treatment is not IGH, and it shows loss.** In pagnoni1999, 2 patients with macular hypomelanosis seen "a year after stopping tretinoin" had "clinical regression of the macules to the original state". That row is recorded as an adjacent diagnosis and never counted as IGH, but it is the only assessment in the ledger recorded as more than 3 months after a final treatment, and its direction is against lasting benefit.
+- **Long follow-up timed from a final treatment exists only outside IGH, and the tretinoin series shows loss.** In pagnoni1999, 2 patients with macular hypomelanosis seen "a year after stopping tretinoin" had "clinical regression of the macules to the original state". That row is recorded as an adjacent diagnosis and never counted as IGH, and its direction is against lasting benefit. The only other assessments recorded as more than 3 months after a final treatment are also not IGH: a vitiligo cell-suspension trial (hoangvan2025) reports a by-eye "good color match" category once, at 18 months after the procedure, recorded as unquantified rather than a lasting colour match.
 - **Darker than the surroundings is also an outcome.** Post-inflammatory hyperpigmentation persisted in 18 of 200 spots (9%) "at 4th month of follow up" after excimer (deepadarshan2023). ravikiran2014 notes that its phenol method "is based on post inflammatory hyperpigmentation induced by chemical wounding", so pigment seen at 3 months may be inflammatory pigment rather than a lasting match.
 
 ### Weaknesses that recur
@@ -107,6 +107,8 @@ These rows are in the ledger but are never counted as IGH evidence above.
 | lin2024 | adjacent diagnosis: vitiligo; Module 5 lead | full text | retrospective series of cultured pure melanocyte transplantation with no control arm; partial repigmentation by lesion type and stratum; the visit of each result is not timed from the final treatment |
 | lu2014 | adjacent diagnosis: vitiligo; Module 5 lead | abstract | follow-up of autologous epidermal sheet grafting with no control arm; partial repigmentation by sheet and by patient grade, and a "completely matching" share by body site whose definition is not in abstract; not timed from the final treatment |
 | wang2021 | adjacent diagnosis: stable head and neck vitiligo; Module 5 lead | abstract | pixel array epidermal grafting then phototherapy, single group; partial repigmentation and an instrument colour-matching index from the melanin index against adjacent skin; timed from grafting, not from the final phototherapy |
+| ashique2015 | adjacent diagnosis: stable or segmental vitiligo; Module 5 lead | full text | retrospective series of suction blister epidermal grafting with no control arm; doctor grades of percentage repigmentation and patient satisfaction; colour match described only in words; follow-up given as a range for the series, so not timed from the final treatment |
+| hoangvan2025 | adjacent diagnosis: stable vitiligo; Module 5 lead | full text | two-arm comparison of non-cultured epidermal cell suspension with and without excimer light, allocated by day of admission; partial repigmentation, full area coverage and a by-eye colour-match category; NCECS-only arm timed from the procedure, the excimer arm's timing derived from the stated schedule and bracketed |
 
 ### What is missing
 
@@ -121,12 +123,12 @@ These rows are in the ledger but are never counted as IGH evidence above.
 
 Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 tools/evidence_summary.py --check content/evidence-summary.md`, which fails if a number above is not in a quote of the study named on its line, or, on a line marked "(count, appendix)", not in this output.
 
-    ledger rows: 114; studies: 28
+    ledger rows: 132; studies: 30
 
     A. Rows and studies by diagnosis group (a study can sit in more than one group)
       IGH       rows  53  studies 21: arbache2018, arbache2023, asawanonda2010, chitvanich2016, deepadarshan2023, deoson2025, falabella1987, goldust2013, gordon2017, hirobe2018, koh2018, kreeshan2021, laosakul2017, pagnoni1999, ploysangam1990, rajegowda2020, rambhia2020, ravikiran2014, rerknimitr2013, rerknimitr2015, shin2013
       mixed     rows   3  studies  2: pagnoni1999, suvanprakorn1985
-      adjacent  rows  57  studies  6: elhoshy2025, lin2024, lu2014, mulekar2007, pagnoni1999, wang2021
+      adjacent  rows  75  studies  8: ashique2015, elhoshy2025, hoangvan2025, lin2024, lu2014, mulekar2007, pagnoni1999, wang2021
       lead      rows   1  studies  1: wambier2018
 
     B. Access level of the 21 studies with IGH rows
@@ -146,7 +148,7 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       lesion_count               2
       partial_repigmentation    23
       unquantified              22
-      complete_area_coverage rows in the whole ledger: 2
+      complete_area_coverage rows in the whole ledger: 4
       lasting_color_match rows in the whole ledger: 0
 
     E. Per study (IGH, mixed and adjacent rows; leads left out)
@@ -154,6 +156,7 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       arbache2018 | IGH | FULL_TEXT | needling_drug_delivery,needling_sham | limb | partial_repigmentation,unquantified | none
       arbache2023 | IGH | ABSTRACT_ONLY | needling_drug_delivery,needling_sham | limb | lesion_count | 1
       asawanonda2010 | IGH | ABSTRACT_ONLY | topical | not | unquantified | none
+      ashique2015 | adjacent | FULL_TEXT | grafting | patient | partial_repigmentation,unquantified | none
       chitvanich2016 | IGH | ABSTRACT_ONLY | control,energy_device_plus_topical | lesion | instrument_color,partial_repigmentation | none
       deepadarshan2023 | IGH | FULL_TEXT | energy_device | lesion | partial_repigmentation | 1
       deoson2025 | IGH | FULL_TEXT | chemical_peel,cryotherapy | lesion | partial_repigmentation | none
@@ -162,6 +165,7 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       goldust2013 | IGH | ABSTRACT_ONLY | energy_device | patient | partial_repigmentation | 2
       gordon2017 | IGH | ABSTRACT_ONLY | energy_device | lesion | partial_repigmentation | none
       hirobe2018 | IGH | FULL_TEXT | grafting | patient | unquantified | none
+      hoangvan2025 | adjacent | FULL_TEXT | grafting,grafting_plus_phototherapy | patient | complete_area_coverage,partial_repigmentation,unquantified | 18
       koh2018 | IGH | ABSTRACT_ONLY | energy_device,topical | lesion | unquantified | none
       kreeshan2021 | IGH | FULL_TEXT | energy_device,energy_device_plus_topical | patient | unquantified | none
       laosakul2017 | IGH | ABSTRACT_ONLY | control,cryotherapy | lesion | instrument_color,partial_repigmentation | none
