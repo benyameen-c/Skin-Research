@@ -949,7 +949,7 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "FAIL",
+  "notes": "FAIL, 5 failed cells (one issue). Checked all 6 rows and every quote against papers/excerpts/pmc_4533535.txt; Tables 1-3 checked against the three PMC table images (IJD-60-369-g004, g005, g007): every transcribed cell matches. Failed: row 0, complete_match; row 1, complete_match; row 2, complete_match; row 3, complete_match; row 4, complete_match: each says 'the only colour statement is qualitative: The face and lips showed an excellent result, color match and persistent pigment retention', but the source has a second colour statement, Figure 3 caption: 'Segmental vitiligo of the face. A near total re-pigmentation with excellent color match' (row 5 already cites it), and Figure 2 caption: 'fully repigmented and normalized after surgery'. 'not reported' itself is correct; the word 'only' is not. Everything else holds: counts 15/9/4/2 of 30, satisfaction 16/8/3/3, donor 16/12/2, rho 0.866 P = 0.0001; NOT_DERIVABLE time is correct (series range only, no per-patient times); unit is patient; outcome_tier partial_repigmentation for every grade including 95-100% and unquantified for rows 4-5 are the weakest readings; recipient-site excess pigment 'not reported' is correct (full text silent); attrition (4 of 30 used last visit) recorded. Non-blocking for the fix round: Discussion says 'Many of our patients showed very good results post-SBEG even without postgraft phototherapy', which implies some patients may have had postgraft phototherapy; uncertainty covers this only as 'any later treatment are not reported' and could quote it."
  }
 }
