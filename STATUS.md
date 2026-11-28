@@ -93,7 +93,7 @@ Last updated: 2026-11-28 02:10 UTC, placement simulation (plan T5, branch claude
 - Plan section 4 target at 2 mm, 0.5 mm shift, mottled skin (results CSV lines 290-295, 794-799): passes = ring registration with outline and with inner disc. Fails = no placement with either region; sticker (SD 0.1 mm) with outline; sticker with inner disc fails only on SD (1.78 points against <= 1). Area criterion passes (unchanged -0.18 %, shrinking +2.20 %).
 - Sensitivity, sticker SD (`data/placement_sim_sticker_sensitivity.csv`, 2 mm, same captures): inner disc passes at 0 and 0.05 mm, fails from 0.1 mm on (SD 1.62 at 0.1). Outline passes only at 0.
 - Sensitivity, noise-floor reading (`data/placement_sim_noise_floor_sensitivity.csv`): the inner disc is below the floor up to 0.3 mm for all three placements under the test author's reading, the SDC form and the 2 % limit; under a standard-error floor (SD / sqrt(100)) all three fail, ring registration by 0.0007 points.
-- Limits: the synthetic skin texture is unchanged between visits apart from noise, so registration is tested in its best case (no hair, tanning, stretch, rotation or lighting gradient). Not written up in `content/experiments.md` yet (task T6); site not rebuilt.
+- Limits: the synthetic skin texture is unchanged between visits apart from noise, so registration is tested in its best case (no hair, tanning, stretch, rotation or lighting gradient). Written up 2026-11-28 as section 5 of `content/experiments.md` (task T6), every number cited by CSV line; site not rebuilt (Gate B).
 
 ## Human gates
 
