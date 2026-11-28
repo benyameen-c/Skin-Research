@@ -1,12 +1,16 @@
 # Status
 
-Last updated: 2026-11-28 01:30 UTC, batch 4 collector: rajegowda2020 merged and the retracted rajegowda2021 removed from the ledger (see Done). Before that, 2026-11-28 01:10 UTC, rajegowda2020 verifier 2 PASS (see Done). Before that, 01:15 UTC (clock of an earlier thread), rajegowda2020 verifier FAIL. Before that, 01:10 UTC, rajegowda2020 staged. Before that, 00:35 UTC, Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
+Last updated: 2026-11-28 01:14 UTC, Module 6 step M1: Ben accepted the spot-model plan's recommendations (01:13 UTC) and asked for a harder verification method; parameter register `data/spot_model_params.csv` and plan section 10 added (branch claude/project-thread-2a0qza, PR 22, not merged). Before that, 01:06 UTC, Module 6 opened and plan written. Before that, 2026-11-28 01:30 UTC, batch 4 collector: rajegowda2020 merged and the retracted rajegowda2021 removed from the ledger (see Done). Before that, 2026-11-28 01:10 UTC, rajegowda2020 verifier 2 PASS (see Done). Before that, 01:15 UTC (clock of an earlier thread), rajegowda2020 verifier FAIL. Before that, 01:10 UTC, rajegowda2020 staged. Before that, 00:35 UTC, Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
 
 ## Open module
 
 **1-hypopigmentation.** Modules 2 to 4 are closed until Module 1 passes Gate B.
 
 **5-damage-repair** (opened by Ben 2026-11-28 00:22 UTC; see `CLAUDE.md`). Not started. First step: two logged searches, (a) what is damaged at the cell and gene level, (b) cell and gene therapy approaches for pigment loss. Leads only until Gate A. All existing rules and gates apply unchanged.
+
+**6-spot-model** (opened by Ben 2026-11-28 00:57 UTC; see `CLAUDE.md`). Plan only: `content/spot-model-plan.md` (branch claude/project-thread-2a0qza, PR open for Ben to read, not merged). No code until Ben has read it. Next steps if he agrees (plan section 6): M1 parameter register `data/spot_model_params.csv`, M2 its quote checker, M3 test-author tests for the well-mixed model, M4 build. Six open questions for Ben in plan section 9. Simulation only; output is hypotheses, never ledger evidence. All existing rules and gates apply unchanged.
+
+- 2026-11-28: Ben accepted all plan recommendations (01:13 UTC) and called pattern validation "soft"; plan section 10 now sets out pre-registered predictions, falsifiers and the upgrade path. **M1 done:** `data/spot_model_params.csv`, 29 rows (10 QUOTED, each quote found word for word in its saved excerpt; 19 ASSUMPTION with ranges and an `upgrade_by` measurement). **Predictions frozen:** `data/spot_model_predictions.csv` (P1 to P6, written before any model run or data); never edit rows, add new ones. Next: M2 (test-author: register checker tests), M3 (test-author: well-mixed model tests), M4 (build), each a separate thread and PR. Open: full text of PMID 31823346.
 
 ## Done
 
