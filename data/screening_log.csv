@@ -110,3 +110,4 @@ PMID 9125763,Tuberous sclerosis and guttate leukodermas,Semin Cutan Med Surg 199
 PMID 9410853,[Hypomelanosis guttata idiopathica],Hautarzt 1997,pubmed_tool_q4,excluded,case report (German); no intervention
 PMID 9640379,Clear cell papulosis of the skin,Br J Dermatol 1998,pubmed_tool_q4,excluded,different diagnosis (clear cell papulosis)
 PMID 9765023,Numbers and differentiation status of melanocytes in idiopathic guttate hypomelanosis,J Cutan Pathol 1998,pubmed_tool_q4,lead: mechanism,melanocyte number and differentiation in IGH lesions; no intervention
+PMID 38189899,"Human-Induced Pluripotent Stem Cell-Derived Keratinocytes, as Therapeutic Option in Vitiligo",Methods Mol Biol 2024,gemini_repair_report_check,excluded,"laboratory protocol chapter on iPSC-derived keratinocytes for vitiligo; abstract only (paywalled); no patients, arms or outcomes; Module 5 method lead only (Gate A extraction 2026-11-28)"
