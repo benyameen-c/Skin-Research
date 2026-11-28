@@ -28,3 +28,4 @@ reservoir_output,k_R,cells per day,[off in base runs],ASSUMPTION,,,,R7,logged li
 transplant_cells_delivered,N_tx,cells per mm2,[up to 220],ASSUMPTION,,,,R9,"transplant study (professional, 6+ months after final session)"
 transplant_survival,s_tx,share,[0.1 to 0.9],ASSUMPTION,,,,R9,"transplant study (professional, 6+ months after final session)"
 melanin_to_lightness,map_L,mapping,"[monotone, saturating; spot about +12 L* above skin]",ASSUMPTION,,,,5.1 rendering,"photo series (Ben, own untreated spot, measurement tool)"
+donor_cell_rates,tx_rates,setting (0 or 1),"[0 = transplanted cells keep the spot's own intrinsic rates (k_int, a_int, k_tr) and differ only by starting at age 0; 1 = transplanted cells carry healthy-skin intrinsic rates (k_int 0, a_int 0, k_tr 1); dermal coupling k_derm * D applies to them in both settings]",ASSUMPTION,,,,"R9, P4","transplant study (professional, 6+ months after final session)"
