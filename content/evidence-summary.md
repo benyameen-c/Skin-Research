@@ -4,7 +4,7 @@
 
 <p><span class="tag human">Published human finding</span> Every result below is a number recorded in <code>data/evidence.csv</code> with a verbatim quote in <code>data/evidence_quotes.jsonl</code>, and each one names its study. <span class="tag calc">Calculation on published counts</span> Counts of studies and rows come from the script <code>tools/evidence_summary.py</code>, whose output is pasted in the appendix. No result is pooled, averaged or added up across studies, because the studies count different things (patients, spots, limbs or body sides), stop at different outcome tiers and time their visits differently.</p>
 
-Ledger state for this page: `main` after arbache2018 was merged, 66 rows from 23 studies (count, appendix).
+Ledger state for this page: `main` after falabella1987, mulekar2007 and lin2024 were merged, 105 rows from 26 studies (count, appendix).
 
 ### The question
 
@@ -12,8 +12,8 @@ Which treatments help a small white spot match the surrounding skin, and does th
 
 ### What the ledger supports today
 
-The ledger holds 20 studies with rows for IGH itself (count, appendix). Treatments based on cold, chemical wounding, light and lasers, topical creams, needle delivery of 5-fluorouracil and small skin grafts from the scalp all report that some colour came back in some spots during the study. No row in the ledger measures a lasting colour match, and no row is recorded as complete area coverage (count, appendix).
-Only 4 of those 20 studies have a result row with a stated interval after the final treatment (count, appendix).
+The ledger holds 21 studies with rows for IGH itself (count, appendix). Treatments based on cold, chemical wounding, light and lasers, topical creams, needle delivery of 5-fluorouracil and small skin grafts from the scalp all report that some colour came back in some spots during the study; one early series reports that minigrafts did not change IGH spots while steroid injection improved their appearance (falabella1987). No row in the ledger measures a lasting colour match, and no IGH row is recorded as complete area coverage; the 2 complete-area-coverage rows in the whole ledger are vitiligo rows, reported separately below (count, appendix).
+Only 4 of those 21 studies have a result row with a stated interval after the final treatment (count, appendix).
 The longest of those intervals is 2 months, in two single-session fractional CO2 laser series (shin2013, goldust2013).
 The six-month question therefore cannot be answered from the published work found so far: the measurement it needs has not been reported. What the ledger does support is narrower. Several treatments produce partial repigmentation by the end of a study, usually graded as a share of the spot, mostly by graders whose blinding is not stated, often counting spots from the same person as if they were independent, and in the controlled studies that report their control side, the untreated or sham-treated spots changed too.
 
@@ -23,7 +23,7 @@ The six-month question therefore cannot be answered from the published work foun
 - **Complete area coverage**: the whole spot has pigment again, which can still be the wrong shade.
 - **Lasting colour match**: colour and texture blend with nearby skin at least six months after the last treatment.
 
-On IGH rows the ledger records 23 rows of partial repigmentation, 6 rows of instrument colour readings, 2 rows of lesion counts and 20 unquantified rows (count, appendix). Instrument readings (colorimeter lightness or luminosity) and counts of white spots are kept as their own tiers: neither shows that a spot matches the skin around it.
+On IGH rows the ledger records 23 rows of partial repigmentation, 6 rows of instrument colour readings, 2 rows of lesion counts and 22 unquantified rows (count, appendix). Instrument readings (colorimeter lightness or luminosity) and counts of white spots are kept as their own tiers: neither shows that a spot matches the skin around it.
 
 ### Treatments and what each study reached (IGH rows only)
 
@@ -51,13 +51,14 @@ On IGH rows the ledger records 23 rows of partial repigmentation, 6 rows of inst
 | 5-fluorouracil by tattoo machine versus saline | arbache2023 | abstract | split-body, single-blinded (registry says parallel) | limbs | lesion count | median white spots per limb 32 to 12 with 5-fluorouracil versus 31 to 21 with saline | 1 month ("30 days after treatment"; number of sessions not in abstract) |
 | 5-fluorouracil by hand needle | rambhia2020 | full text | technique report, no patient count | not reported | unquantified | 2 sittings "yielded complete uniform repigmentation"; no count, no follow-up interval | NOT_DERIVABLE |
 | grafting (machine mini-punch grafts from hairless scalp, then NB-UVB) | hirobe2018 | full text | uncontrolled case series, "Four of ﬁve patients underwent this treatment", reported one by one; no comparator | patients | unquantified | "excellent color-matched repigmentation" after 1 or 2 months from grafting, the authors' visual judgement with no scale, extent or instrument | NOT_DERIVABLE (NB-UVB after grafting "three times a week for 1e2 months" [1 to 2 months; the PDF prints the dash as "e"], end date per patient not reported) |
+| grafting (minigrafts of normal skin); intralesional triamcinolone with or without minigrafts | falabella1987 | abstract | not in abstract (a prevalence survey and case-control study, with treatment experiments) | spots | unquantified | minigrafts "did not modify the achromic defects"; triamcinolone with or without grafts "improved the appearance"; no count, degree or timing in abstract | NOT_DERIVABLE |
 
 The ledger files shin2013 under `laser` and goldust2013 under `energy_device` for the same treatment (a single fractional CO2 session). That is a labelling difference in the ledger, not a difference in the treatments.
 
 ### Durability: the direct answer to the six-month question
 
-- **No study in the ledger reports a lasting colour match.** There are no `lasting_color_match` rows and no `complete_area_coverage` rows (count, appendix).
-- **Most results cannot be placed after the final treatment.** On IGH rows, 38 of 46 treated-arm rows are `NOT_DERIVABLE` (count, appendix). These papers time their visits from the start of treatment ("at the fourth month", "at the end of 3 months of initiation of therapy", "at the end of the treatment period"), and several let the number of sittings vary by spot. A result read at month 4 from the start could be months after the last treatment or only weeks after it, and the paper does not say which. That is why the ledger never converts time from the start into time from the final treatment.
+- **No study in the ledger reports a lasting colour match.** There are no `lasting_color_match` rows, and the only `complete_area_coverage` rows are 2 vitiligo rows, not IGH (count, appendix).
+- **Most results cannot be placed after the final treatment.** On IGH rows, 40 of 48 treated-arm rows are `NOT_DERIVABLE` (count, appendix). These papers time their visits from the start of treatment ("at the fourth month", "at the end of 3 months of initiation of therapy", "at the end of the treatment period"), and several let the number of sittings vary by spot. A result read at month 4 from the start could be months after the last treatment or only weeks after it, and the paper does not say which. That is why the ledger never converts time from the start into time from the final treatment.
 - **Where an interval is stated, it is short.**
     - 2 months after a single fractional CO2 session (shin2013, goldust2013).
     - 1 month after a 12-week excimer course, by the Methods (deepadarshan2023). The same paper's Results speak of a "4-month follow-up", which matches 16 weeks counted from baseline, so the ledger keeps the Methods figure.
@@ -72,26 +73,26 @@ The ledger files shin2013 under `laser` and goldust2013 under `energy_device` fo
 
 These come from the `uncertainty`, `design` and `comparator` fields. The script finds them by keyword and lists the matching studies in the appendix; each match was read against its row before it is used here.
 
-- **Spots counted as if independent.** In 9 of 20 IGH studies the uncertainty field notes several spots per patient, clustered or analysed as independent (count, appendix).
+- **Spots counted as if independent.** In 9 of 21 IGH studies the uncertainty field notes several spots per patient, clustered or analysed as independent (count, appendix).
     - For example, 5 spots per patient with a chi-square test on 75 spots per arm (deoson2025).
     - 122 spots from 18 patients, with no statement of how clustering was handled (koh2018).
-- **No untreated, placebo or sham comparison.** 12 of 20 IGH studies have none: single-arm series, case reports, or active treatments compared only with each other (count, appendix). Without one, natural change and seasonal tanning cannot be separated from treatment.
+- **No untreated, placebo or sham comparison.** 13 of 21 IGH studies have none: single-arm series, case reports, or active treatments compared only with each other (count, appendix). Without one, natural change and seasonal tanning cannot be separated from treatment.
 - **Untreated and sham spots improved.** Where a comparison exists, the control side often moved.
     - Saline by tattoo machine took the median from 31 to 21 white spots per limb (arbache2023).
     - In the interim report of a placebo-controlled tattoo-machine trial, saline limbs reached 33.8% repigmentation against 75.3% for 5-fluorouracil limbs, by Antera 3D imaging (arbache2018).
     - Graders called 18.34% of control spots improved (rerknimitr2015).
     - 2% of untreated spots reached more than 75% improvement (laosakul2017).
     - In the adjacent-diagnosis microneedling trial, the abstract reports peripheral tanning in 85% of untreated lesions against 80% of treated ones, in wording that is ambiguous (elhoshy2025).
-- **Blinding.** Only 5 of 20 IGH studies state that grading was blinded (count, appendix); in the rest the abstract or paper does not say.
-- **Single sessions.** 3 of 20 IGH studies give a single session (count, appendix). This is why their gap after the final treatment is known, and also why their follow-up is short.
-- **Denominators that do not fit.** In 6 of 20 IGH studies a printed percentage does not fit the stated count, or the stated count conflicts with the design (count, appendix).
+- **Blinding.** Only 5 of 21 IGH studies state that grading was blinded (count, appendix); in the rest the abstract or paper does not say.
+- **Single sessions.** 3 of 21 IGH studies give a single session (count, appendix). This is why their gap after the final treatment is known, and also why their follow-up is short.
+- **Denominators that do not fit.** In 6 of 21 IGH studies a printed percentage does not fit the stated count, or the stated count conflicts with the design (count, appendix).
     - For example, 82.3% is not a whole-number share of 43 treated spots (laosakul2017).
     - 11% is not a whole-number share of 26 patients (rerknimitr2013).
     - "120 lesions" conflicts with two treated spots per patient in 30 patients (rerknimitr2015).
 - **Patients versus spots.** The two single-session fractional CO2 series count patients, not spots (goldust2013, shin2013), and the grafting series reports each patient's grafted spots as a whole (hirobe2018). Most others count spots. arbache2023 counts white spots per limb, and arbache2018 reports repigmentation per limb. These numbers are not comparable with each other.
 - **Face versus off-face.** The only study whose ledger row names the face says it was the most commonly treated area (shin2013), while its authors note that IGH most often affects the extremities. Studies that name a site report shins, legs, forearms, arms, the back, limbs or extremities (deoson2025, deepadarshan2023, ravikiran2014, kreeshan2021, pagnoni1999, arbache2023, arbache2018, rerknimitr2015, hirobe2018). Most abstracts do not say.
 - **Possible shared cohort.** arbache2018 and arbache2023 cite the same trial registration, so the 8 patients in the interim letter may be among the later paper's patients. They are listed as two studies, and they should not be counted as independent evidence (arbache2018, arbache2023).
-- **Abstract only.** 11 of 20 IGH studies were read from the abstract only (count, appendix); their missing counts, timing and side effects are recorded as `not in abstract`, never guessed.
+- **Abstract only.** 12 of 21 IGH studies were read from the abstract only (count, appendix); their missing counts, timing and side effects are recorded as `not in abstract`, never guessed.
 
 ### Reported separately: not IGH, or IGH not separated
 
@@ -102,10 +103,12 @@ These rows are in the ledger but are never counted as IGH evidence above.
 | elhoshy2025 | adjacent diagnosis: localized acquired hypomelanosis | abstract | single microneedling session, assessed at 3 months; [untreated halves improved about as much as treated halves on the reported medians]; no between-arm statistics in the abstract |
 | pagnoni1999 (macular hypomelanosis rows) | 3 of the 4 treated women had macular hypomelanosis, and most results are pooled with the 1 IGH patient | full text | tretinoin; loss of effect a year after stopping in 2 macular hypomelanosis patients |
 | suvanprakorn1985 | mixed: vitiligo, IGH and postinflammatory leukoderma, results not separated | abstract | melanocyte grafting; "successful repigmentation" with no counts |
+| mulekar2007 | adjacent diagnosis: vitiligo; Module 5 lead | abstract | pilot comparing a ReCell cell suspension with conventional melanocyte-keratinocyte transplantation on paired lesions; full repigmentation in two of five ReCell lesions versus three of five conventional lesions at 4 months after transplantation; method of assessment not in abstract |
+| lin2024 | adjacent diagnosis: vitiligo; Module 5 lead | full text | retrospective series of cultured pure melanocyte transplantation with no control arm; partial repigmentation by lesion type and stratum; the visit of each result is not timed from the final treatment |
 
 ### What is missing
 
-- **Paywalled full texts** (Ben supplies PDFs into `papers/pdfs/`; the list with links is in `STATUS.md`): review2025, laosakul2017, arbache2023, rerknimitr2015, rerknimitr2013, gordon2017, wambier2018, elhoshy2025, suvanprakorn1985, kim2023, chitvanich2016, shin2013, koh2018, goldust2013, ploysangam1990, eun2020, vedamurthy2022. Ten of the twenty IGH studies above are on it; asawanonda2010 is abstract-only but not yet listed there.
+- **Paywalled full texts** (Ben supplies PDFs into `papers/pdfs/`; the list with links is in `STATUS.md`): review2025, laosakul2017, arbache2023, rerknimitr2015, rerknimitr2013, gordon2017, wambier2018, elhoshy2025, suvanprakorn1985, kim2023, chitvanich2016, shin2013, koh2018, goldust2013, ploysangam1990, eun2020, vedamurthy2022, falabella1987, mulekar2007. Eleven of the twenty-one IGH studies above are on it; asawanonda2010 is abstract-only but not yet listed there.
 - **Blocked records with no rows yet**: eun2020 (PMID 31396960), vedamurthy2022 (PMID 32360719). No abstract and no open full text.
 - **Held record**: nct01956435, the registry-posted results of the gordon2017 cohort. It passed verification but is not in the ledger until Ben decides how to reconcile the two.
 - **Leads not yet extracted**: wambier2018 (no abstract); PMIDs 10594616 and 15187317 from the Gate A list.
@@ -116,32 +119,32 @@ These rows are in the ledger but are never counted as IGH evidence above.
 
 Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 tools/evidence_summary.py --check content/evidence-summary.md`, which fails if a number above is not in a quote of the study named on its line, or, on a line marked "(count, appendix)", not in this output.
 
-    ledger rows: 66; studies: 23
+    ledger rows: 105; studies: 26
 
     A. Rows and studies by diagnosis group (a study can sit in more than one group)
-      IGH       rows  51  studies 20: arbache2018, arbache2023, asawanonda2010, chitvanich2016, deepadarshan2023, deoson2025, goldust2013, gordon2017, hirobe2018, koh2018, kreeshan2021, laosakul2017, pagnoni1999, ploysangam1990, rajegowda2020, rambhia2020, ravikiran2014, rerknimitr2013, rerknimitr2015, shin2013
+      IGH       rows  53  studies 21: arbache2018, arbache2023, asawanonda2010, chitvanich2016, deepadarshan2023, deoson2025, falabella1987, goldust2013, gordon2017, hirobe2018, koh2018, kreeshan2021, laosakul2017, pagnoni1999, ploysangam1990, rajegowda2020, rambhia2020, ravikiran2014, rerknimitr2013, rerknimitr2015, shin2013
       mixed     rows   3  studies  2: pagnoni1999, suvanprakorn1985
-      adjacent  rows  11  studies  2: elhoshy2025, pagnoni1999
+      adjacent  rows  48  studies  4: elhoshy2025, lin2024, mulekar2007, pagnoni1999
       lead      rows   1  studies  1: wambier2018
 
-    B. Access level of the 20 studies with IGH rows
-      ABSTRACT_ONLY 11: arbache2023, asawanonda2010, chitvanich2016, goldust2013, gordon2017, koh2018, laosakul2017, ploysangam1990, rerknimitr2013, rerknimitr2015, shin2013
+    B. Access level of the 21 studies with IGH rows
+      ABSTRACT_ONLY 12: arbache2023, asawanonda2010, chitvanich2016, falabella1987, goldust2013, gordon2017, koh2018, laosakul2017, ploysangam1990, rerknimitr2013, rerknimitr2015, shin2013
       FULL_TEXT      9: arbache2018, deepadarshan2023, deoson2025, hirobe2018, kreeshan2021, pagnoni1999, rajegowda2020, rambhia2020, ravikiran2014
 
-    C. months_after_final_tx on IGH rows (51 rows; 46 treated-arm rows)
+    C. months_after_final_tx on IGH rows (53 rows; 48 treated-arm rows)
       NOT_APPLICABLE  all IGH rows   7 | treated-arm rows   4
-      NOT_DERIVABLE   all IGH rows  39 | treated-arm rows  38
+      NOT_DERIVABLE   all IGH rows  41 | treated-arm rows  40
       a number        all IGH rows   5 | treated-arm rows   4
       rows with a number: shin2013 2; goldust2013 2; deepadarshan2023 1; arbache2023 1; arbache2023 1
-      IGH studies with at least one row timed from the final treatment: 4 of 20
+      IGH studies with at least one row timed from the final treatment: 4 of 21
       IGH rows at 6 months or more after the final treatment: 0
 
     D. Outcome tier, IGH rows
       instrument_color           6
       lesion_count               2
       partial_repigmentation    23
-      unquantified              20
-      complete_area_coverage rows in the whole ledger: 0
+      unquantified              22
+      complete_area_coverage rows in the whole ledger: 2
       lasting_color_match rows in the whole ledger: 0
 
     E. Per study (IGH, mixed and adjacent rows; leads left out)
@@ -153,12 +156,15 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       deepadarshan2023 | IGH | FULL_TEXT | energy_device | lesion | partial_repigmentation | 1
       deoson2025 | IGH | FULL_TEXT | chemical_peel,cryotherapy | lesion | partial_repigmentation | none
       elhoshy2025 | adjacent | ABSTRACT_ONLY | control,needling | lesion,not | partial_repigmentation | 3
+      falabella1987 | IGH | ABSTRACT_ONLY | grafting,intralesional_corticosteroid | lesion | unquantified | none
       goldust2013 | IGH | ABSTRACT_ONLY | energy_device | patient | partial_repigmentation | 2
       gordon2017 | IGH | ABSTRACT_ONLY | energy_device | lesion | partial_repigmentation | none
       hirobe2018 | IGH | FULL_TEXT | grafting | patient | unquantified | none
       koh2018 | IGH | ABSTRACT_ONLY | energy_device,topical | lesion | unquantified | none
       kreeshan2021 | IGH | FULL_TEXT | energy_device,energy_device_plus_topical | patient | unquantified | none
       laosakul2017 | IGH | ABSTRACT_ONLY | control,cryotherapy | lesion | instrument_color,partial_repigmentation | none
+      lin2024 | adjacent | FULL_TEXT | grafting | not | partial_repigmentation | none
+      mulekar2007 | adjacent | ABSTRACT_ONLY | grafting | lesion | complete_area_coverage,partial_repigmentation | none
       pagnoni1999 | IGH+adjacent+mixed | FULL_TEXT | control,topical | lesion,patient | partial_repigmentation,unquantified | 12
       ploysangam1990 | IGH | ABSTRACT_ONLY | cryotherapy | lesion | unquantified | none
       rajegowda2020 | IGH | FULL_TEXT | chemical_peel,cryotherapy | lesion | partial_repigmentation,unquantified | none
@@ -183,10 +189,10 @@ Rerun with `python3 tools/evidence_summary.py`. Check this page with `python3 to
       arbache2018 [IGH] needling_sham: 33.8% repigmentation (placebo) vs 75.3% (5-FU), P < .001 [P printed as 'P \.001' in the converted text]
 
     G. Keyword screens on IGH studies (pointers to rows, not findings)
-      untreated, placebo or sham comparison (control or sham row, or comparator names one): 8 of 20: arbache2018, arbache2023, chitvanich2016, gordon2017, laosakul2017, ploysangam1990, rerknimitr2013, rerknimitr2015
-      no such comparison (single arm, case report, or active treatments only): 12 of 20: asawanonda2010, deepadarshan2023, deoson2025, goldust2013, hirobe2018, koh2018, kreeshan2021, pagnoni1999, rajegowda2020, rambhia2020, ravikiran2014, shin2013
-      lesions clustered in patients, or analysed as independent: 9 of 20: chitvanich2016, deepadarshan2023, deoson2025, gordon2017, koh2018, laosakul2017, rajegowda2020, ravikiran2014, rerknimitr2015
-      blinding stated as done in design or assessment: 5 of 20: arbache2018, arbache2023, gordon2017, laosakul2017, rerknimitr2013
-      single treatment session: 3 of 20: goldust2013, laosakul2017, shin2013
-      face named as a treated site: 1 of 20: shin2013
-      denominator or count that does not fit, or conflicts: 6 of 20: chitvanich2016, goldust2013, laosakul2017, ravikiran2014, rerknimitr2013, rerknimitr2015
+      untreated, placebo or sham comparison (control or sham row, or comparator names one): 8 of 21: arbache2018, arbache2023, chitvanich2016, gordon2017, laosakul2017, ploysangam1990, rerknimitr2013, rerknimitr2015
+      no such comparison (single arm, case report, or active treatments only): 13 of 21: asawanonda2010, deepadarshan2023, deoson2025, falabella1987, goldust2013, hirobe2018, koh2018, kreeshan2021, pagnoni1999, rajegowda2020, rambhia2020, ravikiran2014, shin2013
+      lesions clustered in patients, or analysed as independent: 9 of 21: chitvanich2016, deepadarshan2023, deoson2025, gordon2017, koh2018, laosakul2017, rajegowda2020, ravikiran2014, rerknimitr2015
+      blinding stated as done in design or assessment: 5 of 21: arbache2018, arbache2023, gordon2017, laosakul2017, rerknimitr2013
+      single treatment session: 3 of 21: goldust2013, laosakul2017, shin2013
+      face named as a treated site: 1 of 21: shin2013
+      denominator or count that does not fit, or conflicts: 6 of 21: chitvanich2016, goldust2013, laosakul2017, ravikiran2014, rerknimitr2013, rerknimitr2015

@@ -1,0 +1,298 @@
+{
+ "study_id": "mulekar2007",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/mulekar2007.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "mulekar2007",
+   "doi_or_pmid": "PMID 17927795; doi:10.1111/j.1365-2133.2007.08216.x",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com DOI lookup returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (abstract says 'for the treatment of vitiligo'; [whether the treated lesions were stable or refractory to medical treatment is not in abstract; Background states only that surgery is indicated for 'stable vitiligo, refractory to medical treatment']); [not IGH]; Module 5-damage-repair lead",
+   "design": "pilot within-patient comparison, ReCell versus conventional MKT on lesions at the same anatomical localization (left vs. right, or two lesions at the same site); randomization and blinding not in abstract",
+   "body_site": "not in abstract (lesion pairs at the same anatomical localization; sites not named)",
+   "skin_tone": "not in abstract [Riyadh centre; skin type not stated]",
+   "patients_enrolled": "five [5]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "five in this arm [5] (ten in the study [10])",
+   "lesions_evaluable": "five in this arm [5] (all five have a result in Results)",
+   "analysis_unit": "lesion",
+   "intervention": "ReCell kit (Clinical Cell Culture, Cambridge, U.K.), cell suspension [noncultured autologous cell suspension; 'noncultured' is not said of ReCell in the abstract]",
+   "comparator": "conventional melanocyte-keratinocyte transplantation (MKT) on the paired lesion(s)",
+   "endpoint_definition": "percentage repigmentation of each lesion at 4 months (per-lesion distribution)",
+   "assessment_method": "not in abstract (percentage repigmentation; method, assessor and blinding not stated)",
+   "time_from_start": "4 months post-transplantation",
+   "time_from_last_treatment": "4 months post-transplantation; [whether transplantation was the last treatment, with no adjunct phototherapy, is not in abstract]",
+   "arm_result": "ReCell, five lesions: two lesions 100%, one 65% and one 40% repigmentation, one lesion failed to repigment [4 of 5 lesions with any repigmentation]",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo ([stability and refractoriness of the treated lesions are not in abstract; Background gives 'stable vitiligo, refractory to medical treatment' only as the general indication for surgery]), a Module 5-damage-repair lead (cell transplantation precedent) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as elhoshy2025 and pagnoni1999 are.] Pilot within-patient comparison, five patients, five lesions per arm, no statistics in abstract. How repigmentation percentages were measured (area tracing, photographs, assessor, blinding) is not in abstract. Abstract does not state that each patient got one lesion per arm; [the 'left vs. right, or two separate lesions' wording suggests paired lesions, but pairing is not stated per patient]. Whether any phototherapy or other treatment followed transplantation is not in abstract, so time from the final treatment cannot be derived from '4 months post-transplantation'. Colour match and durability beyond 4 months are not in abstract. Conclusion says 'further research is required to establish the effective dilution of the cell suspension', [so the ReCell dilution used may not have been optimal]. Abstract does not say whether 'conventional MKT' was cultured or noncultured [the authors' group used noncultured MKT in earlier work, PMID 16207186, which is outside this source]. The bracketed '4 of 5 with any repigmentation' is counted from the listed lesions, not stated by the authors.",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Mulekar SV, Ghwish B, Al Issa A, Al Eisa A. Treatment of vitiligo lesions by ReCell vs. conventional melanocyte-keratinocyte transplantation: a pilot study. Br J Dermatol 2008;158(1):45-9",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/17927795/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "mulekar2007",
+   "doi_or_pmid": "PMID 17927795; doi:10.1111/j.1365-2133.2007.08216.x",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com DOI lookup returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (abstract says 'for the treatment of vitiligo'; [whether the treated lesions were stable or refractory to medical treatment is not in abstract; Background states only that surgery is indicated for 'stable vitiligo, refractory to medical treatment']); [not IGH]; Module 5-damage-repair lead",
+   "design": "pilot within-patient comparison, ReCell versus conventional MKT on lesions at the same anatomical localization (left vs. right, or two lesions at the same site); randomization and blinding not in abstract",
+   "body_site": "not in abstract (lesion pairs at the same anatomical localization; sites not named)",
+   "skin_tone": "not in abstract [Riyadh centre; skin type not stated]",
+   "patients_enrolled": "five [5]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "five in this arm [5] (ten in the study [10])",
+   "lesions_evaluable": "five in this arm [5] (all five have a result in Results)",
+   "analysis_unit": "lesion",
+   "intervention": "ReCell kit (Clinical Cell Culture, Cambridge, U.K.), cell suspension [noncultured autologous cell suspension; 'noncultured' is not said of ReCell in the abstract]",
+   "comparator": "conventional melanocyte-keratinocyte transplantation (MKT) on the paired lesion(s)",
+   "endpoint_definition": "lesions with 100% repigmentation at 4 months",
+   "assessment_method": "not in abstract (percentage repigmentation; method, assessor and blinding not stated)",
+   "time_from_start": "4 months post-transplantation",
+   "time_from_last_treatment": "4 months post-transplantation; [whether transplantation was the last treatment, with no adjunct phototherapy, is not in abstract]",
+   "arm_result": "ReCell: two of the five lesions showed 100% repigmentation [2/5]",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo ([stability and refractoriness of the treated lesions are not in abstract; Background gives 'stable vitiligo, refractory to medical treatment' only as the general indication for surgery]), a Module 5-damage-repair lead (cell transplantation precedent) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as elhoshy2025 and pagnoni1999 are.] Pilot within-patient comparison, five patients, five lesions per arm, no statistics in abstract. How repigmentation percentages were measured (area tracing, photographs, assessor, blinding) is not in abstract. Abstract does not state that each patient got one lesion per arm; [the 'left vs. right, or two separate lesions' wording suggests paired lesions, but pairing is not stated per patient]. Whether any phototherapy or other treatment followed transplantation is not in abstract, so time from the final treatment cannot be derived from '4 months post-transplantation'. Colour match and durability beyond 4 months are not in abstract. Conclusion says 'further research is required to establish the effective dilution of the cell suspension', [so the ReCell dilution used may not have been optimal]. Abstract does not say whether 'conventional MKT' was cultured or noncultured [the authors' group used noncultured MKT in earlier work, PMID 16207186, which is outside this source]. '100% repigmentation' is area coverage, not a colour match; whether repigmented skin matched surrounding colour is not in abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "complete_area_coverage",
+   "citation": "Mulekar SV, Ghwish B, Al Issa A, Al Eisa A. Treatment of vitiligo lesions by ReCell vs. conventional melanocyte-keratinocyte transplantation: a pilot study. Br J Dermatol 2008;158(1):45-9",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/17927795/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "mulekar2007",
+   "doi_or_pmid": "PMID 17927795; doi:10.1111/j.1365-2133.2007.08216.x",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com DOI lookup returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (abstract says 'for the treatment of vitiligo'; [whether the treated lesions were stable or refractory to medical treatment is not in abstract; Background states only that surgery is indicated for 'stable vitiligo, refractory to medical treatment']); [not IGH]; Module 5-damage-repair lead",
+   "design": "pilot within-patient comparison, ReCell versus conventional MKT on lesions at the same anatomical localization (left vs. right, or two lesions at the same site); randomization and blinding not in abstract",
+   "body_site": "not in abstract (lesion pairs at the same anatomical localization; sites not named)",
+   "skin_tone": "not in abstract [Riyadh centre; skin type not stated]",
+   "patients_enrolled": "five [5]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "five in this arm [5] (ten in the study [10])",
+   "lesions_evaluable": "five in this arm [5] (all five have a result in Results)",
+   "analysis_unit": "lesion",
+   "intervention": "conventional melanocyte-keratinocyte transplantation (MKT)",
+   "comparator": "ReCell on the paired lesion(s)",
+   "endpoint_definition": "percentage repigmentation of each lesion at 4 months (per-lesion distribution)",
+   "assessment_method": "not in abstract (percentage repigmentation; method, assessor and blinding not stated)",
+   "time_from_start": "4 months post-transplantation",
+   "time_from_last_treatment": "4 months post-transplantation; [whether transplantation was the last treatment, with no adjunct phototherapy, is not in abstract]",
+   "arm_result": "conventional MKT, five lesions: three showed 100% and one 30% repigmentation, one failed to repigment [4 of 5 lesions with any repigmentation]",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo ([stability and refractoriness of the treated lesions are not in abstract; Background gives 'stable vitiligo, refractory to medical treatment' only as the general indication for surgery]), a Module 5-damage-repair lead (cell transplantation precedent) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as elhoshy2025 and pagnoni1999 are.] Pilot within-patient comparison, five patients, five lesions per arm, no statistics in abstract. How repigmentation percentages were measured (area tracing, photographs, assessor, blinding) is not in abstract. Abstract does not state that each patient got one lesion per arm; [the 'left vs. right, or two separate lesions' wording suggests paired lesions, but pairing is not stated per patient]. Whether any phototherapy or other treatment followed transplantation is not in abstract, so time from the final treatment cannot be derived from '4 months post-transplantation'. Colour match and durability beyond 4 months are not in abstract. Conclusion says 'further research is required to establish the effective dilution of the cell suspension', [so the ReCell dilution used may not have been optimal]. Abstract does not say whether 'conventional MKT' was cultured or noncultured [the authors' group used noncultured MKT in earlier work, PMID 16207186, which is outside this source]. The bracketed '4 of 5 with any repigmentation' is counted from the listed lesions, not stated by the authors.",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "partial_repigmentation",
+   "citation": "Mulekar SV, Ghwish B, Al Issa A, Al Eisa A. Treatment of vitiligo lesions by ReCell vs. conventional melanocyte-keratinocyte transplantation: a pilot study. Br J Dermatol 2008;158(1):45-9",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/17927795/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "mulekar2007",
+   "doi_or_pmid": "PMID 17927795; doi:10.1111/j.1365-2133.2007.08216.x",
+   "source_location": "PubMed abstract (Methods, Results)",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com DOI lookup returned HTTP 403; full text needed; on paywall list)",
+   "diagnosis": "ADJACENT: vitiligo (abstract says 'for the treatment of vitiligo'; [whether the treated lesions were stable or refractory to medical treatment is not in abstract; Background states only that surgery is indicated for 'stable vitiligo, refractory to medical treatment']); [not IGH]; Module 5-damage-repair lead",
+   "design": "pilot within-patient comparison, ReCell versus conventional MKT on lesions at the same anatomical localization (left vs. right, or two lesions at the same site); randomization and blinding not in abstract",
+   "body_site": "not in abstract (lesion pairs at the same anatomical localization; sites not named)",
+   "skin_tone": "not in abstract [Riyadh centre; skin type not stated]",
+   "patients_enrolled": "five [5]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "five in this arm [5] (ten in the study [10])",
+   "lesions_evaluable": "five in this arm [5] (all five have a result in Results)",
+   "analysis_unit": "lesion",
+   "intervention": "conventional melanocyte-keratinocyte transplantation (MKT)",
+   "comparator": "ReCell on the paired lesion(s)",
+   "endpoint_definition": "lesions with 100% repigmentation at 4 months",
+   "assessment_method": "not in abstract (percentage repigmentation; method, assessor and blinding not stated)",
+   "time_from_start": "4 months post-transplantation",
+   "time_from_last_treatment": "4 months post-transplantation; [whether transplantation was the last treatment, with no adjunct phototherapy, is not in abstract]",
+   "arm_result": "conventional MKT: three of the five lesions showed 100% repigmentation [3/5]",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "uncertainty": "Diagnosis: [not an IGH study]; vitiligo ([stability and refractoriness of the treated lesions are not in abstract; Background gives 'stable vitiligo, refractory to medical treatment' only as the general indication for surgery]), a Module 5-damage-repair lead (cell transplantation precedent) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as elhoshy2025 and pagnoni1999 are.] Pilot within-patient comparison, five patients, five lesions per arm, no statistics in abstract. How repigmentation percentages were measured (area tracing, photographs, assessor, blinding) is not in abstract. Abstract does not state that each patient got one lesion per arm; [the 'left vs. right, or two separate lesions' wording suggests paired lesions, but pairing is not stated per patient]. Whether any phototherapy or other treatment followed transplantation is not in abstract, so time from the final treatment cannot be derived from '4 months post-transplantation'. Colour match and durability beyond 4 months are not in abstract. Conclusion says 'further research is required to establish the effective dilution of the cell suspension', [so the ReCell dilution used may not have been optimal]. Abstract does not say whether 'conventional MKT' was cultured or noncultured [the authors' group used noncultured MKT in earlier work, PMID 16207186, which is outside this source]. '100% repigmentation' is area coverage, not a colour match; whether repigmented skin matched surrounding colour is not in abstract.",
+   "verification_status": "PENDING (abstract only)",
+   "outcome_tier": "complete_area_coverage",
+   "citation": "Mulekar SV, Ghwish B, Al Issa A, Al Eisa A. Treatment of vitiligo lesions by ReCell vs. conventional melanocyte-keratinocyte transplantation: a pilot study. Br J Dermatol 2008;158(1):45-9",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/17927795/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "NOT_DERIVABLE"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Of the five lesions treated with ReCell two lesions showed 100%, one 65% and one 40% repigmentation, and one lesion failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "repigmentation compared at 4 months post-transplantation.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "Of the five lesions treated with ReCell two lesions showed 100%, one 65% and one 40% repigmentation, and one lesion failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "lesions_evaluable",
+   "quote": "Of the five lesions treated with ReCell two lesions showed 100%, one 65% and one 40% repigmentation, and one lesion failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Of the five lesions treated with ReCell two lesions showed 100%, one 65% and one 40% repigmentation, and one lesion failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "repigmentation compared at 4 months post-transplantation.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "Of the five lesions treated with ReCell two lesions showed 100%, one 65% and one 40% repigmentation, and one lesion failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "lesions_evaluable",
+   "quote": "Of the five lesions treated with ReCell two lesions showed 100%, one 65% and one 40% repigmentation, and one lesion failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Of the five lesions treated by conventional MKT three showed 100% and one 30% repigmentation and one failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "repigmentation compared at 4 months post-transplantation.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "Of the five lesions treated by conventional MKT three showed 100% and one 30% repigmentation and one failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "lesions_evaluable",
+   "quote": "Of the five lesions treated by conventional MKT three showed 100% and one 30% repigmentation and one failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Of the five lesions treated by conventional MKT three showed 100% and one 30% repigmentation and one failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "repigmentation compared at 4 months post-transplantation.",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "lesions_enrolled",
+   "quote": "Ten lesions in five patients at the same anatomical localization (left vs. right, or two separate lesions at the same anatomical location)",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "lesions_enrolled",
+   "quote": "Of the five lesions treated by conventional MKT three showed 100% and one 30% repigmentation and one failed to repigment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "lesions_evaluable",
+   "quote": "Of the five lesions treated by conventional MKT three showed 100% and one 30% repigmentation and one failed to repigment.",
+   "location": "PubMed abstract, Results"
+  }
+ ],
+ "verifier": {
+  "status": "PASS",
+  "notes": "Verifier 2, 2026-11-28, fresh context, ABSTRACT_ONLY, source papers/excerpts/mulekar2007.txt. 0 failed cells. All 24 quotes verbatim in the source (whitespace-normalised). Rows 0-3 diagnosis and uncertainty: stability and refractoriness now bracketed as not in abstract, matching Background's general indication only. Rows 0-1 intervention: 'noncultured' bracketed and flagged as not said of ReCell. Per-arm results match the right arm: ReCell 100, 100, 65, 40% and one failed (rows 0-1, 2 of 5 at 100%); MKT 100, 100, 100, 30% and one failed (rows 2-3, 3 of 5 at 100%); bracketed '4 of 5 with any repigmentation' counts are correct. analysis_unit lesion matches 'five lesions' per arm; 10 lesions in 5 patients. Time '4 months post-transplantation' kept, months_after_final_tx NOT_DERIVABLE with the adjunct-treatment gap stated. Outcome tiers are the weakest supported reading: rows 0 and 2 partial_repigmentation, rows 1 and 3 complete_area_coverage, colour match and durability 'not in abstract', no lasting match claimed. Overshoot, scar and attrition 'not in abstract' correct (source silent). Uncertainty records pilot size, unstated assessment method, unstated per-patient pairing, dilution conclusion and need for larger series. Observation, not a failure: design says 'within-patient comparison' unbracketed; supported by 'Ten lesions in five patients at the same anatomical localization (left vs. right ...)', and uncertainty notes per-patient pairing is not stated.",
+  "fix_round_1": "2026-11-28 extractor fix after verifier 1 FAIL (0a24e4a): diagnosis rows 0-3 and uncertainty rows 0-3 now bracket stable/refractory as not in abstract; intervention rows 0-1 bracket noncultured. No other cells changed. Verifier 1 notes: row 0, diagnosis: the source never says the treated patients or lesions had stable vitiligo refractory to medical treatment. Background says only, in general, 'Surgical procedures are indicated to treat stable vitiligo, refractory to medical treatment'; Objectives and Methods say 'for the treatment of vitiligo'. 'stable' and 'refractory' describe the study population only by inference and must be [bracketed] or dropped; row 1, diagnosis: the source never says the treated patients or lesions had stable vitiligo refractory to medical treatment. Background says only, in general, 'Surgical procedures are indicated to treat stable vitiligo, refractory to medical treatment'; Objectives and Methods say 'for the treatment of vitiligo'. 'stable' and 'refractory' describe the study population only by inference and must be [bracketed] or dropped; row 2, diagnosis: the source never says the treated patients or lesions had stable vitiligo refractory to medical treatment. Background says only, in general, 'Surgical procedures are indicated to treat stable vitiligo, refractory to medical treatment'; Objectives and Methods say 'for the treatment of vitiligo'. 'stable' and 'refractory' describe the study population only by inference and must be [bracketed] or dropped; row 3, diagnosis: the source never says the treated patients or lesions had stable vitiligo refractory to medical treatment. Background says only, in general, 'Surgical procedures are indicated to treat stable vitiligo, refractory to medical treatment'; Objectives and Methods say 'for the treatment of vitiligo'. 'stable' and 'refractory' describe the study population only by inference and must be [bracketed] or dropped; row 0, uncertainty: states 'stable vitiligo refractory to medical treatment' as the study's population, unbracketed; same issue as the diagnosis cell (the source's sentence is a general indication in Background, not an inclusion criterion); row 1, uncertainty: states 'stable vitiligo refractory to medical treatment' as the study's population, unbracketed; same issue as the diagnosis cell (the source's sentence is a general indication in Background, not an inclusion criterion); row 2, uncertainty: states 'stable vitiligo refractory to medical treatment' as the study's population, unbracketed; same issue as the diagnosis cell (the source's sentence is a general indication in Background, not an inclusion criterion); row 3, uncertainty: states 'stable vitiligo refractory to medical treatment' as the study's population, unbracketed; same issue as the diagnosis cell (the source's sentence is a general indication in Background, not an inclusion criterion); row 0, intervention: 'noncultured cellular grafting' is not said of ReCell in the source. Background says 'noncultured cellular grafting is gaining wider acceptance' without naming ReCell; the source calls it only 'the ReCell kit (Clinical Cell Culture, Cambridge, U.K.)' and 'the cell suspension'. Must be [bracketed]; row 1, intervention: 'noncultured cellular grafting' is not said of ReCell in the source. Background says 'noncultured cellular grafting is gaining wider acceptance' without naming ReCell; the source calls it only 'the ReCell kit (Clinical Cell Culture, Cambridge, U.K.)' and 'the cell suspension'. Must be [bracketed]; Checked and correct (not failing): all 24 quotes verbatim in papers/excerpts/mulekar2007.txt; per-arm results (ReCell 100, 100, 65, 40, 0%; MKT 100, 100, 100, 30, 0%) match the right arm; unit lesion, 5 per arm, 10 lesions in 5 patients; '4 months post-transplantation' kept with months_after_final_tx NOT_DERIVABLE and the adjunct-treatment gap stated; outcome tiers: rows 0 and 2 partial_repigmentation, rows 1 and 3 complete_area_coverage (100% area, colour match stated as not in abstract), no lasting match claimed; overshoot, scar and attrition 'not in abstract' correct; pilot size, unstated assessment method, dilution conclusion and unstated per-patient pairing recorded in uncertainty. Verifier 2026-11-28, fresh context, ABSTRACT_ONLY."
+ }
+}
