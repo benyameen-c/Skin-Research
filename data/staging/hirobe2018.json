@@ -781,7 +781,8 @@
   }
  ],
  "verifier": {
-  "status": "PENDING",
-  "notes": ""
+  "status": "PASS",
+  "date": "2026-11-28",
+  "notes": "0 failed cells. Checked against papers/excerpts/hirobe2018.txt alone (FULL_TEXT). All 88 quotes found verbatim; every number in a quoted field appears in its quotes; numbers in intervention, attrition and time_from_start match the Methods, Results and Fig. 1 captions. Rows match the four treated patients and their time points (72M back 2 and 4 months; 11M left leg 1 and 8; 46M left arm 1 and 12; 45F right leg 1, then lost). analysis_unit patient is right (narrative per patient, no per-macule counts). months_after_final_tx NOT_DERIVABLE is right: all times are from mMG, NB-UVB 'three times a week for 1e2 months' with no per-patient end date; bracketed ranges are labelled as inference. outcome_tier unquantified is the weakest reading: 'excellent color-matched repigmentation' and 'maintained' are by eye with no scale, extent or instrument. dark_overshoot, patient_noticeability, texture_or_scar correctly 'not reported'; attrition (45F after 1 month; 72M followed to 5 months, result stated only at 4) recorded. Uncertainty carries the weakening points the text contains: no comparator, NB-UVB 'before and after the grafting' contradiction, Falabella depigmentation at 18 months, 'all grafts' claim resting on four cases, Fig. 3 leg/arm legend error. Table 1 averages checked (92.0, 95.9, 147.6, 90.5, 97.6 give 104.7; 20.9, 26.7, 48.9, 26.4, 21.8 give 28.9). Not failures, for the record: row 1 time_from_start reads '2 months after mMG' unbracketed while rows 4 and 6 bracket the same anchor; the paragraph's other times are tied to mMG by the Fig. 1 captions, so the reading stands. The Results say 'the basket weave corniﬁed layer were observed in the other patients in a similar fashion', which is some histological support for IGH in rows 3 to 7, whose diagnosis cell says the basis is not stated."
  }
 }
