@@ -16,8 +16,11 @@ Which treatments help a small white spot match the surrounding skin, and does th
 | 2-hyperpigmentation | solar lentigines, mottled brown tone | off-face only (forearm, hand, chest, lower leg); systematic reviews and controlled trials |
 | 3-dermal-texture | thinning, crepiness, elastosis | off-face only; needs biopsy, ultrasound or cutometer data |
 | 4-surface-vascular | roughness, fine redness | off-face only; exclude actinic keratoses and anything precancerous |
+| 5-damage-repair | what is damaged at the cell and gene level in sun-damaged skin of this kind, and repair approaches (gene therapy, cell therapy, other state-of-the-art paths) | human studies plus laboratory and mechanism studies; leads only until Gate A; every output is framed so "a more full study can be performed by professionals" |
 
 Do not start a module that `STATUS.md` does not list as open.
+
+**Module 5 (underlying damage and repair)** was opened by Ben on 2026-11-28. His direction, in his words: to "find a genetic or more complete cure to what cuases or what is damaged in this kind of skin diseas", looking at gene therapy and, "if thats not the exact path", other paths, because "the treatements available now are outdated and rudimentary" and he wants "an up to date path that is more in line with the state of the art", so that "a more full study can be performed by professionals". It starts with two logged searches: (a) what is damaged at the cell and gene level, (b) cell and gene therapy approaches for pigment loss. Everything it finds is a lead until Ben passes Gate A. All rules and gates in this file apply to it unchanged.
 
 ## Rules that never bend
 
