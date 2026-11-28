@@ -1,0 +1,9 @@
+{
+ "study_id": "kumarasinghe2004",
+ "access": "BLOCKED",
+ "excerpt_file": "papers/excerpts/kumarasinghe2004.txt",
+ "rows": [],
+ "quotes": [],
+ "notes": "PMID 15187317; doi:10.1111/j.1346-8138.2004.tb00701.x. Kumarasinghe SP. 3-5 second cryotherapy is effective in idiopathic guttate hypomelanosis. J Dermatol 2004 May;31(5):437-9. PubMed record has no abstract (saved text is title, author and citation only, so no numbers can be quoted; the title's '3-5 second' is a freeze duration, not an outcome). Attempt 1, 2026-11-28: Europe PMC REST (EXT_ID:15187317 SRC:MED) reports isOpenAccess N, inPMC N, hasPDF N, no abstract, full text 'Subscription required' at https://doi.org/10.1111/j.1346-8138.2004.tb00701.x. Attempt 2, 2026-11-28: https://doi.org/10.1111/j.1346-8138.2004.tb00701.x redirects to https://onlinelibrary.wiley.com/doi/10.1111/j.1346-8138.2004.tb00701.x, HTTP 403; https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1346-8138.2004.tb00701.x HTTP 403. Needs Ben's PDF at papers/pdfs/kumarasinghe2004.pdf. Do not merge this 0-row record.",
+ "verifier": {"status": "PENDING", "notes": ""}
+}
