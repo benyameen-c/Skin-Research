@@ -6,7 +6,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 
 ## Pending actions (waiting on Ben)
 
-- **Email corresponding authors for paywalled papers.** Starts once Ben connects an email account. The coordinator shows him the first email for approval before anything is sent. Nobody has been contacted. Highest-value targets, from the paywall list: Kim JY 2020 (PMID 31823346) and Kim TH 2022 (PMID 36394380), whose IGH senescence claims currently rest on text nobody in this project can read; then arbache2018, eun2020, vedamurthy2022, laosakul2017.
+- **Email corresponding authors for paywalled papers.** Starts once Ben connects an email account. The coordinator shows him the first email for approval before anything is sent. Nobody has been contacted. Highest-value targets, from the paywall list: Kim JY 2020 (PMID 31823346) and Kim TH 2022 (PMID 36394380), whose IGH senescence claims currently rest on text nobody in this project can read; then eun2020, vedamurthy2022, laosakul2017.
 
 ## External reports filed (unverified, 2026-11-28)
 
@@ -40,7 +40,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 - Batch 3 held: nct01956435, **verified, held: same cohort as gordon2017, awaiting Ben's decision on how to reconcile.** Third extraction (Ben approved 2026-11-27 23:04 UTC), 3 rows, FULL_TEXT, verifier PASS 0 failed cells (claude/project-thread-82j76h 86c0768). Record committed in `data/staging/nct01956435.json`, not merged.
 - Retracted and removed: rajegowda2021 (Clin Dermatol Rev 2021;5(1):49-53, doi:10.4103/CDR.CDR_50_20), retracted as a duplicate of rajegowda2020 (notice doi:10.4103/2542-551X.324588). Off the paywall list; not to be cited as evidence.
 - Batch 3 excluded: arbache2021 (PMID 34409366), a letter with no IGH patients and no clinical outcome (ex vivo black-ink histology only). Staged and read in full on claude/project-thread-ch99nh f0f2d70; not committed to staging or the ledger. `data/screening_log.csv` line changed to excluded.
-- Batch 3 BLOCKED 0-row stubs, committed in `data/staging/` but never to be merged (a 0-row merge deletes a study's rows): arbache2018, eun2020, vedamurthy2022 (see Blocked and paywall list).
+- Batch 3 BLOCKED 0-row stubs, committed in `data/staging/` but never to be merged (a 0-row merge deletes a study's rows): eun2020, vedamurthy2022 (see Blocked and paywall list).
 - Update search: three dated PubMed queries, one ClinicalTrials.gov query (see `data/search_log.csv`).
 - Dataset audit and three-path comparison (`data/datasets.csv`, `data/paths.csv`).
 - Experiments: alignment simulation with pixel-model check; clustering sensitivity; denominator audit.
@@ -54,7 +54,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 - [x] Re-extract the remaining extracted studies as staging records with verbatim quotes. Done in batch 3: fresh arbache2023 and rerknimitr2015 records passed and were merged; check lists 0 studies without quotes.
 - [ ] Read the full text of laosakul2017 and resolve the 82.3% denominator and the patient count. Abstract-based record merged 2026-11-27 (ABSTRACT_ONLY). Full text still needs a PDF from Ben (paywall list). Note: the merged rows' `verification_status` cell still reads `PENDING (abstract only)` although the record's verifier status is PASS; the record was merged unedited.
 - [ ] Extract the registry-posted results of NCT01956435. Third extraction verifier PASS 2026-11-27; held, not merged. **Ben decides** how to reconcile it with gordon2017 (same six patients) before it enters the ledger.
-- [ ] Extract or exclude the 4 leads: chitvanich2016 extracted and merged (batch 3); rajegowda2021 extracted and merged in batch 3, then removed in batch 4 as a retracted duplicate and replaced by rajegowda2020 (full text); arbache2018 BLOCKED (no abstract, full text 403; lead row stays); wambier2018 on the paywall list. Open cohort checks: chitvanich2016 may share patients with rerknimitr2015; rajegowda2020 (formerly checked as rajegowda2021) may share phenol-arm patients with a 2022 paper by the same group (deepadarshan2023 ref 15).
+- [ ] Extract or exclude the 4 leads: chitvanich2016 extracted and merged (batch 3); rajegowda2021 extracted and merged in batch 3, then removed in batch 4 as a retracted duplicate and replaced by rajegowda2020 (full text); arbache2018 re-extracted 2026-11-28 from Ben's PDF (FULL_TEXT, 3 rows, `data/staging/arbache2018.json`, validator ok, verifier PENDING; same registry NCT02904564 as arbache2023, count the cohort once); wambier2018 on the paywall list. Open cohort checks: chitvanich2016 may share patients with rerknimitr2015; rajegowda2020 (formerly checked as rajegowda2021) may share phenol-arm patients with a 2022 paper by the same group (deepadarshan2023 ref 15).
 - [ ] Search Web of Science and Scopus if access exists.
 - [x] Search GEO, BioImage Archive, Zenodo, Figshare (2026-11-27, two quoted queries each, APIs): 0 IGH datasets or image deposits. 4 repository hits plus 2 BioStudies literature records, all excluded. Awaiting Gate A review of `data/screening_log.csv`.
 - [x] First real run of `tools/pubmed.py` (2026-11-27, cloud thread): tool works unchanged. Four queries, 17/20/4/96 hits, 100 unique PMIDs, 80 newly screened (see `data/search_log.csv`, `data/screening_log.csv`). Abstracts in `papers/excerpts/pmid_*.txt` and copied to the project files folder.
@@ -86,7 +86,6 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 | koh2018 | J Cosmet Laser Ther 2018;20(7-8):405-409, doi:10.1080/14764172.2018.1444771, PMID 29547020 (Europe PMC: subscription required, not in PMC; tandfonline /doi/full and /doi/pdf HTTP 403, 2026-11-27) | VAS, IGA and PSS values per arm; sessions and interval; time from final treatment; per-patient allocation of the 122 lesions |
 | goldust2013 | J Cosmet Laser Ther 2013, PMID 23656568, doi:10.3109/14764172.2013.803369 (Europe PMC: subscription required, not in PMC; tandfonline /doi/full HTTP 403, 2026-11-27) | laser settings, lesion counts, assessors, the missing <25% grade, adverse events |
 | ploysangam1990 | J Am Acad Dermatol 1990;23(4 Pt 1):681-4, PMID 2229495, doi:10.1016/0190-9622(90)70273-k (Europe PMC: subscription required, not in PMC; jaad.org /fulltext and /pdf HTTP 403, 2026-11-27) | lesion and biopsy counts, number of freezing sessions, follow-up after the final freeze, completeness of repigmentation |
-| arbache2018 | J Am Acad Dermatol 2018;78(1):212-215, doi:10.1016/j.jaad.2017.08.019, PMID 29241792 (no abstract on PubMed; Europe PMC: subscription required, no PMC copy; jaad.org PDF and fulltext HTTP 403 Cloudflare challenge, 2026-11-27) | preliminary split-body placebo-controlled trial of 5-FU tattoo-machine infusion; likely same trial as arbache2023 |
 | eun2020 | Br J Dermatol 2020;182(2):485-486, PMID 31396960, doi:10.1111/bjd.18427, low-fluence fractional CO2 laser pilot (research letter, no abstract; Europe PMC: subscription required, not in PMC; academic.oup.com HTTP 403, 2026-11-27) | every number: patients, lesions, sessions, result, any follow-up after the final session |
 | vedamurthy2022 | J Am Acad Dermatol 2022;86(1):e11-e12, PMID 32360719, doi:10.1016/j.jaad.2020.04.110 (letter, no abstract; Europe PMC subscription required; jaad.org HTTP 403, 2026-11-27) | 50% trichloroacetic acid for IGH: every count, result and follow-up interval |
 | vanderhaeghen2006 | Arch Dermatol 2006;142(1):42-6, PMID 16415385, doi:10.1001/archderm.142.1.42 (Semantic Scholar lists a free PDF at jamanetwork; jamanetwork.com HTTP 403 to article and PDF, 2026-11-28) | measurement plan prior art: the GPT report's whole-process calibrated-photo error (3.7 mean, 10.4 99th percentile ΔE*ab) and >10 threshold, unchecked |
@@ -121,7 +120,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 
 | unit | status | tried |
 |---|---|---|
-| arbache2018 record | BLOCKED: source unreachable (2026-11-27) | https://www.jaad.org/article/S0190962217322089/pdf and /fulltext (both HTTP 403, Cloudflare challenge); PubMed record has no abstract. `data/staging/arbache2018.json` has 0 rows. Do not merge: a 0-row merge would delete the existing lead row. Needs Ben's PDF. |
+| arbache2018 record | UNBLOCKED 2026-11-28: Ben supplied the PDF | Was BLOCKED 2026-11-27 (jaad.org /pdf and /fulltext HTTP 403, Cloudflare). Re-extracted from `papers/pdfs/arbache2018.pdf` as FULL_TEXT, 3 rows; verifier PENDING. |
 | eun2020 (PMID 31396960) | BLOCKED at extraction (2026-11-27) | No abstract, no open full text after two attempts (Europe PMC subscription required; https://doi.org/10.1111/bjd.18427 -> academic.oup.com HTTP 403). 0-row stub `data/staging/eun2020.json`. Do not merge; needs Ben's PDF. |
 | vedamurthy2022 (PMID 32360719) | BLOCKED: letter with no abstract, no open full text (2026-11-27) | Europe PMC REST: subscription required, not in PMC; https://doi.org/10.1016/j.jaad.2020.04.110 -> linkinghub redirect, no text; https://www.jaad.org/article/S0190-9622(20)30726-X/fulltext HTTP 403. 0-row stub `data/staging/vedamurthy2022.json` (thread push refused; committed from the saved patch). Do not merge; needs Ben's PDF. |
 | laosakul2017 full text | BLOCKED (abstract extracted and merged instead) | https://www.tandfonline.com/doi/full/10.1080/09546634.2016.1221498 and /doi/pdf/ (HTTP 403, 2026-11-27); Europe PMC: subscription required |
@@ -164,6 +163,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 - nct01956435 (third extraction, FULL_TEXT): verifier PASS (claude/project-thread-82j76h 86c0768). Held for Ben.
 - asawanonda2010 (PMID 20232585, ABSTRACT_ONLY): verifier PASS first check, 0 failed cells (extractor claude/project-thread-7r9s3x 20e95cb; verifier record from /mnt/project-files/batch-03/asawanonda2010.verifier1.json). Merged.
 - arbache2021 (PMID 34409366): excluded, not verified for the ledger.
+- 2026-11-28, arbache2018: extracted from Ben's PDF (FULL_TEXT), 3 rows (5-FU limb, placebo limb at Antera repigmentation %; blinded limb choice, result not reported). months_after_final_tx NOT_DERIVABLE (time point of the pooled result and number of sessions not reported). Validator ok; verifier PENDING. Excerpt at /mnt/project-files/papers/excerpts/arbache2018.txt.
 
 ## Next session
 

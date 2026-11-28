@@ -1,18 +1,386 @@
 {
-  "study_id": "arbache2018",
-  "access": "BLOCKED",
-  "excerpt_file": "papers/excerpts/arbache2018.txt",
-  "sources_tried": [
-    "papers/pdfs/arbache2018.pdf (not present)",
-    "/mnt/project-files/papers/excerpts/pmid_29241792.txt (PubMed record: citation, title, authors, affiliations only; no abstract; saved as papers/excerpts/arbache2018.txt)",
-    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29241792%20AND%20SRC:MED&resultType=core&format=json (abstractText null; isOpenAccess N, inEPMC N, no PMC copy; DOI link 'Subscription required'; Unpaywall lists http://www.jaad.org/article/S0190962217322089/pdf)",
-    "https://www.jaad.org/article/S0190962217322089/pdf (attempt 1, 2026-11-27: HTTP 403, Cloudflare 'Just a moment...' challenge page)",
-    "https://www.jaad.org/article/S0190962217322089/fulltext (attempt 2, 2026-11-27: HTTP 403, Cloudflare challenge page)"
-  ],
-  "rows": [],
-  "quotes": [],
-  "verifier": {
-    "status": "PENDING",
-    "notes": "Extractor note: BLOCKED after two failed attempts to reach the text (CLAUDE.md rule 6). The saved PubMed record has no abstract and no numbers, so no rows were written. The title describes 'Preliminary analysis of a randomized, split-body, single blinded, placebo controlled clinical trial' of 5-fluorouracil infusion using a tattoo machine in IGH; the existing ledger row flags it as possibly the same trial as arbache2023 (not confirmable from the saved text). Do NOT run ledger.py merge on this record: merge replaces a study whole, so a record with zero rows would delete the existing 'lead only' row from data/evidence.csv. Two letters comment on it (J Am Acad Dermatol 2018;79(4):e79 and e81-e82)."
+ "study_id": "arbache2018",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/arbache2018.txt",
+ "sources_tried": [
+  "papers/pdfs/arbache2018.pdf (supplied by Ben 2026-11-28, publisher PDF of pages 212-215; converted with pdftotext)",
+  "earlier, 2026-11-27: https://www.jaad.org/article/S0190962217322089/pdf and /fulltext (HTTP 403, Cloudflare challenge); PubMed record had no abstract"
+ ],
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "arbache2018",
+   "doi_or_pmid": "PMID 29241792; doi:10.1016/j.jaad.2017.08.019; NCT02904564",
+   "source_location": "Research letter text (pages 212-214) and figure legends (Fig 1, Fig 2)",
+   "access_level": "FULL_TEXT (Ben's PDF; research letter, no tables; Fig 2H bar values are an image and were not read)",
+   "diagnosis": "IGH",
+   "design": "preliminary (interim) analysis of a randomized, split-body, single-blinded, placebo-controlled trial; one limb 5-FU, the other placebo, both by tattoo-machine microinfusion (MMP)",
+   "body_site": "limbs (side and which limbs not reported for the group; Fig 2 shows the right leg and left leg of patient number 8)",
+   "skin_tone": "not reported (one patient named as Fitzpatrick skin phototype III; others not reported)",
+   "patients_enrolled": "not reported (letter analyses 'the first 8 patients who have completed' the trial; total enrolled not reported)",
+   "patients_evaluable": "8 (first 8 patients who completed)",
+   "lesions_enrolled": "not reported",
+   "lesions_evaluable": "not reported",
+   "time_from_start": "not reported",
+   "time_from_last_treatment": "not reported for the pooled result (number of sessions not reported; the figure legend shows patient number 8 only, '150 days after treatment')",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported",
+   "texture_or_scar": "not reported (letter states 'no adverse effects were observed in MMP-treated patients'; texture and scarring not named)",
+   "attrition": "not reported (only patients who completed were analysed; number who started and dropouts not reported)",
+   "verification_status": "PENDING",
+   "citation": "Arbache S, Roth D, Steiner D, Breunig J, Michalany NS, Arbache ST, de Souza LG, Hirata SH. J Am Acad Dermatol 2018;78(1):212-215",
+   "source_url": "https://doi.org/10.1016/j.jaad.2017.08.019",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "analysis_unit": "limb [per-limb or per-lesion averaging not reported; 8 patients, one 5-FU limb and one placebo limb each]",
+   "intervention": "5-fluorouracil microinfused with a tattoo machine (MMP), needling to mild pinpoint bleeding (dose, concentration and number of sessions not reported)",
+   "comparator": "placebo (saline) MMP, contralateral limb",
+   "endpoint_definition": "repigmentation percentage of IGH lesions measured by Antera 3D melanin quantification",
+   "assessment_method": "Antera 3D imaging with melanin quantification (operator blinding not reported)",
+   "arm_result": "75.3% repigmentation (5-FU) vs 33.8% (placebo), P < .001 [P printed as 'P \\.001' in the converted text]",
+   "dark_overshoot": "one patient (Fitzpatrick III) developed hyperpigmentation areas on both treated limbs 30 days after the intervention, reversed spontaneously within 2 months [limb-level event, so it also concerns the placebo limb]",
+   "uncertainty": "Follow-up: the time point of the pooled 75.3% and 33.8% results is not reported, and the number of sessions is not reported, so months after the final treatment is NOT_DERIVABLE. The only stated timing is Fig 2's single patient 'before and 150 days after' the intervention [about 4.9 months if that was the only session; not confirmed]. Unit: the letter says Antera quantifies melanin 'in each IGH macule' and Fig 2H gives 'repigmentation percentages of both limbs for all patients'; whether 75.3% and 33.8% are means of patients' limbs or of lesions, and how 'repigmentation %' is computed from melanin, are not reported. No SD, range, confidence interval or name of the statistical test; P < .001 with 8 patients is not explained. Interim analysis of the 'first 8 patients' of a registered trial (NCT02904564) [the arbache2023 record cites the same registry ID, so these 8 patients are probably part of the arbache2023 cohort; count the cohort once]. Internal conflict on safety: the letter says no adverse effects were observed, yet reports one patient with hyperpigmentation on both treated limbs at 30 days. The authors' claim that biopsies at 40 days eliminate postinflammatory hyperpigmentation is the authors' interpretation. Assessment: two blinded dermatologists judged which limb had the best outcome, but that result is not reported; the numbers come from Antera 3D, and whether its operator was blinded is not reported. Conflicts: the first author's 'commercial involvement' is declared, the machine, cartridges and medicines were supplied by Traderm, the authors copyrighted the MMP acronym, and the first author trains dermatologists in the technique. Sessions: Fig 1D says the procedure was 'initially performed only in the central regions of these lesions and was subsequently used to treat the entirety of these spots' [this may mean more than one session; not stated], so 'after the intervention' may not be after the final treatment. Per-patient values in Fig 2H are an image and were not extracted. Partial repigmentation only: no complete coverage or colour-match outcome; skin tone of the group, lesion counts, dose and concentration of 5-FU not reported.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "needling_drug_delivery"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "arbache2018",
+   "doi_or_pmid": "PMID 29241792; doi:10.1016/j.jaad.2017.08.019; NCT02904564",
+   "source_location": "Research letter text (pages 212-214) and figure legends (Fig 1, Fig 2)",
+   "access_level": "FULL_TEXT (Ben's PDF; research letter, no tables; Fig 2H bar values are an image and were not read)",
+   "diagnosis": "IGH",
+   "design": "preliminary (interim) analysis of a randomized, split-body, single-blinded, placebo-controlled trial; one limb 5-FU, the other placebo, both by tattoo-machine microinfusion (MMP)",
+   "body_site": "limbs (side and which limbs not reported for the group; Fig 2 shows the right leg and left leg of patient number 8)",
+   "skin_tone": "not reported (one patient named as Fitzpatrick skin phototype III; others not reported)",
+   "patients_enrolled": "not reported (letter analyses 'the first 8 patients who have completed' the trial; total enrolled not reported)",
+   "patients_evaluable": "8 (first 8 patients who completed)",
+   "lesions_enrolled": "not reported",
+   "lesions_evaluable": "not reported",
+   "time_from_start": "not reported",
+   "time_from_last_treatment": "not reported for the pooled result (number of sessions not reported; the figure legend shows patient number 8 only, '150 days after treatment')",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported",
+   "texture_or_scar": "not reported (letter states 'no adverse effects were observed in MMP-treated patients'; texture and scarring not named)",
+   "attrition": "not reported (only patients who completed were analysed; number who started and dropouts not reported)",
+   "verification_status": "PENDING",
+   "citation": "Arbache S, Roth D, Steiner D, Breunig J, Michalany NS, Arbache ST, de Souza LG, Hirata SH. J Am Acad Dermatol 2018;78(1):212-215",
+   "source_url": "https://doi.org/10.1016/j.jaad.2017.08.019",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "analysis_unit": "limb [per-limb or per-lesion averaging not reported; 8 placebo limbs]",
+   "intervention": "placebo (saline) microinfused with a tattoo machine (MMP) (number of sessions not reported)",
+   "comparator": "5-fluorouracil MMP, contralateral limb",
+   "endpoint_definition": "repigmentation percentage of IGH lesions measured by Antera 3D melanin quantification",
+   "assessment_method": "Antera 3D imaging with melanin quantification (operator blinding not reported)",
+   "arm_result": "33.8% repigmentation (placebo) vs 75.3% (5-FU), P < .001 [P printed as 'P \\.001' in the converted text]",
+   "dark_overshoot": "one patient (Fitzpatrick III) developed hyperpigmentation areas on both treated limbs 30 days after the intervention, reversed spontaneously within 2 months [limb-level event, so it also concerns the placebo limb]",
+   "uncertainty": "Control arm improved: placebo limbs reached 33.8% repigmentation; the authors attribute this to collagen remodelling from microneedling alone, so the placebo is itself an active needling procedure. Follow-up: the time point of the pooled 75.3% and 33.8% results is not reported, and the number of sessions is not reported, so months after the final treatment is NOT_DERIVABLE. The only stated timing is Fig 2's single patient 'before and 150 days after' the intervention [about 4.9 months if that was the only session; not confirmed]. Unit: the letter says Antera quantifies melanin 'in each IGH macule' and Fig 2H gives 'repigmentation percentages of both limbs for all patients'; whether 75.3% and 33.8% are means of patients' limbs or of lesions, and how 'repigmentation %' is computed from melanin, are not reported. No SD, range, confidence interval or name of the statistical test; P < .001 with 8 patients is not explained. Interim analysis of the 'first 8 patients' of a registered trial (NCT02904564) [the arbache2023 record cites the same registry ID, so these 8 patients are probably part of the arbache2023 cohort; count the cohort once]. Internal conflict on safety: the letter says no adverse effects were observed, yet reports one patient with hyperpigmentation on both treated limbs at 30 days. The authors' claim that biopsies at 40 days eliminate postinflammatory hyperpigmentation is the authors' interpretation. Assessment: two blinded dermatologists judged which limb had the best outcome, but that result is not reported; the numbers come from Antera 3D, and whether its operator was blinded is not reported. Conflicts: the first author's 'commercial involvement' is declared, the machine, cartridges and medicines were supplied by Traderm, the authors copyrighted the MMP acronym, and the first author trains dermatologists in the technique. Sessions: Fig 1D says the procedure was 'initially performed only in the central regions of these lesions and was subsequently used to treat the entirety of these spots' [this may mean more than one session; not stated], so 'after the intervention' may not be after the final treatment. Per-patient values in Fig 2H are an image and were not extracted. Partial repigmentation only: no complete coverage or colour-match outcome; skin tone of the group, lesion counts, dose and concentration of 5-FU not reported.",
+   "outcome_tier": "partial_repigmentation",
+   "treatment_class": "needling_sham"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "arbache2018",
+   "doi_or_pmid": "PMID 29241792; doi:10.1016/j.jaad.2017.08.019; NCT02904564",
+   "source_location": "Research letter text (pages 212-214) and figure legends (Fig 1, Fig 2)",
+   "access_level": "FULL_TEXT (Ben's PDF; research letter, no tables; Fig 2H bar values are an image and were not read)",
+   "diagnosis": "IGH",
+   "design": "preliminary (interim) analysis of a randomized, split-body, single-blinded, placebo-controlled trial; one limb 5-FU, the other placebo, both by tattoo-machine microinfusion (MMP)",
+   "body_site": "limbs (side and which limbs not reported for the group; Fig 2 shows the right leg and left leg of patient number 8)",
+   "skin_tone": "not reported (one patient named as Fitzpatrick skin phototype III; others not reported)",
+   "patients_enrolled": "not reported (letter analyses 'the first 8 patients who have completed' the trial; total enrolled not reported)",
+   "patients_evaluable": "8 (first 8 patients who completed)",
+   "lesions_enrolled": "not reported",
+   "lesions_evaluable": "not reported",
+   "time_from_start": "not reported",
+   "time_from_last_treatment": "not reported for the pooled result (number of sessions not reported; the figure legend shows patient number 8 only, '150 days after treatment')",
+   "patient_noticeability": "not reported",
+   "complete_match": "not reported",
+   "texture_or_scar": "not reported (letter states 'no adverse effects were observed in MMP-treated patients'; texture and scarring not named)",
+   "attrition": "not reported (only patients who completed were analysed; number who started and dropouts not reported)",
+   "verification_status": "PENDING",
+   "citation": "Arbache S, Roth D, Steiner D, Breunig J, Michalany NS, Arbache ST, de Souza LG, Hirata SH. J Am Acad Dermatol 2018;78(1):212-215",
+   "source_url": "https://doi.org/10.1016/j.jaad.2017.08.019",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "analysis_unit": "limb (blinded choice of the limb with the best outcome, per patient)",
+   "intervention": "5-fluorouracil MMP (dose and number of sessions not reported)",
+   "comparator": "placebo (saline) MMP, contralateral limb",
+   "endpoint_definition": "limb presenting the best therapeutic outcome, judged clinically by two dermatologists blinded to randomization",
+   "assessment_method": "clinical assessment by two blinded dermatologists",
+   "arm_result": "not reported (the method is described but no result of the blinded clinical judgement is given)",
+   "dark_overshoot": "one patient (Fitzpatrick III) developed hyperpigmentation areas on both treated limbs 30 days after the intervention, reversed spontaneously within 2 months [limb-level event, so it also concerns the placebo limb]",
+   "uncertainty": "The letter names this blinded clinical assessment but gives no result, agreement or tie count. Follow-up: the time point of the pooled 75.3% and 33.8% results is not reported, and the number of sessions is not reported, so months after the final treatment is NOT_DERIVABLE. The only stated timing is Fig 2's single patient 'before and 150 days after' the intervention [about 4.9 months if that was the only session; not confirmed]. Unit: the letter says Antera quantifies melanin 'in each IGH macule' and Fig 2H gives 'repigmentation percentages of both limbs for all patients'; whether 75.3% and 33.8% are means of patients' limbs or of lesions, and how 'repigmentation %' is computed from melanin, are not reported. No SD, range, confidence interval or name of the statistical test; P < .001 with 8 patients is not explained. Interim analysis of the 'first 8 patients' of a registered trial (NCT02904564) [the arbache2023 record cites the same registry ID, so these 8 patients are probably part of the arbache2023 cohort; count the cohort once]. Internal conflict on safety: the letter says no adverse effects were observed, yet reports one patient with hyperpigmentation on both treated limbs at 30 days. The authors' claim that biopsies at 40 days eliminate postinflammatory hyperpigmentation is the authors' interpretation. Assessment: two blinded dermatologists judged which limb had the best outcome, but that result is not reported; the numbers come from Antera 3D, and whether its operator was blinded is not reported. Conflicts: the first author's 'commercial involvement' is declared, the machine, cartridges and medicines were supplied by Traderm, the authors copyrighted the MMP acronym, and the first author trains dermatologists in the technique. Sessions: Fig 1D says the procedure was 'initially performed only in the central regions of these lesions and was subsequently used to treat the entirety of these spots' [this may mean more than one session; not stated], so 'after the intervention' may not be after the final treatment. Per-patient values in Fig 2H are an image and were not extracted. Partial repigmentation only: no complete coverage or colour-match outcome; skin tone of the group, lesion counts, dose and concentration of 5-FU not reported.",
+   "outcome_tier": "unquantified",
+   "treatment_class": "needling_drug_delivery"
   }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "This letter presents a preliminary analysis of the first 8 patients who have completed a randomized clinical trial",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "analysis of the first 8 patients who have completed a randomized clinical trial",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 0,
+   "field": "doi_or_pmid",
+   "quote": "registered in the ClinicalTrials.gov database under identifier NCT02904564",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 0,
+   "field": "dark_overshoot",
+   "quote": "One patient with Fitzpatrick skin phototype III developed hyperpigmentation areas on both treated limbs 30 days after the intervention, which spontaneously reversed within 2 months.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "The left leg of patient number 8 before and 150 days after treatment with 5-fluorouracil (5-FU).",
+   "location": "Fig 2 legend"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "One patient with Fitzpatrick skin phototype III",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 0,
+   "field": "body_site",
+   "quote": "The right leg of patient number 8 before and 150 days after treatment with placebo (PL; saline).",
+   "location": "Fig 2 legend"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Even though no adverse effects were observed in MMP-treated patients",
+   "location": "Page 213, discussion paragraph"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Two patients submitted to biopsy 40 days after the procedure presented numerous melanocytes in the 5-FUetreated areas, thereby eliminating the possibility of postinflammatory hyperpigmentation.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The procedure was initially performed only in the central regions of these lesions and was subsequently used to treat the entirety of these spots.",
+   "location": "Fig 1 legend, part D"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The machine, its cartridges, and the medicines used in this study were supplied by Traderm",
+   "location": "Page 214, after author list"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Dr Arbache’s commercial involvement in this investigation was required in order to obtain approval of the equipment for medical use",
+   "location": "Page 213-214, disclosure paragraph"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "This letter presents a preliminary analysis of the first 8 patients who have completed a randomized clinical trial",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 1,
+   "field": "patients_evaluable",
+   "quote": "analysis of the first 8 patients who have completed a randomized clinical trial",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 1,
+   "field": "doi_or_pmid",
+   "quote": "registered in the ClinicalTrials.gov database under identifier NCT02904564",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 1,
+   "field": "dark_overshoot",
+   "quote": "One patient with Fitzpatrick skin phototype III developed hyperpigmentation areas on both treated limbs 30 days after the intervention, which spontaneously reversed within 2 months.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "The left leg of patient number 8 before and 150 days after treatment with 5-fluorouracil (5-FU).",
+   "location": "Fig 2 legend"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "One patient with Fitzpatrick skin phototype III",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 1,
+   "field": "body_site",
+   "quote": "The right leg of patient number 8 before and 150 days after treatment with placebo (PL; saline).",
+   "location": "Fig 2 legend"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Even though no adverse effects were observed in MMP-treated patients",
+   "location": "Page 213, discussion paragraph"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Two patients submitted to biopsy 40 days after the procedure presented numerous melanocytes in the 5-FUetreated areas, thereby eliminating the possibility of postinflammatory hyperpigmentation.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The procedure was initially performed only in the central regions of these lesions and was subsequently used to treat the entirety of these spots.",
+   "location": "Fig 1 legend, part D"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The machine, its cartridges, and the medicines used in this study were supplied by Traderm",
+   "location": "Page 214, after author list"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Dr Arbache’s commercial involvement in this investigation was required in order to obtain approval of the equipment for medical use",
+   "location": "Page 213-214, disclosure paragraph"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "This letter presents a preliminary analysis of the first 8 patients who have completed a randomized clinical trial",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 2,
+   "field": "patients_evaluable",
+   "quote": "analysis of the first 8 patients who have completed a randomized clinical trial",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 2,
+   "field": "doi_or_pmid",
+   "quote": "registered in the ClinicalTrials.gov database under identifier NCT02904564",
+   "location": "To the Editor, paragraph 1"
+  },
+  {
+   "row": 2,
+   "field": "dark_overshoot",
+   "quote": "One patient with Fitzpatrick skin phototype III developed hyperpigmentation areas on both treated limbs 30 days after the intervention, which spontaneously reversed within 2 months.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "The left leg of patient number 8 before and 150 days after treatment with 5-fluorouracil (5-FU).",
+   "location": "Fig 2 legend"
+  },
+  {
+   "row": 2,
+   "field": "skin_tone",
+   "quote": "One patient with Fitzpatrick skin phototype III",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 2,
+   "field": "body_site",
+   "quote": "The right leg of patient number 8 before and 150 days after treatment with placebo (PL; saline).",
+   "location": "Fig 2 legend"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "Even though no adverse effects were observed in MMP-treated patients",
+   "location": "Page 213, discussion paragraph"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Two patients submitted to biopsy 40 days after the procedure presented numerous melanocytes in the 5-FUetreated areas, thereby eliminating the possibility of postinflammatory hyperpigmentation.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The procedure was initially performed only in the central regions of these lesions and was subsequently used to treat the entirety of these spots.",
+   "location": "Fig 1 legend, part D"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The machine, its cartridges, and the medicines used in this study were supplied by Traderm",
+   "location": "Page 214, after author list"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Dr Arbache’s commercial involvement in this investigation was required in order to obtain approval of the equipment for medical use",
+   "location": "Page 213-214, disclosure paragraph"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "IGH repigmentation after 5-FU MMP treatment was statistically higher when compared with placebo MMP (75.3% 5-FU repigmentation vs. 33.8% placebo, P \\.001).",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 0,
+   "field": "assessment_method",
+   "quote": "Statistical analysis was performed using Antera 3D5 (Miravex, Dublin,",
+   "location": "Page 212, column 2"
+  },
+  {
+   "row": 0,
+   "field": "analysis_unit",
+   "quote": "Fig 2, H presents the repigmentation percentages of both limbs for all patients.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "IGH repigmentation after 5-FU MMP treatment was statistically higher when compared with placebo MMP (75.3% 5-FU repigmentation vs. 33.8% placebo, P \\.001).",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 1,
+   "field": "assessment_method",
+   "quote": "Statistical analysis was performed using Antera 3D5 (Miravex, Dublin,",
+   "location": "Page 212, column 2"
+  },
+  {
+   "row": 1,
+   "field": "analysis_unit",
+   "quote": "Fig 2, H presents the repigmentation percentages of both limbs for all patients.",
+   "location": "Page 213, results paragraph"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Partial repigmentation of placebo-treated lesions may have been caused by collagen remodeling induced by simple microneedling of the papillary dermis.",
+   "location": "Page 213, discussion paragraph"
+  },
+  {
+   "row": 2,
+   "field": "assessment_method",
+   "quote": "Two dermatologists, blinded to the randomization, determined the limb present the best therapeutic outcome by clinical analysis (Fig 2, A-D).",
+   "location": "Page 212, column 2"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
 }
