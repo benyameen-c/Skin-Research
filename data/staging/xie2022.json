@@ -1,0 +1,745 @@
+{
+ "study_id": "xie2022",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/xie2022.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "xie2022",
+   "doi_or_pmid": "PMID 35844295; doi:10.1016/j.reth.2022.06.007; PMCID PMC9260302",
+   "source_location": "PMC full text: Methods 2.8 and 2.9; Results 3.5; Fig. 5 legend; Discussion; Abstract",
+   "access_level": "FULL_TEXT (PMC9260302 via NCBI efetch, open access CC BY-NC-ND 4.0, fetched 2026-11-28)",
+   "diagnosis": "ADJACENT: [not IGH and not a human disease]; animal model of skin abrasion on the back of nude mice (a fresh wound, not a depigmented or hypopigmented lesion); the authors frame the work for vitiligo; Module 5 lead",
+   "design": "preclinical animal experiment with parallel groups (model group PBS, BMMSCs group, low-, medium- and high-dose miMels groups); randomisation, blinding and group sizes not reported",
+   "body_site": "back skin of nude mice",
+   "skin_tone": "not reported (mouse strain and native coat or skin pigmentation of the nude mice not reported)",
+   "patients_enrolled": "not reported (animal study; number of mice in total and per group not reported)",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported (one round abraded lesion about 1 cm in diameter is described per back; number of wounds per group not reported)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: animal study; group-level qualitative description of transplanted tissue, no counts of mice or wounds",
+   "assessment_method": "gp100 immunofluorescence staining of granulation tissue sections, judged from images; no quantification reported",
+   "time_from_start": "2 weeks after inoculation",
+   "time_from_last_treatment": "2 weeks [single inoculation, so time from start equals time from the only treatment]",
+   "patient_noticeability": "not measured (animal study)",
+   "complete_match": "not measured (no colour or pigment-match endpoint; wounds were made on skin, not on depigmented spots)",
+   "dark_overshoot": "not measured",
+   "texture_or_scar": "not reported as a scar endpoint; Results describe granulation tissue appearing closer to normal skin as dose rose, by HE staining (see uncertainty)",
+   "attrition": "not reported",
+   "verification_status": "PENDING",
+   "citation": "Xie Y, Xu Z, Shi W, Mei X. Biological function and application of melanocytes induced and transformed by mouse bone marrow mesenchymal stem cells. Regen Ther 2022;21:148-156",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9260302/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "0.5",
+   "intervention": "miMels cell suspension, low-dose group (miMels count 1 × 10 5), about 1 ml inoculated once on the abraded wound, covered with petrolatum gauze",
+   "comparator": "model group (PBS) and BMMSCs group (uninduced BMMSCs count 1 × 10 6); normal skin as reference",
+   "endpoint_definition": "melanin particles in the transplanted granulation tissue (gp100 immunofluorescence)",
+   "arm_result": "[low-dose group:] melanin particles in the tissue increased as the number of transplanted miMels increased; the model and BMMSCs groups 'could not produce the same results'; no numbers reported",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Animal (mouse) study, not human and not IGH: a lead for Module 5 cell-source questions only, never evidence on the six-month question. The cells are mouse bone-marrow mesenchymal stem cells induced into melanocyte-like cells (miMels) in the authors' earlier work (ref 30); human MSCs were not tested; the Discussion says 'the biological activity, immunogenicity, and biological safety of transformed cells all need to continue to be explored'. The model is a fresh abrasion wound, not a pigment-loss lesion, so [any pigment seen is in newly healed granulation tissue, not repigmentation of an established white spot]. Nude mice are immunodeficient, so [immune rejection of the cells was not tested]. No method to label or track the transplanted cells is reported, so [the paper does not show that the melanin and marker proteins came from the grafted miMels rather than host cells]; strain and native pigmentation of the nude mice are not reported. Number of mice per group, randomisation, blinding and any in vivo statistics are not reported; results are described qualitatively from figures; Fig. 5d gray values are not given in the text. Single time point only: tissue taken 2 weeks after inoculation; nothing on durability. Methods 2.9 say the gauze was 'removed the gauze 2 weeks after transplantation' and Results say 'Two weeks later, the granulation tissue from the transplantation site was taken'; [read here as 2 weeks after inoculation, 0.5 months; if 'later' means after gauze removal it would be 4 weeks]. Internal contradiction: the Abstract says 'we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded' and the Results 3.5 heading says 'The miMels tissue-engineered skin was tentatively applied to the skin of nude mice', but Methods 2.9 and Results 3.5 describe a cell suspension inoculated on the wound, not a tissue-engineered skin graft. Fig. 5a macroscopic view and Fig. 5c-d Western blot list model, low-, medium- and high-dose groups only; the BMMSCs group appears only in HE and gp100 panels. Discussion says the new granulation tissue 'had a normal epidermal dermal structure', while Results say it 'appeared closer to normal skin, especially in the high-dose group'. In the in vitro tissue-engineered skin, melanin particles were 'distributed in all layers of the skin' and miMels were scattered in the dermis because a basement membrane band was lacking; the authors call this a problem that 'needs to be solved urgently'. In vitro co-culture: text says gp100 staining of keratinocytes was positive 'From the 11th day', but the Fig. 3 legend says day 11 showed 'a small amount of green fluorescence' and positive at 17 days. The claim that miMels have 'the same biological functions as normal melanocytes' is not tested against normal melanocytes: tyrosinase and melanin are given relative to uninduced cells, with B16 melanoma cells as positive control. gp100 is a melanosome structural protein (Results 3.3); Methods 2.7 use it 'to label melanin', so [the gp100 endpoint is a melanosome marker, not a direct melanin measure]."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "xie2022",
+   "doi_or_pmid": "PMID 35844295; doi:10.1016/j.reth.2022.06.007; PMCID PMC9260302",
+   "source_location": "PMC full text: Methods 2.8 and 2.9; Results 3.5; Fig. 5 legend; Discussion; Abstract",
+   "access_level": "FULL_TEXT (PMC9260302 via NCBI efetch, open access CC BY-NC-ND 4.0, fetched 2026-11-28)",
+   "diagnosis": "ADJACENT: [not IGH and not a human disease]; animal model of skin abrasion on the back of nude mice (a fresh wound, not a depigmented or hypopigmented lesion); the authors frame the work for vitiligo; Module 5 lead",
+   "design": "preclinical animal experiment with parallel groups (model group PBS, BMMSCs group, low-, medium- and high-dose miMels groups); randomisation, blinding and group sizes not reported",
+   "body_site": "back skin of nude mice",
+   "skin_tone": "not reported (mouse strain and native coat or skin pigmentation of the nude mice not reported)",
+   "patients_enrolled": "not reported (animal study; number of mice in total and per group not reported)",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported (one round abraded lesion about 1 cm in diameter is described per back; number of wounds per group not reported)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: animal study; group-level qualitative description of transplanted tissue, no counts of mice or wounds",
+   "assessment_method": "gp100 immunofluorescence staining of granulation tissue sections, judged from images; no quantification reported",
+   "time_from_start": "2 weeks after inoculation",
+   "time_from_last_treatment": "2 weeks [single inoculation, so time from start equals time from the only treatment]",
+   "patient_noticeability": "not measured (animal study)",
+   "complete_match": "not measured (no colour or pigment-match endpoint; wounds were made on skin, not on depigmented spots)",
+   "dark_overshoot": "not measured",
+   "texture_or_scar": "not reported as a scar endpoint; Results describe granulation tissue appearing closer to normal skin as dose rose, by HE staining (see uncertainty)",
+   "attrition": "not reported",
+   "verification_status": "PENDING",
+   "citation": "Xie Y, Xu Z, Shi W, Mei X. Biological function and application of melanocytes induced and transformed by mouse bone marrow mesenchymal stem cells. Regen Ther 2022;21:148-156",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9260302/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "0.5",
+   "intervention": "miMels cell suspension, medium-dose group (miMels count 5 × 10 5), about 1 ml inoculated once on the abraded wound, covered with petrolatum gauze",
+   "comparator": "model group (PBS) and BMMSCs group (uninduced BMMSCs count 1 × 10 6); normal skin as reference",
+   "endpoint_definition": "melanin particles in the transplanted granulation tissue (gp100 immunofluorescence)",
+   "arm_result": "[medium-dose group:] melanin particles in the tissue increased as the number of transplanted miMels increased; the model and BMMSCs groups 'could not produce the same results'; no numbers reported",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Animal (mouse) study, not human and not IGH: a lead for Module 5 cell-source questions only, never evidence on the six-month question. The cells are mouse bone-marrow mesenchymal stem cells induced into melanocyte-like cells (miMels) in the authors' earlier work (ref 30); human MSCs were not tested; the Discussion says 'the biological activity, immunogenicity, and biological safety of transformed cells all need to continue to be explored'. The model is a fresh abrasion wound, not a pigment-loss lesion, so [any pigment seen is in newly healed granulation tissue, not repigmentation of an established white spot]. Nude mice are immunodeficient, so [immune rejection of the cells was not tested]. No method to label or track the transplanted cells is reported, so [the paper does not show that the melanin and marker proteins came from the grafted miMels rather than host cells]; strain and native pigmentation of the nude mice are not reported. Number of mice per group, randomisation, blinding and any in vivo statistics are not reported; results are described qualitatively from figures; Fig. 5d gray values are not given in the text. Single time point only: tissue taken 2 weeks after inoculation; nothing on durability. Methods 2.9 say the gauze was 'removed the gauze 2 weeks after transplantation' and Results say 'Two weeks later, the granulation tissue from the transplantation site was taken'; [read here as 2 weeks after inoculation, 0.5 months; if 'later' means after gauze removal it would be 4 weeks]. Internal contradiction: the Abstract says 'we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded' and the Results 3.5 heading says 'The miMels tissue-engineered skin was tentatively applied to the skin of nude mice', but Methods 2.9 and Results 3.5 describe a cell suspension inoculated on the wound, not a tissue-engineered skin graft. Fig. 5a macroscopic view and Fig. 5c-d Western blot list model, low-, medium- and high-dose groups only; the BMMSCs group appears only in HE and gp100 panels. Discussion says the new granulation tissue 'had a normal epidermal dermal structure', while Results say it 'appeared closer to normal skin, especially in the high-dose group'. In the in vitro tissue-engineered skin, melanin particles were 'distributed in all layers of the skin' and miMels were scattered in the dermis because a basement membrane band was lacking; the authors call this a problem that 'needs to be solved urgently'. In vitro co-culture: text says gp100 staining of keratinocytes was positive 'From the 11th day', but the Fig. 3 legend says day 11 showed 'a small amount of green fluorescence' and positive at 17 days. The claim that miMels have 'the same biological functions as normal melanocytes' is not tested against normal melanocytes: tyrosinase and melanin are given relative to uninduced cells, with B16 melanoma cells as positive control. gp100 is a melanosome structural protein (Results 3.3); Methods 2.7 use it 'to label melanin', so [the gp100 endpoint is a melanosome marker, not a direct melanin measure]."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "xie2022",
+   "doi_or_pmid": "PMID 35844295; doi:10.1016/j.reth.2022.06.007; PMCID PMC9260302",
+   "source_location": "PMC full text: Methods 2.8 and 2.9; Results 3.5; Fig. 5 legend; Discussion; Abstract",
+   "access_level": "FULL_TEXT (PMC9260302 via NCBI efetch, open access CC BY-NC-ND 4.0, fetched 2026-11-28)",
+   "diagnosis": "ADJACENT: [not IGH and not a human disease]; animal model of skin abrasion on the back of nude mice (a fresh wound, not a depigmented or hypopigmented lesion); the authors frame the work for vitiligo; Module 5 lead",
+   "design": "preclinical animal experiment with parallel groups (model group PBS, BMMSCs group, low-, medium- and high-dose miMels groups); randomisation, blinding and group sizes not reported",
+   "body_site": "back skin of nude mice",
+   "skin_tone": "not reported (mouse strain and native coat or skin pigmentation of the nude mice not reported)",
+   "patients_enrolled": "not reported (animal study; number of mice in total and per group not reported)",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported (one round abraded lesion about 1 cm in diameter is described per back; number of wounds per group not reported)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: animal study; group-level qualitative description of transplanted tissue, no counts of mice or wounds",
+   "assessment_method": "gp100 immunofluorescence staining of granulation tissue sections, judged from images; no quantification reported",
+   "time_from_start": "2 weeks after inoculation",
+   "time_from_last_treatment": "2 weeks [single inoculation, so time from start equals time from the only treatment]",
+   "patient_noticeability": "not measured (animal study)",
+   "complete_match": "not measured (no colour or pigment-match endpoint; wounds were made on skin, not on depigmented spots)",
+   "dark_overshoot": "not measured",
+   "texture_or_scar": "not reported as a scar endpoint; Results describe granulation tissue appearing closer to normal skin as dose rose, by HE staining (see uncertainty)",
+   "attrition": "not reported",
+   "verification_status": "PENDING",
+   "citation": "Xie Y, Xu Z, Shi W, Mei X. Biological function and application of melanocytes induced and transformed by mouse bone marrow mesenchymal stem cells. Regen Ther 2022;21:148-156",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9260302/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "0.5",
+   "intervention": "miMels cell suspension, high-dose group (miMels count 1 × 10 6), about 1 ml inoculated once on the abraded wound, covered with petrolatum gauze",
+   "comparator": "model group (PBS) and BMMSCs group (uninduced BMMSCs count 1 × 10 6); normal skin as reference",
+   "endpoint_definition": "melanin particles in the transplanted granulation tissue (gp100 immunofluorescence)",
+   "arm_result": "[high-dose group:] melanin particles in the tissue increased as the number of transplanted miMels increased; the model and BMMSCs groups 'could not produce the same results'; no numbers reported",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Animal (mouse) study, not human and not IGH: a lead for Module 5 cell-source questions only, never evidence on the six-month question. The cells are mouse bone-marrow mesenchymal stem cells induced into melanocyte-like cells (miMels) in the authors' earlier work (ref 30); human MSCs were not tested; the Discussion says 'the biological activity, immunogenicity, and biological safety of transformed cells all need to continue to be explored'. The model is a fresh abrasion wound, not a pigment-loss lesion, so [any pigment seen is in newly healed granulation tissue, not repigmentation of an established white spot]. Nude mice are immunodeficient, so [immune rejection of the cells was not tested]. No method to label or track the transplanted cells is reported, so [the paper does not show that the melanin and marker proteins came from the grafted miMels rather than host cells]; strain and native pigmentation of the nude mice are not reported. Number of mice per group, randomisation, blinding and any in vivo statistics are not reported; results are described qualitatively from figures; Fig. 5d gray values are not given in the text. Single time point only: tissue taken 2 weeks after inoculation; nothing on durability. Methods 2.9 say the gauze was 'removed the gauze 2 weeks after transplantation' and Results say 'Two weeks later, the granulation tissue from the transplantation site was taken'; [read here as 2 weeks after inoculation, 0.5 months; if 'later' means after gauze removal it would be 4 weeks]. Internal contradiction: the Abstract says 'we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded' and the Results 3.5 heading says 'The miMels tissue-engineered skin was tentatively applied to the skin of nude mice', but Methods 2.9 and Results 3.5 describe a cell suspension inoculated on the wound, not a tissue-engineered skin graft. Fig. 5a macroscopic view and Fig. 5c-d Western blot list model, low-, medium- and high-dose groups only; the BMMSCs group appears only in HE and gp100 panels. Discussion says the new granulation tissue 'had a normal epidermal dermal structure', while Results say it 'appeared closer to normal skin, especially in the high-dose group'. In the in vitro tissue-engineered skin, melanin particles were 'distributed in all layers of the skin' and miMels were scattered in the dermis because a basement membrane band was lacking; the authors call this a problem that 'needs to be solved urgently'. In vitro co-culture: text says gp100 staining of keratinocytes was positive 'From the 11th day', but the Fig. 3 legend says day 11 showed 'a small amount of green fluorescence' and positive at 17 days. The claim that miMels have 'the same biological functions as normal melanocytes' is not tested against normal melanocytes: tyrosinase and melanin are given relative to uninduced cells, with B16 melanoma cells as positive control. gp100 is a melanosome structural protein (Results 3.3); Methods 2.7 use it 'to label melanin', so [the gp100 endpoint is a melanosome marker, not a direct melanin measure]."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "xie2022",
+   "doi_or_pmid": "PMID 35844295; doi:10.1016/j.reth.2022.06.007; PMCID PMC9260302",
+   "source_location": "PMC full text: Methods 2.8 and 2.9; Results 3.5; Fig. 5 legend; Discussion; Abstract",
+   "access_level": "FULL_TEXT (PMC9260302 via NCBI efetch, open access CC BY-NC-ND 4.0, fetched 2026-11-28)",
+   "diagnosis": "ADJACENT: [not IGH and not a human disease]; animal model of skin abrasion on the back of nude mice (a fresh wound, not a depigmented or hypopigmented lesion); the authors frame the work for vitiligo; Module 5 lead",
+   "design": "preclinical animal experiment with parallel groups (model group PBS, BMMSCs group, low-, medium- and high-dose miMels groups); randomisation, blinding and group sizes not reported",
+   "body_site": "back skin of nude mice",
+   "skin_tone": "not reported (mouse strain and native coat or skin pigmentation of the nude mice not reported)",
+   "patients_enrolled": "not reported (animal study; number of mice in total and per group not reported)",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported (one round abraded lesion about 1 cm in diameter is described per back; number of wounds per group not reported)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: animal study; group-level qualitative description of transplanted tissue, no counts of mice or wounds",
+   "assessment_method": "Western blot of granulation tissue with gray value statistics (Fig. 5c-d); values not given in the text",
+   "time_from_start": "2 weeks after inoculation",
+   "time_from_last_treatment": "2 weeks [single inoculation, so time from start equals time from the only treatment]",
+   "patient_noticeability": "not measured (animal study)",
+   "complete_match": "not measured (no colour or pigment-match endpoint; wounds were made on skin, not on depigmented spots)",
+   "dark_overshoot": "not measured",
+   "texture_or_scar": "not reported as a scar endpoint; Results describe granulation tissue appearing closer to normal skin as dose rose, by HE staining (see uncertainty)",
+   "attrition": "not reported",
+   "verification_status": "PENDING",
+   "citation": "Xie Y, Xu Z, Shi W, Mei X. Biological function and application of melanocytes induced and transformed by mouse bone marrow mesenchymal stem cells. Regen Ther 2022;21:148-156",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9260302/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "0.5",
+   "intervention": "miMels cell suspension, low-dose group (miMels count 1 × 10 5), about 1 ml inoculated once on the abraded wound, covered with petrolatum gauze",
+   "comparator": "model group (PBS); the BMMSCs group is not shown in the Western blot",
+   "endpoint_definition": "expression of melanocyte proteins TRP-1, TRP-2, MITF and MART-1 in the transplanted tissue",
+   "arm_result": "[low-dose group:] TRP-1, TRP-2, MITF and MART-1 expression higher than in the model group and rising with the number of miMels; no values or statistics in the text",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Animal (mouse) study, not human and not IGH: a lead for Module 5 cell-source questions only, never evidence on the six-month question. The cells are mouse bone-marrow mesenchymal stem cells induced into melanocyte-like cells (miMels) in the authors' earlier work (ref 30); human MSCs were not tested; the Discussion says 'the biological activity, immunogenicity, and biological safety of transformed cells all need to continue to be explored'. The model is a fresh abrasion wound, not a pigment-loss lesion, so [any pigment seen is in newly healed granulation tissue, not repigmentation of an established white spot]. Nude mice are immunodeficient, so [immune rejection of the cells was not tested]. No method to label or track the transplanted cells is reported, so [the paper does not show that the melanin and marker proteins came from the grafted miMels rather than host cells]; strain and native pigmentation of the nude mice are not reported. Number of mice per group, randomisation, blinding and any in vivo statistics are not reported; results are described qualitatively from figures; Fig. 5d gray values are not given in the text. Single time point only: tissue taken 2 weeks after inoculation; nothing on durability. Methods 2.9 say the gauze was 'removed the gauze 2 weeks after transplantation' and Results say 'Two weeks later, the granulation tissue from the transplantation site was taken'; [read here as 2 weeks after inoculation, 0.5 months; if 'later' means after gauze removal it would be 4 weeks]. Internal contradiction: the Abstract says 'we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded' and the Results 3.5 heading says 'The miMels tissue-engineered skin was tentatively applied to the skin of nude mice', but Methods 2.9 and Results 3.5 describe a cell suspension inoculated on the wound, not a tissue-engineered skin graft. Fig. 5a macroscopic view and Fig. 5c-d Western blot list model, low-, medium- and high-dose groups only; the BMMSCs group appears only in HE and gp100 panels. Discussion says the new granulation tissue 'had a normal epidermal dermal structure', while Results say it 'appeared closer to normal skin, especially in the high-dose group'. In the in vitro tissue-engineered skin, melanin particles were 'distributed in all layers of the skin' and miMels were scattered in the dermis because a basement membrane band was lacking; the authors call this a problem that 'needs to be solved urgently'. In vitro co-culture: text says gp100 staining of keratinocytes was positive 'From the 11th day', but the Fig. 3 legend says day 11 showed 'a small amount of green fluorescence' and positive at 17 days. The claim that miMels have 'the same biological functions as normal melanocytes' is not tested against normal melanocytes: tyrosinase and melanin are given relative to uninduced cells, with B16 melanoma cells as positive control. gp100 is a melanosome structural protein (Results 3.3); Methods 2.7 use it 'to label melanin', so [the gp100 endpoint is a melanosome marker, not a direct melanin measure]."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "xie2022",
+   "doi_or_pmid": "PMID 35844295; doi:10.1016/j.reth.2022.06.007; PMCID PMC9260302",
+   "source_location": "PMC full text: Methods 2.8 and 2.9; Results 3.5; Fig. 5 legend; Discussion; Abstract",
+   "access_level": "FULL_TEXT (PMC9260302 via NCBI efetch, open access CC BY-NC-ND 4.0, fetched 2026-11-28)",
+   "diagnosis": "ADJACENT: [not IGH and not a human disease]; animal model of skin abrasion on the back of nude mice (a fresh wound, not a depigmented or hypopigmented lesion); the authors frame the work for vitiligo; Module 5 lead",
+   "design": "preclinical animal experiment with parallel groups (model group PBS, BMMSCs group, low-, medium- and high-dose miMels groups); randomisation, blinding and group sizes not reported",
+   "body_site": "back skin of nude mice",
+   "skin_tone": "not reported (mouse strain and native coat or skin pigmentation of the nude mice not reported)",
+   "patients_enrolled": "not reported (animal study; number of mice in total and per group not reported)",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported (one round abraded lesion about 1 cm in diameter is described per back; number of wounds per group not reported)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: animal study; group-level qualitative description of transplanted tissue, no counts of mice or wounds",
+   "assessment_method": "Western blot of granulation tissue with gray value statistics (Fig. 5c-d); values not given in the text",
+   "time_from_start": "2 weeks after inoculation",
+   "time_from_last_treatment": "2 weeks [single inoculation, so time from start equals time from the only treatment]",
+   "patient_noticeability": "not measured (animal study)",
+   "complete_match": "not measured (no colour or pigment-match endpoint; wounds were made on skin, not on depigmented spots)",
+   "dark_overshoot": "not measured",
+   "texture_or_scar": "not reported as a scar endpoint; Results describe granulation tissue appearing closer to normal skin as dose rose, by HE staining (see uncertainty)",
+   "attrition": "not reported",
+   "verification_status": "PENDING",
+   "citation": "Xie Y, Xu Z, Shi W, Mei X. Biological function and application of melanocytes induced and transformed by mouse bone marrow mesenchymal stem cells. Regen Ther 2022;21:148-156",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9260302/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "0.5",
+   "intervention": "miMels cell suspension, medium-dose group (miMels count 5 × 10 5), about 1 ml inoculated once on the abraded wound, covered with petrolatum gauze",
+   "comparator": "model group (PBS); the BMMSCs group is not shown in the Western blot",
+   "endpoint_definition": "expression of melanocyte proteins TRP-1, TRP-2, MITF and MART-1 in the transplanted tissue",
+   "arm_result": "[medium-dose group:] TRP-1, TRP-2, MITF and MART-1 expression higher than in the model group and rising with the number of miMels; no values or statistics in the text",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Animal (mouse) study, not human and not IGH: a lead for Module 5 cell-source questions only, never evidence on the six-month question. The cells are mouse bone-marrow mesenchymal stem cells induced into melanocyte-like cells (miMels) in the authors' earlier work (ref 30); human MSCs were not tested; the Discussion says 'the biological activity, immunogenicity, and biological safety of transformed cells all need to continue to be explored'. The model is a fresh abrasion wound, not a pigment-loss lesion, so [any pigment seen is in newly healed granulation tissue, not repigmentation of an established white spot]. Nude mice are immunodeficient, so [immune rejection of the cells was not tested]. No method to label or track the transplanted cells is reported, so [the paper does not show that the melanin and marker proteins came from the grafted miMels rather than host cells]; strain and native pigmentation of the nude mice are not reported. Number of mice per group, randomisation, blinding and any in vivo statistics are not reported; results are described qualitatively from figures; Fig. 5d gray values are not given in the text. Single time point only: tissue taken 2 weeks after inoculation; nothing on durability. Methods 2.9 say the gauze was 'removed the gauze 2 weeks after transplantation' and Results say 'Two weeks later, the granulation tissue from the transplantation site was taken'; [read here as 2 weeks after inoculation, 0.5 months; if 'later' means after gauze removal it would be 4 weeks]. Internal contradiction: the Abstract says 'we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded' and the Results 3.5 heading says 'The miMels tissue-engineered skin was tentatively applied to the skin of nude mice', but Methods 2.9 and Results 3.5 describe a cell suspension inoculated on the wound, not a tissue-engineered skin graft. Fig. 5a macroscopic view and Fig. 5c-d Western blot list model, low-, medium- and high-dose groups only; the BMMSCs group appears only in HE and gp100 panels. Discussion says the new granulation tissue 'had a normal epidermal dermal structure', while Results say it 'appeared closer to normal skin, especially in the high-dose group'. In the in vitro tissue-engineered skin, melanin particles were 'distributed in all layers of the skin' and miMels were scattered in the dermis because a basement membrane band was lacking; the authors call this a problem that 'needs to be solved urgently'. In vitro co-culture: text says gp100 staining of keratinocytes was positive 'From the 11th day', but the Fig. 3 legend says day 11 showed 'a small amount of green fluorescence' and positive at 17 days. The claim that miMels have 'the same biological functions as normal melanocytes' is not tested against normal melanocytes: tyrosinase and melanin are given relative to uninduced cells, with B16 melanoma cells as positive control. gp100 is a melanosome structural protein (Results 3.3); Methods 2.7 use it 'to label melanin', so [the gp100 endpoint is a melanosome marker, not a direct melanin measure]."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "xie2022",
+   "doi_or_pmid": "PMID 35844295; doi:10.1016/j.reth.2022.06.007; PMCID PMC9260302",
+   "source_location": "PMC full text: Methods 2.8 and 2.9; Results 3.5; Fig. 5 legend; Discussion; Abstract",
+   "access_level": "FULL_TEXT (PMC9260302 via NCBI efetch, open access CC BY-NC-ND 4.0, fetched 2026-11-28)",
+   "diagnosis": "ADJACENT: [not IGH and not a human disease]; animal model of skin abrasion on the back of nude mice (a fresh wound, not a depigmented or hypopigmented lesion); the authors frame the work for vitiligo; Module 5 lead",
+   "design": "preclinical animal experiment with parallel groups (model group PBS, BMMSCs group, low-, medium- and high-dose miMels groups); randomisation, blinding and group sizes not reported",
+   "body_site": "back skin of nude mice",
+   "skin_tone": "not reported (mouse strain and native coat or skin pigmentation of the nude mice not reported)",
+   "patients_enrolled": "not reported (animal study; number of mice in total and per group not reported)",
+   "patients_evaluable": "not reported",
+   "lesions_enrolled": "not reported (one round abraded lesion about 1 cm in diameter is described per back; number of wounds per group not reported)",
+   "lesions_evaluable": "not reported",
+   "analysis_unit": "not applicable: animal study; group-level qualitative description of transplanted tissue, no counts of mice or wounds",
+   "assessment_method": "Western blot of granulation tissue with gray value statistics (Fig. 5c-d); values not given in the text",
+   "time_from_start": "2 weeks after inoculation",
+   "time_from_last_treatment": "2 weeks [single inoculation, so time from start equals time from the only treatment]",
+   "patient_noticeability": "not measured (animal study)",
+   "complete_match": "not measured (no colour or pigment-match endpoint; wounds were made on skin, not on depigmented spots)",
+   "dark_overshoot": "not measured",
+   "texture_or_scar": "not reported as a scar endpoint; Results describe granulation tissue appearing closer to normal skin as dose rose, by HE staining (see uncertainty)",
+   "attrition": "not reported",
+   "verification_status": "PENDING",
+   "citation": "Xie Y, Xu Z, Shi W, Mei X. Biological function and application of melanocytes induced and transformed by mouse bone marrow mesenchymal stem cells. Regen Ther 2022;21:148-156",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9260302/",
+   "treatment_class": "grafting",
+   "months_after_final_tx": "0.5",
+   "intervention": "miMels cell suspension, high-dose group (miMels count 1 × 10 6), about 1 ml inoculated once on the abraded wound, covered with petrolatum gauze",
+   "comparator": "model group (PBS); the BMMSCs group is not shown in the Western blot",
+   "endpoint_definition": "expression of melanocyte proteins TRP-1, TRP-2, MITF and MART-1 in the transplanted tissue",
+   "arm_result": "[high-dose group:] TRP-1, TRP-2, MITF and MART-1 expression higher than in the model group and rising with the number of miMels; no values or statistics in the text",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Animal (mouse) study, not human and not IGH: a lead for Module 5 cell-source questions only, never evidence on the six-month question. The cells are mouse bone-marrow mesenchymal stem cells induced into melanocyte-like cells (miMels) in the authors' earlier work (ref 30); human MSCs were not tested; the Discussion says 'the biological activity, immunogenicity, and biological safety of transformed cells all need to continue to be explored'. The model is a fresh abrasion wound, not a pigment-loss lesion, so [any pigment seen is in newly healed granulation tissue, not repigmentation of an established white spot]. Nude mice are immunodeficient, so [immune rejection of the cells was not tested]. No method to label or track the transplanted cells is reported, so [the paper does not show that the melanin and marker proteins came from the grafted miMels rather than host cells]; strain and native pigmentation of the nude mice are not reported. Number of mice per group, randomisation, blinding and any in vivo statistics are not reported; results are described qualitatively from figures; Fig. 5d gray values are not given in the text. Single time point only: tissue taken 2 weeks after inoculation; nothing on durability. Methods 2.9 say the gauze was 'removed the gauze 2 weeks after transplantation' and Results say 'Two weeks later, the granulation tissue from the transplantation site was taken'; [read here as 2 weeks after inoculation, 0.5 months; if 'later' means after gauze removal it would be 4 weeks]. Internal contradiction: the Abstract says 'we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded' and the Results 3.5 heading says 'The miMels tissue-engineered skin was tentatively applied to the skin of nude mice', but Methods 2.9 and Results 3.5 describe a cell suspension inoculated on the wound, not a tissue-engineered skin graft. Fig. 5a macroscopic view and Fig. 5c-d Western blot list model, low-, medium- and high-dose groups only; the BMMSCs group appears only in HE and gp100 panels. Discussion says the new granulation tissue 'had a normal epidermal dermal structure', while Results say it 'appeared closer to normal skin, especially in the high-dose group'. In the in vitro tissue-engineered skin, melanin particles were 'distributed in all layers of the skin' and miMels were scattered in the dermis because a basement membrane band was lacking; the authors call this a problem that 'needs to be solved urgently'. In vitro co-culture: text says gp100 staining of keratinocytes was positive 'From the 11th day', but the Fig. 3 legend says day 11 showed 'a small amount of green fluorescence' and positive at 17 days. The claim that miMels have 'the same biological functions as normal melanocytes' is not tested against normal melanocytes: tyrosinase and melanin are given relative to uninduced cells, with B16 melanoma cells as positive control. gp100 is a melanosome structural protein (Results 3.3); Methods 2.7 use it 'to label melanin', so [the gp100 endpoint is a melanosome marker, not a direct melanin measure]."
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "The gp100 fluorescent staining showed that as the number of transplanted miMels cells increased, the melanin particles in the tissues also increased",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "(miMels count 1 × 10 5 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "About 1 ml volume of miMels cell suspension was inoculated on the ground wound on the back of nude mice",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 0,
+   "field": "comparator",
+   "quote": "BMMSCs group (BMMSCs count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "abraded with steel sand to form a round skin lesion about 1 cm in diameter",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Two weeks later, the granulation tissue from the transplantation site was taken",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "removed the gauze 2 weeks after transplantation",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Collect induced melanocytes, and make a cell suspension inoculated on the ground wound",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "From the 11th day when miMels and KCs were co-cultured, the gp100 immunofluorescence staining of KCs was positive",
+   "location": "Results 3.3"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "co-cultured for 11days, the gp100 immunofluorescence staining of KCs showed a small amount of green fluorescence",
+   "location": "Fig. 3 legend"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "the granulation tissue appeared closer to normal skin, especially in the high-dose group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The new granulation tissue at the transplantation site had a normal epidermal dermal structure",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "The gp100 fluorescent staining showed that as the number of transplanted miMels cells increased, the melanin particles in the tissues also increased",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "(miMels count 5 × 10 5 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "About 1 ml volume of miMels cell suspension was inoculated on the ground wound on the back of nude mice",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 1,
+   "field": "comparator",
+   "quote": "BMMSCs group (BMMSCs count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "abraded with steel sand to form a round skin lesion about 1 cm in diameter",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "Two weeks later, the granulation tissue from the transplantation site was taken",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "removed the gauze 2 weeks after transplantation",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Collect induced melanocytes, and make a cell suspension inoculated on the ground wound",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "From the 11th day when miMels and KCs were co-cultured, the gp100 immunofluorescence staining of KCs was positive",
+   "location": "Results 3.3"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "co-cultured for 11days, the gp100 immunofluorescence staining of KCs showed a small amount of green fluorescence",
+   "location": "Fig. 3 legend"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "the granulation tissue appeared closer to normal skin, especially in the high-dose group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The new granulation tissue at the transplantation site had a normal epidermal dermal structure",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "The gp100 fluorescent staining showed that as the number of transplanted miMels cells increased, the melanin particles in the tissues also increased",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "(miMels count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 2,
+   "field": "intervention",
+   "quote": "About 1 ml volume of miMels cell suspension was inoculated on the ground wound on the back of nude mice",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 2,
+   "field": "comparator",
+   "quote": "BMMSCs group (BMMSCs count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "abraded with steel sand to form a round skin lesion about 1 cm in diameter",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "Two weeks later, the granulation tissue from the transplantation site was taken",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "removed the gauze 2 weeks after transplantation",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Collect induced melanocytes, and make a cell suspension inoculated on the ground wound",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "From the 11th day when miMels and KCs were co-cultured, the gp100 immunofluorescence staining of KCs was positive",
+   "location": "Results 3.3"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "co-cultured for 11days, the gp100 immunofluorescence staining of KCs showed a small amount of green fluorescence",
+   "location": "Fig. 3 legend"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "the granulation tissue appeared closer to normal skin, especially in the high-dose group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The new granulation tissue at the transplantation site had a normal epidermal dermal structure",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Western-blot ( Fig. 5 c–d) showed that the expressions of TRP-1, TRP-2, MITF, and MART-1 in the miMels cell transplantation group were higher than those in the model group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "as the number of miMels increased, the expression of related proteins also increased",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "(miMels count 1 × 10 5 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "intervention",
+   "quote": "About 1 ml volume of miMels cell suspension was inoculated on the ground wound on the back of nude mice",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "comparator",
+   "quote": "BMMSCs group (BMMSCs count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "lesions_enrolled",
+   "quote": "abraded with steel sand to form a round skin lesion about 1 cm in diameter",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "Two weeks later, the granulation tissue from the transplantation site was taken",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "removed the gauze 2 weeks after transplantation",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Collect induced melanocytes, and make a cell suspension inoculated on the ground wound",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "From the 11th day when miMels and KCs were co-cultured, the gp100 immunofluorescence staining of KCs was positive",
+   "location": "Results 3.3"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "co-cultured for 11days, the gp100 immunofluorescence staining of KCs showed a small amount of green fluorescence",
+   "location": "Fig. 3 legend"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "the granulation tissue appeared closer to normal skin, especially in the high-dose group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The new granulation tissue at the transplantation site had a normal epidermal dermal structure",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "Western-blot ( Fig. 5 c–d) showed that the expressions of TRP-1, TRP-2, MITF, and MART-1 in the miMels cell transplantation group were higher than those in the model group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "as the number of miMels increased, the expression of related proteins also increased",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "intervention",
+   "quote": "(miMels count 5 × 10 5 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "intervention",
+   "quote": "About 1 ml volume of miMels cell suspension was inoculated on the ground wound on the back of nude mice",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "comparator",
+   "quote": "BMMSCs group (BMMSCs count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "lesions_enrolled",
+   "quote": "abraded with steel sand to form a round skin lesion about 1 cm in diameter",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "Two weeks later, the granulation tissue from the transplantation site was taken",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "removed the gauze 2 weeks after transplantation",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "Collect induced melanocytes, and make a cell suspension inoculated on the ground wound",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "From the 11th day when miMels and KCs were co-cultured, the gp100 immunofluorescence staining of KCs was positive",
+   "location": "Results 3.3"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "co-cultured for 11days, the gp100 immunofluorescence staining of KCs showed a small amount of green fluorescence",
+   "location": "Fig. 3 legend"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "the granulation tissue appeared closer to normal skin, especially in the high-dose group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "The new granulation tissue at the transplantation site had a normal epidermal dermal structure",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "Western-blot ( Fig. 5 c–d) showed that the expressions of TRP-1, TRP-2, MITF, and MART-1 in the miMels cell transplantation group were higher than those in the model group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "as the number of miMels increased, the expression of related proteins also increased",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "intervention",
+   "quote": "(miMels count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "intervention",
+   "quote": "About 1 ml volume of miMels cell suspension was inoculated on the ground wound on the back of nude mice",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "comparator",
+   "quote": "BMMSCs group (BMMSCs count 1 × 10 6 )",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "lesions_enrolled",
+   "quote": "abraded with steel sand to form a round skin lesion about 1 cm in diameter",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "Two weeks later, the granulation tissue from the transplantation site was taken",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "removed the gauze 2 weeks after transplantation",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "we tried to transplant tissue-engineered skin on the back skin of nude mice and succeeded",
+   "location": "Abstract, Results"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "Collect induced melanocytes, and make a cell suspension inoculated on the ground wound",
+   "location": "Methods 2.9"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "From the 11th day when miMels and KCs were co-cultured, the gp100 immunofluorescence staining of KCs was positive",
+   "location": "Results 3.3"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "co-cultured for 11days, the gp100 immunofluorescence staining of KCs showed a small amount of green fluorescence",
+   "location": "Fig. 3 legend"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "the granulation tissue appeared closer to normal skin, especially in the high-dose group",
+   "location": "Results 3.5"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "The new granulation tissue at the transplantation site had a normal epidermal dermal structure",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "use gp100 fluorescent stain (1：50; Abcam) to label melanin",
+   "location": "Methods 2.7"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "use gp100 fluorescent stain (1：50; Abcam) to label melanin",
+   "location": "Methods 2.7"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "use gp100 fluorescent stain (1：50; Abcam) to label melanin",
+   "location": "Methods 2.7"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "use gp100 fluorescent stain (1：50; Abcam) to label melanin",
+   "location": "Methods 2.7"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "use gp100 fluorescent stain (1：50; Abcam) to label melanin",
+   "location": "Methods 2.7"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "use gp100 fluorescent stain (1：50; Abcam) to label melanin",
+   "location": "Methods 2.7"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
