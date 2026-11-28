@@ -56,6 +56,13 @@ def test_merge_says_when_verifier_date_is_missing(tmp_path, monkeypatch):
     _, after = _merge_into_tmp(tmp_path, monkeypatch, rec)
     assert all("date not recorded" in r["verification_status"] for r in after if r["study_id"] == rec["study_id"])
 
+def test_merge_skips_retracted_record(tmp_path, monkeypatch):
+    rec = load("example_good.json")
+    rec["verifier"] = {"status": "PASS", "notes": "2026-11-27"}
+    rec["retracted"] = {"notice": "doi:10.0000/example", "duplicate_of": "other2020"}
+    before, after = _merge_into_tmp(tmp_path, monkeypatch, rec)
+    assert after == before
+
 if __name__ == "__main__":
     test_good_record_passes(); test_bad_record_is_caught_three_ways(); test_current_ledger_has_no_blank_cells()
     print("3 tests passed")
