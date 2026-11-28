@@ -1,13 +1,16 @@
 # Status
 
-Last updated: 2026-11-27 23:45 UTC, asawanonda2010 merged and denominator audit refreshed (PRs 1 to 4 merged into main; this PR from claude/project-thread-uq4lk9).
+Last updated: 2026-11-28 UTC, damage scan (cell- and gene-level search, leads only) on claude/project-thread-j5m3un.
 
 ## Open module
 
 **1-hypopigmentation.** Modules 2 to 4 are closed until Module 1 passes Gate B.
 
+**Damage scan (opened by Ben 2026-11-28 00:22 UTC):** what is damaged at cell and gene level in IGH spots, toward a more complete or genetic repair. Leads only: nothing enters `data/evidence.csv` before Gate A. Page: `content/damage-scan.md` (not linked in `site.json`, not public).
+
 ## Done
 
+- Damage scan (2026-11-28, searcher role, lead-finding only): 10 PubMed queries via `tools/pubmed.py` and 1 Europe PMC open-access full-text search logged in `data/search_log.csv`; 211 new screening lines (`found_by` damage_scan_pubmed / damage_scan_europepmc): 51 leads, 78 excluded, 82 titles only (`not screened in full`). Open-access full texts saved as `papers/excerpts/pmc_<pmid>.txt` for 37554281, 25484386, 42045571, 33029006 (project files folder). `content/damage-scan.md` written with 62 verbatim quotes, each checked against its saved source text. Findings in short: fewer and less active melanocytes in spots is consistent; transfer defect, senescence and dermal changes rest on small single studies; no gene, inherited or somatic, has been tested or linked to IGH. No ledger change.
 - asawanonda2010 (PMID 20232585, ABSTRACT_ONLY, late batch 3 record): verifier PASS, 0 failed cells (verifier commit 35f1700 could not be pushed; record taken from the saved verifier file, body identical to extractor commit 20e95cb on claude/project-thread-7r9s3x). Validator ok; merged 0 -> 1 row (unquantified, months NOT_DERIVABLE). Ledger 54 -> 55 rows, 21 -> 22 studies. `tools/ledger.py check` prints: `rows 55 | studies 22 | blank cells 0`, `longest months after final treatment, IGH rows: 2.0`, `lasting_color_match rows: 0`, `extracted studies still without verbatim quotes (0): none`. 6 tests pass.
 - Denominator audit refreshed 2026-11-27 on the 55-row ledger: `experiments/denominator_audit.py` now checks every claim fragment against `data/evidence_quotes.jsonl` before writing. 68 percentage and denominator pairs from 10 studies audited (`data/denominator_audit.csv`); 7 fit no whole count of the stated number, in 4 studies: laosakul2017 (82.3% of 43), rerknimitr2013 (11% of 26), goldust2013 (41.6% and 10.3% of 240; printed counts 100 and 25 give 41.67% and 10.42%), ravikiran2014 (35.9% of 139, printed count 50 gives 35.97%; 41.5% and 13.4% of 89). 5 of the 7 fit if the paper truncated instead of rounding. 11 entries not audited (no denominator, or only a bracketed inferred one) in `data/denominator_not_audited.csv`; rerknimitr2015 now audited against the stated 120 lesions (fits), not the inferred 60. `content/experiments.md` paragraph updated; site not rebuilt.
 - Frontier scan searches (2026-11-27, lead-finding only): 21 PubMed, 14 ClinicalTrials.gov and 3 GEO queries logged in `data/search_log.csv` (gene/RNA, JAK, afamelanotide, prostaglandin, Wnt, cell grafting, senescence, PRP, microneedling, exosomes). Abstracts and registry records saved to the project files excerpts folder. No ledger change. The write-up `content/frontier-scan.md` was not finished in that thread and was not committed.
@@ -65,6 +68,10 @@ Last updated: 2026-11-27 23:45 UTC, asawanonda2010 merged and denominator audit 
 | arbache2018 | J Am Acad Dermatol 2018;78(1):212-215, doi:10.1016/j.jaad.2017.08.019, PMID 29241792 (no abstract on PubMed; Europe PMC: subscription required, no PMC copy; jaad.org PDF and fulltext HTTP 403 Cloudflare challenge, 2026-11-27) | preliminary split-body placebo-controlled trial of 5-FU tattoo-machine infusion; likely same trial as arbache2023 |
 | eun2020 | Br J Dermatol 2020;182(2):485-486, PMID 31396960, doi:10.1111/bjd.18427, low-fluence fractional CO2 laser pilot (research letter, no abstract; Europe PMC: subscription required, not in PMC; academic.oup.com HTTP 403, 2026-11-27) | every number: patients, lesions, sessions, result, any follow-up after the final session |
 | vedamurthy2022 | J Am Acad Dermatol 2022;86(1):e11-e12, PMID 32360719, doi:10.1016/j.jaad.2020.04.110 (letter, no abstract; Europe PMC subscription required; jaad.org HTTP 403, 2026-11-27) | 50% trichloroacetic acid for IGH: every count, result and follow-up interval |
+| arbache2022 | Int J Dermatol 2022;61(8):995-1002, PMID 35114009, doi:10.1111/ijd.16076 (Europe PMC not open access; doi.org -> onlinelibrary.wiley.com HTTP 403, 2026-11-28) | 20 paired lesion and normal biopsies: fibrosis, immunohistochemistry and electron microscopy details |
+| rani2018 | Int J Dermatol 2018;57(5):559-565, PMID 29516488, doi:10.1111/ijd.13960 (Europe PMC not open access; Wiley HTTP 403, 2026-11-28) | senescence marker values, control selection, cultured melanocyte methods |
+| kim2020 | Br J Dermatol 2020;182(6):1481-1482, PMID 31823346, doi:10.1111/bjd.18801 (letter, no abstract; Europe PMC not open access; academic.oup.com HTTP 403, 2026-11-28) | senescent fibroblast claim in IGH: every finding |
+| kim2026 | Br J Dermatol 2026;194(5):879-887, PMID 41453137, doi:10.1093/bjd/ljaf529 (Europe PMC not open access; academic.oup.com HTTP 403, 2026-11-28) | how many IGH samples showed ATG7 loss, and against what comparison skin |
 
 ## Human gates
 
