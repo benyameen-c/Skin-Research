@@ -44,18 +44,21 @@ reader can see them; none was tuned to separate H1 from H2):
     made by division inherits the lineage age of the cell that made it
     (replicative ageing). Division daughters are shared among lineages in
     proportion to each lineage's active cells.
-  * Transplanted cells carry the SAME rates (k_int, a_int, k_tr, k_derm) as
-    the resident cells of the run; they differ only in starting at age 0 and
-    active. The contract gives one parameter set per run. So under H1 a
-    transplant holds better than the resident cells only through a_int.
-    Whether donor cells should instead carry healthy-skin rates is an open
-    modelling question for Ben and the test-author (it would change P4 under H1).
+  * Transplanted-cell rates are a two-setting ASSUMPTION, tx_rates (register
+    row donor_cell_rates; contract addendum M3b). tx_rates = 0: transplanted
+    cells carry the SAME intrinsic rates (k_int, a_int, k_tr) as the resident
+    cells and differ only by starting at age 0. tx_rates = 1: transplanted
+    cells (and their daughters) use k_int_tx, a_int_tx, k_tr_tx instead,
+    read from params like every other input; their defaults are the
+    healthy-skin values. The dermal term k_derm * D acts on them in both
+    settings. Nobody has measured which setting is right.
   * The dermal coupling k_derm * D is added to every forward rate, including
     active -> hypoactive (signal-driven loss of pigment making, the first of
     the two stages in PMID 7377803).
   * Division: gaps below N0 are refilled at a daily per-gap probability
     1 - exp(-k_div * active / N0) (no active cells, no division).
-  * Melanin: m(t) = m(t-1) * e + (1 - e) * k_tr * active(t) / N0, with
+  * Melanin: m(t) = m(t-1) * e + (1 - e) * sum(k_tr * active(t)) / N0 over
+    lineages (each lineage's own k_tr), with
     e = exp(-1 / T_K). m(0) = 1, the healthy steady state (k_tr = 1, N0 active).
   * Lightness: L* = 50 + 30 * exp(-m). Chosen (plan 3.2, map_L) so a spot at a
     quarter of the ring's melanin reads about +12 L* above it; L*(1) = 61.0,
@@ -94,6 +97,10 @@ SYMBOL_TO_NAME = {
     "s_tx": "transplant_survival",
     "n_M_ring": "melanocyte_density_surround",
     "d_spot": "spot_diameter",
+    "tx_rates": "donor_cell_rates",
+    "k_int_tx": "donor_intrinsic_hypoactivation_rate",
+    "a_int_tx": "donor_intrinsic_rate_age_slope",
+    "k_tr_tx": "donor_melanin_transfer_rate",
 }
 PARAMS = tuple(SYMBOL_TO_NAME)
 KINDS = ("healthy", "H1", "H2", "mixture")
@@ -159,6 +166,7 @@ _HEALTHY = {
     "k_derm": 0.0,
     "N_tx": 110.0,           # half the ring density
     "s_tx": 0.5,
+    "tx_rates": 0.0,         # 0 = donor cells keep the run's own rates (not a judgement)
 }
 _H1_CHANGES = {"k_int": 5e-5, "a_int": 1.0}
 _H2_CHANGES = {"f_sen": 0.5, "p_D": 1.0, "mu_D": 1.0, "k_derm": 1.5e-3}
@@ -174,6 +182,9 @@ def default_params(kind):
     p["d_spot"] = 3.0                            # inside the quoted 2 to 5 mm, PMID 3805391
     p.update({"healthy": {}, "H1": _H1_CHANGES, "H2": _H2_CHANGES,
               "mixture": _MIXTURE_CHANGES}[kind])
+    p["k_int_tx"] = _HEALTHY["k_int"]            # donor = healthy-skin rates
+    p["a_int_tx"] = _HEALTHY["a_int"]
+    p["k_tr_tx"] = _HEALTHY["k_tr"]
     return {k: float(p[k]) for k in PARAMS}
 
 
@@ -198,6 +209,8 @@ def _check_params(params):
     for k in ("f_sen", "s_tx"):
         if p[k] > 1:
             raise ValueError(f"{k} = {p[k]} is outside [0, 1]")
+    if p["tx_rates"] not in (0.0, 1.0):
+        raise ValueError(f"tx_rates must be exactly 0 or 1, got {p['tx_rates']}")
     for k in ("d_spot", "T_K", "mu_D"):
         if p[k] <= 0:
             raise ValueError(f"{k} must be > 0, got {p[k]}")
@@ -254,6 +267,10 @@ def run(params, *, days, seed=0, mode="stochastic", transplant_days=()):
     # lineages: 0 = cells present on day 0; 1.. = transplant sessions
     n_lin = 1 + len(tx)
     born = np.array([0] + list(tx), dtype=float)
+    donor = p["tx_rates"] == 1.0
+    lin_k_int = np.array([p["k_int"]] + [p["k_int_tx"] if donor else p["k_int"]] * len(tx))
+    lin_a_int = np.array([p["a_int"]] + [p["a_int_tx"] if donor else p["a_int"]] * len(tx))
+    lin_k_tr = np.array([p["k_tr"]] + [p["k_tr_tx"] if donor else p["k_tr"]] * len(tx))
     dtype = np.int64 if stochastic else float
     A = np.zeros(n_lin, dtype=dtype)
     H = np.zeros(n_lin, dtype=dtype)
@@ -279,7 +296,7 @@ def run(params, *, days, seed=0, mode="stochastic", transplant_days=()):
     record(0)
     for t in range(1, n):
         age_years = np.maximum(t - 1 - born, 0.0) / DAYS_PER_YEAR
-        r_h = p["k_int"] * (1.0 + age_years) ** p["a_int"] + kD
+        r_h = lin_k_int * (1.0 + age_years) ** lin_a_int + kD
         p_h = -np.expm1(-r_h)
         if stochastic:
             a_h = rng.binomial(A, p_h)
@@ -313,7 +330,7 @@ def run(params, *, days, seed=0, mode="stochastic", transplant_days=()):
             joined = rng.binomial(n_del, p["s_tx"]) if stochastic else n_del * p["s_tx"]
             A[tx_index[t]] += joined
 
-        m = m * decay + (1.0 - decay) * p["k_tr"] * A.sum() / n0
+        m = m * decay + (1.0 - decay) * float(np.dot(lin_k_tr, A)) / n0
         record(t)
 
     since = np.full(n, np.nan)

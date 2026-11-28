@@ -66,9 +66,16 @@ most pairs. (Categories can overlap; all three shares are printed.)
 Also: one-at-a-time sweeps at each explanation's defaults (plan 7.2 step 1),
 and 20 stochastic seeds at the defaults to show chance variation.
 
-Run:  python3 experiments/spot_model_compare.py --out data [--n 4000]
-Writes data/spot_model_m4_sweep.csv, data/spot_model_m4_oat.csv,
-data/spot_model_m4_seeds.csv, data/spot_model_m4_summary.csv.
+Transplanted-cell rate setting (added 2026-11-28 AFTER the first results were
+seen; prediction row P4b). --tx-rates 0 or 1 sets tx_rates in every parameter
+set. Under 1 the donor rates k_int_tx, a_int_tx, k_tr_tx are FIXED at the
+healthy-skin defaults (0, 0, 1) and not swept; every range above is unchanged,
+and the draws are the same (same seed, same order).
+
+Run:  python3 experiments/spot_model_compare.py --out data [--n 4000] [--tx-rates 0|1]
+Writes data/spot_model_m4_{sweep,oat,seeds,summary}.csv for the first run
+(tx_rates 0, before the setting existed), and with --tx-rates given,
+data/spot_model_m4_tx<setting>_{sweep,oat,seeds,summary}.csv.
 """
 import argparse
 import csv
@@ -110,6 +117,7 @@ OWN_H2 = {
     "k_derm": ("log", 1e-5, 1e-2),
 }
 RANGES = {**SHARED, **OWN_H1, **OWN_H2}
+TX_RATES = 0.0   # set by --tx-rates; applied to every parameter set below
 NOT_RUN_PARAMS = "map_L (L* = 50 + 30 exp(-m)); session days 7300 and 7330"
 
 
@@ -125,10 +133,10 @@ def lhs(n, ranges, rng):
     return out
 
 
-def build_sets(draw):
+def build_sets(draw, tx_rates):
     """Parameter sets for one draw: ring (healthy), H1, H2, mixture."""
     shared = {k: draw[k] for k in SHARED}
-    ring = dict(sm.default_params("healthy"), **shared)
+    ring = dict(sm.default_params("healthy"), **shared, tx_rates=tx_rates)
     h1 = dict(ring, **{k: draw[k] for k in OWN_H1})
     h2 = dict(ring, **{k: draw[k] for k in OWN_H2})
     mix = dict(ring, **{k: draw[k] for k in OWN_H1}, **{k: draw[k] for k in OWN_H2})
@@ -181,8 +189,8 @@ def evaluate(spot, ring):
 
 
 def one_draw(args):
-    i, draw = args
-    ring_p, sets = build_sets(draw)
+    i, draw, tx_rates = args
+    ring_p, sets = build_sets(draw, tx_rates)
     ring = sm.run(ring_p, days=DAYS, mode="expected")
     rows = []
     for kind, p in sets.items():
@@ -206,7 +214,7 @@ def oat_rows():
                 continue
             grid = (np.geomspace(lo, hi, 7) if scale == "log" else np.linspace(lo, hi, 7))
             for v in grid:
-                p = dict(sm.default_params(kind), **{key: float(v)})
+                p = dict(sm.default_params(kind), **{key: float(v)}, tx_rates=TX_RATES)
                 ring_p = dict(sm.default_params("healthy"), **{k: p[k] for k in SHARED})
                 rk = tuple(sorted(ring_p.items()))
                 if rk not in ring_cache:
@@ -222,8 +230,9 @@ def seed_rows(n_seeds=20):
     rows = []
     for kind in ("H1", "H2", "mixture"):
         for seed in range(n_seeds):
-            ring = sm.run(sm.default_params("healthy"), days=DAYS, seed=seed)
-            spot = sm.run(sm.default_params(kind), days=DAYS, seed=seed, transplant_days=SESSIONS)
+            ring = sm.run(dict(sm.default_params("healthy"), tx_rates=TX_RATES), days=DAYS, seed=seed)
+            spot = sm.run(dict(sm.default_params(kind), tx_rates=TX_RATES), days=DAYS, seed=seed,
+                          transplant_days=SESSIONS)
             row = {"kind": kind, "seed": seed}
             row.update(evaluate(spot, ring))
             rows.append(row)
@@ -301,19 +310,25 @@ def main():
     ap.add_argument("--out", default="data")
     ap.add_argument("--n", type=int, default=4000)
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--tx-rates", type=int, choices=(0, 1), default=None)
     args = ap.parse_args()
     out = Path(args.out)
+    global TX_RATES
+    prefix = "spot_model_m4"
+    if args.tx_rates is not None:
+        TX_RATES = float(args.tx_rates)
+        prefix = f"spot_model_m4_tx{args.tx_rates}"
     t0 = time.time()
     rng = np.random.default_rng(SEED)
     draws = lhs(args.n, RANGES, rng)
-    jobs = [(i, {k: float(v[i]) for k, v in draws.items()}) for i in range(args.n)]
+    jobs = [(i, {k: float(v[i]) for k, v in draws.items()}, TX_RATES) for i in range(args.n)]
     with Pool(args.workers) as pool:
         sweep = [r for rows in pool.map(one_draw, jobs, chunksize=10) for r in rows]
-    write_csv(out / "spot_model_m4_sweep.csv", sweep, ["draw", "kind", "accepted"])
+    write_csv(out / f"{prefix}_sweep.csv", sweep, ["draw", "kind", "accepted"])
     oat = oat_rows()
-    write_csv(out / "spot_model_m4_oat.csv", oat, ["kind", "varied", "value", "accepted"])
+    write_csv(out / f"{prefix}_oat.csv", oat, ["kind", "varied", "value", "accepted"])
     seeds = seed_rows()
-    write_csv(out / "spot_model_m4_seeds.csv", seeds, ["kind", "seed", "accepted"])
+    write_csv(out / f"{prefix}_seeds.csv", seeds, ["kind", "seed", "accepted"])
     summary = summarise(sweep)
     for kind in ("H1", "H2", "mixture"):
         rs = [r for r in seeds if r["kind"] == kind]
@@ -322,8 +337,10 @@ def main():
                         "value": f"{f.min():.3g} / {np.median(f):.3g} / {f.max():.3g}",
                         "note": "stochastic, d_spot 3 mm"})
     summary.append({"item": "seed", "value": SEED, "note": "Latin hypercube"})
+    summary.append({"item": "tx_rates", "value": TX_RATES,
+                    "note": "1 = donor cells carry healthy-skin intrinsic rates (k_int_tx 0, a_int_tx 0, k_tr_tx 1)"})
     summary.append({"item": "run_time_s", "value": f"{time.time() - t0:.0f}", "note": f"{args.workers} workers"})
-    write_csv(out / "spot_model_m4_summary.csv", summary, ["item", "value", "note"])
+    write_csv(out / f"{prefix}_summary.csv", summary, ["item", "value", "note"])
     for r in summary:
         print(f"{r['item']}: {r['value']}  {r['note']}")
 
