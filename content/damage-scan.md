@@ -102,13 +102,31 @@ Not established at all:
 
 Everything in this section is **inference** from the sources above, written because Ben asked to be told where the logic may be off. It is not a finding.
 
-1. **"Genetic damage causes the spots" is a hypothesis, not a finding.** Sun-exposed skin is full of mutations (PMID 25999502, PMID 33029006), and IGH is common in older, sun-exposed skin. But both facts are also true of skin with no white spots. No study has compared the DNA of melanocytes inside a spot with those just outside it. That comparison is the missing first step.
+1. **The idea that genetic damage causes the spots is a hypothesis, not a finding.** Sun-exposed skin is full of mutations (PMID 25999502, PMID 33029006), and IGH is common in older, sun-exposed skin. But both facts are also true of skin with no white spots. No study has compared the DNA of melanocytes inside a spot with those just outside it. That comparison is the missing first step.
 2. **Gene therapy usually fixes one known gene; sun damage is not one gene.** Gene therapies that work today replace or correct a single gene that is broken the same way in every cell. The sources above describe the opposite: "Every cell in the human body has a unique set of somatic mutations" (PMID 33029006), spread across "thousands of evolving clones" (PMID 25999502). There is no single target to correct, and editing millions of cells each at different sites is not something current tools do. [Whether any gene therapy is approved for skin, and for what, is a lead to check with a logged search; this page does not cite one.]
-3. **The best-supported damage is missing or inactive cells, so the closest "complete fix" is replacing cells, not editing them.** Spots have fewer melanocytes (PMID 9765023), IGH skin can repigment when moved (PMID 2508572), and low-mutation, stem-like melanocytes persist in sun-exposed skin (PMID 42045571). Together these point toward supplying or waking up healthy pigment cells. That direction already has old IGH precedents (see the frontier scan) but no modern six-month study.
+3. **The best-supported damage is missing or inactive cells, so the closest complete fix is replacing cells, not editing them.** Spots have fewer melanocytes (PMID 9765023), IGH skin can repigment when moved (PMID 2508572), and low-mutation, stem-like melanocytes persist in sun-exposed skin (PMID 42045571). Together these point toward supplying or waking up healthy pigment cells. That direction already has old IGH precedents (see the frontier scan) but no modern six-month study.
 4. **The neighbourhood may matter as much as the cell.** If the dermis under a spot is scarred (PMID 35114009) or full of senescent fibroblasts (PMID 31823346, full text needed), new melanocytes might fade again. That is exactly what the project's six-month test would catch.
 5. **Senescence markers could be a result, not a cause.** A cell that has lost its pigment job could become senescent afterwards. Telling these apart needs a time series or an experiment, not one biopsy.
 6. **On garage gene therapy:** melanocytes are the cells melanoma starts from, and normal sun-exposed skin already carries cancer-gene mutations in "over a quarter of cells" (PMID 25999502). Pushing these cells to divide or editing their DNA is not low-risk. This is work for a lab with ethics approval, which is the route the study proposal already takes.
 
 ### Open questions
 
+Each of these is a question a professional study could answer. None is answered by the sources above.
+
+1. Do melanocytes inside an IGH spot carry more DNA damage (mutations or UV signatures) than melanocytes 5 mm away in the same person? (Method exists: single-melanocyte sequencing, PMID 33029006.)
+2. Which genes are switched on or off in a spot compared with the same person's normal skin? No such dataset was found.
+3. Does the damage start in the melanocyte, the keratinocyte that receives pigment, or the dermis below?
+4. Are senescence markers in spots a cause or a result? Would a spot change if senescent cells were cleared? (Senolytics are discussed in the frontier scan as leads only.)
+5. Are there still follicle reserve cells under an IGH spot, and can they be woken up?
+6. If healthy melanocytes are put into a spot, do they survive and match colour six months after the final treatment?
+7. Paywalled full texts that would sharpen this page: arbache2022 (PMID 35114009), rani2018 (PMID 29516488), kim2020 (PMID 31823346), kim2023 (PMID 36394380), kim2026 (PMID 41453137). Added to the paywall list in `STATUS.md`.
+
 ### Searches behind this page
+
+Run 2026-11-28 and logged in `data/search_log.csv`; every record screened in `data/screening_log.csv` (found_by `damage_scan_pubmed` or `damage_scan_europepmc`).
+
+- 10 PubMed queries through `tools/pubmed.py`: IGH histology and melanocyte counts (53 hits), ultrastructure and melanosome transfer (14), senescence and oxidative stress (17), keratinocyte and fibroblast signalling (15), stem cell reservoirs (2), heredity and genetics (9), somatic mutation burden in normal skin (47), melanocyte genome titles (5), melanocyte stem cells with UV or ageing in humans (48), melanocyte density in photoaged skin (28). 183 unique records; 127 new, of which 49 leads and 78 excluded. The IGH queries returned almost nothing new: 54 of the 63 unique records from the six IGH queries had already been screened in earlier searches.
+- 1 Europe PMC open-access full-text search (102 hits; 84 not already screened: 2 leads, 82 titles read only and marked `not screened in full`).
+- Not repeated: GEO, BioImage Archive, Zenodo and Figshare had already been searched for IGH on 2026-11-27 with no dataset found.
+- Not run: Web of Science and Scopus (no access); EGA or dbGaP controlled-access genome archives.
+- Open-access full texts read: PMID 37554281, 25484386, 42045571, 33029006. Everything else is abstract only.
