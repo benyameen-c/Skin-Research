@@ -1,0 +1,216 @@
+{
+ "study_id": "falabella1987",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/falabella1987.txt",
+ "gate_a": "Ben's Gate A go-ahead for this one paper, 2026-11-28 02:20 UTC (flagged in the natural-history search, PR 33). Previously excluded in data/screening_log.csv as 'pathogenesis and prevalence study; no intervention'; the abstract does report two treatment experiments.",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "falabella1987",
+   "doi_or_pmid": "PMID 3805391; doi:10.1016/s0190-9622(87)70003-6",
+   "source_location": "PubMed abstract",
+   "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; jaad.org PDF page returned HTTP 403, 2026-11-28)",
+   "diagnosis": "IGH (idiopathic guttate hypomelanosis)",
+   "design": "not in abstract [prevalence survey of 400 consecutive dermatology patients, a case-control study of fifteen IGH patients and fifteen matched controls, and uncontrolled treatment experiments within IGH lesions; whether the treated lesions came from the fifteen patients not in abstract]",
+   "body_site": "not in abstract [treated sites not stated; the abstract describes IGH macules in general as mainly affecting the exposed upper and lower extremities]",
+   "skin_tone": "not in abstract [controls were matched by skin type; the types are not stated]",
+   "patients_enrolled": "not in abstract [how many patients received this treatment not in abstract]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "lesion [the abstract's statement is about lesions; no count given]",
+   "comparator": "not in abstract [no untreated or sham control arm described]",
+   "assessment_method": "not in abstract [clinical observation implied]",
+   "time_from_start": "not in abstract",
+   "time_from_last_treatment": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING",
+   "outcome_tier": "unquantified",
+   "citation": "Falabella R, Escobar C, Giraldo N, Rovetto P, Gil J, Barona MI, Acosta F, Alzate A. On the pathogenesis of idiopathic guttate hypomelanosis. J Am Acad Dermatol 1987;16(1 Pt 1):35-44",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/3805391/",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "intervention": "minigrafts of normal skin implanted in IGH lesions [autologous punch minigrafting; donor site, graft size and number not in abstract]",
+   "endpoint_definition": "change in the achromic defect after minigrafting (criteria not in abstract)",
+   "arm_result": "minigrafts did not modify the achromic defects; proportion of lesions, degree and timing not in abstract",
+   "treatment_class": "grafting",
+   "uncertainty": "Abstract only; full text subscription only (paywall list). Number of patients, lesions and grafts treated, number of triamcinolone sessions, dose, follow-up length and assessment method are not in abstract, so no result can be timed from the final treatment and months after final treatment is NOT_DERIVABLE. The fifteen-patient group is described for the case-control work; whether the treated lesions belong to it not in abstract. 'Did not modify the achromic defects' and 'improved the appearance' give no proportion, degree or colour-match judgement, [so both rows are recorded as unquantified, not as partial repigmentation, complete area coverage or colour match]. The triamcinolone result is stated 'with or without grafts' as one group; the two subgroups are not separated in the abstract. Adverse effects (for intralesional steroid, e.g. atrophy) not in abstract. [Lead, not from this source: hirobe2018 (Discussion) cites Falabella et al. as reporting minigrafts in IGH becoming depigmented 18 months after grafting; that figure is not in this abstract and needs the full text.] [Module 5 leads, not ledger outcomes: the abstract reports patchy absence of melanocytes and melanin, epithelial atrophy, flattened rete pegs and basket weave hyperkeratosis; higher family prevalence of IGH in patients than controls; and no statistically established link with chronic sun exposure. Counts, tests and p-values for these are not in abstract.]"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "falabella1987",
+   "doi_or_pmid": "PMID 3805391; doi:10.1016/s0190-9622(87)70003-6",
+   "source_location": "PubMed abstract",
+   "access_level": "ABSTRACT_ONLY (Europe PMC lists the article as subscription required, not in PMC; jaad.org PDF page returned HTTP 403, 2026-11-28)",
+   "diagnosis": "IGH (idiopathic guttate hypomelanosis)",
+   "design": "not in abstract [prevalence survey of 400 consecutive dermatology patients, a case-control study of fifteen IGH patients and fifteen matched controls, and uncontrolled treatment experiments within IGH lesions; whether the treated lesions came from the fifteen patients not in abstract]",
+   "body_site": "not in abstract [treated sites not stated; the abstract describes IGH macules in general as mainly affecting the exposed upper and lower extremities]",
+   "skin_tone": "not in abstract [controls were matched by skin type; the types are not stated]",
+   "patients_enrolled": "not in abstract [how many patients received this treatment not in abstract]",
+   "patients_evaluable": "not in abstract",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "analysis_unit": "lesion [the abstract's statement is about lesions; no count given]",
+   "comparator": "not in abstract [no untreated or sham control arm described]",
+   "assessment_method": "not in abstract [clinical observation implied]",
+   "time_from_start": "not in abstract",
+   "time_from_last_treatment": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "texture_or_scar": "not in abstract",
+   "attrition": "not in abstract",
+   "verification_status": "PENDING",
+   "outcome_tier": "unquantified",
+   "citation": "Falabella R, Escobar C, Giraldo N, Rovetto P, Gil J, Barona MI, Acosta F, Alzate A. On the pathogenesis of idiopathic guttate hypomelanosis. J Am Acad Dermatol 1987;16(1 Pt 1):35-44",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/3805391/",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "intervention": "intralesional triamcinolone, with or without minigrafts [concentration, volume and number of sessions not in abstract]",
+   "endpoint_definition": "appearance of the lesions after intralesional triamcinolone (criteria not in abstract)",
+   "arm_result": "intralesional triamcinolone with or without grafts improved the appearance of the lesions; proportion of lesions, degree, colour match and timing not in abstract",
+   "treatment_class": "intralesional_corticosteroid",
+   "uncertainty": "Abstract only; full text subscription only (paywall list). Number of patients, lesions and grafts treated, number of triamcinolone sessions, dose, follow-up length and assessment method are not in abstract, so no result can be timed from the final treatment and months after final treatment is NOT_DERIVABLE. The fifteen-patient group is described for the case-control work; whether the treated lesions belong to it not in abstract. 'Did not modify the achromic defects' and 'improved the appearance' give no proportion, degree or colour-match judgement, [so both rows are recorded as unquantified, not as partial repigmentation, complete area coverage or colour match]. The triamcinolone result is stated 'with or without grafts' as one group; the two subgroups are not separated in the abstract. Adverse effects (for intralesional steroid, e.g. atrophy) not in abstract. [Lead, not from this source: hirobe2018 (Discussion) cites Falabella et al. as reporting minigrafts in IGH becoming depigmented 18 months after grafting; that figure is not in this abstract and needs the full text.] [Module 5 leads, not ledger outcomes: the abstract reports patchy absence of melanocytes and melanin, epithelial atrophy, flattened rete pegs and basket weave hyperkeratosis; higher family prevalence of IGH in patients than controls; and no statistically established link with chronic sun exposure. Counts, tests and p-values for these are not in abstract.]"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects, whereas intralesional triamcinolone with or without grafts improved the appearance of these lesions.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "intervention",
+   "quote": "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects, whereas intralesional triamcinolone with or without grafts improved the appearance of these lesions.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "endpoint_definition",
+   "quote": "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects, whereas intralesional triamcinolone with or without grafts improved the appearance of these lesions.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "In a group of 400 consecutive dermatologic patients, idiopathic guttate hypomelanosis was much more prevalent in women than in men.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "design",
+   "quote": "In another group of fifteen patients with idiopathic guttate hypomelanosis and fifteen normal controls matched by age, sex, and skin type",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "In another group of fifteen patients with idiopathic guttate hypomelanosis and fifteen normal controls matched by age, sex, and skin type",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "In another group of fifteen patients with idiopathic guttate hypomelanosis and fifteen normal controls matched by age, sex, and skin type",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "body_site",
+   "quote": "small 2- to 5-mm achromic or hypopigmented macules, mainly affecting the exposed upper and lower extremities.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Epithelial atrophy, patchy absence of melanocytes and melanin, flattening of the rete pegs, and basket weave hyperkeratosis were the most prominent histologic findings",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "A family aggregation survey disclosed a higher prevalence of idiopathic guttate hypomelanosis in the family of patients with idiopathic guttate hypomelanosis than in the control group.",
+   "location": "Abstract"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "A cause-effect relationship between chronic actinic exposure and the development of idiopathic guttate hypomelanosis could not be established by statistical studies.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects, whereas intralesional triamcinolone with or without grafts improved the appearance of these lesions.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "intervention",
+   "quote": "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects, whereas intralesional triamcinolone with or without grafts improved the appearance of these lesions.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "endpoint_definition",
+   "quote": "Minigrafts of normal skin implanted in idiopathic guttate hypomelanosis lesions did not modify the achromic defects, whereas intralesional triamcinolone with or without grafts improved the appearance of these lesions.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "In a group of 400 consecutive dermatologic patients, idiopathic guttate hypomelanosis was much more prevalent in women than in men.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "design",
+   "quote": "In another group of fifteen patients with idiopathic guttate hypomelanosis and fifteen normal controls matched by age, sex, and skin type",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "In another group of fifteen patients with idiopathic guttate hypomelanosis and fifteen normal controls matched by age, sex, and skin type",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "In another group of fifteen patients with idiopathic guttate hypomelanosis and fifteen normal controls matched by age, sex, and skin type",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "body_site",
+   "quote": "small 2- to 5-mm achromic or hypopigmented macules, mainly affecting the exposed upper and lower extremities.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Epithelial atrophy, patchy absence of melanocytes and melanin, flattening of the rete pegs, and basket weave hyperkeratosis were the most prominent histologic findings",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "A family aggregation survey disclosed a higher prevalence of idiopathic guttate hypomelanosis in the family of patients with idiopathic guttate hypomelanosis than in the control group.",
+   "location": "Abstract"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "A cause-effect relationship between chronic actinic exposure and the development of idiopathic guttate hypomelanosis could not be established by statistical studies.",
+   "location": "Abstract"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
