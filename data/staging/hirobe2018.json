@@ -1,0 +1,788 @@
+{
+ "study_id": "hirobe2018",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/hirobe2018.txt",
+ "source_note": "Full text from the PDF Ben uploaded 2026-11-28 (papers/pdfs/hirobe2018.pdf, not committed), converted with pdftotext in reading order (papers/excerpts/hirobe2018.txt); a -layout copy is papers/excerpts/hirobe2018.layout.txt. Open access, CC BY-NC-ND 4.0.",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (HE histology reported: 'These observations strongly suggest that this disease is IGH')",
+   "body_site": "back (72-year-old man; macules 'increased in number for two years')",
+   "patients_evaluable": "1 (this patient)",
+   "lesions_enrolled": "approximately 120 macules, 3 mm in diameter; 120 grafts transplanted",
+   "lesions_evaluable": "not reported (no per-macule result)",
+   "source_location": "Results, Skin grafting, first paragraph; Fig. 1A, E",
+   "time_from_start": "2 months after mMG",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 2 months after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [between before the final NB-UVB exposure and about 1 month after it]",
+   "arm_result": "minigrafts 'survived after 4 days'; 'excellent color-matched repigmentation was observed after 2 months' (no extent or count given)",
+   "complete_match": "[author's claim only] 'excellent color-matched repigmentation' by eye; extent of coverage not reported, no measure",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (HE histology reported: 'These observations strongly suggest that this disease is IGH')",
+   "body_site": "back (72-year-old man; macules 'increased in number for two years')",
+   "patients_evaluable": "1 (this patient)",
+   "lesions_enrolled": "approximately 120 macules, 3 mm in diameter; 120 grafts transplanted",
+   "lesions_evaluable": "not reported (no per-macule result)",
+   "source_location": "Results, Skin grafting, first paragraph; Fig. 1I and caption",
+   "time_from_start": "4 months after mMG (Fig. 1 caption: 'I, 4 months after mMG of patient 1A'); followed up until 5 months, result at 5 months not reported",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 4 months after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [about 1.75 to 3 months after the final exposure]",
+   "arm_result": "'The long-lasting repigmentation was observed even after 4 months'; 'followed up until 5 months', with no result stated for 5 months",
+   "complete_match": "not reported at this time point (the Results say only 'long-lasting repigmentation', not colour match)",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (basis of diagnosis for this patient not stated)",
+   "body_site": "left leg (11-year-old boy; donor scalp)",
+   "patients_evaluable": "1 (this patient)",
+   "lesions_enrolled": "not reported for this patient (macules in all patients 'approximately 3 mm in diameter')",
+   "lesions_evaluable": "not reported",
+   "source_location": "Results, Skin grafting, second paragraph; Fig. 1B, F, J",
+   "time_from_start": "1 month after mMG (Fig. 1 caption: 'J, 1 month after mMG of patient 1B')",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 1 month after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [NB-UVB probably still under way, so before the final exposure]",
+   "arm_result": "'After 1 month, excellent color-matched repigmentation was observed' (no extent or count given)",
+   "complete_match": "[author's claim only] 'excellent color-matched repigmentation' by eye; extent of coverage not reported, no measure",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (basis of diagnosis for this patient not stated)",
+   "body_site": "left leg (11-year-old boy; donor scalp)",
+   "patients_evaluable": "1 (this patient)",
+   "lesions_enrolled": "not reported for this patient (macules in all patients 'approximately 3 mm in diameter')",
+   "lesions_evaluable": "not reported",
+   "source_location": "Results, Skin grafting, second paragraph; Discussion, paragraph on Falabella et al.",
+   "time_from_start": "8 months [after mMG; the Results say only 'after 8 months', and the Discussion 'followed up to 8 (patient 1B)']",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 8 months after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [about 5.75 to 7 months after the final exposure, if it ended 1 to 2.25 months after grafting]",
+   "arm_result": "'We observed long-lasting repigmentation after 8 months'; Discussion: in this patient, followed up to 8 months, 'the color-matched repigmentation was maintained' (no measure, no photograph at 8 months)",
+   "complete_match": "[author's claim only] colour match 'maintained' at 8 months, by eye; extent of coverage not reported, no measure",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (basis of diagnosis for this patient not stated)",
+   "body_site": "left arm (46-year-old man)",
+   "patients_evaluable": "1 (this patient)",
+   "lesions_enrolled": "not reported for this patient (macules in all patients 'approximately 3 mm in diameter')",
+   "lesions_evaluable": "not reported",
+   "source_location": "Results, Skin grafting, second paragraph; Fig. 1C, G, K",
+   "time_from_start": "1 month after mMG (Fig. 1 caption: 'K, 1 month after mMG of patient 1C')",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 1 month after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [NB-UVB probably still under way, so before the final exposure]",
+   "arm_result": "minigrafts 'survived after 5 days'; 'excellent color-matched repigmentation was observed after 1 month' (no extent or count given)",
+   "complete_match": "[author's claim only] 'excellent color-matched repigmentation' by eye; extent of coverage not reported, no measure",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (basis of diagnosis for this patient not stated)",
+   "body_site": "left arm (46-year-old man)",
+   "patients_evaluable": "1 (this patient)",
+   "lesions_enrolled": "not reported for this patient (macules in all patients 'approximately 3 mm in diameter')",
+   "lesions_evaluable": "not reported",
+   "source_location": "Results, Skin grafting, second paragraph; Discussion, paragraph on Falabella et al.",
+   "time_from_start": "12 months [after mMG; the Results say only 'even after 12 months', and the Discussion 'followed up to ... 12 (patient 1C) months']",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 12 months after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [about 9.75 to 11 months after the final exposure, if it ended 1 to 2.25 months after grafting]",
+   "arm_result": "'The long-lasting repigmentation was observed even after 12 months'; Discussion: in this patient, followed up to 12 months, 'the color-matched repigmentation was maintained' (no measure, no photograph at 12 months)",
+   "complete_match": "[author's claim only] colour match 'maintained' at 12 months, by eye; extent of coverage not reported, no measure",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "hirobe2018",
+   "doi_or_pmid": "doi:10.1016/j.dsi.2018.04.008; PMID not in saved text",
+   "access_level": "FULL_TEXT",
+   "design": "uncontrolled case series: 4 patients treated, reported one by one (one row per patient and time point); no comparator; a 5th patient had histochemistry only; histochemistry of lesional versus normal skin (Table 1) is a separate mechanism endpoint, not a treatment endpoint, and is not extracted as a row",
+   "skin_tone": "not reported [Tokyo clinic; the Discussion's 'Caucasoid versus Mongoloid' contrast suggests East Asian patients, but the patients' skin type or ancestry is not stated]",
+   "patients_enrolled": "5 ('All the 5 patients'); [4] treated ('Four of ﬁve patients underwent this treatment'); one had histochemistry only ('One of ﬁve patients underwent histochemical testes only')",
+   "analysis_unit": "patient (single case; results are narrative for the patient's grafted macules as a whole, no per-macule count)",
+   "intervention": "mini-punch grafting using a machine (mMG): punches 0.8-1.0 mm wide, 1.8 mm deep removed from the lesion with an electric micro drill; donor punches 0.8-1.0 mm wide, 1.5 mm deep from scalp without hair follicles placed into the holes; then NB-UVB 311 nm, 2 MED, to all grafts from 1 week after grafting, three times a week for 1-2 months",
+   "comparator": "none (no untreated, NB-UVB-only or graft-only macules)",
+   "endpoint_definition": "author-described repigmentation of the grafted macules ('excellent color-matched repigmentation', 'long-lasting repigmentation'); not defined, no grade or percentage",
+   "assessment_method": "clinical observation with photographs (Fig. 1) by the treating clinic [assessor not named]; no scale, no instrument, no blinding, no independent assessor",
+   "patient_noticeability": "not reported",
+   "dark_overshoot": "not reported",
+   "texture_or_scar": "not reported [the Methods say shallower donor punches were used so 'the graft and recipient lesional skin go ﬂat'; no scar, cobblestoning or texture outcome is reported]",
+   "attrition": "1 of the [4] treated patients (45-year-old woman) 'did not visit our clinic after this time' (after 1 month); the others were followed to 5 (72-year-old man), 8 (11-year-old boy) and 12 (46-year-old man) months [all timed from mMG]",
+   "verification_status": "PENDING",
+   "citation": "Hirobe T, Enami H. Melanoblasts but not melanocytes decrease in number in human epidermis of idiopathic guttate hypomelanosis. Dermatol Sin 2018;36:131-135",
+   "source_url": "https://doi.org/10.1016/j.dsi.2018.04.008",
+   "treatment_class": "grafting",
+   "outcome_tier": "unquantified",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "diagnosis": "IGH (basis of diagnosis for this patient not stated)",
+   "body_site": "right leg (45-year-old woman)",
+   "patients_evaluable": "1 (this patient; lost to follow-up after this visit)",
+   "lesions_enrolled": "not reported for this patient (macules in all patients 'approximately 3 mm in diameter')",
+   "lesions_evaluable": "not reported",
+   "source_location": "Results, Skin grafting, second paragraph; Fig. 1D, H, L",
+   "time_from_start": "1 month after mMG (Fig. 1 caption: 'H, 1 month after mMG of patient 1D')",
+   "time_from_last_treatment": "NOT_DERIVABLE: the paper gives 1 month after mMG (grafting); NB-UVB started 'After 1 week' and continued 'three times a week for 1e2 months', end date per patient not reported [NB-UVB probably still under way, so before the final exposure]",
+   "arm_result": "'after 1 month, excellent color-matched repigmentation was similarly observed'; the patient 'did not visit our clinic after this time', so no later result",
+   "complete_match": "[author's claim only] 'excellent color-matched repigmentation' by eye; extent of coverage not reported, no measure",
+   "uncertainty": "Uncontrolled case series of 4 treated patients by the treating clinic; no comparator, so the effect of the grafts cannot be separated from the NB-UVB course given to every graft. Every time point is counted from grafting (Fig. 1 captions: 'months after mMG'), not from the final treatment: NB-UVB began 'After 1 week' and continued 'three times a week for 1e2 months', and the end date for each patient is not reported, so months after the final treatment are NOT_DERIVABLE; it is also not stated whether the 1-2 months run from grafting or from the first exposure. The Discussion speaks of 'NB-UVB irradiations before and after the grafting', but the Methods describe NB-UVB only after grafting; any pre-graft course is not described (internal contradiction). Repigmentation and colour match are the authors' own visual judgement: no grading scale, percentage, assessor, blinding or instrument; extent of coverage of each macule and the number of macules that repigmented are not reported; the claim that 'all grafts' and 'all IGH macules treated' repigmented rests on these four narrative cases. The Discussion says repigmentation appeared 'after 1e2 months', and the 72-year-old man is reported at 2 months, the others at 1 month. Durability is author-stated for one patient each at 8 months (11-year-old boy) and 12 months (46-year-old man) after grafting, with no measure; [if NB-UVB ended 1 to 2.25 months after grafting, these are about 5.75 to 7 and 9.75 to 11 months after the last exposure], so the 8-month case may fall short of six months after the final treatment. Falabella et al. (ref 21), cited here, reported minigrafts in IGH becoming depigmented 18 months after grafting, a later point than any follow-up in this paper. The 72-year-old man was 'followed up until 5 months' but his result is stated only at 4 months. Diagnosis: HE histology is reported for the 72-year-old man's macules ('These observations strongly suggest that this disease is IGH'); for the others the diagnostic basis is not stated, though histochemistry was done on lesional skin of all five (Table 1). An IGH patient aged 11 is unusual for the disease as the Introduction describes it ('usually affects aged humans over 50e60 years'). Adverse effects, donor-site outcome, and darkening are not reported. Macule size 'approximately 3 mm in diameter'; the authors credit the small size for the speed of repigmentation. Fig. 3 caption calls patient 1C's samples 'normal leg skin' and 'lesional leg skin', while the Results place this 46-year-old man's macules on his left arm and panel C says 'normal arm epidermis' (internal inconsistency in the figure legend). Table 1 (not extracted as rows; mechanism data, a Module 5 lead): lesional melanocytes 104.7 ± 9.7% of normal, melanoblasts 28.9 ± 4.6%, three punch biopsies per site in each of 5 patients; the 54-year-old man in Table 1 does not appear in Fig. 1 and is [the histochemistry-only patient]. Table 1 was read from the PDF text in column order; its row and column assignment is clear from the order but was not checked against the printed page image. Same authors and technique as their vitiligo mMG paper (ref 8, doi:10.1016/j.dsi.2018.01.004). The saved text renders en dashes as 'e' (for example '1e2 months') and keeps ligature characters, as pdftotext produced them."
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "Approximately 120 white macules 3 mm in diameter were observed on his back (Fig. 1A).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 0,
+   "field": "lesions_enrolled",
+   "quote": "Numerous grafts (120 pieces) removed from the scalp were transplanted to the IGH macules in his back (mMG).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "The minigrafts were survived after 4 days (Fig. 1E) and excellent color-matched repigmentation was observed after 2 months.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "Approximately 120 white macules 3 mm in diameter were observed on his back (Fig. 1A).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 1,
+   "field": "lesions_enrolled",
+   "quote": "Numerous grafts (120 pieces) removed from the scalp were transplanted to the IGH macules in his back (mMG).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "The long-lasting repigmentation was observed even after 4 months (Fig. 1I) and followed up until 5 months.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "I, 4 months after mMG of patient 1A",
+   "location": "Fig. 1 caption"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 2,
+   "field": "lesions_enrolled",
+   "quote": "all the patients possessed IGH macules in small size (approximately 3 mm in diameter)",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "After 1 month, excellent color-matched repigmentation was observed (Fig. 1J).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "J, 1 month after mMG of patient 1B",
+   "location": "Fig. 1 caption"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 3,
+   "field": "lesions_enrolled",
+   "quote": "all the patients possessed IGH macules in small size (approximately 3 mm in diameter)",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "We observed long-lasting repigmentation after 8 months.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "We observed long-lasting repigmentation after 8 months.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "However, in our two patients that were followed up to 8 (patient 1B) and 12 (patient 1C) months, the color-matched repigmentation was maintained.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 3,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 4,
+   "field": "lesions_enrolled",
+   "quote": "all the patients possessed IGH macules in small size (approximately 3 mm in diameter)",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "The minigrafts were survived after 5 days (Fig. 1G) and excellent color-matched repigmentation was observed after 1 month (Fig. 1K).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "K, 1 month after mMG of patient 1C",
+   "location": "Fig. 1 caption"
+  },
+  {
+   "row": 4,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 4,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 5,
+   "field": "lesions_enrolled",
+   "quote": "all the patients possessed IGH macules in small size (approximately 3 mm in diameter)",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "The long-lasting repigmentation was observed even after 12 months.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "The long-lasting repigmentation was observed even after 12 months.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "However, in our two patients that were followed up to 8 (patient 1B) and 12 (patient 1C) months, the color-matched repigmentation was maintained.",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 5,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 5,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 5,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 6,
+   "field": "lesions_enrolled",
+   "quote": "all the patients possessed IGH macules in small size (approximately 3 mm in diameter)",
+   "location": "Discussion"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "after 1 month, excellent color-matched repigmentation was similarly observed (Fig. 1H and L in enlarged photograph).",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "Since this patient did not visit our clinic after this time, we were unable to observe further the skin condition.",
+   "location": "Results, Skin grafting"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "H, 1 month after mMG of patient 1D",
+   "location": "Fig. 1 caption"
+  },
+  {
+   "row": 6,
+   "field": "patients_enrolled",
+   "quote": "All the 5 patients signed the consent form for publication of photographs.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 6,
+   "field": "patients_enrolled",
+   "quote": "Four of ﬁve patients underwent this treatment. One of ﬁve patients underwent histochemical testes only.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "After 1 week, we started to expose 2 minimal erythema doses (MEDs) of 311 nm NB-UVB",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "to all grafts and continued the exposures three times a week for 1e2 months.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  },
+  {
+   "row": 6,
+   "field": "uncertainty",
+   "quote": "However, we are thinking the possibility that our technique of mMG in combination with NB-UVB irradiations before and after the grafting induced the speedy repigmentation.",
+   "location": "Discussion"
+  },
+  {
+   "row": 6,
+   "field": "uncertainty",
+   "quote": "Falabella et al.21 reported that minigrafts of normal skin into IGH skin sites became depigmented 18 months after grafting.",
+   "location": "Discussion"
+  },
+  {
+   "row": 6,
+   "field": "uncertainty",
+   "quote": "104.7 ± 9.7%",
+   "location": "Table 1, melanocyte percentage average"
+  },
+  {
+   "row": 6,
+   "field": "uncertainty",
+   "quote": "28.9 ± 4.6%***",
+   "location": "Table 1, melanoblast percentage average"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "By using shallower punches from the donor, we could make the graft and recipient lesional skin go ﬂat.",
+   "location": "Methods, Skin grafting and NB-UVB therapy"
+  }
+ ],
+ "verifier": {
+  "status": "PASS",
+  "date": "2026-11-28",
+  "notes": "0 failed cells. Checked against papers/excerpts/hirobe2018.txt alone (FULL_TEXT). All 88 quotes found verbatim; every number in a quoted field appears in its quotes; numbers in intervention, attrition and time_from_start match the Methods, Results and Fig. 1 captions. Rows match the four treated patients and their time points (72M back 2 and 4 months; 11M left leg 1 and 8; 46M left arm 1 and 12; 45F right leg 1, then lost). analysis_unit patient is right (narrative per patient, no per-macule counts). months_after_final_tx NOT_DERIVABLE is right: all times are from mMG, NB-UVB 'three times a week for 1e2 months' with no per-patient end date; bracketed ranges are labelled as inference. outcome_tier unquantified is the weakest reading: 'excellent color-matched repigmentation' and 'maintained' are by eye with no scale, extent or instrument. dark_overshoot, patient_noticeability, texture_or_scar correctly 'not reported'; attrition (45F after 1 month; 72M followed to 5 months, result stated only at 4) recorded. Uncertainty carries the weakening points the text contains: no comparator, NB-UVB 'before and after the grafting' contradiction, Falabella depigmentation at 18 months, 'all grafts' claim resting on four cases, Fig. 3 leg/arm legend error. Table 1 averages checked (92.0, 95.9, 147.6, 90.5, 97.6 give 104.7; 20.9, 26.7, 48.9, 26.4, 21.8 give 28.9). Not failures, for the record: row 1 time_from_start reads '2 months after mMG' unbracketed while rows 4 and 6 bracket the same anchor; the paragraph's other times are tied to mMG by the Fig. 1 captions, so the reading stands. The Results say 'the basket weave corniﬁed layer were observed in the other patients in a similar fashion', which is some histological support for IGH in rows 3 to 7, whose diagnosis cell says the basis is not stated."
+ }
+}
