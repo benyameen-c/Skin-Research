@@ -99,3 +99,41 @@ python3 experiments/placement_sim.py --out data            # about 18 minutes on
 python3 experiments/placement_sensitivity.py --out data    # about 10 minutes
 python3 -m pytest experiments/tests -q                     # 55 placement tests, written before the code
 ```
+
+### 6. Does lining up on the skin survive hair, tanning, rotation and uneven light?
+
+<p><span class="tag sim">Simulation</span> Synthetic disks, synthetic skin texture and synthetic straight hairs. No patient images. This is a simulation result, not evidence: it tests the measuring method only and says nothing about any treatment. <strong>Every disturbance size below is the test author's assumption, chosen to bracket plausible conditions. None comes from a quoted source.</strong></p>
+
+Section 5 tested lining up on the surrounding skin in its best case, with the same skin texture at both visits. This round adds four things that change between real photo sessions, one at a time and then all together: hair across the spot and ring (2 or 8 strands), tanning of the skin around the spot (2 or 5 L\* darker, evenly, or 5 L\* with a new 3 % patchy pattern), turning of the camera (2, 5 or 10 degrees) and uneven light (a 5 % or 20 % ramp across the field, or 10 % or 20 % fall-off towards the edges). Four placements are compared: none, lining up by sliding only, lining up by sliding and turning (new in this round), and the sticker (0.1 mm error). Each measurement is made with no hair mask and with hairs found automatically and left out. Tanning is a real change in how the spot contrasts with the skin, so it counts as truth; hair, turning and light do not. The test is the plan's section 4 target, restated as error against the truth: on a 2 mm spot moved 0.5 mm on mottled skin, an average error within 2 points and a spread of at most 1 point on an unchanged spot, a half-fading read within 2 points, and no more than 10 % of photos refused. Each condition is 100 simulated pairs at 20 pixels per mm.
+
+What the simulation shows. Row numbers are lines of `data/registration_stress_results.csv` (inner disc, 2 mm), and the pass or fail summary is in `data/registration_stress_target.csv`.
+
+- **With nothing disturbed, lining up still passes.** Sliding: error −0.01 points, spread 0.34 (line 8). Sliding and turning: +0.01, spread 0.32 (line 12). The sticker fails on spread (1.64, line 16), as in section 5.
+- **Even tanning does no harm.** At 5 L\* the true change of an unchanged spot is +41.3 %, and lining up reads it within 0.03 points, spread 0.39 to 0.41 (lines 136, 140).
+- **Patchy tanning breaks it.** When the skin pattern itself changes, the spread rises to 1.20 for sliding and 1.16 for sliding and turning (lines 168, 172). The average stays close (under 0.1 point), but single readings scatter too much.
+- **Turning the camera breaks sliding at 5 degrees, but not sliding and turning.** Sliding only: spread 1.04 at 5 degrees (line 232) and 3.90 at 10 degrees, with 2 of 100 photos refused (line 264). Sliding and turning passes at every angle tried, spread 0.32 at 10 degrees (line 268).
+- **A 20 % light ramp breaks every method, just.** Spread 1.04 for sliding and 1.06 for sliding and turning (lines 328, 332). A 5 % ramp passes (lines 296, 300).
+- **Fall-off towards the edges breaks every method from the smallest size tried, even the sticker.** At 10 % the unchanged spot reads 4.6 points too high whether lined up or not (lines 360, 364, 368). The ring around the spot gets less light than the spot, so the contrast itself changes; better placement cannot fix that. At 20 %, lining up also misses its mark (0.25 mm average centre error) and refuses 14 of 100 photos (line 392).
+- **Two hairs break every method.** With no mask, the spread is about 12.8 for every placement (lines 40, 44, 48). Leaving out the hairs found automatically brings it down to 1.91 and 1.88 for the two ways of lining up (lines 41, 45), still above 1. With 8 hairs and the mask, every photo is refused because more than 20 % of the ring is masked (line 73; 100 of 100), and without the mask the spread is about 28 (line 72).
+- **All four together break every method** (spread 3.27 at best, sliding and turning with the hair mask, line 429).
+
+The smallest size at which each method fails (target file, lines 230 to 353):
+
+| Disturbance | Sliding | Sliding and turning | Sticker |
+|---|---|---|---|
+| Hair | 2 strands | 2 strands | 2 strands |
+| Even tan | none of the sizes | none of the sizes | fails already with nothing disturbed |
+| Patchy tan | 5 L\* (only size) | 5 L\* (only size) | fails already |
+| Turning | 5 degrees | none of the sizes (up to 10) | fails already |
+| Light ramp | 20 % | 20 % | fails already |
+| Edge fall-off | 10 % | 10 % | fails already |
+| All together | fails | fails | fails |
+
+What this means for the plan, if the simulation's assumptions hold. Lining up by sliding and turning should replace sliding only, because it removes the camera-turning problem at no cost in the best case. Edge fall-off is the biggest problem, and it is a lighting problem, not a placement one: the plan's section 4 target cannot be met without a flat-field correction or lighting that is even across the ring (plan C3). Hair needs either shaving or clipping before each session or a better hair finder than the simple one used here. The hair finder is the builder's own design, not part of the test contract, so this result is about this detector, not about hair masking in general. Patchy tanning suggests photos should be taken in the same season, or the reference ring should be corrected for tan.
+
+Limits: the hairs are straight, dark, 0.08 mm wide and redrawn independently at each visit. Tanning of the spot itself is set to zero (a READING in the test file). Light changes are smooth and multiplicative. The skin does not stretch or curve. Rows for 4 mm are in the results file but are not judged against the 2 mm target.
+
+```
+python3 experiments/registration_stress_sim.py --out data   # about 26 minutes on 4 cores
+python3 -m pytest experiments/tests -q                      # 66 stress tests, written before the code
+```
