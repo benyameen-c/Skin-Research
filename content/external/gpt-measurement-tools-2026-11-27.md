@@ -266,7 +266,9 @@ Everything in this appendix is **[judgment]**. It compares the report with `cont
 - VES 0.943 / 1.31%, Smeaton correlations, multispectral prototype ΔL\* ≈ 3 and < $40.
 - The report's summary sentence calling 0.39 "without repositioning". The no-repositioning figure is 0.37; 0.39 is the small-aperture figure.
 
-### Proposed changes for Ben (none made)
+### Proposed changes for Ben
+
+Update 2026-11-28 02:10 UTC: Ben said "you are good to make teh changes you think ar eright" (02:04 UTC). The changes to sections 2.3, 3 (C6 and a kit note) and 7 were made in `content/measurement-tool-plan.md` on this branch. Appendix A (PR 13) still says the spacer can come later. That line should change when PR 13 is merged.
 
 - **Kit, before buying:** no change to the camera body, lens, flash, polariser or card. Nothing checked argues against them, and the checked findings (raw capture, a fixed disc, a within-image endpoint, a contact aperture too big for a 2 mm spot) support the camera route. **Add one item:** a rigid spacer or small copy stand that fixes both distance and angle. Make it part of the kit now instead of "later" (it is cheap; not priced).
 - **Kit, do not add:** a Konica Minolta CM-700d (about $6,750 at a reseller) as the main instrument. Its skin-tested aperture is larger than the target spot. Borrowing one for a single session to anchor phantom and card colours (plan open question 4) is still worth doing.
