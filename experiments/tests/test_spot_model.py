@@ -632,3 +632,227 @@ def test_running_the_model_never_touches_the_ledger():
         ring = sm.run(sm.default_params("healthy"), days=400)
         sm.lightness_contrast(spot, ring)
     assert digest() == before
+
+
+# ============================================================================
+# ADDENDUM (M3b, 2026-11-28): transplanted-cell rate setting `tx_rates`.
+# Written before the code, from /mnt/project-files/spot-model/test-request-tx_rates.md,
+# plan rule R9 and the register row `donor_cell_rates`. Nothing above this
+# line is changed.
+#
+# CONTRACT ADDENDUM
+#   PARAMS gains "tx_rates", "k_int_tx", "a_int_tx", "k_tr_tx". Each is a row in
+#   data/spot_model_params.csv (enforced by test_every_param_is_in_the_register
+#   above). The three *_tx symbols are the donor cells' intrinsic rates. They
+#   replace any hidden "healthy" constant: under tx_rates = 1 the model reads
+#   donor rates ONLY from params, so every input still passes the register.
+#   default_params(kind), every kind:
+#     tx_rates == 0 (keeps every test above meaning what it meant; this is not
+#     a judgement that 0 is the better setting);
+#     k_int_tx, a_int_tx, k_tr_tx == default_params("healthy")'s k_int, a_int,
+#     k_tr (that is what "healthy-skin rates" means).
+#   tx_rates must be exactly 0 or 1, else ValueError. *_tx rates negative ->
+#   ValueError.
+#   tx_rates = 0: transplanted cells use the run's own k_int, a_int, k_tr; the
+#     *_tx values have no effect at all.
+#   tx_rates = 1: transplanted cells (and only they) use k_int_tx, a_int_tx,
+#     k_tr_tx in place of k_int, a_int, k_tr. Everything else, including the
+#     dermal term k_derm * D, applies to them unchanged. Resident cells always
+#     use the run's own values.
+#
+# These tests SKIP while "tx_rates" is not in PARAMS. SPOT_MODEL_REQUIRED=1
+# turns the skip into a failure; the builder's done-when is that run showing
+# 0 skipped, 0 failed.
+#
+# Deliberately not tested: whether a transplant holds or fades under either
+# setting or either explanation with default rates. That is the model's output.
+# ============================================================================
+
+TX_KEYS = ("tx_rates", "k_int_tx", "a_int_tx", "k_tr_tx")
+needs_tx = pytest.mark.skipif(
+    "tx_rates" not in getattr(sm, "PARAMS", ())
+    and os.environ.get("SPOT_MODEL_REQUIRED") != "1",
+    reason="tx_rates setting not implemented yet (tests precede the implementation)",
+)
+
+
+def tx(params, setting, **donor):
+    p = dict(params, tx_rates=setting)
+    p.update(donor)
+    return p
+
+
+@needs_tx
+def test_tx_params_are_registered_and_default_to_healthy_rates():
+    assert set(TX_KEYS) <= set(sm.PARAMS)
+    h = sm.default_params("healthy")
+    for kind in sm.KINDS:
+        p = sm.default_params(kind)
+        assert p["tx_rates"] == 0
+        assert p["k_int_tx"] == h["k_int"]
+        assert p["a_int_tx"] == h["a_int"]
+        assert p["k_tr_tx"] == h["k_tr"]
+
+
+@needs_tx
+@pytest.mark.parametrize("key,value", [
+    ("tx_rates", 0.5), ("tx_rates", 2), ("tx_rates", -1),
+    ("k_int_tx", -1e-4), ("a_int_tx", -0.1), ("k_tr_tx", -0.1),
+])
+def test_tx_out_of_range_values_are_refused(key, value):
+    p = sm.default_params("H1")
+    p[key] = value
+    with pytest.raises(ValueError):
+        sm.run(p, days=10, transplant_days=(5,))
+
+
+@needs_tx
+@pytest.mark.parametrize("mode", ["stochastic", "expected"])
+@pytest.mark.parametrize("kind", ["healthy", "H1", "H2", "mixture"])
+def test_tx_setting_does_nothing_without_a_transplant(kind, mode):
+    """Request case 1. Non-default donor rates make sure they are truly unused."""
+    base = sm.default_params(kind)
+    a = sm.run(tx(base, 0), days=TWO_YEARS, seed=21, mode=mode)
+    b = sm.run(tx(base, 1, k_int_tx=0.01, a_int_tx=2.0, k_tr_tx=0.3),
+               days=TWO_YEARS, seed=21, mode=mode)
+    assert same_run(a, b)
+
+
+@needs_tx
+@pytest.mark.parametrize("mode", ["stochastic", "expected"])
+def test_tx_0_ignores_donor_rates(mode):
+    base = sm.default_params("mixture")
+    a = sm.run(tx(base, 0), days=TWO_YEARS, seed=22, mode=mode,
+               transplant_days=(200,))
+    b = sm.run(tx(base, 0, k_int_tx=0.01, a_int_tx=2.0, k_tr_tx=0.3),
+               days=TWO_YEARS, seed=22, mode=mode, transplant_days=(200,))
+    assert same_run(a, b)
+
+
+@needs_tx
+@pytest.mark.parametrize("kind", ["H1", "H2", "mixture"])
+def test_tx_1_with_donor_rates_equal_to_the_runs_own_is_tx_0(kind):
+    """Donor rates are read from params, not from a hidden healthy default:
+    set them to the run's own values and setting 1 must reproduce setting 0.
+    Expected mode, to EXACT_REL (the stochastic draw order is the builder's)."""
+    base = sm.default_params(kind)
+    own = dict(k_int_tx=base["k_int"], a_int_tx=base["a_int"], k_tr_tx=base["k_tr"])
+    a = sm.run(tx(base, 0), days=TWO_YEARS, mode="expected", transplant_days=(200,))
+    b = sm.run(tx(base, 1, **own), days=TWO_YEARS, mode="expected",
+               transplant_days=(200,))
+    for k in ARRAY_KEYS:
+        assert np.allclose(a[k], b[k], rtol=EXACT_REL, atol=1e-12), k
+
+
+@needs_tx
+@pytest.mark.parametrize("mode", ["stochastic", "expected"])
+def test_tx_1_donors_without_any_loss_pressure_stay_active(mode):
+    """Request case 2, with every rate that could act on donors set to zero
+    explicitly (not taken from defaults): H1 spot, k_derm = 0, k_div = 0,
+    donor k_int_tx = 0. Donor cells then have nothing that moves them."""
+    base = dict(sm.default_params("H1"), k_derm=0.0, k_div=0.0)
+    p = tx(base, 1, k_int_tx=0.0, a_int_tx=0.0)
+    sessions = (400,)
+    r = sm.run(p, days=3650, seed=23, mode=mode, transplant_days=sessions)
+    alive = np.asarray(r["transplanted_alive"])[sessions[-1]:]
+    assert alive[0] > 0 and np.all(alive == alive[0])
+
+
+@needs_tx
+def test_tx_setting_does_not_change_resident_cells():
+    """Request case 2, second half: with k_div = 0 nothing couples residents to
+    donors, so resident live counts (live minus transplanted_alive) are the
+    same under both settings. Expected mode, to EXACT_REL."""
+    base = dict(sm.default_params("mixture"), k_div=0.0)
+    a = sm.run(tx(base, 0), days=TWO_YEARS, mode="expected", transplant_days=(200,))
+    b = sm.run(tx(base, 1), days=TWO_YEARS, mode="expected", transplant_days=(200,))
+    ra = live(a) - np.asarray(a["transplanted_alive"])
+    rb = live(b) - np.asarray(b["transplanted_alive"])
+    assert np.allclose(ra, rb, rtol=EXACT_REL, atol=1e-9)
+    assert np.allclose(a["gone"][:201], b["gone"][:201], rtol=EXACT_REL, atol=0)
+
+
+@needs_tx
+@pytest.mark.parametrize("key,low,high", [("k_derm", 0.0, 1.0), ("f_sen", 0.0, 1.0)])
+def test_tx_1_donors_still_feel_the_dermal_signal(key, low, high):
+    """Request case 3 as a rule direction (R4 applies to donor cells in both
+    settings): a stronger dermal term never leaves more donor cells alive.
+    The size of the effect is not tested; that is an output."""
+    base = tx(dict(sm.default_params("mixture"), k_div=0.0), 1)
+    a = sm.run(dict(base, **{key: low}), days=TWO_YEARS, mode="expected",
+               transplant_days=(200,))
+    b = sm.run(dict(base, **{key: high}), days=TWO_YEARS, mode="expected",
+               transplant_days=(200,))
+    ta, tb = np.asarray(a["transplanted_alive"]), np.asarray(b["transplanted_alive"])
+    assert np.all(tb <= ta * (1 + EXACT_REL) + 1e-12)
+
+
+@needs_tx
+def test_tx_1_under_h2_matches_tx_0_because_intrinsic_rates_coincide():
+    """Request case 3: H2 keeps healthy intrinsic rates, and the donor defaults
+    are healthy rates, so the two settings must agree exactly under H2."""
+    base = sm.default_params("H2")
+    a = sm.run(tx(base, 0), days=TWO_YEARS, mode="expected", transplant_days=(200,))
+    b = sm.run(tx(base, 1), days=TWO_YEARS, mode="expected", transplant_days=(200,))
+    for k in ARRAY_KEYS:
+        assert np.allclose(a[k], b[k], rtol=EXACT_REL, atol=1e-12), k
+
+
+def donor_only_melanin_params(k_tr, k_tr_tx):
+    """Residents all go hypoactive within days and stay so (k_int = 1/day,
+    no further loss), so after a long wait only donor cells supply melanin."""
+    p = sm.default_params("healthy")
+    p.update(k_int=1.0, a_int=0.0, k_sen=0.0, k_loss=0.0, k_div=0.0, k_derm=0.0,
+             f_sen=0.0, k_tr=k_tr)
+    return tx(p, 1, k_int_tx=0.0, a_int_tx=0.0, k_tr_tx=k_tr_tx)
+
+
+@needs_tx
+def test_tx_1_donor_melanin_uses_donor_transfer_rate():
+    """Request case 4. Compared from day 3000: by then the day-0 melanin and
+    the residents' last active cells (exp(-3000) of N0) are gone to below
+    double precision, so the comparison isolates donor supply. Tolerance
+    EXACT_REL."""
+    days, start = 3650, 3000
+    a = sm.run(donor_only_melanin_params(1.0, 1.0), days=days, mode="expected",
+               transplant_days=(100,))
+    b = sm.run(donor_only_melanin_params(0.2, 1.0), days=days, mode="expected",
+               transplant_days=(100,))
+    assert np.allclose(a["melanin"][start:], b["melanin"][start:], rtol=EXACT_REL, atol=0)
+    assert a["melanin"][start] > 0
+    c = sm.run(donor_only_melanin_params(1.0, 0.5), days=days, mode="expected",
+               transplant_days=(100,))
+    assert np.all(c["melanin"][start:] <= a["melanin"][start:] * (1 + EXACT_REL))
+    assert c["melanin"][-1] < a["melanin"][-1]
+
+
+@needs_tx
+def test_tx_params_are_listed_as_assumptions():
+    """Request case 5, plan 10.4: the setting is an unmeasured choice."""
+    r = sm.run(tx(sm.default_params("H1"), 1), days=30, transplant_days=(10,))
+    status = {row["symbol"]: row["status"] for row in register_rows()}
+    assert "tx_rates" in r["meta"]["assumptions"]
+    for k in TX_KEYS:
+        assert (k in r["meta"]["assumptions"]) == (status[k] == "ASSUMPTION")
+    assert r["meta"]["claim_level"] == 0 and r["meta"]["output_is"] == "hypothesis"
+
+
+@needs_tx
+def test_tx_1_stochastic_mean_matches_expected():
+    """Request case 6, same 4-SE rule as test_stochastic_mean_matches_expected,
+    with a transplant and a dermal signal acting on donors. Donor intrinsic
+    rate set non-zero so both donor paths are exercised."""
+    p = dict(sm.default_params("mixture"), k_div=0.0, N_tx=150.0, s_tx=0.6)
+    p = tx(p, 1, k_int_tx=0.002, a_int_tx=0.0)
+    days, sessions = 365, (30, 60)
+    exp = sm.run(p, days=days, mode="expected", transplant_days=sessions)
+    keys = COUNT_KEYS + ("transplanted_alive",)
+    draws = {k: [] for k in keys}
+    for seed in range(100):
+        r = sm.run(p, days=days, seed=seed, transplant_days=sessions)
+        for k in keys:
+            draws[k].append(r[k][-1])
+    for k in keys:
+        x = np.asarray(draws[k], dtype=float)
+        se = max(x.std(ddof=1) / math.sqrt(len(x)), 0.5)
+        assert abs(x.mean() - exp[k][-1]) <= 4 * se, k
