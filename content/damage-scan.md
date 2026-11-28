@@ -82,11 +82,32 @@ Two kinds of evidence bear on whether a spot can be refilled: what IGH spots do 
 - Hair follicles hold a reserve (mostly mouse and vitiligo work, not IGH). Chou 2013, mouse (PMID 23749232): "after wounding or ultraviolet type B irradiation, melanocyte stem cells (McSCs) in the hair follicle exit the stem cell niche before their initial cell division, potentially depleting the pool of these cells." In human vitiligo treated with narrowband UVB, Goldstein 2015 (PMID 25822579): "NBUVB was associated with a significant increase in the number of melanocytes in the infundibulum and with restoration of the normal melanocyte population in the epidermis".
 - The reserve wears out with age (hair, mouse). Nishimura 2005 (PMID 15618488): "hair graying is caused by defective self-maintenance of melanocyte stem cells." Sun 2023, mouse (PMID 37076619): "During ageing, there is accumulation of stranded McSCs that do not contribute to the regeneration of melanocyte progeny."
 - Melanocyte numbers in sun-exposed skin overall. Gilchrest 1979, paired biopsies from 8 donors (PMID 88488): "Density of dopa-positive melanocytes was roughly twofold higher in the exposed than in the nonexposed skin at all ages" and "Melanocyte density declined approximately 6 to 8% of the surviving population per decade in both sites."
-- New cells can be made from a person's own cells in the lab. Ohta 2011 (PMID 21249204): "Seven weeks after inducing differentiation, pigmented cells expressing melanocyte markers such as MITF, tyrosinase, SILV, and TYRP1, were detected." That was a lab method, not a treatment.
+- Melanocytes can be grown in the lab from reprogrammed skin fibroblasts (iPS cells). Ohta 2011 (PMID 21249204): "Seven weeks after inducing differentiation, pigmented cells expressing melanocyte markers such as MITF, tyrosinase, SILV, and TYRP1, were detected." That was a lab method, not a treatment.
 
 ### What is not established
 
+Fairly consistent across sources (small studies, mostly abstracts): an IGH spot has fewer melanocytes and less melanin than the skin next to it, and the remaining melanocytes look less active.
+
+Reported by one or two small groups, not yet confirmed: poor pigment hand-over to keratinocytes; senescence markers (p16, p21, ATG7 loss) in the spot; scarring or senescent fibroblasts in the dermis below; raised oxidative stress in blood.
+
+Not established at all:
+
+- **A cause.** Every IGH study found is a snapshot. None changed a suspected cause and watched spots appear or clear.
+- **A gene.** No gene, inherited or acquired, has been linked to IGH by sequencing. The somatic mutation idea (PMID 6183861) has not been tested in IGH cells.
+- **Which cell is at fault first.** The melanocyte, the keratinocyte that receives pigment, and the fibroblast below all have some support. The papers do not show which change comes first.
+- **Same-person comparisons for the molecular work.** The p16, p21 and hp1 comparison (PMID 29516488) is against healthy controls, not the same person's normal skin.
+- **Anything at six months.** No source here follows a spot's cells over time.
+
 ### What this means for a "genetic fix" (inference)
+
+Everything in this section is **inference** from the sources above, written because Ben asked to be told where the logic may be off. It is not a finding.
+
+1. **"Genetic damage causes the spots" is a hypothesis, not a finding.** Sun-exposed skin is full of mutations (PMID 25999502, PMID 33029006), and IGH is common in older, sun-exposed skin. But both facts are also true of skin with no white spots. No study has compared the DNA of melanocytes inside a spot with those just outside it. That comparison is the missing first step.
+2. **Gene therapy usually fixes one known gene; sun damage is not one gene.** Gene therapies that work today replace or correct a single gene that is broken the same way in every cell. The sources above describe the opposite: "Every cell in the human body has a unique set of somatic mutations" (PMID 33029006), spread across "thousands of evolving clones" (PMID 25999502). There is no single target to correct, and editing millions of cells each at different sites is not something current tools do. [Whether any gene therapy is approved for skin, and for what, is a lead to check with a logged search; this page does not cite one.]
+3. **The best-supported damage is missing or inactive cells, so the closest "complete fix" is replacing cells, not editing them.** Spots have fewer melanocytes (PMID 9765023), IGH skin can repigment when moved (PMID 2508572), and low-mutation, stem-like melanocytes persist in sun-exposed skin (PMID 42045571). Together these point toward supplying or waking up healthy pigment cells. That direction already has old IGH precedents (see the frontier scan) but no modern six-month study.
+4. **The neighbourhood may matter as much as the cell.** If the dermis under a spot is scarred (PMID 35114009) or full of senescent fibroblasts (PMID 31823346, full text needed), new melanocytes might fade again. That is exactly what the project's six-month test would catch.
+5. **Senescence markers could be a result, not a cause.** A cell that has lost its pigment job could become senescent afterwards. Telling these apart needs a time series or an experiment, not one biopsy.
+6. **On garage gene therapy:** melanocytes are the cells melanoma starts from, and normal sun-exposed skin already carries cancer-gene mutations in "over a quarter of cells" (PMID 25999502). Pushing these cells to divide or editing their DNA is not low-risk. This is work for a lab with ethics approval, which is the route the study proposal already takes.
 
 ### Open questions
 
