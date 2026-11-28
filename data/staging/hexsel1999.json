@@ -1,0 +1,9 @@
+{
+ "study_id": "hexsel1999",
+ "access": "BLOCKED",
+ "excerpt_file": "papers/excerpts/hexsel1999.txt",
+ "rows": [],
+ "quotes": [],
+ "notes": "PMID 10594616; doi:10.1046/j.1524-4725.1999.99186-8.x. Hexsel DM. Treatment of idiopathic guttate hypomelanosis by localized superficial dermabrasion. Dermatol Surg 1999;25(11):917-8. PubMed record has no abstract (saved text is title, author and citation only, so no numbers can be quoted). Attempt 1, 2026-11-28: Europe PMC REST (EXT_ID:10594616) reports abstractText none, isOpenAccess N, inPMC N, full text 'Subscription required' at https://doi.org/10.1046/j.1524-4725.1999.99186-8.x; PubMed efetch returns citation only. Attempt 2, 2026-11-28: onlinelibrary.wiley.com /doi/full/ and /doi/pdf/ HTTP 403; Unpaywall reports oa_status closed, no repository copy. Needs Ben's PDF at papers/pdfs/hexsel1999.pdf. Do not merge this 0-row record.",
+ "verifier": {"status": "PENDING", "notes": ""}
+}

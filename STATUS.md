@@ -43,7 +43,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 - Batch 3 held: nct01956435, **verified, held: same cohort as gordon2017, awaiting Ben's decision on how to reconcile.** Third extraction (Ben approved 2026-11-27 23:04 UTC), 3 rows, FULL_TEXT, verifier PASS 0 failed cells (claude/project-thread-82j76h 86c0768). Record committed in `data/staging/nct01956435.json`, not merged.
 - Retracted and removed: rajegowda2021 (Clin Dermatol Rev 2021;5(1):49-53, doi:10.4103/CDR.CDR_50_20), retracted as a duplicate of rajegowda2020 (notice doi:10.4103/2542-551X.324588). Off the paywall list; not to be cited as evidence.
 - Batch 3 excluded: arbache2021 (PMID 34409366), a letter with no IGH patients and no clinical outcome (ex vivo black-ink histology only). Staged and read in full on claude/project-thread-ch99nh f0f2d70; not committed to staging or the ledger. `data/screening_log.csv` line changed to excluded.
-- Batch 3 BLOCKED 0-row stubs, committed in `data/staging/` but never to be merged (a 0-row merge deletes a study's rows): eun2020, vedamurthy2022 (see Blocked and paywall list).
+- BLOCKED 0-row stubs, committed in `data/staging/` but never to be merged (a 0-row merge deletes a study's rows): eun2020, vedamurthy2022 (batch 3), hexsel1999 (2026-11-28) (see Blocked and paywall list).
 - Update search: three dated PubMed queries, one ClinicalTrials.gov query (see `data/search_log.csv`).
 - Dataset audit and three-path comparison (`data/datasets.csv`, `data/paths.csv`).
 - Experiments: alignment simulation with pixel-model check; clustering sensitivity; denominator audit.
@@ -66,7 +66,8 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
   - blocked: 31396960 (eun2020), 32360719 (vedamurthy2022)
   - excluded: 34409366 (arbache2021, letter with no IGH patients)
   - extracted and merged (late): 20232585 (asawanonda2010, abstract only, 1 unquantified row)
-  - not started: 10594616, 15187317 (citation-only records with no abstract; paywall list unless an open copy exists)
+  - blocked (late): 10594616 (hexsel1999, 2026-11-28: citation only, no abstract, no open copy; 0-row BLOCKED stub `data/staging/hexsel1999.json`, never to be merged)
+  - not started: 15187317 (citation-only record with no abstract; paywall list unless an open copy exists)
   - 9 leads without a treatment arm, not to extract: PMIDs 2508572, 29516488, 29864462, 29864463, 31823346, 33894101, 35114009, 36394380, 9765023.
 - [ ] Possible text reuse: shin2013 and goldust2013 abstracts share the sentence "Two months after a single treatment, physicians' clinical assessments were performed and the patients' overall satisfaction was evaluated." Both are single-session fractional CO2 laser studies. Ben may want this checked before either is cited as independent.
 
@@ -93,6 +94,7 @@ Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): t
 | vedamurthy2022 | J Am Acad Dermatol 2022;86(1):e11-e12, PMID 32360719, doi:10.1016/j.jaad.2020.04.110 (letter, no abstract; Europe PMC subscription required; jaad.org HTTP 403, 2026-11-27) | 50% trichloroacetic acid for IGH: every count, result and follow-up interval |
 | vanderhaeghen2006 | Arch Dermatol 2006;142(1):42-6, PMID 16415385, doi:10.1001/archderm.142.1.42 (Semantic Scholar lists a free PDF at jamanetwork; jamanetwork.com HTTP 403 to article and PDF, 2026-11-28) | measurement plan prior art: the GPT report's whole-process calibrated-photo error (3.7 mean, 10.4 99th percentile ΔE*ab) and >10 threshold, unchecked |
 | navarro2019 | IEEE J Biomed Health Inform 2019;23(2):501-508, PMID 29993849, doi:10.1109/JBHI.2018.2825251 (green preprint at repositorio.uam.es HTTP 403 twice, 2026-11-28) | measurement plan section 4: the GPT report's 0.23 mm registration error on 10 lesions, unchecked |
+| hexsel1999 | Dermatol Surg 1999;25(11):917-8, PMID 10594616, doi:10.1046/j.1524-4725.1999.99186-8.x, localized superficial dermabrasion for IGH (no abstract; Europe PMC subscription required, not in PMC; Wiley /doi/full and /doi/pdf HTTP 403; Unpaywall closed, 2026-11-28) | every number: patients, lesions, sessions, result, any follow-up after the final session |
 
 ## Simulation extension (tests 2026-11-27; code 2026-11-27, PR open, not merged)
 
