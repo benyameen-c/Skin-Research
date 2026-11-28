@@ -60,14 +60,19 @@ CLAIMS = (
      "41.5% showed 50-75% improvement, and", "(n = 89)", ""),
     ("ravikiran2014", "arm_result", "25-50% improvement, of repigmented", "13.4", None, 89, "repigmented macules",
      "13.4% of lesions showed 25-50% response", "(n = 89)", ""),
-    ("rajegowda2021", "arm_result", "excellent, cryotherapy", "60", 75, 125, "macules",
-     "75 (60%) macules showed excellent", "out of 125 macules treated with short contact cryotherapy", ""),
-    ("rajegowda2021", "arm_result", "good, cryotherapy", "16", 20, 125, "macules",
-     "20 (16%) macules showed good", "out of 125 macules treated with short contact cryotherapy", ""),
-    ("rajegowda2021", "arm_result", "excellent, phenol", "29.6", 37, 125, "macules",
-     "37 (29.6%)", "In phenol group, out of 125 macules", ""),
-    ("rajegowda2021", "arm_result", "good, phenol", "23.2", 29, 125, "macules",
-     "29 (23.2%)", "In phenol group, out of 125 macules", ""),
+    # rajegowda2020 replaces the retracted duplicate rajegowda2021 (notice doi:10.4103/2542-551X.324588)
+    ("rajegowda2020", "arm_result", "excellent, cryotherapy", "60", 75, 125, "macules",
+     "75(60%)", "Cryotherapy n=125", "Table 1"),
+    ("rajegowda2020", "arm_result", "good, cryotherapy", "16", 20, 125, "macules",
+     "20(16%)", "Cryotherapy n=125", "Table 1"),
+    ("rajegowda2020", "arm_result", "minimal or no response, cryotherapy (each)", "12", 15, 125, "macules",
+     "15(12%) 15(12%)", "Cryotherapy n=125", "Table 1; minimal and no response both 15"),
+    ("rajegowda2020", "arm_result", "excellent, phenol", "29.6", 37, 125, "macules",
+     "37(29.6%)", "Phenol n=125", "Table 1"),
+    ("rajegowda2020", "arm_result", "good or no response, phenol (each)", "23.2", 29, 125, "macules",
+     "29(23.2%)", "Phenol n=125", "Table 1; good and no response both 29"),
+    ("rajegowda2020", "arm_result", "minimal, phenol", "24", 30, 125, "macules",
+     "30(24%)", "Phenol n=125", "Table 1"),
 )
 
 # deoson2025 Table 1 (grades), Table 2 (side effects), Table 3 (patient satisfaction)
@@ -129,8 +134,6 @@ CLAIMS += (
 NOT_AUDITED = (
     ("rerknimitr2015", "arm_result", "83.34; 18.34", "denominator inferred, not audited: ledger's [60] treated lesions (2 per patient) is a bracketed inference; audited against the stated 120 instead",
      "83.34% of the lesions in treatment group"),
-    ("rajegowda2021", "arm_result", "[24]; [47.2]", "percentage and count are bracketed inferences (minimal plus no response combined), not printed in the source",
-     "out of 125 macules treated"),
     ("shin2013", "patient_noticeability", "82.5", "denominator inferred, not audited: ledger records '[denominator 40 inferred from 33/40 = 82.5%]'",
      "33 patients (82.5%)"),
     ("ravikiran2014", "dark_overshoot", "11.5", "denominator named in words only ('pigmented lesions'); ledger's note on 89 vs 139 is a bracketed inference",

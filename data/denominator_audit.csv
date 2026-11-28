@@ -17,10 +17,12 @@ ravikiran2014,arm_result,no response at 3 months,35.9,50,139,macules,49/139 = 35
 ravikiran2014,arm_result,">75% improvement, of repigmented",45,not printed,89,repigmented macules,40/89 = 44.94%; 41/89 = 46.07%,yes,n/a,n/a,Results,Results,pct printed in words,data/evidence_quotes.jsonl
 ravikiran2014,arm_result,"50-75% improvement, of repigmented",41.5,not printed,89,repigmented macules,36/89 = 40.45%; 37/89 = 41.57%,NO,n/a,yes,Results,Results,,data/evidence_quotes.jsonl
 ravikiran2014,arm_result,"25-50% improvement, of repigmented",13.4,not printed,89,repigmented macules,11/89 = 12.36%; 12/89 = 13.48%,NO,n/a,yes,Results,Results,,data/evidence_quotes.jsonl
-rajegowda2021,arm_result,"excellent, cryotherapy",60,75,125,macules,74/125 = 59.20%; 75/125 = 60.00%,yes,yes,n/a,"Abstract, Results","Abstract, Results",,data/evidence_quotes.jsonl
-rajegowda2021,arm_result,"good, cryotherapy",16,20,125,macules,19/125 = 15.20%; 20/125 = 16.00%,yes,yes,n/a,"Abstract, Results","Abstract, Results",,data/evidence_quotes.jsonl
-rajegowda2021,arm_result,"excellent, phenol",29.6,37,125,macules,37/125 = 29.60%; 38/125 = 30.40%,yes,yes,n/a,"Abstract, Results","Abstract, Results",,data/evidence_quotes.jsonl
-rajegowda2021,arm_result,"good, phenol",23.2,29,125,macules,28/125 = 22.40%; 29/125 = 23.20%,yes,yes,n/a,"Abstract, Results","Abstract, Results",,data/evidence_quotes.jsonl
+rajegowda2020,arm_result,"excellent, cryotherapy",60,75,125,macules,74/125 = 59.20%; 75/125 = 60.00%,yes,yes,n/a,Abstract Results; Table 1,Table 1,Table 1,data/evidence_quotes.jsonl
+rajegowda2020,arm_result,"good, cryotherapy",16,20,125,macules,19/125 = 15.20%; 20/125 = 16.00%,yes,yes,n/a,Table 1,Table 1,Table 1,data/evidence_quotes.jsonl
+rajegowda2020,arm_result,"minimal or no response, cryotherapy (each)",12,15,125,macules,15/125 = 12.00%; 16/125 = 12.80%,yes,yes,n/a,Table 1,Table 1,Table 1; minimal and no response both 15,data/evidence_quotes.jsonl
+rajegowda2020,arm_result,"excellent, phenol",29.6,37,125,macules,37/125 = 29.60%; 38/125 = 30.40%,yes,yes,n/a,Table 1,Table 1,Table 1,data/evidence_quotes.jsonl
+rajegowda2020,arm_result,"good or no response, phenol (each)",23.2,29,125,macules,28/125 = 22.40%; 29/125 = 23.20%,yes,yes,n/a,Results; Table 1,Table 1,Table 1; good and no response both 29,data/evidence_quotes.jsonl
+rajegowda2020,arm_result,"minimal, phenol",24,30,125,macules,29/125 = 23.20%; 30/125 = 24.00%,yes,yes,n/a,Table 1,Table 1,Table 1,data/evidence_quotes.jsonl
 deoson2025,arm_result,"G4 >75%, cryotherapy",38.7,29,75,macules,29/75 = 38.67%; 30/75 = 40.00%,yes,yes,n/a,Table 1 (-layout text),Table 1 (-layout text),,data/evidence_quotes.jsonl
 deoson2025,arm_result,"G3, cryotherapy",24,18,75,macules,17/75 = 22.67%; 18/75 = 24.00%,yes,yes,n/a,Table 1 (-layout text),Table 1 (-layout text),,data/evidence_quotes.jsonl
 deoson2025,arm_result,"G2, cryotherapy",12,9,75,macules,8/75 = 10.67%; 9/75 = 12.00%,yes,yes,n/a,Table 1 (-layout text),Table 1 (-layout text),,data/evidence_quotes.jsonl

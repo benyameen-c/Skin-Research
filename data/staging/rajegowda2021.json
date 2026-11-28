@@ -2,6 +2,12 @@
  "study_id": "rajegowda2021",
  "access": "ABSTRACT_ONLY",
  "excerpt_file": "papers/excerpts/rajegowda2021.txt",
+ "retracted": {
+  "date_recorded": "2026-11-28",
+  "notice": "Notice of retraction, Clinical Dermatology Review 5(2):263, Jul-Dec 2021, doi:10.4103/2542-551X.324588",
+  "duplicate_of": "rajegowda2020",
+  "note": "Retracted by the journal as a duplicate of the same authors' 2020 article (J Pak Assoc Dermatol 2020;30(2):261-266). Its 2 ledger rows were removed on 2026-11-28 with Ben's approval (00:57 UTC) and replaced by data/staging/rajegowda2020.json. Kept for history; tools/ledger.py merge skips any record with this block."
+ },
  "rows": [
   {
    "module": "1-hypopigmentation",
