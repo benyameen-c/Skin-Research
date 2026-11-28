@@ -659,10 +659,28 @@ def test_expected_mode_probabilities_are_a_distribution_per_site(kind):
     # holds more than one cell
     pre = r["snapshots"][399]
     assert np.all(pre["active"] + pre["hypoactive"] + pre["senescent"] <= 1 + 1e-9)
+    # Counts are cells over all slots; `empty` counts sites with no live cell.
+    # Before the first transplant every site holds at most one cell, so cells
+    # + empty sites == sites exactly. From the session on, extra slots can hold
+    # donors, and the exact statement is the pair of bounds that one-or-more
+    # and at-most-cap cells per occupied site give (they hold in expectation
+    # too, by linearity): sites - empty <= cells <= cap * (sites - empty).
+    # (Corrected 2026-11-28 after the capacity revision: the earlier version
+    # asserted the single-occupancy identity on every day, which is false at
+    # capacity 2 once donors fill extra slots.)
+    t_tx = 400
     for reg in ("spot", "ring"):
-        tot = r[reg]["active"] + r[reg]["hypoactive"] + r[reg]["senescent"] + r[reg]["empty"]
-        assert np.allclose(tot, r["n_sites"][reg], rtol=EXACT_REL, atol=0)
+        n = r["n_sites"][reg]
+        cells = r[reg]["active"] + r[reg]["hypoactive"] + r[reg]["senescent"]
+        occupied = n - np.asarray(r[reg]["empty"], dtype=float)
+        assert np.allclose(cells[:t_tx] + r[reg]["empty"][:t_tx], n, rtol=EXACT_REL, atol=0)
+        assert np.all(occupied >= -1e-9) and np.all(occupied <= n * (1 + EXACT_REL))
+        assert np.all(cells >= occupied * (1 - EXACT_REL) - 1e-9)
+        assert np.all(cells <= cap * occupied * (1 + EXACT_REL) + 1e-9)
         assert np.all(np.diff(r[reg]["gone"]) >= -1e-9)
+    # The ring receives no transplant, so the identity holds there on every day.
+    ring_cells = r["ring"]["active"] + r["ring"]["hypoactive"] + r["ring"]["senescent"]
+    assert np.allclose(ring_cells + r["ring"]["empty"], r["n_sites"]["ring"], rtol=EXACT_REL, atol=0)
 
 
 def test_region_series_agree_with_the_snapshots():
