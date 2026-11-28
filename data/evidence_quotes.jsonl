@@ -2200,3 +2200,298 @@
 {"row": 4, "field": "time_from_start", "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software", "location": "Abstract, Methods", "study_id": "wang2021"}
 {"row": 4, "field": "time_from_last_treatment", "quote": "The patients were evaluated 1, 3, and 6 months post grafting for the percentage of repigmentation by blinded physicians' assessment and image analysis software", "location": "Abstract, Methods", "study_id": "wang2021"}
 {"row": 4, "field": "time_from_last_treatment", "quote": "treated with pixel array epidermal grafting with an automatic harvesting system and post-grafting phototherapy", "location": "Abstract, Methods", "study_id": "wang2021"}
+{"row": 0, "field": "arm_result", "quote": "95-100% (excellent) | 15 | 50.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "arm_result", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "arm_result", "quote": "doctor observation for re-pigmentation was graded as excellent with 95–100% pigmentation, good with 65–94%, fair with 25–64% and poor with 0–24% of the treated area.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "arm_result", "quote": "65-94% (good) | 9 | 30.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "arm_result", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "arm_result", "quote": "doctor observation for re-pigmentation was graded as excellent with 95–100% pigmentation, good with 65–94%, fair with 25–64% and poor with 0–24% of the treated area.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "arm_result", "quote": "25-64% (fair) | 4 | 13.3", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "arm_result", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "arm_result", "quote": "doctor observation for re-pigmentation was graded as excellent with 95–100% pigmentation, good with 65–94%, fair with 25–64% and poor with 0–24% of the treated area.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "arm_result", "quote": "0-24% (poor) | 2 | 6.7", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "arm_result", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "arm_result", "quote": "doctor observation for re-pigmentation was graded as excellent with 95–100% pigmentation, good with 65–94%, fair with 25–64% and poor with 0–24% of the treated area.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "arm_result", "quote": "Very happy | 16 | 53.3", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "patient_noticeability", "quote": "Very happy | 16 | 53.3", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "arm_result", "quote": "Happy | 8 | 26.7", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "patient_noticeability", "quote": "Happy | 8 | 26.7", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "arm_result", "quote": "Satisfactory | 3 | 10.0", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "patient_noticeability", "quote": "Satisfactory | 3 | 10.0", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "arm_result", "quote": "Unhappy | 3 | 10.0", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "patient_noticeability", "quote": "Unhappy | 3 | 10.0", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "arm_result", "quote": "Total | 30 | 100.0", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "patient_noticeability", "quote": "Total | 30 | 100.0", "location": "Table 2 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "arm_result", "quote": "A significantly positive correlation was seen between patients’ satisfaction and physician observation (Spearman's rho 0.866, P = 0.0001", "location": "Results", "study_id": "ashique2015"}
+{"row": 0, "field": "patients_enrolled", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "texture_or_scar", "quote": "Completely healed | 16 | 53.3", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "texture_or_scar", "quote": "Mild postinflammatory hyperpigmentation | 12 | 40.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "texture_or_scar", "quote": "Significant postinflammatory hyper pigmentation | 2 | 6.7", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "texture_or_scar", "quote": "Total | 30 | 100.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 0, "field": "texture_or_scar", "quote": "There were no keloids or hypertrophic scars in any of the patients", "location": "Results", "study_id": "ashique2015"}
+{"row": 0, "field": "attrition", "quote": "Twenty-six patients responded to the request. In those who did not respond (4 patients), the finding on their last visit as per the medical records and photographs available with us were taken into consideration.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "attrition", "quote": "Thirty patients (21 females and 9 males)", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "The maximum time on follow-up was 62 months and the least on follow-up was 2 months (mean 23.6, standard deviation 17.79).", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "The patients were not advised specifically to take phototherapy after the procedure.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "patients_enrolled", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "texture_or_scar", "quote": "Completely healed | 16 | 53.3", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "texture_or_scar", "quote": "Mild postinflammatory hyperpigmentation | 12 | 40.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "texture_or_scar", "quote": "Significant postinflammatory hyper pigmentation | 2 | 6.7", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "texture_or_scar", "quote": "Total | 30 | 100.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 1, "field": "texture_or_scar", "quote": "There were no keloids or hypertrophic scars in any of the patients", "location": "Results", "study_id": "ashique2015"}
+{"row": 1, "field": "attrition", "quote": "Twenty-six patients responded to the request. In those who did not respond (4 patients), the finding on their last visit as per the medical records and photographs available with us were taken into consideration.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "attrition", "quote": "Thirty patients (21 females and 9 males)", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "The maximum time on follow-up was 62 months and the least on follow-up was 2 months (mean 23.6, standard deviation 17.79).", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "The patients were not advised specifically to take phototherapy after the procedure.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "patients_enrolled", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "texture_or_scar", "quote": "Completely healed | 16 | 53.3", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "texture_or_scar", "quote": "Mild postinflammatory hyperpigmentation | 12 | 40.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "texture_or_scar", "quote": "Significant postinflammatory hyper pigmentation | 2 | 6.7", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "texture_or_scar", "quote": "Total | 30 | 100.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 2, "field": "texture_or_scar", "quote": "There were no keloids or hypertrophic scars in any of the patients", "location": "Results", "study_id": "ashique2015"}
+{"row": 2, "field": "attrition", "quote": "Twenty-six patients responded to the request. In those who did not respond (4 patients), the finding on their last visit as per the medical records and photographs available with us were taken into consideration.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "attrition", "quote": "Thirty patients (21 females and 9 males)", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "The maximum time on follow-up was 62 months and the least on follow-up was 2 months (mean 23.6, standard deviation 17.79).", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "The patients were not advised specifically to take phototherapy after the procedure.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "patients_enrolled", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "texture_or_scar", "quote": "Completely healed | 16 | 53.3", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "texture_or_scar", "quote": "Mild postinflammatory hyperpigmentation | 12 | 40.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "texture_or_scar", "quote": "Significant postinflammatory hyper pigmentation | 2 | 6.7", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "texture_or_scar", "quote": "Total | 30 | 100.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 3, "field": "texture_or_scar", "quote": "There were no keloids or hypertrophic scars in any of the patients", "location": "Results", "study_id": "ashique2015"}
+{"row": 3, "field": "attrition", "quote": "Twenty-six patients responded to the request. In those who did not respond (4 patients), the finding on their last visit as per the medical records and photographs available with us were taken into consideration.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "attrition", "quote": "Thirty patients (21 females and 9 males)", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "The maximum time on follow-up was 62 months and the least on follow-up was 2 months (mean 23.6, standard deviation 17.79).", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "The patients were not advised specifically to take phototherapy after the procedure.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "patients_enrolled", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "texture_or_scar", "quote": "Completely healed | 16 | 53.3", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "texture_or_scar", "quote": "Mild postinflammatory hyperpigmentation | 12 | 40.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "texture_or_scar", "quote": "Significant postinflammatory hyper pigmentation | 2 | 6.7", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "texture_or_scar", "quote": "Total | 30 | 100.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 4, "field": "texture_or_scar", "quote": "There were no keloids or hypertrophic scars in any of the patients", "location": "Results", "study_id": "ashique2015"}
+{"row": 4, "field": "attrition", "quote": "Twenty-six patients responded to the request. In those who did not respond (4 patients), the finding on their last visit as per the medical records and photographs available with us were taken into consideration.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "attrition", "quote": "Thirty patients (21 females and 9 males)", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "The maximum time on follow-up was 62 months and the least on follow-up was 2 months (mean 23.6, standard deviation 17.79).", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "The patients were not advised specifically to take phototherapy after the procedure.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "patients_enrolled", "quote": "Total | 30 | 100.0", "location": "Table 1 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 5, "field": "texture_or_scar", "quote": "Completely healed | 16 | 53.3", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 5, "field": "texture_or_scar", "quote": "Mild postinflammatory hyperpigmentation | 12 | 40.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 5, "field": "texture_or_scar", "quote": "Significant postinflammatory hyper pigmentation | 2 | 6.7", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 5, "field": "texture_or_scar", "quote": "Total | 30 | 100.0", "location": "Table 3 (image; transcription in excerpt)", "study_id": "ashique2015"}
+{"row": 5, "field": "texture_or_scar", "quote": "There were no keloids or hypertrophic scars in any of the patients", "location": "Results", "study_id": "ashique2015"}
+{"row": 5, "field": "attrition", "quote": "Twenty-six patients responded to the request. In those who did not respond (4 patients), the finding on their last visit as per the medical records and photographs available with us were taken into consideration.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "attrition", "quote": "Thirty patients (21 females and 9 males)", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "time_from_last_treatment", "quote": "The maximum time on follow-up was 62 months and the least on follow-up was 2 months (mean 23.6, standard deviation 17.79).", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "time_from_last_treatment", "quote": "The patients were not advised specifically to take phototherapy after the procedure.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "attrition", "quote": "In the month of December 2013 (the observation time of the study), all the patients were contacted by telephone, letter or E-mail and asked to review in the dermatology outpatient department.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "diagnosis", "quote": "Thirty patients (21 females and 9 males) with stable or segmental vitiligo were inducted into the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "design", "quote": "All the patients who underwent SBEG in our department during the period from January 2008 to December 2013 were included in the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "body_site", "quote": "The donor area was the outer aspect of the thigh in 22 patients and inner aspect of the arm in 8 patients.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "uncertainty", "quote": "The results of the procedures were graded as poor (0–24%), fair (24–64%), good (64–94) and excellent (95–100%) depending on the patient satisfaction.", "location": "Abstract, Methods", "study_id": "ashique2015"}
+{"row": 0, "field": "uncertainty", "quote": "A significant positive correlation was seen between site and donor area changes (Spearman's rho 0.482, P = −0.007", "location": "Results", "study_id": "ashique2015"}
+{"row": 1, "field": "attrition", "quote": "In the month of December 2013 (the observation time of the study), all the patients were contacted by telephone, letter or E-mail and asked to review in the dermatology outpatient department.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "diagnosis", "quote": "Thirty patients (21 females and 9 males) with stable or segmental vitiligo were inducted into the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "design", "quote": "All the patients who underwent SBEG in our department during the period from January 2008 to December 2013 were included in the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "body_site", "quote": "The donor area was the outer aspect of the thigh in 22 patients and inner aspect of the arm in 8 patients.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "uncertainty", "quote": "The results of the procedures were graded as poor (0–24%), fair (24–64%), good (64–94) and excellent (95–100%) depending on the patient satisfaction.", "location": "Abstract, Methods", "study_id": "ashique2015"}
+{"row": 1, "field": "uncertainty", "quote": "A significant positive correlation was seen between site and donor area changes (Spearman's rho 0.482, P = −0.007", "location": "Results", "study_id": "ashique2015"}
+{"row": 2, "field": "attrition", "quote": "In the month of December 2013 (the observation time of the study), all the patients were contacted by telephone, letter or E-mail and asked to review in the dermatology outpatient department.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "diagnosis", "quote": "Thirty patients (21 females and 9 males) with stable or segmental vitiligo were inducted into the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "design", "quote": "All the patients who underwent SBEG in our department during the period from January 2008 to December 2013 were included in the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "body_site", "quote": "The donor area was the outer aspect of the thigh in 22 patients and inner aspect of the arm in 8 patients.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "uncertainty", "quote": "The results of the procedures were graded as poor (0–24%), fair (24–64%), good (64–94) and excellent (95–100%) depending on the patient satisfaction.", "location": "Abstract, Methods", "study_id": "ashique2015"}
+{"row": 2, "field": "uncertainty", "quote": "A significant positive correlation was seen between site and donor area changes (Spearman's rho 0.482, P = −0.007", "location": "Results", "study_id": "ashique2015"}
+{"row": 3, "field": "attrition", "quote": "In the month of December 2013 (the observation time of the study), all the patients were contacted by telephone, letter or E-mail and asked to review in the dermatology outpatient department.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "diagnosis", "quote": "Thirty patients (21 females and 9 males) with stable or segmental vitiligo were inducted into the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "design", "quote": "All the patients who underwent SBEG in our department during the period from January 2008 to December 2013 were included in the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "body_site", "quote": "The donor area was the outer aspect of the thigh in 22 patients and inner aspect of the arm in 8 patients.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "uncertainty", "quote": "The results of the procedures were graded as poor (0–24%), fair (24–64%), good (64–94) and excellent (95–100%) depending on the patient satisfaction.", "location": "Abstract, Methods", "study_id": "ashique2015"}
+{"row": 3, "field": "uncertainty", "quote": "A significant positive correlation was seen between site and donor area changes (Spearman's rho 0.482, P = −0.007", "location": "Results", "study_id": "ashique2015"}
+{"row": 4, "field": "attrition", "quote": "In the month of December 2013 (the observation time of the study), all the patients were contacted by telephone, letter or E-mail and asked to review in the dermatology outpatient department.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "diagnosis", "quote": "Thirty patients (21 females and 9 males) with stable or segmental vitiligo were inducted into the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "design", "quote": "All the patients who underwent SBEG in our department during the period from January 2008 to December 2013 were included in the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "body_site", "quote": "The donor area was the outer aspect of the thigh in 22 patients and inner aspect of the arm in 8 patients.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "uncertainty", "quote": "The results of the procedures were graded as poor (0–24%), fair (24–64%), good (64–94) and excellent (95–100%) depending on the patient satisfaction.", "location": "Abstract, Methods", "study_id": "ashique2015"}
+{"row": 4, "field": "uncertainty", "quote": "A significant positive correlation was seen between site and donor area changes (Spearman's rho 0.482, P = −0.007", "location": "Results", "study_id": "ashique2015"}
+{"row": 5, "field": "attrition", "quote": "In the month of December 2013 (the observation time of the study), all the patients were contacted by telephone, letter or E-mail and asked to review in the dermatology outpatient department.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "diagnosis", "quote": "Thirty patients (21 females and 9 males) with stable or segmental vitiligo were inducted into the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "design", "quote": "All the patients who underwent SBEG in our department during the period from January 2008 to December 2013 were included in the study.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "body_site", "quote": "The donor area was the outer aspect of the thigh in 22 patients and inner aspect of the arm in 8 patients.", "location": "Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "uncertainty", "quote": "The results of the procedures were graded as poor (0–24%), fair (24–64%), good (64–94) and excellent (95–100%) depending on the patient satisfaction.", "location": "Abstract, Methods", "study_id": "ashique2015"}
+{"row": 5, "field": "uncertainty", "quote": "A significant positive correlation was seen between site and donor area changes (Spearman's rho 0.482, P = −0.007", "location": "Results", "study_id": "ashique2015"}
+{"row": 5, "field": "arm_result", "quote": "The face and lips showed an excellent result, color match and persistent pigment retention [Figures 2 and 3]. The larger areas, especially the lesions on the limbs showed comparatively less response.", "location": "Results", "study_id": "ashique2015"}
+{"row": 5, "field": "complete_match", "quote": "The face and lips showed an excellent result, color match and persistent pigment retention [Figures 2 and 3]. The larger areas, especially the lesions on the limbs showed comparatively less response.", "location": "Results", "study_id": "ashique2015"}
+{"row": 5, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 0, "field": "uncertainty", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 0, "field": "complete_match", "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery", "location": "Figure 2 caption", "study_id": "ashique2015"}
+{"row": 0, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 0, "field": "complete_match", "quote": "Color and texture match with the surrounding skin is generally good.[6]", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 1, "field": "uncertainty", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 1, "field": "complete_match", "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery", "location": "Figure 2 caption", "study_id": "ashique2015"}
+{"row": 1, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 1, "field": "complete_match", "quote": "Color and texture match with the surrounding skin is generally good.[6]", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 2, "field": "uncertainty", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 2, "field": "complete_match", "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery", "location": "Figure 2 caption", "study_id": "ashique2015"}
+{"row": 2, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 2, "field": "complete_match", "quote": "Color and texture match with the surrounding skin is generally good.[6]", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 3, "field": "uncertainty", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 3, "field": "complete_match", "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery", "location": "Figure 2 caption", "study_id": "ashique2015"}
+{"row": 3, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 3, "field": "complete_match", "quote": "Color and texture match with the surrounding skin is generally good.[6]", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 4, "field": "uncertainty", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 4, "field": "complete_match", "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery", "location": "Figure 2 caption", "study_id": "ashique2015"}
+{"row": 4, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 4, "field": "complete_match", "quote": "Color and texture match with the surrounding skin is generally good.[6]", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 5, "field": "uncertainty", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 5, "field": "complete_match", "quote": "Vitiligo of the lower lip (a) before surgery (b) fully repigmented and normalized after surgery", "location": "Figure 2 caption", "study_id": "ashique2015"}
+{"row": 5, "field": "complete_match", "quote": "Segmental vitiligo of the face. A near total re-pigmentation with excellent color match", "location": "Figure 3 caption", "study_id": "ashique2015"}
+{"row": 5, "field": "complete_match", "quote": "Color and texture match with the surrounding skin is generally good.[6]", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 5, "field": "time_from_last_treatment", "quote": "Many of our patients showed very good results post-SBEG even without postgraft phototherapy.", "location": "Discussion", "study_id": "ashique2015"}
+{"row": 0, "field": "arm_result", "quote": "≥ 50% repigmentation | 27 (90%) | 27 (90%) | 1.000 a", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 0, "field": "arm_result", "quote": "< 50% repigmentation | 3 (10%) | 3 (10%) | 1.000 b", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 0, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 0, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "The phototherapy regimen lasted for 8 weeks.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 0, "field": "time_from_last_treatment", "quote": "excimer light was used on day 2 after dressing removal", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 0, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 0, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 0, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 0, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 0, "field": "texture_or_scar", "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 1, "field": "arm_result", "quote": "≥ 50% repigmentation | 27 (90%) | 27 (90%) | 1.000 a", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 1, "field": "arm_result", "quote": "< 50% repigmentation | 3 (10%) | 3 (10%) | 1.000 b", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 1, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 1, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 1, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 1, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 1, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 1, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 1, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 2, "field": "arm_result", "quote": "≥ 75% repigmentation | 23 (73.3%) | 23 (70%) | 1.000 a", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 2, "field": "arm_result", "quote": "the percentage of patients achieving ≥ 75% repigmentation in group 1 (73%) was comparable to group 2 (70%)", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 2, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 2, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "The phototherapy regimen lasted for 8 weeks.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 2, "field": "time_from_last_treatment", "quote": "excimer light was used on day 2 after dressing removal", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 2, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 2, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 2, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 2, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 2, "field": "texture_or_scar", "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 3, "field": "arm_result", "quote": "≥ 75% repigmentation | 23 (73.3%) | 23 (70%) | 1.000 a", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 3, "field": "arm_result", "quote": "the percentage of patients achieving ≥ 75% repigmentation in group 1 (73%) was comparable to group 2 (70%)", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 3, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 3, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 3, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 3, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 3, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 3, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 3, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 4, "field": "arm_result", "quote": "≥ 90% repigmentation | 19 (63.3%) | 15 (50%) | 0.435 a", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 4, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 4, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "The phototherapy regimen lasted for 8 weeks.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 4, "field": "time_from_last_treatment", "quote": "excimer light was used on day 2 after dressing removal", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 4, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 4, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 4, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 4, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 4, "field": "texture_or_scar", "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 5, "field": "arm_result", "quote": "≥ 90% repigmentation | 19 (63.3%) | 15 (50%) | 0.435 a", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 5, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 5, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 5, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 5, "field": "time_from_last_treatment", "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 5, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 5, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 5, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 5, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 5, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 6, "field": "arm_result", "quote": "100% repigmentation | 10 (33.3%) | 2 (6.7%) | 0.021 b", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 6, "field": "arm_result", "quote": "Notably, 10 out of 30 patients in group 1 achieved 100% repigmentation", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 6, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 6, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 6, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 6, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 6, "field": "time_from_last_treatment", "quote": "The phototherapy regimen lasted for 8 weeks.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 6, "field": "time_from_last_treatment", "quote": "excimer light was used on day 2 after dressing removal", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 6, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 6, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 6, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 6, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 6, "field": "texture_or_scar", "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 7, "field": "arm_result", "quote": "100% repigmentation | 10 (33.3%) | 2 (6.7%) | 0.021 b", "location": "Table 2 (Repigmentation at 18 months)", "study_id": "hoangvan2025"}
+{"row": 7, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 7, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 7, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 7, "field": "time_from_last_treatment", "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 7, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 7, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 7, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 7, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 7, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 8, "field": "arm_result", "quote": "Group 1 | 2.35 ± 0.575 | 2 | 0.003 a", "location": "Table 3 and Results", "study_id": "hoangvan2025"}
+{"row": 8, "field": "arm_result", "quote": "A total of 66.7% of patients in group 1 experienced repigmentation within 2 weeks, compared to only 36.7% in group 2.", "location": "Table 3 and Results", "study_id": "hoangvan2025"}
+{"row": 8, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 8, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 8, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 8, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 8, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 8, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 8, "field": "texture_or_scar", "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 9, "field": "arm_result", "quote": "Group 2 | 2.72 ± 0.665 | 3", "location": "Table 3 and Results", "study_id": "hoangvan2025"}
+{"row": 9, "field": "arm_result", "quote": "A total of 66.7% of patients in group 1 experienced repigmentation within 2 weeks, compared to only 36.7% in group 2.", "location": "Table 3 and Results", "study_id": "hoangvan2025"}
+{"row": 9, "field": "arm_result", "quote": "Group 1 | 2.35 ± 0.575 | 2 | 0.003 a", "location": "Table 3 and Results", "study_id": "hoangvan2025"}
+{"row": 9, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 9, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 9, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 9, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 9, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 9, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "Good match | 23 (76.7%) | 22 (73.3%) | 1.000 a", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "Hypopigmentation | 1 (3.3%) | 1 (3.3%) | 1.000 b", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "Halo phenomenon | 6 (20%) | 15 (50%) | 0.029 a", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "At 18 months, recurrence at the graft sites was observed in two patients in group 1", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 10, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 10, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 10, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 10, "field": "time_from_last_treatment", "quote": "The phototherapy regimen lasted for 8 weeks.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 10, "field": "time_from_last_treatment", "quote": "excimer light was used on day 2 after dressing removal", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 10, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 10, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
+{"row": 10, "field": "texture_or_scar", "quote": "However, in group 1, 7 patients (23.3%) reported mild erythema, which spontaneously resolved within a few days without any further complications.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "Good match | 23 (76.7%) | 22 (73.3%) | 1.000 a", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "Hypopigmentation | 1 (3.3%) | 1 (3.3%) | 1.000 b", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "Halo phenomenon | 6 (20%) | 15 (50%) | 0.029 a", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "In group 2, one patient with segmental vitiligo experienced small lesion recurrence.", "location": "Table 4 (Color match), Results and Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "patients_enrolled", "quote": "Sixty patients were randomly assigned to groups 1 (30 patients) and 2 (30 patients).", "location": "Abstract, Results", "study_id": "hoangvan2025"}
+{"row": 11, "field": "texture_or_scar", "quote": "None of the 60 patients in this study experienced side effects such as scarring or infection.", "location": "Results", "study_id": "hoangvan2025"}
+{"row": 11, "field": "time_from_last_treatment", "quote": "resulting in a total follow‐up period of 18 months post‐NCECS procedure", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 11, "field": "time_from_last_treatment", "quote": "Patients in group 2 received no additional specific treatment beyond regular follow‐ups.", "location": "Methods, Study Procedure, Step 5", "study_id": "hoangvan2025"}
+{"row": 11, "field": "time_from_last_treatment", "quote": "The dressings were removed from the donor and recipient sites after 1 week.", "location": "Methods, Study Procedure, Step 4", "study_id": "hoangvan2025"}
+{"row": 11, "field": "dark_overshoot", "quote": "Hyperpigmentation | 6 (20%) | 7 (23.4%) | 1.000 a", "location": "Table 4", "study_id": "hoangvan2025"}
+{"row": 11, "field": "dark_overshoot", "quote": "at 18 months, the color match was 76.7% and 73.3% in groups 1 and 2, respectively", "location": "Discussion", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "Both patients in groups 1 and 2 were treated with the same intervention of NCECS.", "location": "Methods, Study Design", "study_id": "hoangvan2025"}
+{"row": 11, "field": "arm_result", "quote": "Repigmentation | Group 1 (n = 30) | Group 2 (n = 30) | p", "location": "Table 2 header", "study_id": "hoangvan2025"}
