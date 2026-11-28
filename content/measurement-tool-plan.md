@@ -162,7 +162,7 @@ One unit per task, tests before code, each with an input, an output path and a d
 ### What Ben needs to do by hand
 
 1. **Decide** the open questions in section 8 (especially 1 to 3), ideally before T4.
-2. **Buy** a colour reference card with a scale (open question 3), and if going cross-polarised, a clip-on macro lens plus two linear polariser sheets. Budget is his call; no product is recommended here until T3 finds and links options.
+2. **Buy** a colour reference card with a scale (open question 3), and if going cross-polarised, a clip-on macro lens plus two linear polariser sheets. Budget is his call. Appendix A recommends a specific kit with sourced prices.
 3. **Print** the T7 phantoms on the printer he will keep using (colour management off or fixed), and keep the prints flat and out of sunlight.
 4. **Photograph** the phantoms on the rung 2 schedule (10 sessions over 2 weeks, 3 captures each, plus a second device and light), and run the T8 pipeline locally, committing only the derived CSV.
 5. **Later and optionally**, decide whether to photograph an untreated spot on his own skin for real-skin repeatability, kept off the repository.
@@ -182,8 +182,82 @@ Nothing below is claimed to exist. T3 searches each item, logs the query and lin
 ## 8. Open questions for Ben
 
 1. Accept the proposed measurand (signed ΔL* in a fixed inner disc minus ring, with Δb*, ΔE and area beside it), and the working target SDC ≤ 1.0 L* unit at 2 mm?
-2. Which device will be used for every capture: a specific phone with DNG export, or a dedicated camera?
-3. Which colour card, and is cross-polarisation in the budget?
+2. Which device will be used for every capture: a specific phone with DNG export, or a dedicated camera? (Appendix A recommends a kit.)
+3. Which colour card, and is cross-polarisation in the budget? (Appendix A recommends one.)
 4. Can a reference instrument (a colorimeter or spectrophotometer) be borrowed for one phantom session, to anchor the phantom tones?
 5. Is the long-term aim a tool only for Ben's own records, or one others could use? That changes how much effort goes into the pipeline's interface and into consent and ethics questions.
 6. Should the T7 phantom also cover brown spots (Module 2's target), or stay white-spot only until Module 1 closes?
+
+## Appendix A. Recommended capture kit (answers open questions 2 and 3, for Ben to accept or change)
+
+Added 28 November 2026. Prices come from web searches run that day (US retailers, new unless marked). Listings disagreed and some sale prices had expired, so every price is "check before buying". Nothing has been bought or signed up for. Statements marked **[judgment]** are this thread's engineering reasoning, not a sourced fact.
+
+### A.1 What the kit has to do
+
+From sections 2 and 3: raw capture with exposure, ISO and white balance locked (C5); glare removed by cross-polarisation (C4); light from the device only, so room light does not matter (C3); a fixed, repeatable scale (C1, at least 20 px/mm); a colour and scale card in the same frame (C2); and an SDC of about 1.0 L* on a 2 mm spot (2.3).
+
+**[judgment]** Pixel count is not the limit. Averaged over thousands of pixels in the inner disc, sensor noise falls far below 1 L*. The simulations already show the limits are placement (section 4) and lighting or glare. So money should go to controlled light, polarisation and fixed optics, not megapixels.
+
+### A.2 Recommended kit (about $1,860 at list price)
+
+| Item | Model | Price found | Why, tied to the plan |
+|---|---|---|---|
+| Body | OM System (Olympus) OM-D E-M10 Mark IV, 20 MP Micro Four Thirds | $799.99 new (Newegg, Kenmore Camera); launch price $699 (Wikipedia); refurbished $391.99 (OM System outlet on eBay) | Raw files, full manual exposure and white balance (C5). A small sensor gives more depth of field at close range, which matters on a curved forearm. |
+| Lens | M.Zuiko Digital ED 60mm f/2.8 Macro | $649.99 list; $599.99 at Unique Photo; used about $366 (price tracker, July 2026) | True macro, up to 1:1, closest focus 0.19 m, 46 mm filter thread (OM System spec page). A prime lens has no zoom, so nothing can drift the scale between sessions (C1). |
+| Light | Godox MF-R76 macro ring flash, manual version | $179 (B&H, PROCAM, several others) | A flash is far brighter than room light for a fraction of a second, so room lights stop mattering (C3). Light comes from round the lens, so shadows stay even on curved skin. |
+| Polariser on the lens | Hoya 46 mm NXT circular polariser | $40.90 (B&H) | One half of the cross-polarised pair (C4). |
+| Polariser on the light | Linear polarising film sheet, cut to fit the flash window | price not confirmed (search found none) | The other half. Turned 90° to the lens polariser, it removes the shine off skin, which would otherwise read as extra white (C4). |
+| Colour and scale card | Calibrite ColorChecker Classic Nano, 24 × 40 mm, 24 patches | $141.75 sale, $189 list (Calibrite US); $189 (Precision Camera, Dodd Camera) | Small enough to sit in the frame beside the spot at close range, which is what C2 requires. The same patch set as the standard ColorChecker, so colour-correction software already knows it. |
+| Small items | SD card, spare battery, a little tape | not priced | |
+
+Total at the list prices above: $799.99 + $649.99 + $179 + $40.90 + $189 = about $1,859, inside Ben's $2,000. The film and small items add perhaps a few tens of dollars **[judgment, not priced]**.
+
+**How to get a fixed scale without a stand [judgment].** With a macro lens, the focus ring position sets the magnification. Set focus by hand once at about 1:3, tape the ring, then move the camera in or out until the image is sharp. Every photo then has the same scale, within the depth of field. At 1:3 on this sensor (17.3 × 13.0 mm, 5184 × 3888 px):
+
+- the frame is about 52 × 39 mm, which fits an 8 mm spot, its ring (1.0 mm gap plus 1.5 mm width, section 2.1) and the 24 × 40 mm card side by side;
+- the scale is about 100 px/mm, five times the plan's 20 px/mm minimum. A 2 mm spot is about 200 px across, and its inner disc (r_S = 0.6 r) holds about 11,000 pixels;
+- at f/8 the lens's diffraction blur is about 0.03 mm on the skin, below the 0.1 mm blur the simulations assume.
+
+(Arithmetic only, from the sensor size and pixel count; not measured.) The card's printed patch size checks the scale in every frame. A simple rigid spacer or a small copy stand can be added later if the phantom tests (rung 2) show handheld distance varies too much.
+
+**Assembly risks to check before relying on it [judgment].** The ring flash mounts on the lens's filter thread through an adapter ring, and the circular polariser screws on the same thread. Whether both fit together on the 46 mm thread, and whether the polariser can be set crossed and then left fixed, was not confirmed from any listing. Check at purchase. A circular polariser works for this only with its linear side facing the skin, which is how it is normally mounted.
+
+### A.3 Cheaper alternative (about $1,170)
+
+The same kit with a refurbished body ($391.99) and a used lens (about $366), keeping the new flash, polariser and card. The capture is identical; the risk is in condition and warranty. **[judgment]** Spend the savings on a second card, because the card is the item that fades and gets dirty.
+
+### A.4 Would a phone with raw capture be good enough?
+
+Short answer **[judgment]**: possibly for Ben's own repeatability trial, but not as the instrument a grant reviewer would accept, and nobody can say how much accuracy it costs until the phantoms (rung 2) are photographed on both.
+
+What a phone gives: raw capture (Apple ProRAW, Google DNG) and more than enough pixels in a macro mode. Apps can lock exposure and white balance.
+
+What it costs, from sources:
+- Apple ProRAW stores the phone's local tone mapping inside the DNG. Apple's own developer session (WWDC21) says that for linear output the tone-map amount and related settings must be set to zero when reading the file. A Lightroom developer note found in the same search says turning the tone map off does not fix colour. So "raw" on a phone is not the same as raw on a camera.
+- A preprint (arXiv 2512.21988, not peer reviewed, facial skin) found phones read darker than a DSLR (mean L* 60.6 against 64.9) and no phone-versus-DSLR pair came within ΔE 2. The DSLR was not checked against a spectrophotometer, and the summary does not say whether the files were raw. Dental studies point the same way. Treat this as a lead.
+
+What it costs, by reasoning **[judgment]**:
+- Phones switch lenses by themselves at close range, and software updates change the processing during a study that has to last at least six months. A camera's raw processing does not change.
+- The phone torch sits next to the lens and is not polarised, so glare (C4) needs a clip-on polariser or a polarised dermatoscope.
+- A fixed distance needs a clip-on spacer.
+
+If Ben wants to try the phone route first, the cheapest polarised, fixed-distance add-on found is the **DermLite HÜD 2** home dermatoscope, $195 from DermLite (polarised, with a phone clip). No field-of-view figure was found, and at 10× it is unlikely to fit the 24 × 40 mm card in the same frame **[judgment]**, which breaks C2. That is the main reason it is not the recommendation.
+
+### A.5 Manufacturer claims, independent evidence, and what is still missing
+
+- Every specification above (sensor, focus distance, filter thread, card size) is a manufacturer or retailer figure. None has been checked independently.
+- Independent evidence on this exact kit: none found. The closest is an older dermatology study, seen only as a search summary and not read in full, reporting that camera images under an LED illuminator repeated well (mean ΔE*ab 0.3) but were only fairly accurate against a spectrophotometer (mean ΔE*ab 6.2). If that holds, repeatability is achievable but absolute colour needs card calibration and a reference instrument (open question 4). A search for a dermatology study measuring test-retest repeatability of cross-polarised colour photography found none; most such work is dental.
+- **[judgment]** The defensible claim for a grant is therefore not "this camera is validated" but "this kit is a standard macro-photography setup, and the SDC was measured on phantoms (rung 2) and on unchanged skin before any treated spot was photographed".
+- These were web searches for products and evidence, not logged literature searches, so they are not in `data/search_log.csv`. Task T3 (section 6) should log a proper search of colorimetry repeatability and perceptibility thresholds.
+
+### A.6 Sources (searched 28 November 2026)
+
+- E-M10 Mark IV: [Newegg](https://www.newegg.com/p/1A9-0003-00115), [Kenmore Camera](https://kenmorecamera.com/olympus-om-d-e-m10-mark-iv-body-silver/), [Wikipedia](https://en.wikipedia.org/wiki/Olympus_OM-D_E-M10_Mark_IV), [eBay refurbished](https://www.ebay.com/p/14041513158)
+- 60 mm macro price: [Unique Photo](https://www.uniquephoto.com/product/om-system-m-zuiko-digital-ed-60mm-f-2-8-macro-lens-micro-four-thirds), [OM System store](https://explore.omsystem.com/us/en/m-zuiko-ed-60mm-f2-8-macro-black), [B&H](https://www.bhphotovideo.com/c/product/1874850-REG/om_system_v335200bw000_m_zuiko_digital_ed_60mm.html), used price [camelcamelcamel](https://camelcamelcamel.com/product/B0096WDK0K); specifications [OM System](https://asia.omsystem.com/product/dslr/mlens/60_28macro/spec.html), [OpticalLimits](https://opticallimits.com/micro-four-thirds/olympus-m-zuiko-digital-60mm-f-2-8-ed-macro-review/)
+- Godox MF-R76: [B&H](https://www.bhphotovideo.com/c/product/1675591-REG/godox_mf_r76_macro_ring_flash.html/qa), [PROCAM](https://procam.com/products/godox-mf-r76-macro-ring-flash)
+- Hoya 46 mm polariser: [B&H](https://www.bhphotovideo.com/c/product/900301-REG/Hoya_anxt46crpl_46mm_NXT_Circular_Pol.html/c/product)
+- ColorChecker Classic Nano: [Calibrite US](https://calibrite.com/us/product/colorchecker-classic-nano/), [Amazon listing with size](https://www.amazon.com/Calibrite-ColorChecker-Classic-Nano-CCC-Nano/dp/B0973J94QK), [Precision Camera](https://www.precision-camera.com/calibrite-colorchecker-classic-nano/)
+- DermLite HÜD 2: [DermLite](https://dermlite.com/products/dermlite-hud-2-home-dermatoscope)
+- ProRAW: [Apple WWDC21](https://developer.apple.com/videos/play/wwdc2021/10160/), [DPReview on Halide's breakdown](https://www.dpreview.com/news/4094896855/halide-developers-break-down-the-technology-powering-apple-s-new-proraw-image-format)
+- Phone versus DSLR on skin: [arXiv 2512.21988](https://arxiv.org/html/2512.21988)
+- LED illuminator study (summary only): [ResearchGate](https://www.researchgate.net/publication/7351158_Digital_camera_images_obtained_using_a_light-emitting_diode_illuminator_and_their_dermatological_applications)
