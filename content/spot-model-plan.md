@@ -27,6 +27,49 @@ Ben asked to "delve deeper into exact simulations for therapies" (28 November 20
 
 ## 2. Entities and rules
 
+### 2.1 The space
+
+A square patch of skin seen from above, about 8 mm across, with one spot of 2 to 5 mm at its centre ("small 2- to 5-mm achromic or hypopigmented macules", PMID 3805391). Two stacked layers on the same grid:
+
+- **Basal layer of the epidermis**, where melanocytes sit and hand pigment to the skin cells above them.
+- **Superficial dermis** directly beneath, where fibroblasts sit.
+
+Grid spacing, the number of keratinocytes each melanocyte supplies, and the layer thicknesses are `ASSUMPTION` (no saved source gives a number; see section 3). Time steps are days, run to at least 2 years so the six-month test can be read off after any simulated final treatment.
+
+### 2.2 Entities and their states
+
+| Entity | States | Where the states come from |
+|---|---|---|
+| Melanocyte (M) | active, hypoactive (alive, little or no pigment made), senescent, gone | "Depigmentation in IGH seems to occur in two stages, loss of melanogenic activity in certain malanocytes and elimination of inactive melanocytes" (PMID 7377803; spelling as printed). Senescent state: "expression of p16, p21, and hp1 was significantly higher in lesional skin of IGH patient as compared to healthy controls" (PMID 29516488) |
+| Keratinocyte column (K) | holds a melanin amount, renewed over time | The pigment seen at the surface is carried by keratinocytes. The renewal time is `ASSUMPTION` (no saved number) |
+| Fibroblast (F) | normal, senescent | Title only: "Role of senescent fibroblasts in the development of idiopathic guttate hypomelanosis" (PMID 31823346). The saved copy has no abstract |
+| Dermal signal field (D) | a concentration on the grid, made by senescent fibroblasts, spread by diffusion, removed by decay | `ASSUMPTION`. The nearest saved evidence is in vitiligo, not IGH: "higher expression of DKK1 in the dermis induced senescence in melanocytes that may lead to hypopigmentation" (PMID 29442138) |
+| Melanocyte reservoir (R) | a source of new melanocytes at fixed points (hair follicles), on or off | Mouse only: micro-injury "induces the hair follicle melanocyte stem cells to migrate upwards to the interfollicular epidermis, activating and giving rise to melanocytes to repopulate the vitiligo lesion" (PMID 35044224). For IGH: `ASSUMPTION` |
+
+### 2.3 Rules
+
+Each rule is applied every time step. "Sourced" means a saved sentence supports the rule's *direction*; in every case the *rate* is an assumption (section 3).
+
+| # | Rule | Status and source |
+|---|---|---|
+| R1 | An active melanocyte becomes hypoactive at an intrinsic rate `k_int`, which rises with cell age | Direction sourced: "The basic defect in IGH melanocytes may reflect the aging process" (PMID 7377803); "The evidence indicates an age-related somatic mutation of melanocytes" (PMID 6183861). Rate: `ASSUMPTION` |
+| R2 | A hypoactive melanocyte becomes senescent or is eliminated | Sourced: the two-stage quote under 2.2 (PMID 7377803) |
+| R3 | A melanocyte that fails to hand over pigment accumulates it, and accumulation raises its chance of senescence | Sourced as a hypothesis by the authors: "Accumulation of melanin can lead to the senescence in the melanocytes of IGH patients" (PMID 29516488). Transfer defect seen directly: "In some areas, there was a reduced uptake of melanosomes by the keratinocytes" (PMID 25088925). In UV-aged cells, not IGH: "senescent melanocytes are characterized by melanosome transport dysfunction resulting in melanin accumulation" (PMID 37554281, full text saved as `pmc_37554281.txt`) |
+| R4 | The dermal signal D raises a melanocyte's rate of senescence and death, scaled by a coupling `k_derm` | Direction: vitiligo, DKK1 "induced senescence in the treated melanocytes" (PMID 29442138). IGH: title only (PMID 31823346), and "Our results suggest an interaction between melanocytes and the subjacent dermis in IGH" (PMID 35114009). Strength: `ASSUMPTION` |
+| R5 | A senescent fibroblast produces D at rate `p_D`; D diffuses with length scale `λ_D` and decays | `ASSUMPTION` entirely. Only the existence of dermal change is sourced: "We found superficial dermal fibrosis in 90% (18/20) of our IGH cases" (PMID 35114009). One study disagrees: "In the dermis, fibroblasts were structurally normal" (PMID 25088925) |
+| R6 | A senescent melanocyte slows its neighbours | Sourced outside IGH, in aged human skin: "senescent melanocyte SASP induces telomere dysfunction in paracrine manner and limits proliferation of surrounding cells" (PMID 31633821). Range and strength: `ASSUMPTION`. Optional switch, off in the base runs |
+| R7 | A gap left by a lost melanocyte can be filled by a neighbour dividing, or from the reservoir if it is on | `ASSUMPTION`. Melanocyte division rate in adult skin: no saved number |
+| R8 | Each keratinocyte column takes pigment from its supplying melanocyte at rate `k_tr` and loses pigment as the column renews | `ASSUMPTION` for both rates. Transfer defect direction: R3 sources |
+| R9 | Transplant event: at a chosen day, add a number of healthy melanocytes per mm² to the spot, with age zero and a stated survival fraction | Visible repigmentation timing sourced: "Repigmentation was visible within 7 to 14 days" (PMID 3908515). Survival fraction and how many cells a graft delivers: `ASSUMPTION` |
+| R10 | The model never sets the melanocyte count to exactly zero by rule; zero can only arise from the dynamics | Sourced, with a conflict to keep visible: "In no case were melanocytes completely absent, excluding vitiligo" (PMID 6183861) versus "Histochemical studies confirmed the absence of dopa-positive cells in the areas of leukoderma prior to grafting" (PMID 3908515, a mixed leukoderma series) |
+
+### 2.4 What is deliberately left out
+
+- **Genes, mutations and gene therapy or editing.** The model has no genome. "age-related somatic mutation" (PMID 6183861) enters only as a rate in R1. Simulating a gene therapy would need a target gene established in IGH, and the saved sources name none beyond an early drop in one autophagy protein ("ATG7 downregulation emerged as the earliest molecular alteration", PMID 41453137), which the model can carry as a marker (section 5) but not as an intervention.
+- **The immune system.** No immune attack is established in IGH (`content/frontier-scan.md`). One saved series reports "One-third of patients had a sparse perivascular lymphocytic infiltrate, whereas the rest had no significant dermal inflammation" (PMID 25484386). Left out of the base model; an open question if Ben wants it.
+- **Drugs, lasers, peels, 5-FU.** Only transplantation in the first build. A wounding stimulus that switches the reservoir on is an optional extension (open question 3).
+- **Whole-body (systemic) factors.** See section 4.3: one saved result points that way, and the first build cannot represent it.
+
 ## 3. Parameters: what has a published value and what does not
 
 ## 4. The two competing explanations and the predictions that separate them
