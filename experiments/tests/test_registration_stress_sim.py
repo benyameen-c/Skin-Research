@@ -419,21 +419,39 @@ def test_measure_keys_and_no_exclusion_matches_none(sim):
 
 
 def test_excluding_true_hair_recovers_hair_free_contrast(sim):
-    # Uniform skin and spot, noise-free, no blur: every remaining pixel in S and
-    # R has exactly the hair-free colour, so contrast is exact (1e-9).
+    # Uniform skin and spot, noise-free, no blur: every pixel left after the
+    # exclusion has exactly its hair-free colour. So the hairy capture measured
+    # with the true hair mask equals the clean capture measured with the SAME
+    # mask, exactly (1e-9), for both regions. (Fix 2026-11-28: the first version
+    # compared against the clean capture with no mask. That is not exact for the
+    # outline, whose anti-aliased edge pixels are part spot, part skin, so
+    # dropping some of them legitimately moves the mean, by 0.00097 L* in the
+    # builder's run. Comparing under the same mask keeps the claim exact.)
+    # The ring holds pure skin only, so its absolute colour must also equal the
+    # unmasked clean ring exactly. And the hair must matter without the mask,
+    # so the test cannot pass on a scene where hair misses S and R.
     d = 4.0
     hk = dict(hair_count=3, hair_width_mm=0.08, hair_seed=6)
     hairy = sim.render(d, px_per_mm=PX_REG, **hk)
     clean = sim.render(d, px_per_mm=PX_REG)
     mask = sim.hair_coverage(d, px_per_mm=PX_REG, **hk) > 0
+    hair_mattered = False
     for region in sim.REGIONS:
         m = sim.measure(hairy, d, PX_REG, region=region, exclude=mask)
-        c = sim.measure(clean, d, PX_REG, region=region)
         if m["spot_excluded"] == 1.0:
             continue
-        for ch in ("L", "a", "b", "ring_L"):
-            assert abs(m[ch] - c[ch]) < 1e-9, (region, ch)
+        same = sim.measure(clean, d, PX_REG, region=region, exclude=mask)
+        bare = sim.measure(clean, d, PX_REG, region=region)
+        for ch in ("L", "a", "b", "ring_L", "ring_a", "ring_b"):
+            assert abs(m[ch] - same[ch]) < 1e-9, (region, ch)
+        for ch in ("ring_L", "ring_a", "ring_b"):
+            assert abs(m[ch] - bare[ch]) < 1e-9, (region, ch)
+        assert m["ring_excluded"] == same["ring_excluded"]
+        assert m["spot_excluded"] == same["spot_excluded"]
         assert 0.0 <= m["ring_excluded"] < 1.0
+        unmasked = sim.measure(hairy, d, PX_REG, region=region)
+        hair_mattered |= abs(unmasked["L"] - bare["L"]) > 1e-3
+    assert hair_mattered, "hair crossed neither S nor R in this scene; choose another hair_seed"
 
 
 def test_ring_excluded_fraction_is_reported(sim):
