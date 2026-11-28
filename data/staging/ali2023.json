@@ -1,0 +1,995 @@
+{
+ "study_id": "ali2023",
+ "access": "FULL_TEXT",
+ "excerpt_file": "papers/excerpts/pmc_11042015.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "share of patients graded excellent (90-100% repigmentation) at their last follow-up",
+   "time_from_last_treatment": "9 to 10 months after the dermabrasion + SBEG operation (patients 10, 11 and 19, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "9",
+   "arm_result": "three of 20 patients (15%) excellent, 90-100% repigmentation (Table I: 98%, 95%, 100%)",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "share of patients graded good (75-89% repigmentation) at their last follow-up",
+   "time_from_last_treatment": "6 to 12 months after the dermabrasion + SBEG operation (patients 2, 3, 5, 6, 7, 9, 12, 13, 14, 16, 17, 20, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "6",
+   "arm_result": "twelve of 20 patients (60%) good, 75-89% repigmentation",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "share of patients graded fair (50-74% repigmentation) at their last follow-up",
+   "time_from_last_treatment": "7 to 12 months after the dermabrasion + SBEG operation (patients 1, 4, 8, 15, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "7",
+   "arm_result": "four of 20 patients (20%) fair, 50-74% repigmentation",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "share of patients graded poor (<50% repigmentation) at their last follow-up",
+   "time_from_last_treatment": "8 months after the dermabrasion + SBEG operation (patient 18, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "8",
+   "arm_result": "one of 20 patients (5%) poor, <50% repigmentation (Table I: 40%, back) [probably the patient with partial graft loss, inferred from 'back lesion']",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "percentage repigmentation of the treated area at last follow-up, all patients",
+   "time_from_last_treatment": "6 to 12, mean 8.5±1.73 months after the dermabrasion + SBEG operation (all 20 patients, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "6",
+   "arm_result": "mean 78.15±13.6% repigmentation, range 40 to 100%, 20 patients",
+   "outcome_tier": "partial_repigmentation"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "patients with 100% repigmentation of the treated area at last follow-up [derived from Table I]",
+   "time_from_last_treatment": "10 months after the dermabrasion + SBEG operation (patient 19, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "10",
+   "arm_result": "[1 of 20] patients (patient 19, retroauricular, 7 cm2) at 100% repigmentation, Table I [count derived by the extractor; the text gives no count of complete repigmentation]",
+   "outcome_tier": "complete_area_coverage"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "colour of repigmented areas against normal surrounding skin, judged by eye from photographs, at last follow-up",
+   "time_from_last_treatment": "6 to 12 months after the dermabrasion + SBEG operation (all 20 patients; no time point given for the colour statement, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "6",
+   "arm_result": "'compatible with the color of the normal surrounding skin in all patients' (repigmented areas only; no scale, grade or count; [20 of 20 by the statement's wording])",
+   "outcome_tier": "unquantified"
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "ali2023",
+   "doi_or_pmid": "PMID 38681944; PMCID PMC11042015; [DOI not printed in the PMC record]",
+   "source_location": "PMC HTML full text PMC11042015 (Materials and methods, Results, Table I, Discussion, Conclusion; Table I is an HTML table)",
+   "access_level": "FULL_TEXT (open copy, PMC HTML PMC11042015, fetched 2026-11-28; PMC XML not downloadable by publisher choice, Europe PMC fullTextXML returned HTTP 500)",
+   "diagnosis": "ADJACENT: post-burn leucoderma ('hypopigmented scars, referred to as post-burn leucoderma'); [not IGH]; Module 5-damage-repair lead (epidermal graft transplantation precedent)",
+   "design": "prospective single-centre case series, Tanta University Hospital, Egypt, April 2020 to October 2021; no comparator",
+   "body_site": "7 legs, 6 chest, 3 thighs, 2 feet, 1 back, 1 retroauricular (one region per patient); donor sites anterolateral thighs and legs",
+   "skin_tone": "12 type III, 8 type IV [scale not named; presumably Fitzpatrick]; single centre in Egypt",
+   "patients_enrolled": "20",
+   "patients_evaluable": "20 (Table I gives a result for every enrolled patient)",
+   "lesions_enrolled": "not reported as lesions [one treated area per patient, 20 areas in Table I, 7 to 44 cm2]",
+   "lesions_evaluable": "not reported as lesions [20 treated areas in Table I]",
+   "analysis_unit": "patient (Table I and Results count cases/patients; [one treated area per patient, so patient and area coincide])",
+   "intervention": "single-session superficial dermabrasion of the recipient site (motorized dermabrader, to punctate bleeding) followed by suction blister epidermal grafting (SBEG), blisters raised with a Chinese cupping device on the anterolateral thighs and legs; no sutures, pressure dressing for 7 days",
+   "comparator": "none",
+   "time_from_start": "NOT_APPLICABLE (single operation; follow-up 6 to 12 months per patient, mean 8.5±1.73, [counted from the operation])",
+   "complete_match": "not reported as a whole-lesion match: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' (by eye, repigmented parts only, no scale)",
+   "dark_overshoot": "not reported for the recipient site (temporary hyperpigmented macules are reported at the donor sites, see texture_or_scar)",
+   "texture_or_scar": "Results: 'No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites' (Conclusion: donor area 'minimal scarring'); partial graft loss 1 case (5%); perigraft halo three cases (15%), cleared after 6 months; donor-site temporary hyperpigmented macules in all patients, faded over 4-6 months",
+   "attrition": "not reported [Table I gives a result and follow-up time for all 20 enrolled patients]",
+   "verification_status": "PENDING (full text)",
+   "citation": "Ali AS, Mahmoud WH, Elsawaf MI, Elmelegy N. Treatment of Post-Burn Leucoderma With Superficial Dermabrasion Followed by Suction Blister Epidermal Grafting: A Clinical Prospective Study. Ann Burns Fire Disasters 2023;36(2):150-157",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042015/",
+   "treatment_class": "grafting",
+   "assessment_method": "percentage repigmentation judged by two independent plastic surgeons comparing serial digital photographs taken 'using standard camera angle and light settings'; four grades; no instrument; [blinding and how ratings were combined not reported]",
+   "patient_noticeability": "not reported per grade (Global Efficacy Question at end of follow-up, all 20: fifteen (75%) satisfied, five (25%) not)",
+   "uncertainty": "Diagnosis: [not an IGH study]; post-burn leucoderma (hypopigmented burn scars), a Module 5-damage-repair lead (suction blister epidermal graft transplantation onto dermabraded skin, follow-up 6 to 12 months) entered at Gate A; it says nothing directly about IGH spots, and burn scars differ from IGH (the authors write that leucoderma after deep burns has 'permanent loss of melanocytes and a lack of skin appendages'). [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis.] Prospective single-centre case series, 20 patients, no control arm; authors name small sample, subjective assessment ('subjective rather than objective') and 'relatively short' follow-up as limitations. Follow-up per patient is 6 to 12 months (Table I 'Follow-up (months)'; mean 8.5±1.73), and Figure 3, 5 and 6 captions call these 'postoperative' months, so [follow-up is counted from the single dermabrasion + SBEG operation]; the source describes one procedure per patient and no later pigment treatment (only analgesic and antibiotic for 1 week), [but it does not state that no further treatment was given, so treating the operation as the final treatment is an inference]. Each grade pools patients seen at different times; months_after_final_tx gives the shortest follow-up in that row's patients [a lower bound], and grades are at each patient's last visit, not at one common time point. Grades are percentage repigmentation judged by two independent plastic surgeons from serial digital photographs; no instrument, [blinding, how the two surgeons' ratings were combined and inter-rater agreement are not reported]. Grade cut-offs: excellent 90-100%, good 75-89%, fair 50-74%, poor <50%; 'excellent' is partial repigmentation, not complete area coverage and not a colour match. Every Table I grade agrees with the stated cut-offs and the counts 3/12/4/1, means (age 26.85, follow-up 8.5, repigmentation 78.15, area 22, blister time 91.75, grafts 4.8) all recompute from Table I [checked by the extractor]. Internal contradictions: Methods say 'aged between 15-52 years' but exclude 'Patients aged <18 years', and the abstract and Table I give 18 to 52; Methods require leucoderma 'established from a period of 6 months' but Results give duration 10 to 36 months; Results give sites as 7 legs, 3 thighs, 2 feet (12 limbs), 6 chest, 1 back, 1 retroauricular, but Discussion says '13 limbs, 6 trunks, and 1 retroauricular'; Methods schedule follow-up 'once monthly for one year', yet follow-up ends at 6 to 12 months [reason for ending earlier not reported]; Results say no scarring 'at the donor or recipient sites', while the Conclusion says the donor area shows 'minimal scarring'; partial graft loss is placed at a 'back lesion' (Results) and 'the lumbosacral recipient area' (Discussion) [probably the same patient, number 18, Back, 40%, poor]. Colour: 'The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients' is a by-eye statement about the repigmented parts only, with no scale, count or time point; repigmentation ranged 40 to 100% and only [1 of 20] patients (number 19) reached 100%, and perigraft halo (a remaining hypopigmented rim) occurred in 3 patients, [so this is not a whole-lesion colour match]. Patient satisfaction: the 5 'No' answers are exactly the 4 fair and 1 poor patients in Table I. Unit is the patient; each patient had leucoderma 'limited to one anatomical region' and Table I gives one treated area per patient [so patient and treated area coincide]. Recipient-site hyperpigmentation is not reported. Skin types III and IV [scale not named; presumably Fitzpatrick].",
+   "endpoint_definition": "patient answer Yes to the Global Efficacy Question 'Did you find the treatment you received satisfactory or not?' at the end of follow-up",
+   "time_from_last_treatment": "6 to 12 months after the dermabrasion + SBEG operation (all 20 patients, Table I) [the operation is treated as the final treatment: the source describes one procedure and no later pigment treatment, but does not state that none was given]",
+   "months_after_final_tx": "6",
+   "arm_result": "Fifteen of 20 patients (75%) satisfied, five (25%) not",
+   "outcome_tier": "unquantified"
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Fig. 4 shows that three cases (15%) had excellent response, twelve cases (60%) had good response (Figs. 5 & 6), four cases (20%) had fair response and one case (5%) had poor response.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "Treatment efficacy was categorized as excellent (90-100% repigmentation), good (75-89% repigmentation), fair (50-74% repigmentation), and poor (<50% repigmentation).",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "10 | F/38 | III | 18 | Rt thigh | 36 | 100 | 8 | 98 | Excellent | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "11 | F/20 | III | 15 | Chest | 14 | 85 | 3 | 95 | Excellent | Yes | 9 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "19 | F/20 | III | 28 | Retro-auricular | 7 | 85 | 2 | 100 | Excellent | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "10 | F/38 | III | 18 | Rt thigh | 36 | 100 | 8 | 98 | Excellent | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "11 | F/20 | III | 15 | Chest | 14 | 85 | 3 | 95 | Excellent | Yes | 9 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "19 | F/20 | III | 28 | Retro-auricular | 7 | 85 | 2 | 100 | Excellent | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 0,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Fig. 4 shows that three cases (15%) had excellent response, twelve cases (60%) had good response (Figs. 5 & 6), four cases (20%) had fair response and one case (5%) had poor response.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Treatment efficacy was categorized as excellent (90-100% repigmentation), good (75-89% repigmentation), fair (50-74% repigmentation), and poor (<50% repigmentation).",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "After a mean (SD) follow up period of 8.5±1.73 months (range, 6-12 months), the percentage of repigmentation ranged from 40 to 100% (mean, 78.15±13.6%).",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 1,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "2 | F/25 | III | 15 | Chest | 27 | 100 | 6 | 80 | Good | Yes | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "3 | F/22 | III | 20 | Lt leg | 22 | 85 | 5 | 85 | Good | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "5 | F/52 | III | 20 | Lt leg | 14 | 80 | 3 | 75 | Good | Yes | 6 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "6 | F/25 | III | 24 | Chest | 44 | 110 | 9 | 88 | Good | Yes | 12 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "7 | M/20 | IV | 14 | Rt leg | 19 | 90 | 4 | 80 | Good | Yes | 6 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "9 | F/19 | IV | 20 | Rt leg | 22 | 85 | 5 | 85 | Good | Yes | 9 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "12 | F/18 | IV | 12 | Lt leg | 23 | 95 | 5 | 80 | Good | Yes | 7 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "13 | F/22 | III | 10 | Rt leg | 18 | 90 | 4 | 75 | Good | Yes | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "14 | F/25 | IV | 12 | Lt leg | 12 | 80 | 3 | 80 | Good | Yes | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "16 | F/23 | III | 10 | Chest | 28 | 90 | 6 | 79 | Good | Yes | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "17 | F/20 | III | 12 | Lt foot | 9 | 85 | 2 | 80 | Good | Yes | 9 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 1,
+   "field": "time_from_last_treatment",
+   "quote": "20 | M/35 | III | 36 | Chest | 22 | 95 | 5 | 80 | Good | Yes | 6 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Fig. 4 shows that three cases (15%) had excellent response, twelve cases (60%) had good response (Figs. 5 & 6), four cases (20%) had fair response and one case (5%) had poor response.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Treatment efficacy was categorized as excellent (90-100% repigmentation), good (75-89% repigmentation), fair (50-74% repigmentation), and poor (<50% repigmentation).",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "1 | M/18 | IV | 12 | Lt thigh | 18 | 90 | 4 | 60 | Fair | No | 12 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "4 | F/32 | IV | 10 | Rt thigh | 28 | 90 | 6 | 70 | Fair | No | 7 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 2,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "8 | M/45 | IV | 36 | Rt foot | 10 | 80 | 2 | 68 | Fair | No | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 2,
+   "field": "time_from_last_treatment",
+   "quote": "15 | M/30 | IV | 20 | Chest | 33 | 120 | 7 | 65 | Fair | No | 9 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Fig. 4 shows that three cases (15%) had excellent response, twelve cases (60%) had good response (Figs. 5 & 6), four cases (20%) had fair response and one case (5%) had poor response.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "Treatment efficacy was categorized as excellent (90-100% repigmentation), good (75-89% repigmentation), fair (50-74% repigmentation), and poor (<50% repigmentation).",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "18 | F/28 | III | 30 | Back | 34 | 100 | 7 | 40 | Poor | No | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "18 | F/28 | III | 30 | Back | 34 | 100 | 7 | 40 | Poor | No | 8 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 3,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 3,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 3,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "After a mean (SD) follow up period of 8.5±1.73 months (range, 6-12 months), the percentage of repigmentation ranged from 40 to 100% (mean, 78.15±13.6%).",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "After a mean (SD) follow up period of 8.5±1.73 months (range, 6-12 months), the percentage of repigmentation ranged from 40 to 100% (mean, 78.15±13.6%).",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 4,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 4,
+   "field": "time_from_last_treatment",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "19 | F/20 | III | 28 | Retro-auricular | 7 | 85 | 2 | 100 | Excellent | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 5,
+   "field": "time_from_last_treatment",
+   "quote": "19 | F/20 | III | 28 | Retro-auricular | 7 | 85 | 2 | 100 | Excellent | Yes | 10 |",
+   "location": "Table I (HTML table in source)"
+  },
+  {
+   "row": 5,
+   "field": "arm_result",
+   "quote": "After a mean (SD) follow up period of 8.5±1.73 months (range, 6-12 months), the percentage of repigmentation ranged from 40 to 100% (mean, 78.15±13.6%).",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 5,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 5,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 5,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 6,
+   "field": "complete_match",
+   "quote": "The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "arm_result",
+   "quote": "The color of the pigmented areas was compatible with the color of the normal surrounding skin in all patients.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "After a mean (SD) follow up period of 8.5±1.73 months (range, 6-12 months), the percentage of repigmentation ranged from 40 to 100% (mean, 78.15±13.6%).",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 6,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 6,
+   "field": "time_from_last_treatment",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 7,
+   "field": "arm_result",
+   "quote": "Fifteen patients (75%) were satisfied with the outcome, while five (25%) were not, as they declared by answering the GEQ.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "arm_result",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 7,
+   "field": "patient_noticeability",
+   "quote": "Fifteen patients (75%) were satisfied with the outcome, while five (25%) were not, as they declared by answering the GEQ.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "time_from_last_treatment",
+   "quote": "After a mean (SD) follow up period of 8.5±1.73 months (range, 6-12 months), the percentage of repigmentation ranged from 40 to 100% (mean, 78.15±13.6%).",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "patients_enrolled",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 7,
+   "field": "texture_or_scar",
+   "quote": "No serious adverse effects, such as postoperative bleeding, infection or scarring were observed at the donor or recipient sites.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "texture_or_scar",
+   "quote": "partial graft loss occurred in 1 case (5%) at the lumbosacral recipient area, where graft immobilization was relatively difficult.",
+   "location": "Discussion"
+  },
+  {
+   "row": 7,
+   "field": "texture_or_scar",
+   "quote": "Three cases (15%) developed perigraft halo that could be attributed to shrinkage of the epidermal grafts, yet it cleared completely after 6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "texture_or_scar",
+   "quote": "Temporary hyperpigmented circular macules occurred at the donor areas in all patients but they faded gradually and returned to normal skin color over 4-6 months.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "body_site",
+   "quote": "The distribution of the sites of leucoderma was 7 legs, 6 chest, 3 thighs, 2 feet, 1 back, and 1 retroauricular.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "skin_tone",
+   "quote": "Patients’ skin types were: 12 type III and 8 type IV.",
+   "location": "Results"
+  },
+  {
+   "row": 7,
+   "field": "assessment_method",
+   "quote": "Assessment of the treatment efficacy regarding repigmentation, color matching and appearance of complications was done by two independent plastic surgeons, by comparing the serial digital photographs obtained during the follow up visits under standard conditions.",
+   "location": "Materials and methods"
+  },
+  {
+   "row": 7,
+   "field": "time_from_last_treatment",
+   "quote": "This prospective study included 20 patients, of both genders, aged between 15-52 years",
+   "location": "Materials and methods"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
