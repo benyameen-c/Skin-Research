@@ -1,0 +1,560 @@
+{
+ "study_id": "vangeel2010",
+ "access": "ABSTRACT_ONLY",
+ "excerpt_file": "papers/excerpts/vangeel2010.txt",
+ "rows": [
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "vangeel2010",
+   "doi_or_pmid": "PMID 20804490; doi:10.1111/j.1365-2133.2010.10014.x",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com returned HTTP 403 on 2026-11-28; full text needed; on paywall list)",
+   "design": "retrospective case series, single centre [Ghent, from author affiliation]; examination and questionnaire after noncultured epidermal cellular grafting; no control group",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [Belgian centre; skin phototypes not stated]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "autologous noncultured epidermal cellular grafting (transplantation) [number of sessions, donor site, cell preparation details and any adjunct phototherapy not in abstract]",
+   "comparator": "none",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "treatment_class": "grafting",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "van Geel N, Wallaeys E, Goh BK, De Mil M, Lambert J. Long-term results of noncultured epidermal cellular grafting in vitiligo, halo naevi, piebaldism and naevus depigmentosus. Br J Dermatol 2010;163(6):1186-93",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/20804490/",
+   "texture_or_scar": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "source_location": "PubMed abstract (Objectives, Methods, Results)",
+   "diagnosis": "ADJACENT: leucoderma treated by grafting: segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3), naevus depigmentosus (n = 1); [not IGH]; Module 5-damage-repair lead",
+   "patients_enrolled": "[87] (sum of the Objectives counts 33 + 33 + 6 + 11 + 3 + 1; a total is not stated)",
+   "patients_evaluable": "82 (percentage of repigmentation evaluated by digital imaging)",
+   "analysis_unit": "patient (abstract says '71% of patients'; whether the percentage was computed per lesion and summarised per patient is not in abstract)",
+   "endpoint_definition": "share of patients with more than 75% repigmentation (partial repigmentation)",
+   "assessment_method": "digital imaging analysis system (percentage of repigmentation) at examination; assessor and blinding not in abstract",
+   "time_from_start": "mean follow-up 15 months [after transplantation; range not in abstract]",
+   "time_from_last_treatment": "mean follow-up 15 months [after transplantation; whether transplantation was the final treatment is not in abstract]",
+   "arm_result": "More than 75% repigmentation in 71% of patients [denominator not stated; 58 of 82 = 70.7% would round to 71%, inferred, not stated]",
+   "attrition": "[82 of the 87 patients listed in the Objectives have an imaging result; the other 5 are not accounted for in abstract]",
+   "outcome_tier": "partial_repigmentation",
+   "uncertainty": "Diagnosis: [not an IGH study]; mixed leucoderma (segmental, generalized and mixed vitiligo, halo naevi, piebaldism, naevus depigmentosus), a Module 5-damage-repair lead (cell transplantation precedent with long follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007 and lin2024 are.] Retrospective single-centre series [centre inferred from the author affiliation, Ghent University Hospital]; no comparator. The Objectives list 33 + 33 + 6 + 11 + 3 + 1 = [87] patients ('including', so the list may not be exhaustive), but only 82 have imaging results and 54 answered the questionnaire; how the 82 and the 54 overlap, and why the rest are missing, is not in abstract. Number of grafting sessions per patient, any adjunct phototherapy after grafting, and the follow-up range for the imaging result are not in abstract, so time from the FINAL treatment cannot be derived; 'after treatment' and 'mean follow-up' are counted from the transplantation [presumably the first or only grafting, not stated]. Patients said final repigmentation was reached a mean of 10 months post-treatment, so [some imaging assessments at a mean of 15 months may fall near the end of the repigmentation phase]. Abstract states the background that the technique 'was introduced in 1992' [general background, not a result]. Colour match was judged by patients on a questionnaire, not measured by instrument; the authors conclude 'a perfect colour match was seldom obtained'. '71% of patients' does not state its denominator; it is assumed to be the 82 patients with imaging [not stated]. More than 75% repigmentation is partial repigmentation, not complete coverage or colour match."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "vangeel2010",
+   "doi_or_pmid": "PMID 20804490; doi:10.1111/j.1365-2133.2010.10014.x",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com returned HTTP 403 on 2026-11-28; full text needed; on paywall list)",
+   "design": "retrospective case series, single centre [Ghent, from author affiliation]; examination and questionnaire after noncultured epidermal cellular grafting; no control group",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [Belgian centre; skin phototypes not stated]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "autologous noncultured epidermal cellular grafting (transplantation) [number of sessions, donor site, cell preparation details and any adjunct phototherapy not in abstract]",
+   "comparator": "none",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "treatment_class": "grafting",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "van Geel N, Wallaeys E, Goh BK, De Mil M, Lambert J. Long-term results of noncultured epidermal cellular grafting in vitiligo, halo naevi, piebaldism and naevus depigmentosus. Br J Dermatol 2010;163(6):1186-93",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/20804490/",
+   "texture_or_scar": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "source_location": "PubMed abstract (Objectives, Results)",
+   "diagnosis": "ADJACENT: subgroup segmental vitiligo (n = 33), halo naevi (n = 11) and piebaldism (n = 3); [not IGH]; Module 5-damage-repair lead",
+   "patients_enrolled": "[47] (33 + 11 + 3 from the Objectives; a subgroup total is not stated)",
+   "patients_evaluable": "not in abstract",
+   "analysis_unit": "patient [subgroup by diagnosis; unit of the comparison not in abstract]",
+   "endpoint_definition": "author ranking of repigmentation results by diagnosis ('best results')",
+   "assessment_method": "not in abstract [presumably the digital imaging evaluation; not stated]",
+   "time_from_start": "not in abstract [presumably the imaging follow-up, mean 15 months; not stated]",
+   "time_from_last_treatment": "not in abstract",
+   "arm_result": "'Best results' in segmental vitiligo, halo naevi and piebaldism [no subgroup numbers in abstract]",
+   "attrition": "not in abstract",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Diagnosis: [not an IGH study]; mixed leucoderma (segmental, generalized and mixed vitiligo, halo naevi, piebaldism, naevus depigmentosus), a Module 5-damage-repair lead (cell transplantation precedent with long follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007 and lin2024 are.] Retrospective single-centre series [centre inferred from the author affiliation, Ghent University Hospital]; no comparator. The Objectives list 33 + 33 + 6 + 11 + 3 + 1 = [87] patients ('including', so the list may not be exhaustive), but only 82 have imaging results and 54 answered the questionnaire; how the 82 and the 54 overlap, and why the rest are missing, is not in abstract. Number of grafting sessions per patient, any adjunct phototherapy after grafting, and the follow-up range for the imaging result are not in abstract, so time from the FINAL treatment cannot be derived; 'after treatment' and 'mean follow-up' are counted from the transplantation [presumably the first or only grafting, not stated]. Patients said final repigmentation was reached a mean of 10 months post-treatment, so [some imaging assessments at a mean of 15 months may fall near the end of the repigmentation phase]. Abstract states the background that the technique 'was introduced in 1992' [general background, not a result]. Colour match was judged by patients on a questionnaire, not measured by instrument; the authors conclude 'a perfect colour match was seldom obtained'. Subgroup comparison is qualitative only: no subgroup repigmentation figures, evaluable counts or statistics are in the abstract. Naevus depigmentosus (n = 1) is not placed in either the 'best' or the 'inferior' group."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "vangeel2010",
+   "doi_or_pmid": "PMID 20804490; doi:10.1111/j.1365-2133.2010.10014.x",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com returned HTTP 403 on 2026-11-28; full text needed; on paywall list)",
+   "design": "retrospective case series, single centre [Ghent, from author affiliation]; examination and questionnaire after noncultured epidermal cellular grafting; no control group",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [Belgian centre; skin phototypes not stated]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "autologous noncultured epidermal cellular grafting (transplantation) [number of sessions, donor site, cell preparation details and any adjunct phototherapy not in abstract]",
+   "comparator": "none",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "treatment_class": "grafting",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "van Geel N, Wallaeys E, Goh BK, De Mil M, Lambert J. Long-term results of noncultured epidermal cellular grafting in vitiligo, halo naevi, piebaldism and naevus depigmentosus. Br J Dermatol 2010;163(6):1186-93",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/20804490/",
+   "texture_or_scar": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "source_location": "PubMed abstract (Objectives, Results)",
+   "diagnosis": "ADJACENT: subgroup generalized vitiligo (n = 33) and mixed vitiligo (n = 6); [not IGH]; Module 5-damage-repair lead",
+   "patients_enrolled": "[39] (33 + 6 from the Objectives; a subgroup total is not stated)",
+   "patients_evaluable": "not in abstract",
+   "analysis_unit": "patient [subgroup by diagnosis; unit of the comparison not in abstract]",
+   "endpoint_definition": "author ranking of repigmentation results by diagnosis ('inferior')",
+   "assessment_method": "not in abstract [presumably the digital imaging evaluation; not stated]",
+   "time_from_start": "not in abstract [presumably the imaging follow-up, mean 15 months; not stated]",
+   "time_from_last_treatment": "not in abstract",
+   "arm_result": "results 'inferior' in generalized or mixed vitiligo [no subgroup numbers in abstract]",
+   "attrition": "not in abstract",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Diagnosis: [not an IGH study]; mixed leucoderma (segmental, generalized and mixed vitiligo, halo naevi, piebaldism, naevus depigmentosus), a Module 5-damage-repair lead (cell transplantation precedent with long follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007 and lin2024 are.] Retrospective single-centre series [centre inferred from the author affiliation, Ghent University Hospital]; no comparator. The Objectives list 33 + 33 + 6 + 11 + 3 + 1 = [87] patients ('including', so the list may not be exhaustive), but only 82 have imaging results and 54 answered the questionnaire; how the 82 and the 54 overlap, and why the rest are missing, is not in abstract. Number of grafting sessions per patient, any adjunct phototherapy after grafting, and the follow-up range for the imaging result are not in abstract, so time from the FINAL treatment cannot be derived; 'after treatment' and 'mean follow-up' are counted from the transplantation [presumably the first or only grafting, not stated]. Patients said final repigmentation was reached a mean of 10 months post-treatment, so [some imaging assessments at a mean of 15 months may fall near the end of the repigmentation phase]. Abstract states the background that the technique 'was introduced in 1992' [general background, not a result]. Colour match was judged by patients on a questionnaire, not measured by instrument; the authors conclude 'a perfect colour match was seldom obtained'. Subgroup comparison is qualitative only: no subgroup repigmentation figures, evaluable counts or statistics are in the abstract. All patients who reported loss of repigmentation had generalized vitiligo (see the loss row)."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "vangeel2010",
+   "doi_or_pmid": "PMID 20804490; doi:10.1111/j.1365-2133.2010.10014.x",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com returned HTTP 403 on 2026-11-28; full text needed; on paywall list)",
+   "design": "retrospective case series, single centre [Ghent, from author affiliation]; examination and questionnaire after noncultured epidermal cellular grafting; no control group",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [Belgian centre; skin phototypes not stated]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "autologous noncultured epidermal cellular grafting (transplantation) [number of sessions, donor site, cell preparation details and any adjunct phototherapy not in abstract]",
+   "comparator": "none",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "treatment_class": "grafting",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "van Geel N, Wallaeys E, Goh BK, De Mil M, Lambert J. Long-term results of noncultured epidermal cellular grafting in vitiligo, halo naevi, piebaldism and naevus depigmentosus. Br J Dermatol 2010;163(6):1186-93",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/20804490/",
+   "texture_or_scar": "not in abstract",
+   "dark_overshoot": "hyperpigmentation is included in the reported colour mismatch [share with hyperpigmentation specifically not in abstract]",
+   "patient_noticeability": "mismatch 'not disturbing for the majority' [share not in abstract]",
+   "complete_match": "[no colour mismatch in at most about 20% of respondents, inferred from the 80%; not stated]; authors: 'a perfect colour match was seldom obtained'",
+   "source_location": "PubMed abstract (Methods, Results, Conclusions)",
+   "diagnosis": "ADJACENT: leucoderma treated by grafting: segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3), naevus depigmentosus (n = 1); [not IGH]; Module 5-damage-repair lead",
+   "patients_enrolled": "[87] (sum of the Objectives counts 33 + 33 + 6 + 11 + 3 + 1; a total is not stated)",
+   "patients_evaluable": "54 (questionnaire respondents)",
+   "analysis_unit": "patient (questionnaire)",
+   "endpoint_definition": "share of patients reporting some colour mismatch (hyperpigmentation and hypopigmentation) between the treated area and the surrounding skin; and change of mismatch after sun exposure",
+   "assessment_method": "patient questionnaire (self-report); no instrument colour measurement in abstract",
+   "time_from_start": "up to 7·7 years after treatment (mean 4 years) [counted from grafting]",
+   "time_from_last_treatment": "up to 7·7 years after treatment (mean 4 years) [whether 'treatment' is the final treatment, with no later session or adjunct phototherapy, is not in abstract]",
+   "arm_result": "some colour mismatch reported in 80% [denominator not stated, assumed the 54 respondents; 43 of 54 = 79.6% would round to 80%, inferred]; mismatch reported significantly less after sun exposure (P = 0·012); authors: 'a perfect colour match was seldom obtained'",
+   "attrition": "[54 of the 87 patients listed in the Objectives answered the questionnaire; non-responders not described in abstract]",
+   "outcome_tier": "unquantified",
+   "uncertainty": "Diagnosis: [not an IGH study]; mixed leucoderma (segmental, generalized and mixed vitiligo, halo naevi, piebaldism, naevus depigmentosus), a Module 5-damage-repair lead (cell transplantation precedent with long follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007 and lin2024 are.] Retrospective single-centre series [centre inferred from the author affiliation, Ghent University Hospital]; no comparator. The Objectives list 33 + 33 + 6 + 11 + 3 + 1 = [87] patients ('including', so the list may not be exhaustive), but only 82 have imaging results and 54 answered the questionnaire; how the 82 and the 54 overlap, and why the rest are missing, is not in abstract. Number of grafting sessions per patient, any adjunct phototherapy after grafting, and the follow-up range for the imaging result are not in abstract, so time from the FINAL treatment cannot be derived; 'after treatment' and 'mean follow-up' are counted from the transplantation [presumably the first or only grafting, not stated]. Patients said final repigmentation was reached a mean of 10 months post-treatment, so [some imaging assessments at a mean of 15 months may fall near the end of the repigmentation phase]. Abstract states the background that the technique 'was introduced in 1992' [general background, not a result]. Colour match was judged by patients on a questionnaire, not measured by instrument; the authors conclude 'a perfect colour match was seldom obtained'. [Tier 'unquantified' is used because the ledger has no tier for a patient-reported colour-match share, and lasting_color_match needs a time from the final treatment, which is NOT_DERIVABLE here; the 80% is quantified in the source.] '80%' does not state its denominator or whether it is patients or answers; it is assumed to be the 54 respondents [not stated]. Hyperpigmentation and hypopigmentation are pooled in the mismatch figure. 'Significantly less after sun exposure' gives P = 0·012 but not the comparison groups or test. The questionnaire's timing is a range across patients (up to 7·7 years, mean 4), not a fixed visit."
+  },
+  {
+   "module": "1-hypopigmentation",
+   "study_id": "vangeel2010",
+   "doi_or_pmid": "PMID 20804490; doi:10.1111/j.1365-2133.2010.10014.x",
+   "access_level": "ABSTRACT_ONLY (Europe PMC 2026-11-28: not open access, not in PMC, full text 'Subscription required'; onlinelibrary.wiley.com /doi/full/ and academic.oup.com returned HTTP 403 on 2026-11-28; full text needed; on paywall list)",
+   "design": "retrospective case series, single centre [Ghent, from author affiliation]; examination and questionnaire after noncultured epidermal cellular grafting; no control group",
+   "body_site": "not in abstract",
+   "skin_tone": "not in abstract [Belgian centre; skin phototypes not stated]",
+   "lesions_enrolled": "not in abstract",
+   "lesions_evaluable": "not in abstract",
+   "intervention": "autologous noncultured epidermal cellular grafting (transplantation) [number of sessions, donor site, cell preparation details and any adjunct phototherapy not in abstract]",
+   "comparator": "none",
+   "months_after_final_tx": "NOT_DERIVABLE",
+   "treatment_class": "grafting",
+   "verification_status": "PENDING (abstract only)",
+   "citation": "van Geel N, Wallaeys E, Goh BK, De Mil M, Lambert J. Long-term results of noncultured epidermal cellular grafting in vitiligo, halo naevi, piebaldism and naevus depigmentosus. Br J Dermatol 2010;163(6):1186-93",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/20804490/",
+   "texture_or_scar": "not in abstract",
+   "dark_overshoot": "not in abstract",
+   "patient_noticeability": "not in abstract",
+   "complete_match": "not in abstract",
+   "source_location": "PubMed abstract (Methods, Results, Conclusions)",
+   "diagnosis": "ADJACENT: leucoderma treated by grafting: segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3), naevus depigmentosus (n = 1); [not IGH]; Module 5-damage-repair lead",
+   "patients_enrolled": "[87] (sum of the Objectives counts 33 + 33 + 6 + 11 + 3 + 1; a total is not stated)",
+   "patients_evaluable": "not in abstract (denominator of the 7% not stated; [54 questionnaire respondents or 82 imaged patients])",
+   "analysis_unit": "patient",
+   "endpoint_definition": "share of patients who observed some loss of the achieved repigmentation during follow-up (durability of repigmentation, not colour match)",
+   "assessment_method": "patient report [presumably the questionnaire; abstract says patients 'observed' the loss]",
+   "time_from_start": "during follow-up [up to 7·7 years after treatment, mean 4 years, if from the questionnaire; not stated]",
+   "time_from_last_treatment": "during follow-up [interval from the final treatment not in abstract]",
+   "arm_result": "7% of patients, all with generalized vitiligo, observed some loss of the achieved repigmentation; authors say repigmentation 'was maintained during follow-up in the majority of patients' [about 93% reported no loss, inferred]",
+   "attrition": "not in abstract",
+   "outcome_tier": "partial_repigmentation",
+   "uncertainty": "Diagnosis: [not an IGH study]; mixed leucoderma (segmental, generalized and mixed vitiligo, halo naevi, piebaldism, naevus depigmentosus), a Module 5-damage-repair lead (cell transplantation precedent with long follow-up) entered at Gate A; it says nothing directly about IGH spots. [Module 5-damage-repair is not an allowed module in tools/ledger.py, so the row is filed under 1-hypopigmentation with an ADJACENT diagnosis, as mulekar2007 and lin2024 are.] Retrospective single-centre series [centre inferred from the author affiliation, Ghent University Hospital]; no comparator. The Objectives list 33 + 33 + 6 + 11 + 3 + 1 = [87] patients ('including', so the list may not be exhaustive), but only 82 have imaging results and 54 answered the questionnaire; how the 82 and the 54 overlap, and why the rest are missing, is not in abstract. Number of grafting sessions per patient, any adjunct phototherapy after grafting, and the follow-up range for the imaging result are not in abstract, so time from the FINAL treatment cannot be derived; 'after treatment' and 'mean follow-up' are counted from the transplantation [presumably the first or only grafting, not stated]. Patients said final repigmentation was reached a mean of 10 months post-treatment, so [some imaging assessments at a mean of 15 months may fall near the end of the repigmentation phase]. Abstract states the background that the technique 'was introduced in 1992' [general background, not a result]. Colour match was judged by patients on a questionnaire, not measured by instrument; the authors conclude 'a perfect colour match was seldom obtained'. The 7% has no stated denominator: [4 of 54 = 7.4%, or 6 of 82 = 7.3%, both round to 7%; neither stated]. How much repigmentation was lost, and when, is not in abstract. Silence on loss in other diagnoses is the abstract's 'all with generalized vitiligo', not a separate per-diagnosis count."
+  }
+ ],
+ "quotes": [
+  {
+   "row": 0,
+   "field": "patients_enrolled",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 0,
+   "field": "patients_evaluable",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_last_treatment",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "time_from_start",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "arm_result",
+   "quote": "More than 75% repigmentation was achieved in 71% of patients.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 0,
+   "field": "attrition",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "According to the patients, final repigmentation was achieved after a mean of 10 months post-treatment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "The use of noncultured epidermal cellular grafting was introduced in 1992.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 0,
+   "field": "uncertainty",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 1,
+   "field": "patients_enrolled",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 1,
+   "field": "arm_result",
+   "quote": "Best results were obtained in segmental vitiligo, halo naevi and piebaldism, whereas results in generalized or mixed vitiligo were inferior.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "diagnosis",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "According to the patients, final repigmentation was achieved after a mean of 10 months post-treatment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "The use of noncultured epidermal cellular grafting was introduced in 1992.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 1,
+   "field": "uncertainty",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 2,
+   "field": "patients_enrolled",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 2,
+   "field": "arm_result",
+   "quote": "Best results were obtained in segmental vitiligo, halo naevi and piebaldism, whereas results in generalized or mixed vitiligo were inferior.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "diagnosis",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "According to the patients, final repigmentation was achieved after a mean of 10 months post-treatment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "The use of noncultured epidermal cellular grafting was introduced in 1992.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 2,
+   "field": "uncertainty",
+   "quote": "During follow-up 7% of patients, all with generalized vitiligo, observed some loss of the achieved repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "patients_enrolled",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 3,
+   "field": "patients_evaluable",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "time_from_start",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "time_from_last_treatment",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "In 80% some colour mismatch (hyperpigmentation and hypopigmentation) was reported between the treated area and the surrounding skin, although this was not disturbing for the majority.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "This colour mismatch was reported significantly less after sun exposure (P = 0·012).",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "arm_result",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 3,
+   "field": "complete_match",
+   "quote": "In 80% some colour mismatch (hyperpigmentation and hypopigmentation) was reported between the treated area and the surrounding skin, although this was not disturbing for the majority.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "complete_match",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 3,
+   "field": "dark_overshoot",
+   "quote": "In 80% some colour mismatch (hyperpigmentation and hypopigmentation) was reported between the treated area and the surrounding skin, although this was not disturbing for the majority.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "patient_noticeability",
+   "quote": "In 80% some colour mismatch (hyperpigmentation and hypopigmentation) was reported between the treated area and the surrounding skin, although this was not disturbing for the majority.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "attrition",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 3,
+   "field": "attrition",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "According to the patients, final repigmentation was achieved after a mean of 10 months post-treatment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "The use of noncultured epidermal cellular grafting was introduced in 1992.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 3,
+   "field": "uncertainty",
+   "quote": "This colour mismatch was reported significantly less after sun exposure (P = 0·012).",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "patients_enrolled",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 4,
+   "field": "time_from_start",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "During follow-up 7% of patients, all with generalized vitiligo, observed some loss of the achieved repigmentation.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "arm_result",
+   "quote": "which was maintained during follow-up in the majority of patients.",
+   "location": "PubMed abstract, Conclusions"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "including segmental vitiligo (n = 33), generalized vitiligo (n = 33), mixed vitiligo (n = 6), halo naevi (n = 11), piebaldism (n = 3) and naevus depigmentosus (n = 1).",
+   "location": "PubMed abstract, Objectives"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "Percentage of repigmentation was evaluated in 82 patients using a digital imaging analysis system (mean follow-up 15 months).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "Long-term results were evaluated by 54 patients using a questionnaire up to 7·7 years after treatment (mean 4 years).",
+   "location": "PubMed abstract, Methods"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "According to the patients, final repigmentation was achieved after a mean of 10 months post-treatment.",
+   "location": "PubMed abstract, Results"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "The use of noncultured epidermal cellular grafting was introduced in 1992.",
+   "location": "PubMed abstract, Background"
+  },
+  {
+   "row": 4,
+   "field": "uncertainty",
+   "quote": "a perfect colour match was seldom obtained.",
+   "location": "PubMed abstract, Conclusions"
+  }
+ ],
+ "verifier": {
+  "status": "PENDING",
+  "notes": ""
+ }
+}
