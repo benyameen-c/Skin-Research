@@ -120,7 +120,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "176 (of 491)",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "176 (this stratum; Table 1 gives N = 176 and Table 5 gives 176 cases) [all analysed; how many underwent CMT and were left out is not reported]",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -155,7 +155,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "176 (of 491)",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "176 (this stratum; Table 1 gives N = 176 and Table 5 gives 176 cases) [all analysed; how many underwent CMT and were left out is not reported]",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -190,7 +190,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "176 (of 491)",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "176 (this stratum; Table 1 gives N = 176 and Table 5 gives 176 cases) [all analysed; how many underwent CMT and were left out is not reported]",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -225,7 +225,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "315 (of 491)",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "315 (this stratum; Table 1 gives N = 315 and Table 5 gives 315 cases) [all analysed; how many underwent CMT and were left out is not reported]",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -260,7 +260,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "315 (of 491)",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "315 (this stratum; Table 1 gives N = 315 and Table 5 gives 315 cases) [all analysed; how many underwent CMT and were left out is not reported]",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -295,7 +295,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "315 (of 491)",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "315 (this stratum; Table 1 gives N = 315 and Table 5 gives 315 cases) [all analysed; how many underwent CMT and were left out is not reported]",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -330,7 +330,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "201 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -365,7 +365,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "201 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -381,7 +381,7 @@
    "dark_overshoot": "not reported (adverse events section names infection, hypersensitivity and scar hyperplasia only)",
    "texture_or_scar": "three patients had local infections treated with oral antibiotics; authors state no hypersensitivity or scar hyperplasia occurred; donor-site outcome not reported",
    "attrition": "not reported (retrospective; inclusion required clinical information for at least 12 months after the procedure; how many were excluded is not reported)",
-   "uncertainty": "Not IGH: a vitiligo cohort, recorded as a Module 5 (damage-repair) non-IGH lead opened at Gate A; [the validator accepts only modules 1-4, so module is 1-hypopigmentation and diagnosis starts ADJACENT, as for elhoshy2025]. [Vitiligo is an autoimmune loss of melanocytes; IGH lesions are small sun-related spots, so efficacy may not transfer.] Uncontrolled single-centre retrospective record review, yet Figure 1 is captioned 'Consort flow diagram of random controlled trials'. Follow-up is stated three ways that disagree: abstract '6–120 months'; Results '12–120 months, mean 43 months, median 36 months'; Results also 'at least 3 months, with a maximum of 12 years', while procedures ran June 2009 to June 2018 with follow-up to June 2020 [so at most about 11 years]. The visit at which each reported grade was taken is not reported (grading was 'at 3, 6, 9, and 12 months and yearly thereafter'), nor whether any patient had more than one CMT session ('The number of cases represents the number of independent transplantations performed'), nor whether phototherapy or other treatment followed CMT ('No washout period was required'), so months after the final treatment are NOT_DERIVABLE. Abstract says '69.7% of patients achieved an excellent re‐color effect'; Results give excellent 293 (59.7%) [293/491 = 59.7%, so the abstract figure looks like a typo]. Good 90 (18.4%) [90/491 = 18.3%]. Unit is ambiguous: the Results call the 491 graded items 'lesions', Table 5 'Cases (n)', the abstract 'patients'; every denominator equals a patient count. 'In total, 123 (5.4%) patients experienced vitiligo recurrence after 12 years' [123/491 = 25.1%, not 5.4%]; the recurrence definition and timing are not reported, so no durability figure can be taken from it. Table 1 gives 'Stable time, minutes' [unit error; probably months], although the inclusion criterion is stability for at least 6 months. Repigmentation percentage is a physician estimate; how it was estimated and whether assessors were blinded are not reported; no instrument and no colour-match assessment. The top grade is >90% repigmentation, which is partial repigmentation, not complete coverage or a lasting colour match. Results text calls this stratum 'stable vitiligo for 1 year' while Table 5 labels it '<1'. [Table 5 heads this column 'Good repigmentation (n, %)', but the counts are cumulative ≥50% (excellent plus good): the text gives '164 lesions of the 201 lesions had >50% repigmentation', and Methods define good as 50%–89%.]",
+   "uncertainty": "Not IGH: a vitiligo cohort, recorded as a Module 5 (damage-repair) non-IGH lead opened at Gate A; [the validator accepts only modules 1-4, so module is 1-hypopigmentation and diagnosis starts ADJACENT, as for elhoshy2025]. [Vitiligo is an autoimmune loss of melanocytes; IGH lesions are small sun-related spots, so efficacy may not transfer.] Uncontrolled single-centre retrospective record review, yet Figure 1 is captioned 'Consort flow diagram of random controlled trials'. Follow-up is stated three ways that disagree: abstract '6–120 months'; Results '12–120 months, mean 43 months, median 36 months'; Results also 'at least 3 months, with a maximum of 12 years', while procedures ran June 2009 to June 2018 with follow-up to June 2020 [so at most about 11 years]. The visit at which each reported grade was taken is not reported (grading was 'at 3, 6, 9, and 12 months and yearly thereafter'), nor whether any patient had more than one CMT session ('The number of cases represents the number of independent transplantations performed'), nor whether phototherapy or other treatment followed CMT ('No washout period was required'), so months after the final treatment are NOT_DERIVABLE. Abstract says '69.7% of patients achieved an excellent re‐color effect'; Results give excellent 293 (59.7%) [293/491 = 59.7%, so the abstract figure looks like a typo]. Good 90 (18.4%) [90/491 = 18.3%]. Unit is ambiguous: the Results call the 491 graded items 'lesions', Table 5 'Cases (n)', the abstract 'patients'; every denominator equals a patient count. 'In total, 123 (5.4%) patients experienced vitiligo recurrence after 12 years' [123/491 = 25.1%, not 5.4%]; the recurrence definition and timing are not reported, so no durability figure can be taken from it. Table 1 gives 'Stable time, minutes' [unit error; probably months], although the inclusion criterion is stability for at least 6 months. Repigmentation percentage is a physician estimate; how it was estimated and whether assessors were blinded are not reported; no instrument and no colour-match assessment. The top grade is >90% repigmentation, which is partial repigmentation, not complete coverage or a lasting colour match. Results text calls this stratum 'stable vitiligo for 1 year' while Table 5 labels it '<1'. [Table 5 heads this column 'Good repigmentation (n, %)', but the counts are cumulative ≥50% (excellent plus good): the text gives '164 lesions of the 201 lesions had >50% repigmentation', and Methods define good as 50%–89%.] [Contradiction in the Table 5 ≥50% column for the stable-time strata: '<1 201 ... 164 (81.5)' plus '≥1 290 ... 249 (85.8)' gives 164 + 249 = 413 of 491, while Results 3.1 give excellent plus good 293 + 90 = 383 and 'a total effective rate (the repigmentation ≥50%) of 78%'. The excellent column reconciles (99 + 194 = 293) and the means do ((201 x 69.5 + 290 x 79.3) / 491 = 75.3), so the stable-time ≥50% counts do not fit the cohort total; the type strata do (164 + 219 = 383).] [Printed percentages are truncated: 164/201 = 81.6% (printed 81.5), 249/290 = 85.9% (printed 85.8).]",
    "verification_status": "PENDING",
    "outcome_tier": "partial_repigmentation",
    "citation": "Lin F, Wang Y, Zheng Y, Hong W, Fu L, Zhou M, Xu A. Target area treatment ratio of varied lesions in the cultured pure melanocyte transplantation repigmentation of vitiligo: A retrospective study. J Dermatol 2024;51(8):1060-1067",
@@ -400,7 +400,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "201 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -435,7 +435,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "290 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -470,7 +470,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "290 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -486,7 +486,7 @@
    "dark_overshoot": "not reported (adverse events section names infection, hypersensitivity and scar hyperplasia only)",
    "texture_or_scar": "three patients had local infections treated with oral antibiotics; authors state no hypersensitivity or scar hyperplasia occurred; donor-site outcome not reported",
    "attrition": "not reported (retrospective; inclusion required clinical information for at least 12 months after the procedure; how many were excluded is not reported)",
-   "uncertainty": "Not IGH: a vitiligo cohort, recorded as a Module 5 (damage-repair) non-IGH lead opened at Gate A; [the validator accepts only modules 1-4, so module is 1-hypopigmentation and diagnosis starts ADJACENT, as for elhoshy2025]. [Vitiligo is an autoimmune loss of melanocytes; IGH lesions are small sun-related spots, so efficacy may not transfer.] Uncontrolled single-centre retrospective record review, yet Figure 1 is captioned 'Consort flow diagram of random controlled trials'. Follow-up is stated three ways that disagree: abstract '6–120 months'; Results '12–120 months, mean 43 months, median 36 months'; Results also 'at least 3 months, with a maximum of 12 years', while procedures ran June 2009 to June 2018 with follow-up to June 2020 [so at most about 11 years]. The visit at which each reported grade was taken is not reported (grading was 'at 3, 6, 9, and 12 months and yearly thereafter'), nor whether any patient had more than one CMT session ('The number of cases represents the number of independent transplantations performed'), nor whether phototherapy or other treatment followed CMT ('No washout period was required'), so months after the final treatment are NOT_DERIVABLE. Abstract says '69.7% of patients achieved an excellent re‐color effect'; Results give excellent 293 (59.7%) [293/491 = 59.7%, so the abstract figure looks like a typo]. Good 90 (18.4%) [90/491 = 18.3%]. Unit is ambiguous: the Results call the 491 graded items 'lesions', Table 5 'Cases (n)', the abstract 'patients'; every denominator equals a patient count. 'In total, 123 (5.4%) patients experienced vitiligo recurrence after 12 years' [123/491 = 25.1%, not 5.4%]; the recurrence definition and timing are not reported, so no durability figure can be taken from it. Table 1 gives 'Stable time, minutes' [unit error; probably months], although the inclusion criterion is stability for at least 6 months. Repigmentation percentage is a physician estimate; how it was estimated and whether assessors were blinded are not reported; no instrument and no colour-match assessment. The top grade is >90% repigmentation, which is partial repigmentation, not complete coverage or a lasting colour match. [The ≥1 year stratum (290) includes the ≥2 years stratum (159); 201 + 290 = 491.] [Table 5 heads this column 'Good repigmentation (n, %)', but the counts are cumulative ≥50% (excellent plus good): the text gives '164 lesions of the 201 lesions had >50% repigmentation', and Methods define good as 50%–89%.]",
+   "uncertainty": "Not IGH: a vitiligo cohort, recorded as a Module 5 (damage-repair) non-IGH lead opened at Gate A; [the validator accepts only modules 1-4, so module is 1-hypopigmentation and diagnosis starts ADJACENT, as for elhoshy2025]. [Vitiligo is an autoimmune loss of melanocytes; IGH lesions are small sun-related spots, so efficacy may not transfer.] Uncontrolled single-centre retrospective record review, yet Figure 1 is captioned 'Consort flow diagram of random controlled trials'. Follow-up is stated three ways that disagree: abstract '6–120 months'; Results '12–120 months, mean 43 months, median 36 months'; Results also 'at least 3 months, with a maximum of 12 years', while procedures ran June 2009 to June 2018 with follow-up to June 2020 [so at most about 11 years]. The visit at which each reported grade was taken is not reported (grading was 'at 3, 6, 9, and 12 months and yearly thereafter'), nor whether any patient had more than one CMT session ('The number of cases represents the number of independent transplantations performed'), nor whether phototherapy or other treatment followed CMT ('No washout period was required'), so months after the final treatment are NOT_DERIVABLE. Abstract says '69.7% of patients achieved an excellent re‐color effect'; Results give excellent 293 (59.7%) [293/491 = 59.7%, so the abstract figure looks like a typo]. Good 90 (18.4%) [90/491 = 18.3%]. Unit is ambiguous: the Results call the 491 graded items 'lesions', Table 5 'Cases (n)', the abstract 'patients'; every denominator equals a patient count. 'In total, 123 (5.4%) patients experienced vitiligo recurrence after 12 years' [123/491 = 25.1%, not 5.4%]; the recurrence definition and timing are not reported, so no durability figure can be taken from it. Table 1 gives 'Stable time, minutes' [unit error; probably months], although the inclusion criterion is stability for at least 6 months. Repigmentation percentage is a physician estimate; how it was estimated and whether assessors were blinded are not reported; no instrument and no colour-match assessment. The top grade is >90% repigmentation, which is partial repigmentation, not complete coverage or a lasting colour match. [The ≥1 year stratum (290) includes the ≥2 years stratum (159); 201 + 290 = 491.] [Table 5 heads this column 'Good repigmentation (n, %)', but the counts are cumulative ≥50% (excellent plus good): the text gives '164 lesions of the 201 lesions had >50% repigmentation', and Methods define good as 50%–89%.] [Contradiction in the Table 5 ≥50% column for the stable-time strata: '<1 201 ... 164 (81.5)' plus '≥1 290 ... 249 (85.8)' gives 164 + 249 = 413 of 491, while Results 3.1 give excellent plus good 293 + 90 = 383 and 'a total effective rate (the repigmentation ≥50%) of 78%'. The excellent column reconciles (99 + 194 = 293) and the means do ((201 x 69.5 + 290 x 79.3) / 491 = 75.3), so the stable-time ≥50% counts do not fit the cohort total; the type strata do (164 + 219 = 383).] [Printed percentages are truncated: 164/201 = 81.6% (printed 81.5), 249/290 = 85.9% (printed 85.8).]",
    "verification_status": "PENDING",
    "outcome_tier": "partial_repigmentation",
    "citation": "Lin F, Wang Y, Zheng Y, Hong W, Fu L, Zhou M, Xu A. Target area treatment ratio of varied lesions in the cultured pure melanocyte transplantation repigmentation of vitiligo: A retrospective study. J Dermatol 2024;51(8):1060-1067",
@@ -505,7 +505,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "290 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -540,7 +540,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "159 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -575,7 +575,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "159 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -591,7 +591,7 @@
    "dark_overshoot": "not reported (adverse events section names infection, hypersensitivity and scar hyperplasia only)",
    "texture_or_scar": "three patients had local infections treated with oral antibiotics; authors state no hypersensitivity or scar hyperplasia occurred; donor-site outcome not reported",
    "attrition": "not reported (retrospective; inclusion required clinical information for at least 12 months after the procedure; how many were excluded is not reported)",
-   "uncertainty": "Not IGH: a vitiligo cohort, recorded as a Module 5 (damage-repair) non-IGH lead opened at Gate A; [the validator accepts only modules 1-4, so module is 1-hypopigmentation and diagnosis starts ADJACENT, as for elhoshy2025]. [Vitiligo is an autoimmune loss of melanocytes; IGH lesions are small sun-related spots, so efficacy may not transfer.] Uncontrolled single-centre retrospective record review, yet Figure 1 is captioned 'Consort flow diagram of random controlled trials'. Follow-up is stated three ways that disagree: abstract '6–120 months'; Results '12–120 months, mean 43 months, median 36 months'; Results also 'at least 3 months, with a maximum of 12 years', while procedures ran June 2009 to June 2018 with follow-up to June 2020 [so at most about 11 years]. The visit at which each reported grade was taken is not reported (grading was 'at 3, 6, 9, and 12 months and yearly thereafter'), nor whether any patient had more than one CMT session ('The number of cases represents the number of independent transplantations performed'), nor whether phototherapy or other treatment followed CMT ('No washout period was required'), so months after the final treatment are NOT_DERIVABLE. Abstract says '69.7% of patients achieved an excellent re‐color effect'; Results give excellent 293 (59.7%) [293/491 = 59.7%, so the abstract figure looks like a typo]. Good 90 (18.4%) [90/491 = 18.3%]. Unit is ambiguous: the Results call the 491 graded items 'lesions', Table 5 'Cases (n)', the abstract 'patients'; every denominator equals a patient count. 'In total, 123 (5.4%) patients experienced vitiligo recurrence after 12 years' [123/491 = 25.1%, not 5.4%]; the recurrence definition and timing are not reported, so no durability figure can be taken from it. Table 1 gives 'Stable time, minutes' [unit error; probably months], although the inclusion criterion is stability for at least 6 months. Repigmentation percentage is a physician estimate; how it was estimated and whether assessors were blinded are not reported; no instrument and no colour-match assessment. The top grade is >90% repigmentation, which is partial repigmentation, not complete coverage or a lasting colour match. [Subset of the ≥1 year stratum.] Results text attributes the 142 of 159 to 'lesions with NSV', while Table 5 puts it in the stable ≥2 years row. [Table 5 heads this column 'Good repigmentation (n, %)', but the counts are cumulative ≥50% (excellent plus good): the text gives '164 lesions of the 201 lesions had >50% repigmentation', and Methods define good as 50%–89%.]",
+   "uncertainty": "Not IGH: a vitiligo cohort, recorded as a Module 5 (damage-repair) non-IGH lead opened at Gate A; [the validator accepts only modules 1-4, so module is 1-hypopigmentation and diagnosis starts ADJACENT, as for elhoshy2025]. [Vitiligo is an autoimmune loss of melanocytes; IGH lesions are small sun-related spots, so efficacy may not transfer.] Uncontrolled single-centre retrospective record review, yet Figure 1 is captioned 'Consort flow diagram of random controlled trials'. Follow-up is stated three ways that disagree: abstract '6–120 months'; Results '12–120 months, mean 43 months, median 36 months'; Results also 'at least 3 months, with a maximum of 12 years', while procedures ran June 2009 to June 2018 with follow-up to June 2020 [so at most about 11 years]. The visit at which each reported grade was taken is not reported (grading was 'at 3, 6, 9, and 12 months and yearly thereafter'), nor whether any patient had more than one CMT session ('The number of cases represents the number of independent transplantations performed'), nor whether phototherapy or other treatment followed CMT ('No washout period was required'), so months after the final treatment are NOT_DERIVABLE. Abstract says '69.7% of patients achieved an excellent re‐color effect'; Results give excellent 293 (59.7%) [293/491 = 59.7%, so the abstract figure looks like a typo]. Good 90 (18.4%) [90/491 = 18.3%]. Unit is ambiguous: the Results call the 491 graded items 'lesions', Table 5 'Cases (n)', the abstract 'patients'; every denominator equals a patient count. 'In total, 123 (5.4%) patients experienced vitiligo recurrence after 12 years' [123/491 = 25.1%, not 5.4%]; the recurrence definition and timing are not reported, so no durability figure can be taken from it. Table 1 gives 'Stable time, minutes' [unit error; probably months], although the inclusion criterion is stability for at least 6 months. Repigmentation percentage is a physician estimate; how it was estimated and whether assessors were blinded are not reported; no instrument and no colour-match assessment. The top grade is >90% repigmentation, which is partial repigmentation, not complete coverage or a lasting colour match. [Subset of the ≥1 year stratum.] Results text attributes the 142 of 159 to 'lesions with NSV', while Table 5 puts it in the stable ≥2 years row. [Table 5 heads this column 'Good repigmentation (n, %)', but the counts are cumulative ≥50% (excellent plus good): the text gives '164 lesions of the 201 lesions had >50% repigmentation', and Methods define good as 50%–89%.] [Contradiction in the Table 5 ≥50% column for the stable-time strata: '<1 201 ... 164 (81.5)' plus '≥1 290 ... 249 (85.8)' gives 164 + 249 = 413 of 491, while Results 3.1 give excellent plus good 293 + 90 = 383 and 'a total effective rate (the repigmentation ≥50%) of 78%'. The excellent column reconciles (99 + 194 = 293) and the means do ((201 x 69.5 + 290 x 79.3) / 491 = 75.3), so the stable-time ≥50% counts do not fit the cohort total; the type strata do (164 + 219 = 383).] [Printed percentages are truncated: 164/201 = 81.6% (printed 81.5), 249/290 = 85.9% (printed 85.8).]",
    "verification_status": "PENDING",
    "outcome_tier": "partial_repigmentation",
    "citation": "Lin F, Wang Y, Zheng Y, Hong W, Fu L, Zhou M, Xu A. Target area treatment ratio of varied lesions in the cultured pure melanocyte transplantation repigmentation of vitiligo: A retrospective study. J Dermatol 2024;51(8):1060-1067",
@@ -610,7 +610,7 @@
    "body_site": "not reported for this stratum",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "159 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -645,7 +645,7 @@
    "body_site": "forehead",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "14 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -680,7 +680,7 @@
    "body_site": "forehead",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "14 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -715,7 +715,7 @@
    "body_site": "forehead",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "14 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -750,7 +750,7 @@
    "body_site": "face and neck",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "155 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -785,7 +785,7 @@
    "body_site": "face and neck",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "155 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -820,7 +820,7 @@
    "body_site": "face and neck",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "155 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -855,7 +855,7 @@
    "body_site": "trunk",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "126 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -890,7 +890,7 @@
    "body_site": "trunk",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "126 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -925,7 +925,7 @@
    "body_site": "trunk",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "126 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -960,7 +960,7 @@
    "body_site": "arms and legs",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "39 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -995,7 +995,7 @@
    "body_site": "arms and legs",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "39 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -1030,7 +1030,7 @@
    "body_site": "arms and legs",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "39 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -1065,7 +1065,7 @@
    "body_site": "hands and feet",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "34 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -1100,7 +1100,7 @@
    "body_site": "hands and feet",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "34 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -1135,7 +1135,7 @@
    "body_site": "hands and feet",
    "skin_tone": "not reported",
    "patients_enrolled": "491 (whole cohort; this stratum's size is given only as Table 5 'Cases (n)')",
-   "patients_evaluable": "491 [all analysed; how many patients underwent CMT in the period and were left out is not reported]",
+   "patients_evaluable": "34 (this stratum's Table 5 'Cases (n)'; whether a case is a patient, a lesion or a transplantation is not reported)",
    "lesions_enrolled": "not reported (the Results call the 491 graded items 'lesions'; the number of lesions per patient is not reported)",
    "lesions_evaluable": "not reported",
    "analysis_unit": "not separable: the Results say 'lesions', Table 5 says 'Cases (n)' and the abstract says 'patients'; every denominator equals a patient count (491, 176, 315) [so probably one graded lesion or transplantation per patient, not reported]",
@@ -1877,12 +1877,6 @@
   },
   {
    "row": 3,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 3,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -2111,12 +2105,6 @@
   },
   {
    "row": 4,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 4,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -2339,12 +2327,6 @@
   },
   {
    "row": 5,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 5,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -2562,12 +2544,6 @@
   {
    "row": 6,
    "field": "patients_enrolled",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 6,
-   "field": "patients_evaluable",
    "quote": "This analysis included 491 patients",
    "location": "Results 3.1"
   },
@@ -2801,12 +2777,6 @@
   },
   {
    "row": 7,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 7,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -3024,12 +2994,6 @@
   {
    "row": 8,
    "field": "patients_enrolled",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 8,
-   "field": "patients_evaluable",
    "quote": "This analysis included 491 patients",
    "location": "Results 3.1"
   },
@@ -3254,12 +3218,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 9,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 9,
@@ -3497,12 +3455,6 @@
   },
   {
    "row": 10,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 10,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -3731,12 +3683,6 @@
   },
   {
    "row": 11,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 11,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -3965,12 +3911,6 @@
   },
   {
    "row": 12,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 12,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -4199,12 +4139,6 @@
   },
   {
    "row": 13,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 13,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -4427,12 +4361,6 @@
   },
   {
    "row": 14,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 14,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -4652,12 +4580,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 15,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 15,
@@ -4895,12 +4817,6 @@
   },
   {
    "row": 16,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 16,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -5129,12 +5045,6 @@
   },
   {
    "row": 17,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 17,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -5363,12 +5273,6 @@
   },
   {
    "row": 18,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 18,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -5603,12 +5507,6 @@
   },
   {
    "row": 19,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 19,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -5834,12 +5732,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 20,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 20,
@@ -6068,12 +5960,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 21,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 21,
@@ -6311,12 +6197,6 @@
   },
   {
    "row": 22,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 22,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -6542,12 +6422,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 23,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 23,
@@ -6776,12 +6650,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 24,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 24,
@@ -7019,12 +6887,6 @@
   },
   {
    "row": 25,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 25,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -7250,12 +7112,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 26,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 26,
@@ -7484,12 +7340,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 27,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 27,
@@ -7727,12 +7577,6 @@
   },
   {
    "row": 28,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 28,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -7958,12 +7802,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 29,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 29,
@@ -8192,12 +8030,6 @@
    "field": "patients_enrolled",
    "quote": "TABLE 5 Multiple indicators analysis of the triple repigmentation rate.",
    "location": "Table 5"
-  },
-  {
-   "row": 30,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
   },
   {
    "row": 30,
@@ -8441,12 +8273,6 @@
   },
   {
    "row": 31,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 31,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -8681,12 +8507,6 @@
   },
   {
    "row": 32,
-   "field": "patients_evaluable",
-   "quote": "This analysis included 491 patients",
-   "location": "Results 3.1"
-  },
-  {
-   "row": 32,
    "field": "lesions_enrolled",
    "quote": "excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%), 63 (12.8%), and 45 (9.2%) lesions, respectively",
    "location": "Results 3.1"
@@ -8892,12 +8712,306 @@
   {
    "row": 32,
    "field": "body_site",
+   "quote": "Hands and feet 34 15 (44.4) 25 (73.5) 65.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 3,
+   "field": "patients_evaluable",
+   "quote": "Segmental 176 123 (69.9) 164 (93.2) 84.4",
+   "location": "Table 5"
+  },
+  {
+   "row": 3,
+   "field": "patients_evaluable",
+   "quote": "Segmental ( N = 176) Nonsegmental ( N = 315)",
+   "location": "Table 1"
+  },
+  {
+   "row": 4,
+   "field": "patients_evaluable",
+   "quote": "Segmental 176 123 (69.9) 164 (93.2) 84.4",
+   "location": "Table 5"
+  },
+  {
+   "row": 4,
+   "field": "patients_evaluable",
+   "quote": "Segmental ( N = 176) Nonsegmental ( N = 315)",
+   "location": "Table 1"
+  },
+  {
+   "row": 5,
+   "field": "patients_evaluable",
+   "quote": "Segmental 176 123 (69.9) 164 (93.2) 84.4",
+   "location": "Table 5"
+  },
+  {
+   "row": 5,
+   "field": "patients_evaluable",
+   "quote": "Segmental ( N = 176) Nonsegmental ( N = 315)",
+   "location": "Table 1"
+  },
+  {
+   "row": 6,
+   "field": "patients_evaluable",
+   "quote": "Nonsegmental 315 170 (54) 219 (69.5) 70.1",
+   "location": "Table 5"
+  },
+  {
+   "row": 6,
+   "field": "patients_evaluable",
+   "quote": "Segmental ( N = 176) Nonsegmental ( N = 315)",
+   "location": "Table 1"
+  },
+  {
+   "row": 7,
+   "field": "patients_evaluable",
+   "quote": "Nonsegmental 315 170 (54) 219 (69.5) 70.1",
+   "location": "Table 5"
+  },
+  {
+   "row": 7,
+   "field": "patients_evaluable",
+   "quote": "Segmental ( N = 176) Nonsegmental ( N = 315)",
+   "location": "Table 1"
+  },
+  {
+   "row": 8,
+   "field": "patients_evaluable",
+   "quote": "Nonsegmental 315 170 (54) 219 (69.5) 70.1",
+   "location": "Table 5"
+  },
+  {
+   "row": 8,
+   "field": "patients_evaluable",
+   "quote": "Segmental ( N = 176) Nonsegmental ( N = 315)",
+   "location": "Table 1"
+  },
+  {
+   "row": 9,
+   "field": "patients_evaluable",
+   "quote": "<1 201 99 (49.2) 164 (81.5) 69.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 10,
+   "field": "patients_evaluable",
+   "quote": "<1 201 99 (49.2) 164 (81.5) 69.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 10,
+   "field": "uncertainty",
+   "quote": "Nonsegmental 315 170 (54) 219 (69.5) 70.1",
+   "location": "Table 5"
+  },
+  {
+   "row": 10,
+   "field": "uncertainty",
+   "quote": "with a total effective rate (the repigmentation ≥50%) of 78%",
+   "location": "Results 3.1"
+  },
+  {
+   "row": 10,
+   "field": "uncertainty",
+   "quote": "<1 201 99 (49.2) 164 (81.5) 69.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 10,
+   "field": "uncertainty",
+   "quote": "≥1 290 194 (66.9) 249 (85.8) 79.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 11,
+   "field": "patients_evaluable",
+   "quote": "<1 201 99 (49.2) 164 (81.5) 69.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 12,
+   "field": "patients_evaluable",
+   "quote": "≥1 290 194 (66.9) 249 (85.8) 79.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 13,
+   "field": "patients_evaluable",
+   "quote": "≥1 290 194 (66.9) 249 (85.8) 79.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 13,
+   "field": "uncertainty",
+   "quote": "Nonsegmental 315 170 (54) 219 (69.5) 70.1",
+   "location": "Table 5"
+  },
+  {
+   "row": 13,
+   "field": "uncertainty",
+   "quote": "with a total effective rate (the repigmentation ≥50%) of 78%",
+   "location": "Results 3.1"
+  },
+  {
+   "row": 13,
+   "field": "uncertainty",
+   "quote": "<1 201 99 (49.2) 164 (81.5) 69.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 13,
+   "field": "uncertainty",
+   "quote": "≥1 290 194 (66.9) 249 (85.8) 79.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 14,
+   "field": "patients_evaluable",
+   "quote": "≥1 290 194 (66.9) 249 (85.8) 79.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 15,
+   "field": "patients_evaluable",
+   "quote": "≥2 159 116 (73) 142 (89.3) 83.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 16,
+   "field": "patients_evaluable",
+   "quote": "≥2 159 116 (73) 142 (89.3) 83.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 16,
+   "field": "uncertainty",
+   "quote": "Nonsegmental 315 170 (54) 219 (69.5) 70.1",
+   "location": "Table 5"
+  },
+  {
+   "row": 16,
+   "field": "uncertainty",
+   "quote": "with a total effective rate (the repigmentation ≥50%) of 78%",
+   "location": "Results 3.1"
+  },
+  {
+   "row": 16,
+   "field": "uncertainty",
+   "quote": "<1 201 99 (49.2) 164 (81.5) 69.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 16,
+   "field": "uncertainty",
+   "quote": "≥1 290 194 (66.9) 249 (85.8) 79.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 17,
+   "field": "patients_evaluable",
+   "quote": "≥2 159 116 (73) 142 (89.3) 83.3",
+   "location": "Table 5"
+  },
+  {
+   "row": 18,
+   "field": "patients_evaluable",
+   "quote": "Forehead 14 8 (57.1) 11 (78.6) 67.2",
+   "location": "Table 5"
+  },
+  {
+   "row": 19,
+   "field": "patients_evaluable",
+   "quote": "Forehead 14 8 (57.1) 11 (78.6) 67.2",
+   "location": "Table 5"
+  },
+  {
+   "row": 20,
+   "field": "patients_evaluable",
+   "quote": "Forehead 14 8 (57.1) 11 (78.6) 67.2",
+   "location": "Table 5"
+  },
+  {
+   "row": 21,
+   "field": "patients_evaluable",
+   "quote": "Face and neck 155 99 (63.9) 136 (87.7) 78.9",
+   "location": "Table 5"
+  },
+  {
+   "row": 22,
+   "field": "patients_evaluable",
+   "quote": "Face and neck 155 99 (63.9) 136 (87.7) 78.9",
+   "location": "Table 5"
+  },
+  {
+   "row": 23,
+   "field": "patients_evaluable",
+   "quote": "Face and neck 155 99 (63.9) 136 (87.7) 78.9",
+   "location": "Table 5"
+  },
+  {
+   "row": 24,
+   "field": "patients_evaluable",
+   "quote": "Trunk 126 74 (58.7) 102 (81) 74",
+   "location": "Table 5"
+  },
+  {
+   "row": 25,
+   "field": "patients_evaluable",
+   "quote": "Trunk 126 74 (58.7) 102 (81) 74",
+   "location": "Table 5"
+  },
+  {
+   "row": 26,
+   "field": "patients_evaluable",
+   "quote": "Trunk 126 74 (58.7) 102 (81) 74",
+   "location": "Table 5"
+  },
+  {
+   "row": 27,
+   "field": "patients_evaluable",
+   "quote": "Arms and legs 39 23 (59) 35 (89.8) 76.4",
+   "location": "Table 5"
+  },
+  {
+   "row": 28,
+   "field": "patients_evaluable",
+   "quote": "Arms and legs 39 23 (59) 35 (89.8) 76.4",
+   "location": "Table 5"
+  },
+  {
+   "row": 29,
+   "field": "patients_evaluable",
+   "quote": "Arms and legs 39 23 (59) 35 (89.8) 76.4",
+   "location": "Table 5"
+  },
+  {
+   "row": 30,
+   "field": "patients_evaluable",
+   "quote": "Hands and feet 34 15 (44.4) 25 (73.5) 65.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 31,
+   "field": "patients_evaluable",
+   "quote": "Hands and feet 34 15 (44.4) 25 (73.5) 65.5",
+   "location": "Table 5"
+  },
+  {
+   "row": 32,
+   "field": "patients_evaluable",
    "quote": "Hands and feet 34 15 (44.4) 25 (73.5) 65.5",
    "location": "Table 5"
   }
  ],
  "verifier": {
-  "status": "FAIL",
-  "notes": "Verifier 2026-11-28, from papers/excerpts/lin2024.txt alone. FAIL, 32 failed cells (30 patients_evaluable, 2 uncertainty). Rows 3-32, patients_evaluable: each row reports one stratum, but the cell says '491 [all analysed ...]'. The source gives each stratum's own denominator: Table 5 'Segmental 176', 'Nonsegmental 315', stable time '<1 201', '≥1 290', '≥2 159', 'Forehead 14', 'Face and neck 155', 'Trunk 126', 'Arms and legs 39', 'Hands and feet 34' (Table 1 also 'Segmental ( N = 176) Nonsegmental ( N = 315)'). The ledger keeps patients_evaluable per row (hirobe2018 rows give '1 (this patient)'), so 491 is the wrong arm for these rows; for the stable-time and site strata the count is 'Cases (n)', whose unit is ambiguous, and should say so. Row 10, uncertainty, and row 13, uncertainty: the record says the Table 5 'Good repigmentation (n, %)' column is cumulative ≥50%, which fits the type strata (164 + 219 = 383 = 293 + 90 from Results 3.1) but not the stable-time strata: '<1 201 99 (49.2) 164 (81.5)' and '≥1 290 194 (66.9) 249 (85.8)' give 164 + 249 = 413 of 491, against the 383 (78%) implied by 'excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%) ...' and 'a total effective rate (the repigmentation ≥50%) of 78%'. The excellent column does reconcile (99 + 194 = 293) and the means do ([201 x 69.5 + 290 x 79.3] / 491 = 75.3), so this internal contradiction in the ≥50% column for the stable-time strata is missing from uncertainty. Everything else checked and correct: all quotes are in the source and say what the cells claim; outcome_tier partial_repigmentation is the weakest reading ('>90%' is the top grade, no colour match assessed); months_after_final_tx NOT_DERIVABLE is right (grades taken 'at 3, 6, 9, and 12 months and yearly thereafter' without saying which visit, sessions per patient not stated); analysis_unit 'not separable' fits 'lesions' vs 'Cases (n)' vs 'patients'; dark_overshoot and attrition 'not reported' are correct for a full-text read; infections and 'no ... scar hyperplasia' are recorded; follow-up contradictions, abstract 69.7% vs 59.7%, 5.4% recurrence figure, 'Stable time, minutes', Figure 1 RCT caption, '1 year' vs '<1' and '142 out of 159 lesions with NSV' are all in uncertainty. Non-failing observations: (a) printed percentages 164/201 = 81.6% (printed 81.5) and 249/290 = 85.9% (printed 85.8) are truncations like the 89.8% the record already notes, but are not noted; (b) the Discussion says 'skin lesions located on the head, neck, and trunk showed better outcomes than those located elsewhere' while Table 5 gives arms and legs the highest ≥50% rate (89.8) and the text says the same; worth adding to uncertainty on the site rows; (c) 'Significant repigmentation was observed in most cases at 1–3 months after transplantation' is the only onset timing and is not recorded, which does not weaken any result."
+  "status": "PENDING",
+  "notes": "",
+  "previous_attempts": [
+   {
+    "status": "FAIL",
+    "notes": "Verifier 2026-11-28, from papers/excerpts/lin2024.txt alone. FAIL, 32 failed cells (30 patients_evaluable, 2 uncertainty). Rows 3-32, patients_evaluable: each row reports one stratum, but the cell says '491 [all analysed ...]'. The source gives each stratum's own denominator: Table 5 'Segmental 176', 'Nonsegmental 315', stable time '<1 201', '≥1 290', '≥2 159', 'Forehead 14', 'Face and neck 155', 'Trunk 126', 'Arms and legs 39', 'Hands and feet 34' (Table 1 also 'Segmental ( N = 176) Nonsegmental ( N = 315)'). The ledger keeps patients_evaluable per row (hirobe2018 rows give '1 (this patient)'), so 491 is the wrong arm for these rows; for the stable-time and site strata the count is 'Cases (n)', whose unit is ambiguous, and should say so. Row 10, uncertainty, and row 13, uncertainty: the record says the Table 5 'Good repigmentation (n, %)' column is cumulative ≥50%, which fits the type strata (164 + 219 = 383 = 293 + 90 from Results 3.1) but not the stable-time strata: '<1 201 99 (49.2) 164 (81.5)' and '≥1 290 194 (66.9) 249 (85.8)' give 164 + 249 = 413 of 491, against the 383 (78%) implied by 'excellent, good, fair, and poor repigmentation was observed in 293 (59.7%), 90 (18.4%) ...' and 'a total effective rate (the repigmentation ≥50%) of 78%'. The excellent column does reconcile (99 + 194 = 293) and the means do ([201 x 69.5 + 290 x 79.3] / 491 = 75.3), so this internal contradiction in the ≥50% column for the stable-time strata is missing from uncertainty. Everything else checked and correct: all quotes are in the source and say what the cells claim; outcome_tier partial_repigmentation is the weakest reading ('>90%' is the top grade, no colour match assessed); months_after_final_tx NOT_DERIVABLE is right (grades taken 'at 3, 6, 9, and 12 months and yearly thereafter' without saying which visit, sessions per patient not stated); analysis_unit 'not separable' fits 'lesions' vs 'Cases (n)' vs 'patients'; dark_overshoot and attrition 'not reported' are correct for a full-text read; infections and 'no ... scar hyperplasia' are recorded; follow-up contradictions, abstract 69.7% vs 59.7%, 5.4% recurrence figure, 'Stable time, minutes', Figure 1 RCT caption, '1 year' vs '<1' and '142 out of 159 lesions with NSV' are all in uncertainty. Non-failing observations: (a) printed percentages 164/201 = 81.6% (printed 81.5) and 249/290 = 85.9% (printed 85.8) are truncations like the 89.8% the record already notes, but are not noted; (b) the Discussion says 'skin lesions located on the head, neck, and trunk showed better outcomes than those located elsewhere' while Table 5 gives arms and legs the highest ≥50% rate (89.8) and the text says the same; worth adding to uncertainty on the site rows; (c) 'Significant repigmentation was observed in most cases at 1–3 months after transplantation' is the only onset timing and is not recorded, which does not weaken any result."
+   }
+  ]
  }
 }
