@@ -1,0 +1,13 @@
+placement,region,diameter_mm,background,shift_range_mm,worst_abs_mean_change_pct,worst_at_shift_mm,floor_name,floor_pct,below_floor
+none,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1964,0.3000,A_sd_at_zero_shift (test author's reading),0.2854,True
+none,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1964,0.3000,B_standard_error_sd0_over_sqrt_trials,0.0285,False
+none,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1964,0.3000,C_sdc_1.96_sqrt2_sd0 (plan 2.2 form),0.7911,True
+none,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1964,0.3000,D_plan_false_change_limit_2pct,2.0000,True
+ring_registration,inner_disc,2.0,mottled,0 < shift <= 0.3,0.0422,0.2500,A_sd_at_zero_shift (test author's reading),0.4152,True
+ring_registration,inner_disc,2.0,mottled,0 < shift <= 0.3,0.0422,0.2500,B_standard_error_sd0_over_sqrt_trials,0.0415,False
+ring_registration,inner_disc,2.0,mottled,0 < shift <= 0.3,0.0422,0.2500,C_sdc_1.96_sqrt2_sd0 (plan 2.2 form),1.1509,True
+ring_registration,inner_disc,2.0,mottled,0 < shift <= 0.3,0.0422,0.2500,D_plan_false_change_limit_2pct,2.0000,True
+sticker,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1857,0.3000,A_sd_at_zero_shift (test author's reading),1.6105,True
+sticker,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1857,0.3000,B_standard_error_sd0_over_sqrt_trials,0.1610,False
+sticker,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1857,0.3000,C_sdc_1.96_sqrt2_sd0 (plan 2.2 form),4.4641,True
+sticker,inner_disc,2.0,mottled,0 < shift <= 0.3,0.1857,0.3000,D_plan_false_change_limit_2pct,2.0000,True

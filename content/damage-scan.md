@@ -1,4 +1,4 @@
-## Damage scan: what is damaged in IGH white spots
+## Damage scan: what is damaged in IGH white spots (Module 5, search a)
 
 <p><span class="tag lead">Leads only</span> Not in the evidence ledger. Not medical advice. Gate A has not been passed for any source here.</p>
 
