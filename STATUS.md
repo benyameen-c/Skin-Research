@@ -2,6 +2,20 @@
 
 Last updated: 2026-11-28 (after the batch 5 collector entry below), measurement plan changes applied with Ben's go-ahead (02:04 UTC) on branch claude/project-thread-5wvrxl (PR 19, not merged; see Done). Earlier: 2026-11-28 02:20 UTC, batch 5 collector: hirobe2018 merged into the ledger (see Done). Before that, 02:10 UTC, hirobe2018 verifier PASS (0 failed cells, branch claude/project-thread-e67kyp; not merged). Before that, 02:05 UTC, hirobe2018 staged from Ben's uploaded PDF (see Done; verifier PENDING, not merged). Before that, 2026-11-28 01:30 UTC, batch 4 collector: rajegowda2020 merged and the retracted rajegowda2021 removed from the ledger (see Done). Before that, 2026-11-28 01:10 UTC, rajegowda2020 verifier 2 PASS (see Done). Before that, 01:15 UTC (clock of an earlier thread), rajegowda2020 verifier FAIL. Before that, 01:10 UTC, rajegowda2020 staged. Before that, 00:35 UTC, Module 5 (underlying damage and repair) opened by Ben. Before that, 00:30 UTC: PRs 5, 8, 9 and 10 merged into main through PR 11 with Ben's approval (00:22 UTC), so the drift simulation, measurement tool plan, evidence summary and frontier scan entries below marked unmerged are now on main; PR 6 stays open.
 
+Also 2026-11-28 00:50 UTC, from the Gemini-report thread (PR 17, merging now): the pending author-email action and the external-report entry below.
+
+## Pending actions (waiting on Ben)
+
+- **Email corresponding authors for paywalled papers.** Starts once Ben connects an email account. The coordinator shows him the first email for approval before anything is sent. Nobody has been contacted. Highest-value targets, from the paywall list: Kim JY 2020 (PMID 31823346) and Kim TH 2022 (PMID 36394380), whose IGH senescence claims currently rest on text nobody in this project can read; then arbache2018, eun2020, vedamurthy2022, laosakul2017.
+
+## External reports filed (unverified, 2026-11-28)
+
+- `content/external/gemini-repair-landscape-2026-11-27.md`: Google Gemini deep-research report on IGH damage, cell therapy, skin gene therapy, applicability to IGH, and research groups, pasted by Ben at 00:33 UTC. Saved verbatim with an origin header; leads only, nothing from it may enter `data/evidence.csv`.
+  - Sections 1 and 2 quote-checked against saved sources (5 new lines in `data/search_log.csv`). 63 quotes checked, 56 found word for word, 7 unverifiable, 0 altered quotes, 0 wrong PMIDs or DOIs.
+  - Do not rely on: the Kim JY 2020 senescent-fibroblast mechanism (all 7 quotes unreadable; no abstract, not in PMC, Europe PMC HTTP 503 on 2026-11-28); the Kim TH 2022 title-only claim; Lin 2024's "up to 12 years" and "5.4% recurrence" (the paper contradicts itself and 123/491 is 25.1%, while Zhang 2021 from the same hospital reports the same "123 ... (5. 4%)" as a Koebner count out of 2283). Every "durability" figure in section 2 is partial repigmentation or a VASI score, not a colour match, so none of it answers the project's six-month question.
+  - Sections 3, 4 and 5, the reference list and the summary table are saved as received and labelled not checked. They are not to be verified or extended without Ben's go-ahead.
+  - Gate A candidates: none new for Module 1 (all 8 IGH papers it cites are already in the search and screening logs). Four non-IGH PMIDs are new to the logs and are Module 5 leads only: 17927795, 38895831, 35844295, 38189899, plus Abdul Latheef 2023 (doi 10.4103/pigmentinternational.pigmentinternational_54_21) and NCT04547998. Nothing was extracted.
+  - New source files in the project files folder `papers/excerpts/`: pmid_17927795, pmid_38895831, pmid_38189899, pmid_35844295, latheef2023, nct04547998.api.json, pmc_33582653, pmc_38895831, pmc_39507768, pmc_37076619, pmc_35844295.
 ## Open module
 
 **1-hypopigmentation.** Modules 2 to 4 are closed until Module 1 passes Gate B.
